@@ -49,15 +49,15 @@ func fetchArmyData(version string, endpoint string) {
 			createFolder(factionFolderPath)
 			createFile(filename, factionData)
 
-			for j := 0; j < len(factionObject.Units); j++ {
-				for k := 0; k < len(factionObject.Units[j].ProfileGroups); k++ {
-					for l := 0; l < len(factionObject.Units[j].ProfileGroups[k].Profiles); l++ {
-						var unitLogoURL = factionObject.Units[j].ProfileGroups[k].Profiles[l].Logo
-						var unitLogoURLArray = strings.Split(unitLogoURL, "/")
-						var unitLogoFileName = unitLogoURLArray[len(unitLogoURLArray)-1]
-						var unitLogoData = getHTTPResponse(unitLogoURL)
-						createFile("assets/units/"+unitLogoFileName, unitLogoData)
-					}
+			for j := 0; j < len(factionObject.Resume); j++ {
+				var unitLogoURL = factionObject.Resume[j].Logo
+				var unitLogoURLArray = strings.Split(unitLogoURL, "/")
+				var unitLogoFileName = unitLogoURLArray[len(unitLogoURLArray)-1]
+				var unitLogoPath = "assets/units/" + unitLogoFileName
+
+				if _, err := os.Stat(unitLogoPath); os.IsNotExist(err) {
+					var unitLogoData = getHTTPResponse(unitLogoURL)
+					createFile(unitLogoPath, unitLogoData)
 				}
 			}
 		}
