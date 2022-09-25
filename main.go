@@ -8,6 +8,7 @@ import (
 	"log"
 	"net/http"
 	"os"
+	"strings"
 
 	"github.com/joho/godotenv"
 )
@@ -24,7 +25,7 @@ func main() {
 }
 
 func fetchArmyData(version string, endpoint string) {
-	var armyData = fetchApiData(endpoint)
+	var armyData = getHTTPResponse(endpoint)
 	var army_object Army
 	json.Unmarshal(armyData, &army_object)
 
@@ -32,15 +33,34 @@ func fetchArmyData(version string, endpoint string) {
 	createFile(version+"/army.json", armyData)
 
 	for i := 0; i < len(army_object.Factions); i++ {
+		var factionID = army_object.Factions[i].ID
 		var factionSlug string = army_object.Factions[i].Slug
-		var factionData = fetchApiData(factionBaseEnUrl + fmt.Sprintf("%d", army_object.Factions[i].ID))
-		var factionObject Faction
-		json.Unmarshal(factionData, &factionObject)
+		var factionLogoURL = getHTTPResponse(army_object.Factions[i].Logo)
 
-		var filename string = version + "/" + factionSlug + "/" + factionObject.Version + ".json"
+		createFile("assets/factions/"+factionSlug+".svg", factionLogoURL)
 
-		createFolder(version + "/" + factionSlug)
-		createFile(filename, factionData)
+		if factionID != 901 { // skipping non-aligned armies
+			var factionData = getHTTPResponse(factionBaseEnUrl + fmt.Sprintf("%d", factionID))
+			var factionObject Faction
+			json.Unmarshal(factionData, &factionObject)
+			var factionFolderPath = version + "/" + factionSlug
+
+			var filename string = factionFolderPath + "/" + factionObject.Version + ".json"
+			createFolder(factionFolderPath)
+			createFile(filename, factionData)
+
+			for j := 0; j < len(factionObject.Units); j++ {
+				for k := 0; k < len(factionObject.Units[j].ProfileGroups); k++ {
+					for l := 0; l < len(factionObject.Units[j].ProfileGroups[k].Profiles); l++ {
+						var unitLogoURL = factionObject.Units[j].ProfileGroups[k].Profiles[l].Logo
+						var unitLogoURLArray = strings.Split(unitLogoURL, "/")
+						var unitLogoFileName = unitLogoURLArray[len(unitLogoURLArray)-1]
+						var unitLogoData = getHTTPResponse(unitLogoURL)
+						createFile("assets/units/"+unitLogoFileName, unitLogoData)
+					}
+				}
+			}
+		}
 	}
 }
 
@@ -69,7 +89,7 @@ func createFile(filename string, data []byte) {
 	}
 }
 
-func fetchApiData(url string) []byte {
+func getHTTPResponse(url string) []byte {
 	response, err := http.Get(url)
 	if err != nil {
 		fmt.Print(err.Error())
