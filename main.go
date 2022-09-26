@@ -14,33 +14,60 @@ import (
 )
 
 var (
-	armyN4Url        string = getEnvVar("ARMY_N4_EN_URL")
-	armyCodeoneUrl   string = getEnvVar("ARMY_CODEONE_EN_URL")
-	factionBaseEnUrl string = getEnvVar("FACTION_N4_BASE_EN_URL")
+	armyN4URL        string = getEnvVar("ARMY_N4_EN_URL")
+	armyCodeoneURL   string = getEnvVar("ARMY_CODEONE_EN_URL")
+	factionBaseEnURL string = getEnvVar("FACTION_N4_BASE_EN_URL")
+	wikiBaseURL      string = getEnvVar("WIKI_EN_URL")
 )
 
 func main() {
-	fetchArmyData("n4", armyN4Url)
-	fetchArmyData("codeone", armyCodeoneUrl)
+	fetchArmyData("n4", armyN4URL, wikiBaseURL)
+	fetchArmyData("codeone", armyCodeoneURL, "")
 }
 
-func fetchArmyData(version string, endpoint string) {
+func fetchArmyData(version string, endpoint string, wiki string) {
 	var armyData = getHTTPResponse(endpoint)
-	var army_object Army
-	json.Unmarshal(armyData, &army_object)
+	var armyObject Army
+	json.Unmarshal(armyData, &armyObject)
 
 	createFolder(version)
+	createFolder("wiki/skills")
 	createFile(version+"/army.json", armyData)
 
-	for i := 0; i < len(army_object.Factions); i++ {
-		var factionID = army_object.Factions[i].ID
-		var factionSlug string = army_object.Factions[i].Slug
-		var factionLogoURL = getHTTPResponse(army_object.Factions[i].Logo)
+	if wiki != "" {
+		for i := 0; i < len(armyObject.Skills); i++ {
+			var skillURL = armyObject.Skills[i].Wiki
+			var skillURLArray = strings.Split(skillURL, "/")
+			var skillSlug = strings.Replace(skillURLArray[len(skillURLArray)-1], "?version=n4", "", -1)
+			if skillSlug != "" {
+				var skillData = getHTTPResponse(wikiBaseURL + skillSlug)
+				var skillObject Wiki
+				json.Unmarshal(skillData, &skillObject)
+				var skillPageContent = skillObject.Query.Pages[0].Revisions[0].Slots.Main.Content
+
+				if strings.Contains(skillPageContent, "#redirect") {
+					var skillPageContentArray = strings.Split(skillPageContent, "#redirect [[")
+					var skillPageContentArray2 = strings.Split(skillPageContentArray[1], "]]")
+					skillSlug = skillPageContentArray2[0]
+					skillData = getHTTPResponse(wikiBaseURL + skillSlug)
+					json.Unmarshal(skillData, &skillObject)
+					skillPageContent = skillObject.Query.Pages[0].Revisions[0].Slots.Main.Content
+				}
+
+				createFile("wiki/skills/"+skillSlug+".json", []byte(skillPageContent))
+			}
+		}
+	}
+
+	for i := 0; i < len(armyObject.Factions); i++ {
+		var factionID = armyObject.Factions[i].ID
+		var factionSlug string = armyObject.Factions[i].Slug
+		var factionLogoURL = getHTTPResponse(armyObject.Factions[i].Logo)
 
 		createFile("assets/factions/"+factionSlug+".svg", factionLogoURL)
 
 		if factionID != 901 { // skipping non-aligned armies
-			var factionData = getHTTPResponse(factionBaseEnUrl + fmt.Sprintf("%d", factionID))
+			var factionData = getHTTPResponse(factionBaseEnURL + fmt.Sprintf("%d", factionID))
 			var factionObject Faction
 			json.Unmarshal(factionData, &factionObject)
 			var factionFolderPath = version + "/" + factionSlug
@@ -489,4 +516,24 @@ type Faction struct {
 			} `json:"units"`
 		} `json:"teams"`
 	} `json:"fireteamChart"`
+}
+
+type Wiki struct {
+	Batchcomplete bool `json:"batchcomplete"`
+	Query         struct {
+		Pages []struct {
+			Pageid    int    `json:"pageid"`
+			Ns        int    `json:"ns"`
+			Title     string `json:"title"`
+			Revisions []struct {
+				Slots struct {
+					Main struct {
+						Contentmodel  string `json:"contentmodel"`
+						Contentformat string `json:"contentformat"`
+						Content       string `json:"content"`
+					} `json:"main"`
+				} `json:"slots"`
+			} `json:"revisions"`
+		} `json:"pages"`
+	} `json:"query"`
 }

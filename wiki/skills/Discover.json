@@ -1,0 +1,67 @@
+{{section-common-skills}}
+
+
+This Skill allows the user to locate enemies hidden in the form of a Marker, forcing them to reveal the Trooper, Weapon, or Equipment that the Marker represents.
+
+{{skillbox |blueyellow| DISCOVER | SHORT MOVEMENT SKILL / ARO}}
+{{Requirements}}
+*The user must be able to draw LoF to the target. 
+*This Skill cannot be used against the same Target twice in the same Order. 
+{{Effects}}
+*If the user passes a Normal [[WIP]] Roll, applying the same MODs as in a [[BS Attack]] ([[Cover]], [[Range]], [[Mimetism]]...), the target Marker is removed, and must be replaced with the actual Trooper Model, or Weapon or Equipment Token.
+*A Trooper that fails a [[WIP]] Roll to Discover a [[Marker]] cannot attempt to Discover the same Marker until the next [[Player Turn]]. <br> The Trooper may still attempt to Discover a different Marker that [[Player Turn]], and its player may still attempt to Discover the first Marker using a different Trooper. <br> 
+{{c1}}
+: Note that a Trooper that has been revealed, and re-entered [[Camouflaged]] State again, does not count as the same Marker.
+{{c1end}}{{n4list}}
+: Note that a Trooper that has been revealed, and re-entered [[Camouflaged]] or [[Impersonation State|Impersonation]]-1 or 2 State again, does not count as the same Marker. 
+{{n4end}}
+*A Trooper that fails the [[WIP]] Roll attempting to [[Discover]] a [[Marker]], may attempt to Discover '''another '''different [[Marker]]. 
+*The Discover Skill has its own [[Range]] [[MODs]], as if it were a [[BS Weapon]].
+
+
+{{weapon}}
+{{weaponrow|Discover|+3|0|0|0|-3|-3|-6|||||[*see above]}}
+|}
+
+
+{{remember-start}}
+Discover is a Short Movement Skill, and it may therefore be combined with any other Short Skill or Short Movement Skill. (See [[Trooper Activation]].)
+{{remember-end}}
+
+
+{{important-start}}
+A common combination in an Order is '''[[Discover]] + [[Attack]]'''. This tactical maneuver allows you to declare an Attack against a Camouflaged enemy, which cannot normally be done. 
+* If the Camouflaged target declares an ARO, revealing themselves, there is no need to perform the [[Discover]] Roll before resolving the [[Attack]].
+* If the Camouflaged target does not declare an ARO, the Trooper will need to pass the [[Discover]] Roll before resolving any [[Attack]] against that target.
+* Remember that the Active Trooper may [[Discover]] one target and [[Attack]] a different target if they so choose.
+{{important-end}}
+
+
+=== Example of Discover + BS Attack ===
+{{image | name=eng-discover-flowchart-orig.jpg | style=1024 }}
+
+
+== FAQs & Errata ==
+
+{{faqbox |
+type = faq |
+title = N4 FAQ |
+version = 1.1.1, Dec 2021 |
+q = Q: Can a Troop that has failed to Discover an Impersonation Marker retry to Discover it if it has changed its level of Impersonation? |
+a = A: Yes, because they are different Markers. |
+related = [[Discover]], [[Impersonation State]] }}
+
+
+{{faqbox |
+type = faq |
+title = N4 FAQ |
+version = 1.2, Jan 2022 |
+q = Q: Does Discover benefit from the Targeted state? |
+a = A: Yes, it does. Discover says to apply the same MODs as in a BS Attack. |
+related = [[Discover]], [[Targeted]] }}
+
+
+{{section-common-skills}}
+
+
+[[Category:Common Skills]]
