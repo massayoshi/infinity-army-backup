@@ -7,6 +7,8 @@ import (
 	"log"
 	"net/http"
 	"os"
+
+	"github.com/joho/godotenv"
 )
 
 func createFolder(path string) {
@@ -48,4 +50,13 @@ func getHTTPResponse(url string) []byte {
 		log.Fatal(err)
 	}
 	return responseData
+}
+
+func getEnvVar(value string) string {
+	err := godotenv.Load(".env")
+	if err != nil {
+		log.Fatalf("Some error occured. Err: %s", err)
+	}
+
+	return os.Getenv(value)
 }

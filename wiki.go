@@ -7,41 +7,49 @@ import (
 )
 
 var (
-	wikiPageURL     string = getEnvVar("WIKI_EN_URL")
-	wikiPageListURL string = "https://infinitythewiki.com/api.php?action=query&format=json&prop=&list=allpages&indexpageids=1&continue=-||&redirects=1&converttitles=1&apnamespace=0&aplimit=max"
+	wikiPageURL     string = getEnvVar("WIKI_PAGE_EN_URL")
+	wikiPageListURL string = getEnvVar("WIKI_ALL_EN_URL")
 	urlList         []string
 )
 
 func wiki() {
-	// var wikiData = getPageList(wikiPageListURL)
-	// var wikiObject WikiPageList
-	// json.Unmarshal(wikiData, &wikiObject)
 	getPageList(wikiPageListURL)
 	for _, url := range urlList {
 		var pageData = getHTTPResponse(url)
 		var pageObject WikiPage
 		json.Unmarshal(pageData, &pageObject)
+
+		if pageObject.Query.Pages[0].Missing || len(pageObject.Query.Pages[0].Categories) == 0 {
+			continue
+		}
+
 		var pageName = pageObject.Query.Pages[0].Title
+		pageName = strings.ReplaceAll(pageName, "/", "")
+		pageName = strings.ReplaceAll(pageName, " ", "_")
+
 		var pageContent = pageObject.Query.Pages[0].Revisions[0].Slots.Main.Content
+
+		if strings.Contains(pageContent, "#redirect") {
+			continue
+		}
+
 		var pageCategory = pageObject.Query.Pages[0].Categories[0].Title
 		pageCategory = strings.Replace(pageCategory, "Category:", "", -1)
 		pageCategory = strings.ReplaceAll(pageCategory, " ", "_")
-		pageCategory = strings.ToLower(pageCategory)
-
-		createFolder("wiki/" + pageCategory)
-		createFile(pageName+".wiki", []byte(pageContent), true)
+		pageCategory = strings.ReplaceAll(pageCategory, "/", "")
+		pageCategory = strings.ReplaceAll(pageCategory, "&", "and")
+		var folderPath = "wiki/" + pageCategory
+		createFolder(folderPath)
+		createFile(folderPath+"/"+pageName+".wiki", []byte(pageContent), true)
 	}
 }
 
-// getPageList gets a list of all pages from the wiki recursively
-func getPageList(url string) []byte {
+func getPageList(url string) {
 	var data = getHTTPResponse(url)
-	var pageList = parsePageList(data)
-	return pageList
+	parsePageList(data)
 }
 
-// parsePageList parses the JSON response from the wiki API
-func parsePageList(data []byte) []byte {
+func parsePageList(data []byte) {
 	var pageList = make(map[string]interface{})
 	json.Unmarshal(data, &pageList)
 	var pages = pageList["query"].(map[string]interface{})["allpages"].([]interface{})
@@ -54,10 +62,8 @@ func parsePageList(data []byte) []byte {
 	if pageList["continue"] != nil {
 		var apContinue = pageList["continue"].(map[string]interface{})["apcontinue"].(string)
 		var continueURL = wikiPageListURL + "&apcontinue=" + apContinue
-		return getPageList(continueURL)
+		getPageList(continueURL)
 	}
-
-	return data
 }
 
 type WikiPage struct {
@@ -67,6 +73,7 @@ type WikiPage struct {
 			Pageid     int    `json:"pageid"`
 			Ns         int    `json:"ns"`
 			Title      string `json:"title"`
+			Missing    bool   `json:"missing"`
 			Categories []struct {
 				Ns    int    `json:"ns"`
 				Title string `json:"title"`
