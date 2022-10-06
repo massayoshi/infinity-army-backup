@@ -2,11 +2,8 @@ package main
 
 import (
 	"encoding/json"
-	"errors"
 	"fmt"
-	"io/ioutil"
 	"log"
-	"net/http"
 	"os"
 	"strings"
 
@@ -17,12 +14,12 @@ var (
 	armyN4URL        string = getEnvVar("ARMY_N4_EN_URL")
 	armyCodeoneURL   string = getEnvVar("ARMY_CODEONE_EN_URL")
 	factionBaseEnURL string = getEnvVar("FACTION_N4_BASE_EN_URL")
-	wikiBaseURL      string = getEnvVar("WIKI_EN_URL")
 )
 
 func main() {
-	fetchArmyData("n4", armyN4URL, wikiBaseURL)
-	fetchArmyData("codeone", armyCodeoneURL, "")
+	// fetchArmyData("n4", armyN4URL, "")
+	// fetchArmyData("codeone", armyCodeoneURL, "")
+	wiki()
 }
 
 func fetchArmyData(version string, endpoint string, wiki string) {
@@ -32,39 +29,69 @@ func fetchArmyData(version string, endpoint string, wiki string) {
 
 	createFolder(version)
 	createFolder("wiki/skills")
-	createFile(version+"/army.json", armyData)
+	createFolder("wiki/equips")
+	createFile(version+"/army.json", armyData, true)
 
-	if wiki != "" {
-		for i := 0; i < len(armyObject.Skills); i++ {
-			var skillURL = armyObject.Skills[i].Wiki
-			var skillURLArray = strings.Split(skillURL, "/")
-			var skillSlug = strings.Replace(skillURLArray[len(skillURLArray)-1], "?version=n4", "", -1)
-			if skillSlug != "" {
-				var skillData = getHTTPResponse(wikiBaseURL + skillSlug)
-				var skillObject Wiki
-				json.Unmarshal(skillData, &skillObject)
-				var skillPageContent = skillObject.Query.Pages[0].Revisions[0].Slots.Main.Content
+	// if wiki != "" {
+	// 	for i := 0; i < len(armyObject.Skills); i++ {
+	// 		var skillURL = armyObject.Skills[i].Wiki
+	// 		var skillURLArray = strings.Split(skillURL, "/")
+	// 		var skillSlug = strings.Replace(skillURLArray[len(skillURLArray)-1], "?version=n4", "", -1)
+	// 		fmt.Println(skillSlug)
+	// 		if skillSlug != "" {
+	// 			var skillData = getHTTPResponse(wikiBaseURL + skillSlug)
+	// 			var skillObject WikiPage
+	// 			json.Unmarshal(skillData, &skillObject)
+	// 			var skillPageContent = skillObject.Query.Pages[0].Revisions[0].Slots.Main.Content
+	// 			var skillCategory = skillObject.Query.Pages[0].Categories[0].Title
+	// 			// make string url safe and lower case
+	// 			skillCategory = strings.Replace(skillCategory, "Category:", "", -1)
+	// 			skillCategory = strings.ReplaceAll(skillCategory, " ", "_")
+	// 			skillCategory = strings.ToLower(skillCategory)
 
-				if strings.Contains(skillPageContent, "#redirect") {
-					var skillPageContentArray = strings.Split(skillPageContent, "#redirect [[")
-					var skillPageContentArray2 = strings.Split(skillPageContentArray[1], "]]")
-					skillSlug = skillPageContentArray2[0]
-					skillData = getHTTPResponse(wikiBaseURL + skillSlug)
-					json.Unmarshal(skillData, &skillObject)
-					skillPageContent = skillObject.Query.Pages[0].Revisions[0].Slots.Main.Content
-				}
+	// 			if strings.Contains(skillPageContent, "#redirect") {
+	// 				var skillPageContentArray = strings.Split(skillPageContent, "#redirect [[")
+	// 				var skillPageContentArray2 = strings.Split(skillPageContentArray[1], "]]")
+	// 				skillSlug = skillPageContentArray2[0]
+	// 				skillData = getHTTPResponse(wikiBaseURL + skillSlug)
+	// 				json.Unmarshal(skillData, &skillObject)
+	// 				skillPageContent = skillObject.Query.Pages[0].Revisions[0].Slots.Main.Content
+	// 			}
 
-				createFile("wiki/skills/"+skillSlug+".json", []byte(skillPageContent))
-			}
-		}
-	}
+	// 			createFile("wiki/skills/"+skillCategory+"-"+skillSlug+".json", []byte(skillPageContent), true)
+	// 		}
+	// 	}
+
+	// for i := 0; i < len(armyObject.Equips); i++ {
+	// 	var equipURL = armyObject.Equips[i].Wiki
+	// 	var equipURLArray = strings.Split(equipURL, "/")
+	// 	var equipSlug = strings.Replace(equipURLArray[len(equipURLArray)-1], "?version=n4", "", -1)
+	// 	if equipSlug != "" {
+	// 		var equipData = getHTTPResponse(wikiBaseURL + equipSlug)
+	// 		var equipObject WikiPage
+	// 		json.Unmarshal(equipData, &equipObject)
+	// 		var equipPageContent = equipObject.Query.Pages[0].Revisions[0].Slots.Main.Content
+
+	// 		if strings.Contains(equipPageContent, "#redirect") {
+	// 			var equipPageContentArray = strings.Split(equipPageContent, "#redirect [[")
+	// 			var equipPageContentArray2 = strings.Split(equipPageContentArray[1], "]]")
+	// 			equipSlug = equipPageContentArray2[0]
+	// 			equipData = getHTTPResponse(wikiBaseURL + equipSlug)
+	// 			json.Unmarshal(equipData, &equipObject)
+	// 			equipPageContent = equipObject.Query.Pages[0].Revisions[0].Slots.Main.Content
+	// 		}
+
+	// 		createFile("wiki/equips/"+equipSlug+".json", []byte(equipPageContent), true)
+	// 	}
+	// }
+	// }
 
 	for i := 0; i < len(armyObject.Factions); i++ {
 		var factionID = armyObject.Factions[i].ID
 		var factionSlug string = armyObject.Factions[i].Slug
 		var factionLogoURL = getHTTPResponse(armyObject.Factions[i].Logo)
 
-		createFile("assets/factions/"+factionSlug+".svg", factionLogoURL)
+		createFile("assets/factions/"+factionSlug+".svg", factionLogoURL, false)
 
 		if factionID != 901 { // skipping non-aligned armies
 			var factionData = getHTTPResponse(factionBaseEnURL + fmt.Sprintf("%d", factionID))
@@ -72,9 +99,9 @@ func fetchArmyData(version string, endpoint string, wiki string) {
 			json.Unmarshal(factionData, &factionObject)
 			var factionFolderPath = version + "/" + factionSlug
 
-			var filename string = factionFolderPath + "/" + factionObject.Version + ".json"
+			var fileName string = factionFolderPath + "/" + factionObject.Version + ".json"
 			createFolder(factionFolderPath)
-			createFile(filename, factionData)
+			createFile(fileName, factionData, false)
 
 			for j := 0; j < len(factionObject.Resume); j++ {
 				var unitLogoURL = factionObject.Resume[j].Logo
@@ -84,50 +111,11 @@ func fetchArmyData(version string, endpoint string, wiki string) {
 
 				if _, err := os.Stat(unitLogoPath); os.IsNotExist(err) {
 					var unitLogoData = getHTTPResponse(unitLogoURL)
-					createFile(unitLogoPath, unitLogoData)
+					createFile(unitLogoPath, unitLogoData, false)
 				}
 			}
 		}
 	}
-}
-
-func createFolder(path string) {
-	if _, err := os.Stat(path); errors.Is(err, os.ErrNotExist) {
-		err := os.Mkdir(path, os.ModePerm)
-		if err != nil {
-			log.Println(err)
-		}
-	}
-}
-
-func createFile(filename string, data []byte) {
-	if _, err := os.Stat(filename); os.IsNotExist(err) {
-		file, err := os.Create(filename)
-		if err != nil {
-			log.Fatal("Cannot create file", err)
-		}
-		defer file.Close()
-
-		_, err = file.Write(data)
-		if err != nil {
-			log.Fatal("Cannot write to file", err)
-		}
-		file.Sync()
-	}
-}
-
-func getHTTPResponse(url string) []byte {
-	response, err := http.Get(url)
-	if err != nil {
-		fmt.Print(err.Error())
-		os.Exit(1)
-	}
-
-	responseData, err := ioutil.ReadAll(response.Body)
-	if err != nil {
-		log.Fatal(err)
-	}
-	return responseData
 }
 
 func getEnvVar(value string) string {
@@ -518,22 +506,53 @@ type Faction struct {
 	} `json:"fireteamChart"`
 }
 
-type Wiki struct {
+// type WikiPage struct {
+// 	Batchcomplete bool `json:"batchcomplete"`
+// 	Query         struct {
+// 		Pages []struct {
+// 			Pageid    int    `json:"pageid"`
+// 			Ns        int    `json:"ns"`
+// 			Title     string `json:"title"`
+// 			Revisions []struct {
+// 				Slots struct {
+// 					Main struct {
+// 						Contentmodel  string `json:"contentmodel"`
+// 						Contentformat string `json:"contentformat"`
+// 						Content       string `json:"content"`
+// 					} `json:"main"`
+// 				} `json:"slots"`
+// 			} `json:"revisions"`
+// 		} `json:"pages"`
+// 	} `json:"query"`
+// }
+
+type WikiCategory struct {
 	Batchcomplete bool `json:"batchcomplete"`
-	Query         struct {
+	Continue      struct {
+		Accontinue string `json:"accontinue"`
+		Continue   string `json:"continue"`
+	} `json:"continue"`
+	Query struct {
+		Allcategories []struct {
+			Category string `json:"category"`
+			Size     int    `json:"size"`
+			Pages    int    `json:"pages"`
+			Files    int    `json:"files"`
+			Subcats  int    `json:"subcats"`
+		} `json:"allcategories"`
+	} `json:"query"`
+}
+
+type WikiCategoryPages struct {
+	Batchcomplete string `json:"batchcomplete"`
+	Limits        struct {
+		Categorymembers int `json:"categorymembers"`
+	} `json:"limits"`
+	Query struct {
 		Pages []struct {
-			Pageid    int    `json:"pageid"`
-			Ns        int    `json:"ns"`
-			Title     string `json:"title"`
-			Revisions []struct {
-				Slots struct {
-					Main struct {
-						Contentmodel  string `json:"contentmodel"`
-						Contentformat string `json:"contentformat"`
-						Content       string `json:"content"`
-					} `json:"main"`
-				} `json:"slots"`
-			} `json:"revisions"`
+			Pageid int    `json:"pageid"`
+			Ns     int    `json:"ns"`
+			Title  string `json:"title"`
 		} `json:"pages"`
 	} `json:"query"`
 }
