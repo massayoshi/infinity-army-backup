@@ -1,0 +1,253 @@
+{{Section-basic-rules}}
+
+
+Infinity uses 20-sided dice (commonly known as d20) to determine whether specific actions are successful. For example, players roll dice to find out whether their Troopers succeed in hitting their target in ranged combat, hacking into enemy systems, discovering a hidden enemy, etc. 
+
+Infinity's game mechanics revolve around two types of d20 rolls: '''Normal''' Rolls and '''Face to Face''' Rolls.
+
+=== Successful Roll ===
+Troopers and game Elements have a series of [[Attributes]] that define their capabilities to perform different game actions. Rolls are made against the '''Success Value (SV)''', the numeric value resulting from applying the relevant Modifiers (both negative and positive) to the [[Attribute]] used for the Skill. 
+
+To find out if a Skill has succeeded, a d20 is rolled and the result is compared to the Success Value. '''Any result that is equal to or less than''' the Success Value means that the Skill was successful. 
+
+
+== Modifiers (MOD) ==
+In most cases, the circumstances of an action apply Modifiers ('''MODs''') to the relevant Attribute before a roll is made. MODs, by increasing or decreasing the numeric value of an [[Attribute]], denote the difficulty of the Skill at hand. A positive ''MOD'' applies when the Skill performed is easier than usual, and a negative MOD makes the Skill harder than usual.
+
+{{important-start}}
+Whenever a rule mentions the value of an Attribute, consider it to mean the Success Value, obtained after applying all MODs.
+{{important-end}}
+
+{{greybox-start | Maximum Modifier}}
+The sum total of the Modifiers applied to a Roll can never exceed +12 or -12. 
+
+Any Modifier that adds up to more than +12 or less than -12 is ignored and replaced by the maximum MOD of +12 or -12, as appropriate.
+{{greybox-end}}
+
+
+The most commonly used MODs are:
+* '''[[Range]]:''' can modify the [[BS]], [[PH]] and [[WIP]] Attributes.
+* '''[[Cover]]:''' can modify [[BS]], [[PH]], [[WIP]], and [[Saving Rolls]]. 
+* '''[[Skills]], [[Weapons]] and [[Equipment]]:''' can modify several different Attributes.
+
+Positive [+] or negative [-] Modifiers (MOD) may appear in the Unit Profiles: 
+* A '''positive MOD [+]''' in round brackets next to a Special Skill, Weapon, or Equipment will be applied only to the '''user''' of that Special Skill, Weapon, or Equipment.  
+* A '''negative MOD [-]''' in round brackets next to a Special Skill, Weapon, or Equipment will be applied only to '''enemies'''.  
+{{c1}}
+* The value of an [[Attribute]], [[Burst]], [[Damage]], etc. in round brackets next to a Special Skill, Weapon, or Equipment will be applied only when using that Special Skill, Weapon or Equipment. 
+{{c1end}}
+{{n4list}}
+* The value of an [[Attribute]], [[Burst]], [[Damage]], [[Ammunition]], number of uses... in round brackets next to a Special Skill, Weapon, or Equipment will be applied only when using that Special Skill, Weapon or Equipment. 
+* “ReRoll” in round brackets next to a Special Skill, Weapon, or Equipment will allow the user to reroll one die from the Roll, only when using that Special Skill, Weapon, or Equipment.
+{{n4end}}
+
+=== See Also ===
+'''[[Skills_and_Equipment_in_Infinity#MODIFIERS_.28MODS.29 | Skill and Equipment MODs]]'''
+
+{{remember-start}}
+Rounding:
+
+In Infinity, any time a number (a result on a die, an [[Attribute]], a ''MOD''...) is divided and rounded to an integer, it is always rounded up. For example, half of 5 (5 / 2 = 2.5) would be 3.
+{{remember-end}}
+
+=== Maximum Modifier Example ===
+{{greybox-start | Maximum Modifier Example}}
+{{image | name=eng-maximum-modifier-1024.jpg | style=512border }}
+{{c1}}
+{{weapon}}
+{{weaponrow|Combi Rifle|+3|+3|-3|-3|-6|-6|--|13|3|N|ARM|}}
+|}
+{{c1end}}
+{{n4}}
+{{weapon}}
+{{weaponrow|Combi Rifle|+3|+3|-3|-3|-6|-6|--|13|3|N|ARM| [[Suppressive Fire Trait | Suppressive Fire]]}}
+|}
+{{n4end}}
+
+The Akal Commando declares: Move + BS Attack with his Combi Rifle.
+His BS Attack will apply the following MODs:
+* -6 for the Hac Tao’s Mimetism.
+* -3 for Cover. 
+* -6 for Range. 
+The total sum of Modifiers is -15.
+Given that the maximum MOD is -12, the Success Value (SV) will be 13 - 12 = 1.
+{{greybox-end}}
+
+== Criticals ==
+'''''Criticals''''' represent the improved outcomes of actions that resulted in an exceptional success. When the result on the die matches the ''Success Value'' (remember: the value of the [[Attribute]] with all ''MODs'' applied), the action is a Critical success. The goal of the action was achieved in the best possible way. A perfect success, congratulations!
+
+In Face to Face Rolls, '''Criticals''' always win, regardless of the rival’s results. If both players get one or more Criticals, the Face to Face Roll is a tie and both Troopers are considered to have failed.
+
+====See Also====
+'''[[Combat_Module_Intro#Criticals|Criticals and Attacks]]'''
+
+== Success Values Below 1 ==
+Negative MODs can sometimes cause the Success Value to drop below 1 for an action. In these cases, the player does not roll the dice, and the Roll is an '''automatic failure'''.
+
+== Success Values Above 20 ==
+In other cases, a high [[Attribute]] or positive MODs to an [[Attribute]] can cause the Success Value to be higher than 20. In this case, consider the ''Success Value'' to be 20, but with the peculiarity that the player adds the amount by which the Success Value exceeded 20 to his result on the die (a Success Value of 23 would add 3 to the result).
+
+In these cases, any result of 20 or more on the roll is a Critical, if applicable. Success Values above 20 (either from positive ''MODs'' or plainly stated in the Unit Profile) increase the chance of obtaining a Critical result.
+
+=== Example ===
+{{greybox-start | Example of a Success Value/Attribute Over 20}}
+The Knight of Justice has a ''Close Combat (CC)'' Attribute value of 23. Therefore, any result in a Normal Roll will be a success. Every time he performs a ''CC'' roll, he also adds 3 to the die’s result (for example: 4 + 3 = 7). For that reason, he will obtain a ''Critical'' if the result is 17 or higher: 17 (17 + 3 = 20), 18 (18 + 3 = 21), 19 (19 + 3 = 22), etc.
+{{greybox-end}}
+
+== Normal Roll ==
+Normal Rolls are the most common, basic dice rolls in Infinity. This roll is used when a Trooper is not facing off against an enemy, but instead must check if they successfully use an uncontested or passively contested Skill (such as trying to [[Discover]] a camouflaged enemy or healing an ally by means of the [[Doctor]] Special Skill).
+
+To make a Normal Roll and find out if a Trooper is successful when performing a Skill, simply roll one d20 and compare the result against the Success Value of the relevant [[Attribute]] of the Trooper performing the action. '''If the result on the die is equal to or lower than the Success Value, the Skill is successful''', and the Trooper achieves its goal.
+
+=== Normal Roll Example ===
+{{greybox-start | Normal Roll Example}}
+The Fusilier's BS Attribute is 12 and he has to make a Normal BS Roll with a -3 ''MOD'', with a BS ''Success Value'' of 9, so he rolls a d20 and gets an 8. Since the ''Success Value'' is 9, the roll is a success. Later on, the Fusilier tries another Normal BS Roll, but this time he gets a 12. As the ''Success Value'' is 9, he fails the roll.
+{{greybox-end}}
+
+
+== Face to Face Rolls ==
+When two or more Troopers act at the same time to try to thwart each other's progress, Face to Face Rolls are used to determine which side acts faster and more effectively.
+
+To do so, both players roll for their Troopers involved in the face-off and compare each result to the relevant Success Value, as they would in a Normal Roll. Failures are simply discarded but, unlike in a Normal Roll, each side's successes are compared to the opponent’s.
+
+When comparing, successes cancel enemy successes with a lower result—even if they are canceled, in turn, by higher enemy successes. 
+
+{{important-start}}
+For actions to be resolved with a Face to Face Roll, '''both Troopers must affect each other directly.''' If either action does not affect the outcome of the other, use Normal Rolls instead.
+
+'''Breaking Ties'''
+<br>
+Face to Face Rolls can result in a tie. In the event of a tie (Criticals or not), both rolls cancel each other, no effects are applied and the Order is spent.
+{{important-end}}
+
+
+{{greybox-start | Here is a rundown of possible outcomes}}
+* '''Both fail.''' No one achieved their goal.
+* '''One fails and the other passes.''' The Trooper that succeeded wins the Face to Face Roll and achieves its goal.
+* '''Both pass.''' The Trooper with the higher successful roll cancels the enemy successes, wins the Face to Face Roll and achieves its goal.
+* '''Both pass, but one rolls a Critical.''' The Trooper who got a Critical wins the Face to Face Roll, even if the Critical roll was equal to or lower than the enemy success.
+* '''Both roll Criticals.''' Neither Trooper wins the Face to Face Roll as the Criticals cancel each other and no effects are applied. Non-critical successes are discarded.
+* '''One rolls a Critical and the other rolls two (or more) Criticals.''' As in the previous case, all Criticals are cancelled and no effects are applied.
+{{greybox-end}}
+
+
+=== Face to Face Roll: Dodge and Reset ===
+In a Face to Face Roll, success in the Common Skills [[Dodge]] and [[Reset]] does not affect the ability of the attacker to execute their action, only their ability to affect the dodging/resetting Trooper. For example, dodging an Attack with several targets only cancels the attack against the Trooper who dodged, and does not cancel the attack against the rest of the targets.
+
+
+=== Examples ===
+{{greybox-start | Example of Face to Face 1 vs 1 Rolls}}
+
+{{image | name=eng-ftf-1v1-1024.jpg | style=512border }}
+
+{{c1}}
+{{weapon}}
+{{weaponrow|Combi Rifle|+3|+3|-3|-3|-6|-6|--|13|3|N|ARM|}}
+|}
+{{c1end}}
+{{n4}}
+{{weapon}}
+{{weaponrow|Combi Rifle|+3|+3|-3|-3|-6|-6|--|13|3|N|ARM| [[Suppressive Fire Trait | Suppressive Fire]]}}
+|}
+{{n4end}}
+
+In his Active Turn, the Fusilier declares a BS Attack with his Combi Rifle against the Zhanshi.
+
+Range 15 inches
+
+He will apply the following MODs to his BS Attack:
+* +3 for Range.
+* -3 for Cover. 
+His Success Value (SV) will be 12 + 3 – 3 = 12.
+
+In her Reactive Turn, the Zhanshi declares as an ARO a BS Attack with her Combi Rifle against the Fusilier.
+
+She will apply the following MODs to her BS Attack:
+* +3 for Range.
+* -3 for Cover. 
+Her Success Value (SV) will be 11 + 3 – 3 = 11.
+
+All the Rolls are successful, but the Zhanshi’s 7 wins the Face to Face Roll because it cancels out all the other successful results below 7.
+
+The Fusilier is hit, and he must make a Saving Roll.
+{{greybox-end}}
+
+
+{{greybox-start | Example of Face to Face Roll and Normal Roll}}
+
+{{image | name=eng-ftf-and-normal-1024.jpg | style=512border }}
+
+{{c1}}
+{{weapon}}
+{{weaponrow|Combi Rifle|+3|+3|-3|-3|-6|-6|--|13|3|N|ARM|}}
+|}
+{{c1end}}
+{{n4}}
+{{weapon}}
+{{weaponrow|Combi Rifle|+3|+3|-3|-3|-6|-6|--|13|3|N|ARM| [[Suppressive Fire Trait | Suppressive Fire]]}}
+|}
+{{n4end}}
+
+The Fusilier declares a BS Attack with his full Burst against Zhanshi A, who declares once again an ARO of BS Attack. Zhanshi B declares an ARO of BS Attack against the Fusilier.
+
+Since the declared Attacks affect each other, the Fusilier and Zhanshi A must make a Face to Face Roll. Zhanshi B will make a Normal Roll because the Fusilier’s shots do not affect him.
+
+Range: 15 inches
+<br>
+Range: 9 inches
+
+He will apply the following MODs to his BS Attack:
+* +3 for Range.
+* -3 for Cover. 
+His Success Value (SV) will be 12 + 3 – 3 = 12.
+
+Both Zhanshi will apply the following MODs to their BS Attacks:
+* +3 for Range.
+* -3 for Cover. 
+Their Success Value (SV) will be 11 + 3 – 3 = 11.
+
+In the Face to Face Roll both get a Critical, and as a result, their successes cancel each other and none of them hits their target.
+
+Meanwhile, Zhanshi B gets a 14 in his Roll, and, since his Success Value (SV) was 11, he misses his shot against the Fusilier.
+{{greybox-end}}
+
+
+{{greybox-start | Example of Two Face to Face Rolls}}
+
+{{image | name=eng-2-ftf-rolls-1024.jpg | style=512border }}
+
+{{c1}}
+{{weapon}}
+{{weaponrow|Combi Rifle|+3|+3|-3|-3|-6|-6|--|13|3|N|ARM|}}
+|}
+{{c1end}}
+{{n4}}
+{{weapon}}
+{{weaponrow|Combi Rifle|+3|+3|-3|-3|-6|-6|--|13|3|N|ARM| [[Suppressive Fire Trait | Suppressive Fire]]}}
+|}
+{{n4end}}
+
+If the Fusilier divided his Combi Rifle’s Burst (B) 3, making 2 shots against Zhanshi A and 1 against Zhanshi B, we would have to make two Face to Face Rolls.
+
+He will apply the following MODs to his BS Attack:
+* +3 for Range.
+* -3 for Cover. 
+His Success Value (SV) will be 12 + 3 – 3 = 12.
+
+Both Zhanshi will apply the following MODs to their BS Attacks:
+* +3 for Range.
+* -3 for Cover. 
+Their Success Value (SV) will be 11 + 3 – 3 = 11.
+
+In the first Face to Face Roll, Fusilier VS Zhanshi A, the 5 cancels out the Fusilier’s 4 and the 9 wins the Face to Face Roll since it is the highest success. Therefore, Zhanshi A is successfully hit, and she will have to make a Save Roll.
+
+In the second Face to Face Roll, Fusilier VS Zhanshi B, both get an 11, which is a success for both. However, for Zhanshi B this is a Critical and, as a result, he wins the Face to Face Roll. Now it is the Fusilier who has been successfully hit, and it is a Critical Hit!
+{{greybox-end}}
+
+
+{{Section-basic-rules}}
+
+
+
+
+[[Category:Basic Rules]]

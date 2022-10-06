@@ -1,0 +1,77 @@
+{{section-game-states}}
+{{section-hacking}}
+{{section-ammo-and-weaponry}}
+
+
+{{n4only}}
+{{n4list}}
+{{image | name=isolated0.jpg | style=128 }}
+
+{{skillbox |black| ISOLATED | }}
+{{activation}}
+* The Trooper suffered a successful Attack or Effect using an Ammunition, or a game condition or Scenario Special Rule, capable of causing this state.
+{{effects}}
+* Troopers in Isolated State cannot receive Orders from their [[Order Pool]].
+* If, at the start of his following Active Turns, the Trooper is still Isolated, then he is considered to be [[Irregular]] and does not add his Order to his Order Pool this Turn. {{seefaq | This Order cannot be made Regular.}}
+* While in Isolated State all the Trooper's Hacking Programs, Skills and pieces of Equipment with the [[Comms Attack]] or [[Comms Equipment]] Labels or Traits ([[Hacking Device]], [[Repeater]]...) are disabled.
+* Additionally, if the Isolated Trooper is the army's [[Lieutenant]], then at the beginning of the player's next Active Turn the army enters a [[Loss of Lieutenant]] situation unless the state is cancelled before then.
+* Troopers in this state must apply a '''-9 WIP MOD''' to their '''[[Reset]]''' rolls. {{seefaq | State MODs are cumulative.}}
+* An Isolated Trooper ceases to be part of any kind of Infinity [[Fireteam]].
+* If the Isolated Trooper is the [[Team Leader]] then the [[Fireteam]] will break.
+* Troopers in Isolated State cannot take part in a [[Coordinated Order]].
+* Automatic Special Skills and Equipment continue to work in this state, with the exception of [[Comms Attacks]] and [[Comms Equipment]].
+{{cancellation}}
+* A Trooper with the [[Engineer]] Special Skill (or an equivalent Skill) may cancel the state by spending one Short Skill of an Order while in [[Silhouette contact]] with the affected Trooper and succeeding at a Normal WIP Roll (or the Roll specified by the Special Skill or Scenario that caused the state).
+* The affected Trooper may cancel this state via a successful Normal or Face to Face [[Reset]] Roll, applying the -9 WIP MOD provided by this state. 
+
+
+{{important-start}}
+If an army enters a [[Loss of Lieutenant]] situation because its [[Lieutenant]] was Isolated at the start of the Active Turn, canceling Isolated State in that Turn does not revoke the Loss of Lieutenant, as that situation may only be cancelled as indicated by its rules.
+{{important-end}}
+
+
+== FAQs & Errata ==
+
+{{faqbox |
+type = faq |
+title = N4 FAQ |
+version = 1.0, Jan 2021 |
+q = Q: Do State MODs all stack with each other? For example, if a Trooper is in IMM-B and Targeted State, do they apply a -6 MOD to all their Reset Rolls? |
+a = A: Yes. |
+related = [[Dodge]], [[Immobilized-A State]], [[Immobilized-B State]], [[Isolated State]], [[Reset]], [[Targeted State]] }}
+
+
+{{faqbox |
+type = faq |
+title = N4 FAQ |
+version = 1.0, Jan 2021 |
+q = Q: How does the Lieutenant Special Skill interact with Isolated State? Can they still spend their Lieutenant Special Order, and can it still be used by a Trooper with NCO? Does this change during Loss of Lieutenant? |
+a = A: The Special Lieutenant Order can be used if it has already been generated. During Loss of Lieutenant it is not generated, because the Loss of Lieutenant check is before the Order Count step. |
+related = [[Isolated State]], [[Lieutenant]], [[Loss of Lieutenant]], [[NCO]] }}
+
+
+{{faqbox |
+type = faq |
+title = N4 FAQ |
+version = 1.0, Jan 2021 |
+q = Q: Can the Order provided by an Isolated Trooper be transformed into a Regular Order with a Command Token? |
+a = A: No. |
+related = [[Command Tokens]], [[Isolated State]] }}
+
+
+{{faqbox |
+type = faq |
+title = N4 FAQ |
+version = Updated 1.1.1, Dec 2021 |
+q = Q: How does Isolated State interact with Hacking Programs that are not granted by a Hacking Device? |
+a = <s>A: While in Isolated State all the Trooper’s Hacking Programs, Skills and pieces of Equipment with the Comms Attack or Comms Equipment Labels or Traits (Hacking Device, Repeater...) are disabled.</s> 
+
+{{erratahighlight}}A: While in Isolated State all the Trooper's Skills and pieces of Equipment with the Comms Attack or Comms Equipment Labels or Traits (Hacking Device, Repeater...) are disabled. In addition, all their Hacking Programs are disabled.{{erratahighlight-end}} |
+related = [[Hacker]], [[Isolated State]], [[Quantronic Combat (Hacking)]] }}
+
+{{n4end}}
+
+
+
+
+[[Category: Game States]]

@@ -1,0 +1,58 @@
+{{section-game-states}}
+{{section-equipment}}
+
+
+{{n4only}}
+{{n4list}}
+{{skillbox |black| HOLOMASK | }}
+{{activation}}
+* Automatic when deployed.
+* During the Active Turn, Troopers may only return to HoloMask State by consuming 1 [[Entire Order]], outside the [[LoF]] of enemy [[Markers]] or [[Troopers]].
+{{effects}}
+* While in HoloMask State, players don't place the HoloMask bearer's Model but the Model of any other Trooper (known as the imitated Model), declaring which weapon option it is duplicating from the imitated Model's [[Unit Profile]].
+* The imitated Model must be a Trooper from the bearer's faction or Sectorial Army and must have the '''same [[Silhouette]] value''' as the bearer.
+* However, the player will use the real Unit Profile of the HoloMask bearer, just as it appears on their Army List. 
+* A Trooper in HoloMask State cannot replicate those [[Deployable Weapon]]s or pieces of Equipment represented by [[Tokens]] or Models ([[TinBot]]s, [[FastPanda]]s, [[SymbioMate]]s, [[Mines]] deployed with the [[Minelayer]] Special Skill...) that the imitated Model has.
+* In order to [[Discover]] a Trooper in HoloMask State, the Enemy must pass a Discover Roll.
+** If the Discover is successful, replace the imitated Model with the real Trooper's Model, facing the same direction as the imitated Model.
+* This State does not interfere with Automatic Special Skills or Automatic Equipment, which will remain functioning normally.
+{{cancellation}}
+'''A Trooper's HoloMask State is canceled, replacing the imitated Model with the real Model, whenever:'''
+* The Trooper in HoloMask State '''declares''' an [[Attack]], [[Look Out]]!, or any Skill that requires a Roll.
+** Instead, if the Trooper belongs to a [[Fireteam]] and is not the Team Leader, if they '''declare''' a Skill that is not Support or Movement (except Look Out!).
+* The Trooper in HoloMask State '''declares''' an '''[[Entire Order]]''' of any kind, other than [[Cautious Movement]].
+* The Trooper in HoloMask State enters [[Silhouette contact]] with an enemy Model.
+* The Trooper in HoloMask State is forced to make a [[Saving Roll]].
+* The Trooper in HoloMask State is '''Discovered'''.
+* A Trooper in HoloMask State is or becomes [[Impetuous]] (due to the [[Frenzy]] Characteristic or any other effect) or enters [[Retreat! State]].
+'''In addition:'''
+* Whenever HoloMask State is canceled, replace the imitated Model with the real Model, facing the same direction as the imitated Model, at the end of the [[Order]] in which the State was cancelled.
+* When replacing the imitated Model with the real one, the player must provide their adversary with the Trooper's complete [[Public Information]].
+
+
+{{important-start}}
+Cancellation of  HoloMask State is applied to the entirety of the declared Order, even if the Skill revealing the Trooper is performed at the end of the Order. 
+{{important-end}}
+
+
+{{important-start}}
+The presence of Troopers in HoloMask or Holoecho State is considered Private Information. This also includes the Special Skills they have and their weapons and pieces of Equipment, too.
+{{important-end}}
+
+
+{{greybox-start | Holomask and Private Information Example }}
+A Hafza in HoloMask State imitating a Hassassin Lasiq suffers an Enemy [[BS Attack]]. Even though his Special Skills, weapons and pieces of Equipment are considered Private Information, the Hafza cannot apply the [[Mimetism]] (-3) Special Skill of the Lasiq. This means that during the [[Resolution]] step of the Order, when MODs are applied, the Hafza's player must inform his opponent that there is no Mimetism MOD to apply.{{greybox-end}}
+
+
+{{greybox-start | Holomask and Fireteam Example }}
+A Fireteam Core of Janissaries including a Hafza in HoloMask State, imitating a Janissary, declares a Move + BS Attack Order. The Hafza, who is not the Team Leader, moves and provides support to the Team Leader. As he performs a Support Skill, the Hafza is not revealed, and so remains in HoloMask State.
+
+However, in the following Order, the Team Leader declares Dodge, so all the Fireteam members make a PH Roll (Evasion Skill). In this situation, the Hafza is revealed automatically.
+{{greybox-end}}
+
+
+{{n4end}}
+
+
+
+[[Category:Equipment]]

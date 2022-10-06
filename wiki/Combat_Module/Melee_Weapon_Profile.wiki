@@ -1,0 +1,56 @@
+{{section-combat-module}}
+
+
+In Infinity, every Weapon has its own game profile and some of them even have special usage rules. This chapter describes how to read such a profile and details each Weapon individually. The CC Weapon will be used as an example to explain how to read a Melee Weapon profile.
+
+{{weapon}}
+{{weaponrow|CC Weapon| | | | | | | |PH|1|N|ARM|[[CC Trait|CC]]}}
+{{weaponrow|Monofilament CC Weapon| | | | | | | |12|1|N|ARM|[[CC Trait|CC]], [[ARM=0]], [[State Trait | State:]] [[Dead]]}}
+|}
+
+'''Range''' indicates the Weapon's reach in inches. Melee Weapons usually lack a Range. 
+
+'''Damage''' indicates the destructive capability of the Weapon. The higher the Damage value, the more powerful the Weapon. 
+
+'''Burst (B)''' is the number of dice the [[Active Player]] must roll when declaring a [[CC Attack]]. '''Remember that in the Reactive Turn the value of B is generally 1''', unless modified by a rule or Skill.
+
+The '''Ammunition''' column indicates what Type of Ammunition the Weapon uses. For Weapons that can use more than one Type of Ammunition, the different options will appear separated by a "/", in this case, when declaring a CC Attack, the whole [[Burst]] B must always use the same Type of Ammunition.
+
+However, if the Types of Ammunition are linked by a "+" it means both Types are combined.
+
+The '''Saving Attribute''' column for the [[Saving Roll]] will indicate the necessary [[Attribute]] or [[Attributes]] (ARM, BTS, PH, ARM+BTS, etc.) to know whether each received impact's Damage or Effect is avoided or not. As with Ammunition, saving with different Attributes or their combination may be necessary (see [[Damage]]). 
+
+Traits are special features some Weapons and Equipment pieces possess. They are all explained in the [[Labels]] and [[Traits]] Section.
+
+{{remember-start}}
+When the PH Attribute is shown in the Damage column instead of a numerical value, the Weapon’s Damage value will be the PH Attribute of the user of the Melee Weapon.
+{{remember-end}}
+
+
+{{greybox-start | Traits Example}}
+In the case of the Monofilament CC Weapon, its Traits indicate that the target will have their ARM value reduced to 0 for their [[Saving Roll]] and that, in the case of suffering Damage, instead of losing one point of [[Wound]] or [[Structure]] Attribute, they will enter [[Dead]] state directly. {{seefaq}}
+{{greybox-end}}
+
+
+{{advice-start}}
+Want to know more? You may find all the additional info to further explore the Infinity Universe in background books, articles and appendices!
+{{advice-end}}
+
+
+== FAQs & Errata ==
+
+{{faqbox |
+type = faq |
+title = N4 FAQ |
+version = 1.1.1, Dec 2021 |
+q = Q: How does Protheion interact with Coup de Grâce, and with the State: Dead Trait? |
+a = A: In both situations, the target passes to Dead State and the Protheion user counts as inflicting a single Wound. |
+related = [[CC Attack]], [[Melee Weapon Profile]], [[Protheion]], [[Traits]] }}
+
+
+{{section-combat-module}}
+
+
+
+
+[[Category: Combat Module]]

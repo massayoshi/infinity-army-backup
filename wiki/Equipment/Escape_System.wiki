@@ -1,0 +1,57 @@
+{{section-equipment}}
+
+
+{{n4only}}
+{{n4list}}
+This piece of Equipment encompasses all systems designed to prolong the life of TAG and Vehicle Pilots by evacuating them in case of mortal danger.
+
+{{skillbox |black| ESCAPE SYSTEM | AUTOMATIC EQUIPMENT }}
+{{skill-label | Obligatory }}
+{{requirements}}
+* In the Active or Reactive Turn, the Escape System activates automatically at the end of any [[Order]] during which the [[TAG]] lost its last [[STR]] point.
+{{effects}}
+* The activation process of an Escape System has two steps:
+** At the end of the Order during which the TAG lost its last STR point, place the TAG Pilot [[Model]] in [[Silhouette contact]] with the TAG Model.
+** Then, remove the TAG Model and replace it with a [[Smoke]] Circular Template.
+* If the TAG lost more STR points than it had remaining, the excess points are subtracted from the Pilot's profile.
+* The activation process must always be completed, even if the Pilot is already [[Unconscious]] or [[Dead]], and even if the TAG is Immobilized (due to Hacking, Ammunition Effects or any other reason).
+* A TAG equipped with an Escape System provides its Order to the player who fielded it until its Pilot enters a [[Null]] State (Unconscious, Dead, [[Sepsitorized]]...).
+* If the Pilot would be vulnerable to [[Hacking]] or [[E/M Ammunition]], he cannot be Hacked, or affected by E/M, while its Model is not on the game table.
+
+
+{{Remember-start}}
+The ARM and BTS values of the TAG are always used to make Saving Rolls, until the Pilot Model is placed on the game table.
+
+Activating the Escape System does not require the expenditure of any Orders, and therefore Enemies cannot react in any way to the ejection of the Pilot.
+
+Always place the Smoke Circular Template, even if the Pilot lost all his Wounds and was ejected Dead.
+{{remember-end}}
+
+
+== FAQs & Errata ==
+
+{{faqbox |
+type = faq |
+title = N4 FAQ |
+version = 1.0, Jan 2021 |
+q = Q: How does the Possessed State interact with Pilots, Dismounting, and Escape Systems? |
+a = A: When a TAG is in Possessed State, its Pilot cannot Mount or Dismount. If a TAG's Escape System takes effect while the TAG is in Possessed State, the operator profile will not be in Possessed State. |
+related = [[Escape System]], [[General Movement Rules]], [[Pilot]], [[Possessed State]] }}
+
+
+{{faqbox |
+type = faq |
+title = N4 FAQ |
+version = 1.2, Jan 2022 |
+q = Q: How do Iguana and Anaconda Operators interact with Army Points, Victory Points, and Dominating ZOs? |
+a = A: If the Operator profile is on the game table: 
+
+* They are worth the Victory Points of their TAG profile.
+* In scenarios with the Killing rule, the unit does not count as Killed until the Operator profile is Killed. |
+related = [[Escape System]] }}
+
+{{n4end}}
+
+
+
+[[Category:Equipment]]

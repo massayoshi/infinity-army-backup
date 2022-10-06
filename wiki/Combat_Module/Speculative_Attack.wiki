@@ -1,0 +1,73 @@
+{{section-combat-module}}
+{{section-common-skills}}
+
+
+{{n4only}}
+{{n4}}
+This Common Skill allows the user to execute a BS Attack against a target outside LoF or, if he has a suitable weapon, to choose a location other than the target as the center of the attack.
+
+{{n4end}}
+{{n4list}}
+{{skillbox |red| SPECULATIVE ATTACK | ENTIRE ORDER }}
+{{skill-label | Attack }}
+{{requirements}}
+* The user must employ a BS Weapon with the [[Speculative Attack Trait]].
+* It must be possible to draw a trajectory between the Trooper and the impact point.
+{{effects}}
+* The user may make a single [[BS Attack]] against a target outside their [[LoF]]. {{seefaq | BS Attack Damage MODs etc. will apply.}}
+* '''The B will always be 1''', regardless of the actual B value of the Weapon or any MODs applied to the B.
+* If the user employs a BS Weapon with the '''[[Circular Impact Template Trait]], this Skill allows them to place the center of the Circular Template somewhere other than centered on the Main Target of the attack'''. However, the Main Target must be inside the Area of Effect of the Circular Template.<br>In that case, both the target of the attack and the impact point may be chosen without needing LoF.
+* Place the Template directly on the game table or horizontally over a piece of terrain, and never on a vertical surface or in the air.
+* The user must apply a -6 MOD to BS, or the corresponding Attribute, for Speculative Attack, and also any Range MODs. Other negative MODs (for example [[Mimetism]], [[Partial Cover]], [[Visibility Zone]]s...) are not applied.
+
+
+{{explain-start}}
+This is the procedure to perform a Speculative Attack: 
+# Designate the Main Target of the Attack. 
+# Place the Circular Template to designate the impact point of the Attack (it may be a target outside LoF, or a point on the table as long as the Circular Template affects the target). 
+# Then, a check is made to ascertain which other Troopers are affected to determine all AROs.  
+# Measure the distance between the Trooper and the impact point, all relevant MODs are applied, and the Rolls are made. 
+{{explain-end}}
+
+
+{{greybox-start | Example of Speculative Attack }}
+{{image | name=eng-speculative-attack-example-1024.jpg | style=512border }}
+
+During his Active Turn, a D&#257;turazi intends to attack the Gangbuster located behind a wall. To prevent the Gangbuster from shooting him during his advance, the D&#257;turazi decides to throw a Grenade at him. Since Grenades have the Speculative Attack Trait, the D&#257;turazi declares a Speculative Attack without requiring LoF. To do so, the Morat player follows these steps:
+
+# They remove one Order from their Order Pool and declare a Speculative Attack Entire Order, designating the Gangbuster as their Main Target.
+# They place the Circular Template on the gaming table so that it affects the Gangbuster, and designate the impact point. 
+# Once the Circular Template is placed and centered on that point, a check is made to ascertain which other Troopers are affected. <br>The Gangbuster declares his ARO. In this case, as he is being affected by a Template Weapon, he may declare Dodge. 
+# The distance between the D&#257;turazi and the designated impact point is measured. A Face to Face Roll ensues between the D&#257;turazi and the Gangbuster.
+
+
+The following MODs will be applied to the Gangbuster's Dodge Roll:
+* -3 to Dodge a Template without LoF to the attacker
+
+The following MODs will be applied to the D&#257;turazi's Speculative Attack Roll:
+* +3 for Range.
+* -6 for Speculative Attack.
+
+Given that it is a Speculative Attack, the D&#257;turazi does not need to apply the Mimetism MOD (-3) of the Gangbuster, or any MOD due to Cover. 
+{{greybox-end}}
+
+
+== FAQs & Errata ==
+
+{{faqbox |
+type = faq |
+title = N4 FAQ |
+version = 1.0, Jan 2021 |
+q = Q: Do Skills that let you perform a 'BS Attack Roll' (for example Intuitive Attack and Speculative Attack), or have the BS Attack Label, count as a BS Attack for MODs? For example if the Trooper has 'BS Attack (+1 Damage)' or 'BS Attack (AP)'. |
+a = A: Yes. |
+related = [[BS Attack]], [[Intuitive Attack]], [[Labels]], [[Skills and Equipment in Infinity]], [[Speculative Attack]] }}
+
+{{n4end}}
+
+
+{{section-combat-module}}
+{{section-common-skills}}
+
+
+
+[[Category: Combat Module]]

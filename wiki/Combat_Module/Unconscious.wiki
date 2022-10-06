@@ -1,0 +1,70 @@
+{{section-combat-module}}
+{{section-game-states}}
+
+
+If the value of the [[Wounds]]/[[STR]] Attribute of a Trooper reaches 0, then that Trooper enters the [[Unconscious]] state.
+
+However, if the [[Wounds]]/[[STR]] Attribute falls below 0, the Trooper enters the [[Dead]] state.
+
+{{image | name=eng-unconscious.jpg | style=128 }}
+
+{{skillbox |red| UNCONSCIOUS | NULL}}
+{{Activation}}
+* A Trooper loses the last point of his [[Wounds]]/[[STR]] Attribute, leaving him with exactly zero.
+{{Effects}}
+*Troopers in this state cannot declare Orders or AROs.
+*Unconscious Troopers automatically fall [[Prone]] unless they are a [[Troop Type]] unable to do so.
+*Troopers in this state '''do not''' contribute Orders during the [[Tactical Phase]].
+*Automatic Special Skills and Automatic Equipment have no effect while Unconscious.
+*The Trooper does '''not''' count towards the Player's [[Victory Points]]. 
+{{Cancellation}}
+*To cancel this state, Troopers possessing the Wound Attribute need a Doctor, while Troopers with the Structure (STR) Attribute need an Engineer.
+*A Trooper with the '''[[Doctor]]/[[Engineer]]''' Special Skill (or an equivalent Skill) may cancel the state by spending one Short Skill of an Order while in [[Silhouette]] contact with the affected Trooper, and passing a Normal '''[[WIP]]''' Roll (or the Roll specified by the Special Skill or Scenario).
+*Other Special Skills and pieces of Equipment allow the cancellation of the Unconscious state as indicated in their rules. 
+*Cancelling the Unconscious state automatically '''cancels the [[Prone]] state.'''
+
+
+==See Also==
+[[Restrictions Chart]] (TAGs cannot be Prone.)
+
+
+== FAQs & Errata ==
+
+{{faqbox |
+type = faq |
+title = N4 FAQ |
+version = 1.0, Jan 2021 |
+q = Q: How do Engineer, GizmoKits, and Unconscious State interact? |
+a = A: If a Trooper with STR is in Unconscious State, successful use of a GizmoKit or the Engineer Special Skill on them will restore the Trooper to 1 STR and cancel their Unconscious State. But the Unconscious State would be the only State cancelled by the Engineer, to cancel other States must use another Order. |
+related = [[Engineer]], [[GizmoKit]], [[Unconscious State]] }}
+
+
+{{faqbox |
+type = faq |
+title = N4 FAQ |
+version = 1.1.1, Dec 2021 |
+q = Q: How are Deployables destroyed? |
+a = A: When a Deployable’s Structure Attribute is reduced to 0, it must be removed from the game table. |
+related = [[Place Deployable]], [[Unconscious]] }}
+
+
+{{faqbox |
+type = faq |
+title = N4 FAQ |
+version = 1.1.1, Dec 2021 |
+q = Q: How do Remote Presence, STR, and the Dogged and No Wound Incapacitation Special Skills interact? |
+a = A: You can activate Dogged or No Wound Incapacitation when the Trooper enters any level of Unconscious State, but not if the Trooper is already in Unconscious State. |
+related = [[Dogged]], [[No Wound Incapacitation]], [[Remote Presence]], [[Unconscious]] }}
+
+
+{{faqbox |
+type = faq |
+title = N4 FAQ |
+version = 1.2, Jan 2022 |
+q = Q: Does an Unconscious Trooper prevent an enemy from re-entering Marker State, or cancel their Cautious Movement? |
+a = A: No. |
+related = [[Camouflaged State]], [[Cautious Movement]], [[Impersonation State]], [[Unconscious]] }}
+
+
+[[Category: Game States]]
+[[Category: Combat Module]]

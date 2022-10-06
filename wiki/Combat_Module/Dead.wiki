@@ -1,0 +1,36 @@
+{{section-combat-module}}
+{{section-game-states}}
+
+
+If the value of the [[Wounds]]/[[STR]] Attribute of a Trooper reaches 0, then that Trooper enters the [[Unconscious]] state.
+
+However, if the [[Wounds]]/[[STR]] Attribute falls below 0, the Trooper enters the [[Dead]] state.
+
+
+{{skillbox |red| DEAD | NULL}}
+{{Activation}}
+*A Trooper loses all the points of his [[Wounds]]/[[STR]] Attribute, and takes one or more extra points of damage. 
+*A Trooper in the [[Unconscious]] or [[Shasvastii-Embryo]] state loses one or more points from his [[Wounds]]/[[STR]] Attribute. 
+{{Effects}}
+*Troopers in this state are removed from the game table. 
+*Troopers in this state cease to generate Orders in successive turns.
+*The Trooper does '''not''' count towards the Player's [[Victory Points]].
+{{Cancellation}}
+* The Dead state is irreversible and cannot be cancelled, unless the rules specific to the mission or scenario being played indicate otherwise. In that case, follow the procedure stated in the rules. 
+
+
+== FAQs & Errata ==
+
+{{faqbox |
+type = faq |
+title = N4 FAQ |
+version = 1.1.1, Dec 2021 |
+q = Q: What happens if the target of a Protheion user fails more Saving Rolls than are needed for it to enter Dead State? For example if an Unconscious target fails two or more Saving Rolls. |
+a = A: Any additional failed Saving Rolls will have no effect, and will not give the Protheion user any Wounds. |
+related = [[Dead]], [[Protheion]] }}
+
+
+
+
+[[Category: Game States]]
+[[Category: Combat Module]]

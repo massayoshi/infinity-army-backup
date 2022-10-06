@@ -1,0 +1,59 @@
+{{section-movement-module}}
+{{section-common-skills}}
+
+
+{{n4only}}
+{{n4}}
+Under certain circumstances, Troopers can declare this Common Skill to move about the battlefield without attracting enemy AROs.
+
+{{skillbox |red| CAUTIOUS MOVEMENT | ENTIRE ORDER}}
+{{skill-label | Movement, No LoF, No Roll.}}{{Requirements}}
+* At the moment of declaration, the Trooper must be outside the [[LoF]] and [[ZoC]] of all enemy [[Models]] and [[Markers]].
+{{Effects}}
+* Allows the Trooper to move up to the first value of his [[MOV]] Attribute, generating no enemy [[ARO]]s in the process. For this Cautious Movement to generate no AROs, it must begin and end outside the LoF and ZoC of all enemy Models and Markers. 
+* If the Cautious Movement begins or ends within the LoF or ZoC of any enemy Models or Markers, the Trooper will generate AROs as usual.
+* Cautious Movement must follow the [[General Movement Rules]] as well as the [[Moving and Measuring]] rules.
+
+
+{{important-start}}
+TAGs, Remotes, Vehicles, and Troopers on Motorcycles can never declare Cautious Movement.
+{{important-end}}
+
+
+{{remember-start}}
+Troopers in Hidden Deployment are neither Models nor Markers, so they cannot react to a Cautious Movement even if they have LoF.
+{{remember-end}}
+
+
+{{greybox-start | Cautious Movement Example }}
+{{update | 1.1.1, Dec 2021}}
+A Fusilier wants to sneak up on an Alguacil. Since he is in Total Cover behind a tall building, The Fusilier is outside LoF the Alguacil and the other Nomads, including a Camouflage Marker. He estimates that he can reach Total Cover behind a bin with the first value of his MOV where he would be safely hidden, so he declares Cautious Movement.
+
+The Alguacil and all other Nomad Troopers, including the Camouflage Marker, cannot declare AROs because the Fusilier's Cautious Movement began and ended outside their LoF and ZoC.
+{{update-end}}
+{{original}}
+A Fusilier wants to sneak up on an Alguacil. Since he is in Total Cover behind a tall building, The Fusilier is outside LoF of the Alguacil and the other Nomads, including a Camouflage Marker. He estimates that he can reach Total Cover behind a bin with the first value of his MOV where he would be safely hidden, so he declares Cautious Movement.
+
+The Alguacil and all other Nomad Troopers, including the Camouflage Marker, cannot declare {{originalhighlight}}valid{{originalhighlight-end}} AROs because the Fusilier's Cautious Movement began and ended outside their LoF and ZoC.
+{{original-end}}
+{{greybox-end}}
+
+
+== FAQs & Errata ==
+
+{{faqbox |
+type = faq |
+title = N4 FAQ |
+version = 1.2, Jan 2022 |
+q = Q: Does an Unconscious Trooper prevent an enemy from re-entering Marker State, or cancel their Cautious Movement? |
+a = A: No. |
+related = [[Camouflaged State]], [[Cautious Movement]], [[Impersonation State]], [[Unconscious]] }}
+
+{{n4end}}
+
+
+{{section-movement-module}}
+{{section-common-skills}}
+
+[[Category: Common Skills]]
+[[Category: Movement Module]]

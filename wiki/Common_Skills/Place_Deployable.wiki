@@ -1,0 +1,81 @@
+{{section-common-skills}}
+
+
+Common Skill that allows placement of Deployable Weapons and pieces of Equipment on the game table. 
+
+{{skillbox |greenyellow| PLACE DEPLOYABLE | SHORT SKILL / ARO}}
+{{skill-label | Attack}}
+{{Requirements}}
+*Have a Weapon or piece of Equipment with the [[Deployable]] Label. 
+*In the [[Reactive Turn]], [[LoF]] to the Active Trooper is required. 
+{{effects}}
+*Allows the user to place a Token on the game table to represent the Weapon or the piece of Equipment, with no Roll required.
+*In the '''[[Active Turn]]''', the Trooper can deploy the Token in [[Silhouette]] contact or, if he moved, in [[Silhouette]] contact with any part of his route. In the '''[[Reactive Turn]]''', the Trooper must deploy it in [[Silhouette]] contact. 
+*The Token must be fully supported by the surface it is placed on and cannot be placed on a vertical surface. 
+{{c1}}
+*The Token is placed at the '''[[Conclusion]]''' of the Order in which the Trooper declared this Skill.
+{{c1end}}{{n4list}}
+*The Token is placed at the '''[[Conclusion]]''' of the Order in which the Trooper declared this Skill. {{seefaq | Repositioning is allowed if a Trooper has moved into the chosen position.}} The enemy may only react against the Trooper that declares the Skill, not against the Weapon or piece of Equipment that is placed on the table during that Order or ARO.
+{{n4end}}
+*Once the Token has been placed on the Table, the Weapon or piece of Equipment is activated, and can be used in subsequent Orders/AROs. 
+*A Weapon or piece of Equipment that has been deployed on the battlefield will remain in play until the end of the game, until it is destroyed, or in case of Deployable Weapons, until detonated.
+*By placing a Weapon or piece of Equipment, Deployment rules must be observed and, in the case of playing a scenario, the Deployment restrictions it may impose. 
+{{n4list}}
+* A Deployable Weapon cannot be placed if there is an enemy [[Camouflaged|Camouflage]] Marker inside its [[Trigger Area]]. This restriction does not apply if there is a valid, non-camouflaged enemy inside the Trigger Area, or an [[Intuitive Attack]] was made.
+
+== Deployable and Perimeter ==
+
+Weapons and pieces of Equipment with both the [[Deployable]] and the [[Perimeter]] Trait have the following additional rules: 
+* When players declare the Place Deployable Common Skill, they place the Weapon or piece of Equipment [[totally inside]] the [[Zone of Control]] of the Trooper, instead of placing it in [[Silhouette contact]].
+* It must be possible to draw a path from the Trooper to the Perimeter Weapon's location. The path cannot be blocked by an impassable obstacle (for example a wall of infinite height, a closed door or sealed room...) or a gap too small for the [[Silhouette Template]] of the Perimeter Weapon to pass through.
+* A Perimeter Weapon cannot be placed if there is an enemy [[Camouflaged|Camouflage]] Marker inside its Zone of Control. This restriction does not apply if there is a valid, non-camouflaged enemy inside the Zone of Control. 
+* The Weapon or piece of Equipment will be placed at the [[Conclusion]] of the Order. {{seefaq}}
+* Once the Model or Token is on the table, the Weapon or piece of Equipment becomes a static element.
+{{n4end}}
+
+
+{{remember-start}}
+Deployable Weapons and pieces of Equipment have their own profiles with Attributes, and can be designated as targets in games.
+{{remember-end}}
+
+
+{{n4}}
+{{greybox-start | Deployable and Perimeter Example }}
+{{image | name=eng-deployable-perimeter-1-1024.jpg | style=fullborder }}
+
+During her Active Turn, an Interventor with a Hacking Device Plus wants to declare a Comms Attack against the Jujak, who is clearly outside her Hacking Area.
+
+To avoid the Camouflaged Marker that stands in her way, she declares Place Deployable and places her FastPanda (Repeater, Deployable, Perimeter) as shown in the picture. She may place it with the Marker in its Zone of Control because the FastPanda has the Indiscriminate Trait, and in addition there is also a non-Camouflaged Enemy Model in its ZoC.
+
+{{image | name=eng-deployable-perimeter-2-1024.jpg | style=fullborder }}
+
+Once placed on the game table, when the Order concludes, the FastPanda is activated and its Repeater may be used to Attack the Jujak.
+{{greybox-end}}
+
+{{n4end}}
+
+
+== FAQs & Errata ==
+
+{{faqbox |
+type = faq |
+title = N4 FAQ |
+version = 1.0, Jan 2021 |
+q = Q: When using Place Deployable and declaring where the Deployable will be placed, what happens if a Trooper moves into that space before the Conclusion of the Order? |
+a = A: The Trooper that declared Place Deployable may place the Deployable in a different position (still following the Place Deployable rule), and if this is not possible, the Deployable will be lost. |
+related = [[Place Deployable]] }}
+
+
+{{faqbox |
+type = faq |
+title = N4 FAQ |
+version = 1.1.1, Dec 2021 |
+q = Q: How are Deployables destroyed? |
+a = A: When a Deployable’s Structure Attribute is reduced to 0, it must be removed from the game table. |
+related = [[Place Deployable]], [[Unconscious]] }}
+
+
+{{section-common-skills}}
+
+
+[[Category:Common Skills]]

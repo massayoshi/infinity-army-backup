@@ -1,0 +1,68 @@
+{{section-combat-module}}
+
+
+{{n4only}}
+{{n4}}
+These weapons place a Template at the point of impact.
+
+{{n4end}}{{n4list}}
+{{skillbox |bluegrey| IMPACT TEMPLATE WEAPONS |}}
+{{Requirements}}
+* '''Impact Template Weapons require an Attack Roll, using BS, PH''' or the appropriate Attribute, to hit.
+* It is obligatory to declare a valid Main Target, who will be the reference to place the Circular Template.
+* The Template must be placed '''when declaring the [[Attack]]''' in order to determine which Troopers and Game Elements (Markers, Deployable weapons or Equipment...) will be affected by the Attack, as this may influence their possible ARO, or second Short Skill of their Order. {{seefaq}}
+{{effects}}
+* The Circular Template only applies its effect on each affected Trooper if the [[Normal Roll|Normal]] or [[Face to Face Roll]] is successful.
+* The Trooper who declared the Attack compares this Roll against each enemy Trooper affected by the Template individually. Each enemy Trooper affected by the template resolves their Face to Face Roll completely independently of each other. The Face to Face Roll of one affected enemy Trooper '''cannot''' affect the Face to Face Rolls of the others (see the example below).
+* All MODs applied to the attacker's Roll are determined by the Main Target. As stated above, this Roll will be compared '''separately''' against the Rolls of each enemy Trooper affected by the Template.
+* The center of the '''Circular Template''' (Blast Focus) must match the center of the underside of the Main Target's base. All other Troopers affected by the Circular Template suffer the Attack as well.
+* In order to [[Dodge]] an Attack with an Impact Template Weapon, the Main Target or any other affected Trooper can make a Face to Face Roll with their [[PH]] (or PH-3 in the cases mentioned under Effects) against the attacker's Attack Roll.
+* Impact Template, '''Special Cases''':
+** When using an Impact Template Weapon with the [[Targetless]] Trait (such those using [[Smoke Ammunition]]), you do not need to declare an enemy Trooper as the target; the target can be an area on the game table.
+** When declaring '''[[Speculative Attack]]''' with an Impact Template Weapon, you do not have to place the Circular Template under the center of the target's base.
+{{n4end}}
+{{n4}}
+
+
+{{important-start}}
+To [[Dodge]] an Attack with several Impact Templates in the same Order, every Face to Face Roll must be performed separately against the [[PH]] Roll (or PH-3 Roll, according to the case) of the target Trooper, allowing the Trooper to dodge all Templates with a single Roll. 
+{{important-end}}
+
+
+{{greybox-start | Example of Impact Template Weapon. Targets React with BS Attack and Dodge Without LoF. Shot Cancelled. }}
+{{image | name=eng-impact-example-cancelled-1024.jpg | style= fullborder }}
+
+The Unidron declares BS Attack with his Plasma Carbine in Blast Mode, targeting Fusiliers 1 and 2, hoping that the template would also affect Fusilier 3. 
+
+After declaring the BS Attack, the Circular Templates are centered on the Fusiliers and it is indeed checked that they also affect Fusilier 3, as well as the Unconscious Unidron next to Fusilier 1.
+
+Therefore, Fusilier 3 gains the right to ARO, since he was affected by a Template Weapon and the other Attack, declared against Fusilier 1, was cancelled because it affected an Allied Trooper.
+
+In that moment, Fusiliers 1 and 2 declare their AROs: BS Attack. Fusilier 3 declares Dodge (PH-3 due to the lack of LoF to his attacker).
+
+Thus, the following Rolls are performed:
+
+One Normal Roll from Fusilier 1 against the Unidron. 
+
+Two Face to Face Rolls from the Unidron against Fusiliers 2 and 3. The result obtained by the Unidron after applying all relevant MODs will be compared separately with the BS Attack of Fusilier 2 and the Dodge of Fusilier 3. 
+{{greybox-end}}
+{{n4end}}
+
+
+== FAQs & Errata ==
+
+
+{{faqbox |
+type = faq |
+title = N4 FAQ |
+version = 1.2, Jan 2022 |
+q = Q: How are Impact Template Weapons placed during the Order Expenditure Sequence? |
+a = A: The Main Target must be in LoF when declaring the Attack. |
+related = [[Impact Template Weapons]], [[Trooper Activation]] }}
+
+
+{{section-combat-module}}
+
+
+
+[[Category: Combat Module]]

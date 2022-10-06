@@ -1,0 +1,60 @@
+{{section-movement-module}}
+{{section-common-skills}}
+
+
+Common Skill that allows the user to move about the battlefield.
+
+{{skillbox |blue| MOVE | SHORT MOVEMENT SKILL}}
+{{skill-label | Movement, No LoF, No Roll.}}
+{{Requirements}}
+* Players will check the Requirements of this Skill when declaring it.
+** The Trooper’s base must always be in contact with the surface on which they intend to move. 
+** Any surface they move on must be at least half as wide as their base. {{seefaq | You must use the full width if available.}}
+** The Trooper must be able to finish their movement on a surface that’s equal to or larger than their base. 
+{{Effects}}
+* Allows the user to traverse the battlefield up to a distance determined by his [[MOV]] Attribute.
+* By declaring Move, the user may move up to the first value of his [[MOV]] Attribute in inches. 
+* If the user declares Move again in the same Order, he may then move up to the second value of his [[MOV]] Attribute in inches. 
+* Move must follow the [[General Movement Rules]] as well as the ''[[Moving and Measuring]] rules''.
+
+
+== Examples ==
+{{greybox-start | Move over catwalks and narrow corridors }}
+{{image | name=eng-move-narrow-1-1024.jpg | style=fullborder }}
+
+{{image | name=eng-move-narrow-2-1024.jpg | style= fullborder }}
+
+{{image | name=eng-move-narrow-3-1024.jpg | style= fullborder }}
+{{greybox-end}}
+
+
+{{greybox-start | Order (Move + Move) on surfaces that are smaller than the base}}
+{{image | name=eng-move-smaller-than-base.jpg | style= fullborder }}
+
+Although in both cases the Distance covered is 8 inches, in case B, it is not possible to carry out the movement because there is no valid surface at the end of the first Movement value.
+{{greybox-end}}
+
+
+== FAQs & Errata ==
+
+{{faqbox |
+type = faq |
+title = N4 FAQ |
+version = Updated 1.1.1, Dec 2021 |
+q = Q: While using Move or Climb, can you move 'through' a corner {{erratahighlight}}or overhang the edge of the surface{{erratahighlight-end}}, in the same way that you can move through a space that's half the width of the Trooper's base? |
+a = A: No. If the space is wide enough for the Trooper's full base, you must use the full base.
+
+Examples: 
+
+{{image | name=dual-faq10-1.jpg | style= 256border }}
+{{image | name=dual-faq10-2.jpg | style= 256border }}
+{{image | name=dual-faq10-3.jpg | style= 256border }} |
+related = [[Climb]], [[Climbing Plus]], [[Move]] }}
+
+
+{{section-movement-module}}
+{{section-common-skills}}
+
+
+[[Category: Common Skills]]
+[[Category: Movement Module]]

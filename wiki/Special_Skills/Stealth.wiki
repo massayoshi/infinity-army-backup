@@ -1,0 +1,58 @@
+{{section-special-skills}}
+
+
+{{n4only}}
+{{n4list}}
+The user of this Special Skill has received special training with a focus on silent movement, the art of remaining undetected, and the capacity to strike an unsuspecting enemy with unrelenting close combat attacks from out of the blue.
+
+{{skillbox |black| STEALTH | AUTOMATIC SKILL }}
+{{skill-label | CC Special Skill, Optional. }}
+{{requirements}}
+* The user of this Special Skill must be in his Active Turn.
+{{effects}}
+* The user can declare [[Cautious Movement]] inside the [[Zone of Control]] of enemy [[Model]]s and [[Marker]]s.
+* If the user declares a [[Short Movement Skill]] or Cautious Movement within the Zone of Control of one or more enemies and stays outside their [[LoF]], he does '''not''' grant [[ARO]]s to those enemies.
+* However, if the second Short Skill of the Order is any non-Movement Skill, then those enemies can react normally in ARO.
+* If the Movement of the Trooper with Stealth ends in [[Silhouette contact]] with an enemy who had no LoF against them and declares any non-Movement Short Skill, then the enemy can only declare [[CC Attack]], [[Dodge]], [[Reset]], or those Skills that can be used in [[Engaged State]].
+* This CC Special Skill can be declared without being in Silhouette contact with an enemy.
+
+
+{{Important-start}}
+Stealth is not effective against [[Deployable Weapon]]s, or against Troopers with the [[Sixth Sense]] Special Skill.
+{{important-end}}
+
+
+== FAQs & Errata ==
+
+{{faqbox |
+type = faq |
+title = N4 FAQ |
+version = 1.0, Jan 2021 |
+q = Q: Which Automatic Skills or Equipment have to be declared when in a Marker State? |
+a = A: Automatic Skills and Equipment that alter how an Order activates a Trooper, or restrict AROs, must be declared when used in Marker State. For example using NCO to spend the Lieutenant Special Order, or using Stealth. |
+related = [[Lieutenant]], [[NCO]], [[Open and Private Information]], [[Stealth]] }}
+
+
+{{faqbox |
+type = faq |
+title = N4 FAQ |
+version = 1.0, Jan 2021 |
+q = Q: Does Stealth work against Reactive Troopers outside Zone of Control? |
+a = A: Yes. Stealth applies to Reactive Troopers who do not have Line of Fire to them, including Hackers who are outside their Zone of Control and do not have Line of Fire. |
+related = [[Stealth]] }}
+
+
+{{faqbox |
+type = faq |
+title = N4 FAQ |
+version = Updated 1.1.1, Dec 2021 |
+q = Q: If several Troopers are activated at once (for example a Coordinated Order or a Fireteam) and one of them uses Stealth while outside a reactive Trooper's ZoC or Hacking Area, can the Trooper that used Stealth be chosen as the target of AROs? |
+a = <s>A: Yes, but the ARO will only be considered valid if the Stealth user performs a Skill that allows AROs.</s>
+{{erratahighlight}}A: Yes, but the ARO will become an Idle if the Stealth user does not declare a Skill that allows AROs.{{erratahighlight-end}} |
+related = [[Coordinated Orders]], [[Fireteams in the Active Turn]], [[Stealth]] }}
+
+{{n4end}}
+
+
+
+[[Category:Special Skills]]

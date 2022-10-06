@@ -1,0 +1,64 @@
+{{section-ammo-and-weaponry}}
+{{section-game-states}}
+
+{{image | name=eng-imm-a.jpg | style=128 }}
+
+{{skillbox |black| IMMOBILIZED-A | }}
+{{Activation}}
+*The Trooper suffered a successful Attack or Effect using an [[Ammunition]], [[Hacking Program]] or a game condition or Scenario Special Rule, capable of causing this state. 
+{{Effects}}
+*Troopers in Immobilized-A State cannot declare any Skill or ARO, except '''[[Dodge]]''', applying a -6 [[PH]] [[MOD]]. {{seefaq | State MODs are cumulative.}}
+*Automatic [[Special Skills]] and [[Equipment]] continue to work, but the Trooper must still respect all declaration restrictions. 
+*Troopers in Immobilized-A State continue to provide Orders to their [[Order Pool]].
+{{Cancellation}}
+*The affected Trooper may cancel this state via a successful Normal or Face to Face [[Dodge]] Roll, applying the -6 [[PH]] [[MOD]] provided by this state.
+*A Trooper with the '''[[Engineer]]''' Special Skill (or an equivalent Skill) may cancel Immobilized-A State by spending one Short Skill of an Order while in [[Silhouette contact]] with the affected Trooper, and passing a Normal '''[[WIP]]''' Roll (or the Roll specified by the Special Skill or Scenario).
+
+
+== Example ==
+{{greybox-start | BS Attack Against a Trooper in Immobilized-A State}}
+{{image | name=eng-bs-attack-vs-imm-a.jpg | style=512border }}
+
+Let's suppose a Zhanshi is in Immobilized-A state. 
+
+A Betatrooper spends an Order, declares Move + BS Attack, and uses their Spitfire against the Zhanshi. 
+
+In this state, the Zhanshi may only declare [[Dodge]] as their ARO, with a -6 MOD.
+
+Therefore, a Face to Face Roll of 4 Spitfire shots is made against 1 Dodge Roll. 
+
+The Zhanshi will apply the following MODs to the Dodge Roll:
+
+: -6 for Immobilized-A.
+
+With a PH Attribute of 10, the Success Value (SV) will be 10 - 6 = 4.
+
+The Betatrooper will apply the following MODs to the BS Attack Roll:
+
+: +3 for Range.
+: -3 for Cover.
+
+With a BS Attribute of 13, the Success Value (SV) will be 13 + 3 - 3 = 13.
+
+Resolution:
+
+The Zhanshi loses the Face to Face Roll, so he suffers 3 Spitfire hits, since the 4th (with a result of 14) is a miss for the Betatrooper.
+{{greybox-end}}
+
+
+== FAQs & Errata ==
+
+{{faqbox |
+type = faq |
+title = N4 FAQ |
+version = 1.0, Jan 2021 |
+q = Q: Do State MODs all stack with each other? For example, if a Trooper is in IMM-B and Targeted State, do they apply a -6 MOD to all their Reset Rolls? |
+a = A: Yes. |
+related = [[Dodge]], [[Immobilized-A State]], [[Immobilized-B State]], [[Isolated State]], [[Reset]], [[Targeted State]] }}
+
+
+{{section-ammo-and-weaponry}}
+
+
+
+[[Category: Ammunition and Weaponry]]
