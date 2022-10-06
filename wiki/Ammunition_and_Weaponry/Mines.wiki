@@ -1,0 +1,199 @@
+{{section-ammo-and-weaponry}}
+
+
+Mines are a type of Deployable Weapon used to control small areas of the battlefield and influence the movement of enemy troops. There are various types of Mines available, all of them work following the same mechanics, but they feature different types of Special Ammunition with their corresponding specific properties.
+
+
+{{n4}}
+{{image | name=a-p_mine0.jpg | style= 128inline }}
+{{image | name=e-m_mine0.jpg | style= 128inline }}
+{{image | name=monofilament_mine0.jpg | style= 128inline }}
+{{image | name=shock_mine0.jpg | style= 128inline }}
+{{image | name=viral_mine0.jpg | style= 128inline }}
+
+
+{{n4end}}
+==Mines==
+{{skillbox |black| MINES |}}
+{{skill-label |Concealed, Deployable, Disposable (3), Direct Template (Small Teardrop)}}
+{{effects}}
+*When the player declares the [[Place Deployable]] Common Skill, instead of placing a Token to represent the Mine, he will place a Camouflaged Marker (CAMO (-3)).
+*Replace the Camouflage Marker [CAMO (-3)] with a Mine Token [MINE (-3)] when it is discovered by an enemy.
+*The Camouflage Marker and the Mine Token both benefit from the [[MODs]] provided by the [[Mimetism]] (-3) Special Skill.
+*Mines have a 360˚ LoF arc.
+{{c1}}
+*As a Direct Template Weapon, when a Mine is triggered, a '''Small Teardrop Template''' must be placed and the Damage and Ammunition specified in the Weapons Chart must be applied.
+{{c1end}}{{n4list}}
+*As a Direct Template Weapon, when any type of Mine is triggered, a '''Small Teardrop Template''' must be placed and the Damage and Ammunition specified in the Weapons Chart must be applied.
+{{n4end}}
+*The Small Teardrop Template must be placed so that it affects the enemy Model or Marker that triggered the Mine.
+*A Mine '''never''' triggers if the Small Teardrop Template would affect an ally, even if that ally is [[Unconscious]].
+{{c1}}
+*Once on the game table, Mines must trigger when an enemy Model or Marker declares or executes a '''Skill or ARO inside their Trigger Area'''. When this is the case, if, by placing the Small Teardrop Template, it is determined that the Model or Marker is not within the Trigger Area, the Mine will '''neither detonate nor be revealed'''.
+{{c1end}}{{n4list}}
+* Once on the game table, Mines must trigger when an enemy Model or Marker declares or executes a '''Skill or ARO inside their Trigger Area''', checking it at that moment by placing the Small Teardrop Template. If it is determined that the Model or Marker is not within the Trigger Area, the Mine will '''neither detonate nor be revealed'''.
+{{n4end}}
+*Once a Mine triggers, it is removed from play. 
+*A Mine is a Template Weapon and a [[Deployable Weapon]], so imposes a -3 [[PH]] MOD to any attempt to [[Dodge]] its effects.
+*The Trigger Area of a Mine (whether it is a Camouflage Marker or a Mine Token) is the area within the radius of the Small Teardrop Template, extended out from the edge of the base of the Mine.
+*The Trigger Area excludes any areas in Total Cover from the Blast Focus of the Small Teardrop Template (see graphic).
+{{c1}}
+*A Mine cannot be placed if there is an enemy [[Camouflaged | Camouflage]] Marker inside its Trigger Area. This restriction does not apply if there is a valid, non-camouflaged enemy inside the Trigger Area.
+{{c1end}}{{n4list}}
+*A Mine cannot be placed if there is an enemy [[Camouflaged | Camouflage]] Marker inside its Trigger Area. This restriction does not apply if there is a valid, non-camouflaged enemy inside the Trigger Area, or if an [[Intuitive Attack]] was declared.
+{{n4end}}
+
+
+{{c1}}
+{{weapon}}
+{{weaponrow|Anti-Personnel Mine| | | | | | | |13|1|N|ARM|[[Concealed]], [[Deployable]], [[Direct Template (Small Teardrop)]], [[Disposable]] (3), [*see above].}}
+|}
+
+{| class="wikitable-dark"
+|-
+! Name !! ARM !! BTS !! STR !! S
+|-
+| Mine || 0 || 0 || 1 || X
+|}
+{{c1end}}{{n4}}
+{{weapon}}
+{{weaponrow|Mine| | | | | | | |13|1|N|ARM|[[Concealed]], [[Deployable]], [[Direct Template (Small Teardrop)]], [[Disposable]] (3), [*see above].}}
+|}
+
+{| class="wikitable-dark"
+|-
+! Name !! ARM !! BTS !! STR !! S
+|-
+| Mine || 0 || 0 || 1 || X
+|}
+{{n4end}}
+
+
+{{explain-start}}
+You may consult the types of Mine listed in the [[Weapon Chart]].
+{{explain-end}}
+
+
+{{c1}}
+{{remember-start}}
+The [[Dodge]] movement during the 5.1  step of the Order Expenditure Sequence does not generate AROs or trigger Deployable Weapons or Equipment.
+{{remember-end}}
+{{c1end}}{{n4list}}
+{{remember-start}}
+[[Dodge]] movement and movement from failed [[Guts Roll]]s does not generate AROs or trigger Deployable Weapons or Equipment.
+{{remember-end}}
+
+
+=== Cybermines (Exceptions) ===
+
+{{image | name=cybermine0.jpg | style= 128 }}
+
+* Cybermines must trigger when an enemy Model or Marker that is a [[Hacker]] or possesses the [[Hackable]] Characteristic ([[HI]], [[TAG]], [[REM]]...) declares or executes an Order or ARO inside their Trigger Area.
+* As a [[Comms Attack]], Cybermines can only be evaded with [[Reset]], instead of [[Dodge]]. However, as they are also a [[Template Weapon]] and a [[Deployable Weapon]], Cybermines impose a '''-3 WIP MOD to Reset.''' 
+* Troopers who suffer a successful Cybermine impact will have to perform '''two''' [[Saving Rolls]] against Damage 15. If the target fails either Saving Roll, it will enter [[Immobilized-B]] State.
+{{n4end}}
+
+
+== Trigger Area ==
+{{image | name=eng-trigger-area-1024.jpg | style=512border }}
+
+
+{{n4list}}
+== Chest Mines ==
+* This weapon has two Modes of use.
+** In BS Weapon Mode, Chest Mines function as a [[Direct Template Weapon]], not applying the Mines rule. 
+** In CC Weapon Mode, Chest Mines function as a [[CC Weapon]], not applying the Mines rule. If the user wins the Face to Face Roll, the Chest Mine will affect all enemy Troopers in base to base contact with its bearer. This weapon cannot be used in [[CC]] if there are allied troopers in base to base contact with its bearer.
+* The [[Disposable]] (2) Trait is shared between all Modes. The bearer of this weapon has only two uses available, no matter which Modes are used.
+* The detonation of a Chest Mine doesn't affect its bearer.
+
+
+{{weapon}}
+{{weaponrow|[[Chest Mines]] (CC Mode)| | | | | | | |13|1|SHOCK|ARM|[[CC Attack (+3)]], [[Disposable (2)]]}}
+{{weaponrow|[[Chest Mines]] (BS Mode)| | | | | | | |13|1|SHOCK|ARM|[[Traits#Intuitive_Attack | Intuitive Attack]], [[Disposable (2)]], [[Direct Template (Small Teardrop)]], [[Double Shot]]}}
+|}
+
+
+== Drop Bears ==
+"Drop Bear" is the colloquial name used in the military for a thrown version of the Mine. The operator of this weapon can throw it, even over an obstacle, or alternatively can deploy it within arm's reach like an old-fashioned mine.
+
+{{skillbox |black| DROP BEAR |  }}
+{{effects}}
+This weapon has two modes of use, as a [[Deployable Weapon]] and as a [[Throwing Weapon]]:
+* Drop Bear (Deployable Weapon Mode):
+** In this Mode, Drop Bears work just like a Mine, so is placed with the [[Place Deployable]] or [[Intuitive Attack]] Common Skills, except that a Mine Token [Mine (-3)] is placed instead of a Camouflage Marker. 
+* Drop Bear (Throwing Weapon Mode):
+** You do not need a target to throw a Drop Bear as a Throwing Weapon, simply choose the desired location and make the corresponding Roll. If you pass the Roll, the Drop Bear is successfully deployed and becomes a Mine, placing a Mine Token [MINE (-3)] in the Conclusion step of the Order.
+** A Drop Bear never detonates during the same Order in which it is thrown as a Throwing Weapon.
+** In Throwing Weapon Mode, Drop Bears cannot be placed where there is an enemy Camouflage Marker inside its Trigger Area. This restriction does not apply if there is a valid, non-camouflaged enemy inside the Trigger Area.
+* The [[Disposable]] (3) Trait is shared between all Modes. The bearer of this weapon has only three uses available, no matter which Modes are used.
+
+
+{{weapon}}
+{{weaponrow|Drop Bears (Throwing Weapon)|+3|-3|--|--|--|--|--|--|1|--|--|[[Throwing Weapon]], [[Speculative Attack]], [[Disposable]] (3), [[Targetless]],  [*see above]}}
+{{weaponrow|Drop Bears (Deployable Weapon)|--|--|--|--|--|--|--|13|1|SHOCK|ARM|[[Intuitive Attack]], [[Disposable]] (3), [[Direct Template (Small Teardrop)]], [[Deployable]],  [*see above]}}
+|}
+
+{| class="wikitable-dark"
+|-
+! Name !! ARM !! BTS !! STR !! S
+|-
+| Drop Bear || 0 || 0 || 1 || X
+|}
+
+
+== Mine Dispenser ==
+A Disposable BS Weapon that shoots Shock Mines and which allows its user to perform Speculative Attacks.
+
+{{skillbox |black| MINE DISPENSER |  }}
+{{effects}}
+* In game terms, this weapon uses the same rules as Drop Bears in Throwing Weapon Mode, but using the BS Attribute instead of PH. 
+
+
+{{weapon}}
+{{weaponrow|[[Mine Dispenser]]|0|+3|-3|-6|-6|-6|--|--|1|--|--|[[Traits#Speculative_Attack | Speculative Attack]], [[Disposable (2)]], [[Double Shot]], [[Targetless]], [*see above]}}
+|}
+
+{| class="wikitable-dark"
+|-
+! Name !! ARM !! BTS !! STR !! S
+|-
+| Drop Bear || 0 || 0 || 1 || X
+|}
+
+
+{{update | Jan 2021}}
+
+== WildParrot ==
+
+{{skillbox |black| WILDPARROT |  }}
+{{effects}}
+* These weapons apply the Deployable and Perimeter rule, found in the [[Place Deployable]] Skill.
+* Therefore, when players declare the Place Deployable Common Skill, they place the WildParrot totally inside the [[Zone of Control]] of the Trooper, instead of placing it in Silhouette contact.
+* Deployed WildParrots work like E/M Mines and are placed with the Place Deployable or Intuitive Attack Common Skills, except that a WildParrot Token or Model is placed instead of a Camouflage Marker.
+
+
+{{weapon}}
+{{weaponrow|WildParrot| | | | | | | |13|1|E/M|BTS|[[Traits#Intuitive_Attack | Intuitive Attack]], [[Disposable (1)]], [[Direct Template (Small Teardrop)]], [[Deployable]], [[Perimeter]]. [*see above]}}
+|}
+
+
+{| class="wikitable-dark"
+|-
+! Name !! ARM !! BTS !! STR !! S
+|-
+| WildParrot || 0 || 0 || 1 || 1
+|}
+
+{{update-end}}
+
+
+{{n4end}}
+
+
+
+
+{{section-ammo-and-weaponry}}
+
+
+
+[[Category: Ammunition and Weaponry]]

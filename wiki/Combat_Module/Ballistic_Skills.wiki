@@ -1,0 +1,106 @@
+{{section-combat-module}}
+
+
+Ranged combat and firefights are the foundation of modern warfare and play an equally pivotal role in Infinity. 
+
+
+== BS ATTACK MODIFIERS (MOD) ==
+
+Before performing the [[BS Attack]] Roll (or Rolls), the player must check every [[MOD]] they must apply. There are [[MOD]]s that will affect the numerical value of the roll, the Attribute and others may affect the BS Attack Roll's [[Burst]] (B). Existing [[MOD]]s are:
+
+*Cover
+*Range
+*Special Skills, Weapons, pieces of Equipment, or States.
+
+
+=== Cover ===
+
+The term Cover refers to all pieces of scenery that partially or completely obstruct [[LoF]], thus preventing the attacker from making a clean [[BS Attack]].
+
+{{effects}}
+{{update | 1.2, Jan 2022}}
+*If the target is in '''Total Cover''', the attacker may not {{erratahighlight}}perform{{erratahighlight-end}} a BS Attack with Weapons, Special Skills, or Equipment, that requires '''LoF'''.
+*If the target is in '''Partial Cover''', the attacker will apply a -3 [[MOD]] to their BS Attack Roll and the target of the [[BS Attack]] reduces the [[Attack Damage]] by 3 for [[Saving Roll]] purposes, if the Roll was necessary.
+{{update-end}}
+{{original}}
+*If the target is in '''Total Cover''', the attacker may not {{originalhighlight}}declare{{originalhighlight-end}} a BS Attack with Weapons, Special Skills, or Equipment, that requires '''LoF'''. 
+*If the target is in '''Partial Cover''', the attacker will apply a -3 [[MOD]] to their BS Attack Roll and the target of the [[BS Attack]] reduces the [[Attack Damage]] by 3 for [[Saving Roll]] purposes, if the Roll was necessary.
+{{original-end}}
+
+=== Types of Cover ===
+
+==== Total Cover ====
+Total Cover completely blocks the attacker's vision of his target, obstructing any [[LoF]] to their [[Silhouette]]. 
+
+A target is in Total Cover when one or more scenery items completely blocks [[LoF]] to its [[Silhouette]].
+
+==== Partial Cover ====
+Partial Cover does '''not''' allow the attacker to see the whole [[Silhouette]] of their BS Attack's target.
+
+A target is in Partial Cover when they are in contact with a piece of scenery that partially obscures their [[Silhouette]].
+
+
+==== Line of Fire and Cover ====
+
+NO COVER
+{{image | name=eng-lof-and-cover-nocover-1024.jpg | style=512border }}
+
+PARTIAL COVER
+
+Partial Cover due to being in contact with a scenery element that covers part of the target’s Silhouette.
+{{image | name=eng-lof-and-cover-partialcover-1024.jpg | style=512border }}
+
+TOTAL COVER
+{{image | name=eng-lof-and-cover-totalcover-1024.jpg | style=512border }}
+
+COVER AND GAME SITUATIONS
+{{image | name=dual-cover-rooftop-1024.jpg | style=512border }}
+{{image | name=dual-cover-planview-1024.jpg | style=512border }}
+In both situations the Blue Trooper has Cover from the Orange Trooper.
+
+
+=== Range ===
+
+All BS Weapons, pieces of Equipment, and Special Skills, that can make [[BS Attack]]s apply a Range MOD that depends on the distance between the attacker and the target (see [[Range]]).
+
+If the target is beyond the maximum Range of the BS Weapon, piece of Equipment or Special Skill, then the BS Attack automatically fails (the Order is spent, Disposable weapons lose a use, etc.).
+
+For example, for the Combi Rifle we have the following values:
+
+{{image | name=combi-rifle-1024.jpg | style=512border }}
+
+{{c1}}
+{{weapon}}
+{{weaponrow|Combi Rifle|+3|+3|-3|-3|-6|-6|--|13|3|N|ARM|}}
+|}
+{{c1end}}
+{{n4}}
+{{weapon}}
+{{weaponrow|Combi Rifle|+3|+3|-3|-3|-6|-6|--|13|3|N|ARM| [[Suppressive Fire Trait | Suppressive Fire]]}}
+|}
+{{n4end}}
+
+
+*If the distance between the Trooper and the Target is from 0 to 16 inches, the Trooper has a +3 [[MOD]] to their BS Attack Roll due to Range. 
+*If the distance is greater than 16 inches and equal to or less than 32 inches, the Trooper has a -3 [[MOD]] to their BS Attack Roll due to Range.
+*If the distance is greater than 32 inches and equal to or less than 48 inches, the Trooper has a -6 [[MOD]] to their BS Attack Roll due to Range.
+*The BS Attack automatically fails if the Range is more than 48 inches. 
+
+
+=== Special Skills, Weapons, Equipment, or States ===
+
+Certain Special Skills, Weapons, Equipment or States can apply a [[MOD]] to [[BS Attack]] Rolls. These Special Skills, Weapons, pieces of Equipment, or States are explained in the respective sections of this rulebook.
+
+== BS Attack Into a Close Combat ==
+If a [[BS Attack]] is declared against an enemy Trooper that is engaged in CC Combat a -6 [[MOD]] must be applied for each Allied Trooper engaged in the [[Close Combat|CC]] (in addition to any [[MODs]] for [[Range]], [[Cover]], [[Mimetism]]... for the target). 
+
+{{n4}}
+Every failed BS Attack Roll will hit the Allied Trooper, forcing them to perform a Saving Roll. If there are several Allied Troopers locked in that Close Combat, then the Trooper’s player chooses which one of them receives each hit.
+{{n4end}}
+
+
+{{section-combat-module}}
+
+
+
+[[Category: Combat Module]]

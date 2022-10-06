@@ -1,0 +1,39 @@
+{{section-ammo-and-weaponry}}
+
+
+{{n4only}}
+{{n4list}}
+This ammunition emits a high-energy electromagnetic pulse upon activation or upon impact, with the intent of disabling the target's electronics.
+
+{{skillbox |black| ELECTROMAGNETIC (E/M) AMMUNITION | }}
+{{skill-label | Non-Lethal }}
+{{Roll}}
+* After a successful attack using E/M Ammunition, the target must make '''two''' [[Saving Roll]]s per impact suffered, using half his BTS value (2 x BTS/2).
+{{effects}}
+* E/M Ammunition reduces the [[BTS]] value of its target to half of its original value, rounding up.
+* A failed [[Saving Roll]] against E/M Ammunition causes the target to enter [[Isolated State]], '''preventing it from receiving Orders from the Order Pool'''. In that case, place an Isolated Token next to the affected figure.
+* If, at the start of his following Active Turns, the Trooper is still Isolated, then he is considered to be [[Irregular]] and it does not add his [[Order]] to that Turns [[Order Pool]].
+* If the target fails a [[Saving Roll]] and is Heavy Infantry ([[HI]]), a [[TAG]], a Remote ([[REM]]) or a Vehicle, then it also enters [[Immobilized-B State]]. Place an Immobilized-B Token (IMM-B) next to it in addition to the Isolated Token.
+* A Trooper who receives an impact from E/M Ammunition and fails the Saving Roll must make the usual [[Guts Roll]], if applicable.
+* The exception to this are HIs, TAGs, Remotes and Vehicles that, having failed the Saving Roll, are now Immobilized-B and cannot make Guts Rolls. Also, Troopers possessing the [[Courage]] Special Skill, or an equivalent can ignore this rule.
+* [[Critical]] hits with E/M Ammunition cause the target to make an additional [[Saving Roll]], applying their halved BTS value.
+
+
+== FAQs & Errata ==
+
+{{faqbox |
+type = faq |
+title = N4 FAQ |
+version = 1.0, Jan 2021 |
+q = Q: How does Bioimmunity interact with Ammunition and Traits that reduce the Saving Roll Attribute, for example AP or E/M Ammunition, or ARM=0? |
+a = A: AP Ammunition is tied to the Saving Roll Attribute listed in a weapon’s profile. If Bioimmunity is used to make the Saving Roll against a different Attribute, that Attribute will not be halved.
+In the same way, if Bioimmunity is used against a hit by E/M Ammunition to make the Saving Rolls against ARM, the ARM value will not be halved.
+The ARM=0 Trait only applies if the Saving Roll is made against the ARM Attribute, and vice-versa for the BTS=0 Trait. |
+related = [[Armor Piercing (AP) Ammunition]], [[Bioimmunity]], [[Electromagnetic (E/M) Ammunition]], [[Traits]] }}
+
+{{n4end}}
+
+
+
+
+[[Category: Ammunition and Weaponry]]

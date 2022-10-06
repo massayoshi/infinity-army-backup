@@ -1,0 +1,23 @@
+{{section-game-states}}
+
+{{image | name=eng-disconnected.jpg | style=128 }}
+
+{{skillbox |red| Disconnected State | NULL}}
+{{activation}}
+* The Controller of this Trooper is in a Null state. 
+{{n4list}}
+* The Peripheral fails a [[Coherency]] Check.
+{{n4end}}
+* The [[Peripheral]] is subject to a successful Attack or Effect of an Ammunition, Hacking Program, condition, or Scenario Special Rule that specifies that it causes this state. 
+{{effects}}
+* A Peripheral in this state '''cannot execute Orders or AROs'''.
+* A Peripheral in this State does '''not''' count towards the Player's [[Victory Points]]. 
+{{cancellation}}
+* This state is automatically cancelled if the Controller of this Peripheral recovers from the [[Null]] state which caused the activation of the Disconnected State.
+* If this State was caused by an Attack, a piece of scenery, or a Scenario Special Rule applied to this Trooper, then  a Trooper with the '''[[Engineer]]''' Special Skill (or an equivalent Skill) may cancel this State by spending one Short Skill of an Order while in [[Silhouette contact]] with the affected Trooper, and passing a Normal '''[[WIP]]''' Roll (or the Roll specified by the Special Skill or Scenario).
+{{n4list}}
+* If this State was caused by failing a [[Coherency]] Check, it is automatically cancelled by passing a Coherency Check at the end of an Order or ARO.
+{{n4end}}
+
+
+[[Category: Game States]]

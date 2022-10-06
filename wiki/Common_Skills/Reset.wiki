@@ -1,0 +1,65 @@
+{{section-common-skills}}
+
+
+This Common Skill allows the user to sidestep cyber-attacks by quickly rebooting all systems.
+
+{{skillbox |greenyellow| RESET | SHORT SKILL / ARO}}
+{{skill-label | No LoF}}
+{{Requirements}}
+{{update | 1.1.1, Dec 2021}}
+'''Troopers can only Reset if at least one of these is true:'''
+*They are the Active Trooper.
+*{{erratahighlight}}In the [[Reactive Turn]], if they are allowed to declare an ARO.
+{{update-end}}
+{{original}}
+'''Troopers can only Reset if at least one of these is true:'''
+*They are the Active Trooper.
+*{{originalhighlight}}In the [[Reactive Turn]], they have a valid ARO, or are targeted by a [[Hacking Program]] or other [[Comms Attack]]. {{seefaq}}
+{{original-end}}
+{{effects}}
+*Allows the user to make a Face to Face Roll to evade all enemy [[Hacking Programs]] or other [[Comms Attacks]] during an Order or ARO, regardless of the [[Burst]] (B) value.
+*This Face to Face Roll pits the user's [[WIP]] Attribute against the attacker's [[WIP]] Attribute.
+*If the user is not making a Face to Face Roll (for example they are not the target of a [[Hacking Program]] or other [[Comms Attack]]), they will instead make a Normal Roll against their [[WIP]] Attribute.
+*Reset does not allow the user to evade other types of Attacks, but the [[Dodge]] Skill does.
+*A successful [[Reset]] Roll, whether it's a Normal or Face to Face, allows the user to cancel their [[Targeted]] State and [[IMM-B]] State, applying any State-specific [[MODs]]. {{seefaq | State MODs are cumulative.}}
+
+
+{{remember-start}}
+A Reset only allows Face to Face Rolls against [[Hacking Attacks]] and other [[Comms Attacks]]. 
+{{remember-end}}
+
+
+== FAQs & Errata ==
+
+{{faqbox |
+type = faq |
+title = N4 FAQ |
+version = 1.0, Jan 2021 |
+q = Q: Do State MODs all stack with each other? For example, if a Trooper is in IMM-B and Targeted State, do they apply a -6 MOD to all their Reset Rolls? |
+a = A: Yes. |
+related = [[Dodge]], [[Immobilized-A State]], [[Immobilized-B State]], [[Isolated State]], [[Reset]], [[Targeted State]] }}
+
+
+{{faqbox |
+type = faq |
+title = <s>N4 FAQ</s> |
+version = Removed in 1.1.1, Dec 2021 <s>1.0, Jan 2021</s> |
+q = <s>Q: How do Hacking Area AROs work, and do they allow the Trooper to Dodge?</s> |
+a = <s>A: Hacking Program AROs and Reset AROs are considered valid AROs for a Hacker if the Active Trooper is inside the Hacker’s Hacking Area. Dodge AROs are not considered valid for Hacking Area AROs.</s>  |
+related = [[Dodge]], [[Hacking Area]], [[Reset]] }}
+
+
+{{faqbox |
+type = errata |
+title = <s>N4 Errata</s> |
+version = Removed in 1.1.1, Dec 2021 <s>1.0, Jan 2021</s> |
+q = <s>[Errata] In the Hacking example (p61), the Knight of Justice and the Orc both declare an ARO but this appears to contradict the rules for AROs</s>. |
+a = <s>Remember that non-LoF AROs can be declared anyway, and then in the ARO Check step you find out if the ARO was valid.</s> |
+related = [[Hacking Area]], [[Reset]] }}
+
+
+{{section-common-skills}}
+
+
+
+[[Category:Common Skills]]

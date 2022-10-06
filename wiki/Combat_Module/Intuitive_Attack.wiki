@@ -1,0 +1,56 @@
+{{section-combat-module}}
+{{section-common-skills}}
+
+
+{{n4only}}
+{{n4}}
+Intuitive Attack represents those times when a soldier perceives movement through the corner of his eye and instinctively sprays the area with his weapon in the hopes of unearthing a hidden enemy.
+{{n4end}}
+{{n4list}}
+{{skillbox |red| INTUITIVE ATTACK | ENTIRE ORDER }}
+{{skill-label | Attack }}
+{{requirements}}
+* The user must employ a BS Weapon with the [[Intuitive Attack Trait]].
+* The target of the Intuitive Attack (or Main Target if using a Template Weapon) must be '''outside the user's [[LoF]]''' due to a [[Zero Visibility Zone]], or be in a State that would normally prevent Attacks from being performed against them without previously being [[Discover]]ed, such as the '''[[Camouflaged]]''' State.
+{{effects}}
+* The user may perform a single [[BS Attack]] Roll against the target. {{seefaq | BS Attack Damage MODs etc. will apply.}}
+* '''The B will always be 1''' regardless of the actual B value of the Weapon or any MODs applied to the B.
+* In order to make an Intuitive Attack, the user must pass an unmodified [[WIP]] Roll. MODs from [[Partial Cover]], Special Skills, pieces of Equipment or any other source do not apply to this Roll.
+* If the target reacts by declaring an Attack or [[Dodge]], his reaction is simultaneous and resolved by a [[Face to Face Roll]], if applicable.
+* If the user fails his WIP Roll, he cannot attempt to make another Intuitive Attack against the same target until his next Active Turn.
+* If more than one enemy would be affected by the Intuitive Attack, the shooter must choose only one of them as the Main Target.
+* If the WIP Roll is a Critical, it counts as a Critical against the Main Target of the attack, and '''only''' the Main Target. Against other targets affected by the Intuitive Attack, it is a successful Roll instead of a Critical.
+* An Intuitive Attack must be declared in order '''to place a Deployable Weapon''' on the gaming table if there is an enemy Camouflaged Marker (CAMO) inside its Trigger Area. This restriction does not apply if there is a valid, non-camouflaged enemy Model inside the Trigger Area. <br>If the WIP Roll is failed, the Deployable Weapon is not placed on the table and, if it also has the Disposable Trait, one use must be considered spent. 
+
+
+{{greybox-start | Example of Intuitive Attack }}
+{{image | name=eng-direct-template-cancelled-1024.jpg | style=512border }}
+
+The Betatrooper declares Intuitive Attack against the Camouflaged Marker [CAMO].
+
+The Marker [CAMO] has two options:
+* Declare nothing and not reveal itself unless the Betatrooper passes the required WIP Roll, in which case it will be hit by the template and be forced to make the corresponding Saving Roll, which would reveal it. 
+* Declare Dodge, BS Attack, etc. and oppose the Betatrooper's WIP Roll with its ARO. 
+In this situation, if the Fusilier was affected by the Template, his Roll would oppose the Betatrooper's WIP Roll.
+{{greybox-end}}
+
+
+== FAQs & Errata ==
+
+{{faqbox |
+type = faq |
+title = N4 FAQ |
+version = 1.0, Jan 2021 |
+q = Q: Do Skills that let you perform a 'BS Attack Roll' (for example Intuitive Attack and Speculative Attack), or have the BS Attack Label, count as a BS Attack for MODs? For example if the Trooper has 'BS Attack (+1 Damage)' or 'BS Attack (AP)'. |
+a = A: Yes. |
+related = [[BS Attack]], [[Intuitive Attack]], [[Labels]], [[Skills and Equipment in Infinity]], [[Speculative Attack]] }}
+
+{{n4end}}
+
+
+{{section-combat-module}}
+{{section-common-skills}}
+
+
+
+[[Category: Combat Module]]

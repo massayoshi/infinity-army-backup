@@ -1,0 +1,50 @@
+{{section-combat-module}}
+{{section-game-states}}
+
+
+{{skillbox |black| ENGAGED STATE |}}
+{{Activation}}
+{{c1}}
+* The Trooper is in [[Silhouette contact]] with an Enemy Trooper, and neither are in a [[Null]] or [[Immobilized]] State. 
+{{c1end}}
+{{n4list}}
+* The Trooper is in [[Silhouette contact]] with an Enemy Trooper, and neither are in an [[Immobilized]] or [[Null]] (except [[Sepsitorized]] or [[Possessed]]) State. 
+{{n4end}}
+{{effects}}
+*Troopers in Engaged State are considered to be in Close Combat.
+*Troopers in this State can only declare [[CC Attack]], [[Dodge]], [[Idle]], [[Reset]], and Skills that specify that they can be used in [[Close Combat]] or in Engaged State. {{seefaq | Berserk can be declared while in Engaged State.}}
+*Troopers that are in Engaged State may not trace [[LoF]] outside their [[Close Combat]].
+*By declaring BS Attack on a Trooper in Engaged State, the [[Ballistic_Skills#BS_Attack_Into_a_Close_Combat|BS Attack against a Close Combat]] rule must be applied.
+*Template Weapons placed on a group of Troopers in Engaged state will always affect '''all '''participating Troopers, even if the placement of the Template would only affect one of them.
+{{cancellation}}
+*This State is cancelled when the Trooper in question ceases to be in [[Silhouette]] contact with any Enemy Troopers. 
+{{c1}}
+*A Trooper's Engaged State is automatically cancelled if, in the Effects step of any Order, all enemies in [[Silhouette contact]] are in [[Null]] or [[Immobilized]] States. 
+{{c1end}}
+{{n4list}}
+*A Trooper's Engaged State is automatically cancelled if, in the Effects step of any Order, all enemies in [[Silhouette contact]] are in an [[Immobilized]] or [[Null]] (except [[Sepsitorized]] or [[Possessed]]) State.
+{{n4end}}
+*A Trooper may also cancel the Engaged State if they pass a '''[[Dodge]]''' Roll, either Normal or Face to Face. In this case, the Trooper must leave [[Silhouette]] contact, moving up to 2 inches to separate themselves from the enemy.
+:If they cannot move to a valid position that is outside [[Silhouette]] contact, the Trooper will remain in Engaged State without moving.
+
+
+==See Also==
+[[Line of Fire]] restrictions in CC.
+
+
+== FAQs & Errata ==
+
+{{faqbox |
+type = errata |
+title = N4 Errata |
+version = 1.0, Jan 2021 |
+q = [Errata] Can you use Berserk if you start the Order in Engaged State? |
+a = Yes. Berserk can be declared while in Engaged State. |
+related = [[Berserk]], [[Engaged State]] }}
+
+
+{{section-combat-module}}
+{{section-game-states}}
+
+
+[[Category: Combat Module]]
