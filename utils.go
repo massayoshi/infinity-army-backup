@@ -2,11 +2,11 @@ package main
 
 import (
 	"errors"
-	"fmt"
 	"io"
 	"log"
 	"net/http"
 	"os"
+	"time"
 
 	"github.com/joho/godotenv"
 )
@@ -38,18 +38,30 @@ func createFile(fileName string, data []byte, update bool) {
 	file.Sync()
 }
 
-func getHTTPResponse(url string) []byte {
-	response, err := http.Get(url)
+func httpClient() *http.Client {
+	client := &http.Client{Timeout: 10 * time.Second}
+	return client
+}
+
+func sendRequest(client *http.Client, endpoint string) []byte {
+	req, err := http.NewRequest("GET", endpoint, nil)
 	if err != nil {
-		fmt.Print(err.Error())
-		os.Exit(1)
+		log.Fatalf("Error Occurred. %+v", err)
 	}
 
-	responseData, err := io.ReadAll(response.Body)
+	response, err := client.Do(req)
 	if err != nil {
-		log.Fatal(err)
+		log.Fatalf("Error sending request to API endpoint. %+v", err)
 	}
-	return responseData
+
+	defer response.Body.Close()
+
+	body, err := io.ReadAll(response.Body)
+	if err != nil {
+		log.Fatalf("Couldn't parse response body. %+v", err)
+	}
+
+	return body
 }
 
 func getEnvVar(value string) string {

@@ -2,20 +2,26 @@ package main
 
 import (
 	"encoding/json"
+	"fmt"
+	"net/http"
 	"net/url"
 	"strings"
+	"sync"
 )
 
 var (
-	wikiPageURL     string = getEnvVar("WIKI_PAGE_EN_URL")
-	wikiPageListURL string = getEnvVar("WIKI_ALL_EN_URL")
+	wikiPageURL     = getEnvVar("WIKI_PAGE_EN_URL")
+	wikiPageListURL = getEnvVar("WIKI_ALL_EN_URL")
 	urlList         []string
 )
 
-func wiki() {
-	getPageList(wikiPageListURL)
+func wiki(wg *sync.WaitGroup) {
+	defer wg.Done()
+	c := httpClient()
+
+	getPageList(c, wikiPageListURL)
 	for _, url := range urlList {
-		var pageData = getHTTPResponse(url)
+		var pageData = sendRequest(c, url)
 		var pageObject WikiPage
 		json.Unmarshal(pageData, &pageObject)
 
@@ -27,6 +33,10 @@ func wiki() {
 		pageName = strings.ReplaceAll(pageName, "/", "")
 		pageName = strings.ReplaceAll(pageName, " ", "_")
 
+		var revisions = pageObject.Query.Pages[0].Revisions
+		if len(revisions) > 1 {
+			fmt.Println("More than one revision for " + pageName)
+		}
 		var pageContent = pageObject.Query.Pages[0].Revisions[0].Slots.Main.Content
 
 		if strings.Contains(pageContent, "#redirect") {
@@ -44,12 +54,12 @@ func wiki() {
 	}
 }
 
-func getPageList(url string) {
-	var data = getHTTPResponse(url)
-	parsePageList(data)
+func getPageList(client *http.Client, url string) {
+	var data = sendRequest(client, url)
+	parsePageList(client, data)
 }
 
-func parsePageList(data []byte) {
+func parsePageList(client *http.Client, data []byte) {
 	var pageList = make(map[string]interface{})
 	json.Unmarshal(data, &pageList)
 	var pages = pageList["query"].(map[string]interface{})["allpages"].([]interface{})
@@ -62,7 +72,7 @@ func parsePageList(data []byte) {
 	if pageList["continue"] != nil {
 		var apContinue = pageList["continue"].(map[string]interface{})["apcontinue"].(string)
 		var continueURL = wikiPageListURL + "&apcontinue=" + apContinue
-		getPageList(continueURL)
+		getPageList(client, continueURL)
 	}
 }
 

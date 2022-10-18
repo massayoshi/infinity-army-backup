@@ -5,22 +5,38 @@ import (
 	"fmt"
 	"os"
 	"strings"
+	"sync"
 )
 
 var (
-	armyN4URL        string = getEnvVar("ARMY_N4_EN_URL")
-	armyCodeoneURL   string = getEnvVar("ARMY_CODEONE_EN_URL")
-	factionBaseEnURL string = getEnvVar("FACTION_N4_BASE_EN_URL")
+	armyN4URL        = getEnvVar("ARMY_N4_EN_URL")
+	armyCodeoneURL   = getEnvVar("ARMY_CODEONE_EN_URL")
+	factionBaseEnURL = getEnvVar("FACTION_N4_BASE_EN_URL")
 )
 
-func main() {
-	fetchArmyData("n4", armyN4URL)
-	fetchArmyData("codeone", armyCodeoneURL)
-	wiki()
+func init() {
+	createFolder("assets")
+	createFolder("assets/factions")
+	createFolder("assets/units")
+	createFolder("wiki")
 }
 
-func fetchArmyData(version string, endpoint string) {
-	var armyData = getHTTPResponse(endpoint)
+func main() {
+	var wg sync.WaitGroup
+	wg.Add(3)
+
+	fetchArmyData("n4", armyN4URL, &wg)
+	fetchArmyData("codeone", armyCodeoneURL, &wg)
+	wiki(&wg)
+
+	wg.Wait()
+}
+
+func fetchArmyData(version string, endpoint string, wg *sync.WaitGroup) {
+	defer wg.Done()
+
+	c := httpClient()
+	var armyData = sendRequest(c, endpoint)
 	var armyObject Army
 	json.Unmarshal(armyData, &armyObject)
 
@@ -29,18 +45,21 @@ func fetchArmyData(version string, endpoint string) {
 
 	for i := 0; i < len(armyObject.Factions); i++ {
 		var factionID = armyObject.Factions[i].ID
-		var factionSlug string = armyObject.Factions[i].Slug
-		var factionLogoURL = getHTTPResponse(armyObject.Factions[i].Logo)
+		var factionSlug = armyObject.Factions[i].Slug
+		var factionLogoPath = "assets/factions/" + factionSlug + ".svg"
 
-		createFile("assets/factions/"+factionSlug+".svg", factionLogoURL, false)
+		if _, err := os.Stat(factionLogoPath); os.IsNotExist(err) {
+			factionLogoData := sendRequest(c, armyObject.Factions[i].Logo)
+			createFile(factionLogoPath, factionLogoData, false)
+		}
 
 		if factionID != 901 { // skipping non-aligned armies
-			var factionData = getHTTPResponse(factionBaseEnURL + fmt.Sprintf("%d", factionID))
+			var factionData = sendRequest(c, factionBaseEnURL+fmt.Sprintf("%d", factionID))
 			var factionObject Faction
 			json.Unmarshal(factionData, &factionObject)
 			var factionFolderPath = version + "/" + factionSlug
 
-			var fileName string = factionFolderPath + "/" + factionObject.Version + ".json"
+			var fileName = factionFolderPath + "/" + factionObject.Version + ".json"
 			createFolder(factionFolderPath)
 			createFile(fileName, factionData, false)
 
@@ -51,7 +70,7 @@ func fetchArmyData(version string, endpoint string) {
 				var unitLogoPath = "assets/units/" + unitLogoFileName
 
 				if _, err := os.Stat(unitLogoPath); os.IsNotExist(err) {
-					var unitLogoData = getHTTPResponse(unitLogoURL)
+					var unitLogoData = sendRequest(c, unitLogoURL)
 					createFile(unitLogoPath, unitLogoData, false)
 				}
 			}
