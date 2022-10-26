@@ -30,6 +30,7 @@ func main() {
 	wiki(&wg)
 
 	wg.Wait()
+	showFinalMessage()
 }
 
 func fetchArmyData(version string, endpoint string, wg *sync.WaitGroup) {

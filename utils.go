@@ -2,10 +2,13 @@ package main
 
 import (
 	"errors"
+	"fmt"
 	"io"
 	"log"
 	"net/http"
 	"os"
+	"os/exec"
+	"strings"
 	"time"
 
 	"github.com/joho/godotenv"
@@ -71,4 +74,19 @@ func getEnvVar(value string) string {
 	}
 
 	return os.Getenv(value)
+}
+
+func showFinalMessage() {
+	cmdStruct := exec.Command("git", "status")
+	out, err := cmdStruct.Output()
+	if err != nil {
+		fmt.Println(err)
+	}
+	if strings.Contains(string(out), "nothing to commit") {
+		fmt.Println("Nothing has been changed")
+		os.Exit(0)
+	} else {
+		fmt.Println("Changes have been made")
+		fmt.Println(string(out))
+	}
 }
