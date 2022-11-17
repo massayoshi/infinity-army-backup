@@ -23,11 +23,11 @@ func init() {
 
 func main() {
 	var wg sync.WaitGroup
-	wg.Add(2)
+	wg.Add(3)
 
 	fetchArmyData("n4", armyN4URL, &wg)
 	fetchArmyData("codeone", armyCodeoneURL, &wg)
-	//wiki(&wg)
+	wiki(&wg)
 
 	wg.Wait()
 	showFinalMessage()
