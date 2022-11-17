@@ -1,6 +1,8 @@
 package main
 
 import (
+	"bytes"
+	"encoding/json"
 	"errors"
 	"fmt"
 	"io"
@@ -89,4 +91,10 @@ func showFinalMessage() {
 		fmt.Println("Changes have been made")
 		fmt.Println(string(out))
 	}
+}
+
+func prettyPrint(data []byte) []byte {
+	var out bytes.Buffer
+	json.Indent(&out, data, "", "  ")
+	return out.Bytes()
 }

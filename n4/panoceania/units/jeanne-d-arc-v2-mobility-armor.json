@@ -1,0 +1,222 @@
+{
+  "id": 42,
+  "idArmy": 42,
+  "canonical": 101,
+  "isc": "Jeanne d'Arc v2 (Mobility Armor)",
+  "iscAbbr": null,
+  "name": "JOAN OF ARC v2 (Mobility Armor)",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 10,
+      "isc": "Jeanne d'Arc v2 (Mobility Armor)",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 3,
+          "ava": 1,
+          "bs": 15,
+          "bts": 6,
+          "cc": 23,
+          "chars": [
+            1,
+            3,
+            21
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/jeanne-d-arc-v2-mobility-armor-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            5
+          ],
+          "ph": 14,
+          "s": 2,
+          "str": false,
+          "type": 3,
+          "w": 2,
+          "wip": 15,
+          "name": "JOAN OF ARC v2 (Mobility Armor)",
+          "notes": null,
+          "skills": [
+            {
+              "id": 21,
+              "order": 1
+            },
+            {
+              "id": 40,
+              "order": 3,
+              "extra": [
+                23
+              ]
+            },
+            {
+              "id": 52,
+              "order": 4
+            },
+            {
+              "id": 86,
+              "order": 5
+            },
+            {
+              "id": 58,
+              "order": 6,
+              "extra": [
+                33
+              ]
+            },
+            {
+              "id": 83,
+              "order": 7
+            },
+            {
+              "id": 162,
+              "order": 8,
+              "extra": [
+                30
+              ]
+            },
+            {
+              "id": 250,
+              "order": 9,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 50,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 74,
+              "order": 1
+            },
+            {
+              "id": 65,
+              "order": 2
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 8,
+              "order": 4
+            }
+          ],
+          "name": "JOAN OF ARC v2",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 3,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "LIEUTENANT",
+              "list": 0,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 50,
+          "swc": "1",
+          "weapons": [
+            {
+              "id": 74,
+              "order": 1
+            },
+            {
+              "id": 65,
+              "order": 2
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 8,
+              "order": 4
+            }
+          ],
+          "name": "JOAN OF ARC v2",
+          "skills": [
+            {
+              "id": 119,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "jeanne-d-arc-v2-mobility-armor",
+  "filters": {
+    "categories": [
+      10
+    ],
+    "skills": [
+      21,
+      40,
+      52,
+      58,
+      83,
+      86,
+      119,
+      162,
+      250
+    ],
+    "equip": [],
+    "chars": [
+      1,
+      3,
+      21
+    ],
+    "types": [
+      3
+    ],
+    "weapons": [
+      8,
+      65,
+      69,
+      74
+    ],
+    "ammunition": [
+      2,
+      6
+    ]
+  },
+  "factions": [
+    101,
+    103
+  ],
+  "notes": "There can be only one Joan of Arc in each Army List."
+}

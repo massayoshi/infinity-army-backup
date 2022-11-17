@@ -1,0 +1,306 @@
+{
+  "id": 328,
+  "idArmy": 28,
+  "canonical": 401,
+  "isc": "Hassassin Lasiqs",
+  "iscAbbr": null,
+  "name": "HASSASSIN LASIQS",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 3,
+      "isc": "Hassassin Lasiqs",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 2,
+          "ava": 2,
+          "bs": 12,
+          "bts": 0,
+          "cc": 15,
+          "chars": [
+            2,
+            3,
+            5
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/hassassin-lasiqs-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 10,
+          "s": 2,
+          "str": false,
+          "type": 1,
+          "w": 1,
+          "wip": 14,
+          "name": "HASSASSIN LASIQS",
+          "notes": null,
+          "skills": [
+            {
+              "id": 162,
+              "order": 3,
+              "extra": [
+                30
+              ]
+            },
+            {
+              "id": 28,
+              "order": 4,
+              "extra": [
+                6
+              ]
+            },
+            {
+              "id": 82,
+              "order": 5
+            },
+            {
+              "id": 83,
+              "order": 6
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 27,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 39,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 2
+            },
+            {
+              "id": 5,
+              "order": 3
+            }
+          ],
+          "name": "LASIQ",
+          "skills": [
+            {
+              "extra": [
+                4
+              ],
+              "id": 201,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 3,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 117,
+              "order": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 26,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 43,
+              "order": 1
+            },
+            {
+              "id": 28,
+              "order": 2
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            }
+          ],
+          "name": "LASIQ",
+          "skills": [
+            {
+              "extra": [
+                4
+              ],
+              "id": 201,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 4,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 117,
+              "order": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 25,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 43,
+              "order": 1
+            },
+            {
+              "id": 28,
+              "order": 2
+            },
+            {
+              "id": 72,
+              "order": 3
+            },
+            {
+              "id": 69,
+              "order": 4
+            },
+            {
+              "id": 5,
+              "order": 5
+            }
+          ],
+          "name": "LASIQ",
+          "skills": [
+            {
+              "id": 59,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 5,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 25,
+          "swc": "1",
+          "weapons": [
+            {
+              "id": 84,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 2
+            },
+            {
+              "id": 5,
+              "order": 3
+            }
+          ],
+          "name": "LASIQ",
+          "skills": [
+            {
+              "extra": [
+                4
+              ],
+              "id": 201,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "hassassin-lasiqs",
+  "filters": {
+    "categories": [
+      3
+    ],
+    "skills": [
+      28,
+      59,
+      82,
+      83,
+      162,
+      201
+    ],
+    "equip": [
+      117
+    ],
+    "chars": [
+      2,
+      3,
+      5
+    ],
+    "types": [
+      1
+    ],
+    "weapons": [
+      5,
+      28,
+      39,
+      43,
+      69,
+      72,
+      84
+    ],
+    "ammunition": [
+      2,
+      29,
+      38
+    ]
+  },
+  "factions": [
+    401,
+    402
+  ]
+}

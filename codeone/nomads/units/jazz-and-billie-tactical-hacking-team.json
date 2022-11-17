@@ -1,0 +1,241 @@
+{
+  "id": 1551,
+  "idArmy": 1551,
+  "canonical": 501,
+  "isc": "Jazz\u0026Billie, Tactical Hacking Team",
+  "iscAbbr": null,
+  "name": "JAZZ \u0026 BILLIE, Tactical Hacking Team",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 0,
+      "isc": "Jazz\u0026Billie, Tactical Hacking Team",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 0,
+          "ava": 1,
+          "bs": 11,
+          "bts": 6,
+          "cc": 16,
+          "chars": [
+            3
+          ],
+          "equip": [
+            {
+              "id": 100,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/jazz-billie-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 10,
+          "s": 2,
+          "str": false,
+          "type": 1,
+          "w": 1,
+          "wip": 14,
+          "name": "JAZZ \u0026 BILLIE, Tactical Hacking Team",
+          "notes": null,
+          "skills": [],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": true,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 0,
+          "swc": "0.5",
+          "weapons": [
+            {
+              "id": 77,
+              "order": 1
+            },
+            {
+              "id": 61,
+              "order": 2
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 71,
+              "order": 4
+            }
+          ],
+          "name": "JAZZ",
+          "skills": [
+            {
+              "id": 1000,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": 0,
+      "isc": "Billie, Customized Support Remote",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 0,
+          "ava": 1,
+          "bs": 10,
+          "bts": 3,
+          "cc": 13,
+          "chars": [
+            3,
+            21
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/jazz-billie-2.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            10
+          ],
+          "ph": 10,
+          "s": 1,
+          "str": true,
+          "type": 5,
+          "w": 1,
+          "wip": 13,
+          "name": "Billie, Customized Support Remote",
+          "notes": null,
+          "skills": [],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": true,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 0,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 61,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 2
+            },
+            {
+              "id": 71,
+              "order": 3
+            }
+          ],
+          "name": "BILLIE",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [
+    {
+      "chars": [],
+      "compatible": null,
+      "disabled": false,
+      "equip": [],
+      "habilities": [],
+      "id": 1,
+      "includes": [
+        {
+          "group": 1,
+          "option": 1,
+          "q": 1
+        },
+        {
+          "group": 2,
+          "option": 1,
+          "q": 1
+        }
+      ],
+      "minis": 2,
+      "name": "JAZZ Hacker \u0026 BILLIE",
+      "orders": [
+        {
+          "list": 2,
+          "total": 2,
+          "type": "REGULAR"
+        }
+      ],
+      "peripheral": [],
+      "points": 2,
+      "skills": [],
+      "swc": "0.5",
+      "weapons": []
+    }
+  ],
+  "slug": "jazz-and-billie-tactical-hacking-team",
+  "filters": {
+    "categories": [],
+    "skills": [
+      1000
+    ],
+    "equip": [
+      100
+    ],
+    "chars": [
+      3,
+      21
+    ],
+    "types": [
+      1,
+      5
+    ],
+    "weapons": [
+      61,
+      69,
+      71,
+      77
+    ],
+    "ammunition": [
+      2,
+      35,
+      37
+    ]
+  },
+  "factions": [
+    501,
+    502
+  ]
+}

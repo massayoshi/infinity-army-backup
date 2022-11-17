@@ -1,0 +1,307 @@
+{
+  "id": 518,
+  "idArmy": 27,
+  "canonical": 601,
+  "isc": "Yaogat Strike Infantry",
+  "iscAbbr": null,
+  "name": "YAOGAT Strike Infantry",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 5,
+      "isc": "Yaogat Strike Infantry",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 3,
+          "ava": 2,
+          "bs": 12,
+          "bts": 3,
+          "cc": 15,
+          "chars": [
+            1,
+            3,
+            5
+          ],
+          "equip": [
+            {
+              "id": 115,
+              "order": 1
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/yaogat-strike-infantry-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 12,
+          "s": 2,
+          "str": false,
+          "type": 2,
+          "w": 1,
+          "wip": 13,
+          "name": "YAOGAT Strike Infantry",
+          "notes": null,
+          "skills": [
+            {
+              "id": 122,
+              "order": 2
+            },
+            {
+              "id": 83,
+              "order": 3
+            },
+            {
+              "id": 88,
+              "order": 4
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 27,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 33,
+              "order": 1
+            },
+            {
+              "id": 68,
+              "order": 2
+            },
+            {
+              "id": 107,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            }
+          ],
+          "name": "YAOGAT",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 27,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 26,
+              "order": 1
+            },
+            {
+              "id": 68,
+              "order": 2
+            },
+            {
+              "id": 107,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            }
+          ],
+          "name": "YAOGAT",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 3,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 35,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 36,
+              "order": 1
+            },
+            {
+              "id": 107,
+              "order": 2
+            },
+            {
+              "id": 5,
+              "order": 3
+            }
+          ],
+          "name": "YAOGAT",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 5,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 32,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 74,
+              "order": 1
+            },
+            {
+              "id": 107,
+              "order": 2
+            },
+            {
+              "id": 5,
+              "order": 3
+            }
+          ],
+          "name": "YAOGAT",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 6,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 100,
+              "order": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 32,
+          "swc": "0.5",
+          "weapons": [
+            {
+              "id": 33,
+              "order": 1
+            },
+            {
+              "id": 68,
+              "order": 2
+            },
+            {
+              "id": 107,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            }
+          ],
+          "name": "YAOGAT",
+          "skills": [
+            {
+              "id": 1000,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "yaogat-strike-infantry",
+  "filters": {
+    "categories": [
+      5
+    ],
+    "skills": [
+      83,
+      88,
+      122,
+      1000
+    ],
+    "equip": [
+      100,
+      115
+    ],
+    "chars": [
+      1,
+      3,
+      5
+    ],
+    "types": [
+      2
+    ],
+    "weapons": [
+      5,
+      26,
+      33,
+      36,
+      68,
+      74,
+      107
+    ],
+    "ammunition": [
+      2,
+      3,
+      8,
+      9,
+      13,
+      35
+    ]
+  },
+  "factions": [
+    601,
+    602
+  ]
+}

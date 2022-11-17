@@ -1,0 +1,225 @@
+{
+  "id": 596,
+  "idArmy": 16,
+  "canonical": 701,
+  "isc": "Probots",
+  "iscAbbr": null,
+  "name": "PROBOTS",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 8,
+      "isc": "Probots",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 2,
+          "ava": 1,
+          "bs": 11,
+          "bts": 3,
+          "cc": 13,
+          "chars": [
+            3,
+            5,
+            21
+          ],
+          "equip": [
+            {
+              "id": 91,
+              "order": 1
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/probots-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 10,
+          "s": 4,
+          "str": true,
+          "type": 5,
+          "w": 1,
+          "wip": 13,
+          "name": "PROBOTS",
+          "notes": null,
+          "skills": [
+            {
+              "id": 235,
+              "order": 1
+            },
+            {
+              "id": 162,
+              "order": 2,
+              "extra": [
+                30
+              ]
+            },
+            {
+              "id": 84,
+              "order": 3,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 238,
+              "order": 1
+            },
+            {
+              "id": 63,
+              "order": 2
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 8,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 71,
+              "order": 1
+            }
+          ],
+          "name": "PROBOT",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 182,
+              "order": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 15,
+          "swc": "0.5",
+          "weapons": [
+            {
+              "id": 71,
+              "order": 1
+            }
+          ],
+          "name": "PROBOT",
+          "skills": [
+            {
+              "id": 1000,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 3,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 63,
+              "order": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 19,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 33,
+              "order": 1
+            },
+            {
+              "id": 71,
+              "order": 2
+            }
+          ],
+          "name": "PROBOT",
+          "skills": [
+            {
+              "id": 61,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "probots",
+  "filters": {
+    "categories": [
+      8
+    ],
+    "skills": [
+      61,
+      84,
+      162,
+      235,
+      1000
+    ],
+    "equip": [
+      63,
+      91,
+      182,
+      238
+    ],
+    "chars": [
+      3,
+      5,
+      21
+    ],
+    "types": [
+      5
+    ],
+    "weapons": [
+      33,
+      71
+    ],
+    "ammunition": [
+      2,
+      37
+    ]
+  },
+  "factions": [
+    701,
+    702,
+    703
+  ]
+}

@@ -1,0 +1,280 @@
+{
+  "id": 649,
+  "idArmy": 4,
+  "canonical": 801,
+  "isc": "Gao-Tarsos Unit",
+  "iscAbbr": null,
+  "name": "GAO-TARSOS Unit",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 3,
+      "isc": "Gao-Tarsos Unit",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 3,
+          "ava": 3,
+          "bs": 12,
+          "bts": 0,
+          "cc": 17,
+          "chars": [
+            1,
+            3,
+            5
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/gao-tarsos-unit-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 12,
+          "s": 2,
+          "str": false,
+          "type": 2,
+          "w": 1,
+          "wip": 13,
+          "name": "GAO-TARSOS Unit",
+          "notes": null,
+          "skills": [
+            {
+              "id": 162,
+              "order": 1,
+              "extra": [
+                30
+              ],
+              "q": 1
+            },
+            {
+              "id": 33,
+              "order": 2,
+              "q": 1
+            },
+            {
+              "id": 35,
+              "order": 3,
+              "q": 1
+            },
+            {
+              "id": 246,
+              "order": 4,
+              "extra": [
+                266
+              ],
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "arm": 0,
+          "ava": -1,
+          "bs": 12,
+          "bts": 0,
+          "cc": 17,
+          "chars": [
+            1,
+            3,
+            5
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/gao-tarsos-unit-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 11,
+          "s": 2,
+          "str": false,
+          "type": 1,
+          "w": 1,
+          "wip": 13,
+          "name": "Inactive Symbiont Armor",
+          "notes": null,
+          "skills": [
+            {
+              "id": 162,
+              "order": 1,
+              "extra": [
+                30
+              ],
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 2251,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 35,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 74,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 2
+            },
+            {
+              "id": 5,
+              "order": 3
+            }
+          ],
+          "name": "GAO-TARSOS",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2252,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 29,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 26,
+              "order": 1
+            },
+            {
+              "id": 17,
+              "order": 2
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            }
+          ],
+          "name": "GAO-TARSOS",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2253,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 106,
+              "order": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 31,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 33,
+              "order": 1
+            },
+            {
+              "id": 17,
+              "order": 2
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            }
+          ],
+          "name": "GAO-TARSOS",
+          "skills": [
+            {
+              "id": 64,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "gao-tarsos-unit",
+  "filters": {
+    "categories": [
+      3
+    ],
+    "skills": [
+      33,
+      35,
+      64,
+      162,
+      246
+    ],
+    "equip": [
+      106
+    ],
+    "chars": [
+      1,
+      3,
+      5
+    ],
+    "types": [
+      1,
+      2
+    ],
+    "weapons": [
+      5,
+      17,
+      26,
+      33,
+      69,
+      74
+    ],
+    "ammunition": [
+      2,
+      3,
+      13
+    ]
+  },
+  "factions": [
+    801
+  ]
+}

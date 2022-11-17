@@ -1,0 +1,119 @@
+{
+  "id": 406,
+  "idArmy": 15,
+  "canonical": 501,
+  "isc": "Clockmakers",
+  "iscAbbr": null,
+  "name": "Bakunin CLOCKMAKERS",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 0,
+      "isc": "Clockmakers",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 1,
+          "ava": 1,
+          "bs": 11,
+          "bts": 3,
+          "cc": 14,
+          "chars": [
+            3
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/clockmakers-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 10,
+          "s": 2,
+          "str": false,
+          "type": 1,
+          "w": 1,
+          "wip": 15,
+          "name": "Bakunin CLOCKMAKERS",
+          "notes": null,
+          "skills": [
+            {
+              "id": 49,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 0,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 33,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            }
+          ],
+          "name": "CLOCKMAKER",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "clockmakers",
+  "filters": {
+    "categories": [],
+    "skills": [
+      49
+    ],
+    "equip": [],
+    "chars": [
+      3
+    ],
+    "types": [
+      1
+    ],
+    "weapons": [
+      5,
+      33,
+      69
+    ],
+    "ammunition": [
+      2
+    ]
+  },
+  "factions": [
+    501,
+    502,
+    503,
+    504,
+    905,
+    907
+  ]
+}

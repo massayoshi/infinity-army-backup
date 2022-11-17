@@ -1,0 +1,155 @@
+{
+  "id": 185,
+  "idArmy": 13,
+  "canonical": 202,
+  "isc": "Sophotects",
+  "iscAbbr": null,
+  "name": "SOPHOTECTS",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 8,
+      "isc": "Sophotects",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 2,
+          "ava": 1,
+          "bs": 11,
+          "bts": 0,
+          "cc": 13,
+          "chars": [
+            3,
+            5,
+            20
+          ],
+          "equip": [
+            {
+              "id": 237,
+              "order": 1
+            },
+            {
+              "id": 106,
+              "order": 2
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/sophotects-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            10
+          ],
+          "ph": 11,
+          "s": 2,
+          "str": false,
+          "type": 1,
+          "w": 1,
+          "wip": 15,
+          "name": "SOPHOTECTS",
+          "notes": null,
+          "skills": [
+            {
+              "id": 84,
+              "order": 1
+            },
+            {
+              "id": 49,
+              "order": 2
+            },
+            {
+              "id": 53,
+              "order": 3
+            },
+            {
+              "id": 86,
+              "order": 4
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 31,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 33,
+              "order": 1
+            },
+            {
+              "id": 17,
+              "order": 2
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            }
+          ],
+          "name": "SOPHOTECT",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "sophotects",
+  "filters": {
+    "categories": [
+      8
+    ],
+    "skills": [
+      49,
+      53,
+      84,
+      86
+    ],
+    "equip": [
+      106,
+      237
+    ],
+    "chars": [
+      3,
+      5,
+      20
+    ],
+    "types": [
+      1
+    ],
+    "weapons": [
+      5,
+      17,
+      33,
+      69
+    ],
+    "ammunition": [
+      2,
+      13
+    ]
+  },
+  "factions": [
+    202,
+    701,
+    703
+  ]
+}

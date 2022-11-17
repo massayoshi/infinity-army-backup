@@ -1,0 +1,209 @@
+{
+  "id": 1507,
+  "idArmy": 1507,
+  "canonical": 101,
+  "isc": "Bøyg Soldiers",
+  "iscAbbr": null,
+  "name": "BØYG SOLDIERS",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 3,
+      "isc": "Bøyg Soldiers",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 5,
+          "ava": 2,
+          "bs": 14,
+          "bts": 6,
+          "cc": 19,
+          "chars": [
+            1,
+            3,
+            5,
+            21
+          ],
+          "equip": [
+            {
+              "extra": [
+                6
+              ],
+              "id": 241,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/boyg-soldiers-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 13,
+          "s": 5,
+          "str": false,
+          "type": 3,
+          "w": 2,
+          "wip": 12,
+          "name": "BØYG SOLDIERS",
+          "notes": null,
+          "skills": [
+            {
+              "id": 201,
+              "order": 1,
+              "extra": [
+                8
+              ]
+            },
+            {
+              "id": 40,
+              "order": 2,
+              "extra": [
+                1
+              ]
+            },
+            {
+              "id": 40,
+              "order": 3,
+              "extra": [
+                11
+              ],
+              "q": 1
+            },
+            {
+              "id": 162,
+              "order": 5,
+              "extra": [
+                30
+              ],
+              "q": 1
+            },
+            {
+              "id": 58,
+              "order": 6,
+              "extra": [
+                33
+              ],
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 47,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 58,
+              "order": 1
+            },
+            {
+              "id": 107,
+              "order": 2
+            },
+            {
+              "id": 10,
+              "order": 3
+            }
+          ],
+          "name": "BØYG",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 47,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 64,
+              "order": 1
+            },
+            {
+              "id": 107,
+              "order": 2
+            },
+            {
+              "id": 10,
+              "order": 3
+            }
+          ],
+          "name": "BØYG",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "boyg-soldiers",
+  "filters": {
+    "categories": [
+      3
+    ],
+    "skills": [
+      40,
+      58,
+      162,
+      201
+    ],
+    "equip": [
+      241
+    ],
+    "chars": [
+      1,
+      3,
+      5,
+      21
+    ],
+    "types": [
+      3
+    ],
+    "weapons": [
+      10,
+      58,
+      64,
+      107
+    ],
+    "ammunition": [
+      2,
+      6,
+      8,
+      13
+    ]
+  },
+  "factions": [
+    101,
+    106
+  ]
+}

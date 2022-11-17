@@ -1,0 +1,126 @@
+{
+  "id": 1302,
+  "idArmy": 65,
+  "canonical": 601,
+  "isc": "Shasvastii Tensho Experts",
+  "iscAbbr": null,
+  "name": "TENSHO Experts",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 0,
+      "isc": "Shasvastii Tensho Experts",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 0,
+          "ava": 1,
+          "bs": 11,
+          "bts": 3,
+          "cc": 13,
+          "chars": [
+            3
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/shasvastii-tensho-experts-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 11,
+          "s": 2,
+          "str": false,
+          "type": 1,
+          "w": 1,
+          "wip": 14,
+          "name": "TENSHO Experts",
+          "notes": null,
+          "skills": [
+            {
+              "id": 237,
+              "order": 1
+            },
+            {
+              "id": 62,
+              "order": 2
+            },
+            {
+              "id": 189,
+              "order": 3
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 3,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 1,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 26,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 2
+            },
+            {
+              "id": 5,
+              "order": 3
+            }
+          ],
+          "name": "TENSHO",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "shasvastii-tensho-experts",
+  "filters": {
+    "categories": [],
+    "skills": [
+      62,
+      189,
+      237
+    ],
+    "equip": [],
+    "chars": [
+      3
+    ],
+    "types": [
+      1
+    ],
+    "weapons": [
+      5,
+      26,
+      69
+    ],
+    "ammunition": [
+      2,
+      3
+    ]
+  },
+  "factions": [
+    601,
+    603
+  ]
+}

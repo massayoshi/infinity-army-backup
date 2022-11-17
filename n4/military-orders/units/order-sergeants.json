@@ -1,0 +1,440 @@
+{
+  "id": 24,
+  "idArmy": 24,
+  "canonical": 101,
+  "isc": "Order Sergeants",
+  "iscAbbr": null,
+  "name": "ORDER SERGEANTS",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 4,
+      "isc": "Order Sergeants",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 1,
+          "ava": 4,
+          "bs": 12,
+          "bts": 3,
+          "cc": 16,
+          "chars": [
+            1,
+            3,
+            5
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/order-sergeants-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 10,
+          "s": 2,
+          "str": false,
+          "type": 1,
+          "w": 1,
+          "wip": 13,
+          "name": "ORDER SERGEANTS",
+          "notes": null,
+          "skills": [
+            {
+              "id": 83,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 13,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 33,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 2
+            },
+            {
+              "id": 5,
+              "order": 3
+            }
+          ],
+          "name": "ORDER SERGEANT",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 3,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 15,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 89,
+              "order": 2
+            },
+            {
+              "id": 70,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            }
+          ],
+          "name": "ORDER SERGEANT",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 5,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 100,
+              "order": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 18,
+          "swc": "0.5",
+          "weapons": [
+            {
+              "id": 33,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 2
+            },
+            {
+              "id": 5,
+              "order": 3
+            }
+          ],
+          "name": "ORDER SERGEANT",
+          "skills": [
+            {
+              "id": 1000,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 14,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [
+            {
+              "group": 2,
+              "option": 1,
+              "q": 1
+            }
+          ],
+          "points": 17,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 33,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 2
+            },
+            {
+              "id": 5,
+              "order": 3
+            }
+          ],
+          "name": "ESCORT SERGEANT",
+          "skills": [],
+          "peripheral": [
+            {
+              "id": 59
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [
+            {
+              "group": 2,
+              "option": 1,
+              "q": 1
+            }
+          ],
+          "points": 19,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 89,
+              "order": 1
+            },
+            {
+              "id": 70,
+              "order": 2
+            },
+            {
+              "id": 5,
+              "order": 3
+            }
+          ],
+          "name": "ESCORT SERGEANT",
+          "skills": [],
+          "peripheral": [
+            {
+              "id": 59
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 100,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [
+            {
+              "group": 2,
+              "option": 1,
+              "q": 1
+            }
+          ],
+          "points": 22,
+          "swc": "0.5",
+          "weapons": [
+            {
+              "id": 33,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 2
+            },
+            {
+              "id": 5,
+              "order": 3
+            }
+          ],
+          "name": "ESCORT SERGEANT",
+          "skills": [
+            {
+              "id": 1000,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": [
+            {
+              "id": 59
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": 4,
+      "isc": "",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 0,
+          "ava": -1,
+          "bs": 10,
+          "bts": 3,
+          "cc": 8,
+          "chars": [
+            21,
+            27
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/order-sergeants-2-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            10
+          ],
+          "ph": 10,
+          "s": 1,
+          "str": true,
+          "type": 5,
+          "w": 1,
+          "wip": 11,
+          "name": "AUXBOT",
+          "notes": null,
+          "skills": [
+            {
+              "id": 243,
+              "order": 1,
+              "extra": [
+                40
+              ]
+            },
+            {
+              "id": 84,
+              "order": 2
+            },
+            {
+              "id": 162,
+              "order": 3,
+              "extra": [
+                30
+              ]
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": true,
+          "equip": [],
+          "minis": 1,
+          "orders": [],
+          "includes": [],
+          "points": 4,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 57,
+              "order": 1
+            },
+            {
+              "id": 71,
+              "order": 2
+            }
+          ],
+          "name": "AUXBOT",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "order-sergeants",
+  "filters": {
+    "categories": [
+      4
+    ],
+    "skills": [
+      83,
+      84,
+      162,
+      243,
+      1000
+    ],
+    "equip": [
+      100
+    ],
+    "chars": [
+      1,
+      3,
+      5,
+      21,
+      27
+    ],
+    "types": [
+      1,
+      5
+    ],
+    "weapons": [
+      5,
+      33,
+      57,
+      69,
+      70,
+      71,
+      89
+    ],
+    "ammunition": [
+      2,
+      37
+    ]
+  },
+  "factions": [
+    101,
+    103
+  ]
+}

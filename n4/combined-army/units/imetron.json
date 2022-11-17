@@ -1,0 +1,122 @@
+{
+  "id": 527,
+  "idArmy": 36,
+  "canonical": 601,
+  "isc": "Ímetron",
+  "iscAbbr": null,
+  "name": "ÍMETRON",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 8,
+      "isc": "Ímetron",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 0,
+          "ava": 2,
+          "bs": -1,
+          "bts": 3,
+          "cc": -1,
+          "chars": [
+            2,
+            3,
+            5
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/imetron-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            -1,
+            -1
+          ],
+          "ph": -1,
+          "s": 2,
+          "str": true,
+          "type": 1,
+          "w": 1,
+          "wip": -1,
+          "name": "ÍMETRON",
+          "notes": null,
+          "skills": [
+            {
+              "id": 162,
+              "order": 1,
+              "extra": [
+                30
+              ],
+              "q": 1
+            },
+            {
+              "id": 35,
+              "order": 2,
+              "extra": [
+                250
+              ],
+              "q": 1
+            },
+            {
+              "id": 88,
+              "order": 3,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 6,
+          "swc": "0",
+          "weapons": [],
+          "name": "ÍMETRON",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "imetron",
+  "filters": {
+    "categories": [
+      8
+    ],
+    "skills": [
+      35,
+      88,
+      162
+    ],
+    "equip": [],
+    "chars": [
+      2,
+      3,
+      5
+    ],
+    "types": [
+      1
+    ],
+    "weapons": [],
+    "ammunition": []
+  },
+  "factions": [
+    601,
+    604
+  ],
+  "notes": "NOTE: This Trooper must be deployed by Combat Jump during the Deployment Phase. "
+}

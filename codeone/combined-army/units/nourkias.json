@@ -1,0 +1,300 @@
+{
+  "id": 1513,
+  "idArmy": 1513,
+  "canonical": 601,
+  "isc": "Umbra Samaritan Nourkias, Kai'l Rank",
+  "iscAbbr": "Nourkias",
+  "name": "Umbra Samaritan NOURKIAS, Kai'l Rank",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 0,
+      "isc": "Umbra Samaritan Nourkias, Kai'l Rank",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 2,
+          "ava": 1,
+          "bs": 12,
+          "bts": 3,
+          "cc": 25,
+          "chars": [
+            3
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/nourkias-null-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            5
+          ],
+          "ph": 12,
+          "s": 2,
+          "str": false,
+          "type": 1,
+          "w": 1,
+          "wip": 15,
+          "name": "Umbra Samaritan NOURKIAS, Kai'l Rank",
+          "notes": null,
+          "skills": [
+            {
+              "id": 22,
+              "order": 1
+            },
+            {
+              "id": 40,
+              "order": 5,
+              "extra": [
+                1
+              ],
+              "q": 1
+            },
+            {
+              "id": 40,
+              "order": 6,
+              "extra": [
+                23
+              ],
+              "q": 1
+            },
+            {
+              "id": 72,
+              "order": 7,
+              "q": 1
+            },
+            {
+              "id": 74,
+              "order": 10,
+              "q": 1
+            },
+            {
+              "id": 240,
+              "order": 11,
+              "extra": [
+                8
+              ],
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 0,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 103,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 2
+            },
+            {
+              "id": 11,
+              "order": 3
+            }
+          ],
+          "name": "NOURKIAS",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 100,
+              "order": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 0,
+          "swc": "0.5",
+          "weapons": [
+            {
+              "id": 103,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 2
+            },
+            {
+              "id": 11,
+              "order": 3
+            }
+          ],
+          "name": "NOURKIAS",
+          "skills": [
+            {
+              "id": 1000,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 3,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "LIEUTENANT",
+              "list": 0,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 0,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 103,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 2
+            },
+            {
+              "id": 11,
+              "order": 3
+            }
+          ],
+          "name": "NOURKIAS",
+          "skills": [
+            {
+              "id": 119,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 4,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 100,
+              "order": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "LIEUTENANT",
+              "list": 0,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 0,
+          "swc": "0.5",
+          "weapons": [
+            {
+              "id": 103,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 2
+            },
+            {
+              "id": 11,
+              "order": 3
+            }
+          ],
+          "name": "NOURKIAS",
+          "skills": [
+            {
+              "id": 119,
+              "order": 1
+            },
+            {
+              "id": 1000,
+              "order": 2
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "nourkias",
+  "filters": {
+    "categories": [],
+    "skills": [
+      22,
+      40,
+      72,
+      74,
+      119,
+      240,
+      1000
+    ],
+    "equip": [
+      100
+    ],
+    "chars": [
+      3
+    ],
+    "types": [
+      1
+    ],
+    "weapons": [
+      11,
+      69,
+      103
+    ],
+    "ammunition": [
+      2,
+      3,
+      9
+    ]
+  },
+  "factions": [
+    601,
+    604
+  ]
+}

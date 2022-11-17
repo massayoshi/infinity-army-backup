@@ -1,0 +1,175 @@
+{
+  "id": 508,
+  "idArmy": 17,
+  "canonical": 601,
+  "isc": "M-Drones",
+  "iscAbbr": null,
+  "name": "M-DRONES",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 8,
+      "isc": "M-Drones",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 0,
+          "ava": 1,
+          "bs": 11,
+          "bts": 3,
+          "cc": 13,
+          "chars": [
+            2,
+            3,
+            5,
+            21
+          ],
+          "equip": [
+            {
+              "id": 238,
+              "order": 1
+            },
+            {
+              "id": 63,
+              "order": 2
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/m-drones-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            10
+          ],
+          "ph": 10,
+          "s": 3,
+          "str": true,
+          "type": 5,
+          "w": 1,
+          "wip": 13,
+          "name": "M-DRONES",
+          "notes": null,
+          "skills": [
+            {
+              "id": 235,
+              "order": 1
+            },
+            {
+              "id": 242,
+              "order": 2
+            },
+            {
+              "id": 84,
+              "order": 3
+            },
+            {
+              "id": 162,
+              "order": 4,
+              "extra": [
+                30
+              ]
+            },
+            {
+              "id": 59,
+              "order": 5
+            },
+            {
+              "id": 58,
+              "order": 6,
+              "extra": [
+                33
+              ]
+            },
+            {
+              "id": 65,
+              "order": 7
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 16,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 33,
+              "order": 1
+            },
+            {
+              "id": 72,
+              "order": 2
+            },
+            {
+              "id": 71,
+              "order": 3
+            }
+          ],
+          "name": "M-DRONE",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "m-drones",
+  "filters": {
+    "categories": [
+      8
+    ],
+    "skills": [
+      58,
+      59,
+      65,
+      84,
+      162,
+      235,
+      242
+    ],
+    "equip": [
+      63,
+      238
+    ],
+    "chars": [
+      2,
+      3,
+      5,
+      21
+    ],
+    "types": [
+      5
+    ],
+    "weapons": [
+      33,
+      71,
+      72
+    ],
+    "ammunition": [
+      2,
+      29,
+      37
+    ]
+  },
+  "factions": [
+    601,
+    602,
+    603,
+    604
+  ]
+}

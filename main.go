@@ -23,11 +23,11 @@ func init() {
 
 func main() {
 	var wg sync.WaitGroup
-	wg.Add(3)
+	wg.Add(2)
 
 	fetchArmyData("n4", armyN4URL, &wg)
 	fetchArmyData("codeone", armyCodeoneURL, &wg)
-	wiki(&wg)
+	//wiki(&wg)
 
 	wg.Wait()
 	showFinalMessage()
@@ -61,8 +61,12 @@ func fetchArmyData(version string, endpoint string, wg *sync.WaitGroup) {
 			var factionFolderPath = version + "/" + factionSlug
 
 			var fileName = factionFolderPath + "/" + factionObject.Version + ".json"
+			var fileNamePretty = factionFolderPath + "/" + factionSlug + ".json"
+
 			createFolder(factionFolderPath)
+			createFolder(factionFolderPath + "/units")
 			createFile(fileName, factionData, false)
+			createFile(fileNamePretty, []byte(prettyPrint(factionData)), true)
 
 			for j := 0; j < len(factionObject.Resume); j++ {
 				var unitLogoURL = factionObject.Resume[j].Logo
@@ -74,6 +78,14 @@ func fetchArmyData(version string, endpoint string, wg *sync.WaitGroup) {
 					var unitLogoData = sendRequest(c, unitLogoURL)
 					createFile(unitLogoPath, unitLogoData, false)
 				}
+			}
+
+			for j := 0; j < len(factionObject.Units); j++ {
+				var unitData, _ = json.Marshal(factionObject.Units[j])
+				var unitSlug = factionObject.Units[j].Slug
+				var fileNameUnit = factionFolderPath + "/units/" + unitSlug + ".json"
+
+				createFile(fileNameUnit, []byte(prettyPrint(unitData)), true)
 			}
 		}
 	}

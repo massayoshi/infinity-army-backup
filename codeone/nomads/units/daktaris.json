@@ -1,0 +1,126 @@
+{
+  "id": 405,
+  "idArmy": 14,
+  "canonical": 501,
+  "isc": "Daktaris",
+  "iscAbbr": null,
+  "name": "DAKTARIS (Daks, Campaign Doctors)",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 0,
+      "isc": "Daktaris",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 1,
+          "ava": 1,
+          "bs": 11,
+          "bts": 0,
+          "cc": 14,
+          "chars": [
+            3
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/daktaris-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 10,
+          "s": 2,
+          "str": false,
+          "type": 1,
+          "w": 1,
+          "wip": 13,
+          "name": "DAKTARIS (Daks, Campaign Doctors)",
+          "notes": null,
+          "skills": [
+            {
+              "id": 53,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 106,
+              "order": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 1,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 33,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 2
+            },
+            {
+              "id": 5,
+              "order": 3
+            }
+          ],
+          "name": "DAKTARI",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "daktaris",
+  "filters": {
+    "categories": [],
+    "skills": [
+      53
+    ],
+    "equip": [
+      106
+    ],
+    "chars": [
+      3
+    ],
+    "types": [
+      1
+    ],
+    "weapons": [
+      5,
+      33,
+      69
+    ],
+    "ammunition": [
+      2
+    ]
+  },
+  "factions": [
+    501,
+    502,
+    503,
+    504,
+    905,
+    907
+  ]
+}

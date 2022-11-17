@@ -1,0 +1,471 @@
+{
+  "id": 415,
+  "idArmy": 24,
+  "canonical": 501,
+  "isc": "Tomcats",
+  "iscAbbr": null,
+  "name": "TOMCATS, Emergency and Rescue Special Team",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 0,
+      "isc": "Tomcats",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 1,
+          "ava": 2,
+          "bs": 12,
+          "bts": 0,
+          "cc": 14,
+          "chars": [
+            3
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/tomcats-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 11,
+          "s": 2,
+          "str": false,
+          "type": 1,
+          "w": 1,
+          "wip": 13,
+          "name": "TOMCATS, Emergency and Rescue Special Team",
+          "notes": null,
+          "skills": [
+            {
+              "id": 33,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 82,
+              "order": 3,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 0,
+          "swc": "0.5",
+          "weapons": [
+            {
+              "id": 33,
+              "order": 1
+            },
+            {
+              "id": 56,
+              "order": 2
+            },
+            {
+              "id": 69,
+              "order": 4
+            },
+            {
+              "id": 5,
+              "order": 5
+            }
+          ],
+          "name": "TOMCAT",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 4,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 2,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 33,
+              "order": 1
+            },
+            {
+              "id": 56,
+              "order": 2
+            },
+            {
+              "id": 69,
+              "order": 4
+            },
+            {
+              "id": 5,
+              "order": 5
+            }
+          ],
+          "name": "TOMCAT",
+          "skills": [
+            {
+              "id": 49,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 5,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 0,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 41,
+              "order": 1
+            },
+            {
+              "id": 28,
+              "order": 2
+            },
+            {
+              "id": 69,
+              "order": 4
+            },
+            {
+              "id": 5,
+              "order": 5
+            }
+          ],
+          "name": "TOMCAT",
+          "skills": [
+            {
+              "id": 49,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 6,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [
+            {
+              "group": 2,
+              "option": 1,
+              "q": 1
+            }
+          ],
+          "points": 0,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 33,
+              "order": 1
+            },
+            {
+              "id": 56,
+              "order": 2
+            },
+            {
+              "id": 69,
+              "order": 4
+            },
+            {
+              "id": 5,
+              "order": 5
+            }
+          ],
+          "name": "TOMCAT",
+          "skills": [
+            {
+              "id": 49,
+              "order": 1
+            }
+          ],
+          "peripheral": [
+            {
+              "id": 11
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 106,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 2,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 33,
+              "order": 1
+            },
+            {
+              "id": 56,
+              "order": 2
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            }
+          ],
+          "name": "TOMCAT",
+          "skills": [
+            {
+              "id": 53,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 8,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 106,
+              "order": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [
+            {
+              "group": 2,
+              "option": 1,
+              "q": 1
+            }
+          ],
+          "points": 0,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 33,
+              "order": 1
+            },
+            {
+              "id": 56,
+              "order": 2
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            }
+          ],
+          "name": "TOMCAT",
+          "skills": [
+            {
+              "id": 53,
+              "order": 1
+            }
+          ],
+          "peripheral": [
+            {
+              "id": 11
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": 0,
+      "isc": "Zondcats",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 0,
+          "ava": -1,
+          "bs": 8,
+          "bts": 3,
+          "cc": 8,
+          "chars": [
+            21,
+            27
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/tomcats-2-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            10
+          ],
+          "ph": 10,
+          "s": 1,
+          "str": true,
+          "type": 5,
+          "w": 1,
+          "wip": 13,
+          "name": "ZONDCATS",
+          "notes": null,
+          "skills": [
+            {
+              "id": 28,
+              "order": 3,
+              "extra": [
+                6
+              ],
+              "q": 1
+            },
+            {
+              "id": 33,
+              "order": 4,
+              "q": 1
+            },
+            {
+              "id": 243,
+              "order": 5,
+              "extra": [
+                41
+              ],
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": true,
+          "equip": [],
+          "minis": 0,
+          "orders": [],
+          "includes": [],
+          "points": 0,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 71,
+              "order": 1
+            }
+          ],
+          "name": "ZONDCAT",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "tomcats",
+  "filters": {
+    "categories": [],
+    "skills": [
+      28,
+      33,
+      49,
+      53,
+      82,
+      243
+    ],
+    "equip": [
+      106
+    ],
+    "chars": [
+      3,
+      21,
+      27
+    ],
+    "types": [
+      1,
+      5
+    ],
+    "weapons": [
+      5,
+      28,
+      33,
+      41,
+      56,
+      69,
+      71
+    ],
+    "ammunition": [
+      2,
+      9,
+      35,
+      37
+    ]
+  },
+  "factions": [
+    501,
+    502
+  ]
+}

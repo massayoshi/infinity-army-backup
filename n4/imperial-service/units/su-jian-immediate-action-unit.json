@@ -1,0 +1,294 @@
+{
+  "id": 155,
+  "idArmy": 32,
+  "canonical": 201,
+  "isc": "Sù-Jiàn Immediate Action Unit",
+  "iscAbbr": null,
+  "name": "SÙ-JIÀN Immediate Action Unit",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 3,
+      "isc": "Sù-Jiàn Immediate Action Unit",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 5,
+          "ava": 3,
+          "bs": 12,
+          "bts": 6,
+          "cc": 9,
+          "chars": [
+            2,
+            3,
+            5,
+            15,
+            21
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/su-jian-immediate-action-unit-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            20,
+            5
+          ],
+          "ph": 14,
+          "s": 3,
+          "str": true,
+          "type": 3,
+          "w": 2,
+          "wip": 13,
+          "name": "HIGH MOBILITY FORM",
+          "notes": null,
+          "skills": [
+            {
+              "id": 84,
+              "order": 1
+            },
+            {
+              "id": 40,
+              "order": 3,
+              "extra": [
+                23
+              ]
+            },
+            {
+              "id": 162,
+              "order": 4,
+              "extra": [
+                30
+              ]
+            },
+            {
+              "id": 86,
+              "order": 5
+            },
+            {
+              "id": 58,
+              "order": 6,
+              "extra": [
+                33
+              ]
+            },
+            {
+              "id": 82,
+              "order": 7
+            },
+            {
+              "id": 246,
+              "order": 8,
+              "extra": [
+                254
+              ]
+            },
+            {
+              "id": 235,
+              "order": 9,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "arm": 5,
+          "ava": -1,
+          "bs": 14,
+          "bts": 6,
+          "cc": 17,
+          "chars": [
+            2,
+            3,
+            5,
+            15,
+            21
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/su-jian-immediate-action-unit-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 14,
+          "s": 5,
+          "str": true,
+          "type": 3,
+          "w": 2,
+          "wip": 13,
+          "name": "COMBAT FORM",
+          "notes": null,
+          "skills": [
+            {
+              "id": 201,
+              "order": 1,
+              "extra": [
+                4
+              ]
+            },
+            {
+              "id": 84,
+              "order": 2
+            },
+            {
+              "id": 162,
+              "order": 4,
+              "extra": [
+                30
+              ]
+            },
+            {
+              "id": 86,
+              "order": 5
+            },
+            {
+              "id": 246,
+              "order": 6,
+              "extra": [
+                254
+              ]
+            },
+            {
+              "id": 235,
+              "order": 7,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 554,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 54,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 74,
+              "order": 1
+            },
+            {
+              "id": 56,
+              "order": 2
+            },
+            {
+              "id": 68,
+              "order": 3
+            },
+            {
+              "id": 107,
+              "order": 4
+            },
+            {
+              "id": 5,
+              "order": 5
+            }
+          ],
+          "name": "SÙ-JIÀN",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2674,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 50,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 29,
+              "order": 1
+            },
+            {
+              "id": 68,
+              "order": 2
+            },
+            {
+              "id": 107,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            }
+          ],
+          "name": "SÙ-JIÀN",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "su-jian-immediate-action-unit",
+  "filters": {
+    "categories": [
+      3
+    ],
+    "skills": [
+      40,
+      58,
+      82,
+      84,
+      86,
+      162,
+      201,
+      235,
+      246
+    ],
+    "equip": [],
+    "chars": [
+      2,
+      3,
+      5,
+      15,
+      21
+    ],
+    "types": [
+      3
+    ],
+    "weapons": [
+      5,
+      29,
+      56,
+      68,
+      74,
+      107
+    ],
+    "ammunition": [
+      2,
+      3,
+      8,
+      13
+    ]
+  },
+  "factions": [
+    201,
+    202
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "id": 956,
+  "idArmy": 63,
+  "canonical": 1,
+  "isc": "Cube Jäger, Mercenary Recoverers",
+  "iscAbbr": "Cube Jäger",
+  "name": "Cube Jäger, Mercenary Recoverers",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 11,
+      "isc": "Cube Jäger, Mercenary Recoverers",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 1,
+          "ava": 1,
+          "bs": 11,
+          "bts": 3,
+          "cc": 16,
+          "chars": [
+            4,
+            5
+          ],
+          "equip": [
+            {
+              "id": 106,
+              "order": 1
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/cube-jaeger-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 10,
+          "s": 2,
+          "str": false,
+          "type": 1,
+          "w": 1,
+          "wip": 13,
+          "name": "Cube Jäger, Mercenary Recoverers",
+          "notes": null,
+          "skills": [
+            {
+              "id": 162,
+              "order": 1,
+              "extra": [
+                30
+              ]
+            },
+            {
+              "id": 164,
+              "order": 2
+            },
+            {
+              "id": 33,
+              "order": 3
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "IRREGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 19,
+          "swc": "0.5",
+          "weapons": [
+            {
+              "id": 77,
+              "order": 1
+            },
+            {
+              "id": 25,
+              "order": 2
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 9,
+              "order": 4
+            }
+          ],
+          "name": "CUBE JÄGER",
+          "skills": [
+            {
+              "id": 64,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "IRREGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 21,
+          "swc": "0.5",
+          "weapons": [
+            {
+              "id": 69,
+              "order": 1
+            },
+            {
+              "id": 9,
+              "order": 2
+            },
+            {
+              "id": 26,
+              "order": 3
+            }
+          ],
+          "name": "CUBE JÄGER",
+          "skills": [
+            {
+              "id": 64,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "cube-jaeger",
+  "filters": {
+    "categories": [
+      11
+    ],
+    "skills": [
+      33,
+      64,
+      162,
+      164
+    ],
+    "equip": [
+      106
+    ],
+    "chars": [
+      4,
+      5
+    ],
+    "types": [
+      1
+    ],
+    "weapons": [
+      9,
+      25,
+      26,
+      69,
+      77
+    ],
+    "ammunition": [
+      2,
+      3,
+      14,
+      35
+    ]
+  },
+  "factions": [
+    101,
+    201,
+    301,
+    401,
+    501,
+    601,
+    701,
+    801,
+    904,
+    906,
+    907,
+    1001
+  ]
+}

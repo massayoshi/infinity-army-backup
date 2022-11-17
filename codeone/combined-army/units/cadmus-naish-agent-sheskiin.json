@@ -1,0 +1,277 @@
+{
+  "id": 533,
+  "idArmy": 42,
+  "canonical": 601,
+  "isc": "Cadmus-Naish Agent Sheskiin",
+  "iscAbbr": null,
+  "name": "Cadmus-Naish Agent SHESKIIN",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 0,
+      "isc": "Cadmus-Naish Agent Sheskiin",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 1,
+          "ava": 1,
+          "bs": 15,
+          "bts": 3,
+          "cc": 24,
+          "chars": [
+            3
+          ],
+          "equip": [
+            {
+              "id": 108,
+              "order": 1
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/cadmus-naish-agent-sheskiin-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            10
+          ],
+          "ph": 15,
+          "s": 2,
+          "str": false,
+          "type": 1,
+          "w": 2,
+          "wip": 13,
+          "name": "Cadmus-Naish Agent SHESKIIN",
+          "notes": null,
+          "skills": [
+            {
+              "id": 237,
+              "order": 1
+            },
+            {
+              "id": 22,
+              "order": 2,
+              "q": 1
+            },
+            {
+              "id": 201,
+              "order": 3,
+              "extra": [
+                5
+              ]
+            },
+            {
+              "id": 40,
+              "order": 6,
+              "extra": [
+                23
+              ]
+            },
+            {
+              "id": 72,
+              "order": 7,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 5,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 41,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 4
+            },
+            {
+              "id": 11,
+              "order": 5
+            }
+          ],
+          "name": "SHESKIIN",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 0,
+          "swc": "1",
+          "weapons": [
+            {
+              "id": 152,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 4
+            },
+            {
+              "id": 11,
+              "order": 5
+            }
+          ],
+          "name": "SHESKIIN",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 3,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "LIEUTENANT",
+              "list": 0,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 5,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 41,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 4
+            },
+            {
+              "id": 11,
+              "order": 5
+            }
+          ],
+          "name": "SHESKIIN",
+          "skills": [
+            {
+              "id": 119,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 4,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "LIEUTENANT",
+              "list": 0,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 0,
+          "swc": "1",
+          "weapons": [
+            {
+              "id": 152,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 4
+            },
+            {
+              "id": 11,
+              "order": 5
+            }
+          ],
+          "name": "SHESKIIN",
+          "skills": [
+            {
+              "id": 119,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "cadmus-naish-agent-sheskiin",
+  "filters": {
+    "categories": [],
+    "skills": [
+      22,
+      40,
+      72,
+      119,
+      201,
+      237
+    ],
+    "equip": [
+      108
+    ],
+    "chars": [
+      3
+    ],
+    "types": [
+      1
+    ],
+    "weapons": [
+      11,
+      41,
+      69,
+      152
+    ],
+    "ammunition": [
+      2,
+      8,
+      9,
+      35
+    ]
+  },
+  "factions": [
+    601,
+    603
+  ]
+}

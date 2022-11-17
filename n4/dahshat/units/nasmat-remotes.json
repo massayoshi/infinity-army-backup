@@ -1,0 +1,133 @@
+{
+  "id": 333,
+  "idArmy": 33,
+  "canonical": 401,
+  "isc": "Nasmat Remotes",
+  "iscAbbr": null,
+  "name": "NASMAT Remotes",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 8,
+      "isc": "Nasmat Remotes",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 0,
+          "ava": 4,
+          "bs": 8,
+          "bts": 3,
+          "cc": 11,
+          "chars": [
+            21,
+            27
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/nasmat-remotes-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            10
+          ],
+          "ph": 10,
+          "s": 1,
+          "str": true,
+          "type": 5,
+          "w": 1,
+          "wip": 13,
+          "name": "NASMAT Remotes",
+          "notes": null,
+          "skills": [
+            {
+              "id": 84,
+              "order": 1
+            },
+            {
+              "id": 162,
+              "order": 2,
+              "extra": [
+                30
+              ]
+            },
+            {
+              "id": 28,
+              "order": 3,
+              "extra": [
+                6
+              ],
+              "q": 1
+            },
+            {
+              "id": 243,
+              "order": 4,
+              "extra": [
+                41
+              ],
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 0,
+          "orders": [],
+          "includes": [],
+          "points": 3,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 71,
+              "order": 1
+            }
+          ],
+          "name": "NASMAT",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "nasmat-remotes",
+  "filters": {
+    "categories": [
+      8
+    ],
+    "skills": [
+      28,
+      84,
+      162,
+      243
+    ],
+    "equip": [],
+    "chars": [
+      21,
+      27
+    ],
+    "types": [
+      5
+    ],
+    "weapons": [
+      71
+    ],
+    "ammunition": [
+      37
+    ]
+  },
+  "factions": [
+    401,
+    402,
+    403,
+    404,
+    902,
+    908
+  ]
+}

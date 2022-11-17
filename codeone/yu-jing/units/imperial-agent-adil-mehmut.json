@@ -1,0 +1,159 @@
+{
+  "id": 1509,
+  "idArmy": 1509,
+  "canonical": 201,
+  "isc": "Imperial Agent Adil Mehmut, Special Division",
+  "iscAbbr": "Imperial Agent Adil Mehmut",
+  "name": "Imperial Agent ADIL MEHMUT, Special Division",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 0,
+      "isc": "Imperial Agent Adil Mehmut, Special Division",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 2,
+          "ava": 1,
+          "bs": 13,
+          "bts": 3,
+          "cc": 23,
+          "chars": [
+            3
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/imperial-agent-adil-mehmut-special-division-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 11,
+          "s": 2,
+          "str": false,
+          "type": 2,
+          "w": 1,
+          "wip": 13,
+          "name": "Imperial Agent ADIL MEHMUT, Special Division",
+          "notes": null,
+          "skills": [
+            {
+              "id": 20,
+              "order": 1
+            },
+            {
+              "id": 40,
+              "order": 2,
+              "extra": [
+                1
+              ],
+              "q": 1
+            },
+            {
+              "id": 40,
+              "order": 3,
+              "extra": [
+                11
+              ],
+              "q": 1
+            },
+            {
+              "id": 240,
+              "order": 5,
+              "extra": [
+                6
+              ]
+            },
+            {
+              "id": 189,
+              "order": 6
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 2,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 103,
+              "order": 1
+            },
+            {
+              "id": 65,
+              "order": 2
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 9,
+              "order": 4
+            },
+            {
+              "id": 71,
+              "order": 5
+            }
+          ],
+          "name": "ADIL",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "imperial-agent-adil-mehmut",
+  "filters": {
+    "categories": [],
+    "skills": [
+      20,
+      40,
+      189,
+      240
+    ],
+    "equip": [],
+    "chars": [
+      3
+    ],
+    "types": [
+      2
+    ],
+    "weapons": [
+      9,
+      65,
+      69,
+      71,
+      103
+    ],
+    "ammunition": [
+      2,
+      3,
+      37
+    ]
+  },
+  "factions": [
+    201,
+    202,
+    205
+  ],
+  "notes": "NOTE: There only can be one Adil in each Army List."
+}

@@ -1,0 +1,221 @@
+{
+  "id": 613,
+  "idArmy": 33,
+  "canonical": 701,
+  "isc": "Achilles",
+  "iscAbbr": null,
+  "name": "ACHILLES",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 10,
+      "isc": "Achilles",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 4,
+          "ava": 1,
+          "bs": 15,
+          "bts": 6,
+          "cc": 24,
+          "chars": [
+            3,
+            5,
+            20,
+            21
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/achilles-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            10
+          ],
+          "ph": 15,
+          "s": 2,
+          "str": false,
+          "type": 3,
+          "w": 3,
+          "wip": 15,
+          "name": "ACHILLES",
+          "notes": null,
+          "skills": [
+            {
+              "id": 22,
+              "order": 1
+            },
+            {
+              "id": 84,
+              "order": 2
+            },
+            {
+              "id": 40,
+              "order": 3,
+              "extra": [
+                23
+              ]
+            },
+            {
+              "id": 162,
+              "order": 5,
+              "extra": [
+                30
+              ]
+            },
+            {
+              "id": 28,
+              "order": 6,
+              "extra": [
+                7
+              ]
+            },
+            {
+              "id": 164,
+              "order": 7
+            },
+            {
+              "id": 58,
+              "order": 8,
+              "extra": [
+                33
+              ]
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 75,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 74,
+              "order": 1
+            },
+            {
+              "id": 145,
+              "order": 2
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 8,
+              "order": 4
+            }
+          ],
+          "name": "ACHILLES",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 4,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "LIEUTENANT",
+              "list": 0,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 75,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 74,
+              "order": 1
+            },
+            {
+              "id": 145,
+              "order": 2
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 8,
+              "order": 4
+            }
+          ],
+          "name": "ACHILLES",
+          "skills": [
+            {
+              "id": 119,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "achilles",
+  "filters": {
+    "categories": [
+      10
+    ],
+    "skills": [
+      22,
+      28,
+      40,
+      58,
+      84,
+      119,
+      162,
+      164
+    ],
+    "equip": [],
+    "chars": [
+      3,
+      5,
+      20,
+      21
+    ],
+    "types": [
+      3
+    ],
+    "weapons": [
+      8,
+      69,
+      74,
+      145
+    ],
+    "ammunition": [
+      2,
+      6
+    ]
+  },
+  "factions": [
+    701,
+    702
+  ],
+  "notes": "There can be only one Achilles in each Army List."
+}

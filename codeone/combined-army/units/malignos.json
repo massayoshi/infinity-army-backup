@@ -1,0 +1,280 @@
+{
+  "id": 502,
+  "idArmy": 11,
+  "canonical": 601,
+  "isc": "Malignos",
+  "iscAbbr": null,
+  "name": "MALIGNOS Shasvastii Deep Incursion Corps",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 0,
+      "isc": "Malignos",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 1,
+          "ava": 2,
+          "bs": 12,
+          "bts": 3,
+          "cc": 14,
+          "chars": [
+            3
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/malignos-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 12,
+          "s": 2,
+          "str": false,
+          "type": 6,
+          "w": 1,
+          "wip": 14,
+          "name": "MALIGNOS Shasvastii Deep Incursion Corps",
+          "notes": null,
+          "skills": [
+            {
+              "id": 237,
+              "order": 1
+            },
+            {
+              "id": 191,
+              "order": 2,
+              "extra": [
+                6
+              ]
+            },
+            {
+              "id": 29,
+              "order": 3
+            },
+            {
+              "id": 28,
+              "order": 5,
+              "extra": [
+                7
+              ]
+            },
+            {
+              "id": 47,
+              "order": 6
+            },
+            {
+              "id": 62,
+              "order": 8
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 3,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 33,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            },
+            {
+              "id": 61,
+              "order": 2
+            }
+          ],
+          "name": "MALIGNOS ",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 3,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 3,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 26,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            },
+            {
+              "id": 61,
+              "order": 2
+            }
+          ],
+          "name": "MALIGNOS ",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 4,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 4,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 36,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 2
+            },
+            {
+              "id": 5,
+              "order": 3
+            }
+          ],
+          "name": "MALIGNOS ",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 5,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 100,
+              "order": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 4,
+          "swc": "0.5",
+          "weapons": [
+            {
+              "id": 33,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            },
+            {
+              "id": 61,
+              "order": 2
+            }
+          ],
+          "name": "MALIGNOS ",
+          "skills": [
+            {
+              "id": 1000,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "malignos",
+  "filters": {
+    "categories": [],
+    "skills": [
+      28,
+      29,
+      47,
+      62,
+      191,
+      237,
+      1000
+    ],
+    "equip": [
+      100
+    ],
+    "chars": [
+      3
+    ],
+    "types": [
+      6
+    ],
+    "weapons": [
+      5,
+      26,
+      33,
+      36,
+      61,
+      69
+    ],
+    "ammunition": [
+      2,
+      3,
+      9,
+      35
+    ]
+  },
+  "factions": [
+    601,
+    603,
+    604
+  ]
+}

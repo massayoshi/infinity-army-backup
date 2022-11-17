@@ -1,0 +1,437 @@
+{
+  "id": 10,
+  "idArmy": 10,
+  "canonical": 101,
+  "isc": "Squalos, PanOceanian Armored Cavalry Heavy Lancers",
+  "iscAbbr": "Squalos",
+  "name": "SQUALOS, PanOceanian Armored Cavalry Heavy Lancers",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 7,
+      "isc": "Squalos, PanOceanian Armored Cavalry Heavy Lancers",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 8,
+          "ava": 2,
+          "bs": 15,
+          "bts": 6,
+          "cc": 18,
+          "chars": [
+            3,
+            5,
+            21
+          ],
+          "equip": [
+            {
+              "extra": [
+                7
+              ],
+              "id": 239,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "extra": [
+                6
+              ],
+              "id": 241,
+              "order": 2,
+              "q": 1
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/squalos-1-1.svg",
+          "weapons": [],
+          "includes": [
+            {
+              "group": 2,
+              "option": 1,
+              "q": 1
+            }
+          ],
+          "move": [
+            15,
+            10
+          ],
+          "ph": 16,
+          "s": 7,
+          "str": true,
+          "type": 4,
+          "w": 3,
+          "wip": 12,
+          "name": "SQUALOS, PanOceanian Armored Cavalry Heavy Lancers",
+          "notes": null,
+          "skills": [
+            {
+              "id": 235,
+              "order": 1
+            },
+            {
+              "id": 201,
+              "order": 2,
+              "extra": [
+                4
+              ]
+            },
+            {
+              "id": 84,
+              "order": 3
+            },
+            {
+              "id": 40,
+              "order": 4,
+              "extra": [
+                27
+              ]
+            },
+            {
+              "id": 254,
+              "order": 6,
+              "extra": [
+                52
+              ],
+              "q": 1
+            },
+            {
+              "id": 162,
+              "order": 7,
+              "extra": [
+                30
+              ],
+              "q": 1
+            },
+            {
+              "id": 213,
+              "order": 8,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "IRREGULAR",
+              "list": 0,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 75,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 4,
+              "order": 1
+            },
+            {
+              "id": 5,
+              "order": 3
+            },
+            {
+              "id": 189,
+              "order": 2
+            }
+          ],
+          "name": "SQUALO",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "IRREGULAR",
+              "list": 0,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 77,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 4,
+              "order": 1
+            },
+            {
+              "id": 194,
+              "order": 2
+            },
+            {
+              "id": 5,
+              "order": 4
+            },
+            {
+              "id": 189,
+              "order": 3
+            }
+          ],
+          "name": "SQUALO",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 3,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "IRREGULAR",
+              "list": 0,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 79,
+          "swc": "2",
+          "weapons": [
+            {
+              "id": 4,
+              "order": 1
+            },
+            {
+              "id": 5,
+              "order": 3
+            },
+            {
+              "id": 189,
+              "order": 2
+            }
+          ],
+          "name": "SQUALO",
+          "skills": [
+            {
+              "id": 211,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 4,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "IRREGULAR",
+              "list": 0,
+              "total": 1
+            },
+            {
+              "type": "LIEUTENANT",
+              "list": 0,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 75,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 4,
+              "order": 1
+            },
+            {
+              "id": 189,
+              "order": 2
+            },
+            {
+              "id": 5,
+              "order": 3
+            }
+          ],
+          "name": "SQUALO",
+          "skills": [
+            {
+              "id": 119,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": 0,
+      "isc": "Crabbot Ancillary Remote Unit",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 0,
+          "ava": -1,
+          "bs": 10,
+          "bts": 0,
+          "cc": 12,
+          "chars": [
+            21
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/squalos-2-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 10,
+          "s": 1,
+          "str": true,
+          "type": 5,
+          "w": 1,
+          "wip": 11,
+          "name": "Crabbot Ancillary Remote Unit",
+          "notes": null,
+          "skills": [
+            {
+              "id": 235,
+              "order": 1
+            },
+            {
+              "id": 84,
+              "order": 2
+            },
+            {
+              "id": 162,
+              "order": 3,
+              "extra": [
+                30
+              ]
+            },
+            {
+              "id": 189,
+              "order": 4
+            },
+            {
+              "id": 60,
+              "order": 5,
+              "extra": [
+                252
+              ],
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": true,
+          "equip": [],
+          "minis": 1,
+          "orders": [],
+          "includes": [],
+          "points": 0,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 72,
+              "order": 1
+            },
+            {
+              "id": 5,
+              "order": 2
+            }
+          ],
+          "name": "CRABBOT",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "squalos",
+  "filters": {
+    "categories": [
+      7
+    ],
+    "skills": [
+      40,
+      60,
+      84,
+      119,
+      162,
+      189,
+      201,
+      211,
+      213,
+      235,
+      254
+    ],
+    "equip": [
+      239,
+      241
+    ],
+    "chars": [
+      3,
+      5,
+      21
+    ],
+    "types": [
+      4,
+      5
+    ],
+    "weapons": [
+      4,
+      5,
+      72,
+      189,
+      194
+    ],
+    "ammunition": [
+      2,
+      6,
+      9,
+      29,
+      35,
+      39
+    ]
+  },
+  "factions": [
+    101,
+    104,
+    105
+  ]
+}

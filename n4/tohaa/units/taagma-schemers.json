@@ -1,0 +1,147 @@
+{
+  "id": 1304,
+  "idArmy": 35,
+  "canonical": 801,
+  "isc": "Taagma Schemers",
+  "iscAbbr": null,
+  "name": "TAAGMA Schemers",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 6,
+      "isc": "Taagma Schemers",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 1,
+          "ava": 1,
+          "bs": 12,
+          "bts": 0,
+          "cc": 15,
+          "chars": [
+            1,
+            3,
+            5
+          ],
+          "equip": [
+            {
+              "id": 24,
+              "order": 1
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/taagma-schemers-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 10,
+          "s": 2,
+          "str": false,
+          "type": 1,
+          "w": 1,
+          "wip": 13,
+          "name": "TAAGMA Schemers",
+          "notes": null,
+          "skills": [
+            {
+              "id": 207,
+              "order": 1
+            },
+            {
+              "id": 162,
+              "order": 3,
+              "extra": [
+                30
+              ]
+            },
+            {
+              "id": 164,
+              "order": 4
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 16,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 103,
+              "order": 1
+            },
+            {
+              "id": 65,
+              "order": 2
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            }
+          ],
+          "name": "TAAGMA",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "taagma-schemers",
+  "filters": {
+    "categories": [
+      6
+    ],
+    "skills": [
+      162,
+      164,
+      207
+    ],
+    "equip": [
+      24
+    ],
+    "chars": [
+      1,
+      3,
+      5
+    ],
+    "types": [
+      1
+    ],
+    "weapons": [
+      5,
+      65,
+      69,
+      103
+    ],
+    "ammunition": [
+      2,
+      3
+    ]
+  },
+  "factions": [
+    801,
+    906
+  ]
+}

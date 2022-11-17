@@ -1,0 +1,644 @@
+{
+  "id": 1530,
+  "idArmy": 1530,
+  "canonical": 1001,
+  "isc": "Lawkeepers, Badlands Patrol",
+  "iscAbbr": null,
+  "name": "LAWKEEPERS, Badlands Patrol",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 3,
+      "isc": "Lawkeepers, Badlands Patrol",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 2,
+          "ava": 2,
+          "bs": 12,
+          "bts": 3,
+          "cc": 18,
+          "chars": [
+            1,
+            3,
+            6
+          ],
+          "equip": [
+            {
+              "id": 107,
+              "order": 1
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/lawkeepers-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            20,
+            15
+          ],
+          "ph": 11,
+          "s": 4,
+          "str": false,
+          "type": 1,
+          "w": 1,
+          "wip": 13,
+          "name": "LAWKEEPERS (Mounted)",
+          "notes": null,
+          "skills": [
+            {
+              "id": 201,
+              "order": 1,
+              "extra": [
+                4
+              ]
+            },
+            {
+              "id": 84,
+              "order": 2
+            },
+            {
+              "id": 40,
+              "order": 3,
+              "extra": [
+                23
+              ]
+            },
+            {
+              "id": 28,
+              "order": 4,
+              "extra": [
+                6
+              ]
+            },
+            {
+              "id": 256,
+              "order": 5,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "arm": 2,
+          "ava": -1,
+          "bs": 12,
+          "bts": 3,
+          "cc": 18,
+          "chars": [
+            1,
+            3,
+            6
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/lawkeepers-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 11,
+          "s": 2,
+          "str": false,
+          "type": 1,
+          "w": 1,
+          "wip": 13,
+          "name": "LAWKEEPERS (Dismounted)",
+          "notes": null,
+          "skills": [
+            {
+              "id": 201,
+              "order": 1,
+              "extra": [
+                4
+              ]
+            },
+            {
+              "id": 84,
+              "order": 2
+            },
+            {
+              "id": 28,
+              "order": 3,
+              "extra": [
+                6
+              ]
+            },
+            {
+              "id": 256,
+              "order": 4,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "IMPETUOUS",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 19,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 26,
+              "order": 1
+            },
+            {
+              "id": 189,
+              "order": 2
+            },
+            {
+              "id": 71,
+              "order": 3
+            }
+          ],
+          "name": "LAWKEEPER",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "IMPETUOUS",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 24,
+          "swc": "1",
+          "weapons": [
+            {
+              "id": 152,
+              "order": 1
+            },
+            {
+              "id": 18,
+              "order": 2
+            },
+            {
+              "id": 189,
+              "order": 3
+            },
+            {
+              "id": 71,
+              "order": 4
+            }
+          ],
+          "name": "LAWKEEPER",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 3,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "IMPETUOUS",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [
+            {
+              "group": 2,
+              "option": 1,
+              "q": 1
+            }
+          ],
+          "points": 29,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 152,
+              "order": 1
+            },
+            {
+              "id": 18,
+              "order": 2
+            },
+            {
+              "id": 189,
+              "order": 3
+            },
+            {
+              "id": 71,
+              "order": 4
+            }
+          ],
+          "name": "LAWKEEPER",
+          "skills": [
+            {
+              "id": 189,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": [
+            {
+              "id": 27
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "IMPETUOUS",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 20,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 33,
+              "order": 1
+            },
+            {
+              "id": 18,
+              "order": 2
+            },
+            {
+              "id": 189,
+              "order": 3
+            },
+            {
+              "id": 71,
+              "order": 4
+            }
+          ],
+          "name": "LAWKEEPER",
+          "skills": [
+            {
+              "id": 189,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 5,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "IMPETUOUS",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [
+            {
+              "group": 2,
+              "option": 1,
+              "q": 1
+            }
+          ],
+          "points": 24,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 33,
+              "order": 1
+            },
+            {
+              "id": 18,
+              "order": 2
+            },
+            {
+              "id": 189,
+              "order": 3
+            },
+            {
+              "id": 71,
+              "order": 4
+            }
+          ],
+          "name": "LAWKEEPER",
+          "skills": [
+            {
+              "id": 189,
+              "order": 1
+            }
+          ],
+          "peripheral": [
+            {
+              "id": 27
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "IMPETUOUS",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [
+            {
+              "group": 2,
+              "option": 1,
+              "q": 2
+            }
+          ],
+          "points": 33,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 152,
+              "order": 1
+            },
+            {
+              "id": 18,
+              "order": 2
+            },
+            {
+              "id": 189,
+              "order": 3
+            },
+            {
+              "id": 71,
+              "order": 4
+            }
+          ],
+          "name": "LAWKEEPER",
+          "skills": [
+            {
+              "id": 189,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": [
+            {
+              "id": 27,
+              "q": 2
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "IMPETUOUS",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [
+            {
+              "group": 2,
+              "option": 1,
+              "q": 2
+            }
+          ],
+          "points": 28,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 33,
+              "order": 1
+            },
+            {
+              "id": 18,
+              "order": 2
+            },
+            {
+              "id": 189,
+              "order": 3
+            },
+            {
+              "id": 71,
+              "order": 4
+            }
+          ],
+          "name": "LAWKEEPER",
+          "skills": [
+            {
+              "id": 189,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": [
+            {
+              "id": 27,
+              "q": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": 0,
+      "isc": "SideBot",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 0,
+          "ava": -1,
+          "bs": 10,
+          "bts": 3,
+          "cc": 13,
+          "chars": [
+            21,
+            27
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/lawkeepers-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            20,
+            15
+          ],
+          "ph": 11,
+          "s": 1,
+          "str": true,
+          "type": 5,
+          "w": 1,
+          "wip": 11,
+          "name": "SIDEBOT",
+          "notes": null,
+          "skills": [
+            {
+              "id": 243,
+              "order": 1,
+              "extra": [
+                40
+              ]
+            },
+            {
+              "id": 84,
+              "order": 2
+            },
+            {
+              "id": 28,
+              "order": 3,
+              "extra": [
+                6
+              ]
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": true,
+          "equip": [],
+          "minis": 1,
+          "orders": [],
+          "includes": [],
+          "points": 4,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 71,
+              "order": 2
+            },
+            {
+              "id": 188,
+              "order": 1
+            }
+          ],
+          "name": "SIDEBOT",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "lawkeepers-badlands-patrol",
+  "filters": {
+    "categories": [
+      3
+    ],
+    "skills": [
+      28,
+      40,
+      84,
+      189,
+      201,
+      243,
+      256
+    ],
+    "equip": [
+      107
+    ],
+    "chars": [
+      1,
+      3,
+      6,
+      21,
+      27
+    ],
+    "types": [
+      1,
+      5
+    ],
+    "weapons": [
+      18,
+      26,
+      33,
+      71,
+      152,
+      188,
+      189
+    ],
+    "ammunition": [
+      2,
+      3,
+      8,
+      9,
+      35,
+      37,
+      39
+    ]
+  },
+  "factions": [
+    1001,
+    1002
+  ]
+}

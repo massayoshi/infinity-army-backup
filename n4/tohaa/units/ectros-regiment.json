@@ -1,0 +1,376 @@
+{
+  "id": 650,
+  "idArmy": 5,
+  "canonical": 801,
+  "isc": "Ectros Regiment",
+  "iscAbbr": null,
+  "name": "ECTROS Regiment",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 4,
+      "isc": "Ectros Regiment",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 3,
+          "ava": 4,
+          "bs": 13,
+          "bts": 6,
+          "cc": 19,
+          "chars": [
+            1,
+            3,
+            5,
+            21
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/ectros-regiment-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            5
+          ],
+          "ph": 14,
+          "s": 2,
+          "str": false,
+          "type": 3,
+          "w": 2,
+          "wip": 13,
+          "name": "ECTROS Regiment",
+          "notes": null,
+          "skills": [
+            {
+              "id": 84,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 40,
+              "order": 2,
+              "extra": [
+                11
+              ],
+              "q": 1
+            },
+            {
+              "id": 162,
+              "order": 4,
+              "extra": [
+                30
+              ],
+              "q": 1
+            },
+            {
+              "id": 246,
+              "order": 5,
+              "extra": [
+                266
+              ],
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "arm": 0,
+          "ava": -1,
+          "bs": 12,
+          "bts": 0,
+          "cc": 19,
+          "chars": [
+            1,
+            3,
+            5
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/ectros-regiment-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 11,
+          "s": 2,
+          "str": false,
+          "type": 1,
+          "w": 1,
+          "wip": 13,
+          "name": "Inactive Symbiont Armor",
+          "notes": null,
+          "skills": [
+            {
+              "id": 84,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 162,
+              "order": 3,
+              "extra": [
+                30
+              ],
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 2254,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 43,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 83,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 10,
+              "order": 4
+            },
+            {
+              "id": 145,
+              "order": 2
+            }
+          ],
+          "name": "ECTROS",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2255,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 45,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 2,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 10,
+              "order": 4
+            },
+            {
+              "id": 145,
+              "order": 2
+            }
+          ],
+          "name": "ECTROS",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2256,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 38,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 81,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 10,
+              "order": 4
+            },
+            {
+              "id": 145,
+              "order": 2
+            }
+          ],
+          "name": "ECTROS",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2257,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "LIEUTENANT",
+              "list": 0,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 43,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 83,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 10,
+              "order": 4
+            },
+            {
+              "id": 145,
+              "order": 2
+            }
+          ],
+          "name": "ECTROS",
+          "skills": [
+            {
+              "id": 119,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 2258,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 47,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 2,
+              "order": 1
+            },
+            {
+              "id": 145,
+              "order": 2
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 10,
+              "order": 4
+            }
+          ],
+          "name": "ECTROS",
+          "skills": [
+            {
+              "id": 211,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "ectros-regiment",
+  "filters": {
+    "categories": [
+      4
+    ],
+    "skills": [
+      40,
+      84,
+      119,
+      162,
+      211,
+      246
+    ],
+    "equip": [],
+    "chars": [
+      1,
+      3,
+      5,
+      21
+    ],
+    "types": [
+      1,
+      3
+    ],
+    "weapons": [
+      2,
+      10,
+      69,
+      81,
+      83,
+      145
+    ],
+    "ammunition": [
+      2,
+      3,
+      8,
+      38
+    ]
+  },
+  "factions": [
+    801
+  ]
+}

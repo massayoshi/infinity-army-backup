@@ -1,0 +1,150 @@
+{
+  "id": 1471,
+  "idArmy": 25,
+  "canonical": 701,
+  "isc": "Hippolyta, Amazon Officer",
+  "iscAbbr": null,
+  "name": "HIPPOLYTA, Amazon Officer",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 0,
+      "isc": "Hippolyta, Amazon Officer",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 3,
+          "ava": 1,
+          "bs": 13,
+          "bts": 3,
+          "cc": 24,
+          "chars": [
+            3,
+            5
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/hippolyta-amazon-officer-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            5
+          ],
+          "ph": 14,
+          "s": 2,
+          "str": false,
+          "type": 7,
+          "w": 2,
+          "wip": 14,
+          "name": "HIPPOLYTA, Amazon Officer",
+          "notes": null,
+          "skills": [
+            {
+              "id": 21,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 28,
+              "order": 2,
+              "extra": [
+                7
+              ],
+              "q": 1
+            },
+            {
+              "id": 40,
+              "order": 3,
+              "extra": [
+                23
+              ],
+              "q": 1
+            },
+            {
+              "id": 74,
+              "order": 4,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 0,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 103,
+              "order": 1
+            },
+            {
+              "id": 65,
+              "order": 2
+            },
+            {
+              "id": 69,
+              "order": 5
+            },
+            {
+              "id": 11,
+              "order": 6
+            }
+          ],
+          "name": "HIPPOLYTA",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "hippolyta-amazon-officer",
+  "filters": {
+    "categories": [],
+    "skills": [
+      21,
+      28,
+      40,
+      74
+    ],
+    "equip": [],
+    "chars": [
+      3,
+      5
+    ],
+    "types": [
+      7
+    ],
+    "weapons": [
+      11,
+      65,
+      69,
+      103
+    ],
+    "ammunition": [
+      2,
+      3,
+      9
+    ]
+  },
+  "factions": [
+    701,
+    702,
+    1001
+  ]
+}

@@ -1,0 +1,275 @@
+{
+  "id": 128,
+  "idArmy": 5,
+  "canonical": 201,
+  "isc": "Yān Huǒ Invincibles, Fire Support Heavy Regiment",
+  "iscAbbr": "Yān Huǒ Invincibles",
+  "name": "YĀN HUǑ Invincibles, Fire Support Heavy Regiment",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 0,
+      "isc": "Yān Huǒ Invincibles, Fire Support Heavy Regiment",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 5,
+          "ava": 2,
+          "bs": 14,
+          "bts": 3,
+          "cc": 18,
+          "chars": [
+            3,
+            21
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/yan-hu-invicibles-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 13,
+          "s": 5,
+          "str": false,
+          "type": 3,
+          "w": 2,
+          "wip": 13,
+          "name": "YĀN HUǑ Invincibles, Fire Support Heavy Regiment",
+          "notes": null,
+          "skills": [],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 0,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 4,
+              "order": 1
+            },
+            {
+              "id": 5,
+              "order": 3
+            },
+            {
+              "id": 107,
+              "order": 2
+            }
+          ],
+          "name": "YĀN HUǑ",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 0,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 15,
+              "order": 1
+            },
+            {
+              "id": 5,
+              "order": 3
+            },
+            {
+              "id": 107,
+              "order": 2
+            }
+          ],
+          "name": "YĀN HUǑ",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 3,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 4,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 5,
+              "order": 3
+            },
+            {
+              "id": 58,
+              "order": 1
+            },
+            {
+              "id": 107,
+              "order": 2
+            }
+          ],
+          "name": "YĀN HUǑ",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 5,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "LIEUTENANT",
+              "list": 0,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 0,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 4,
+              "order": 1
+            },
+            {
+              "id": 5,
+              "order": 3
+            },
+            {
+              "id": 107,
+              "order": 2
+            }
+          ],
+          "name": "YĀN HUǑ",
+          "skills": [
+            {
+              "id": 119,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 6,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "LIEUTENANT",
+              "list": 0,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 0,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 15,
+              "order": 1
+            },
+            {
+              "id": 5,
+              "order": 3
+            },
+            {
+              "id": 107,
+              "order": 2
+            }
+          ],
+          "name": "YĀN HUǑ",
+          "skills": [
+            {
+              "id": 119,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "yan-hu-invincibles",
+  "filters": {
+    "categories": [],
+    "skills": [
+      119
+    ],
+    "equip": [],
+    "chars": [
+      3,
+      21
+    ],
+    "types": [
+      3
+    ],
+    "weapons": [
+      4,
+      5,
+      15,
+      58,
+      107
+    ],
+    "ammunition": [
+      2,
+      6,
+      8,
+      9,
+      13,
+      35
+    ]
+  },
+  "factions": [
+    201,
+    204
+  ]
+}

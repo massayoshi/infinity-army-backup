@@ -1,0 +1,298 @@
+{
+  "id": 383,
+  "idArmy": 16,
+  "canonical": 403,
+  "isc": "'Iguana' Squadron",
+  "iscAbbr": null,
+  "name": "'IGUANA' SQUADRON",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 7,
+      "isc": "'Iguana' Squadron",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 6,
+          "ava": 1,
+          "bs": 14,
+          "bts": 6,
+          "cc": 16,
+          "chars": [
+            1,
+            3,
+            5,
+            21
+          ],
+          "equip": [
+            {
+              "extra": [
+                7
+              ],
+              "id": 239,
+              "order": 1
+            },
+            {
+              "extra": [
+                6
+              ],
+              "id": 241,
+              "order": 2,
+              "q": 1
+            },
+            {
+              "extra": [],
+              "id": 63,
+              "order": 3,
+              "q": 1
+            },
+            {
+              "id": 137,
+              "order": 4,
+              "q": 1
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/iguana-squadron-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            10
+          ],
+          "ph": 16,
+          "s": 7,
+          "str": true,
+          "type": 4,
+          "w": 2,
+          "wip": 13,
+          "name": "'IGUANA' SQUADRON",
+          "notes": null,
+          "skills": [
+            {
+              "id": 201,
+              "order": 1,
+              "extra": [
+                4
+              ]
+            },
+            {
+              "id": 40,
+              "order": 2,
+              "extra": [
+                27
+              ]
+            },
+            {
+              "id": 254,
+              "order": 3,
+              "extra": [
+                27
+              ],
+              "q": 1
+            },
+            {
+              "id": 162,
+              "order": 4,
+              "extra": [
+                30
+              ],
+              "q": 1
+            },
+            {
+              "id": 213,
+              "order": 5,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "IRREGULAR",
+              "list": 0,
+              "total": 1
+            }
+          ],
+          "includes": [
+            {
+              "group": 2,
+              "option": 1,
+              "q": 1
+            }
+          ],
+          "points": 65,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 2,
+              "order": 1
+            },
+            {
+              "id": 57,
+              "order": 2
+            },
+            {
+              "id": 5,
+              "order": 3
+            }
+          ],
+          "name": "IGUANA",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": 7,
+      "isc": "'Iguana' Operator",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 3,
+          "ava": -1,
+          "bs": 12,
+          "bts": 3,
+          "cc": 14,
+          "chars": [
+            1,
+            3,
+            5,
+            21
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/iguana-squadron-2-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 12,
+          "s": 2,
+          "str": false,
+          "type": 3,
+          "w": 2,
+          "wip": 13,
+          "name": "'IGUANA' OPERATOR",
+          "notes": null,
+          "skills": [
+            {
+              "id": 162,
+              "order": 1,
+              "extra": [
+                30
+              ]
+            },
+            {
+              "id": 213,
+              "order": 2
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": true,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "IRREGULAR",
+              "list": 0,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 0,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 2,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 2
+            },
+            {
+              "id": 5,
+              "order": 3
+            }
+          ],
+          "name": "IGUANA OPERATOR",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "iguana-squadron",
+  "filters": {
+    "categories": [
+      7
+    ],
+    "skills": [
+      40,
+      162,
+      201,
+      213,
+      254
+    ],
+    "equip": [
+      63,
+      137,
+      239,
+      241
+    ],
+    "chars": [
+      1,
+      3,
+      5,
+      21
+    ],
+    "types": [
+      3,
+      4
+    ],
+    "weapons": [
+      2,
+      5,
+      57,
+      69
+    ],
+    "ammunition": [
+      2
+    ]
+  },
+  "factions": [
+    403,
+    501,
+    502,
+    907
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "id": 609,
+  "idArmy": 29,
+  "canonical": 701,
+  "isc": "Eudoros, Myrmidon Officer",
+  "iscAbbr": null,
+  "name": "EUDOROS, MYRMIDON Officer",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 0,
+      "isc": "Eudoros, Myrmidon Officer",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 3,
+          "ava": 1,
+          "bs": 13,
+          "bts": 6,
+          "cc": 23,
+          "chars": [
+            3
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/eudoros-myrmidon-officer-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            5
+          ],
+          "ph": 13,
+          "s": 2,
+          "str": true,
+          "type": 7,
+          "w": 2,
+          "wip": 14,
+          "name": "EUDOROS, MYRMIDON Officer",
+          "notes": null,
+          "skills": [
+            {
+              "id": 22,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 40,
+              "order": 3,
+              "extra": [
+                11
+              ],
+              "q": 1
+            },
+            {
+              "id": 28,
+              "order": 6,
+              "extra": [
+                7
+              ],
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 0,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 64,
+              "order": 1
+            },
+            {
+              "id": 65,
+              "order": 2
+            },
+            {
+              "id": 107,
+              "order": 4
+            },
+            {
+              "id": 11,
+              "order": 5
+            }
+          ],
+          "name": "EUDOROS",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "eudoros-myrmidon-officer",
+  "filters": {
+    "categories": [],
+    "skills": [
+      22,
+      28,
+      40
+    ],
+    "equip": [],
+    "chars": [
+      3
+    ],
+    "types": [
+      7
+    ],
+    "weapons": [
+      11,
+      64,
+      65,
+      107
+    ],
+    "ammunition": [
+      2,
+      8,
+      9
+    ]
+  },
+  "factions": [
+    701,
+    702
+  ]
+}

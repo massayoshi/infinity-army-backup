@@ -1,0 +1,282 @@
+{
+  "id": 1127,
+  "idArmy": 62,
+  "canonical": 301,
+  "isc": "Armata-2 Proyekt 'Ratnik'",
+  "iscAbbr": "Ratnik",
+  "name": "Armata-2 Proyekt 'RATNIK'",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 6,
+      "isc": "Armata-2 Proyekt 'Ratnik'",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 6,
+          "ava": 3,
+          "bs": 13,
+          "bts": 3,
+          "cc": 16,
+          "chars": [
+            2,
+            3,
+            5,
+            21
+          ],
+          "equip": [
+            {
+              "id": 238,
+              "order": 1
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/ratnik-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 14,
+          "s": 5,
+          "str": false,
+          "type": 3,
+          "w": 1,
+          "wip": 13,
+          "name": "Armata-2 Proyekt 'RATNIK'",
+          "notes": null,
+          "skills": [
+            {
+              "id": 40,
+              "order": 1,
+              "extra": [
+                46
+              ]
+            },
+            {
+              "id": 162,
+              "order": 3,
+              "extra": [
+                30
+              ]
+            },
+            {
+              "id": 246,
+              "order": 4,
+              "extra": [
+                266
+              ],
+              "q": 1
+            },
+            {
+              "id": 84,
+              "order": 5,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "arm": 4,
+          "ava": -1,
+          "bs": 12,
+          "bts": 0,
+          "cc": 14,
+          "chars": [
+            2,
+            3,
+            5,
+            21
+          ],
+          "equip": [
+            {
+              "id": 238,
+              "order": 1
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/ratnik-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            5
+          ],
+          "ph": 13,
+          "s": 5,
+          "str": false,
+          "type": 3,
+          "w": 1,
+          "wip": 13,
+          "name": "BATTLE RAVAGED",
+          "notes": null,
+          "skills": [
+            {
+              "id": 40,
+              "order": 1,
+              "extra": [
+                46
+              ]
+            },
+            {
+              "id": 162,
+              "order": 3,
+              "extra": [
+                30
+              ]
+            },
+            {
+              "id": 85,
+              "order": 4
+            },
+            {
+              "id": 84,
+              "order": 5,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 4140,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 50,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 157,
+              "order": 1
+            },
+            {
+              "id": 100,
+              "order": 3
+            },
+            {
+              "id": 177,
+              "order": 4
+            },
+            {
+              "id": 5,
+              "order": 5
+            },
+            {
+              "id": 68,
+              "order": 2
+            },
+            {
+              "id": 82,
+              "order": 6
+            }
+          ],
+          "name": "RATNIK",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 4141,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 47,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 107,
+              "order": 3
+            },
+            {
+              "id": 177,
+              "order": 4
+            },
+            {
+              "id": 5,
+              "order": 5
+            },
+            {
+              "id": 89,
+              "order": 1
+            },
+            {
+              "id": 29,
+              "order": 6
+            }
+          ],
+          "name": "RATNIK",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "ratnik",
+  "filters": {
+    "categories": [
+      6
+    ],
+    "skills": [
+      40,
+      84,
+      85,
+      162,
+      246
+    ],
+    "equip": [
+      238
+    ],
+    "chars": [
+      2,
+      3,
+      5,
+      21
+    ],
+    "types": [
+      3
+    ],
+    "weapons": [
+      5,
+      29,
+      68,
+      82,
+      89,
+      100,
+      107,
+      157,
+      177
+    ],
+    "ammunition": [
+      2,
+      3,
+      8,
+      9,
+      13
+    ]
+  },
+  "factions": [
+    301,
+    305
+  ]
+}

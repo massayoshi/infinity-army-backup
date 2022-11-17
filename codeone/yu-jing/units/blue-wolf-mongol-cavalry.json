@@ -1,0 +1,144 @@
+{
+  "id": 1495,
+  "idArmy": 1495,
+  "canonical": 201,
+  "isc": "Blue Wolf Mongol Cavalry",
+  "iscAbbr": null,
+  "name": "BLUE WOLF Mongol Cavalry",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 0,
+      "isc": "Blue Wolf Mongol Cavalry",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 6,
+          "ava": 1,
+          "bs": 14,
+          "bts": 6,
+          "cc": 23,
+          "chars": [
+            3,
+            21
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/blue-wolf-mongol-cavalry-null-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            10
+          ],
+          "ph": 15,
+          "s": 6,
+          "str": true,
+          "type": 4,
+          "w": 3,
+          "wip": 13,
+          "name": "BLUE WOLF Mongol Cavalry",
+          "notes": null,
+          "skills": [
+            {
+              "id": 201,
+              "order": 2,
+              "extra": [
+                4
+              ]
+            },
+            {
+              "id": 201,
+              "order": 3,
+              "extra": [
+                8
+              ]
+            },
+            {
+              "id": 40,
+              "order": 5,
+              "extra": [
+                52
+              ]
+            },
+            {
+              "id": 40,
+              "order": 6,
+              "extra": [
+                11
+              ]
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 7,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 157,
+              "order": 1
+            },
+            {
+              "id": 11,
+              "order": 4
+            },
+            {
+              "id": 57,
+              "order": 3
+            }
+          ],
+          "name": "BLUE WOLF",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "blue-wolf-mongol-cavalry",
+  "filters": {
+    "categories": [],
+    "skills": [
+      40,
+      201
+    ],
+    "equip": [],
+    "chars": [
+      3,
+      21
+    ],
+    "types": [
+      4
+    ],
+    "weapons": [
+      11,
+      57,
+      157
+    ],
+    "ammunition": [
+      2,
+      3,
+      9
+    ]
+  },
+  "factions": [
+    201,
+    205
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "id": 602,
+  "idArmy": 22,
+  "canonical": 701,
+  "isc": "Agêma Marksmen",
+  "iscAbbr": null,
+  "name": "AGÊMA Marksmen",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 0,
+      "isc": "Agêma Marksmen",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 2,
+          "ava": 1,
+          "bs": 13,
+          "bts": 3,
+          "cc": 15,
+          "chars": [
+            3
+          ],
+          "equip": [
+            {
+              "id": 115,
+              "order": 1
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/agema-marksmen-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 11,
+          "s": 2,
+          "str": false,
+          "type": 2,
+          "w": 1,
+          "wip": 13,
+          "name": "AGÊMA Marksmen",
+          "notes": null,
+          "skills": [],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 3,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 36,
+              "order": 1
+            },
+            {
+              "id": 5,
+              "order": 3
+            },
+            {
+              "id": 69,
+              "order": 2
+            }
+          ],
+          "name": "AGÊMA Marksman",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 3,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 0,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 58,
+              "order": 1
+            },
+            {
+              "id": 5,
+              "order": 3
+            },
+            {
+              "id": 69,
+              "order": 2
+            }
+          ],
+          "name": "AGÊMA Marksman",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "agema-marksmen",
+  "filters": {
+    "categories": [],
+    "skills": [],
+    "equip": [
+      115
+    ],
+    "chars": [
+      3
+    ],
+    "types": [
+      2
+    ],
+    "weapons": [
+      5,
+      36,
+      58,
+      69
+    ],
+    "ammunition": [
+      2,
+      9,
+      13,
+      35
+    ]
+  },
+  "factions": [
+    701,
+    702
+  ]
+}

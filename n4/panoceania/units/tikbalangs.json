@@ -1,0 +1,313 @@
+{
+  "id": 33,
+  "idArmy": 33,
+  "canonical": 101,
+  "isc": "Tikbalangs, Armored Chasseurs of Acontecimento",
+  "iscAbbr": "Tikbalangs",
+  "name": "TIKBALANGS, Armoured Chasseurs of Acontecimento",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 7,
+      "isc": "Tikbalangs, Armored Chasseurs of Acontecimento",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 6,
+          "ava": 1,
+          "bs": 15,
+          "bts": 6,
+          "cc": 17,
+          "chars": [
+            3,
+            5,
+            21
+          ],
+          "equip": [
+            {
+              "extra": [
+                7
+              ],
+              "id": 239,
+              "order": 1
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/tikbalangs-1-1.svg",
+          "weapons": [],
+          "includes": [
+            {
+              "group": 2,
+              "option": 1,
+              "q": 1
+            }
+          ],
+          "move": [
+            15,
+            10
+          ],
+          "ph": 15,
+          "s": 6,
+          "str": true,
+          "type": 4,
+          "w": 3,
+          "wip": 12,
+          "name": "TIKBALANGS, Armoured Chasseurs of Acontecimento",
+          "notes": null,
+          "skills": [
+            {
+              "id": 235,
+              "order": 1
+            },
+            {
+              "id": 201,
+              "order": 2,
+              "extra": [
+                4
+              ]
+            },
+            {
+              "id": 84,
+              "order": 3
+            },
+            {
+              "id": 254,
+              "order": 5,
+              "extra": [
+                52
+              ]
+            },
+            {
+              "id": 162,
+              "order": 6,
+              "extra": [
+                30
+              ]
+            },
+            {
+              "id": 28,
+              "order": 7,
+              "extra": [
+                6
+              ]
+            },
+            {
+              "id": 213,
+              "order": 8
+            },
+            {
+              "id": 58,
+              "order": 9,
+              "extra": [
+                37
+              ]
+            },
+            {
+              "id": 82,
+              "order": 10,
+              "q": 1
+            },
+            {
+              "id": 40,
+              "order": 11,
+              "extra": [
+                27
+              ],
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "IRREGULAR",
+              "list": 0,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 68,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 2,
+              "order": 1
+            },
+            {
+              "id": 57,
+              "order": 2
+            },
+            {
+              "id": 196,
+              "order": 3
+            },
+            {
+              "id": 6,
+              "order": 4
+            }
+          ],
+          "name": "TIKBALANG",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": 0,
+      "isc": "Crabbot Ancillary Remote Unit",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 0,
+          "ava": -1,
+          "bs": 10,
+          "bts": 0,
+          "cc": 12,
+          "chars": [
+            21
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/tikbalangs-2-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 10,
+          "s": 1,
+          "str": true,
+          "type": 5,
+          "w": 1,
+          "wip": 11,
+          "name": "Crabbot Ancillary Remote Unit",
+          "notes": null,
+          "skills": [
+            {
+              "id": 235,
+              "order": 1
+            },
+            {
+              "id": 84,
+              "order": 2
+            },
+            {
+              "id": 162,
+              "order": 3,
+              "extra": [
+                30
+              ]
+            },
+            {
+              "id": 189,
+              "order": 4
+            },
+            {
+              "id": 60,
+              "order": 5,
+              "extra": [
+                252
+              ]
+            },
+            {
+              "id": 58,
+              "order": 6,
+              "extra": [
+                37
+              ]
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": true,
+          "equip": [],
+          "minis": 1,
+          "orders": [],
+          "includes": [],
+          "points": 0,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 72,
+              "order": 1
+            }
+          ],
+          "name": "CRABBOT",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "tikbalangs",
+  "filters": {
+    "categories": [
+      7
+    ],
+    "skills": [
+      28,
+      40,
+      58,
+      60,
+      82,
+      84,
+      162,
+      189,
+      201,
+      213,
+      235,
+      254
+    ],
+    "equip": [
+      239
+    ],
+    "chars": [
+      3,
+      5,
+      21
+    ],
+    "types": [
+      4,
+      5
+    ],
+    "weapons": [
+      2,
+      6,
+      57,
+      72,
+      196
+    ],
+    "ammunition": [
+      2,
+      3,
+      8,
+      29
+    ]
+  },
+  "factions": [
+    101,
+    102,
+    103
+  ]
+}

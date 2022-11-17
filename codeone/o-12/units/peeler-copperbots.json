@@ -1,0 +1,120 @@
+{
+  "id": 1465,
+  "idArmy": 19,
+  "canonical": 1001,
+  "isc": "Peeler Copperbots",
+  "iscAbbr": null,
+  "name": "PEELER COPPERBOTS",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 0,
+      "isc": "Peeler Copperbots",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 0,
+          "ava": 2,
+          "bs": 11,
+          "bts": 3,
+          "cc": 13,
+          "chars": [
+            3,
+            21
+          ],
+          "equip": [
+            {
+              "id": 113,
+              "order": 1
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/peeler-copperbots-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            10
+          ],
+          "ph": 10,
+          "s": 3,
+          "str": true,
+          "type": 5,
+          "w": 1,
+          "wip": 13,
+          "name": "PEELER COPPERBOTS",
+          "notes": null,
+          "skills": [
+            {
+              "id": 61,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 2,
+          "swc": "1",
+          "weapons": [
+            {
+              "id": 2,
+              "order": 1
+            },
+            {
+              "id": 71,
+              "order": 2
+            }
+          ],
+          "name": "PEELER",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "peeler-copperbots",
+  "filters": {
+    "categories": [],
+    "skills": [
+      61
+    ],
+    "equip": [
+      113
+    ],
+    "chars": [
+      3,
+      21
+    ],
+    "types": [
+      5
+    ],
+    "weapons": [
+      2,
+      71
+    ],
+    "ammunition": [
+      2,
+      37
+    ]
+  },
+  "factions": [
+    1001,
+    1002
+  ]
+}

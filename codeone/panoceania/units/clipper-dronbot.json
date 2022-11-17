@@ -1,0 +1,126 @@
+{
+  "id": 18,
+  "idArmy": 18,
+  "canonical": 101,
+  "isc": "Clipper Dronbot",
+  "iscAbbr": null,
+  "name": "'CLIPPER' DRONBOTS",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 0,
+      "isc": "Clipper Dronbot",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 0,
+          "ava": 2,
+          "bs": 12,
+          "bts": 3,
+          "cc": 13,
+          "chars": [
+            3,
+            21
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/clipper-dronbot-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            10
+          ],
+          "ph": 10,
+          "s": 3,
+          "str": true,
+          "type": 5,
+          "w": 1,
+          "wip": 13,
+          "name": "'CLIPPER' DRONBOTS",
+          "notes": null,
+          "skills": [
+            {
+              "id": 201,
+              "order": 4,
+              "extra": [
+                31
+              ],
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 0,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 58,
+              "order": 1
+            },
+            {
+              "id": 71,
+              "order": 2
+            }
+          ],
+          "name": "CLIPPER DRONBOT",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "clipper-dronbot",
+  "filters": {
+    "categories": [],
+    "skills": [
+      201
+    ],
+    "equip": [],
+    "chars": [
+      3,
+      21
+    ],
+    "types": [
+      5
+    ],
+    "weapons": [
+      58,
+      71
+    ],
+    "ammunition": [
+      6,
+      13,
+      37
+    ]
+  },
+  "factions": [
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    902,
+    904,
+    907,
+    909
+  ]
+}

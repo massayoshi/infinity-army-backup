@@ -1,0 +1,373 @@
+{
+  "id": 1134,
+  "idArmy": 3,
+  "canonical": 301,
+  "isc": "Dynamo Reg. of Kazak Light Cavalry",
+  "iscAbbr": "Dynamo",
+  "name": "DYNAMO Reg. of Kazak Light Cavalry",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 3,
+      "isc": "Dynamo Reg. of Kazak Light Cavalry",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 1,
+          "ava": 5,
+          "bs": 12,
+          "bts": 0,
+          "cc": 15,
+          "chars": [
+            2,
+            3,
+            6
+          ],
+          "equip": [
+            {
+              "id": 107,
+              "order": 1
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/dynamo-1-1.svg",
+          "weapons": [
+            {
+              "id": 195,
+              "order": 2
+            },
+            {
+              "id": 176,
+              "order": 1
+            }
+          ],
+          "includes": [],
+          "move": [
+            20,
+            10
+          ],
+          "ph": 12,
+          "s": 4,
+          "str": false,
+          "type": 1,
+          "w": 1,
+          "wip": 13,
+          "name": "DYNAMO Reg. of Kazak Light Cavalry",
+          "notes": null,
+          "skills": [
+            {
+              "id": 40,
+              "order": 1,
+              "extra": [
+                11
+              ]
+            },
+            {
+              "id": 85,
+              "order": 3
+            },
+            {
+              "id": 84,
+              "order": 4,
+              "q": 1
+            },
+            {
+              "id": 256,
+              "order": 5,
+              "q": 1
+            },
+            {
+              "id": 28,
+              "order": 6,
+              "extra": [
+                6
+              ],
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "arm": 1,
+          "ava": -1,
+          "bs": 12,
+          "bts": 0,
+          "cc": 15,
+          "chars": [
+            2,
+            3,
+            6
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/dynamo-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 12,
+          "s": 2,
+          "str": false,
+          "type": 1,
+          "w": 1,
+          "wip": 13,
+          "name": "DISMOUNTED",
+          "notes": null,
+          "skills": [
+            {
+              "id": 85,
+              "order": 2
+            },
+            {
+              "id": 84,
+              "order": 3,
+              "q": 1
+            },
+            {
+              "id": 256,
+              "order": 4,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 4179,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "IMPETUOUS",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 16,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 77,
+              "order": 1
+            },
+            {
+              "id": 68,
+              "order": 2
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            }
+          ],
+          "name": "DYNAMO",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 4180,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "IMPETUOUS",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 25,
+          "swc": "1",
+          "weapons": [
+            {
+              "id": 157,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 2
+            },
+            {
+              "id": 5,
+              "order": 3
+            }
+          ],
+          "name": "DYNAMO",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 4181,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "IMPETUOUS",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 19,
+          "swc": "0.5",
+          "weapons": [
+            {
+              "id": 31,
+              "order": 1
+            },
+            {
+              "id": 72,
+              "order": 2
+            },
+            {
+              "id": 70,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            }
+          ],
+          "name": "DYNAMO",
+          "skills": [
+            {
+              "id": 59,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 4182,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 106,
+              "order": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "IMPETUOUS",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 20,
+          "swc": "0.5",
+          "weapons": [
+            {
+              "id": 26,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 2
+            },
+            {
+              "id": 5,
+              "order": 3
+            }
+          ],
+          "name": "DYNAMO",
+          "skills": [
+            {
+              "id": 64,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "dynamo",
+  "filters": {
+    "categories": [
+      3
+    ],
+    "skills": [
+      28,
+      40,
+      59,
+      64,
+      84,
+      85,
+      256
+    ],
+    "equip": [
+      106,
+      107
+    ],
+    "chars": [
+      2,
+      3,
+      6
+    ],
+    "types": [
+      1
+    ],
+    "weapons": [
+      5,
+      26,
+      31,
+      68,
+      69,
+      70,
+      72,
+      77,
+      157,
+      176,
+      195
+    ],
+    "ammunition": [
+      2,
+      3,
+      13,
+      21,
+      29,
+      35
+    ]
+  },
+  "factions": [
+    301,
+    305
+  ]
+}

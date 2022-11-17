@@ -1,0 +1,277 @@
+{
+  "id": 534,
+  "idArmy": 43,
+  "canonical": 601,
+  "isc": "Kornak Gazarot, Morat Superior Warrior-Officer",
+  "iscAbbr": "Kornak Gazarot",
+  "name": "KORNAK Gazarot, Superior Warrior-Officer",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 10,
+      "isc": "Kornak Gazarot, Morat Superior Warrior-Officer",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 3,
+          "ava": 1,
+          "bs": 14,
+          "bts": 9,
+          "cc": 22,
+          "chars": [
+            1,
+            3
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/kornak-gazarot-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 13,
+          "s": 2,
+          "str": false,
+          "type": 2,
+          "w": 1,
+          "wip": 14,
+          "name": "KORNAK Gazarot, Superior Warrior-Officer",
+          "notes": null,
+          "skills": [
+            {
+              "id": 24,
+              "order": 1
+            },
+            {
+              "id": 40,
+              "order": 2,
+              "extra": [
+                11
+              ]
+            },
+            {
+              "id": 39,
+              "order": 3
+            },
+            {
+              "id": 162,
+              "order": 5,
+              "extra": [
+                30
+              ]
+            },
+            {
+              "id": 86,
+              "order": 6
+            },
+            {
+              "id": 83,
+              "order": 7
+            },
+            {
+              "id": 88,
+              "order": 8
+            },
+            {
+              "id": 250,
+              "order": 9,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 38,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 64,
+              "order": 1
+            },
+            {
+              "id": 56,
+              "order": 2
+            },
+            {
+              "id": 11,
+              "order": 4
+            },
+            {
+              "id": 107,
+              "order": 3
+            }
+          ],
+          "name": "KORNAK",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "LIEUTENANT",
+              "list": 0,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 41,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 64,
+              "order": 1
+            },
+            {
+              "id": 56,
+              "order": 2
+            },
+            {
+              "id": 11,
+              "order": 4
+            },
+            {
+              "id": 107,
+              "order": 3
+            }
+          ],
+          "name": "KORNAK",
+          "skills": [
+            {
+              "id": 69,
+              "order": 2
+            },
+            {
+              "id": 119,
+              "order": 3
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 3,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "LIEUTENANT",
+              "list": 0,
+              "total": 2
+            }
+          ],
+          "includes": [],
+          "points": 45,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 64,
+              "order": 1
+            },
+            {
+              "id": 56,
+              "order": 2
+            },
+            {
+              "id": 107,
+              "order": 3
+            },
+            {
+              "id": 11,
+              "order": 4
+            }
+          ],
+          "name": "KORNAK",
+          "skills": [
+            {
+              "extra": [
+                246
+              ],
+              "id": 119,
+              "order": 8
+            },
+            {
+              "id": 69,
+              "order": 10
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "kornak-gazarot",
+  "filters": {
+    "categories": [
+      10
+    ],
+    "skills": [
+      24,
+      39,
+      40,
+      69,
+      83,
+      86,
+      88,
+      119,
+      162,
+      250
+    ],
+    "equip": [],
+    "chars": [
+      1,
+      3
+    ],
+    "types": [
+      2
+    ],
+    "weapons": [
+      11,
+      56,
+      64,
+      107
+    ],
+    "ammunition": [
+      2,
+      8,
+      9
+    ]
+  },
+  "factions": [
+    601,
+    602
+  ]
+}

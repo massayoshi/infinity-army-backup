@@ -1,0 +1,310 @@
+{
+  "id": 1565,
+  "idArmy": 1565,
+  "canonical": 1,
+  "isc": "Motorized Bounty Hunters",
+  "iscAbbr": null,
+  "name": "Motorized Bounty Hunters",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 11,
+      "isc": "Motorized Bounty Hunters",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 1,
+          "ava": 1,
+          "bs": 12,
+          "bts": 3,
+          "cc": 17,
+          "chars": [
+            1,
+            4,
+            6
+          ],
+          "equip": [
+            {
+              "id": 107,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/motorized-bounty-hunters-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            20,
+            15
+          ],
+          "ph": 10,
+          "s": 4,
+          "str": false,
+          "type": 1,
+          "w": 1,
+          "wip": 13,
+          "name": "Motorized Bounty Hunters",
+          "notes": null,
+          "skills": [
+            {
+              "id": 25,
+              "order": 1,
+              "extra": [
+                277
+              ],
+              "q": 1
+            },
+            {
+              "id": 40,
+              "order": 2,
+              "extra": [
+                23
+              ],
+              "q": 1
+            },
+            {
+              "id": 256,
+              "order": 3,
+              "q": 1
+            },
+            {
+              "id": 28,
+              "order": 4,
+              "extra": [
+                6
+              ],
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "arm": 1,
+          "ava": -1,
+          "bs": 12,
+          "bts": 3,
+          "cc": 17,
+          "chars": [
+            1,
+            4,
+            6
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/motorized-bounty-hunters-1-2.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 10,
+          "s": 2,
+          "str": false,
+          "type": 1,
+          "w": 1,
+          "wip": 13,
+          "name": "DISMOUNTED",
+          "notes": null,
+          "skills": [
+            {
+              "id": 25,
+              "order": 1,
+              "extra": [
+                277
+              ],
+              "q": 1
+            },
+            {
+              "id": 256,
+              "order": 2,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "IRREGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "IMPETUOUS",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 11,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 26,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 2
+            },
+            {
+              "id": 71,
+              "order": 3
+            }
+          ],
+          "name": "MOTORIZED BOUNTY HUNTER",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "IRREGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "IMPETUOUS",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 9,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 77,
+              "order": 1
+            },
+            {
+              "id": 80,
+              "order": 2
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 71,
+              "order": 4
+            }
+          ],
+          "name": "MOTORIZED BOUNTY HUNTER",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 3,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "IRREGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "IMPETUOUS",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 16,
+          "swc": "0.5",
+          "weapons": [
+            {
+              "id": 152,
+              "order": 1
+            },
+            {
+              "id": 98,
+              "order": 2
+            },
+            {
+              "id": 71,
+              "order": 3
+            }
+          ],
+          "name": "MOTORIZED BOUNTY HUNTER",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "motorized-bounty-hunters",
+  "filters": {
+    "categories": [
+      11
+    ],
+    "skills": [
+      25,
+      28,
+      40,
+      256
+    ],
+    "equip": [
+      107
+    ],
+    "chars": [
+      1,
+      4,
+      6
+    ],
+    "types": [
+      1
+    ],
+    "weapons": [
+      26,
+      69,
+      71,
+      77,
+      80,
+      98,
+      152
+    ],
+    "ammunition": [
+      2,
+      3,
+      8,
+      35,
+      37
+    ]
+  },
+  "factions": [
+    101,
+    201,
+    202,
+    301,
+    401,
+    501,
+    504,
+    601,
+    701,
+    703,
+    801,
+    902,
+    904,
+    908,
+    1001
+  ]
+}

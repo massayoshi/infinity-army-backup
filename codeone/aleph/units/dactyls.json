@@ -1,0 +1,162 @@
+{
+  "id": 616,
+  "idArmy": 36,
+  "canonical": 701,
+  "isc": "Dactyls",
+  "iscAbbr": null,
+  "name": "DACTYLS",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 0,
+      "isc": "Dactyls",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 1,
+          "ava": 2,
+          "bs": 12,
+          "bts": 3,
+          "cc": 19,
+          "chars": [
+            3
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/dactyls-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 11,
+          "s": 2,
+          "str": false,
+          "type": 1,
+          "w": 1,
+          "wip": 13,
+          "name": "DACTYLS",
+          "notes": null,
+          "skills": [],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 0,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 33,
+              "order": 1
+            },
+            {
+              "id": 5,
+              "order": 5
+            },
+            {
+              "id": 69,
+              "order": 2
+            }
+          ],
+          "name": "DACTYL",
+          "skills": [
+            {
+              "id": 49,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 3,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 106,
+              "order": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 0,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 33,
+              "order": 1
+            },
+            {
+              "id": 5,
+              "order": 4
+            },
+            {
+              "id": 69,
+              "order": 2
+            }
+          ],
+          "name": "DACTYL",
+          "skills": [
+            {
+              "id": 53,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "dactyls",
+  "filters": {
+    "categories": [],
+    "skills": [
+      49,
+      53
+    ],
+    "equip": [
+      106
+    ],
+    "chars": [
+      3
+    ],
+    "types": [
+      1
+    ],
+    "weapons": [
+      5,
+      33,
+      69
+    ],
+    "ammunition": [
+      2
+    ]
+  },
+  "factions": [
+    701,
+    702
+  ]
+}

@@ -1,0 +1,264 @@
+{
+  "id": 1484,
+  "idArmy": 1484,
+  "canonical": 101,
+  "isc": "Nøkken, Special Intervention and Recon Team",
+  "iscAbbr": "Nøkken",
+  "name": "Nøkken, Special Intervention and Recon Team",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 0,
+      "isc": "Nøkken, Special Intervention and Recon Team",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 2,
+          "ava": 2,
+          "bs": 12,
+          "bts": 3,
+          "cc": 13,
+          "chars": [
+            3
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/nokken-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 10,
+          "s": 2,
+          "str": false,
+          "type": 1,
+          "w": 1,
+          "wip": 13,
+          "name": "Nøkken, Special Intervention and Recon Team",
+          "notes": null,
+          "skills": [
+            {
+              "id": 28,
+              "order": 1,
+              "extra": [
+                7
+              ]
+            },
+            {
+              "id": 161,
+              "order": 2,
+              "extra": [
+                22
+              ]
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 0,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 74,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 0
+            },
+            {
+              "id": 5,
+              "order": 0
+            }
+          ],
+          "name": "NØKK",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 100,
+              "order": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 3,
+          "swc": "0.5",
+          "weapons": [
+            {
+              "id": 33,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 2
+            },
+            {
+              "id": 5,
+              "order": 3
+            },
+            {
+              "id": 28,
+              "order": 4
+            }
+          ],
+          "name": "NØKK",
+          "skills": [
+            {
+              "id": 1000,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 6,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 114,
+              "order": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 2,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 26,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 2
+            },
+            {
+              "id": 5,
+              "order": 3
+            }
+          ],
+          "name": "NØKK",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 7,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 2,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 26,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 2
+            },
+            {
+              "id": 5,
+              "order": 3
+            }
+          ],
+          "name": "NØKK",
+          "skills": [
+            {
+              "extra": [],
+              "id": 189,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "nokken",
+  "filters": {
+    "categories": [],
+    "skills": [
+      28,
+      161,
+      189,
+      1000
+    ],
+    "equip": [
+      100,
+      114
+    ],
+    "chars": [
+      3
+    ],
+    "types": [
+      1
+    ],
+    "weapons": [
+      5,
+      26,
+      28,
+      33,
+      69,
+      74
+    ],
+    "ammunition": [
+      2,
+      3
+    ]
+  },
+  "factions": [
+    101,
+    106,
+    909
+  ]
+}

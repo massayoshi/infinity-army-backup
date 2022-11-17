@@ -1,0 +1,210 @@
+{
+  "id": 15,
+  "idArmy": 15,
+  "canonical": 101,
+  "isc": "Machinists",
+  "iscAbbr": null,
+  "name": "MACHINISTS",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 8,
+      "isc": "Machinists",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 1,
+          "ava": 2,
+          "bs": 12,
+          "bts": 3,
+          "cc": 13,
+          "chars": [
+            1,
+            3,
+            5
+          ],
+          "equip": [
+            {
+              "id": 238,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/machinists-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 10,
+          "s": 2,
+          "str": false,
+          "type": 1,
+          "w": 1,
+          "wip": 12,
+          "name": "MACHINISTS",
+          "notes": null,
+          "skills": [
+            {
+              "id": 49,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 237,
+              "order": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 15,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 33,
+              "order": 1
+            },
+            {
+              "id": 17,
+              "order": 2
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            }
+          ],
+          "name": "MACHINIST",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 3,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 237,
+              "order": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 17,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 33,
+              "order": 1
+            },
+            {
+              "id": 17,
+              "order": 2
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            }
+          ],
+          "name": "MACHINIST Varuna Div",
+          "skills": [
+            {
+              "extra": [
+                6
+              ],
+              "id": 28,
+              "order": 1
+            },
+            {
+              "extra": [],
+              "id": 164,
+              "order": 2
+            },
+            {
+              "extra": [
+                35
+              ],
+              "id": 58,
+              "order": 3
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "machinists",
+  "filters": {
+    "categories": [
+      8
+    ],
+    "skills": [
+      28,
+      49,
+      58,
+      164
+    ],
+    "equip": [
+      237,
+      238
+    ],
+    "chars": [
+      1,
+      3,
+      5
+    ],
+    "types": [
+      1
+    ],
+    "weapons": [
+      5,
+      17,
+      33,
+      69
+    ],
+    "ammunition": [
+      2,
+      13
+    ]
+  },
+  "factions": [
+    101,
+    102,
+    104,
+    105,
+    106
+  ]
+}

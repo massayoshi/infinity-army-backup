@@ -1,0 +1,110 @@
+{
+  "id": 410,
+  "idArmy": 19,
+  "canonical": 501,
+  "isc": "Vertigo Zonds",
+  "iscAbbr": null,
+  "name": "VERTIGO ZONDS",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 0,
+      "isc": "Vertigo Zonds",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 0,
+          "ava": 1,
+          "bs": 12,
+          "bts": 3,
+          "cc": 13,
+          "chars": [
+            3,
+            21
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/vertigo-zonds-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            10
+          ],
+          "ph": 10,
+          "s": 3,
+          "str": true,
+          "type": 5,
+          "w": 1,
+          "wip": 13,
+          "name": "VERTIGO ZONDS",
+          "notes": null,
+          "skills": [],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 0,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 58,
+              "order": 1
+            },
+            {
+              "id": 71,
+              "order": 2
+            }
+          ],
+          "name": "VERTIGO ZOND",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "vertigo-zonds",
+  "filters": {
+    "categories": [],
+    "skills": [],
+    "equip": [],
+    "chars": [
+      3,
+      21
+    ],
+    "types": [
+      5
+    ],
+    "weapons": [
+      58,
+      71
+    ],
+    "ammunition": [
+      6,
+      13,
+      37
+    ]
+  },
+  "factions": [
+    501,
+    502,
+    503,
+    504,
+    905
+  ]
+}

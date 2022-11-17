@@ -1,0 +1,162 @@
+{
+  "id": 536,
+  "idArmy": 45,
+  "canonical": 601,
+  "isc": "Treitak Anyat",
+  "iscAbbr": null,
+  "name": "TREITAK ANYAT",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 10,
+      "isc": "Treitak Anyat",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 1,
+          "ava": 1,
+          "bs": 12,
+          "bts": 3,
+          "cc": 19,
+          "chars": [
+            1,
+            3,
+            5
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/treitak-anyat-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 12,
+          "s": 2,
+          "str": false,
+          "type": 1,
+          "w": 1,
+          "wip": 13,
+          "name": "TREITAK ANYAT",
+          "notes": null,
+          "skills": [
+            {
+              "id": 162,
+              "order": 1,
+              "extra": [
+                30
+              ]
+            },
+            {
+              "id": 189,
+              "order": 2
+            },
+            {
+              "id": 82,
+              "order": 3
+            },
+            {
+              "id": 83,
+              "order": 4
+            },
+            {
+              "id": 88,
+              "order": 5
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 24,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 95,
+              "order": 1
+            },
+            {
+              "id": 80,
+              "order": 2
+            },
+            {
+              "id": 45,
+              "order": 3
+            },
+            {
+              "id": 47,
+              "order": 4
+            },
+            {
+              "id": 5,
+              "order": 6
+            },
+            {
+              "id": 107,
+              "order": 5
+            }
+          ],
+          "name": "ANYAT",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "treitak-anyat",
+  "filters": {
+    "categories": [
+      10
+    ],
+    "skills": [
+      82,
+      83,
+      88,
+      162,
+      189
+    ],
+    "equip": [],
+    "chars": [
+      1,
+      3,
+      5
+    ],
+    "types": [
+      1
+    ],
+    "weapons": [
+      5,
+      45,
+      47,
+      80,
+      95,
+      107
+    ],
+    "ammunition": [
+      2,
+      8,
+      14,
+      21
+    ]
+  },
+  "factions": [
+    601,
+    602
+  ]
+}

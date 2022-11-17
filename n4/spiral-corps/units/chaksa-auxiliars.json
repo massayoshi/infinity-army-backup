@@ -1,0 +1,238 @@
+{
+  "id": 655,
+  "idArmy": 10,
+  "canonical": 801,
+  "isc": "Chaksa Auxiliars",
+  "iscAbbr": null,
+  "name": "CHAKSA AUXILIARS",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 8,
+      "isc": "Chaksa Auxiliars",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 0,
+          "ava": 4,
+          "bs": 11,
+          "bts": 0,
+          "cc": 19,
+          "chars": [
+            2,
+            3,
+            5
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/chaksa-auxiliars-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 12,
+          "s": 2,
+          "str": false,
+          "type": 1,
+          "w": 1,
+          "wip": 13,
+          "name": "CHAKSA AUXILIARS",
+          "notes": null,
+          "skills": [
+            {
+              "id": 240,
+              "order": 1,
+              "extra": [
+                4
+              ]
+            },
+            {
+              "id": 84,
+              "order": 2
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 113,
+              "order": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 24,
+          "swc": "1",
+          "weapons": [
+            {
+              "id": 2,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 2
+            },
+            {
+              "id": 5,
+              "order": 3
+            }
+          ],
+          "name": "CHAKSA AUXILIAR ",
+          "skills": [
+            {
+              "id": 109,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 3,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 15,
+          "swc": "1",
+          "weapons": [
+            {
+              "id": 69,
+              "order": 2
+            },
+            {
+              "id": 5,
+              "order": 3
+            },
+            {
+              "id": 89,
+              "order": 1
+            },
+            {
+              "id": 28,
+              "order": 4
+            }
+          ],
+          "name": "CHAKSA AUXILIAR ",
+          "skills": [
+            {
+              "extra": [
+                31
+              ],
+              "id": 201,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 4,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 91,
+              "order": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 10,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 69,
+              "order": 2
+            },
+            {
+              "id": 5,
+              "order": 3
+            },
+            {
+              "id": 57,
+              "order": 1
+            }
+          ],
+          "name": "CHAKSA AUXILIAR FTO",
+          "skills": [
+            {
+              "id": 65,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "chaksa-auxiliars",
+  "filters": {
+    "categories": [
+      8
+    ],
+    "skills": [
+      65,
+      84,
+      109,
+      201,
+      240
+    ],
+    "equip": [
+      91,
+      113
+    ],
+    "chars": [
+      2,
+      3,
+      5
+    ],
+    "types": [
+      1
+    ],
+    "weapons": [
+      2,
+      5,
+      28,
+      57,
+      69,
+      89
+    ],
+    "ammunition": [
+      2
+    ]
+  },
+  "factions": [
+    801,
+    906
+  ]
+}

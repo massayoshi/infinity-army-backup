@@ -1,0 +1,171 @@
+{
+  "id": 1546,
+  "idArmy": 1546,
+  "canonical": 401,
+  "isc": "Shakush Light Armored Unit",
+  "iscAbbr": null,
+  "name": "SHAKUSH Light Armored Unit",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 0,
+      "isc": "",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 6,
+          "ava": 1,
+          "bs": 14,
+          "bts": 6,
+          "cc": 17,
+          "chars": [
+            3,
+            21
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/shakush-1-1.svg",
+          "weapons": [],
+          "includes": [
+            {
+              "group": 2,
+              "option": 1,
+              "q": 1
+            }
+          ],
+          "move": [
+            15,
+            5
+          ],
+          "ph": 14,
+          "s": 6,
+          "str": true,
+          "type": 4,
+          "w": 3,
+          "wip": 14,
+          "name": "SHAKUSH Light Armored Unit",
+          "notes": null,
+          "skills": [
+            {
+              "id": 201,
+              "order": 1,
+              "extra": [
+                4
+              ]
+            },
+            {
+              "id": 40,
+              "order": 3,
+              "extra": [
+                27
+              ]
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 5,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 2,
+              "order": 1
+            },
+            {
+              "id": 57,
+              "order": 2
+            },
+            {
+              "id": 6,
+              "order": 3
+            }
+          ],
+          "name": "SHAKUSH",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 5,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 157,
+              "order": 1
+            },
+            {
+              "id": 57,
+              "order": 2
+            },
+            {
+              "id": 6,
+              "order": 3
+            }
+          ],
+          "name": "SHAKUSH",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "shakush-light-armored-unit",
+  "filters": {
+    "categories": [],
+    "skills": [
+      40,
+      201
+    ],
+    "equip": [],
+    "chars": [
+      3,
+      21
+    ],
+    "types": [
+      4
+    ],
+    "weapons": [
+      2,
+      6,
+      57,
+      157
+    ],
+    "ammunition": [
+      2,
+      3
+    ]
+  },
+  "factions": [
+    401,
+    402,
+    404
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": 192,
+  "idArmy": 20,
+  "canonical": 202,
+  "isc": "Yudbots",
+  "iscAbbr": null,
+  "name": "YUDBOTS",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 0,
+      "isc": "Yudbots",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 0,
+          "ava": 4,
+          "bs": 8,
+          "bts": 3,
+          "cc": 11,
+          "chars": [
+            21,
+            27
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/yudbots-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            10
+          ],
+          "ph": 10,
+          "s": 1,
+          "str": true,
+          "type": 5,
+          "w": 1,
+          "wip": 13,
+          "name": "YUDBOTS",
+          "notes": null,
+          "skills": [
+            {
+              "id": 243,
+              "order": 1,
+              "extra": [
+                41
+              ]
+            },
+            {
+              "id": 28,
+              "order": 4,
+              "extra": [
+                6
+              ]
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 0,
+          "orders": [],
+          "includes": [],
+          "points": 0,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 71,
+              "order": 1
+            }
+          ],
+          "name": "YUDBOT",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "yudbots",
+  "filters": {
+    "categories": [],
+    "skills": [
+      28,
+      243
+    ],
+    "equip": [],
+    "chars": [
+      21,
+      27
+    ],
+    "types": [
+      5
+    ],
+    "weapons": [
+      71
+    ],
+    "ammunition": [
+      37
+    ]
+  },
+  "factions": [
+    202,
+    701,
+    702,
+    703,
+    1001,
+    1002
+  ]
+}

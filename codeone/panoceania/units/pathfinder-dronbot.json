@@ -1,0 +1,121 @@
+{
+  "id": 16,
+  "idArmy": 16,
+  "canonical": 101,
+  "isc": "Pathfinder Dronbot",
+  "iscAbbr": null,
+  "name": "PATHFINDER DRONBOTS",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 0,
+      "isc": "Pathfinder Dronbot",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 0,
+          "ava": 2,
+          "bs": 11,
+          "bts": 3,
+          "cc": 13,
+          "chars": [
+            3,
+            21
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/pathfinder-dronbot-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            10
+          ],
+          "ph": 10,
+          "s": 3,
+          "str": true,
+          "type": 5,
+          "w": 1,
+          "wip": 13,
+          "name": "PATHFINDER DRONBOTS",
+          "notes": null,
+          "skills": [
+            {
+              "id": 189,
+              "order": 5
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 1,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 33,
+              "order": 1
+            },
+            {
+              "id": 71,
+              "order": 2
+            }
+          ],
+          "name": "PATHFINDER DRONBOT",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "pathfinder-dronbot",
+  "filters": {
+    "categories": [],
+    "skills": [
+      189
+    ],
+    "equip": [],
+    "chars": [
+      3,
+      21
+    ],
+    "types": [
+      5
+    ],
+    "weapons": [
+      33,
+      71
+    ],
+    "ammunition": [
+      2,
+      37
+    ]
+  },
+  "factions": [
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    902,
+    904,
+    907,
+    909
+  ]
+}

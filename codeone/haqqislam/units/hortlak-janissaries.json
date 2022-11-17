@@ -1,0 +1,173 @@
+{
+  "id": 1316,
+  "idArmy": 65,
+  "canonical": 401,
+  "isc": "Hortlak Janissaries",
+  "iscAbbr": null,
+  "name": "HORTLAK Janissaries",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 0,
+      "isc": "Hortlak Janissaries",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 3,
+          "ava": 2,
+          "bs": 13,
+          "bts": 3,
+          "cc": 15,
+          "chars": [
+            3,
+            21
+          ],
+          "equip": [
+            {
+              "id": 114,
+              "order": 1
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/hortlak-janissaries-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 12,
+          "s": 2,
+          "str": false,
+          "type": 3,
+          "w": 1,
+          "wip": 14,
+          "name": "HORTLAK Janissaries",
+          "notes": null,
+          "skills": [
+            {
+              "id": 201,
+              "order": 1,
+              "extra": [
+                4
+              ]
+            },
+            {
+              "id": 28,
+              "order": 3,
+              "extra": [
+                6
+              ]
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 2,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 77,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 2
+            },
+            {
+              "id": 107,
+              "order": 1
+            }
+          ],
+          "name": "HORTLAK",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 3,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 3,
+          "swc": "0.5",
+          "weapons": [
+            {
+              "id": 35,
+              "order": 1
+            },
+            {
+              "id": 5,
+              "order": 3
+            },
+            {
+              "id": 107,
+              "order": 2
+            }
+          ],
+          "name": "HORTLAK",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "hortlak-janissaries",
+  "filters": {
+    "categories": [],
+    "skills": [
+      28,
+      201
+    ],
+    "equip": [
+      114
+    ],
+    "chars": [
+      3,
+      21
+    ],
+    "types": [
+      3
+    ],
+    "weapons": [
+      5,
+      35,
+      77,
+      107
+    ],
+    "ammunition": [
+      2,
+      3,
+      8,
+      35
+    ]
+  },
+  "factions": [
+    401,
+    404
+  ]
+}

@@ -1,0 +1,363 @@
+{
+  "id": 531,
+  "idArmy": 40,
+  "canonical": 601,
+  "isc": "Oznat, Morat Hunting Regiment",
+  "iscAbbr": null,
+  "name": "OZNAT, Morat Hunting Regiment",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 3,
+      "isc": "Oznat, Morat Hunting Regiment",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 1,
+          "ava": 2,
+          "bs": 11,
+          "bts": 0,
+          "cc": 21,
+          "chars": [
+            1,
+            3,
+            6
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/oznat-morat-hunting-regiment-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            10
+          ],
+          "ph": 13,
+          "s": 2,
+          "str": false,
+          "type": 7,
+          "w": 1,
+          "wip": 13,
+          "name": "OZNAT, Morat Hunting Regiment",
+          "notes": null,
+          "skills": [
+            {
+              "id": 19,
+              "order": 1
+            },
+            {
+              "id": 40,
+              "order": 2,
+              "extra": [
+                11
+              ]
+            },
+            {
+              "id": 256,
+              "order": 3,
+              "q": 1
+            },
+            {
+              "id": 88,
+              "order": 4,
+              "q": 1
+            },
+            {
+              "id": 83,
+              "order": 5,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "IMPETUOUS",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 16,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 33,
+              "order": 1
+            },
+            {
+              "id": 10,
+              "order": 4
+            },
+            {
+              "id": 107,
+              "order": 3
+            },
+            {
+              "id": 195,
+              "order": 2
+            }
+          ],
+          "name": "OZNAT FTO",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "IMPETUOUS",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 18,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 81,
+              "order": 1
+            },
+            {
+              "id": 45,
+              "order": 2
+            },
+            {
+              "id": 107,
+              "order": 3
+            },
+            {
+              "id": 11,
+              "order": 4
+            }
+          ],
+          "name": "OZNAT FTO",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 3,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "IMPETUOUS",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [
+            {
+              "group": 2,
+              "option": 1,
+              "q": 1
+            }
+          ],
+          "points": 26,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 81,
+              "order": 2
+            },
+            {
+              "id": 45,
+              "order": 3
+            },
+            {
+              "id": 11,
+              "order": 4
+            },
+            {
+              "id": 107,
+              "order": 1
+            }
+          ],
+          "name": "OZNAT",
+          "skills": [
+            {
+              "id": 65,
+              "order": 1
+            }
+          ],
+          "peripheral": [
+            {
+              "id": 113
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": 2,
+      "isc": "Sync Pretas",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 0,
+          "ava": -1,
+          "bs": 9,
+          "bts": 0,
+          "cc": 20,
+          "chars": [
+            27
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/oznat-morat-hunting-regiment-2-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            15
+          ],
+          "ph": 14,
+          "s": 2,
+          "str": false,
+          "type": 7,
+          "w": 1,
+          "wip": 12,
+          "name": "SYNC PRETAS",
+          "notes": null,
+          "skills": [
+            {
+              "id": 84,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 40,
+              "order": 2,
+              "extra": [
+                11
+              ],
+              "q": 1
+            },
+            {
+              "id": 243,
+              "order": 3,
+              "extra": [
+                40
+              ],
+              "q": 1
+            },
+            {
+              "id": 85,
+              "order": 4,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": true,
+          "equip": [],
+          "minis": 1,
+          "orders": [],
+          "includes": [],
+          "points": 7,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 18,
+              "order": 1
+            },
+            {
+              "id": 6,
+              "order": 2
+            }
+          ],
+          "name": "SYNC PRETA",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "oznat-morat-hunting-regiment",
+  "filters": {
+    "categories": [
+      2,
+      3
+    ],
+    "skills": [
+      19,
+      40,
+      65,
+      83,
+      84,
+      85,
+      88,
+      243,
+      256
+    ],
+    "equip": [],
+    "chars": [
+      1,
+      3,
+      6,
+      27
+    ],
+    "types": [
+      7
+    ],
+    "weapons": [
+      6,
+      10,
+      11,
+      18,
+      33,
+      45,
+      81,
+      107,
+      195
+    ],
+    "ammunition": [
+      2,
+      3,
+      8,
+      9,
+      21
+    ]
+  },
+  "factions": [
+    601,
+    602
+  ]
+}

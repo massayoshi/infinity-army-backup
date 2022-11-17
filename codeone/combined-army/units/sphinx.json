@@ -1,0 +1,155 @@
+{
+  "id": 524,
+  "idArmy": 33,
+  "canonical": 601,
+  "isc": "Shasvastii Special Armored Corp Sphinx",
+  "iscAbbr": "Sphinx",
+  "name": "Shasvastii Special Armoured Corp SPHINX",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 0,
+      "isc": "Shasvastii Special Armored Corp Sphinx",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 6,
+          "ava": 1,
+          "bs": 14,
+          "bts": 6,
+          "cc": 20,
+          "chars": [
+            3
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/sphinx-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            15
+          ],
+          "ph": 15,
+          "s": 6,
+          "str": true,
+          "type": 4,
+          "w": 3,
+          "wip": 13,
+          "name": "Shasvastii Special Armoured Corp SPHINX",
+          "notes": null,
+          "skills": [
+            {
+              "id": 201,
+              "order": 1,
+              "extra": [
+                4
+              ]
+            },
+            {
+              "id": 191,
+              "order": 2,
+              "extra": [
+                6
+              ]
+            },
+            {
+              "id": 29,
+              "order": 3
+            },
+            {
+              "id": 28,
+              "order": 4,
+              "extra": [
+                7
+              ]
+            },
+            {
+              "id": 82,
+              "order": 5
+            },
+            {
+              "id": 40,
+              "order": 6,
+              "extra": [
+                32
+              ],
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 9,
+          "swc": "2",
+          "weapons": [
+            {
+              "id": 74,
+              "order": 1
+            },
+            {
+              "id": 11,
+              "order": 1
+            },
+            {
+              "id": 57,
+              "order": 2
+            }
+          ],
+          "name": "SPHINX",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "sphinx",
+  "filters": {
+    "categories": [],
+    "skills": [
+      28,
+      29,
+      40,
+      82,
+      191,
+      201
+    ],
+    "equip": [],
+    "chars": [
+      3
+    ],
+    "types": [
+      4
+    ],
+    "weapons": [
+      11,
+      57,
+      74
+    ],
+    "ammunition": [
+      2,
+      9
+    ]
+  },
+  "factions": [
+    601,
+    603,
+    604
+  ]
+}

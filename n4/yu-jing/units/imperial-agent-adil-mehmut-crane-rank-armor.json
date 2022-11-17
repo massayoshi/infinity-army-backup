@@ -1,0 +1,241 @@
+{
+  "id": 1540,
+  "idArmy": 1540,
+  "canonical": 201,
+  "isc": "Imperial Agent Adil Mehmut (Crane Rank Armor)",
+  "iscAbbr": null,
+  "name": "Imperial Agent ADIL MEHMUT (Crane Rank Armor)",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 10,
+      "isc": "Imperial Agent Adil Mehmut (Crane Rank Armor)",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 4,
+          "ava": 1,
+          "bs": 13,
+          "bts": 6,
+          "cc": 23,
+          "chars": [
+            1,
+            3,
+            5,
+            21
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/adil-mehmut-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 13,
+          "s": 2,
+          "str": false,
+          "type": 3,
+          "w": 2,
+          "wip": 13,
+          "name": "Imperial Agent ADIL MEHMUT (Crane Rank Armor)",
+          "notes": null,
+          "skills": [
+            {
+              "id": 20,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 242,
+              "order": 2,
+              "q": 1
+            },
+            {
+              "id": 84,
+              "order": 3,
+              "q": 1
+            },
+            {
+              "id": 40,
+              "order": 4,
+              "extra": [
+                23
+              ],
+              "q": 1
+            },
+            {
+              "id": 162,
+              "order": 5,
+              "extra": [
+                30
+              ],
+              "q": 1
+            },
+            {
+              "id": 122,
+              "order": 6,
+              "q": 1
+            },
+            {
+              "id": 189,
+              "order": 7,
+              "q": 1
+            },
+            {
+              "id": 65,
+              "order": 8,
+              "q": 1
+            },
+            {
+              "id": 164,
+              "order": 9,
+              "q": 1
+            },
+            {
+              "id": 88,
+              "order": 10,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 45,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 103,
+              "order": 1
+            },
+            {
+              "id": 65,
+              "order": 2
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 9,
+              "order": 4
+            }
+          ],
+          "name": "ADIL CRANE RANK",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "LIEUTENANT",
+              "list": 0,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 43,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 103,
+              "order": 1
+            },
+            {
+              "id": 65,
+              "order": 2
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 9,
+              "order": 4
+            }
+          ],
+          "name": "ADIL CRANE RANK",
+          "skills": [
+            {
+              "id": 119,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "imperial-agent-adil-mehmut-crane-rank-armor",
+  "filters": {
+    "categories": [
+      10
+    ],
+    "skills": [
+      20,
+      40,
+      65,
+      84,
+      88,
+      119,
+      122,
+      162,
+      164,
+      189,
+      242
+    ],
+    "equip": [],
+    "chars": [
+      1,
+      3,
+      5,
+      21
+    ],
+    "types": [
+      3
+    ],
+    "weapons": [
+      9,
+      65,
+      69,
+      103
+    ],
+    "ammunition": [
+      2,
+      3
+    ]
+  },
+  "factions": [
+    201,
+    202,
+    205
+  ],
+  "notes": "NOTE: There only can be one Adil in each Army List."
+}

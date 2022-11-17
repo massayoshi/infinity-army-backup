@@ -1,0 +1,249 @@
+{
+  "id": 528,
+  "idArmy": 37,
+  "canonical": 601,
+  "isc": "Shasvastii Sabotage and Destruction Unit Caliban",
+  "iscAbbr": "Caliban",
+  "name": "Shasvastii Sabotage and Destruction Unit CALIBAN",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 0,
+      "isc": "Shasvastii Sabotage and Destruction Unit Caliban",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 1,
+          "ava": 2,
+          "bs": 12,
+          "bts": 0,
+          "cc": 23,
+          "chars": [
+            3
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/caliban-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 13,
+          "s": 2,
+          "str": false,
+          "type": 1,
+          "w": 1,
+          "wip": 13,
+          "name": "Sabotage and Destruction Unit CALIBAN",
+          "notes": null,
+          "skills": [
+            {
+              "id": 40,
+              "order": 1,
+              "extra": [
+                23
+              ],
+              "q": 1
+            },
+            {
+              "id": 191,
+              "order": 2,
+              "extra": [
+                6
+              ]
+            },
+            {
+              "id": 161,
+              "order": 3,
+              "extra": [
+                22
+              ]
+            },
+            {
+              "id": 29,
+              "order": 4
+            },
+            {
+              "id": 28,
+              "order": 5,
+              "extra": [
+                6
+              ]
+            },
+            {
+              "id": 72,
+              "order": 6
+            },
+            {
+              "id": 21,
+              "order": 8
+            },
+            {
+              "id": 237,
+              "order": 8,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 0,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 26,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            }
+          ],
+          "name": "CALIBAN",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 4,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 3,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 69,
+              "order": 2
+            },
+            {
+              "id": 5,
+              "order": 3
+            },
+            {
+              "id": 77,
+              "order": 1
+            }
+          ],
+          "name": "CALIBAN",
+          "skills": [
+            {
+              "id": 49,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 7,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 114,
+              "order": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 0,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 74,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 4
+            },
+            {
+              "id": 5,
+              "order": 5
+            }
+          ],
+          "name": "CALIBAN",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "caliban",
+  "filters": {
+    "categories": [],
+    "skills": [
+      21,
+      28,
+      29,
+      40,
+      49,
+      72,
+      161,
+      191,
+      237
+    ],
+    "equip": [
+      114
+    ],
+    "chars": [
+      3
+    ],
+    "types": [
+      1
+    ],
+    "weapons": [
+      5,
+      26,
+      69,
+      74,
+      77
+    ],
+    "ammunition": [
+      2,
+      3,
+      35
+    ]
+  },
+  "factions": [
+    601,
+    603
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "id": 254,
+  "idArmy": 28,
+  "canonical": 301,
+  "isc": "2nd Irregular Cameronians Reg.",
+  "iscAbbr": null,
+  "name": "2nd Irregular CAMERONIANS Reg.",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 8,
+      "isc": "2nd Irregular Cameronians Reg.",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 4,
+          "ava": 1,
+          "bs": 10,
+          "bts": 0,
+          "cc": 23,
+          "chars": [
+            2,
+            4,
+            6
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/2nd-irregular-cameronians-reg-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            10
+          ],
+          "ph": 16,
+          "s": 6,
+          "str": false,
+          "type": 7,
+          "w": 2,
+          "wip": 12,
+          "name": "2nd Irregular CAMERONIANS Reg.",
+          "notes": null,
+          "skills": [
+            {
+              "id": 84,
+              "order": 1
+            },
+            {
+              "id": 39,
+              "order": 2
+            },
+            {
+              "id": 162,
+              "order": 3,
+              "extra": [
+                33
+              ]
+            },
+            {
+              "id": 74,
+              "order": 4
+            },
+            {
+              "id": 220,
+              "order": 5,
+              "extra": [
+                39
+              ]
+            },
+            {
+              "id": 256,
+              "order": 6,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "IRREGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "IMPETUOUS",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 20,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 18,
+              "order": 1
+            },
+            {
+              "id": 44,
+              "order": 2
+            },
+            {
+              "id": 45,
+              "order": 3
+            },
+            {
+              "id": 6,
+              "order": 4
+            }
+          ],
+          "name": "CAMERONIAN",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "2nd-irregular-cameronians-reg",
+  "filters": {
+    "categories": [
+      8
+    ],
+    "skills": [
+      39,
+      74,
+      84,
+      162,
+      220,
+      256
+    ],
+    "equip": [],
+    "chars": [
+      2,
+      4,
+      6
+    ],
+    "types": [
+      7
+    ],
+    "weapons": [
+      6,
+      18,
+      44,
+      45
+    ],
+    "ammunition": [
+      2,
+      3,
+      21
+    ]
+  },
+  "factions": [
+    301,
+    302
+  ],
+  "notes": "The AVA of Cameronians replaces totally or partially the AVA of the Dog-Warriors.\nIt can not be more than 2 Dog-Warrior like troop in a General army (except Personalities).\nEXAMPLE: In an Ariadnian army there can be: 2 Dog-Warriors, or 1 Dog-Warrior and 1 Cameronian, or 2 Cameronians (Personalities are not counted)."
+}

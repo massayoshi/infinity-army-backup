@@ -1,0 +1,353 @@
+{
+  "id": 1577,
+  "idArmy": 1577,
+  "canonical": 601,
+  "isc": "Bultrak, Mobile Armored Regiment",
+  "iscAbbr": null,
+  "name": "BULTRAK, Mobile Armored Regiment",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 7,
+      "isc": "Bultrak, Mobile Armored Regiment",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 7,
+          "ava": 1,
+          "bs": 13,
+          "bts": 6,
+          "cc": 17,
+          "chars": [
+            1,
+            3,
+            5,
+            21
+          ],
+          "equip": [
+            {
+              "extra": [
+                7
+              ],
+              "id": 239,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/bultrak-mobile-armored-regiment-1-1.svg",
+          "weapons": [],
+          "includes": [
+            {
+              "group": 2,
+              "option": 1,
+              "q": 1
+            }
+          ],
+          "move": [
+            15,
+            10
+          ],
+          "ph": 15,
+          "s": 7,
+          "str": true,
+          "type": 4,
+          "w": 3,
+          "wip": 12,
+          "name": "BULTRAK, Mobile Armored Regiment",
+          "notes": null,
+          "skills": [
+            {
+              "id": 201,
+              "order": 1,
+              "extra": [
+                4
+              ],
+              "q": 1
+            },
+            {
+              "id": 40,
+              "order": 2,
+              "extra": [
+                27
+              ],
+              "q": 1
+            },
+            {
+              "id": 162,
+              "order": 3,
+              "extra": [
+                30
+              ],
+              "q": 1
+            },
+            {
+              "id": 213,
+              "order": 4,
+              "q": 1
+            },
+            {
+              "id": 74,
+              "order": 5,
+              "q": 1
+            },
+            {
+              "id": 211,
+              "order": 6,
+              "q": 1
+            },
+            {
+              "id": 83,
+              "order": 7,
+              "q": 1
+            },
+            {
+              "id": 88,
+              "order": 8,
+              "q": 1
+            },
+            {
+              "id": 254,
+              "order": 9,
+              "extra": [
+                27
+              ],
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "IRREGULAR",
+              "list": 0,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 71,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 15,
+              "order": 1
+            },
+            {
+              "id": 107,
+              "order": 2
+            },
+            {
+              "id": 5,
+              "order": 3
+            }
+          ],
+          "name": "BULTRAK",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "IRREGULAR",
+              "list": 0,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 74,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 16,
+              "order": 1
+            },
+            {
+              "id": 107,
+              "order": 2
+            },
+            {
+              "id": 5,
+              "order": 3
+            }
+          ],
+          "name": "BULTRAK",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": 0,
+      "isc": "Bultrak Pilot",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 0,
+          "ava": -1,
+          "bs": 12,
+          "bts": 0,
+          "cc": 17,
+          "chars": [
+            1
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/bultrak-mobile-armored-regiment-2-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 12,
+          "s": 2,
+          "str": false,
+          "type": 1,
+          "w": 1,
+          "wip": 12,
+          "name": "BULTRAK PILOT",
+          "notes": null,
+          "skills": [
+            {
+              "id": 189,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 60,
+              "order": 2,
+              "q": 1
+            },
+            {
+              "id": 211,
+              "order": 3,
+              "q": 1
+            },
+            {
+              "id": 83,
+              "order": 4,
+              "q": 1
+            },
+            {
+              "id": 88,
+              "order": 5,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": true,
+          "equip": [],
+          "minis": 1,
+          "orders": [],
+          "includes": [],
+          "points": 0,
+          "swc": "-",
+          "weapons": [
+            {
+              "id": 81,
+              "order": 1
+            },
+            {
+              "id": 44,
+              "order": 2
+            },
+            {
+              "id": 107,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            }
+          ],
+          "name": "BULTRAK PILOT",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "bultrak-mobile-armored-regiment",
+  "filters": {
+    "categories": [
+      7
+    ],
+    "skills": [
+      40,
+      60,
+      74,
+      83,
+      88,
+      162,
+      189,
+      201,
+      211,
+      213,
+      254
+    ],
+    "equip": [
+      239
+    ],
+    "chars": [
+      1,
+      3,
+      5,
+      21
+    ],
+    "types": [
+      1,
+      4
+    ],
+    "weapons": [
+      5,
+      15,
+      16,
+      44,
+      81,
+      107
+    ],
+    "ammunition": [
+      2,
+      3,
+      8,
+      9,
+      13,
+      35
+    ]
+  },
+  "factions": [
+    601,
+    602
+  ]
+}

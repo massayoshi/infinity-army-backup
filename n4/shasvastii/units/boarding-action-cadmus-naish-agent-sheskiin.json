@@ -1,0 +1,245 @@
+{
+  "id": 1503,
+  "idArmy": 1503,
+  "canonical": 601,
+  "isc": "Boarding Action Cadmus-Naish Agent Sheskiin",
+  "iscAbbr": null,
+  "name": "Boarding Action Cadmus-Naish Agent SHESKIIN. ",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 10,
+      "isc": "Boarding Action Cadmus-Naish Agent Sheskiin",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 4,
+          "ava": 1,
+          "bs": 15,
+          "bts": 6,
+          "cc": 24,
+          "chars": [
+            1,
+            3,
+            5,
+            21
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/boarding-action-cadmus-naish-agent-sheskiin-null-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            10
+          ],
+          "ph": 15,
+          "s": 2,
+          "str": false,
+          "type": 3,
+          "w": 2,
+          "wip": 13,
+          "name": "Boarding Action Cadmus-Naish Agent SHESKIIN. ",
+          "notes": null,
+          "skills": [
+            {
+              "id": 237,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 22,
+              "order": 2,
+              "q": 1
+            },
+            {
+              "id": 201,
+              "order": 3,
+              "extra": [
+                5
+              ],
+              "q": 1
+            },
+            {
+              "id": 84,
+              "order": 4,
+              "q": 1
+            },
+            {
+              "id": 40,
+              "order": 5,
+              "extra": [
+                23
+              ],
+              "q": 1
+            },
+            {
+              "id": 162,
+              "order": 6,
+              "extra": [
+                30
+              ],
+              "q": 1
+            },
+            {
+              "id": 72,
+              "order": 7,
+              "q": 1
+            },
+            {
+              "id": 58,
+              "order": 8,
+              "extra": [
+                33
+              ],
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 63,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 152,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 2
+            },
+            {
+              "id": 11,
+              "order": 3
+            },
+            {
+              "id": 145,
+              "order": 4
+            },
+            {
+              "id": 17,
+              "order": 5
+            }
+          ],
+          "name": "SHESKIIN BOARDING",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "LIEUTENANT",
+              "list": 0,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 63,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 152,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 2
+            },
+            {
+              "id": 11,
+              "order": 3
+            },
+            {
+              "id": 145,
+              "order": 4
+            },
+            {
+              "id": 17,
+              "order": 5
+            }
+          ],
+          "name": "SHESKIIN BOARDING",
+          "skills": [
+            {
+              "id": 119,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "boarding-action-cadmus-naish-agent-sheskiin",
+  "filters": {
+    "categories": [
+      10
+    ],
+    "skills": [
+      22,
+      40,
+      58,
+      72,
+      84,
+      119,
+      162,
+      201,
+      237
+    ],
+    "equip": [],
+    "chars": [
+      1,
+      3,
+      5,
+      21
+    ],
+    "types": [
+      3
+    ],
+    "weapons": [
+      11,
+      17,
+      69,
+      145,
+      152
+    ],
+    "ammunition": [
+      2,
+      8,
+      9,
+      13
+    ]
+  },
+  "factions": [
+    601,
+    603
+  ],
+  "notes": "NOTE: There only can be one Sheskiin in the Army List. "
+}

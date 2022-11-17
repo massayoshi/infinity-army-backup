@@ -1,0 +1,120 @@
+{
+  "id": 256,
+  "idArmy": 30,
+  "canonical": 301,
+  "isc": "Dozers, Field Engineers",
+  "iscAbbr": null,
+  "name": "DOZERS, Field Engineers",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 0,
+      "isc": "Dozers, Field Engineers",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 1,
+          "ava": 1,
+          "bs": 11,
+          "bts": 0,
+          "cc": 14,
+          "chars": [
+            3
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/dozers-field-engineers-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 11,
+          "s": 2,
+          "str": false,
+          "type": 1,
+          "w": 1,
+          "wip": 13,
+          "name": "DOZERS, Field Engineers",
+          "notes": null,
+          "skills": [
+            {
+              "id": 49,
+              "order": 2
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 1,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 31,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            }
+          ],
+          "name": "DOZER",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "dozers-field-engineers",
+  "filters": {
+    "categories": [],
+    "skills": [
+      49
+    ],
+    "equip": [],
+    "chars": [
+      3
+    ],
+    "types": [
+      1
+    ],
+    "weapons": [
+      5,
+      31,
+      69
+    ],
+    "ammunition": [
+      2
+    ]
+  },
+  "factions": [
+    301,
+    302,
+    303,
+    304,
+    305,
+    306,
+    908
+  ]
+}

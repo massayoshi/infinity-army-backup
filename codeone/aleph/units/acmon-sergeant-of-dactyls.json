@@ -1,0 +1,116 @@
+{
+  "id": 744,
+  "idArmy": 44,
+  "canonical": 701,
+  "isc": "Acmon, Sergeant of Dactyls",
+  "iscAbbr": null,
+  "name": "ACMON, Sergeant of DACTYLS",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 0,
+      "isc": "Acmon, Sergeant of Dactyls",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 1,
+          "ava": 1,
+          "bs": 13,
+          "bts": 3,
+          "cc": 21,
+          "chars": [
+            3
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/acmon-sergeant-of-dactyls-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 11,
+          "s": 2,
+          "str": false,
+          "type": 1,
+          "w": 2,
+          "wip": 14,
+          "name": "ACMON, Sergeant of DACTYLS",
+          "notes": null,
+          "skills": [
+            {
+              "id": 49,
+              "order": 4,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 0,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 33,
+              "order": 1
+            },
+            {
+              "id": 5,
+              "order": 6
+            },
+            {
+              "id": 69,
+              "order": 2
+            }
+          ],
+          "name": "ACMON",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "acmon-sergeant-of-dactyls",
+  "filters": {
+    "categories": [],
+    "skills": [
+      49
+    ],
+    "equip": [],
+    "chars": [
+      3
+    ],
+    "types": [
+      1
+    ],
+    "weapons": [
+      5,
+      33,
+      69
+    ],
+    "ammunition": [
+      2
+    ]
+  },
+  "factions": [
+    701,
+    702
+  ]
+}

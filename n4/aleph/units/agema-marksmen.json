@@ -1,0 +1,219 @@
+{
+  "id": 602,
+  "idArmy": 22,
+  "canonical": 701,
+  "isc": "Agêma Marksmen",
+  "iscAbbr": null,
+  "name": "AGÊMA Marksmen",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 8,
+      "isc": "Agêma Marksmen",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 2,
+          "ava": 1,
+          "bs": 13,
+          "bts": 3,
+          "cc": 15,
+          "chars": [
+            3,
+            5,
+            20
+          ],
+          "equip": [
+            {
+              "id": 115,
+              "order": 1
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/agema-marksmen-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 11,
+          "s": 2,
+          "str": false,
+          "type": 2,
+          "w": 1,
+          "wip": 13,
+          "name": "AGÊMA Marksmen",
+          "notes": null,
+          "skills": [
+            {
+              "id": 191,
+              "order": 1,
+              "extra": [
+                6
+              ],
+              "q": 1
+            },
+            {
+              "id": 84,
+              "order": 2,
+              "q": 1
+            },
+            {
+              "id": 238,
+              "order": 3,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 33,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 36,
+              "order": 1
+            },
+            {
+              "id": 98,
+              "order": 2
+            },
+            {
+              "id": 5,
+              "order": 3
+            }
+          ],
+          "name": "AGÊMA Marksman",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 3,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 31,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 58,
+              "order": 1
+            },
+            {
+              "id": 98,
+              "order": 2
+            },
+            {
+              "id": 5,
+              "order": 3
+            }
+          ],
+          "name": "AGÊMA Marksman",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 4,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 30,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 169,
+              "order": 1
+            },
+            {
+              "id": 98,
+              "order": 2
+            },
+            {
+              "id": 5,
+              "order": 3
+            }
+          ],
+          "name": "AGÊMA Marksman",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "agema-marksmen",
+  "filters": {
+    "categories": [
+      8
+    ],
+    "skills": [
+      84,
+      191,
+      238
+    ],
+    "equip": [
+      115
+    ],
+    "chars": [
+      3,
+      5,
+      20
+    ],
+    "types": [
+      2
+    ],
+    "weapons": [
+      5,
+      36,
+      58,
+      98,
+      169
+    ],
+    "ammunition": [
+      2,
+      3,
+      6,
+      9,
+      13,
+      35
+    ]
+  },
+  "factions": [
+    701,
+    702
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "id": 1596,
+  "idArmy": 1596,
+  "canonical": 801,
+  "isc": "Traktor Mul, Artillery and Support Regiment",
+  "iscAbbr": "Traktor Mul",
+  "name": "TRAKTOR MUL, Artillery and Support Regiment",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 8,
+      "isc": "Traktor Mul, Artillery and Support Regiment",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 2,
+          "ava": 2,
+          "bs": 10,
+          "bts": 0,
+          "cc": 13,
+          "chars": [
+            3,
+            5,
+            21
+          ],
+          "equip": [
+            {
+              "id": 91,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "extra": [
+                7
+              ],
+              "id": 239,
+              "order": 2,
+              "q": 1
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/traktor-mul-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 9,
+          "s": 4,
+          "str": true,
+          "type": 5,
+          "w": 1,
+          "wip": 12,
+          "name": "TRAKTOR MUL, Artillery and Support Regiment",
+          "notes": null,
+          "skills": [
+            {
+              "id": 235,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 84,
+              "order": 2,
+              "q": 1
+            },
+            {
+              "id": 162,
+              "order": 3,
+              "extra": [
+                30
+              ],
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 63,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 17,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 31,
+              "order": 1
+            },
+            {
+              "id": 28,
+              "order": 2
+            },
+            {
+              "id": 71,
+              "order": 3
+            }
+          ],
+          "name": "TRAKTOR MUL",
+          "skills": [
+            {
+              "id": 59,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "traktor-mul",
+  "filters": {
+    "categories": [
+      8
+    ],
+    "skills": [
+      59,
+      84,
+      162,
+      235
+    ],
+    "equip": [
+      63,
+      91,
+      239
+    ],
+    "chars": [
+      3,
+      5,
+      21
+    ],
+    "types": [
+      5
+    ],
+    "weapons": [
+      28,
+      31,
+      71
+    ],
+    "ammunition": [
+      2,
+      37
+    ]
+  },
+  "factions": [
+    801,
+    906
+  ],
+  "notes": "This Trooper will be only available during the ITS Season 14. "
+}

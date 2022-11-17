@@ -1,0 +1,171 @@
+{
+  "id": 992,
+  "idArmy": 56,
+  "canonical": 601,
+  "isc": "Nexus-7 Operative Kerr-Nau",
+  "iscAbbr": null,
+  "name": "Nexus-7 Operative Kerr-Nau",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 10,
+      "isc": "Nexus-7 Operative Kerr-Nau",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 1,
+          "ava": 1,
+          "bs": 12,
+          "bts": 3,
+          "cc": 15,
+          "chars": [
+            1,
+            3,
+            5
+          ],
+          "equip": [
+            {
+              "extra": [
+                20
+              ],
+              "id": 145,
+              "order": 1
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/nexus-7-operative-kerr-nau-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 11,
+          "s": 2,
+          "str": false,
+          "type": 1,
+          "w": 1,
+          "wip": 14,
+          "name": "Nexus-7 Operative Kerr-Nau",
+          "notes": null,
+          "skills": [
+            {
+              "id": 84,
+              "order": 1
+            },
+            {
+              "id": 40,
+              "order": 2,
+              "extra": [
+                1
+              ]
+            },
+            {
+              "id": 40,
+              "order": 3,
+              "extra": [
+                11
+              ]
+            },
+            {
+              "id": 162,
+              "order": 4,
+              "extra": [
+                30
+              ]
+            },
+            {
+              "id": 1000,
+              "order": 5
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 27,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 40,
+              "order": 1
+            },
+            {
+              "id": 17,
+              "order": 2
+            },
+            {
+              "id": 154,
+              "order": 3
+            },
+            {
+              "id": 98,
+              "order": 4
+            },
+            {
+              "id": 5,
+              "order": 5
+            }
+          ],
+          "name": "KERR-NAU",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "nexus-7-operative-kerr-nau",
+  "filters": {
+    "categories": [
+      10
+    ],
+    "skills": [
+      40,
+      84,
+      162,
+      1000
+    ],
+    "equip": [
+      145
+    ],
+    "chars": [
+      1,
+      3,
+      5
+    ],
+    "types": [
+      1
+    ],
+    "weapons": [
+      5,
+      17,
+      40,
+      98,
+      154
+    ],
+    "ammunition": [
+      2,
+      3,
+      13
+    ]
+  },
+  "factions": [
+    601,
+    604
+  ]
+}

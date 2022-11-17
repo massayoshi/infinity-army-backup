@@ -1,0 +1,138 @@
+{
+  "id": 255,
+  "idArmy": 29,
+  "canonical": 301,
+  "isc": "112, Emergency Service",
+  "iscAbbr": null,
+  "name": "112, Emergency Service",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 8,
+      "isc": "112, Emergency Service",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 0,
+          "ava": 2,
+          "bs": 11,
+          "bts": 0,
+          "cc": 16,
+          "chars": [
+            2,
+            3,
+            5
+          ],
+          "equip": [
+            {
+              "id": 106,
+              "order": 1
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/112-emergency-service-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 12,
+          "s": 2,
+          "str": false,
+          "type": 1,
+          "w": 1,
+          "wip": 13,
+          "name": "112, Emergency Service",
+          "notes": null,
+          "skills": [
+            {
+              "id": 53,
+              "order": 1
+            },
+            {
+              "id": 84,
+              "order": 2
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 12,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 28,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 2
+            },
+            {
+              "id": 5,
+              "order": 3
+            }
+          ],
+          "name": "112 FTO",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "112-emergency-service",
+  "filters": {
+    "categories": [
+      8
+    ],
+    "skills": [
+      53,
+      84
+    ],
+    "equip": [
+      106
+    ],
+    "chars": [
+      2,
+      3,
+      5
+    ],
+    "types": [
+      1
+    ],
+    "weapons": [
+      5,
+      28,
+      69
+    ],
+    "ammunition": [
+      2
+    ]
+  },
+  "factions": [
+    301,
+    302,
+    303,
+    304,
+    305,
+    306,
+    908
+  ]
+}

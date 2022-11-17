@@ -1,0 +1,295 @@
+{
+  "id": 1592,
+  "idArmy": 1592,
+  "canonical": 701,
+  "isc": "Thyreos, Thyreophoroi Mobile Regiment",
+  "iscAbbr": "Thyreos",
+  "name": "THYREOS, Thyreophoroi Mobile Regiment",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 0,
+      "isc": "Thyreos, Thyreophoroi Mobile Regiment",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 2,
+          "ava": 2,
+          "bs": 12,
+          "bts": 3,
+          "cc": 20,
+          "chars": [
+            3
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/thyreos-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            5
+          ],
+          "ph": 10,
+          "s": 2,
+          "str": false,
+          "type": 1,
+          "w": 1,
+          "wip": 13,
+          "name": "THYREOS, Thyreophoroi Mobile Regiment",
+          "notes": null,
+          "skills": [
+            {
+              "id": 240,
+              "order": 1,
+              "extra": [
+                6
+              ],
+              "q": 1
+            },
+            {
+              "id": 161,
+              "order": 2,
+              "extra": [
+                22
+              ],
+              "q": 1
+            },
+            {
+              "id": 40,
+              "order": 3,
+              "extra": [
+                23
+              ],
+              "q": 1
+            },
+            {
+              "id": 28,
+              "order": 5,
+              "extra": [
+                6
+              ],
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 0,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 26,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 4
+            },
+            {
+              "id": 9,
+              "order": 5
+            },
+            {
+              "id": 61,
+              "order": 3
+            }
+          ],
+          "name": "THYREOS",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 2,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 77,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 4
+            },
+            {
+              "id": 9,
+              "order": 5
+            },
+            {
+              "id": 61,
+              "order": 3
+            }
+          ],
+          "name": "THYREOS",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 4,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 100,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 0,
+          "swc": "0.5",
+          "weapons": [
+            {
+              "id": 77,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 4
+            },
+            {
+              "id": 9,
+              "order": 5
+            },
+            {
+              "id": 61,
+              "order": 3
+            }
+          ],
+          "name": "THYREOS",
+          "skills": [
+            {
+              "id": 1000,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 5,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 100,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 0,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 26,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 4
+            },
+            {
+              "id": 9,
+              "order": 5
+            },
+            {
+              "id": 61,
+              "order": 3
+            }
+          ],
+          "name": "THYREOS",
+          "skills": [
+            {
+              "id": 1000,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "thyreos",
+  "filters": {
+    "categories": [],
+    "skills": [
+      28,
+      40,
+      161,
+      240,
+      1000
+    ],
+    "equip": [
+      100
+    ],
+    "chars": [
+      3
+    ],
+    "types": [
+      1
+    ],
+    "weapons": [
+      9,
+      26,
+      61,
+      69,
+      77
+    ],
+    "ammunition": [
+      2,
+      3,
+      35
+    ]
+  },
+  "factions": [
+    701,
+    702
+  ]
+}

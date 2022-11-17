@@ -1,0 +1,237 @@
+{
+  "id": 1528,
+  "idArmy": 1528,
+  "canonical": 601,
+  "isc": "Dropsuit Taryot",
+  "iscAbbr": null,
+  "name": "Dropsuit TARYOT",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 3,
+      "isc": "Dropsuit Taryot",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 1,
+          "ava": 1,
+          "bs": 11,
+          "bts": 6,
+          "cc": 15,
+          "chars": [
+            3,
+            5,
+            21
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/dropsuit-taryot.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 12,
+          "s": 2,
+          "str": true,
+          "type": 5,
+          "w": 1,
+          "wip": 13,
+          "name": "Dropsuit TARYOT",
+          "notes": null,
+          "skills": [
+            {
+              "id": 235,
+              "order": 1
+            },
+            {
+              "id": 162,
+              "order": 3,
+              "extra": [
+                30
+              ]
+            },
+            {
+              "id": 33,
+              "order": 4
+            },
+            {
+              "id": 35,
+              "order": 5,
+              "extra": [
+                255
+              ],
+              "q": 1
+            },
+            {
+              "id": 88,
+              "order": 6
+            },
+            {
+              "id": 83,
+              "order": 7
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 22,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 26,
+              "order": 1
+            },
+            {
+              "id": 107,
+              "order": 2
+            },
+            {
+              "id": 5,
+              "order": 3
+            }
+          ],
+          "name": "DROPSUIT TARYOT",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 27,
+          "swc": "1",
+          "weapons": [
+            {
+              "id": 152,
+              "order": 1
+            },
+            {
+              "id": 107,
+              "order": 2
+            },
+            {
+              "id": 5,
+              "order": 3
+            }
+          ],
+          "name": "DROPSUIT TARYOT",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 3,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 106,
+              "order": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 24,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 26,
+              "order": 1
+            },
+            {
+              "id": 107,
+              "order": 2
+            },
+            {
+              "id": 5,
+              "order": 3
+            }
+          ],
+          "name": "DROPSUIT TARYOT",
+          "skills": [
+            {
+              "id": 64,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "dropsuit-taryot",
+  "filters": {
+    "categories": [
+      3
+    ],
+    "skills": [
+      33,
+      35,
+      64,
+      83,
+      88,
+      162,
+      235
+    ],
+    "equip": [
+      106
+    ],
+    "chars": [
+      3,
+      5,
+      21
+    ],
+    "types": [
+      5
+    ],
+    "weapons": [
+      5,
+      26,
+      107,
+      152
+    ],
+    "ammunition": [
+      2,
+      3,
+      8
+    ]
+  },
+  "factions": [
+    601,
+    602
+  ]
+}

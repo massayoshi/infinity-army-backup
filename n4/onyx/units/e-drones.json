@@ -1,0 +1,155 @@
+{
+  "id": 741,
+  "idArmy": 48,
+  "canonical": 601,
+  "isc": "E-Drones",
+  "iscAbbr": null,
+  "name": "E-DRONES",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 8,
+      "isc": "E-Drones",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 0,
+          "ava": 1,
+          "bs": 11,
+          "bts": 3,
+          "cc": 13,
+          "chars": [
+            2,
+            3,
+            5,
+            21
+          ],
+          "equip": [
+            {
+              "id": 182,
+              "order": 4,
+              "q": 1
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/e-drones-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            10
+          ],
+          "ph": 10,
+          "s": 3,
+          "str": true,
+          "type": 5,
+          "w": 1,
+          "wip": 13,
+          "name": "E-DRONES",
+          "notes": null,
+          "skills": [
+            {
+              "id": 235,
+              "order": 1
+            },
+            {
+              "id": 84,
+              "order": 2
+            },
+            {
+              "id": 1000,
+              "order": 3
+            },
+            {
+              "id": 162,
+              "order": 4,
+              "extra": [
+                30
+              ]
+            },
+            {
+              "id": 58,
+              "order": 5,
+              "extra": [
+                33
+              ]
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 18,
+          "swc": "0.5",
+          "weapons": [
+            {
+              "id": 33,
+              "order": 1
+            },
+            {
+              "id": 71,
+              "order": 2
+            }
+          ],
+          "name": "E-DRONE",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "e-drones",
+  "filters": {
+    "categories": [
+      8
+    ],
+    "skills": [
+      58,
+      84,
+      162,
+      235,
+      1000
+    ],
+    "equip": [
+      182
+    ],
+    "chars": [
+      2,
+      3,
+      5,
+      21
+    ],
+    "types": [
+      5
+    ],
+    "weapons": [
+      33,
+      71
+    ],
+    "ammunition": [
+      2,
+      37
+    ]
+  },
+  "factions": [
+    601,
+    602,
+    603,
+    604
+  ]
+}

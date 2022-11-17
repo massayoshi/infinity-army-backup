@@ -1,0 +1,185 @@
+{
+  "id": 12,
+  "idArmy": 12,
+  "canonical": 101,
+  "isc": "Cutters, Varuna Naval Chasseurs",
+  "iscAbbr": null,
+  "name": "CUTTERS, Varuna Naval Chasseurs",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 0,
+      "isc": "Cutters, Varuna Naval Chasseurs",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 8,
+          "ava": 1,
+          "bs": 15,
+          "bts": 6,
+          "cc": 18,
+          "chars": [
+            21
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/cutters-varuna-naval-chasseurs-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            10
+          ],
+          "ph": 16,
+          "s": 7,
+          "str": true,
+          "type": 4,
+          "w": 3,
+          "wip": 12,
+          "name": "CUTTERS, Varuna Naval Chasseurs",
+          "notes": null,
+          "skills": [
+            {
+              "id": 201,
+              "order": 2,
+              "extra": [
+                4
+              ]
+            },
+            {
+              "id": 191,
+              "order": 3,
+              "extra": [
+                6
+              ]
+            },
+            {
+              "id": 29,
+              "order": 4
+            },
+            {
+              "id": 40,
+              "order": 7,
+              "extra": [
+                27
+              ]
+            },
+            {
+              "id": 28,
+              "order": 9,
+              "extra": [
+                7
+              ]
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 9,
+          "swc": "2",
+          "weapons": [
+            {
+              "id": 4,
+              "order": 1
+            },
+            {
+              "id": 5,
+              "order": 2
+            }
+          ],
+          "name": "CUTTER",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "LIEUTENANT",
+              "list": 0,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 9,
+          "swc": "2.5",
+          "weapons": [
+            {
+              "id": 4,
+              "order": 1
+            },
+            {
+              "id": 5,
+              "order": 2
+            }
+          ],
+          "name": "CUTTER",
+          "skills": [
+            {
+              "id": 119,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "cutters-varuna-naval-chasseurs",
+  "filters": {
+    "categories": [],
+    "skills": [
+      28,
+      29,
+      40,
+      119,
+      191,
+      201
+    ],
+    "equip": [],
+    "chars": [
+      21
+    ],
+    "types": [
+      4
+    ],
+    "weapons": [
+      4,
+      5
+    ],
+    "ammunition": [
+      2,
+      6,
+      35
+    ]
+  },
+  "factions": [
+    101,
+    105
+  ]
+}

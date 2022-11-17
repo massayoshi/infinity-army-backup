@@ -1,0 +1,244 @@
+{
+  "id": 769,
+  "idArmy": 54,
+  "canonical": 101,
+  "isc": "Locust, Clandestine Action Team ",
+  "iscAbbr": null,
+  "name": "LOCUST, Clandestine Action Team",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 0,
+      "isc": "Locust, Clandestine Action Team ",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 1,
+          "ava": 1,
+          "bs": 12,
+          "bts": 3,
+          "cc": 20,
+          "chars": [
+            3
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/locust-clandestine-action-team-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 12,
+          "s": 2,
+          "str": false,
+          "type": 6,
+          "w": 1,
+          "wip": 13,
+          "name": "LOCUST, Clandestine Action Team",
+          "notes": null,
+          "skills": [
+            {
+              "id": 28,
+              "order": 1,
+              "extra": [
+                7
+              ]
+            },
+            {
+              "id": 47,
+              "order": 2
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 3,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 103,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 11,
+              "order": 5
+            }
+          ],
+          "name": "LOCUST",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 3,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 0,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 26,
+              "order": 4
+            },
+            {
+              "id": 69,
+              "order": 7
+            },
+            {
+              "id": 5,
+              "order": 8
+            }
+          ],
+          "name": "LOCUST",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 4,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 3,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 84,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 2
+            },
+            {
+              "id": 5,
+              "order": 3
+            }
+          ],
+          "name": "LOCUST",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 6,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 100,
+              "order": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 3,
+          "swc": "0.5",
+          "weapons": [
+            {
+              "id": 103,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            }
+          ],
+          "name": "LOCUST",
+          "skills": [
+            {
+              "id": 1000,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "locust-clandestine-action-team",
+  "filters": {
+    "categories": [],
+    "skills": [
+      28,
+      47,
+      1000
+    ],
+    "equip": [
+      100
+    ],
+    "chars": [
+      3
+    ],
+    "types": [
+      6
+    ],
+    "weapons": [
+      5,
+      11,
+      26,
+      69,
+      84,
+      103
+    ],
+    "ammunition": [
+      2,
+      3,
+      9
+    ]
+  },
+  "factions": [
+    101,
+    104,
+    106
+  ]
+}

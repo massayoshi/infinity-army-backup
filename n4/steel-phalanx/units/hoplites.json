@@ -1,0 +1,364 @@
+{
+  "id": 1591,
+  "idArmy": 1591,
+  "canonical": 701,
+  "isc": "Hoplites",
+  "iscAbbr": null,
+  "name": "HOPLITES Heavy Regiment",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 4,
+      "isc": "Hoplites Heavy Regiment ",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 3,
+          "ava": 3,
+          "bs": 13,
+          "bts": 3,
+          "cc": 20,
+          "chars": [
+            3,
+            5,
+            20,
+            21
+          ],
+          "equip": [
+            {
+              "extra": [
+                6
+              ],
+              "id": 241,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/hoplites-heavy-regiment-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            5
+          ],
+          "ph": 13,
+          "s": 2,
+          "str": false,
+          "type": 3,
+          "w": 2,
+          "wip": 13,
+          "name": "HOPLITES Heavy Regiment ",
+          "notes": null,
+          "skills": [
+            {
+              "id": 240,
+              "order": 1,
+              "extra": [
+                5
+              ],
+              "q": 1
+            },
+            {
+              "id": 40,
+              "order": 2,
+              "extra": [
+                11
+              ],
+              "q": 1
+            },
+            {
+              "id": 39,
+              "order": 3,
+              "q": 1
+            },
+            {
+              "id": 162,
+              "order": 4,
+              "extra": [
+                33
+              ],
+              "q": 1
+            },
+            {
+              "id": 83,
+              "order": 5,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 41,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 2,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 2
+            },
+            {
+              "id": 10,
+              "order": 3
+            }
+          ],
+          "name": "HOPLITE",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 38,
+          "swc": "1",
+          "weapons": [
+            {
+              "id": 152,
+              "order": 1
+            },
+            {
+              "id": 145,
+              "order": 2
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 10,
+              "order": 4
+            }
+          ],
+          "name": "HOPLITE",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 3,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 36,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 41,
+              "order": 1
+            },
+            {
+              "id": 145,
+              "order": 2
+            },
+            {
+              "id": 96,
+              "order": 3
+            },
+            {
+              "id": 69,
+              "order": 4
+            },
+            {
+              "id": 10,
+              "order": 5
+            }
+          ],
+          "name": "HOPLITE",
+          "skills": [
+            {
+              "id": 189,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 4,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 237,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 39,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 41,
+              "order": 1
+            },
+            {
+              "id": 145,
+              "order": 2
+            },
+            {
+              "id": 96,
+              "order": 3
+            },
+            {
+              "id": 69,
+              "order": 4
+            },
+            {
+              "id": 10,
+              "order": 5
+            }
+          ],
+          "name": "HOPLITE",
+          "skills": [
+            {
+              "id": 49,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 5,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "LIEUTENANT",
+              "list": 0,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 41,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 2,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 2
+            },
+            {
+              "id": 10,
+              "order": 3
+            }
+          ],
+          "name": "HOPLITE",
+          "skills": [
+            {
+              "id": 119,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "hoplites",
+  "filters": {
+    "categories": [
+      4
+    ],
+    "skills": [
+      39,
+      40,
+      49,
+      83,
+      119,
+      162,
+      189,
+      240
+    ],
+    "equip": [
+      237,
+      241
+    ],
+    "chars": [
+      3,
+      5,
+      20,
+      21
+    ],
+    "types": [
+      3
+    ],
+    "weapons": [
+      2,
+      10,
+      41,
+      69,
+      96,
+      145,
+      152
+    ],
+    "ammunition": [
+      2,
+      8,
+      9,
+      35
+    ]
+  },
+  "factions": [
+    701,
+    702
+  ]
+}

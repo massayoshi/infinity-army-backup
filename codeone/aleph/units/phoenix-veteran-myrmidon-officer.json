@@ -1,0 +1,190 @@
+{
+  "id": 608,
+  "idArmy": 28,
+  "canonical": 701,
+  "isc": "Phoenix, Veteran Myrmidon Officer",
+  "iscAbbr": null,
+  "name": "PHOENIX, Veteran Myrmidon Officer",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 0,
+      "isc": "Phoenix, Veteran Myrmidon Officer",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 2,
+          "ava": 1,
+          "bs": 13,
+          "bts": 3,
+          "cc": 23,
+          "chars": [
+            3
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/phoenix-veteran-myrmidon-officer-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 13,
+          "s": 2,
+          "str": false,
+          "type": 7,
+          "w": 1,
+          "wip": 14,
+          "name": "PHOENIX, Veteran Myrmidon Officer",
+          "notes": null,
+          "skills": [
+            {
+              "id": 21,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 40,
+              "order": 3,
+              "extra": [
+                11
+              ],
+              "q": 1
+            },
+            {
+              "id": 28,
+              "order": 6,
+              "extra": [
+                7
+              ],
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 3,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 89,
+              "order": 1
+            },
+            {
+              "id": 65,
+              "order": 2
+            },
+            {
+              "id": 11,
+              "order": 4
+            },
+            {
+              "id": 107,
+              "order": 5
+            }
+          ],
+          "name": "PHOENIX",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "LIEUTENANT",
+              "list": 0,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 3,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 89,
+              "order": 1
+            },
+            {
+              "id": 65,
+              "order": 2
+            },
+            {
+              "id": 11,
+              "order": 4
+            },
+            {
+              "id": 107,
+              "order": 5
+            }
+          ],
+          "name": "PHOENIX",
+          "skills": [
+            {
+              "id": 119,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "phoenix-veteran-myrmidon-officer",
+  "filters": {
+    "categories": [],
+    "skills": [
+      21,
+      28,
+      40,
+      119
+    ],
+    "equip": [],
+    "chars": [
+      3
+    ],
+    "types": [
+      7
+    ],
+    "weapons": [
+      11,
+      65,
+      89,
+      107
+    ],
+    "ammunition": [
+      2,
+      8,
+      9
+    ]
+  },
+  "factions": [
+    701,
+    702
+  ]
+}

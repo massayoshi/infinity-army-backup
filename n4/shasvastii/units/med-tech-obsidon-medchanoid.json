@@ -1,0 +1,153 @@
+{
+  "id": 507,
+  "idArmy": 16,
+  "canonical": 601,
+  "isc": "Med-Tech Obsidon Medchanoid",
+  "iscAbbr": null,
+  "name": "MED-TECH OBSIDON MEDCHANOIDS",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 8,
+      "isc": "Med-Tech Obsidon Medchanoid",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 1,
+          "ava": 1,
+          "bs": 11,
+          "bts": 0,
+          "cc": 14,
+          "chars": [
+            1,
+            3,
+            5
+          ],
+          "equip": [
+            {
+              "id": 238,
+              "order": 2
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/med-tech-obsidon-medchanoid-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            10
+          ],
+          "ph": 10,
+          "s": 3,
+          "str": false,
+          "type": 1,
+          "w": 1,
+          "wip": 14,
+          "name": "MED-TECH OBSIDON MEDCHANOIDS",
+          "notes": null,
+          "skills": [
+            {
+              "id": 49,
+              "order": 1
+            },
+            {
+              "id": 53,
+              "order": 2
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 237,
+              "order": 1
+            },
+            {
+              "id": 106,
+              "order": 2,
+              "q": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 22,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 33,
+              "order": 1
+            },
+            {
+              "id": 17,
+              "order": 2
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            }
+          ],
+          "name": "MED-TECH OBSIDON MEDCHANOID",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "med-tech-obsidon-medchanoid",
+  "filters": {
+    "categories": [
+      8
+    ],
+    "skills": [
+      49,
+      53
+    ],
+    "equip": [
+      106,
+      237,
+      238
+    ],
+    "chars": [
+      1,
+      3,
+      5
+    ],
+    "types": [
+      1
+    ],
+    "weapons": [
+      5,
+      17,
+      33,
+      69
+    ],
+    "ammunition": [
+      2,
+      13
+    ]
+  },
+  "factions": [
+    601,
+    602,
+    603,
+    604
+  ]
+}

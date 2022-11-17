@@ -1,0 +1,120 @@
+{
+  "id": 590,
+  "idArmy": 10,
+  "canonical": 701,
+  "isc": "Daleth Rebots",
+  "iscAbbr": null,
+  "name": "DALETH Rebots",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 0,
+      "isc": "Daleth Rebots",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 0,
+          "ava": 2,
+          "bs": 11,
+          "bts": 3,
+          "cc": 13,
+          "chars": [
+            3,
+            21
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/daleth-rebots-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            10
+          ],
+          "ph": 10,
+          "s": 3,
+          "str": true,
+          "type": 5,
+          "w": 1,
+          "wip": 13,
+          "name": "DALETH Rebots",
+          "notes": null,
+          "skills": [
+            {
+              "id": 189,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 82,
+              "order": 7
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 1,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 33,
+              "order": 1
+            },
+            {
+              "id": 71,
+              "order": 3
+            }
+          ],
+          "name": "DALETH Rebot",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "daleth-rebots",
+  "filters": {
+    "categories": [],
+    "skills": [
+      82,
+      189
+    ],
+    "equip": [],
+    "chars": [
+      3,
+      21
+    ],
+    "types": [
+      5
+    ],
+    "weapons": [
+      33,
+      71
+    ],
+    "ammunition": [
+      2,
+      37
+    ]
+  },
+  "factions": [
+    701,
+    702,
+    703
+  ]
+}

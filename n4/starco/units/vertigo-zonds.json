@@ -1,0 +1,142 @@
+{
+  "id": 410,
+  "idArmy": 19,
+  "canonical": 501,
+  "isc": "Vertigo Zonds",
+  "iscAbbr": null,
+  "name": "VERTIGO ZONDS",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 8,
+      "isc": "Vertigo Zonds",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 0,
+          "ava": 1,
+          "bs": 12,
+          "bts": 3,
+          "cc": 13,
+          "chars": [
+            3,
+            5,
+            21
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/vertigo-zonds-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            10
+          ],
+          "ph": 10,
+          "s": 3,
+          "str": true,
+          "type": 5,
+          "w": 1,
+          "wip": 13,
+          "name": "VERTIGO ZONDS",
+          "notes": null,
+          "skills": [
+            {
+              "id": 235,
+              "order": 1
+            },
+            {
+              "id": 201,
+              "order": 2,
+              "extra": [
+                31
+              ]
+            },
+            {
+              "id": 84,
+              "order": 3
+            },
+            {
+              "id": 162,
+              "order": 4,
+              "extra": [
+                30
+              ]
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 16,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 58,
+              "order": 1
+            },
+            {
+              "id": 71,
+              "order": 2
+            }
+          ],
+          "name": "VERTIGO ZOND",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "vertigo-zonds",
+  "filters": {
+    "categories": [
+      8
+    ],
+    "skills": [
+      84,
+      162,
+      201,
+      235
+    ],
+    "equip": [],
+    "chars": [
+      3,
+      5,
+      21
+    ],
+    "types": [
+      5
+    ],
+    "weapons": [
+      58,
+      71
+    ],
+    "ammunition": [
+      6,
+      13,
+      37
+    ]
+  },
+  "factions": [
+    501,
+    502,
+    503,
+    504,
+    905
+  ]
+}

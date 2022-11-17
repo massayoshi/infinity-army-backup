@@ -1,0 +1,214 @@
+{
+  "id": 1561,
+  "idArmy": 1561,
+  "canonical": 103,
+  "isc": "Knight Commander",
+  "iscAbbr": null,
+  "name": "KNIGHT COMMANDER",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 6,
+      "isc": "Knight Commander",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 1,
+          "ava": 1,
+          "bs": 13,
+          "bts": 6,
+          "cc": 18,
+          "chars": [
+            1,
+            3,
+            5
+          ],
+          "equip": [
+            {
+              "id": 24,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/knight-commander-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 12,
+          "s": 2,
+          "str": false,
+          "type": 1,
+          "w": 1,
+          "wip": 13,
+          "name": "Military Order KNIGHT COMMANDER",
+          "notes": null,
+          "skills": [
+            {
+              "id": 20,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 162,
+              "order": 2,
+              "extra": [
+                30
+              ],
+              "q": 1
+            },
+            {
+              "id": 83,
+              "order": 3,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "LIEUTENANT",
+              "list": 0,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 24,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 33,
+              "order": 1
+            },
+            {
+              "id": 28,
+              "order": 2
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 10,
+              "order": 4
+            }
+          ],
+          "name": "KNIGHT COMMANDER",
+          "skills": [
+            {
+              "id": 119,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "LIEUTENANT",
+              "list": 0,
+              "total": 2
+            }
+          ],
+          "includes": [],
+          "points": 28,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 33,
+              "order": 1
+            },
+            {
+              "id": 28,
+              "order": 2
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 10,
+              "order": 4
+            }
+          ],
+          "name": "KNIGHT COMMANDER",
+          "skills": [
+            {
+              "extra": [
+                246
+              ],
+              "id": 119,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "knight-commander",
+  "filters": {
+    "categories": [
+      6
+    ],
+    "skills": [
+      20,
+      83,
+      119,
+      162
+    ],
+    "equip": [
+      24
+    ],
+    "chars": [
+      1,
+      3,
+      5
+    ],
+    "types": [
+      1
+    ],
+    "weapons": [
+      10,
+      28,
+      33,
+      69
+    ],
+    "ammunition": [
+      2,
+      8
+    ]
+  },
+  "factions": [
+    103
+  ]
+}

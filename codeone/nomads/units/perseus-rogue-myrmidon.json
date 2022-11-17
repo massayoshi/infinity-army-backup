@@ -1,0 +1,145 @@
+{
+  "id": 1101,
+  "idArmy": 13,
+  "canonical": 501,
+  "isc": "Perseus, Rogue Myrmidon",
+  "iscAbbr": null,
+  "name": "PERSEUS, Rogue Myrmidon",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 0,
+      "isc": "Perseus, Rogue Myrmidon",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 2,
+          "ava": 1,
+          "bs": 13,
+          "bts": 0,
+          "cc": 23,
+          "chars": [
+            3
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/perseus-rogue-myrmidon-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 13,
+          "s": 2,
+          "str": false,
+          "type": 7,
+          "w": 1,
+          "wip": 13,
+          "name": "PERSEUS, Rogue Myrmidon",
+          "notes": null,
+          "skills": [
+            {
+              "id": 21,
+              "order": 2
+            },
+            {
+              "id": 40,
+              "order": 4,
+              "extra": [
+                11
+              ]
+            },
+            {
+              "id": 28,
+              "order": 5,
+              "extra": [
+                7
+              ]
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 3,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 0,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 103,
+              "order": 1
+            },
+            {
+              "id": 65,
+              "order": 2
+            },
+            {
+              "id": 107,
+              "order": 4
+            },
+            {
+              "id": 11,
+              "order": 5
+            }
+          ],
+          "name": "PERSEUS",
+          "skills": [
+            {
+              "id": 74,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "perseus-rogue-myrmidon",
+  "filters": {
+    "categories": [],
+    "skills": [
+      21,
+      28,
+      40,
+      74
+    ],
+    "equip": [],
+    "chars": [
+      3
+    ],
+    "types": [
+      7
+    ],
+    "weapons": [
+      11,
+      65,
+      103,
+      107
+    ],
+    "ammunition": [
+      2,
+      3,
+      8,
+      9
+    ]
+  },
+  "factions": [
+    501,
+    504
+  ]
+}

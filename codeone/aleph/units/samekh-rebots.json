@@ -1,0 +1,107 @@
+{
+  "id": 592,
+  "idArmy": 12,
+  "canonical": 701,
+  "isc": "Samekh Rebots",
+  "iscAbbr": null,
+  "name": "SAMEKH Rebots",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 0,
+      "isc": "Samekh Rebots",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 0,
+          "ava": 2,
+          "bs": 12,
+          "bts": 3,
+          "cc": 13,
+          "chars": [
+            3,
+            21
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/samekh-rebots-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            10
+          ],
+          "ph": 10,
+          "s": 3,
+          "str": true,
+          "type": 5,
+          "w": 1,
+          "wip": 13,
+          "name": "SAMEKH Rebots",
+          "notes": null,
+          "skills": [],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 0,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 71,
+              "order": 2
+            },
+            {
+              "id": 58,
+              "order": 1
+            }
+          ],
+          "name": "SAMEKH Rebot",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "samekh-rebots",
+  "filters": {
+    "categories": [],
+    "skills": [],
+    "equip": [],
+    "chars": [
+      3,
+      21
+    ],
+    "types": [
+      5
+    ],
+    "weapons": [
+      58,
+      71
+    ],
+    "ammunition": [
+      13,
+      37
+    ]
+  },
+  "factions": [
+    701,
+    702,
+    703
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "id": 1492,
+  "idArmy": 1492,
+  "canonical": 201,
+  "isc": "Hùndùn Ambush Unit",
+  "iscAbbr": null,
+  "name": "HÙNDÙN Ambush Unit",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 0,
+      "isc": "Hùndùn Ambush Unit",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 3,
+          "ava": 2,
+          "bs": 13,
+          "bts": 3,
+          "cc": 15,
+          "chars": [
+            3
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/hundun-ambush-unit-null-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 11,
+          "s": 2,
+          "str": false,
+          "type": 2,
+          "w": 1,
+          "wip": 13,
+          "name": "HÙNDÙN Ambush Unit",
+          "notes": null,
+          "skills": [
+            {
+              "id": 191,
+              "order": 1,
+              "extra": [
+                6
+              ]
+            },
+            {
+              "id": 29,
+              "order": 2
+            },
+            {
+              "id": 28,
+              "order": 4,
+              "extra": [
+                6
+              ]
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 114,
+              "order": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 3,
+          "swc": "0.5",
+          "weapons": [
+            {
+              "id": 69,
+              "order": 2
+            },
+            {
+              "id": 5,
+              "order": 3
+            },
+            {
+              "id": 84,
+              "order": 1
+            }
+          ],
+          "name": "HÙNDÙN",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 3,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 36,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 2
+            },
+            {
+              "id": 5,
+              "order": 3
+            }
+          ],
+          "name": "HÙNDÙN",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "hundun-ambush-unit",
+  "filters": {
+    "categories": [],
+    "skills": [
+      28,
+      29,
+      191
+    ],
+    "equip": [
+      114
+    ],
+    "chars": [
+      3
+    ],
+    "types": [
+      2
+    ],
+    "weapons": [
+      5,
+      36,
+      69,
+      84
+    ],
+    "ammunition": [
+      2,
+      9,
+      35
+    ]
+  },
+  "factions": [
+    201,
+    205
+  ]
+}

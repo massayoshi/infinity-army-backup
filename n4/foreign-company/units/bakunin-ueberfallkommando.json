@@ -1,0 +1,458 @@
+{
+  "id": 422,
+  "idArmy": 31,
+  "canonical": 501,
+  "isc": "Bakunin Überfallkommando",
+  "iscAbbr": null,
+  "name": "BAKUNIN ÜBERFALLKOMMANDO",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 8,
+      "isc": "Chimera",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 1,
+          "ava": 1,
+          "bs": 11,
+          "bts": 0,
+          "cc": 24,
+          "chars": [
+            1,
+            4,
+            6
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/bakunin-ueberfallkommando-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            10
+          ],
+          "ph": 13,
+          "s": 2,
+          "str": true,
+          "type": 7,
+          "w": 1,
+          "wip": 12,
+          "name": "CHIMERA",
+          "notes": null,
+          "skills": [
+            {
+              "id": 20,
+              "order": 1
+            },
+            {
+              "id": 240,
+              "order": 2,
+              "extra": [
+                6
+              ]
+            },
+            {
+              "id": 40,
+              "order": 3,
+              "extra": [
+                11
+              ]
+            },
+            {
+              "id": 39,
+              "order": 4
+            },
+            {
+              "id": 162,
+              "order": 5,
+              "extra": [
+                33
+              ]
+            },
+            {
+              "id": 82,
+              "order": 6
+            },
+            {
+              "id": 256,
+              "order": 7,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "IRREGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "IMPETUOUS",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 17,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 33,
+              "order": 1
+            },
+            {
+              "id": 65,
+              "order": 2
+            },
+            {
+              "id": 46,
+              "order": 3
+            },
+            {
+              "id": 13,
+              "order": 4
+            },
+            {
+              "id": 69,
+              "order": 5
+            }
+          ],
+          "name": "CHIMERA",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "IRREGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "IMPETUOUS",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [
+            {
+              "group": 2,
+              "option": 1,
+              "q": 1
+            }
+          ],
+          "points": 18,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 33,
+              "order": 1
+            },
+            {
+              "id": 65,
+              "order": 2
+            },
+            {
+              "id": 46,
+              "order": 3
+            },
+            {
+              "id": 13,
+              "order": 4
+            },
+            {
+              "id": 69,
+              "order": 5
+            }
+          ],
+          "name": "CHIMERA",
+          "skills": [],
+          "peripheral": [
+            {
+              "id": 35
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "IRREGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "IMPETUOUS",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [
+            {
+              "group": 2,
+              "option": 1,
+              "q": 2
+            }
+          ],
+          "points": 19,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 33,
+              "order": 1
+            },
+            {
+              "id": 65,
+              "order": 2
+            },
+            {
+              "id": 46,
+              "order": 3
+            },
+            {
+              "id": 13,
+              "order": 4
+            },
+            {
+              "id": 69,
+              "order": 5
+            }
+          ],
+          "name": "CHIMERA",
+          "skills": [],
+          "peripheral": [
+            {
+              "id": 35,
+              "q": 2
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "IRREGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "IMPETUOUS",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [
+            {
+              "group": 2,
+              "option": 1,
+              "q": 3
+            }
+          ],
+          "points": 20,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 33,
+              "order": 1
+            },
+            {
+              "id": 65,
+              "order": 2
+            },
+            {
+              "id": 46,
+              "order": 3
+            },
+            {
+              "id": 13,
+              "order": 4
+            },
+            {
+              "id": 69,
+              "order": 5
+            }
+          ],
+          "name": "CHIMERA",
+          "skills": [],
+          "peripheral": [
+            {
+              "id": 35,
+              "q": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": 8,
+      "isc": "Pupniks",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 0,
+          "ava": -1,
+          "bs": 4,
+          "bts": 0,
+          "cc": 19,
+          "chars": [
+            27
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/bakunin-ueberfallkommando-2-1.svg",
+          "weapons": [
+            {
+              "id": 11,
+              "order": 1
+            }
+          ],
+          "includes": [],
+          "move": [
+            15,
+            10
+          ],
+          "ph": 13,
+          "s": 2,
+          "str": false,
+          "type": 7,
+          "w": 1,
+          "wip": 10,
+          "name": "PUPNIK",
+          "notes": null,
+          "skills": [
+            {
+              "id": 243,
+              "order": 1,
+              "extra": [
+                40
+              ]
+            },
+            {
+              "id": 84,
+              "order": 2
+            },
+            {
+              "id": 40,
+              "order": 3,
+              "extra": [
+                2
+              ]
+            },
+            {
+              "id": 40,
+              "order": 4,
+              "extra": [
+                11
+              ]
+            },
+            {
+              "id": 162,
+              "order": 5,
+              "extra": [
+                33
+              ]
+            },
+            {
+              "id": 82,
+              "order": 6
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": true,
+          "equip": [],
+          "minis": 1,
+          "orders": [],
+          "includes": [],
+          "points": 1,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 11,
+              "order": 1
+            }
+          ],
+          "name": "PUPNIK",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "bakunin-ueberfallkommando",
+  "filters": {
+    "categories": [
+      8
+    ],
+    "skills": [
+      20,
+      39,
+      40,
+      82,
+      84,
+      162,
+      240,
+      243,
+      256
+    ],
+    "equip": [],
+    "chars": [
+      1,
+      4,
+      6,
+      27
+    ],
+    "types": [
+      7
+    ],
+    "weapons": [
+      11,
+      13,
+      33,
+      46,
+      65,
+      69
+    ],
+    "ammunition": [
+      2,
+      9,
+      22,
+      38
+    ]
+  },
+  "factions": [
+    501,
+    503,
+    907
+  ]
+}

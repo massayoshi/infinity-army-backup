@@ -1,0 +1,232 @@
+{
+  "id": 1126,
+  "idArmy": 61,
+  "canonical": 301,
+  "isc": "Streloks, Kazak Reconaissance Unit",
+  "iscAbbr": "Streloks",
+  "name": "STRELOKS, Kazak Reconaissance Unit",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 0,
+      "isc": "Streloks, Kazak Reconaissance Unit",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 1,
+          "ava": 1,
+          "bs": 11,
+          "bts": 0,
+          "cc": 16,
+          "chars": [
+            3
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/streloks-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 11,
+          "s": 2,
+          "str": false,
+          "type": 1,
+          "w": 1,
+          "wip": 13,
+          "name": "STRELOKS, Kazak Reconaissance Unit",
+          "notes": null,
+          "skills": [
+            {
+              "id": 191,
+              "order": 1,
+              "extra": [
+                6
+              ],
+              "q": 1
+            },
+            {
+              "id": 29,
+              "order": 2,
+              "q": 1
+            },
+            {
+              "id": 161,
+              "order": 3,
+              "extra": [
+                22
+              ],
+              "q": 1
+            },
+            {
+              "id": 28,
+              "order": 4,
+              "extra": [
+                6
+              ],
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 2,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 85,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 2
+            },
+            {
+              "id": 5,
+              "order": 3
+            }
+          ],
+          "name": "STRELOK",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 3,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 0,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 77,
+              "order": 1
+            },
+            {
+              "id": 80,
+              "order": 2
+            },
+            {
+              "id": 69,
+              "order": 4
+            },
+            {
+              "id": 5,
+              "order": 5
+            },
+            {
+              "id": 61,
+              "order": 3
+            }
+          ],
+          "name": "STRELOK",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 6,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 0,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 26,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            }
+          ],
+          "name": "STRELOK",
+          "skills": [
+            {
+              "id": 189,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "streloks",
+  "filters": {
+    "categories": [],
+    "skills": [
+      28,
+      29,
+      161,
+      189,
+      191
+    ],
+    "equip": [],
+    "chars": [
+      3
+    ],
+    "types": [
+      1
+    ],
+    "weapons": [
+      5,
+      26,
+      61,
+      69,
+      77,
+      80,
+      85
+    ],
+    "ammunition": [
+      2,
+      3,
+      35
+    ]
+  },
+  "factions": [
+    301,
+    305
+  ]
+}

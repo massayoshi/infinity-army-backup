@@ -1,0 +1,133 @@
+{
+  "id": 1525,
+  "idArmy": 1525,
+  "canonical": 301,
+  "isc": "Cadin \"FirstStrike\" Donn, Point-man of the Grenadiers Reg.",
+  "iscAbbr": "Cadin \"FirstStrike\" Donn",
+  "name": " CADIN \"FIRSTSTRIKE\" DONN,  Point-man of the Grenadiers Reg.",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 0,
+      "isc": "Cadin \"FirstStrike\" Donn, Point-man of the Grenadiers Reg.",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 3,
+          "ava": 1,
+          "bs": 12,
+          "bts": 0,
+          "cc": 23,
+          "chars": [
+            3
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/cadin-firststrike-donn-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 14,
+          "s": 2,
+          "str": false,
+          "type": 7,
+          "w": 2,
+          "wip": 13,
+          "name": " CADIN \"FIRSTSTRIKE\" DONN,  Point-man of the Grenadiers Reg.",
+          "notes": null,
+          "skills": [
+            {
+              "id": 20,
+              "order": 2,
+              "q": 1
+            },
+            {
+              "id": 40,
+              "order": 6,
+              "extra": [
+                23
+              ],
+              "q": 1
+            },
+            {
+              "id": 82,
+              "order": 9,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 0,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 107,
+              "order": 3
+            },
+            {
+              "id": 32,
+              "order": 1
+            },
+            {
+              "id": 6,
+              "order": 2
+            }
+          ],
+          "name": "\"FIRSTSTRIKE\" DONN",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "cadin-firststrike-donn",
+  "filters": {
+    "categories": [],
+    "skills": [
+      20,
+      40,
+      82
+    ],
+    "equip": [],
+    "chars": [
+      3
+    ],
+    "types": [
+      7
+    ],
+    "weapons": [
+      6,
+      32,
+      107
+    ],
+    "ammunition": [
+      3,
+      8
+    ]
+  },
+  "factions": [
+    301,
+    302,
+    306
+  ]
+}

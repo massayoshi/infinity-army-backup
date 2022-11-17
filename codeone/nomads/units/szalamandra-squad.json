@@ -1,0 +1,130 @@
+{
+  "id": 420,
+  "idArmy": 29,
+  "canonical": 501,
+  "isc": "Szalamandra Squad",
+  "iscAbbr": null,
+  "name": "'SZALAMANDRA' SQUADRON",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 0,
+      "isc": "Szalamandra Squad",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 8,
+          "ava": 1,
+          "bs": 14,
+          "bts": 9,
+          "cc": 17,
+          "chars": [
+            3,
+            21
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/szalamandra-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            10
+          ],
+          "ph": 17,
+          "s": 7,
+          "str": true,
+          "type": 4,
+          "w": 3,
+          "wip": 13,
+          "name": "'SZALAMANDRA' SQUADRON",
+          "notes": null,
+          "skills": [
+            {
+              "id": 201,
+              "order": 1,
+              "extra": [
+                4
+              ]
+            },
+            {
+              "id": 40,
+              "order": 2,
+              "extra": [
+                27
+              ]
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 7,
+          "swc": "2",
+          "weapons": [
+            {
+              "id": 15,
+              "order": 1
+            },
+            {
+              "id": 57,
+              "order": 2
+            },
+            {
+              "id": 5,
+              "order": 3
+            }
+          ],
+          "name": "SZALAMANDRA",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "szalamandra-squad",
+  "filters": {
+    "categories": [],
+    "skills": [
+      40,
+      201
+    ],
+    "equip": [],
+    "chars": [
+      3,
+      21
+    ],
+    "types": [
+      4
+    ],
+    "weapons": [
+      5,
+      15,
+      57
+    ],
+    "ammunition": [
+      2,
+      9,
+      35
+    ]
+  },
+  "factions": [
+    501,
+    504
+  ]
+}

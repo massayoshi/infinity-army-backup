@@ -1,0 +1,123 @@
+{
+  "id": 316,
+  "idArmy": 16,
+  "canonical": 401,
+  "isc": "Shihab Remotes",
+  "iscAbbr": null,
+  "name": "SHIHAB REMOTES",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 0,
+      "isc": "Shihab Remotes",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 0,
+          "ava": 2,
+          "bs": 11,
+          "bts": 3,
+          "cc": 13,
+          "chars": [
+            3,
+            21
+          ],
+          "equip": [
+            {
+              "id": 113,
+              "order": 1
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/shihab-remotes-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            10
+          ],
+          "ph": 10,
+          "s": 3,
+          "str": true,
+          "type": 5,
+          "w": 1,
+          "wip": 13,
+          "name": "SHIHAB REMOTES",
+          "notes": null,
+          "skills": [
+            {
+              "id": 61,
+              "order": 5
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 2,
+          "swc": "1",
+          "weapons": [
+            {
+              "id": 2,
+              "order": 1
+            },
+            {
+              "id": 71,
+              "order": 2
+            }
+          ],
+          "name": "SHIHAB REMOTE",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "shihab-remotes",
+  "filters": {
+    "categories": [],
+    "skills": [
+      61
+    ],
+    "equip": [
+      113
+    ],
+    "chars": [
+      3,
+      21
+    ],
+    "types": [
+      5
+    ],
+    "weapons": [
+      2,
+      71
+    ],
+    "ammunition": [
+      2,
+      37
+    ]
+  },
+  "factions": [
+    401,
+    402,
+    403,
+    404,
+    908
+  ]
+}
