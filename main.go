@@ -65,27 +65,30 @@ func fetchArmyData(version string, endpoint string, wg *sync.WaitGroup) {
 
 			createFolder(factionFolderPath)
 			createFolder(factionFolderPath + "/units")
-			createFile(fileName, factionData, false)
-			createFile(fileNamePretty, []byte(prettyPrint(factionData)), true)
 
-			for j := 0; j < len(factionObject.Resume); j++ {
-				var unitLogoURL = factionObject.Resume[j].Logo
-				var unitLogoURLArray = strings.Split(unitLogoURL, "/")
-				var unitLogoFileName = unitLogoURLArray[len(unitLogoURLArray)-1]
-				var unitLogoPath = "assets/units/" + unitLogoFileName
+			if _, err := os.Stat(fileName); os.IsNotExist(err) {
+				createFile(fileName, factionData, false)
+				createFile(fileNamePretty, []byte(prettyPrint(factionData)), true)
 
-				if _, err := os.Stat(unitLogoPath); os.IsNotExist(err) {
-					var unitLogoData = sendRequest(c, unitLogoURL)
-					createFile(unitLogoPath, unitLogoData, false)
+				for j := 0; j < len(factionObject.Resume); j++ {
+					var unitLogoURL = factionObject.Resume[j].Logo
+					var unitLogoURLArray = strings.Split(unitLogoURL, "/")
+					var unitLogoFileName = unitLogoURLArray[len(unitLogoURLArray)-1]
+					var unitLogoPath = "assets/units/" + unitLogoFileName
+
+					if _, err := os.Stat(unitLogoPath); os.IsNotExist(err) {
+						var unitLogoData = sendRequest(c, unitLogoURL)
+						createFile(unitLogoPath, unitLogoData, false)
+					}
 				}
-			}
 
-			for j := 0; j < len(factionObject.Units); j++ {
-				var unitData, _ = json.Marshal(factionObject.Units[j])
-				var unitSlug = factionObject.Units[j].Slug
-				var fileNameUnit = factionFolderPath + "/units/" + unitSlug + ".json"
+				for j := 0; j < len(factionObject.Units); j++ {
+					var unitData, _ = json.Marshal(factionObject.Units[j])
+					var unitSlug = factionObject.Units[j].Slug
+					var fileNameUnit = factionFolderPath + "/units/" + unitSlug + ".json"
 
-				createFile(fileNameUnit, []byte(prettyPrint(unitData)), true)
+					createFile(fileNameUnit, []byte(prettyPrint(unitData)), true)
+				}
 			}
 		}
 	}
