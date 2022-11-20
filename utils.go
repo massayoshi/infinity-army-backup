@@ -69,6 +69,28 @@ func sendRequest(client *http.Client, endpoint string) []byte {
 	return body
 }
 
+func sendRequestAsync(client *http.Client, endpoint string, c chan []byte) {
+	req, err := http.NewRequest("GET", endpoint, nil)
+	if err != nil {
+		log.Fatalf("Error Occurred. %+v", err)
+	}
+
+	response, err := client.Do(req)
+	if err != nil {
+		log.Fatalf("Error sending request to API endpoint. %+v", err)
+	}
+
+	defer response.Body.Close()
+
+	body, err := io.ReadAll(response.Body)
+	if err != nil {
+		log.Fatalf("Couldn't parse response body. %+v", err)
+	}
+
+	c <- body
+	close(c)
+}
+
 func getEnvVar(value string) string {
 	err := godotenv.Load(".env")
 	if err != nil {

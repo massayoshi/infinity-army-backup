@@ -55,7 +55,13 @@ func fetchArmyData(version string, endpoint string, wg *sync.WaitGroup) {
 		}
 
 		if factionID != 901 { // skipping non-aligned armies
-			var factionData = sendRequest(c, factionBaseEnURL+fmt.Sprintf("%d", factionID))
+			var factionData []byte
+			var factionBaseEnURLWithID = factionBaseEnURL + fmt.Sprintf("%d", factionID)
+
+			factionDataChannel := make(chan []byte)
+			go sendRequestAsync(c, factionBaseEnURLWithID, factionDataChannel)
+			factionData = <-factionDataChannel
+
 			var factionObject Faction
 			json.Unmarshal(factionData, &factionObject)
 			var factionFolderPath = version + "/" + factionSlug

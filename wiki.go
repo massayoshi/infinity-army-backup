@@ -55,7 +55,10 @@ func wiki(wg *sync.WaitGroup) {
 }
 
 func getPageList(client *http.Client, url string) {
-	var data = sendRequest(client, url)
+	var data []byte
+	dataChannel := make(chan []byte)
+	go sendRequestAsync(client, url, dataChannel)
+	data = <-dataChannel
 	parsePageList(client, data)
 }
 
