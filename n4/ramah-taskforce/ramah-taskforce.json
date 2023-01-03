@@ -1,5 +1,5 @@
 {
-  "version": "7.22319.50",
+  "version": "7.232.35",
   "units": [
     {
       "id": 305,
@@ -2648,7 +2648,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 41
+                  "id": 1
                 }
               ]
             },
@@ -2696,7 +2696,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 41
+                  "id": 1
                 }
               ]
             }
@@ -4040,7 +4040,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 42
+                  "id": 2
                 }
               ]
             }
@@ -9000,7 +9000,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 43
+                  "id": 3
                 }
               ]
             },
@@ -9064,7 +9064,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 43,
+                  "id": 3,
                   "q": 2
                 }
               ]
@@ -10199,6 +10199,424 @@
       },
       "factions": [
         401,
+        404
+      ]
+    },
+    {
+      "id": 1590,
+      "idArmy": 1590,
+      "canonical": 401,
+      "isc": "Sunduqbut, Covert Heavy-Support Unit",
+      "iscAbbr": null,
+      "name": "SUNDUQBUT, Covert Heavy-Support Unit",
+      "profileGroups": [
+        {
+          "id": 1,
+          "category": 3,
+          "isc": "Sunduqbut, Covert Heavy-Support Unit",
+          "notes": null,
+          "profiles": [
+            {
+              "id": 1,
+              "arm": 4,
+              "ava": 1,
+              "bs": 13,
+              "bts": 3,
+              "cc": 13,
+              "chars": [
+                3,
+                5,
+                21
+              ],
+              "equip": [],
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/sunduqbut-covert-heavy-support-unit-1-1.svg",
+              "weapons": [],
+              "includes": [],
+              "move": [
+                10,
+                10
+              ],
+              "ph": 14,
+              "s": 2,
+              "str": true,
+              "type": 3,
+              "w": 2,
+              "wip": 12,
+              "name": "SUNDUQBUT, Covert Heavy-Support Unit",
+              "notes": null,
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 235,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    4
+                  ],
+                  "id": 201,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    6
+                  ],
+                  "id": 191,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    43
+                  ],
+                  "id": 29,
+                  "order": 4
+                },
+                {
+                  "q": 1,
+                  "id": 84,
+                  "order": 5
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    22
+                  ],
+                  "id": 161,
+                  "order": 6
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    30
+                  ],
+                  "id": 162,
+                  "order": 8
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    44
+                  ],
+                  "id": 215,
+                  "order": 9
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "id": 1,
+              "chars": [],
+              "disabled": false,
+              "equip": [],
+              "minis": 1,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "includes": [],
+              "points": 50,
+              "swc": "1.5",
+              "weapons": [
+                {
+                  "id": 30,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                }
+              ],
+              "name": "SUNDUQBUT",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "id": 2,
+              "chars": [],
+              "disabled": false,
+              "equip": [],
+              "minis": 1,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "includes": [],
+              "points": 51,
+              "swc": "1.5",
+              "weapons": [
+                {
+                  "id": 157,
+                  "order": 1
+                },
+                {
+                  "id": 28,
+                  "order": 2
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "name": "SUNDUQBUT",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "id": 3,
+              "chars": [],
+              "disabled": false,
+              "equip": [],
+              "minis": 1,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "includes": [],
+              "points": 49,
+              "swc": "0.5",
+              "weapons": [
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 43,
+                  "order": 1
+                },
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 18,
+                  "order": 2
+                },
+                {
+                  "id": 196,
+                  "order": 3
+                },
+                {
+                  "id": 69,
+                  "order": 4
+                },
+                {
+                  "id": 5,
+                  "order": 5
+                }
+              ],
+              "name": "SUNDUQBUT",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 56,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "id": 4,
+              "chars": [],
+              "disabled": false,
+              "equip": [],
+              "minis": 1,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "includes": [],
+              "points": 52,
+              "swc": "1.5",
+              "weapons": [
+                {
+                  "id": 30,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                }
+              ],
+              "name": "SUNDUQBUT",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 109,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "id": 5,
+              "chars": [],
+              "disabled": false,
+              "equip": [],
+              "minis": 1,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "includes": [],
+              "points": 49,
+              "swc": "0.5",
+              "weapons": [
+                {
+                  "id": 43,
+                  "order": 1
+                },
+                {
+                  "id": 18,
+                  "order": 2
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "name": "SUNDUQBUT",
+              "skills": [
+                {
+                  "q": 1,
+                  "extra": [
+                    8
+                  ],
+                  "id": 109,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "id": 6,
+              "chars": [],
+              "disabled": false,
+              "equip": [],
+              "minis": 1,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "includes": [],
+              "points": 53,
+              "swc": "1.5",
+              "weapons": [
+                {
+                  "id": 157,
+                  "order": 1
+                },
+                {
+                  "id": 28,
+                  "order": 2
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "name": "SUNDUQBUT",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 109,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            }
+          ]
+        }
+      ],
+      "options": [],
+      "slug": "sunduqbut-covert-heavy-support-unit",
+      "filters": {
+        "categories": [
+          3
+        ],
+        "skills": [
+          29,
+          56,
+          84,
+          109,
+          161,
+          162,
+          191,
+          201,
+          215,
+          235
+        ],
+        "equip": [],
+        "chars": [
+          3,
+          5,
+          21
+        ],
+        "types": [
+          3
+        ],
+        "weapons": [
+          5,
+          18,
+          28,
+          30,
+          43,
+          69,
+          157,
+          196
+        ],
+        "ammunition": [
+          2,
+          3,
+          6,
+          8,
+          10,
+          38
+        ]
+      },
+      "factions": [
+        401,
+        402,
         404
       ]
     },
@@ -21996,15 +22414,15 @@
   "filters": {
     "peripheral": [
       {
-        "id": 42,
+        "id": 2,
         "name": "BÂTARD"
       },
       {
-        "id": 43,
+        "id": 3,
         "name": "JACKBOT"
       },
       {
-        "id": 41,
+        "id": 1,
         "name": "NASMAT A2"
       }
     ],
@@ -22246,6 +22664,14 @@
         "name": "48"
       },
       {
+        "id": 49,
+        "name": "49"
+      },
+      {
+        "id": 50,
+        "name": "50"
+      },
+      {
         "id": 51,
         "name": "51"
       },
@@ -22350,8 +22776,7 @@
       {
         "id": 10,
         "name": "AP+DA",
-        "wiki": "https://infinitythewiki.com/Combined_Ammunition?version=n4",
-        "mercs": true
+        "wiki": "https://infinitythewiki.com/Combined_Ammunition?version=n4"
       },
       {
         "id": 13,
@@ -22830,6 +23255,11 @@
         "wiki": "https://infinitythewiki.com/Sapper?version=n4"
       },
       {
+        "id": 109,
+        "name": "Neurocinetics",
+        "wiki": "https://infinitythewiki.com/Neurocinetics?version=n4"
+      },
+      {
         "id": 119,
         "name": "Lieutenant",
         "wiki": "https://infinitythewiki.com/Lieutenant?version=n4"
@@ -22903,6 +23333,11 @@
         "id": 213,
         "name": "Tactical Awareness",
         "wiki": "https://infinitythewiki.com/Tactical_Awareness?version=n4"
+      },
+      {
+        "id": 215,
+        "name": "Decoy",
+        "wiki": "https://infinitythewiki.com/Decoy?version=n4"
       },
       {
         "id": 220,
@@ -23182,6 +23617,11 @@
         "name": "EXP CC Weapon",
         "type": "CC",
         "mercs": true
+      },
+      {
+        "id": 30,
+        "name": "Feuerbach",
+        "type": "BS"
       },
       {
         "id": 82,
@@ -23550,10 +23990,14 @@
         "mercs": true
       },
       {
+        "id": 44,
+        "name": "1",
+        "type": "TEXT"
+      },
+      {
         "id": 43,
         "name": "1 Use",
-        "type": "TEXT",
-        "mercs": true
+        "type": "TEXT"
       },
       {
         "id": 253,
@@ -24014,6 +24458,16 @@
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/hortlak-janissaries-1-1.svg",
       "type": 3,
       "category": 4
+    },
+    {
+      "id": 1590,
+      "isc": "Sunduqbut, Covert Heavy-Support Unit",
+      "idArmy": 1590,
+      "name": "SUNDUQBUT, Covert Heavy-Support Unit",
+      "slug": "sunduqbut-covert-heavy-support-unit",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/sunduqbut-covert-heavy-support-unit-1-1.svg",
+      "type": 3,
+      "category": 3
     },
     {
       "id": 11275,
