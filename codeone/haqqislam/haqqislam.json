@@ -1,5 +1,5 @@
 {
-  "version": "7.22272.3",
+  "version": "7.239.52",
   "units": [
     {
       "id": 301,
@@ -132,6 +132,304 @@
         403,
         404,
         908
+      ]
+    },
+    {
+      "id": 314,
+      "idArmy": 14,
+      "canonical": 401,
+      "isc": "Najjarun Engineers",
+      "iscAbbr": null,
+      "name": "NAJJARUN Engineer",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Najjarun Engineers",
+          "profiles": [
+            {
+              "bts": 0,
+              "cc": 14,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 1,
+              "ava": 1,
+              "str": false,
+              "bs": 11,
+              "s": 2,
+              "equip": [],
+              "w": 1,
+              "ph": 10,
+              "name": "NAJJARUN Engineer",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/najjarun-engineers-1-1.svg",
+              "id": 1,
+              "arm": 1,
+              "weapons": [],
+              "chars": [
+                3
+              ],
+              "wip": 14,
+              "skills": [
+                {
+                  "id": 49,
+                  "order": 2
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 1,
+              "equip": [],
+              "name": "NAJJARUN Engineer",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 31,
+                  "order": 1
+                },
+                {
+                  "id": 28,
+                  "order": 2
+                },
+                {
+                  "id": 69,
+                  "order": 4
+                },
+                {
+                  "id": 5,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 0
+        }
+      ],
+      "options": [],
+      "slug": "najjarun-engineers",
+      "filters": {
+        "categories": [],
+        "skills": [
+          49
+        ],
+        "equip": [],
+        "chars": [
+          3
+        ],
+        "types": [
+          1
+        ],
+        "weapons": [
+          5,
+          28,
+          31,
+          69
+        ],
+        "ammunition": [
+          2
+        ]
+      },
+      "factions": [
+        401,
+        402,
+        403,
+        404,
+        908
+      ]
+    },
+    {
+      "id": 1316,
+      "idArmy": 65,
+      "canonical": 401,
+      "isc": "Hortlak Janissaries",
+      "iscAbbr": null,
+      "name": "HORTLAK Janissaries",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Hortlak Janissaries",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 15,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 3,
+              "ava": 2,
+              "str": false,
+              "bs": 13,
+              "s": 2,
+              "equip": [
+                {
+                  "id": 114,
+                  "order": 1
+                }
+              ],
+              "w": 1,
+              "ph": 12,
+              "name": "HORTLAK Janissaries",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/hortlak-janissaries-1-1.svg",
+              "id": 1,
+              "arm": 3,
+              "weapons": [],
+              "chars": [
+                3,
+                21
+              ],
+              "wip": 14,
+              "skills": [
+                {
+                  "extra": [
+                    4
+                  ],
+                  "id": 201,
+                  "order": 1
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 28,
+                  "order": 3
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 2,
+              "equip": [],
+              "name": "HORTLAK",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 77,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 2
+                },
+                {
+                  "extra": null,
+                  "id": 107,
+                  "order": 1
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 3,
+              "equip": [],
+              "name": "HORTLAK",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 3,
+              "weapons": [
+                {
+                  "id": 35,
+                  "order": 1
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                },
+                {
+                  "extra": null,
+                  "id": 107,
+                  "order": 2
+                }
+              ],
+              "chars": [],
+              "swc": "0.5",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 0
+        }
+      ],
+      "options": [],
+      "slug": "hortlak-janissaries",
+      "filters": {
+        "categories": [],
+        "skills": [
+          28,
+          201
+        ],
+        "equip": [
+          114
+        ],
+        "chars": [
+          3,
+          21
+        ],
+        "types": [
+          3
+        ],
+        "weapons": [
+          5,
+          35,
+          77,
+          107
+        ],
+        "ammunition": [
+          2,
+          3,
+          8,
+          35
+        ]
+      },
+      "factions": [
+        401,
+        404
       ]
     },
     {
@@ -374,181 +672,7 @@
       },
       "factions": [
         401,
-        402
-      ]
-    },
-    {
-      "id": 1316,
-      "idArmy": 65,
-      "canonical": 401,
-      "isc": "Hortlak Janissaries",
-      "iscAbbr": null,
-      "name": "HORTLAK Janissaries",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Hortlak Janissaries",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 15,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 3,
-              "ava": 2,
-              "str": false,
-              "bs": 13,
-              "s": 2,
-              "equip": [
-                {
-                  "id": 114,
-                  "order": 1
-                }
-              ],
-              "w": 1,
-              "ph": 12,
-              "name": "HORTLAK Janissaries",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/hortlak-janissaries-1-1.svg",
-              "id": 1,
-              "arm": 3,
-              "weapons": [],
-              "chars": [
-                3,
-                21
-              ],
-              "wip": 14,
-              "skills": [
-                {
-                  "extra": [
-                    4
-                  ],
-                  "id": 201,
-                  "order": 1
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 28,
-                  "order": 3
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 2,
-              "equip": [],
-              "name": "HORTLAK",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 77,
-                  "order": 3
-                },
-                {
-                  "id": 5,
-                  "order": 2
-                },
-                {
-                  "extra": null,
-                  "id": 107,
-                  "order": 1
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 3,
-              "equip": [],
-              "name": "HORTLAK",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 3,
-              "weapons": [
-                {
-                  "id": 35,
-                  "order": 1
-                },
-                {
-                  "id": 5,
-                  "order": 3
-                },
-                {
-                  "extra": null,
-                  "id": 107,
-                  "order": 2
-                }
-              ],
-              "chars": [],
-              "swc": "0.5",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 0
-        }
-      ],
-      "options": [],
-      "slug": "hortlak-janissaries",
-      "filters": {
-        "categories": [],
-        "skills": [
-          28,
-          201
-        ],
-        "equip": [
-          114
-        ],
-        "chars": [
-          3,
-          21
-        ],
-        "types": [
-          3
-        ],
-        "weapons": [
-          5,
-          35,
-          77,
-          107
-        ],
-        "ammunition": [
-          2,
-          3,
-          8,
-          35
-        ]
-      },
-      "factions": [
-        401,
+        402,
         404
       ]
     },
@@ -572,13 +696,7 @@
                 5
               ],
               "notes": null,
-              "includes": [
-                {
-                  "q": 1,
-                  "group": 2,
-                  "option": 1
-                }
-              ],
+              "includes": [],
               "type": 4,
               "ava": 1,
               "str": true,
@@ -721,129 +839,6 @@
         401,
         402,
         404
-      ]
-    },
-    {
-      "id": 314,
-      "idArmy": 14,
-      "canonical": 401,
-      "isc": "Najjarun Engineers",
-      "iscAbbr": null,
-      "name": "NAJJARUN Engineer",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Najjarun Engineers",
-          "profiles": [
-            {
-              "bts": 0,
-              "cc": 14,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 1,
-              "ava": 1,
-              "str": false,
-              "bs": 11,
-              "s": 2,
-              "equip": [],
-              "w": 1,
-              "ph": 10,
-              "name": "NAJJARUN Engineer",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/najjarun-engineers-1-1.svg",
-              "id": 1,
-              "arm": 1,
-              "weapons": [],
-              "chars": [
-                3
-              ],
-              "wip": 14,
-              "skills": [
-                {
-                  "id": 49,
-                  "order": 2
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 1,
-              "equip": [],
-              "name": "NAJJARUN Engineer",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 31,
-                  "order": 1
-                },
-                {
-                  "id": 28,
-                  "order": 2
-                },
-                {
-                  "id": 69,
-                  "order": 4
-                },
-                {
-                  "id": 5,
-                  "order": 5
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 0
-        }
-      ],
-      "options": [],
-      "slug": "najjarun-engineers",
-      "filters": {
-        "categories": [],
-        "skills": [
-          49
-        ],
-        "equip": [],
-        "chars": [
-          3
-        ],
-        "types": [
-          1
-        ],
-        "weapons": [
-          5,
-          28,
-          31,
-          69
-        ],
-        "ammunition": [
-          2
-        ]
-      },
-      "factions": [
-        401,
-        402,
-        403,
-        404,
-        908
       ]
     },
     {
@@ -5620,13 +5615,13 @@
       "type": 1
     },
     {
-      "id": 1590,
-      "isc": "Sunduqbut, Covert Heavy-Support Unit",
-      "idArmy": 1590,
-      "name": "SUNDUQBUT, Covert Heavy-Support Unit",
-      "slug": "sunduqbut-covert-heavy-support-unit",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/sunduqbut-covert-heavy-support-unit-1-1.svg",
-      "type": 3
+      "id": 314,
+      "isc": "Najjarun Engineers",
+      "idArmy": 14,
+      "name": "NAJJARUN Engineer",
+      "slug": "najjarun-engineers",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/najjarun-engineers-1-1.svg",
+      "type": 1
     },
     {
       "id": 1316,
@@ -5638,6 +5633,15 @@
       "type": 3
     },
     {
+      "id": 1590,
+      "isc": "Sunduqbut, Covert Heavy-Support Unit",
+      "idArmy": 1590,
+      "name": "SUNDUQBUT, Covert Heavy-Support Unit",
+      "slug": "sunduqbut-covert-heavy-support-unit",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/sunduqbut-covert-heavy-support-unit-1-1.svg",
+      "type": 3
+    },
+    {
       "id": 1546,
       "isc": "Shakush Light Armored Unit",
       "idArmy": 1546,
@@ -5645,15 +5649,6 @@
       "slug": "shakush-light-armored-unit",
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/shakush-1-1.svg",
       "type": 4
-    },
-    {
-      "id": 314,
-      "isc": "Najjarun Engineers",
-      "idArmy": 14,
-      "name": "NAJJARUN Engineer",
-      "slug": "najjarun-engineers",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/najjarun-engineers-1-1.svg",
-      "type": 1
     },
     {
       "id": 307,
