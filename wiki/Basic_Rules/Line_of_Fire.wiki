@@ -9,19 +9,34 @@ Remember that the volume of a Model, Marker, or Token is determined by the value
 
 For a Trooper to be able to draw LoF to its target, it must meet these conditions:
 
+{{update | 1.3, Nov 2022}}
 * The target must be totally or partially within the Trooper's front 180&deg; arc, unless some Special Skill or piece of Equipment ignores this restriction.
 * The Trooper must be able to see part of the volume of its target, with a minimum size of 3x3mm.
-* LoF can be drawn from any point of the Trooper's Silhouette to any point of the target's Silhouette without being obstructed by any pieces of scenery or Models (friendly or enemy).
+* LoF can be drawn from any point of the Trooper’s Silhouette to any point of the target’s Silhouette without being obstructed by any pieces of scenery or {{erratahighlight}}the Silhouette of any Model{{erratahighlight-end}} (allied or enemy).
+{{update-end}}
+{{original}}
+* The target must be totally or partially within the Trooper's front 180&deg; arc, unless some Special Skill or piece of Equipment ignores this restriction.
+* The Trooper must be able to see part of the volume of its target, with a minimum size of 3x3mm.* LoF can be drawn from any point of the Trooper's Silhouette to any point of the target's Silhouette without being obstructed by any pieces of scenery or {{originalhighlight}}Models{{originalhighlight-end}} (friendly or enemy).
+{{original-end}}
 
 
 To facilitate movement and interactions during game, we must consider the following exceptions when drawing LoF. 
-
-* As long as any Trooper can draw LoF to its target, the target can draw LoF to its attacker as well, as long as the attacker is within the target's front 180&deg; arc. {{seefaq | Errata}}
+{{update | 1.3, Nov 2022}}
+* As long as a Trooper can draw LoF to {{erratahighlight}}their target, the target can draw LoF to that Trooper as well, as long as that Trooper is within the target’s LoF arc.{{erratahighlight-end}}
 * Troopers that declared any Skill with the Movement Label can draw a 360º LoF all along their route.
 * Troopers do not obstruct LoF all along their route.
 * Markers do not obstruct LoF.
 * Unless specified otherwise, Markers have a 360&deg; LoF. 
 * Troopers engaged in CC have a 360&deg; LoF, but only to whatever they are in Silhouette contact with. Therefore, Troopers engaged in CC cannot draw LoF to Troopers or game elements that they are not in Silhouette contact with.
+{{update-end}}
+{{original}}
+* As long as any Trooper can draw LoF to {{originalhighlight}}its target, the target can draw LoF to its attacker as well, as long as the attacker is within the target's front 180&deg; arc. {{seefaq | Errata}}{{originalhighlight-end}}
+* Troopers that declared any Skill with the Movement Label can draw a 360º LoF all along their route.
+* Troopers do not obstruct LoF all along their route.
+* Markers do not obstruct LoF.
+* Unless specified otherwise, Markers have a 360&deg; LoF. 
+* Troopers engaged in CC have a 360&deg; LoF, but only to whatever they are in Silhouette contact with. Therefore, Troopers engaged in CC cannot draw LoF to Troopers or game elements that they are not in Silhouette contact with.
+{{original-end}}
 
 
 {{greybox-start | LoF: Game Aids}}
@@ -50,14 +65,23 @@ Both Troopers have LoF.
 The blue Trooper has no LoF, but the orange Trooper does.
 
 
+==See Also==
+{{n4only}}
+{{c1}}
+Visibility Conditions
+{{c1end}}{{n4}}
+[[Visibility Conditions]] can affect Line of Fire.
+{{n4end}}
+
+
 == FAQs & Errata ==
 
 {{faqbox |
 type = errata |
 title = N4 Errata |
-version = 1.0, Jan 2021 |
-q = [Errata] Does 'reciprocal' Line of Fire (the first exception for drawing LoF) depend on the facing of the target, and does it require you to attack the target? |
-a = As long as Trooper A can draw LoF to Trooper B, Trooper B can draw LoF to Trooper A as well, as long as Trooper A is within Trooper B's Line of Fire arc. |
+version = Removed/updated in 1.3, Nov 2022 <s>1.0, Jan 2021</s> |
+q = <s>[Errata] Does 'reciprocal' Line of Fire (the first exception for drawing LoF) depend on the facing of the target, and does it require you to attack the target?</s> |
+a = <s>As long as Trooper A can draw LoF to Trooper B, Trooper B can draw LoF to Trooper A as well, as long as Trooper A is within Trooper B's Line of Fire arc.</s> |
 related = [[Line of Fire]] }}
 
 

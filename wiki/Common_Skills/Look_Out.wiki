@@ -8,11 +8,14 @@ This Skill allows the user to warn all allies of imminent danger so that they ca
 {{skillbox |yellow| LOOK OUT! | ARO}}
 {{skill-label | No Roll }}
 {{requirements}}
-{{update | 1.2, Jan 2022}}
-{{erratahighlight}}Players will check the Requirements of this Skill when declaring it.{{erratahighlight-end}}
+{{update | 1.3, Nov 2022}}
+Players will check the Requirements of this Skill when declaring it.
+* The user must have [[LoF]] to an {{erratahighlight}}enemy Model or Marker who declares or performs{{erratahighlight-end}} an Order.
 {{update-end}}
-* The user must have [[LoF]] to an opponent's Trooper or Marker who declares or executes an Order.
-
+{{original | 1.2, Jan 2022}}
+Players will check the Requirements of this Skill when declaring it.
+* The user must have [[LoF]] to an {{originalhighlight}}opponent's Trooper or Marker who declares or executes{{originalhighlight-end}} an Order.
+{{original-end}}
 {{effects}}
 * Allows all other Troopers of the same player to modify their LoF without displacing, if the player so chooses. '''This will be considered as if the Troopers modifying their LoF had declared an ARO'''. 
 * This modification to the LoF is made through a Normal or Face to Face [[Dodge]] (PH-3) Roll. The Face to Face Roll is only made in case that the alerted Trooper is the Active Trooper's target.

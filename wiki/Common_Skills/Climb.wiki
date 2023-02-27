@@ -12,7 +12,7 @@ Players will check the Requirements of this Skill when declaring it.
 * The Trooper’s base must always be in contact with the surface on which they intend to move. Any surface they move on must be at least half as wide as their base.  {{seefaq  | You must use the full width if available.}}
 * At the end of their movement, the Trooper must be able to place themself on a surface that is equal or larger than their base.
 {{Effects}}
-* The user may climb vertically up to the first value of his ''[[MOV]]'' Attribute in inches, measuring from the base’s outer edge and underside. 
+* The user may climb vertically up to the first value of his ''[[MOV]]'' Attribute in inches, measuring from the base’s outer edge and underside. {{seefaq}}
 * Climbing does not require a Roll.
 * For visualization purposes, Troopers using the Climb Skill move with at least half of their base’s underside in contact with the vertical surface.
 {{update | 1.1.1, Dec 2021}}
@@ -88,6 +88,19 @@ Examples:
 {{image | name=dual-faq10-2.jpg | style= 256border }}
 {{image | name=dual-faq10-3.jpg | style= 256border }} |
 related = [[Climb]], [[Climbing Plus]], [[Move]] }}
+
+
+{{faqbox |
+type = faq |
+title = N4 FAQ |
+version = 1.3, Nov 2022 |
+q = Q: How are Jump and Climb movement measured? |
+a = A: When measuring Jump or Climb movement, you can measure from any point of the Trooper's Silhouette at the start of the movement, but you must measure to the base's outer edge and underside at the end of the movement. The Trooper can vault over obstacles (parapets etc.) that are equal to or lower than the height of their Silhouette as normal.
+
+{{image | name=faq_jump_climb_measurement_v01.png | style=512border }}
+
+''Development team note: By gaining distance from the Silhouette and allowing the Trooper to ignore parapets (as long as they are equal to or lower than the Silhouette height), movement while Jumping or Climbing is facilitated. This makes these movements easier and gives extra value to Troopers with Super-Jump and Climbing Plus. As we can see in the image, the Jump path is the same even without the parapet.'' |
+related = [[Climb]], [[Climbing Plus]], [[Jump]], [[Super-Jump]] }}
 
 
 {{section-movement-module}}

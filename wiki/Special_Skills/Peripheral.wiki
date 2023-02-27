@@ -24,7 +24,7 @@ Game elements with this Special Skill are [[Models]] or [[Tokens]] representing 
 {{n4end}}
 * During the [[Reactive Turn]], both the Controller and the Peripherals gain their own separate AROs. However, unless a specific rule says otherwise, any declared AROs must be the same for both the Controller and the Peripherals. 
 *  In '''Close Combat''', the rules described in [[Close Combat with Multiple Troopers]] must be applied. 
-* If the Controller enters any [[Null]] State, the Peripheral will enter '''[[Disconnected]]''' State at the end of that Order. 
+* If the Controller enters any [[Null]] State, the Peripheral will enter '''[[Disconnected]]''' State at the end of that Order. {{seefaq}}
 * Peripherals with a point cost in their profile will count towards Victory Points, Zone of Operations control, etc. Remember that the total cost of the Unit includes Peripherals and, therefore, the value of the Peripherals must be deducted to determine the itemized points of the Units. 
 {{n4list}}
 * If any scenario condition or Skill causes the Controller to gain the Impetuous Special Skill, the Controller's Peripherals will also be affected. 
@@ -116,6 +116,33 @@ version = 1.2, Jan 2022 |
 q = Q: What happens if the Spearhead of a Peripheral (Control) Control Unit enters a Null State? |
 a = A: The player must immediately designate a new Spearhead. |
 related = [[Peripheral]] }}
+
+
+{{faqbox |
+type = faq |
+title = N4 FAQ |
+version = 1.3, Nov 2022 |
+q = Q: What happens if a Peripheral or their Controller enters Isolated State? |
+a = A: The Peripheral will enter Disconnected State at the end of that Order. If the Peripheral's or Controller's Isolated State is cancelled, this will also cancel the Peripheral's Disconnected State. |
+related = [[Disconnected State]], [[Isolated State]], [[Peripheral]] }}
+
+
+{{faqbox |
+type = faq |
+title = N4 FAQ |
+version = 1.3, Nov 2022 |
+q = Q: Do Peripherals in Disconnected State still activate with their Controller? |
+a = A: No. A Peripheral in this State cannot be activated, or declare Orders or AROs. |
+related = [[Disconnected State]], [[Peripheral]] }}
+
+
+{{faqbox |
+type = faq |
+title = N4 FAQ |
+version = 1.3, Nov 2022 |
+q = Q: Can a Controller be part of a Fireteam or Coordinated Order if its Peripheral is Isolated, Disconnected, Dead, etc? |
+a = A: No. |
+related = [[Coordinated Orders]], [[Fireteams: Basic Rules]], [[Peripheral]] }}
 
 
 {{section-special-skills}}

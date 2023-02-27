@@ -4,7 +4,7 @@
 
 {{skillbox |red| Disconnected State | NULL}}
 {{activation}}
-* The Controller of this Trooper is in a Null state. 
+* The Controller of this Trooper is in a Null state. {{seefaq}}
 {{n4list}}
 * The Peripheral fails a [[Coherency]] Check.
 {{n4end}}
@@ -18,6 +18,29 @@
 {{n4list}}
 * If this State was caused by failing a [[Coherency]] Check, it is automatically cancelled by passing a Coherency Check at the end of an Order or ARO.
 {{n4end}}
+
+
+== FAQs & Errata ==
+
+{{n4}}
+{{faqbox |
+type = faq |
+title = N4 FAQ |
+version = 1.3, Nov 2022 |
+q = Q: What happens if a Peripheral or their Controller enters Isolated State? |
+a = A: The Peripheral will enter Disconnected State at the end of that Order. If the Peripheral's or Controller's Isolated State is cancelled, this will also cancel the Peripheral's Disconnected State. |
+related = [[Disconnected State]], [[Isolated State]], [[Peripheral]] }}
+{{n4end}}
+
+
+{{faqbox |
+type = faq |
+title = N4 FAQ |
+version = 1.3, Nov 2022 |
+q = Q: Do Peripherals in Disconnected State still activate with their Controller? |
+a = A: No. A Peripheral in this State cannot be activated, or declare Orders or AROs. |
+related = [[Disconnected State]], [[Peripheral]] }}
+
 
 
 [[Category: Game States]]

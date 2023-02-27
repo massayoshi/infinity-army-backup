@@ -6,7 +6,12 @@
 Despite their training and their constant connection with Mission Control, losing a team leader to enemy fire or system failure can wreak havoc on the discipline of soldiers, creating a moment of confusion in which everyone is left to their own devices, without a coordinated tactical approach. This situation is usually temporary, and order reigns again once the next rung in the chain of command steps up or Mission Control chooses a new leader.
 
 {{activation}}
+{{update | 1.3, Nov 2022}}
+* If, during the Tactical Phase of the Active Turn, the Active Player lacks a [[Lieutenant]] because they did not deploy {{erratahighlight}}it on the game table (as a Model or as a Marker){{erratahighlight-end}} or the previous Lieutenant is currently in a Null ([[Unconscious]], [[Dead]], [[Sepsitorized]]...) or [[Isolated]] State, then a situation of Loss of Lieutenant is automatically declared. 
+{{update-end}}
+{{original}}
 * If, during the Tactical Phase of the Active Turn, the Active Player lacks a [[Lieutenant]] because they did not deploy or the previous Lieutenant is currently in a Null ([[Unconscious]], [[Dead]], [[Sepsitorized]]...) or [[Isolated]] State, then a situation of Loss of Lieutenant is automatically declared.
+{{original-end}}
 {{effects}}
 * While an army is in a Loss of Lieutenant situation, all Troopers in its Army List are [[Irregular]].
 {{cancellation}}
@@ -27,10 +32,19 @@ Troopers whose Unit Profile has the [[Irregular]] Characteristic or the [[REM]] 
 {{faqbox |
 type = faq |
 title = N4 FAQ |
-version = 1.0, Jan 2021 |
-q = Q: How does the Lieutenant Special Skill interact with Isolated State? Can they still spend their Lieutenant Special Order, and can it still be used by a Trooper with NCO? Does this change during Loss of Lieutenant? |
-a = A: The Special Lieutenant Order can be used if it has already been generated. During Loss of Lieutenant it is not generated, because the Loss of Lieutenant check is before the Order Count step. |
+version = Removed in 1.3, Nov 2022 <s>1.0, Jan 2021</s> |
+q = <s>Q: How does the Lieutenant Special Skill interact with Isolated State? Can they still spend their Lieutenant Special Order, and can it still be used by a Trooper with NCO? Does this change during Loss of Lieutenant?</s> |
+a = <s>A: The Special Lieutenant Order can be used if it has already been generated. During Loss of Lieutenant it is not generated, because the Loss of Lieutenant check is before the Order Count step.</s> |
 related = [[Isolated State]], [[Lieutenant]], [[Loss of Lieutenant]], [[NCO]] }}
+
+
+{{faqbox |
+type = faq |
+title = N4 FAQ |
+version = 1.3, Nov 2022 |
+q = Q: What happens to the Special Lieutenant Order if the Lieutenant enters Isolated State? |
+a = A: If the Order has not been spent, it is lost and cannot be used, whether by the Lieutenant or by a Trooper with the NCO Skill. |
+related = [[Isolated State]], [[Lieutenant]], [[Loss of Lieutenant]], [[NCO]], [[Orders and the Order Pool]] }}
 
 {{n4end}}
 

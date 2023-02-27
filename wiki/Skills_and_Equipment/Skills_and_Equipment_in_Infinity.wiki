@@ -4,12 +4,33 @@
 Infinity possesses a series of Skills and pieces of Equipment which allows a Trooper to act during the game. Moreover, in this section we will explain how [[Unit Profiles]] are notated, for a simpler and quicker understanding of the information about Skills and pieces of Equipment. 
 
 
+{{Important_Start}}
+{{update | 1.3, Nov 2022}}
+{{erratahighblock}}
+Skills can only be declared from a position that the Trooper has already been in or moved through during the current Order. Therefore the Active Trooper cannot declare a Skill from a position they have not reached yet.
+
+''Development team note: By adding this important box, our intention is to end all the annoying situations that have been generated with the modification of the Order Sequence, but keeping the flexibility when declaring skills. So, you will still be able to declare "Shoot" as the first half of the Order. However, if you really want to shoot a Trooper behind a wall, you must move first and then shoot.''
+{{erratahighblock-end}}
+{{update-end}}
+{{Important_End}}
+
+
 === MODIFIERS (MODS) ===
 First and foremost is identifying the Modifiers or [[MODs]], (+) bonus or (-) penalties that appear in [[Unit Profiles]]:
 
-{{seefaq}}
 
 {{Remember_Start}}
+{{update | 1.3, Nov 2022}}
+{{erratahighblock}}
+* '''Any MOD or value''' in round brackets next to a Special Skill, Weapon, or Equipment—such as [[CC Attack]] (+3), [[Combat Jump]] (PH=10), [[BS Attack]] (B+1) etc.—'''only applies when using''' the Special Skill, Weapon, or Equipment.
+* '''Positive MODs''' only apply to the '''user'''.
+* '''Negative MODs''' only apply to '''enemies'''.
+** Negative MODs for '''Automatic''' Skills and Equipment—such as [[Mimetism]] (-6), or [[Surprise Shot]] (-3)—always apply the MOD '''as specified in their rules'''.
+** Negative MODs for '''other''' Special Skills, Weapons, and Equipment—such as [[Dodge]] (-3), or CC Attack (-3)—only apply '''during [[Face to Face Rolls]]'''.
+{{erratahighblock-end}}
+{{update-end}}
+{{original}}
+{{originalhighblock}}
 * '''A positive MOD (+)''' in round brackets next to a Special Skill, Weapon, or Equipment will be applied only to the '''user''' of that Special Skill, Weapon, or Equipment. 
 * '''A negative MOD (-)''' in round brackets next to a Special Skill, Weapon, or Equipment will be applied only to '''enemies'''. 
 {{c1}}
@@ -17,6 +38,10 @@ First and foremost is identifying the Modifiers or [[MODs]], (+) bonus or (-) pe
 {{c1end}}
 {{n4list}}
 * The value of an [[Attribute]], [[Burst]], [[Damage]], [[Ammunition]], number of uses... in round brackets next to a Special Skill, Weapon, or Equipment will be used, applying its effects if necessary, only when using that Special Skill, Weapon or Equipment. 
+{{n4end}}
+{{originalhighblock-end}}
+{{original-end}}
+{{n4list}}
 * '''“ReRoll”''' in round brackets next to a Special Skill, Weapon, or Equipment will allow the user to reroll one die from the Roll, only when using that Special Skill, Weapon, or Equipment.
 {{n4end}}
 {{Remember_End}}
@@ -26,7 +51,12 @@ First and foremost is identifying the Modifiers or [[MODs]], (+) bonus or (-) pe
 {{c1}}
 Those MODs modifying the [[Burst]] (B) value are only applied in the [[Active Turn]]. 
 {{c1end}}{{n4}}
-If these Modifiers (MODs) affect [[Burst]] (B), they are only applied during the [[Active Turn]]. Troopers with more than one of these MODs may only apply '''one''' of them at a time.
+{{update | 1.3, Nov 2022}}
+If these Modifiers (MODs) affect [[Burst]] (B), they are only applied during the [[Active Turn]]. {{erratahighlight}}The maximum Burst (B) value of any weapon is 6, no matter how many MODs to B are applied.{{erratahighlight-end}}
+{{update-end}}
+{{original}}
+If these Modifiers (MODs) affect [[Burst]] (B), they are only applied during the [[Active Turn]]. {{originalhighlight}}Troopers with more than one of these MODs may only apply '''one''' of them at a time.{{originalhighlight-end}}
+{{original-end}}
 {{n4end}}
 {{Important_End}}
 
@@ -52,6 +82,7 @@ If a Special Skill or piece of Equipment has '''different Levels''' and only one
 If “Total” is used, the player may choose which Level to use in each Order or ARO they declare.
 
 The Labels, Traits and Effects of Skills and pieces of Equipment a Trooper has can be combined with each other, as long as the [[NFB]] Label is respected. 
+
 
 {{Important_Start}}
 '''Negative Feedback (NFB)'''
@@ -103,9 +134,9 @@ Want to know more? You may find all the additional info to further explore the I
 {{faqbox |
 type = faq |
 title = N4 FAQ |
-version = 1.0, Jan 2021 |
-q = Q: When do you apply negative MODs for Skills, Equipment, and Weapons, and who do the MODs apply to? For example when using CC Attack (-X). |
-a = A: The value of an Attribute, Burst, Damage, Ammunition, MOD, number of uses... will only apply when using that Skill, Weapon or Equipment. If the Skill, Weapon, or Equipment requires any targets, the MOD will only apply to those targets. |
+version = Replaced with errata in 1.3, Nov 2022 <s>1.0, Jan 2021</s> |
+q = <s>Q: When do you apply negative MODs for Skills, Equipment, and Weapons, and who do the MODs apply to? For example when using CC Attack (-X).</s> |
+a = <s>A: The value of an Attribute, Burst, Damage, Ammunition, MOD, number of uses... will only apply when using that Skill, Weapon or Equipment. If the Skill, Weapon, or Equipment requires any targets, the MOD will only apply to those targets.</s> |
 related = [[Skills and Equipment in Infinity]] }}
 
 

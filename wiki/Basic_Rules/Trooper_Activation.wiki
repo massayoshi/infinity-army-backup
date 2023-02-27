@@ -28,6 +28,18 @@ In other words, the expenditure of an Order allows the activated Trooper to decl
 Even if declared one after the other, both Skills in a single Order are performed simultaneously. For example, if you declare Move plus [[BS Attack]], (the Short Skill that Troopers use to fire their weapons), you can make the BS Attack at any point during the declared movement route, and not necessarily at the end of that route.
 {{Important-end}}
 
+
+{{Important-start}}
+{{update | 1.3, Nov 2022}}
+{{erratahighblock}}
+Skills can only be declared from a position that the Trooper has already been in or moved through during the current Order. Therefore the Active Trooper cannot declare a Skill from a position they have not reached yet.
+
+''Development team note: By adding this important box, our intention is to end all the annoying situations that have been generated with the modification of the Order Sequence, but keeping the flexibility when declaring skills. So, you will still be able to declare "Shoot" as the first half of the Order. However, if you really want to shoot a Trooper behind a wall, you must move first and then shoot.''
+{{erratahighblock-end}}
+{{update-end}}
+{{Important-end}}
+
+
 == ARO: Automatic Reaction Order ==
 {{update | 1.1.1, Dec 2021}}
 
@@ -172,18 +184,20 @@ related = [[BS Attack]], [[Trooper Activation]], [[White Noise]] }}
 {{faqbox |
 type = faq |
 title = N4 FAQ |
-version = 1.2, Jan 2022 |
-q = Q: How are Direct Template Weapons placed during the Order Expenditure Sequence? |
-a = A: All the placement rules must be fulfilled when declaring the Attack. For example, a Direct Teardrop Template must be placed so that it is in contact along the Trooper's movement path, and not from a point they haven't reached yet. |
+version = Removed in 1.3, Nov 2022 <s>1.2, Jan 2022 </s> |
+q =  <s>Q: How are Direct Template Weapons placed during the Order Expenditure Sequence? </s> |
+a =  <s>A: All the placement rules must be fulfilled when declaring the Attack. For example, a Direct Teardrop Template must be placed so that it is in contact along the Trooper's movement path, and not from a point they haven't reached yet.</s> 
+
+Removed in 1.3, Nov 2022, replaced with errata for all Skills. |
 related = [[Direct Template Weapon]], [[Trooper Activation]] }}
 
 
 {{faqbox |
 type = faq |
 title = N4 FAQ |
-version = 1.2, Jan 2022 |
-q = Q: How are Impact Template Weapons placed during the Order Expenditure Sequence? |
-a = A: The Main Target must be in LoF when declaring the Attack. |
+version = Removed in 1.3, Nov 2022, replaced with errata <s>1.2, Jan 2022<s> |
+q = <s>Q: How are Impact Template Weapons placed during the Order Expenditure Sequence?</s> |
+a = <s>A: The Main Target must be in LoF when declaring the Attack.</s> |
 related = [[Impact Template Weapons]], [[Trooper Activation]] }}
 
 

@@ -46,6 +46,9 @@ The Area of Effect of a Template is the area it covers with a single declaration
 **If the Trooper affected by the Template Weapon Attack '''has no LoF''' to the attacker.
 **If the Template Weapon Attack is from a '''Deployable Weapon''' (a Mine, for example). 
 *The Area of Effect of a Template can affect [[Allied]] [[Troopers]] as long as the Template has no Damage Attribute and does not inflict any State. 
+{{update | 1.3, Nov 2022}}
+* {{erratahighlight}}Once placed, the Template remains on the game table until the Resolution step of the Order.{{erratahighlight-end}}
+{{update-end}}
 {{n4list}}
 * When several Troopers are activated at the same time (a [[Coordinated Order]] or [[Fireteam]], for example), the Template affects every Trooper that was in [[Silhouette contact]] with its Area of Effect at any time during that Order, since everything happens simultaneously during the Order.
 * '''Critical Hits with Template Weapons:'''
@@ -58,7 +61,6 @@ The Area of Effect of a Template is the area it covers with a single declaration
 {{important-start}}
 Troopers affected by a Template Weapon do not benefit from the -3 Attack Damage [[MOD]] for [[Partial Cover]].
 {{important-end}}
-
 
 == Template Weapons, Scenery Elements and Total Cover ==
 
@@ -115,7 +117,12 @@ Troopers 2 and 3 may declare ARO normally.
 
 
 == Template Weapons Into Close Combat ==
-Template Weapons placed on a group of Troopers engaged in Close Combat will always affect '''every''' Trooper involved, even if, due to the Template’s placement, it contacts only some of them. Players must take this into account, since [[Attacks]] cannot be performed against Allied Troopers.
+{{update | 1.3, Nov 2022}}
+Template Weapons placed on a group of Troopers {{erratahighlight}}who were engaged in Close Combat during the Activation phase of the current Order{{erratahighlight-end}} will always affect '''every''' Trooper involved, even if, due to the Template’s placement, it contacts only some of them. Players must take this into account, since [[Attacks]] cannot be performed against Allied Troopers.
+{{update-end}}
+{{original}}
+Template Weapons placed on a group of Troopers {{originalhighlight}}engaged in Close Combat{{originalhighlight-end}} will always affect '''every''' Trooper involved, even if, due to the Template’s placement, it contacts only some of them. Players must take this into account, since [[Attacks]] cannot be performed against Allied Troopers.
+{{original-end}}
 
 
 ==  See Also ==
