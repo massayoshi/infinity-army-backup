@@ -1,5 +1,5 @@
 {
-  "version": "7.22272.3",
+  "version": "7.2359.289",
   "units": [
     {
       "id": 1463,
@@ -2057,115 +2057,6 @@
       ]
     },
     {
-      "id": 1466,
-      "idArmy": 20,
-      "canonical": 1001,
-      "isc": "Millicent Copperbots",
-      "iscAbbr": null,
-      "name": "MILLICENT COPPERBOTS",
-      "profileGroups": [
-        {
-          "id": 1,
-          "category": 0,
-          "isc": "Millicent Copperbots",
-          "notes": null,
-          "profiles": [
-            {
-              "id": 1,
-              "arm": 0,
-              "ava": 2,
-              "bs": 12,
-              "bts": 3,
-              "cc": 13,
-              "chars": [
-                3,
-                21
-              ],
-              "equip": [],
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/millicent-copperbots-1-1.svg",
-              "weapons": [],
-              "includes": [],
-              "move": [
-                15,
-                10
-              ],
-              "ph": 10,
-              "s": 3,
-              "str": true,
-              "type": 5,
-              "w": 1,
-              "wip": 13,
-              "name": "MILLICENT COPPERBOTS",
-              "notes": null,
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "id": 1,
-              "chars": [],
-              "disabled": false,
-              "equip": [],
-              "minis": 1,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "includes": [],
-              "points": 1.5,
-              "swc": "1.5",
-              "weapons": [
-                {
-                  "id": 58,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 1
-                }
-              ],
-              "name": "MILLICENT",
-              "skills": [],
-              "peripheral": []
-            }
-          ]
-        }
-      ],
-      "options": [],
-      "slug": "millicent-copperbots",
-      "filters": {
-        "categories": [],
-        "skills": [],
-        "equip": [],
-        "chars": [
-          3,
-          21
-        ],
-        "types": [
-          5
-        ],
-        "weapons": [
-          58,
-          71
-        ],
-        "ammunition": [
-          13,
-          37
-        ]
-      },
-      "factions": [
-        1001,
-        1002
-      ]
-    },
-    {
       "id": 1457,
       "idArmy": 11,
       "canonical": 1001,
@@ -3208,6 +3099,115 @@
           2,
           9,
           35
+        ]
+      },
+      "factions": [
+        1001,
+        1002
+      ]
+    },
+    {
+      "id": 1466,
+      "idArmy": 20,
+      "canonical": 1001,
+      "isc": "Millicent Copperbots",
+      "iscAbbr": null,
+      "name": "MILLICENT COPPERBOTS",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Millicent Copperbots",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 13,
+              "move": [
+                15,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 5,
+              "ava": 2,
+              "str": true,
+              "bs": 12,
+              "s": 3,
+              "equip": [],
+              "w": 1,
+              "ph": 10,
+              "name": "MILLICENT COPPERBOTS",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/millicent-copperbots-1-1.svg",
+              "id": 1,
+              "arm": 0,
+              "weapons": [],
+              "chars": [
+                3,
+                21
+              ],
+              "wip": 13,
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 1.5,
+              "equip": [],
+              "name": "MILLICENT",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 58,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 1
+                }
+              ],
+              "chars": [],
+              "swc": "1.5",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 0
+        }
+      ],
+      "options": [],
+      "slug": "millicent-copperbots",
+      "filters": {
+        "categories": [],
+        "skills": [],
+        "equip": [],
+        "chars": [
+          3,
+          21
+        ],
+        "types": [
+          5
+        ],
+        "weapons": [
+          58,
+          71
+        ],
+        "ammunition": [
+          13,
+          37
         ]
       },
       "factions": [
@@ -5041,7 +5041,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 1
+                  "id": 7
                 }
               ]
             },
@@ -5428,7 +5428,7 @@
   "filters": {
     "peripheral": [
       {
-        "id": 1,
+        "id": 7,
         "name": "YUDBOT"
       }
     ],
@@ -6116,15 +6116,6 @@
       "type": 7
     },
     {
-      "id": 1466,
-      "isc": "Millicent Copperbots",
-      "idArmy": 20,
-      "name": "MILLICENT COPPERBOTS",
-      "slug": "millicent-copperbots",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/millicent-copperbots-1-1.svg",
-      "type": 5
-    },
-    {
       "id": 1457,
       "isc": "Gamma Unit",
       "idArmy": 11,
@@ -6177,6 +6168,15 @@
       "slug": "epsilon-unit",
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/epsilon-unit-1-1.svg",
       "type": 2
+    },
+    {
+      "id": 1466,
+      "isc": "Millicent Copperbots",
+      "idArmy": 20,
+      "name": "MILLICENT COPPERBOTS",
+      "slug": "millicent-copperbots",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/millicent-copperbots-1-1.svg",
+      "type": 5
     },
     {
       "id": 1460,

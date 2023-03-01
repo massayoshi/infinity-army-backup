@@ -1,5 +1,5 @@
 {
-  "version": "7.22269.6",
+  "version": "7.2359.301",
   "units": [
     {
       "id": 603,
@@ -1683,19 +1683,19 @@
       ]
     },
     {
-      "id": 1592,
-      "idArmy": 1592,
+      "id": 584,
+      "idArmy": 4,
       "canonical": 701,
-      "isc": "Thyreos, Thyreophoroi Mobile Regiment",
-      "iscAbbr": "Thyreos",
-      "name": "THYREOS, Thyreophoroi Mobile Regiment",
+      "isc": "Asuras",
+      "iscAbbr": null,
+      "name": "ASURAS",
       "profileGroups": [
         {
           "notes": null,
-          "isc": "Thyreos, Thyreophoroi Mobile Regiment",
+          "isc": "Asuras",
           "profiles": [
             {
-              "bts": 3,
+              "bts": 6,
               "cc": 20,
               "move": [
                 15,
@@ -1703,57 +1703,30 @@
               ],
               "notes": null,
               "includes": [],
-              "type": 1,
+              "type": 3,
               "ava": 2,
               "str": false,
-              "bs": 12,
+              "bs": 14,
               "s": 2,
-              "equip": [],
-              "w": 1,
-              "ph": 10,
-              "name": "THYREOS, Thyreophoroi Mobile Regiment",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/thyreos-1-1.svg",
-              "id": 1,
-              "arm": 2,
-              "weapons": [],
-              "chars": [
-                3
-              ],
-              "wip": 13,
-              "skills": [
+              "equip": [
                 {
-                  "q": 1,
-                  "extra": [
-                    6
-                  ],
-                  "id": 240,
+                  "id": 116,
                   "order": 1
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    22
-                  ],
-                  "id": 161,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    23
-                  ],
-                  "id": 40,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    6
-                  ],
-                  "id": 28,
-                  "order": 5
                 }
               ],
+              "w": 2,
+              "ph": 14,
+              "name": "ASURAS",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/asuras-1-1.svg",
+              "id": 1,
+              "arm": 5,
+              "weapons": [],
+              "chars": [
+                3,
+                21
+              ],
+              "wip": 15,
+              "skills": [],
               "peripheral": []
             }
           ],
@@ -1761,9 +1734,9 @@
             {
               "includes": [],
               "minis": 1,
-              "points": 2.5,
+              "points": 5.5,
               "equip": [],
-              "name": "THYREOS",
+              "name": "ASURA",
               "disabled": false,
               "orders": [
                 {
@@ -1775,20 +1748,20 @@
               "id": 1,
               "weapons": [
                 {
-                  "id": 26,
+                  "id": 41,
                   "order": 1
                 },
                 {
+                  "id": 65,
+                  "order": 2
+                },
+                {
                   "id": 69,
-                  "order": 4
-                },
-                {
-                  "id": 9,
-                  "order": 5
-                },
-                {
-                  "id": 61,
                   "order": 3
+                },
+                {
+                  "id": 6,
+                  "order": 4
                 }
               ],
               "chars": [],
@@ -1799,9 +1772,9 @@
             {
               "includes": [],
               "minis": 1,
-              "points": 2,
+              "points": 5.5,
               "equip": [],
-              "name": "THYREOS",
+              "name": "ASURA",
               "disabled": false,
               "orders": [
                 {
@@ -1813,31 +1786,31 @@
               "id": 2,
               "weapons": [
                 {
-                  "id": 77,
+                  "id": 74,
                   "order": 1
                 },
                 {
+                  "id": 65,
+                  "order": 2
+                },
+                {
                   "id": 69,
-                  "order": 4
-                },
-                {
-                  "id": 9,
-                  "order": 5
-                },
-                {
-                  "id": 61,
                   "order": 3
+                },
+                {
+                  "id": 6,
+                  "order": 4
                 }
               ],
               "chars": [],
-              "swc": "0",
+              "swc": "1.5",
               "skills": [],
               "peripheral": []
             },
             {
               "includes": [],
               "minis": 1,
-              "points": 2.5,
+              "points": 6,
               "equip": [
                 {
                   "q": 1,
@@ -1845,7 +1818,7 @@
                   "order": 1
                 }
               ],
-              "name": "THYREOS",
+              "name": "ASURA",
               "disabled": false,
               "orders": [
                 {
@@ -1854,30 +1827,29 @@
                   "total": 1
                 }
               ],
-              "id": 4,
+              "id": 3,
               "weapons": [
                 {
-                  "id": 77,
+                  "id": 41,
                   "order": 1
                 },
                 {
+                  "id": 65,
+                  "order": 2
+                },
+                {
                   "id": 69,
-                  "order": 4
-                },
-                {
-                  "id": 9,
-                  "order": 5
-                },
-                {
-                  "id": 61,
                   "order": 3
+                },
+                {
+                  "id": 6,
+                  "order": 4
                 }
               ],
               "chars": [],
               "swc": "0.5",
               "skills": [
                 {
-                  "q": 1,
                   "id": 1000,
                   "order": 1
                 }
@@ -1887,40 +1859,39 @@
             {
               "includes": [],
               "minis": 1,
-              "points": 2.5,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 100,
-                  "order": 1
-                }
-              ],
-              "name": "THYREOS",
+              "points": 5.5,
+              "equip": [],
+              "name": "ASURA",
               "disabled": false,
               "orders": [
                 {
                   "type": "REGULAR",
                   "list": 1,
                   "total": 1
+                },
+                {
+                  "type": "LIEUTENANT",
+                  "list": 0,
+                  "total": 1
                 }
               ],
-              "id": 5,
+              "id": 4,
               "weapons": [
                 {
-                  "id": 26,
+                  "id": 41,
                   "order": 1
                 },
                 {
+                  "id": 65,
+                  "order": 2
+                },
+                {
                   "id": 69,
-                  "order": 4
-                },
-                {
-                  "id": 9,
-                  "order": 5
-                },
-                {
-                  "id": 61,
                   "order": 3
+                },
+                {
+                  "id": 6,
+                  "order": 4
                 }
               ],
               "chars": [],
@@ -1928,7 +1899,56 @@
               "skills": [
                 {
                   "q": 1,
-                  "id": 1000,
+                  "id": 119,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 5.5,
+              "equip": [],
+              "name": "ASURA",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "LIEUTENANT",
+                  "list": 0,
+                  "total": 1
+                }
+              ],
+              "id": 5,
+              "weapons": [
+                {
+                  "id": 74,
+                  "order": 1
+                },
+                {
+                  "id": 65,
+                  "order": 2
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "id": 6,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "1",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 119,
                   "order": 1
                 }
               ],
@@ -1940,41 +1960,868 @@
         }
       ],
       "options": [],
-      "slug": "thyreos",
+      "slug": "asuras",
       "filters": {
         "categories": [],
         "skills": [
-          28,
-          40,
-          161,
-          240,
+          119,
           1000
         ],
         "equip": [
-          100
+          100,
+          116
+        ],
+        "chars": [
+          3,
+          21
+        ],
+        "types": [
+          3
+        ],
+        "weapons": [
+          6,
+          41,
+          65,
+          69,
+          74
+        ],
+        "ammunition": [
+          2,
+          3,
+          9,
+          35
+        ]
+      },
+      "factions": [
+        701,
+        703
+      ]
+    },
+    {
+      "id": 607,
+      "idArmy": 27,
+      "canonical": 701,
+      "isc": "Machaon, Myrmidon Doctor-Officer",
+      "iscAbbr": "Machaon",
+      "name": "MACHAON, Myrmidon Doctor-Officer",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Machaon, Myrmidon Doctor-Officer",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 22,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 7,
+              "ava": 1,
+              "str": false,
+              "bs": 12,
+              "s": 2,
+              "equip": [
+                {
+                  "id": 106,
+                  "order": 2
+                }
+              ],
+              "w": 1,
+              "ph": 13,
+              "name": "MACHAON, Myrmidon Doctor-Officer",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/machaon-1-1.svg",
+              "id": 1,
+              "arm": 2,
+              "weapons": [],
+              "chars": [
+                3
+              ],
+              "wip": 15,
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 21,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    11
+                  ],
+                  "id": 40,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "extra": [],
+                  "id": 53,
+                  "order": 7
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    7
+                  ],
+                  "id": 28,
+                  "order": 8
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 3,
+              "equip": [],
+              "name": "MACHAON",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 33,
+                  "order": 1
+                },
+                {
+                  "id": 65,
+                  "order": 2
+                },
+                {
+                  "id": 69,
+                  "order": 4
+                },
+                {
+                  "id": 11,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0.5",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 3,
+              "equip": [],
+              "name": "MACHAON",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "LIEUTENANT",
+                  "list": 0,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "id": 33,
+                  "order": 1
+                },
+                {
+                  "id": 65,
+                  "order": 2
+                },
+                {
+                  "id": 69,
+                  "order": 4
+                },
+                {
+                  "id": 11,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0.5",
+              "skills": [
+                {
+                  "id": 119,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 0
+        }
+      ],
+      "options": [],
+      "slug": "machaon",
+      "filters": {
+        "categories": [],
+        "skills": [
+          21,
+          28,
+          40,
+          53,
+          119
+        ],
+        "equip": [
+          106
         ],
         "chars": [
           3
         ],
         "types": [
-          1
+          7
         ],
         "weapons": [
-          9,
-          26,
-          61,
-          69,
-          77
+          11,
+          33,
+          65,
+          69
         ],
         "ammunition": [
           2,
+          9
+        ]
+      },
+      "factions": [
+        701,
+        702
+      ]
+    },
+    {
+      "id": 192,
+      "idArmy": 20,
+      "canonical": 202,
+      "isc": "Yudbots",
+      "iscAbbr": null,
+      "name": "YUDBOTS",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Yudbots",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 11,
+              "move": [
+                15,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 5,
+              "ava": 4,
+              "str": true,
+              "bs": 8,
+              "s": 1,
+              "equip": [],
+              "w": 1,
+              "ph": 10,
+              "name": "YUDBOTS",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/yudbots-1-1.svg",
+              "id": 1,
+              "arm": 0,
+              "weapons": [],
+              "chars": [
+                21,
+                27
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "extra": [
+                    41
+                  ],
+                  "id": 243,
+                  "order": 1
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 28,
+                  "order": 4
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 0,
+              "points": 0.5,
+              "equip": [],
+              "name": "YUDBOT",
+              "disabled": false,
+              "orders": [],
+              "id": 1,
+              "weapons": [
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 1
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 0
+        }
+      ],
+      "options": [],
+      "slug": "yudbots",
+      "filters": {
+        "categories": [],
+        "skills": [
+          28,
+          243
+        ],
+        "equip": [],
+        "chars": [
+          21,
+          27
+        ],
+        "types": [
+          5
+        ],
+        "weapons": [
+          71
+        ],
+        "ammunition": [
+          37
+        ]
+      },
+      "factions": [
+        202,
+        701,
+        702,
+        703,
+        1001,
+        1002
+      ]
+    },
+    {
+      "id": 590,
+      "idArmy": 10,
+      "canonical": 701,
+      "isc": "Daleth Rebots",
+      "iscAbbr": null,
+      "name": "DALETH Rebots",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Daleth Rebots",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 13,
+              "move": [
+                15,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 5,
+              "ava": 2,
+              "str": true,
+              "bs": 11,
+              "s": 3,
+              "equip": [],
+              "w": 1,
+              "ph": 10,
+              "name": "DALETH Rebots",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/daleth-rebots-1-1.svg",
+              "id": 1,
+              "arm": 0,
+              "weapons": [],
+              "chars": [
+                3,
+                21
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 189,
+                  "order": 1
+                },
+                {
+                  "extra": [],
+                  "id": 82,
+                  "order": 7
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 1,
+              "equip": [],
+              "name": "DALETH Rebot",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 33,
+                  "order": 1
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 0
+        }
+      ],
+      "options": [],
+      "slug": "daleth-rebots",
+      "filters": {
+        "categories": [],
+        "skills": [
+          82,
+          189
+        ],
+        "equip": [],
+        "chars": [
           3,
+          21
+        ],
+        "types": [
+          5
+        ],
+        "weapons": [
+          33,
+          71
+        ],
+        "ammunition": [
+          2,
+          37
+        ]
+      },
+      "factions": [
+        701,
+        702,
+        703
+      ]
+    },
+    {
+      "id": 1591,
+      "idArmy": 1591,
+      "canonical": 701,
+      "isc": "Hoplites",
+      "iscAbbr": null,
+      "name": "HOPLITES Heavy Regiment",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Hoplites Heavy Regiment ",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 20,
+              "move": [
+                15,
+                5
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 3,
+              "ava": 2,
+              "str": false,
+              "bs": 13,
+              "s": 2,
+              "equip": [],
+              "w": 2,
+              "ph": 13,
+              "name": "HOPLITES Heavy Regiment ",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/hoplites-heavy-regiment-1-1.svg",
+              "id": 1,
+              "arm": 3,
+              "weapons": [],
+              "chars": [
+                3,
+                21
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "q": 1,
+                  "extra": [
+                    5
+                  ],
+                  "id": 240,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    11
+                  ],
+                  "id": 40,
+                  "order": 2
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 3.5,
+              "equip": [],
+              "name": "HOPLITE",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 2,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "1.5",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 3,
+              "equip": [],
+              "name": "HOPLITE",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "id": 152,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "id": 65,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "1",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 2.5,
+              "equip": [],
+              "name": "HOPLITE",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 4,
+              "weapons": [
+                {
+                  "id": 41,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 4
+                },
+                {
+                  "id": 65,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 6
+                },
+                {
+                  "extra": null,
+                  "id": 61,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 49,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 3.5,
+              "equip": [],
+              "name": "HOPLITE",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "LIEUTENANT",
+                  "list": 0,
+                  "total": 1
+                }
+              ],
+              "id": 5,
+              "weapons": [
+                {
+                  "id": 2,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "1.5",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 119,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 0
+        }
+      ],
+      "options": [],
+      "slug": "hoplites",
+      "filters": {
+        "categories": [],
+        "skills": [
+          40,
+          49,
+          119,
+          240
+        ],
+        "equip": [],
+        "chars": [
+          3,
+          21
+        ],
+        "types": [
+          3
+        ],
+        "weapons": [
+          2,
+          5,
+          41,
+          61,
+          65,
+          69,
+          152
+        ],
+        "ammunition": [
+          2,
+          8,
+          9,
           35
         ]
       },
       "factions": [
         701,
         702
+      ]
+    },
+    {
+      "id": 592,
+      "idArmy": 12,
+      "canonical": 701,
+      "isc": "Samekh Rebots",
+      "iscAbbr": null,
+      "name": "SAMEKH Rebots",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Samekh Rebots",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 13,
+              "move": [
+                15,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 5,
+              "ava": 2,
+              "str": true,
+              "bs": 12,
+              "s": 3,
+              "equip": [],
+              "w": 1,
+              "ph": 10,
+              "name": "SAMEKH Rebots",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/samekh-rebots-1-1.svg",
+              "id": 1,
+              "arm": 0,
+              "weapons": [],
+              "chars": [
+                3,
+                21
+              ],
+              "wip": 13,
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 1.5,
+              "equip": [],
+              "name": "SAMEKH Rebot",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 2
+                },
+                {
+                  "id": 58,
+                  "order": 1
+                }
+              ],
+              "chars": [],
+              "swc": "1.5",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 0
+        }
+      ],
+      "options": [],
+      "slug": "samekh-rebots",
+      "filters": {
+        "categories": [],
+        "skills": [],
+        "equip": [],
+        "chars": [
+          3,
+          21
+        ],
+        "types": [
+          5
+        ],
+        "weapons": [
+          58,
+          71
+        ],
+        "ammunition": [
+          13,
+          37
+        ]
+      },
+      "factions": [
+        701,
+        702,
+        703
       ]
     },
     {
@@ -2960,19 +3807,19 @@
       ]
     },
     {
-      "id": 584,
-      "idArmy": 4,
+      "id": 1592,
+      "idArmy": 1592,
       "canonical": 701,
-      "isc": "Asuras",
-      "iscAbbr": null,
-      "name": "ASURAS",
+      "isc": "Thyreos, Thyreophoroi Mobile Regiment",
+      "iscAbbr": "Thyreos",
+      "name": "THYREOS, Thyreophoroi Mobile Regiment",
       "profileGroups": [
         {
           "notes": null,
-          "isc": "Asuras",
+          "isc": "Thyreos, Thyreophoroi Mobile Regiment",
           "profiles": [
             {
-              "bts": 6,
+              "bts": 3,
               "cc": 20,
               "move": [
                 15,
@@ -2980,30 +3827,57 @@
               ],
               "notes": null,
               "includes": [],
-              "type": 3,
+              "type": 1,
               "ava": 2,
               "str": false,
-              "bs": 14,
+              "bs": 12,
               "s": 2,
-              "equip": [
-                {
-                  "id": 116,
-                  "order": 1
-                }
-              ],
-              "w": 2,
-              "ph": 14,
-              "name": "ASURAS",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/asuras-1-1.svg",
+              "equip": [],
+              "w": 1,
+              "ph": 10,
+              "name": "THYREOS, Thyreophoroi Mobile Regiment",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/thyreos-1-1.svg",
               "id": 1,
-              "arm": 5,
+              "arm": 2,
               "weapons": [],
               "chars": [
-                3,
-                21
+                3
               ],
-              "wip": 15,
-              "skills": [],
+              "wip": 13,
+              "skills": [
+                {
+                  "q": 1,
+                  "extra": [
+                    6
+                  ],
+                  "id": 240,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    22
+                  ],
+                  "id": 161,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    23
+                  ],
+                  "id": 40,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    6
+                  ],
+                  "id": 28,
+                  "order": 5
+                }
+              ],
               "peripheral": []
             }
           ],
@@ -3011,9 +3885,9 @@
             {
               "includes": [],
               "minis": 1,
-              "points": 5.5,
+              "points": 2.5,
               "equip": [],
-              "name": "ASURA",
+              "name": "THYREOS",
               "disabled": false,
               "orders": [
                 {
@@ -3025,20 +3899,20 @@
               "id": 1,
               "weapons": [
                 {
-                  "id": 41,
+                  "id": 26,
                   "order": 1
                 },
                 {
-                  "id": 65,
-                  "order": 2
-                },
-                {
                   "id": 69,
-                  "order": 3
+                  "order": 4
                 },
                 {
-                  "id": 6,
-                  "order": 4
+                  "id": 9,
+                  "order": 5
+                },
+                {
+                  "id": 61,
+                  "order": 3
                 }
               ],
               "chars": [],
@@ -3049,9 +3923,9 @@
             {
               "includes": [],
               "minis": 1,
-              "points": 5.5,
+              "points": 2,
               "equip": [],
-              "name": "ASURA",
+              "name": "THYREOS",
               "disabled": false,
               "orders": [
                 {
@@ -3063,31 +3937,31 @@
               "id": 2,
               "weapons": [
                 {
-                  "id": 74,
+                  "id": 77,
                   "order": 1
                 },
                 {
-                  "id": 65,
-                  "order": 2
-                },
-                {
                   "id": 69,
-                  "order": 3
+                  "order": 4
                 },
                 {
-                  "id": 6,
-                  "order": 4
+                  "id": 9,
+                  "order": 5
+                },
+                {
+                  "id": 61,
+                  "order": 3
                 }
               ],
               "chars": [],
-              "swc": "1.5",
+              "swc": "0",
               "skills": [],
               "peripheral": []
             },
             {
               "includes": [],
               "minis": 1,
-              "points": 6,
+              "points": 2.5,
               "equip": [
                 {
                   "q": 1,
@@ -3095,7 +3969,7 @@
                   "order": 1
                 }
               ],
-              "name": "ASURA",
+              "name": "THYREOS",
               "disabled": false,
               "orders": [
                 {
@@ -3104,29 +3978,30 @@
                   "total": 1
                 }
               ],
-              "id": 3,
+              "id": 4,
               "weapons": [
                 {
-                  "id": 41,
+                  "id": 77,
                   "order": 1
                 },
                 {
-                  "id": 65,
-                  "order": 2
-                },
-                {
                   "id": 69,
-                  "order": 3
+                  "order": 4
                 },
                 {
-                  "id": 6,
-                  "order": 4
+                  "id": 9,
+                  "order": 5
+                },
+                {
+                  "id": 61,
+                  "order": 3
                 }
               ],
               "chars": [],
               "swc": "0.5",
               "skills": [
                 {
+                  "q": 1,
                   "id": 1000,
                   "order": 1
                 }
@@ -3136,39 +4011,40 @@
             {
               "includes": [],
               "minis": 1,
-              "points": 5.5,
-              "equip": [],
-              "name": "ASURA",
+              "points": 2.5,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 100,
+                  "order": 1
+                }
+              ],
+              "name": "THYREOS",
               "disabled": false,
               "orders": [
                 {
                   "type": "REGULAR",
                   "list": 1,
                   "total": 1
-                },
-                {
-                  "type": "LIEUTENANT",
-                  "list": 0,
-                  "total": 1
                 }
               ],
-              "id": 4,
+              "id": 5,
               "weapons": [
                 {
-                  "id": 41,
+                  "id": 26,
                   "order": 1
                 },
                 {
-                  "id": 65,
-                  "order": 2
-                },
-                {
                   "id": 69,
-                  "order": 3
+                  "order": 4
                 },
                 {
-                  "id": 6,
-                  "order": 4
+                  "id": 9,
+                  "order": 5
+                },
+                {
+                  "id": 61,
+                  "order": 3
                 }
               ],
               "chars": [],
@@ -3176,56 +4052,7 @@
               "skills": [
                 {
                   "q": 1,
-                  "id": 119,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 5.5,
-              "equip": [],
-              "name": "ASURA",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "LIEUTENANT",
-                  "list": 0,
-                  "total": 1
-                }
-              ],
-              "id": 5,
-              "weapons": [
-                {
-                  "id": 74,
-                  "order": 1
-                },
-                {
-                  "id": 65,
-                  "order": 2
-                },
-                {
-                  "id": 69,
-                  "order": 3
-                },
-                {
-                  "id": 6,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "1",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 119,
+                  "id": 1000,
                   "order": 1
                 }
               ],
@@ -3237,862 +4064,35 @@
         }
       ],
       "options": [],
-      "slug": "asuras",
+      "slug": "thyreos",
       "filters": {
         "categories": [],
         "skills": [
-          119,
+          28,
+          40,
+          161,
+          240,
           1000
         ],
         "equip": [
-          100,
-          116
+          100
         ],
         "chars": [
-          3,
-          21
-        ],
-        "types": [
           3
         ],
-        "weapons": [
-          6,
-          41,
-          65,
-          69,
-          74
+        "types": [
+          1
         ],
-        "ammunition": [
-          2,
-          3,
+        "weapons": [
           9,
-          35
-        ]
-      },
-      "factions": [
-        701,
-        703
-      ]
-    },
-    {
-      "id": 607,
-      "idArmy": 27,
-      "canonical": 701,
-      "isc": "Machaon, Myrmidon Doctor-Officer",
-      "iscAbbr": "Machaon",
-      "name": "MACHAON, Myrmidon Doctor-Officer",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Machaon, Myrmidon Doctor-Officer",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 22,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 7,
-              "ava": 1,
-              "str": false,
-              "bs": 12,
-              "s": 2,
-              "equip": [
-                {
-                  "id": 106,
-                  "order": 2
-                }
-              ],
-              "w": 1,
-              "ph": 13,
-              "name": "MACHAON, Myrmidon Doctor-Officer",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/machaon-1-1.svg",
-              "id": 1,
-              "arm": 2,
-              "weapons": [],
-              "chars": [
-                3
-              ],
-              "wip": 15,
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 21,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    11
-                  ],
-                  "id": 40,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "extra": [],
-                  "id": 53,
-                  "order": 7
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    7
-                  ],
-                  "id": 28,
-                  "order": 8
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 3,
-              "equip": [],
-              "name": "MACHAON",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 33,
-                  "order": 1
-                },
-                {
-                  "id": 65,
-                  "order": 2
-                },
-                {
-                  "id": 69,
-                  "order": 4
-                },
-                {
-                  "id": 11,
-                  "order": 5
-                }
-              ],
-              "chars": [],
-              "swc": "0.5",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 3,
-              "equip": [],
-              "name": "MACHAON",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "LIEUTENANT",
-                  "list": 0,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "id": 33,
-                  "order": 1
-                },
-                {
-                  "id": 65,
-                  "order": 2
-                },
-                {
-                  "id": 69,
-                  "order": 4
-                },
-                {
-                  "id": 11,
-                  "order": 5
-                }
-              ],
-              "chars": [],
-              "swc": "0.5",
-              "skills": [
-                {
-                  "id": 119,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 0
-        }
-      ],
-      "options": [],
-      "slug": "machaon",
-      "filters": {
-        "categories": [],
-        "skills": [
-          21,
-          28,
-          40,
-          53,
-          119
-        ],
-        "equip": [
-          106
-        ],
-        "chars": [
-          3
-        ],
-        "types": [
-          7
-        ],
-        "weapons": [
-          11,
-          33,
-          65,
-          69
-        ],
-        "ammunition": [
-          2,
-          9
-        ]
-      },
-      "factions": [
-        701,
-        702
-      ]
-    },
-    {
-      "id": 592,
-      "idArmy": 12,
-      "canonical": 701,
-      "isc": "Samekh Rebots",
-      "iscAbbr": null,
-      "name": "SAMEKH Rebots",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Samekh Rebots",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 13,
-              "move": [
-                15,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 5,
-              "ava": 2,
-              "str": true,
-              "bs": 12,
-              "s": 3,
-              "equip": [],
-              "w": 1,
-              "ph": 10,
-              "name": "SAMEKH Rebots",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/samekh-rebots-1-1.svg",
-              "id": 1,
-              "arm": 0,
-              "weapons": [],
-              "chars": [
-                3,
-                21
-              ],
-              "wip": 13,
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 1.5,
-              "equip": [],
-              "name": "SAMEKH Rebot",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 2
-                },
-                {
-                  "id": 58,
-                  "order": 1
-                }
-              ],
-              "chars": [],
-              "swc": "1.5",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 0
-        }
-      ],
-      "options": [],
-      "slug": "samekh-rebots",
-      "filters": {
-        "categories": [],
-        "skills": [],
-        "equip": [],
-        "chars": [
-          3,
-          21
-        ],
-        "types": [
-          5
-        ],
-        "weapons": [
-          58,
-          71
-        ],
-        "ammunition": [
-          13,
-          37
-        ]
-      },
-      "factions": [
-        701,
-        702,
-        703
-      ]
-    },
-    {
-      "id": 192,
-      "idArmy": 20,
-      "canonical": 202,
-      "isc": "Yudbots",
-      "iscAbbr": null,
-      "name": "YUDBOTS",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Yudbots",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 11,
-              "move": [
-                15,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 5,
-              "ava": 4,
-              "str": true,
-              "bs": 8,
-              "s": 1,
-              "equip": [],
-              "w": 1,
-              "ph": 10,
-              "name": "YUDBOTS",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/yudbots-1-1.svg",
-              "id": 1,
-              "arm": 0,
-              "weapons": [],
-              "chars": [
-                21,
-                27
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "extra": [
-                    41
-                  ],
-                  "id": 243,
-                  "order": 1
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 28,
-                  "order": 4
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 0,
-              "points": 0.5,
-              "equip": [],
-              "name": "YUDBOT",
-              "disabled": false,
-              "orders": [],
-              "id": 1,
-              "weapons": [
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 1
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 0
-        }
-      ],
-      "options": [],
-      "slug": "yudbots",
-      "filters": {
-        "categories": [],
-        "skills": [
-          28,
-          243
-        ],
-        "equip": [],
-        "chars": [
-          21,
-          27
-        ],
-        "types": [
-          5
-        ],
-        "weapons": [
-          71
-        ],
-        "ammunition": [
-          37
-        ]
-      },
-      "factions": [
-        202,
-        701,
-        702,
-        703,
-        1001,
-        1002
-      ]
-    },
-    {
-      "id": 590,
-      "idArmy": 10,
-      "canonical": 701,
-      "isc": "Daleth Rebots",
-      "iscAbbr": null,
-      "name": "DALETH Rebots",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Daleth Rebots",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 13,
-              "move": [
-                15,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 5,
-              "ava": 2,
-              "str": true,
-              "bs": 11,
-              "s": 3,
-              "equip": [],
-              "w": 1,
-              "ph": 10,
-              "name": "DALETH Rebots",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/daleth-rebots-1-1.svg",
-              "id": 1,
-              "arm": 0,
-              "weapons": [],
-              "chars": [
-                3,
-                21
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 189,
-                  "order": 1
-                },
-                {
-                  "extra": [],
-                  "id": 82,
-                  "order": 7
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 1,
-              "equip": [],
-              "name": "DALETH Rebot",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 33,
-                  "order": 1
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 0
-        }
-      ],
-      "options": [],
-      "slug": "daleth-rebots",
-      "filters": {
-        "categories": [],
-        "skills": [
-          82,
-          189
-        ],
-        "equip": [],
-        "chars": [
-          3,
-          21
-        ],
-        "types": [
-          5
-        ],
-        "weapons": [
-          33,
-          71
-        ],
-        "ammunition": [
-          2,
-          37
-        ]
-      },
-      "factions": [
-        701,
-        702,
-        703
-      ]
-    },
-    {
-      "id": 1591,
-      "idArmy": 1591,
-      "canonical": 701,
-      "isc": "Hoplites",
-      "iscAbbr": null,
-      "name": "HOPLITES Heavy Regiment",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Hoplites Heavy Regiment ",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 20,
-              "move": [
-                15,
-                5
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 3,
-              "ava": 2,
-              "str": false,
-              "bs": 13,
-              "s": 2,
-              "equip": [],
-              "w": 2,
-              "ph": 13,
-              "name": "HOPLITES Heavy Regiment ",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/hoplites-heavy-regiment-1-1.svg",
-              "id": 1,
-              "arm": 3,
-              "weapons": [],
-              "chars": [
-                3,
-                21
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "q": 1,
-                  "extra": [
-                    5
-                  ],
-                  "id": 240,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    11
-                  ],
-                  "id": 40,
-                  "order": 2
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 3.5,
-              "equip": [],
-              "name": "HOPLITE",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 2,
-                  "order": 1
-                },
-                {
-                  "id": 69,
-                  "order": 2
-                },
-                {
-                  "id": 5,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "1.5",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 3,
-              "equip": [],
-              "name": "HOPLITE",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "id": 152,
-                  "order": 1
-                },
-                {
-                  "id": 69,
-                  "order": 3
-                },
-                {
-                  "id": 65,
-                  "order": 2
-                },
-                {
-                  "id": 5,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "1",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 2.5,
-              "equip": [],
-              "name": "HOPLITE",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 4,
-              "weapons": [
-                {
-                  "id": 41,
-                  "order": 1
-                },
-                {
-                  "id": 69,
-                  "order": 4
-                },
-                {
-                  "id": 65,
-                  "order": 2
-                },
-                {
-                  "id": 5,
-                  "order": 6
-                },
-                {
-                  "extra": null,
-                  "id": 61,
-                  "order": 5
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 49,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 3.5,
-              "equip": [],
-              "name": "HOPLITE",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "LIEUTENANT",
-                  "list": 0,
-                  "total": 1
-                }
-              ],
-              "id": 5,
-              "weapons": [
-                {
-                  "id": 2,
-                  "order": 1
-                },
-                {
-                  "id": 69,
-                  "order": 2
-                },
-                {
-                  "id": 5,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "1.5",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 119,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 0
-        }
-      ],
-      "options": [],
-      "slug": "hoplites",
-      "filters": {
-        "categories": [],
-        "skills": [
-          40,
-          49,
-          119,
-          240
-        ],
-        "equip": [],
-        "chars": [
-          3,
-          21
-        ],
-        "types": [
-          3
-        ],
-        "weapons": [
-          2,
-          5,
-          41,
+          26,
           61,
-          65,
           69,
-          152
+          77
         ],
         "ammunition": [
           2,
-          8,
-          9,
+          3,
           35
         ]
       },
@@ -5345,13 +5345,58 @@
       "type": 7
     },
     {
-      "id": 1592,
-      "isc": "Thyreos",
-      "idArmy": 1592,
-      "name": "THYREOS, Thyreophoroi Mobile Regiment",
-      "slug": "thyreos",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/thyreos-1-1.svg",
-      "type": 1
+      "id": 584,
+      "isc": "Asuras",
+      "idArmy": 4,
+      "name": "ASURAS",
+      "slug": "asuras",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/asuras-1-1.svg",
+      "type": 3
+    },
+    {
+      "id": 607,
+      "isc": "Machaon",
+      "idArmy": 27,
+      "name": "MACHAON, Myrmidon Doctor-Officer",
+      "slug": "machaon",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/machaon-1-1.svg",
+      "type": 7
+    },
+    {
+      "id": 192,
+      "isc": "Yudbots",
+      "idArmy": 20,
+      "name": "YUDBOTS",
+      "slug": "yudbots",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/yudbots-1-1.svg",
+      "type": 5
+    },
+    {
+      "id": 590,
+      "isc": "Daleth Rebots",
+      "idArmy": 10,
+      "name": "DALETH Rebots",
+      "slug": "daleth-rebots",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/daleth-rebots-1-1.svg",
+      "type": 5
+    },
+    {
+      "id": 1591,
+      "isc": "Hoplites",
+      "idArmy": 1591,
+      "name": "HOPLITES Heavy Regiment",
+      "slug": "hoplites",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/hoplites-heavy-regiment-1-1.svg",
+      "type": 3
+    },
+    {
+      "id": 592,
+      "isc": "Samekh Rebots",
+      "idArmy": 12,
+      "name": "SAMEKH Rebots",
+      "slug": "samekh-rebots",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/samekh-rebots-1-1.svg",
+      "type": 5
     },
     {
       "id": 1593,
@@ -5399,58 +5444,13 @@
       "type": 4
     },
     {
-      "id": 584,
-      "isc": "Asuras",
-      "idArmy": 4,
-      "name": "ASURAS",
-      "slug": "asuras",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/asuras-1-1.svg",
-      "type": 3
-    },
-    {
-      "id": 607,
-      "isc": "Machaon",
-      "idArmy": 27,
-      "name": "MACHAON, Myrmidon Doctor-Officer",
-      "slug": "machaon",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/machaon-1-1.svg",
-      "type": 7
-    },
-    {
-      "id": 592,
-      "isc": "Samekh Rebots",
-      "idArmy": 12,
-      "name": "SAMEKH Rebots",
-      "slug": "samekh-rebots",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/samekh-rebots-1-1.svg",
-      "type": 5
-    },
-    {
-      "id": 192,
-      "isc": "Yudbots",
-      "idArmy": 20,
-      "name": "YUDBOTS",
-      "slug": "yudbots",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/yudbots-1-1.svg",
-      "type": 5
-    },
-    {
-      "id": 590,
-      "isc": "Daleth Rebots",
-      "idArmy": 10,
-      "name": "DALETH Rebots",
-      "slug": "daleth-rebots",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/daleth-rebots-1-1.svg",
-      "type": 5
-    },
-    {
-      "id": 1591,
-      "isc": "Hoplites",
-      "idArmy": 1591,
-      "name": "HOPLITES Heavy Regiment",
-      "slug": "hoplites",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/hoplites-heavy-regiment-1-1.svg",
-      "type": 3
+      "id": 1592,
+      "isc": "Thyreos",
+      "idArmy": 1592,
+      "name": "THYREOS, Thyreophoroi Mobile Regiment",
+      "slug": "thyreos",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/thyreos-1-1.svg",
+      "type": 1
     },
     {
       "id": 59,

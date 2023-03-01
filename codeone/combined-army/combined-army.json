@@ -1,5 +1,5 @@
 {
-  "version": "7.22264.156",
+  "version": "7.2359.289",
   "units": [
     {
       "id": 516,
@@ -295,7 +295,6 @@
         ],
         "ammunition": [
           2,
-          6,
           13
         ]
       },
@@ -303,156 +302,6 @@
         601,
         603,
         604
-      ]
-    },
-    {
-      "id": 1515,
-      "idArmy": 1515,
-      "canonical": 601,
-      "isc": "Sargosh, Tunnel-crumbler of the Jayth Cutthroats",
-      "iscAbbr": "Sargosh",
-      "name": "SARGOSH, Tunnel-crumbler of the Jayth Cutthroats",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Sargosh, Tunnel-crumbler of the Jayth Cutthroats",
-          "profiles": [
-            {
-              "bts": 6,
-              "cc": 24,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 1,
-              "ava": 1,
-              "str": false,
-              "bs": 12,
-              "s": 2,
-              "equip": [
-                {
-                  "id": 114,
-                  "order": 1
-                }
-              ],
-              "w": 1,
-              "ph": 13,
-              "name": "SARGOSH, Tunnel-crumbler of the Jayth Cutthroats",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/sargosh-null-1.svg",
-              "id": 1,
-              "arm": 1,
-              "weapons": [],
-              "chars": [
-                3
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "id": 237,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "id": 21,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "id": 39,
-                  "order": 6
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    30
-                  ],
-                  "id": 162,
-                  "order": 7
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 3,
-              "equip": [],
-              "name": "SARGOSH",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 41,
-                  "order": 1
-                },
-                {
-                  "id": 69,
-                  "order": 3
-                },
-                {
-                  "id": 11,
-                  "order": 4
-                },
-                {
-                  "id": 28,
-                  "order": 2
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 0
-        }
-      ],
-      "options": [],
-      "slug": "sargosh",
-      "filters": {
-        "categories": [],
-        "skills": [
-          21,
-          39,
-          162,
-          237
-        ],
-        "equip": [
-          114
-        ],
-        "chars": [
-          3
-        ],
-        "types": [
-          1
-        ],
-        "weapons": [
-          11,
-          28,
-          41,
-          69
-        ],
-        "ammunition": [
-          2,
-          9,
-          35
-        ]
-      },
-      "factions": [
-        601,
-        603
       ]
     },
     {
@@ -723,6 +572,147 @@
         "ammunition": [
           2,
           8,
+          9,
+          35
+        ]
+      },
+      "factions": [
+        601,
+        603
+      ]
+    },
+    {
+      "id": 1515,
+      "idArmy": 1515,
+      "canonical": 601,
+      "isc": "Sargosh, Tunnel-crumbler of the Jayth Cutthroats",
+      "iscAbbr": "Sargosh",
+      "name": "SARGOSH, Tunnel-crumbler of the Jayth Cutthroats",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Sargosh, Tunnel-crumbler of the Jayth Cutthroats",
+          "profiles": [
+            {
+              "bts": 6,
+              "cc": 24,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 1,
+              "ava": 1,
+              "str": false,
+              "bs": 12,
+              "s": 2,
+              "equip": [
+                {
+                  "id": 114,
+                  "order": 1
+                }
+              ],
+              "w": 1,
+              "ph": 13,
+              "name": "SARGOSH, Tunnel-crumbler of the Jayth Cutthroats",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/sargosh-null-1.svg",
+              "id": 1,
+              "arm": 1,
+              "weapons": [],
+              "chars": [
+                3
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "id": 237,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 21,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "id": 39,
+                  "order": 6
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 3,
+              "equip": [],
+              "name": "SARGOSH",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 41,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "id": 11,
+                  "order": 4
+                },
+                {
+                  "id": 28,
+                  "order": 2
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 0
+        }
+      ],
+      "options": [],
+      "slug": "sargosh",
+      "filters": {
+        "categories": [],
+        "skills": [
+          21,
+          39,
+          237
+        ],
+        "equip": [
+          114
+        ],
+        "chars": [
+          3
+        ],
+        "types": [
+          1
+        ],
+        "weapons": [
+          11,
+          28,
+          41,
+          69
+        ],
+        "ammunition": [
+          2,
           9,
           35
         ]
@@ -1976,119 +1966,6 @@
       ]
     },
     {
-      "id": 510,
-      "idArmy": 19,
-      "canonical": 601,
-      "isc": "T-Drones",
-      "iscAbbr": null,
-      "name": "T-DRONES",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "T-Drones",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 13,
-              "move": [
-                15,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 5,
-              "ava": 1,
-              "str": true,
-              "bs": 12,
-              "s": 3,
-              "equip": [],
-              "w": 1,
-              "ph": 10,
-              "name": "T-DRONES",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/t-drones-1-1.svg",
-              "id": 1,
-              "arm": 0,
-              "weapons": [],
-              "chars": [
-                3,
-                21
-              ],
-              "wip": 13,
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 1.5,
-              "equip": [],
-              "name": "T-DRONE",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 3
-                },
-                {
-                  "extra": [],
-                  "id": 58,
-                  "order": 1
-                }
-              ],
-              "chars": [],
-              "swc": "1.5",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 0
-        }
-      ],
-      "options": [],
-      "slug": "t-drones",
-      "filters": {
-        "categories": [],
-        "skills": [],
-        "equip": [],
-        "chars": [
-          3,
-          21
-        ],
-        "types": [
-          5
-        ],
-        "weapons": [
-          58,
-          71
-        ],
-        "ammunition": [
-          6,
-          13,
-          37
-        ]
-      },
-      "factions": [
-        601,
-        602,
-        603,
-        604
-      ]
-    },
-    {
       "id": 524,
       "idArmy": 33,
       "canonical": 601,
@@ -2244,6 +2121,118 @@
       },
       "factions": [
         601,
+        603,
+        604
+      ]
+    },
+    {
+      "id": 510,
+      "idArmy": 19,
+      "canonical": 601,
+      "isc": "T-Drones",
+      "iscAbbr": null,
+      "name": "T-DRONES",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "T-Drones",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 13,
+              "move": [
+                15,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 5,
+              "ava": 1,
+              "str": true,
+              "bs": 12,
+              "s": 3,
+              "equip": [],
+              "w": 1,
+              "ph": 10,
+              "name": "T-DRONES",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/t-drones-1-1.svg",
+              "id": 1,
+              "arm": 0,
+              "weapons": [],
+              "chars": [
+                3,
+                21
+              ],
+              "wip": 13,
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 1.5,
+              "equip": [],
+              "name": "T-DRONE",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 3
+                },
+                {
+                  "extra": [],
+                  "id": 58,
+                  "order": 1
+                }
+              ],
+              "chars": [],
+              "swc": "1.5",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 0
+        }
+      ],
+      "options": [],
+      "slug": "t-drones",
+      "filters": {
+        "categories": [],
+        "skills": [],
+        "equip": [],
+        "chars": [
+          3,
+          21
+        ],
+        "types": [
+          5
+        ],
+        "weapons": [
+          58,
+          71
+        ],
+        "ammunition": [
+          13,
+          37
+        ]
+      },
+      "factions": [
+        601,
+        602,
         603,
         604
       ]
@@ -3457,7 +3446,6 @@
         ],
         "ammunition": [
           2,
-          6,
           8,
           13
         ]
@@ -4990,11 +4978,6 @@
         "wiki": "https://infinitythewiki.com/Double_Action_(DA)_Ammunition?version=c1"
       },
       {
-        "id": 6,
-        "name": "Exp",
-        "wiki": "https://infinitythewiki.com/Explosive_(EXP)_Ammunition?version=c1"
-      },
-      {
         "id": 2,
         "name": "N",
         "wiki": "https://infinitythewiki.com/Normal_(N)_Ammunition?version=c1"
@@ -5196,11 +5179,6 @@
         "id": 161,
         "name": "Forward Deployment",
         "wiki": "https://infinitythewiki.com/Forward_Deployment?version=c1"
-      },
-      {
-        "id": 162,
-        "name": "Immunity",
-        "wiki": "https://infinitythewiki.com/Immunity?version=c1"
       },
       {
         "id": 189,
@@ -5415,11 +5393,6 @@
         "id": 41,
         "name": "Servant",
         "type": "TEXT"
-      },
-      {
-        "id": 30,
-        "name": "Shock",
-        "type": "TEXT"
       }
     ]
   },
@@ -5434,21 +5407,21 @@
       "type": 1
     },
     {
-      "id": 1515,
-      "isc": "Sargosh",
-      "idArmy": 1515,
-      "name": "SARGOSH, Tunnel-crumbler of the Jayth Cutthroats",
-      "slug": "sargosh",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/sargosh-null-1.svg",
-      "type": 1
-    },
-    {
       "id": 533,
       "isc": "Cadmus-Naish Agent Sheskiin",
       "idArmy": 42,
       "name": "Cadmus-Naish Agent SHESKIIN",
       "slug": "cadmus-naish-agent-sheskiin",
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/cadmus-naish-agent-sheskiin-1-1.svg",
+      "type": 1
+    },
+    {
+      "id": 1515,
+      "isc": "Sargosh",
+      "idArmy": 1515,
+      "name": "SARGOSH, Tunnel-crumbler of the Jayth Cutthroats",
+      "slug": "sargosh",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/sargosh-null-1.svg",
       "type": 1
     },
     {
@@ -5497,15 +5470,6 @@
       "type": 5
     },
     {
-      "id": 510,
-      "isc": "T-Drones",
-      "idArmy": 19,
-      "name": "T-DRONES",
-      "slug": "t-drones",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/t-drones-1-1.svg",
-      "type": 5
-    },
-    {
       "id": 524,
       "isc": "Sphinx",
       "idArmy": 33,
@@ -5513,6 +5477,15 @@
       "slug": "sphinx",
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/sphinx-1-1.svg",
       "type": 4
+    },
+    {
+      "id": 510,
+      "isc": "T-Drones",
+      "idArmy": 19,
+      "name": "T-DRONES",
+      "slug": "t-drones",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/t-drones-1-1.svg",
+      "type": 5
     },
     {
       "id": 520,
