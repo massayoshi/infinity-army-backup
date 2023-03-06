@@ -38,7 +38,16 @@
           "wip": 13,
           "name": "KAMAU Amphibious Intervention Teams",
           "notes": null,
-          "skills": [],
+          "skills": [
+            {
+              "id": 28,
+              "order": 1,
+              "extra": [
+                6
+              ],
+              "q": 1
+            }
+          ],
           "peripheral": []
         }
       ],
@@ -290,6 +299,7 @@
   "filters": {
     "categories": [],
     "skills": [
+      28,
       64,
       119,
       1000
