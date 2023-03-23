@@ -42,6 +42,11 @@
           "notes": null,
           "skills": [
             {
+              "id": 164,
+              "order": 1,
+              "q": 1
+            },
+            {
               "id": 28,
               "order": 2,
               "extra": [
@@ -57,54 +62,6 @@
         }
       ],
       "options": [
-        {
-          "id": 1,
-          "chars": [],
-          "disabled": false,
-          "equip": [
-            {
-              "extra": [
-                285
-              ],
-              "id": 100,
-              "order": 1,
-              "q": 1
-            }
-          ],
-          "minis": 1,
-          "orders": [
-            {
-              "type": "REGULAR",
-              "list": 1,
-              "total": 1
-            }
-          ],
-          "includes": [],
-          "points": 29,
-          "swc": "0.5",
-          "weapons": [
-            {
-              "id": 26,
-              "order": 1
-            },
-            {
-              "id": 69,
-              "order": 2
-            },
-            {
-              "id": 5,
-              "order": 3
-            }
-          ],
-          "name": "REVEREND CUSTODIER",
-          "skills": [
-            {
-              "id": 1000,
-              "order": 1
-            }
-          ],
-          "peripheral": []
-        },
         {
           "id": 2,
           "chars": [],
@@ -306,6 +263,50 @@
             }
           ],
           "peripheral": []
+        },
+        {
+          "id": 6,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 145,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 27,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 33,
+              "order": 1
+            },
+            {
+              "id": 154,
+              "order": 2
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            }
+          ],
+          "name": "REVEREND CUSTODIER",
+          "skills": [],
+          "peripheral": []
         }
       ]
     }
@@ -320,11 +321,13 @@
       28,
       83,
       119,
+      164,
       1000
     ],
     "equip": [
       100,
-      101
+      101,
+      145
     ],
     "chars": [
       1,

@@ -362,6 +362,40 @@
             }
           ],
           "peripheral": []
+        },
+        {
+          "id": 10,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 9,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 26,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 2
+            },
+            {
+              "id": 71,
+              "order": 3
+            }
+          ],
+          "name": "MODERATOR",
+          "skills": [],
+          "peripheral": []
         }
       ]
     }
@@ -391,6 +425,7 @@
       1
     ],
     "weapons": [
+      26,
       33,
       36,
       69,
@@ -401,6 +436,7 @@
     ],
     "ammunition": [
       2,
+      3,
       9,
       35,
       37

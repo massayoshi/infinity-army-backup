@@ -18,7 +18,7 @@
           "ava": 3,
           "bs": 13,
           "bts": 6,
-          "cc": 19,
+          "cc": 20,
           "chars": [
             1,
             3,
@@ -100,7 +100,7 @@
             }
           ],
           "includes": [],
-          "points": 51,
+          "points": 49,
           "swc": "0",
           "weapons": [
             {
@@ -109,48 +109,6 @@
             },
             {
               "id": 1,
-              "order": 2
-            },
-            {
-              "id": 69,
-              "order": 3
-            },
-            {
-              "id": 7,
-              "order": 4
-            },
-            {
-              "id": 71,
-              "order": 5
-            }
-          ],
-          "name": "BRONZE",
-          "skills": [],
-          "peripheral": []
-        },
-        {
-          "id": 2,
-          "chars": [],
-          "disabled": false,
-          "equip": [],
-          "minis": 1,
-          "orders": [
-            {
-              "type": "REGULAR",
-              "list": 1,
-              "total": 1
-            }
-          ],
-          "includes": [],
-          "points": 52,
-          "swc": "0",
-          "weapons": [
-            {
-              "id": 41,
-              "order": 1
-            },
-            {
-              "id": 187,
               "order": 2
             },
             {
@@ -184,7 +142,7 @@
             }
           ],
           "includes": [],
-          "points": 56,
+          "points": 54,
           "swc": "1",
           "weapons": [
             {
@@ -227,7 +185,7 @@
             }
           ],
           "includes": [],
-          "points": 53,
+          "points": 51,
           "swc": "0",
           "weapons": [
             {
@@ -274,7 +232,7 @@
             }
           ],
           "includes": [],
-          "points": 53,
+          "points": 51,
           "swc": "0",
           "weapons": [
             {
@@ -282,7 +240,7 @@
               "order": 1
             },
             {
-              "id": 187,
+              "id": 188,
               "order": 2
             },
             {
@@ -305,6 +263,44 @@
               "order": 1
             }
           ],
+          "peripheral": []
+        },
+        {
+          "id": 6,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 55,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 2,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 2
+            },
+            {
+              "id": 7,
+              "order": 3
+            },
+            {
+              "id": 71,
+              "order": 4
+            }
+          ],
+          "name": "BRONZE",
+          "skills": [],
           "peripheral": []
         }
       ]
@@ -341,13 +337,14 @@
     ],
     "weapons": [
       1,
+      2,
       7,
       29,
       41,
       69,
       71,
       152,
-      187
+      188
     ],
     "ammunition": [
       2,

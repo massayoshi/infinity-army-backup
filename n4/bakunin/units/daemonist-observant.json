@@ -1,0 +1,228 @@
+{
+  "id": 1606,
+  "idArmy": 1606,
+  "canonical": 501,
+  "isc": "Daemonist Observant",
+  "iscAbbr": null,
+  "name": "DAEMONIST Observant",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 6,
+      "isc": "Daemonist Observant",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 3,
+          "ava": 1,
+          "bs": 11,
+          "bts": 3,
+          "cc": 20,
+          "chars": [
+            1,
+            3,
+            5,
+            21
+          ],
+          "equip": [
+            {
+              "extra": [
+                6
+              ],
+              "id": 241,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 184,
+              "order": 2,
+              "q": 1
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/daemonist-observant-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 13,
+          "s": 4,
+          "str": false,
+          "type": 3,
+          "w": 2,
+          "wip": 14,
+          "name": "DAEMONIST Observant",
+          "notes": null,
+          "skills": [
+            {
+              "id": 20,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 207,
+              "order": 2,
+              "q": 1
+            },
+            {
+              "id": 247,
+              "order": 3,
+              "q": 1
+            },
+            {
+              "id": 162,
+              "order": 4,
+              "extra": [
+                30
+              ],
+              "q": 1
+            },
+            {
+              "id": 215,
+              "order": 5,
+              "extra": [
+                44
+              ],
+              "q": 1
+            },
+            {
+              "id": 83,
+              "order": 6,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 32,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 81,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 2
+            },
+            {
+              "id": 11,
+              "order": 3
+            }
+          ],
+          "name": "DAEMONIST",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "LIEUTENANT",
+              "list": 0,
+              "total": 2
+            }
+          ],
+          "includes": [],
+          "points": 36,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 81,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 2
+            },
+            {
+              "id": 11,
+              "order": 3
+            }
+          ],
+          "name": "DAEMONIST",
+          "skills": [
+            {
+              "extra": [
+                246
+              ],
+              "id": 119,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "daemonist-observant",
+  "filters": {
+    "categories": [
+      6
+    ],
+    "skills": [
+      20,
+      83,
+      119,
+      162,
+      207,
+      215,
+      247
+    ],
+    "equip": [
+      184,
+      241
+    ],
+    "chars": [
+      1,
+      3,
+      5,
+      21
+    ],
+    "types": [
+      3
+    ],
+    "weapons": [
+      11,
+      69,
+      81
+    ],
+    "ammunition": [
+      2,
+      3,
+      9
+    ]
+  },
+  "factions": [
+    501,
+    503
+  ]
+}

@@ -16,7 +16,7 @@
           "id": 1,
           "arm": 3,
           "ava": 3,
-          "bs": 13,
+          "bs": 12,
           "bts": 3,
           "cc": 22,
           "chars": [
@@ -26,8 +26,12 @@
           ],
           "equip": [
             {
+              "extra": [
+                8
+              ],
               "id": 106,
-              "order": 1
+              "order": 1,
+              "q": 1
             }
           ],
           "logo": "https://assets.corvusbelli.net/army/img/logo/units/reverend-healers-1-1.svg",
@@ -54,12 +58,19 @@
               "id": 28,
               "order": 2,
               "extra": [
-                6
-              ]
+                7
+              ],
+              "q": 1
+            },
+            {
+              "id": 164,
+              "order": 3,
+              "q": 1
             },
             {
               "id": 83,
-              "order": 3
+              "order": 4,
+              "q": 1
             }
           ],
           "peripheral": []
@@ -96,7 +107,7 @@
               "order": 3
             },
             {
-              "id": 8,
+              "id": 10,
               "order": 4
             }
           ],
@@ -134,7 +145,7 @@
               "order": 3
             },
             {
-              "id": 8,
+              "id": 10,
               "order": 4
             }
           ],
@@ -168,7 +179,7 @@
               "order": 3
             },
             {
-              "id": 8,
+              "id": 10,
               "order": 4
             }
           ],
@@ -188,7 +199,8 @@
     "skills": [
       28,
       53,
-      83
+      83,
+      164
     ],
     "equip": [
       106
@@ -202,7 +214,7 @@
       2
     ],
     "weapons": [
-      8,
+      10,
       26,
       33,
       41,
@@ -212,7 +224,7 @@
     "ammunition": [
       2,
       3,
-      6,
+      8,
       9,
       35
     ]

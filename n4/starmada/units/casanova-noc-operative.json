@@ -47,20 +47,8 @@
               "q": 1
             },
             {
-              "id": 56,
-              "order": 2,
-              "q": 1
-            },
-            {
               "id": 84,
               "order": 3
-            },
-            {
-              "id": 161,
-              "order": 4,
-              "extra": [
-                22
-              ]
             },
             {
               "id": 40,
@@ -139,7 +127,21 @@
             }
           ],
           "name": "CASANOVA",
-          "skills": [],
+          "skills": [
+            {
+              "extra": [
+                22
+              ],
+              "id": 161,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 56,
+              "order": 2,
+              "q": 1
+            }
+          ],
           "peripheral": []
         },
         {
@@ -181,7 +183,72 @@
             }
           ],
           "name": "CASANOVA",
-          "skills": [],
+          "skills": [
+            {
+              "extra": [
+                22
+              ],
+              "id": 161,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 56,
+              "order": 2,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 3,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 34,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 77,
+              "order": 1
+            },
+            {
+              "id": 65,
+              "order": 2
+            },
+            {
+              "id": 197,
+              "order": 3
+            },
+            {
+              "id": 69,
+              "order": 4
+            },
+            {
+              "id": 9,
+              "order": 5
+            }
+          ],
+          "name": "CASANOVA",
+          "skills": [
+            {
+              "extra": [
+                1
+              ],
+              "id": 47,
+              "order": 1,
+              "q": 1
+            }
+          ],
           "peripheral": []
         }
       ]
@@ -197,6 +264,7 @@
       20,
       28,
       40,
+      47,
       56,
       84,
       86,

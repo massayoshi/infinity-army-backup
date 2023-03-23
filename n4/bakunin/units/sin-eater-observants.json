@@ -55,6 +55,14 @@
             {
               "id": 83,
               "order": 3
+            },
+            {
+              "id": 162,
+              "order": 4,
+              "extra": [
+                30
+              ],
+              "q": 1
             }
           ],
           "peripheral": []
@@ -75,7 +83,7 @@
             }
           ],
           "includes": [],
-          "points": 32,
+          "points": 33,
           "swc": "1.5",
           "weapons": [
             {
@@ -109,8 +117,8 @@
             }
           ],
           "includes": [],
-          "points": 31,
-          "swc": "1.5",
+          "points": 32,
+          "swc": "1",
           "weapons": [
             {
               "id": 36,
@@ -143,7 +151,7 @@
             }
           ],
           "includes": [],
-          "points": 29,
+          "points": 30,
           "swc": "0",
           "weapons": [
             {
@@ -164,7 +172,7 @@
           "peripheral": []
         },
         {
-          "id": 4,
+          "id": 5,
           "chars": [],
           "disabled": false,
           "equip": [],
@@ -177,11 +185,11 @@
             }
           ],
           "includes": [],
-          "points": 30,
-          "swc": "1.5",
+          "points": 35,
+          "swc": "1",
           "weapons": [
             {
-              "id": 74,
+              "id": 36,
               "order": 1
             },
             {
@@ -194,7 +202,13 @@
             }
           ],
           "name": "SIN-EATER",
-          "skills": [],
+          "skills": [
+            {
+              "id": 156,
+              "order": 1,
+              "q": 1
+            }
+          ],
           "peripheral": []
         }
       ]
@@ -209,7 +223,9 @@
     "skills": [
       28,
       83,
-      109
+      109,
+      156,
+      162
     ],
     "equip": [],
     "chars": [
@@ -225,8 +241,7 @@
       5,
       36,
       64,
-      69,
-      74
+      69
     ],
     "ammunition": [
       2,

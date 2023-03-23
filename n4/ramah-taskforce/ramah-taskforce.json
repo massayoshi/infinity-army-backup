@@ -1,5 +1,5 @@
 {
-  "version": "7.232.35",
+  "version": "7.2382.121",
   "units": [
     {
       "id": 305,
@@ -1360,6 +1360,153 @@
       ]
     },
     {
+      "id": 314,
+      "idArmy": 14,
+      "canonical": 401,
+      "isc": "Najjarun Engineers",
+      "iscAbbr": null,
+      "name": "NAJJARUN Engineer",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Najjarun Engineers",
+          "profiles": [
+            {
+              "bts": 0,
+              "cc": 14,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 1,
+              "ava": 1,
+              "str": false,
+              "bs": 11,
+              "s": 2,
+              "equip": [
+                {
+                  "id": 237,
+                  "order": 1
+                }
+              ],
+              "w": 1,
+              "ph": 10,
+              "name": "NAJJARUN Engineer",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/najjarun-engineers-1-1.svg",
+              "id": 1,
+              "arm": 1,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                5
+              ],
+              "wip": 14,
+              "skills": [
+                {
+                  "id": 84,
+                  "order": 1
+                },
+                {
+                  "id": 49,
+                  "order": 2
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 15,
+              "equip": [],
+              "name": "NAJJARUN Engineer",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 31,
+                  "order": 1
+                },
+                {
+                  "id": 28,
+                  "order": 2
+                },
+                {
+                  "id": 17,
+                  "order": 3
+                },
+                {
+                  "id": 69,
+                  "order": 4
+                },
+                {
+                  "id": 5,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 8
+        }
+      ],
+      "options": [],
+      "slug": "najjarun-engineers",
+      "filters": {
+        "categories": [
+          8
+        ],
+        "skills": [
+          49,
+          84
+        ],
+        "equip": [
+          237
+        ],
+        "chars": [
+          1,
+          3,
+          5
+        ],
+        "types": [
+          1
+        ],
+        "weapons": [
+          5,
+          17,
+          28,
+          31,
+          69
+        ],
+        "ammunition": [
+          2,
+          13
+        ]
+      },
+      "factions": [
+        401,
+        402,
+        403,
+        404,
+        908
+      ]
+    },
+    {
       "id": 1546,
       "idArmy": 1546,
       "canonical": 401,
@@ -1659,153 +1806,6 @@
         401,
         402,
         404
-      ]
-    },
-    {
-      "id": 314,
-      "idArmy": 14,
-      "canonical": 401,
-      "isc": "Najjarun Engineers",
-      "iscAbbr": null,
-      "name": "NAJJARUN Engineer",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Najjarun Engineers",
-          "profiles": [
-            {
-              "bts": 0,
-              "cc": 14,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 1,
-              "ava": 1,
-              "str": false,
-              "bs": 11,
-              "s": 2,
-              "equip": [
-                {
-                  "id": 237,
-                  "order": 1
-                }
-              ],
-              "w": 1,
-              "ph": 10,
-              "name": "NAJJARUN Engineer",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/najjarun-engineers-1-1.svg",
-              "id": 1,
-              "arm": 1,
-              "weapons": [],
-              "chars": [
-                1,
-                3,
-                5
-              ],
-              "wip": 14,
-              "skills": [
-                {
-                  "id": 84,
-                  "order": 1
-                },
-                {
-                  "id": 49,
-                  "order": 2
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 15,
-              "equip": [],
-              "name": "NAJJARUN Engineer",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 31,
-                  "order": 1
-                },
-                {
-                  "id": 28,
-                  "order": 2
-                },
-                {
-                  "id": 17,
-                  "order": 3
-                },
-                {
-                  "id": 69,
-                  "order": 4
-                },
-                {
-                  "id": 5,
-                  "order": 5
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 8
-        }
-      ],
-      "options": [],
-      "slug": "najjarun-engineers",
-      "filters": {
-        "categories": [
-          8
-        ],
-        "skills": [
-          49,
-          84
-        ],
-        "equip": [
-          237
-        ],
-        "chars": [
-          1,
-          3,
-          5
-        ],
-        "types": [
-          1
-        ],
-        "weapons": [
-          5,
-          17,
-          28,
-          31,
-          69
-        ],
-        "ammunition": [
-          2,
-          13
-        ]
-      },
-      "factions": [
-        401,
-        402,
-        403,
-        404,
-        908
       ]
     },
     {
@@ -2648,7 +2648,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 1
+                  "id": 29
                 }
               ]
             },
@@ -2696,7 +2696,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 1
+                  "id": 29
                 }
               ]
             }
@@ -4040,7 +4040,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 2
+                  "id": 30
                 }
               ]
             }
@@ -9000,7 +9000,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 3
+                  "id": 31
                 }
               ]
             },
@@ -9064,7 +9064,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 3,
+                  "id": 31,
                   "q": 2
                 }
               ]
@@ -22414,15 +22414,15 @@
   "filters": {
     "peripheral": [
       {
-        "id": 2,
+        "id": 30,
         "name": "BÂTARD"
       },
       {
-        "id": 3,
+        "id": 31,
         "name": "JACKBOT"
       },
       {
-        "id": 1,
+        "id": 29,
         "name": "NASMAT A2"
       }
     ],
@@ -24180,16 +24180,6 @@
       "category": 11
     },
     {
-      "id": 1546,
-      "isc": "Shakush Light Armored Unit",
-      "idArmy": 1546,
-      "name": "SHAKUSH Light Armored Unit",
-      "slug": "shakush-light-armored-unit",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/shakush-1-1.svg",
-      "type": 4,
-      "category": 7
-    },
-    {
       "id": 314,
       "isc": "Najjarun Engineers",
       "idArmy": 14,
@@ -24198,6 +24188,16 @@
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/najjarun-engineers-1-1.svg",
       "type": 1,
       "category": 8
+    },
+    {
+      "id": 1546,
+      "isc": "Shakush Light Armored Unit",
+      "idArmy": 1546,
+      "name": "SHAKUSH Light Armored Unit",
+      "slug": "shakush-light-armored-unit",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/shakush-1-1.svg",
+      "type": 4,
+      "category": 7
     },
     {
       "id": 334,
