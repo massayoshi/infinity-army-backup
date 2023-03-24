@@ -1,5 +1,5 @@
 {
-  "version": "7.2382.121",
+  "version": "7.2382.446",
   "units": [
     {
       "id": 1462,
@@ -2683,648 +2683,6 @@
       ]
     },
     {
-      "id": 1609,
-      "idArmy": 1609,
-      "canonical": 1001,
-      "isc": "RoadBots Highway Patrol",
-      "iscAbbr": null,
-      "name": "ROADBOTS Highway Patrol",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "RoadBots Highway Patrol",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 9,
-              "move": [
-                20,
-                15
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 5,
-              "ava": 2,
-              "str": true,
-              "bs": 11,
-              "s": 3,
-              "equip": [],
-              "w": 1,
-              "ph": 11,
-              "name": "HIGH MOBILITY FORM",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/roadbots-highway-patrol-1-1.svg",
-              "id": 1,
-              "arm": 2,
-              "weapons": [],
-              "chars": [
-                3,
-                5,
-                21
-              ],
-              "wip": 12,
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 235,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "id": 84,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    1
-                  ],
-                  "id": 40,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    23
-                  ],
-                  "id": 40,
-                  "order": 4
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    30
-                  ],
-                  "id": 162,
-                  "order": 5
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    6
-                  ],
-                  "id": 28,
-                  "order": 6
-                },
-                {
-                  "q": 1,
-                  "id": 86,
-                  "order": 7
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    33
-                  ],
-                  "id": 58,
-                  "order": 8
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    254
-                  ],
-                  "id": 246,
-                  "order": 9
-                },
-                {
-                  "q": 1,
-                  "id": 82,
-                  "order": 10
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "bts": 3,
-              "cc": 18,
-              "move": [
-                15,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 5,
-              "ava": -1,
-              "str": true,
-              "bs": 12,
-              "s": 5,
-              "equip": [],
-              "w": 1,
-              "ph": 11,
-              "name": "COMBAT FORM",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/roadbots-highway-patrol-1-2.svg",
-              "id": 2,
-              "arm": 2,
-              "weapons": [],
-              "chars": [
-                3,
-                5,
-                21
-              ],
-              "wip": 12,
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 235,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "id": 84,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    30
-                  ],
-                  "id": 162,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    6
-                  ],
-                  "id": 28,
-                  "order": 4
-                },
-                {
-                  "q": 1,
-                  "id": 86,
-                  "order": 5
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    254
-                  ],
-                  "id": 246,
-                  "order": 6
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 26,
-              "equip": [],
-              "name": "ROADBOT",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 84,
-                  "order": 1
-                },
-                {
-                  "extra": [
-                    8
-                  ],
-                  "id": 28,
-                  "order": 2
-                },
-                {
-                  "id": 69,
-                  "order": 3
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 29,
-              "equip": [],
-              "name": "ROADBOT",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "id": 152,
-                  "order": 1
-                },
-                {
-                  "id": 69,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "1",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [
-                {
-                  "q": 1,
-                  "group": 2,
-                  "option": 1
-                }
-              ],
-              "minis": 1,
-              "points": 33,
-              "equip": [],
-              "name": "ROADBOT",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 3,
-              "weapons": [
-                {
-                  "id": 152,
-                  "order": 1
-                },
-                {
-                  "id": 69,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "1",
-              "skills": [],
-              "peripheral": [
-                {
-                  "id": 186
-                }
-              ]
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 24,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 106,
-                  "order": 1
-                }
-              ],
-              "name": "ROADBOT",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 4,
-              "weapons": [
-                {
-                  "id": 77,
-                  "order": 1
-                },
-                {
-                  "id": 68,
-                  "order": 2
-                },
-                {
-                  "id": 96,
-                  "order": 3
-                },
-                {
-                  "id": 69,
-                  "order": 4
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 5
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 64,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 23,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 106,
-                  "order": 1
-                }
-              ],
-              "name": "ROADBOT",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 5,
-              "weapons": [
-                {
-                  "id": 77,
-                  "order": 1
-                },
-                {
-                  "id": 68,
-                  "order": 2
-                },
-                {
-                  "id": 188,
-                  "order": 3
-                },
-                {
-                  "id": 69,
-                  "order": 4
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 5
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 64,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [
-                {
-                  "q": 1,
-                  "group": 2,
-                  "option": 1
-                }
-              ],
-              "minis": 1,
-              "points": 27,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 106,
-                  "order": 1
-                }
-              ],
-              "name": "ROADBOT",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 6,
-              "weapons": [
-                {
-                  "id": 77,
-                  "order": 1
-                },
-                {
-                  "id": 68,
-                  "order": 2
-                },
-                {
-                  "id": 188,
-                  "order": 3
-                },
-                {
-                  "id": 69,
-                  "order": 4
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 5
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 64,
-                  "order": 1
-                }
-              ],
-              "peripheral": [
-                {
-                  "id": 186
-                }
-              ]
-            }
-          ],
-          "id": 1,
-          "category": 3
-        },
-        {
-          "notes": null,
-          "isc": "SideBot",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 13,
-              "move": [
-                20,
-                15
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 5,
-              "ava": -1,
-              "str": true,
-              "bs": 10,
-              "s": 1,
-              "equip": [],
-              "w": 1,
-              "ph": 11,
-              "name": "SIDEBOT",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/roadbots-highway-patrol-2-1.svg",
-              "id": 1,
-              "arm": 0,
-              "weapons": [],
-              "chars": [
-                21,
-                27
-              ],
-              "wip": 11,
-              "skills": [
-                {
-                  "q": 1,
-                  "extra": [
-                    40
-                  ],
-                  "id": 243,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "id": 84,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    6
-                  ],
-                  "id": 28,
-                  "order": 3
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 4,
-              "equip": [],
-              "name": "SIDEBOT",
-              "disabled": true,
-              "orders": [],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 188,
-                  "order": 1
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 2
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 2,
-          "category": null
-        }
-      ],
-      "options": [],
-      "slug": "roadbots-highway-patrol",
-      "filters": {
-        "categories": [
-          3
-        ],
-        "skills": [
-          28,
-          40,
-          58,
-          64,
-          82,
-          84,
-          86,
-          162,
-          235,
-          243,
-          246
-        ],
-        "equip": [
-          106
-        ],
-        "chars": [
-          3,
-          5,
-          21,
-          27
-        ],
-        "types": [
-          5
-        ],
-        "weapons": [
-          28,
-          68,
-          69,
-          71,
-          77,
-          84,
-          96,
-          152,
-          188
-        ],
-        "ammunition": [
-          2,
-          8,
-          13,
-          35,
-          37
-        ]
-      },
-      "factions": [
-        1002
-      ]
-    },
-    {
       "id": 1610,
       "idArmy": 1610,
       "canonical": 1002,
@@ -3675,6 +3033,649 @@
         ]
       },
       "factions": [
+        1002
+      ]
+    },
+    {
+      "id": 1609,
+      "idArmy": 1609,
+      "canonical": 1001,
+      "isc": "RoadBots Highway Patrol",
+      "iscAbbr": null,
+      "name": "ROADBOTS Highway Patrol",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "RoadBots Highway Patrol",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 9,
+              "move": [
+                20,
+                15
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 5,
+              "ava": 2,
+              "str": true,
+              "bs": 11,
+              "s": 3,
+              "equip": [],
+              "w": 1,
+              "ph": 11,
+              "name": "HIGH MOBILITY FORM",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/roadbots-highway-patrol-1-1.svg",
+              "id": 1,
+              "arm": 2,
+              "weapons": [],
+              "chars": [
+                3,
+                5,
+                21
+              ],
+              "wip": 12,
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 235,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 84,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    1
+                  ],
+                  "id": 40,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    23
+                  ],
+                  "id": 40,
+                  "order": 4
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    30
+                  ],
+                  "id": 162,
+                  "order": 5
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    6
+                  ],
+                  "id": 28,
+                  "order": 6
+                },
+                {
+                  "q": 1,
+                  "id": 86,
+                  "order": 7
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    33
+                  ],
+                  "id": 58,
+                  "order": 8
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    254
+                  ],
+                  "id": 246,
+                  "order": 9
+                },
+                {
+                  "q": 1,
+                  "id": 82,
+                  "order": 10
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "bts": 3,
+              "cc": 18,
+              "move": [
+                15,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 5,
+              "ava": -1,
+              "str": true,
+              "bs": 12,
+              "s": 5,
+              "equip": [],
+              "w": 1,
+              "ph": 11,
+              "name": "COMBAT FORM",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/roadbots-highway-patrol-1-2.svg",
+              "id": 2,
+              "arm": 2,
+              "weapons": [],
+              "chars": [
+                3,
+                5,
+                21
+              ],
+              "wip": 12,
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 235,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 84,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    30
+                  ],
+                  "id": 162,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    6
+                  ],
+                  "id": 28,
+                  "order": 4
+                },
+                {
+                  "q": 1,
+                  "id": 86,
+                  "order": 5
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    254
+                  ],
+                  "id": 246,
+                  "order": 6
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 26,
+              "equip": [],
+              "name": "ROADBOT",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 84,
+                  "order": 1
+                },
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 28,
+                  "order": 2
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 29,
+              "equip": [],
+              "name": "ROADBOT",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "id": 152,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "1",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [
+                {
+                  "q": 1,
+                  "group": 2,
+                  "option": 1
+                }
+              ],
+              "minis": 1,
+              "points": 33,
+              "equip": [],
+              "name": "ROADBOT",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 3,
+              "weapons": [
+                {
+                  "id": 152,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "1",
+              "skills": [],
+              "peripheral": [
+                {
+                  "id": 1
+                }
+              ]
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 24,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 106,
+                  "order": 1
+                }
+              ],
+              "name": "ROADBOT",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 4,
+              "weapons": [
+                {
+                  "id": 77,
+                  "order": 1
+                },
+                {
+                  "id": 68,
+                  "order": 2
+                },
+                {
+                  "id": 96,
+                  "order": 3
+                },
+                {
+                  "id": 69,
+                  "order": 4
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 64,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 23,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 106,
+                  "order": 1
+                }
+              ],
+              "name": "ROADBOT",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 5,
+              "weapons": [
+                {
+                  "id": 77,
+                  "order": 1
+                },
+                {
+                  "id": 68,
+                  "order": 2
+                },
+                {
+                  "id": 188,
+                  "order": 3
+                },
+                {
+                  "id": 69,
+                  "order": 4
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 64,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [
+                {
+                  "q": 1,
+                  "group": 2,
+                  "option": 1
+                }
+              ],
+              "minis": 1,
+              "points": 27,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 106,
+                  "order": 1
+                }
+              ],
+              "name": "ROADBOT",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 6,
+              "weapons": [
+                {
+                  "id": 77,
+                  "order": 1
+                },
+                {
+                  "id": 68,
+                  "order": 2
+                },
+                {
+                  "id": 188,
+                  "order": 3
+                },
+                {
+                  "id": 69,
+                  "order": 4
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 64,
+                  "order": 1
+                }
+              ],
+              "peripheral": [
+                {
+                  "id": 1
+                }
+              ]
+            }
+          ],
+          "id": 1,
+          "category": 3
+        },
+        {
+          "notes": null,
+          "isc": "SideBot",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 13,
+              "move": [
+                20,
+                15
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 5,
+              "ava": -1,
+              "str": true,
+              "bs": 10,
+              "s": 1,
+              "equip": [],
+              "w": 1,
+              "ph": 11,
+              "name": "SIDEBOT",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/roadbots-highway-patrol-2-1.svg",
+              "id": 1,
+              "arm": 0,
+              "weapons": [],
+              "chars": [
+                21,
+                27
+              ],
+              "wip": 11,
+              "skills": [
+                {
+                  "q": 1,
+                  "extra": [
+                    40
+                  ],
+                  "id": 243,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 84,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    6
+                  ],
+                  "id": 28,
+                  "order": 3
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 4,
+              "equip": [],
+              "name": "SIDEBOT",
+              "disabled": true,
+              "orders": [],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 188,
+                  "order": 1
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 2
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 2,
+          "category": null
+        }
+      ],
+      "options": [],
+      "slug": "roadbots-highway-patrol",
+      "filters": {
+        "categories": [
+          3
+        ],
+        "skills": [
+          28,
+          40,
+          58,
+          64,
+          82,
+          84,
+          86,
+          162,
+          235,
+          243,
+          246
+        ],
+        "equip": [
+          106
+        ],
+        "chars": [
+          3,
+          5,
+          21,
+          27
+        ],
+        "types": [
+          5
+        ],
+        "weapons": [
+          28,
+          68,
+          69,
+          71,
+          77,
+          84,
+          96,
+          152,
+          188
+        ],
+        "ammunition": [
+          2,
+          8,
+          13,
+          35,
+          37
+        ]
+      },
+      "factions": [
+        1001,
         1002
       ]
     },
@@ -4255,7 +4256,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 187
+                  "id": 2
                 }
               ]
             },
@@ -4307,7 +4308,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 187
+                  "id": 2
                 }
               ]
             },
@@ -4360,7 +4361,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 187
+                  "id": 2
                 }
               ]
             },
@@ -4418,7 +4419,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 187
+                  "id": 2
                 }
               ]
             },
@@ -4466,7 +4467,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 187
+                  "id": 2
                 }
               ]
             }
@@ -5040,7 +5041,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 186
+                  "id": 1
                 }
               ]
             },
@@ -5152,7 +5153,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 186
+                  "id": 1
                 }
               ]
             },
@@ -5214,7 +5215,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 186,
+                  "id": 1,
                   "q": 2
                 }
               ]
@@ -5277,7 +5278,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 186,
+                  "id": 1,
                   "q": 2
                 }
               ]
@@ -9920,413 +9921,6 @@
       ]
     },
     {
-      "id": 1536,
-      "idArmy": 1536,
-      "canonical": 201,
-      "isc": "Tian Gǒu, Orbital Activity Squad",
-      "iscAbbr": null,
-      "name": "TIAN GǑU, Orbital Activity Squad",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Tian Gǒu, Orbital Activity Squad",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 16,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 1,
-              "ava": 1,
-              "str": false,
-              "bs": 12,
-              "s": 2,
-              "equip": [
-                {
-                  "id": 24,
-                  "order": 1
-                },
-                {
-                  "id": 113,
-                  "order": 2
-                }
-              ],
-              "w": 1,
-              "ph": 10,
-              "name": "TIAN GǑU, Orbital Activity Squad",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/tian-g-u-orbital-activity-squad-null-1.svg",
-              "id": 1,
-              "arm": 2,
-              "weapons": [],
-              "chars": [
-                1,
-                3,
-                5
-              ],
-              "wip": 14,
-              "skills": [
-                {
-                  "extra": [
-                    34
-                  ],
-                  "id": 58,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 22,
-              "equip": [],
-              "name": "TIAN GǑU FTO",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 33,
-                  "order": 1
-                },
-                {
-                  "id": 65,
-                  "order": 2
-                },
-                {
-                  "id": 87,
-                  "order": 3
-                },
-                {
-                  "id": 69,
-                  "order": 4
-                },
-                {
-                  "id": 5,
-                  "order": 5
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 25,
-              "equip": [],
-              "name": "TIAN GǑU FTO",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "id": 152,
-                  "order": 1
-                },
-                {
-                  "id": 69,
-                  "order": 2
-                },
-                {
-                  "id": 5,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "1",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 23,
-              "equip": [],
-              "name": "TIAN GǑU FTO",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 3,
-              "weapons": [
-                {
-                  "id": 26,
-                  "order": 1
-                },
-                {
-                  "id": 44,
-                  "order": 2
-                },
-                {
-                  "id": 87,
-                  "order": 3
-                },
-                {
-                  "id": 69,
-                  "order": 4
-                },
-                {
-                  "id": 5,
-                  "order": 5
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 23,
-              "equip": [
-                {
-                  "id": 145,
-                  "order": 1
-                }
-              ],
-              "name": "TIAN GǑU FTO",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 4,
-              "weapons": [
-                {
-                  "id": 33,
-                  "order": 1
-                },
-                {
-                  "id": 65,
-                  "order": 2
-                },
-                {
-                  "id": 69,
-                  "order": 3
-                },
-                {
-                  "id": 5,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "id": 1000,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 29,
-              "equip": [
-                {
-                  "id": 104,
-                  "order": 1
-                }
-              ],
-              "name": "TIAN GǑU",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 5,
-              "weapons": [
-                {
-                  "id": 152,
-                  "order": 1
-                },
-                {
-                  "id": 150,
-                  "order": 2
-                },
-                {
-                  "id": 69,
-                  "order": 3
-                },
-                {
-                  "id": 5,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "1",
-              "skills": [
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 191,
-                  "order": 1
-                },
-                {
-                  "extra": [],
-                  "id": 56,
-                  "order": 2
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 27,
-              "equip": [
-                {
-                  "id": 145,
-                  "order": 1
-                },
-                {
-                  "id": 104,
-                  "order": 2
-                }
-              ],
-              "name": "TIAN GǑU",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 6,
-              "weapons": [
-                {
-                  "id": 33,
-                  "order": 1
-                },
-                {
-                  "id": 65,
-                  "order": 2
-                },
-                {
-                  "id": 150,
-                  "order": 3
-                },
-                {
-                  "id": 69,
-                  "order": 4
-                },
-                {
-                  "id": 5,
-                  "order": 5
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 191,
-                  "order": 1
-                },
-                {
-                  "id": 56,
-                  "order": 2
-                },
-                {
-                  "extra": [],
-                  "id": 1000,
-                  "order": 3
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 3
-        }
-      ],
-      "options": [],
-      "slug": "tian-g-u-orbital-activity-squad",
-      "filters": {
-        "categories": [
-          3
-        ],
-        "skills": [
-          56,
-          58,
-          191,
-          1000
-        ],
-        "equip": [
-          24,
-          104,
-          113,
-          145
-        ],
-        "chars": [
-          1,
-          3,
-          5
-        ],
-        "types": [
-          1
-        ],
-        "weapons": [
-          5,
-          26,
-          33,
-          44,
-          65,
-          69,
-          87,
-          150,
-          152
-        ],
-        "ammunition": [
-          2,
-          3,
-          8,
-          37
-        ]
-      },
-      "factions": [
-        201,
-        205,
-        1002
-      ]
-    },
-    {
       "id": 1505,
       "idArmy": 1505,
       "canonical": 1,
@@ -11709,6 +11303,413 @@
         908,
         909,
         1001,
+        1002
+      ]
+    },
+    {
+      "id": 1536,
+      "idArmy": 1536,
+      "canonical": 201,
+      "isc": "Tian Gǒu, Orbital Activity Squad",
+      "iscAbbr": null,
+      "name": "TIAN GǑU, Orbital Activity Squad",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Tian Gǒu, Orbital Activity Squad",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 16,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 1,
+              "ava": 1,
+              "str": false,
+              "bs": 12,
+              "s": 2,
+              "equip": [
+                {
+                  "id": 24,
+                  "order": 1
+                },
+                {
+                  "id": 113,
+                  "order": 2
+                }
+              ],
+              "w": 1,
+              "ph": 10,
+              "name": "TIAN GǑU, Orbital Activity Squad",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/tian-g-u-orbital-activity-squad-null-1.svg",
+              "id": 1,
+              "arm": 2,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                5
+              ],
+              "wip": 14,
+              "skills": [
+                {
+                  "extra": [
+                    34
+                  ],
+                  "id": 58,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 22,
+              "equip": [],
+              "name": "TIAN GǑU FTO",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 33,
+                  "order": 1
+                },
+                {
+                  "id": 65,
+                  "order": 2
+                },
+                {
+                  "id": 87,
+                  "order": 3
+                },
+                {
+                  "id": 69,
+                  "order": 4
+                },
+                {
+                  "id": 5,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 25,
+              "equip": [],
+              "name": "TIAN GǑU FTO",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "id": 152,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "1",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 23,
+              "equip": [],
+              "name": "TIAN GǑU FTO",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 3,
+              "weapons": [
+                {
+                  "id": 26,
+                  "order": 1
+                },
+                {
+                  "id": 44,
+                  "order": 2
+                },
+                {
+                  "id": 87,
+                  "order": 3
+                },
+                {
+                  "id": 69,
+                  "order": 4
+                },
+                {
+                  "id": 5,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 23,
+              "equip": [
+                {
+                  "id": 145,
+                  "order": 1
+                }
+              ],
+              "name": "TIAN GǑU FTO",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 4,
+              "weapons": [
+                {
+                  "id": 33,
+                  "order": 1
+                },
+                {
+                  "id": 65,
+                  "order": 2
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "id": 1000,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 29,
+              "equip": [
+                {
+                  "id": 104,
+                  "order": 1
+                }
+              ],
+              "name": "TIAN GǑU",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 5,
+              "weapons": [
+                {
+                  "id": 152,
+                  "order": 1
+                },
+                {
+                  "id": 150,
+                  "order": 2
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "1",
+              "skills": [
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 191,
+                  "order": 1
+                },
+                {
+                  "extra": [],
+                  "id": 56,
+                  "order": 2
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 27,
+              "equip": [
+                {
+                  "id": 145,
+                  "order": 1
+                },
+                {
+                  "id": 104,
+                  "order": 2
+                }
+              ],
+              "name": "TIAN GǑU",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 6,
+              "weapons": [
+                {
+                  "id": 33,
+                  "order": 1
+                },
+                {
+                  "id": 65,
+                  "order": 2
+                },
+                {
+                  "id": 150,
+                  "order": 3
+                },
+                {
+                  "id": 69,
+                  "order": 4
+                },
+                {
+                  "id": 5,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 191,
+                  "order": 1
+                },
+                {
+                  "id": 56,
+                  "order": 2
+                },
+                {
+                  "extra": [],
+                  "id": 1000,
+                  "order": 3
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 3
+        }
+      ],
+      "options": [],
+      "slug": "tian-g-u-orbital-activity-squad",
+      "filters": {
+        "categories": [
+          3
+        ],
+        "skills": [
+          56,
+          58,
+          191,
+          1000
+        ],
+        "equip": [
+          24,
+          104,
+          113,
+          145
+        ],
+        "chars": [
+          1,
+          3,
+          5
+        ],
+        "types": [
+          1
+        ],
+        "weapons": [
+          5,
+          26,
+          33,
+          44,
+          65,
+          69,
+          87,
+          150,
+          152
+        ],
+        "ammunition": [
+          2,
+          3,
+          8,
+          37
+        ]
+      },
+      "factions": [
+        201,
+        205,
         1002
       ]
     },
@@ -21795,7 +21796,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 188
+                  "id": 3
                 }
               ]
             }
@@ -23895,16 +23896,16 @@
   "filters": {
     "peripheral": [
       {
-        "id": 188,
+        "id": 3,
         "name": "BÂTARD",
         "mercs": true
       },
       {
-        "id": 187,
+        "id": 2,
         "name": "DEVABOT"
       },
       {
-        "id": 186,
+        "id": 1,
         "name": "SIDEBOT"
       }
     ],
@@ -25727,16 +25728,6 @@
       "category": 3
     },
     {
-      "id": 1609,
-      "isc": "RoadBots Highway Patrol",
-      "idArmy": 1609,
-      "name": "ROADBOTS Highway Patrol",
-      "slug": "roadbots-highway-patrol",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/roadbots-highway-patrol-1-1.svg",
-      "type": 5,
-      "category": 3
-    },
-    {
       "id": 1610,
       "isc": "Ŝarko",
       "idArmy": 1610,
@@ -25744,6 +25735,16 @@
       "slug": "arko",
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/arko-naval-reconaissance-special-unit-1-1.svg",
       "type": 6,
+      "category": 3
+    },
+    {
+      "id": 1609,
+      "isc": "RoadBots Highway Patrol",
+      "idArmy": 1609,
+      "name": "ROADBOTS Highway Patrol",
+      "slug": "roadbots-highway-patrol",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/roadbots-highway-patrol-1-1.svg",
+      "type": 5,
       "category": 3
     },
     {
@@ -25967,16 +25968,6 @@
       "category": 8
     },
     {
-      "id": 1536,
-      "isc": "Tian Gǒu, Orbital Activity Squad",
-      "idArmy": 1536,
-      "name": "TIAN GǑU, Orbital Activity Squad",
-      "slug": "tian-g-u-orbital-activity-squad",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/tian-g-u-orbital-activity-squad-null-1.svg",
-      "type": 1,
-      "category": 3
-    },
-    {
       "id": 1505,
       "isc": "Shona Carano",
       "idArmy": 1505,
@@ -26015,6 +26006,16 @@
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/bashi-bazouks-1-1.svg",
       "type": 1,
       "category": 11
+    },
+    {
+      "id": 1536,
+      "isc": "Tian Gǒu, Orbital Activity Squad",
+      "idArmy": 1536,
+      "name": "TIAN GǑU, Orbital Activity Squad",
+      "slug": "tian-g-u-orbital-activity-squad",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/tian-g-u-orbital-activity-squad-null-1.svg",
+      "type": 1,
+      "category": 3
     },
     {
       "id": 11275,
@@ -26979,7 +26980,8 @@
         "name": "Bronzes Fireteams",
         "obs": "",
         "type": [
-          "DUO"
+          "DUO",
+          "HARIS"
         ],
         "units": [
           {

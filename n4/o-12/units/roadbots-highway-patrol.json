@@ -1,60 +1,184 @@
 {
-  "id": 1453,
-  "idArmy": 7,
+  "id": 1609,
+  "idArmy": 1609,
   "canonical": 1001,
-  "isc": "Delta Unit",
+  "isc": "RoadBots Highway Patrol",
   "iscAbbr": null,
-  "name": "DELTA UNIT",
+  "name": "ROADBOTS Highway Patrol",
   "profileGroups": [
     {
       "id": 1,
-      "category": 4,
-      "isc": "Delta Unit",
+      "category": 3,
+      "isc": "RoadBots Highway Patrol",
       "notes": null,
       "profiles": [
         {
           "id": 1,
-          "arm": 3,
-          "ava": 4,
-          "bs": 12,
-          "bts": 0,
-          "cc": 15,
+          "arm": 2,
+          "ava": 2,
+          "bs": 11,
+          "bts": 3,
+          "cc": 9,
           "chars": [
-            1,
             3,
-            5
+            5,
+            21
           ],
           "equip": [],
-          "logo": "https://assets.corvusbelli.net/army/img/logo/units/delta-unit-1-1.svg",
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/roadbots-highway-patrol-1-1.svg",
           "weapons": [],
           "includes": [],
           "move": [
-            10,
-            10
+            20,
+            15
           ],
-          "ph": 12,
-          "s": 2,
-          "str": false,
-          "type": 2,
+          "ph": 11,
+          "s": 3,
+          "str": true,
+          "type": 5,
           "w": 1,
-          "wip": 13,
-          "name": "DELTA UNIT",
+          "wip": 12,
+          "name": "HIGH MOBILITY FORM",
           "notes": null,
           "skills": [
             {
-              "id": 33,
-              "order": 1
+              "id": 235,
+              "order": 1,
+              "q": 1
             },
             {
-              "id": 35,
-              "order": 2
+              "id": 84,
+              "order": 2,
+              "q": 1
+            },
+            {
+              "id": 40,
+              "order": 3,
+              "extra": [
+                1
+              ],
+              "q": 1
+            },
+            {
+              "id": 40,
+              "order": 4,
+              "extra": [
+                23
+              ],
+              "q": 1
+            },
+            {
+              "id": 162,
+              "order": 5,
+              "extra": [
+                30
+              ],
+              "q": 1
+            },
+            {
+              "id": 28,
+              "order": 6,
+              "extra": [
+                6
+              ],
+              "q": 1
+            },
+            {
+              "id": 86,
+              "order": 7,
+              "q": 1
             },
             {
               "id": 58,
-              "order": 3,
+              "order": 8,
               "extra": [
                 33
-              ]
+              ],
+              "q": 1
+            },
+            {
+              "id": 246,
+              "order": 9,
+              "extra": [
+                254
+              ],
+              "q": 1
+            },
+            {
+              "id": 82,
+              "order": 10,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "arm": 2,
+          "ava": -1,
+          "bs": 12,
+          "bts": 3,
+          "cc": 18,
+          "chars": [
+            3,
+            5,
+            21
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/roadbots-highway-patrol-1-2.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            10
+          ],
+          "ph": 11,
+          "s": 5,
+          "str": true,
+          "type": 5,
+          "w": 1,
+          "wip": 12,
+          "name": "COMBAT FORM",
+          "notes": null,
+          "skills": [
+            {
+              "id": 235,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 84,
+              "order": 2,
+              "q": 1
+            },
+            {
+              "id": 162,
+              "order": 3,
+              "extra": [
+                30
+              ],
+              "q": 1
+            },
+            {
+              "id": 28,
+              "order": 4,
+              "extra": [
+                6
+              ],
+              "q": 1
+            },
+            {
+              "id": 86,
+              "order": 5,
+              "q": 1
+            },
+            {
+              "id": 246,
+              "order": 6,
+              "extra": [
+                254
+              ],
+              "q": 1
             }
           ],
           "peripheral": []
@@ -79,11 +203,11 @@
           "swc": "0",
           "weapons": [
             {
-              "id": 26,
+              "id": 84,
               "order": 1
             },
             {
-              "id": 68,
+              "id": 28,
               "order": 2
             },
             {
@@ -91,11 +215,11 @@
               "order": 3
             },
             {
-              "id": 5,
+              "id": 71,
               "order": 4
             }
           ],
-          "name": "DELTA",
+          "name": "ROADBOT",
           "skills": [],
           "peripheral": []
         },
@@ -113,11 +237,11 @@
             }
           ],
           "includes": [],
-          "points": 31,
+          "points": 29,
           "swc": "1",
           "weapons": [
             {
-              "id": 74,
+              "id": 152,
               "order": 1
             },
             {
@@ -125,11 +249,11 @@
               "order": 2
             },
             {
-              "id": 5,
+              "id": 71,
               "order": 3
             }
           ],
-          "name": "DELTA",
+          "name": "ROADBOT",
           "skills": [],
           "peripheral": []
         },
@@ -137,12 +261,7 @@
           "id": 3,
           "chars": [],
           "disabled": false,
-          "equip": [
-            {
-              "id": 145,
-              "order": 1
-            }
-          ],
+          "equip": [],
           "minis": 1,
           "orders": [
             {
@@ -151,39 +270,36 @@
               "total": 1
             }
           ],
-          "includes": [],
-          "points": 28,
-          "swc": "0",
+          "includes": [
+            {
+              "group": 2,
+              "option": 1,
+              "q": 1
+            }
+          ],
+          "points": 33,
+          "swc": "1",
           "weapons": [
             {
-              "id": 33,
+              "id": 152,
               "order": 1
-            },
-            {
-              "id": 187,
-              "order": 2
-            },
-            {
-              "id": 17,
-              "order": 3
             },
             {
               "id": 69,
-              "order": 4
+              "order": 2
             },
             {
-              "id": 5,
-              "order": 5
+              "id": 71,
+              "order": 3
             }
           ],
-          "name": "DELTA",
-          "skills": [
+          "name": "ROADBOT",
+          "skills": [],
+          "peripheral": [
             {
-              "id": 1000,
-              "order": 1
+              "id": 17
             }
-          ],
-          "peripheral": []
+          ]
         },
         {
           "id": 4,
@@ -192,7 +308,8 @@
           "equip": [
             {
               "id": 106,
-              "order": 1
+              "order": 1,
+              "q": 1
             }
           ],
           "minis": 1,
@@ -204,27 +321,36 @@
             }
           ],
           "includes": [],
-          "points": 29,
+          "points": 24,
           "swc": "0",
           "weapons": [
             {
-              "id": 26,
+              "id": 77,
               "order": 1
             },
             {
-              "id": 69,
+              "id": 68,
               "order": 2
             },
             {
-              "id": 5,
+              "id": 96,
               "order": 3
+            },
+            {
+              "id": 69,
+              "order": 4
+            },
+            {
+              "id": 71,
+              "order": 5
             }
           ],
-          "name": "DELTA",
+          "name": "ROADBOT",
           "skills": [
             {
-              "id": 53,
-              "order": 1
+              "id": 64,
+              "order": 1,
+              "q": 1
             }
           ],
           "peripheral": []
@@ -236,7 +362,62 @@
           "equip": [
             {
               "id": 106,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 23,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 77,
               "order": 1
+            },
+            {
+              "id": 68,
+              "order": 2
+            },
+            {
+              "id": 188,
+              "order": 3
+            },
+            {
+              "id": 69,
+              "order": 4
+            },
+            {
+              "id": 71,
+              "order": 5
+            }
+          ],
+          "name": "ROADBOT",
+          "skills": [
+            {
+              "id": 64,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 6,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 106,
+              "order": 1,
+              "q": 1
             }
           ],
           "minis": 1,
@@ -254,208 +435,98 @@
               "q": 1
             }
           ],
-          "points": 34,
+          "points": 27,
           "swc": "0",
           "weapons": [
             {
-              "id": 26,
+              "id": 77,
               "order": 1
             },
             {
-              "id": 69,
+              "id": 68,
               "order": 2
             },
             {
-              "id": 5,
+              "id": 188,
               "order": 3
+            },
+            {
+              "id": 69,
+              "order": 4
+            },
+            {
+              "id": 71,
+              "order": 5
             }
           ],
-          "name": "DELTA",
+          "name": "ROADBOT",
           "skills": [
             {
-              "id": 53,
-              "order": 1
+              "id": 64,
+              "order": 1,
+              "q": 1
             }
           ],
           "peripheral": [
             {
-              "id": 18
+              "id": 17
             }
           ]
-        },
-        {
-          "id": 6,
-          "chars": [],
-          "disabled": false,
-          "equip": [],
-          "minis": 1,
-          "orders": [
-            {
-              "type": "REGULAR",
-              "list": 1,
-              "total": 1
-            }
-          ],
-          "includes": [],
-          "points": 26,
-          "swc": "0",
-          "weapons": [
-            {
-              "id": 33,
-              "order": 1
-            },
-            {
-              "id": 187,
-              "order": 2
-            },
-            {
-              "id": 72,
-              "order": 3
-            },
-            {
-              "id": 17,
-              "order": 4
-            },
-            {
-              "id": 69,
-              "order": 5
-            },
-            {
-              "id": 5,
-              "order": 6
-            }
-          ],
-          "name": "DELTA",
-          "skills": [
-            {
-              "id": 59,
-              "order": 1
-            }
-          ],
-          "peripheral": []
-        },
-        {
-          "id": 7,
-          "chars": [],
-          "disabled": false,
-          "equip": [
-            {
-              "id": 100,
-              "order": 1
-            }
-          ],
-          "minis": 1,
-          "orders": [
-            {
-              "type": "REGULAR",
-              "list": 1,
-              "total": 1
-            }
-          ],
-          "includes": [],
-          "points": 30,
-          "swc": "0.5",
-          "weapons": [
-            {
-              "id": 33,
-              "order": 1
-            },
-            {
-              "id": 187,
-              "order": 2
-            },
-            {
-              "id": 69,
-              "order": 3
-            },
-            {
-              "id": 5,
-              "order": 4
-            }
-          ],
-          "name": "DELTA",
-          "skills": [
-            {
-              "id": 1000,
-              "order": 1
-            }
-          ],
-          "peripheral": []
         }
       ]
     },
     {
       "id": 2,
       "category": 0,
-      "isc": "Yudbot-B",
+      "isc": "SideBot",
       "notes": null,
       "profiles": [
         {
           "id": 1,
           "arm": 0,
           "ava": -1,
-          "bs": 8,
+          "bs": 10,
           "bts": 3,
-          "cc": 11,
+          "cc": 13,
           "chars": [
             21,
             27
           ],
           "equip": [],
-          "logo": "https://assets.corvusbelli.net/army/img/logo/units/delta-unit-2-1.svg",
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/roadbots-highway-patrol-2-1.svg",
           "weapons": [],
           "includes": [],
           "move": [
-            15,
-            10
+            20,
+            15
           ],
-          "ph": 10,
+          "ph": 11,
           "s": 1,
           "str": true,
           "type": 5,
           "w": 1,
-          "wip": 13,
-          "name": "YUDBOT-B",
+          "wip": 11,
+          "name": "SIDEBOT",
           "notes": null,
           "skills": [
             {
               "id": 243,
               "order": 1,
               "extra": [
-                41
-              ]
+                40
+              ],
+              "q": 1
             },
             {
               "id": 84,
-              "order": 2
-            },
-            {
-              "id": 162,
-              "order": 3,
-              "extra": [
-                30
-              ]
+              "order": 2,
+              "q": 1
             },
             {
               "id": 28,
-              "order": 4,
+              "order": 3,
               "extra": [
                 6
-              ]
-            },
-            {
-              "id": 35,
-              "order": 5
-            },
-            {
-              "id": 33,
-              "order": 6
-            },
-            {
-              "id": 58,
-              "order": 7,
-              "extra": [
-                33
               ],
               "q": 1
             }
@@ -472,15 +543,19 @@
           "minis": 1,
           "orders": [],
           "includes": [],
-          "points": 5,
+          "points": 4,
           "swc": "0",
           "weapons": [
             {
-              "id": 71,
+              "id": 188,
               "order": 1
+            },
+            {
+              "id": 71,
+              "order": 2
             }
           ],
-          "name": "YUDBOT",
+          "name": "SIDEBOT",
           "skills": [],
           "peripheral": []
         }
@@ -488,60 +563,57 @@
     }
   ],
   "options": [],
-  "slug": "delta-unit",
+  "slug": "roadbots-highway-patrol",
   "filters": {
     "categories": [
-      4
+      3
     ],
     "skills": [
       28,
-      33,
-      35,
-      53,
+      40,
       58,
-      59,
+      64,
+      82,
       84,
+      86,
       162,
+      235,
       243,
-      1000
+      246
     ],
     "equip": [
-      100,
-      106,
-      145
+      106
     ],
     "chars": [
-      1,
       3,
       5,
       21,
       27
     ],
     "types": [
-      2,
       5
     ],
     "weapons": [
-      5,
-      17,
-      26,
-      33,
+      28,
       68,
       69,
       71,
-      72,
-      74,
-      187
+      77,
+      84,
+      96,
+      152,
+      188
     ],
     "ammunition": [
       2,
-      3,
+      8,
       13,
-      29,
+      35,
       37
     ]
   },
   "factions": [
-    1001
+    1001,
+    1002
   ]
 }
