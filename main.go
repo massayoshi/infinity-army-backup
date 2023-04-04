@@ -47,47 +47,64 @@ func fetchArmyData(version string, endpoint string, wg *sync.WaitGroup) {
 	for i := 0; i < len(armyObject.Factions); i++ {
 		var factionID = armyObject.Factions[i].ID
 		var factionSlug = armyObject.Factions[i].Slug
+		if factionSlug == "" {
+			continue
+		}
 		var factionLogoPath = "assets/factions/" + factionSlug + ".svg"
 
 		if _, err := os.Stat(factionLogoPath); os.IsNotExist(err) {
 			factionLogoData := sendRequest(c, armyObject.Factions[i].Logo)
-			createFile(factionLogoPath, factionLogoData, false)
+			if factionLogoData != nil {
+				createFile(factionLogoPath, factionLogoData, false)
+			}
 		}
 
 		if factionID != 901 { // skipping non-aligned armies
 			var factionData = sendRequest(c, factionBaseEnURL+fmt.Sprintf("%d", factionID))
-			var factionObject Faction
-			json.Unmarshal(factionData, &factionObject)
-			var factionFolderPath = version + "/" + factionSlug
+			if factionData != nil {
+				var factionObject Faction
+				json.Unmarshal(factionData, &factionObject)
+				var factionFolderPath = version + "/" + factionSlug
 
-			var fileName = factionFolderPath + "/" + factionObject.Version + ".json"
-			var fileNamePretty = factionFolderPath + "/" + factionSlug + ".json"
-
-			createFolder(factionFolderPath)
-			createFolder(factionFolderPath + "/units")
-
-			if _, err := os.Stat(fileName); os.IsNotExist(err) {
-				createFile(fileName, factionData, false)
-				createFile(fileNamePretty, []byte(prettyPrint(factionData)), true)
-
-				for j := 0; j < len(factionObject.Resume); j++ {
-					var unitLogoURL = factionObject.Resume[j].Logo
-					var unitLogoURLArray = strings.Split(unitLogoURL, "/")
-					var unitLogoFileName = unitLogoURLArray[len(unitLogoURLArray)-1]
-					var unitLogoPath = "assets/units/" + unitLogoFileName
-
-					if _, err := os.Stat(unitLogoPath); os.IsNotExist(err) {
-						var unitLogoData = sendRequest(c, unitLogoURL)
-						createFile(unitLogoPath, unitLogoData, false)
-					}
+				if factionObject.Version == "" || factionSlug == "" {
+					continue
 				}
 
-				for j := 0; j < len(factionObject.Units); j++ {
-					var unitData, _ = json.Marshal(factionObject.Units[j])
-					var unitSlug = factionObject.Units[j].Slug
-					var fileNameUnit = factionFolderPath + "/units/" + unitSlug + ".json"
+				var fileName = factionFolderPath + "/" + factionObject.Version + ".json"
+				var fileNamePretty = factionFolderPath + "/" + factionSlug + ".json"
 
-					createFile(fileNameUnit, []byte(prettyPrint(unitData)), true)
+				createFolder(factionFolderPath)
+				createFolder(factionFolderPath + "/units")
+
+				if _, err := os.Stat(fileName); os.IsNotExist(err) {
+					createFile(fileName, factionData, false)
+					createFile(fileNamePretty, []byte(prettyPrint(factionData)), true)
+
+					for j := 0; j < len(factionObject.Resume); j++ {
+						var unitLogoURL = factionObject.Resume[j].Logo
+						var unitLogoURLArray = strings.Split(unitLogoURL, "/")
+						var unitLogoFileName = unitLogoURLArray[len(unitLogoURLArray)-1]
+						var unitLogoPath = "assets/units/" + unitLogoFileName
+
+						if _, err := os.Stat(unitLogoPath); os.IsNotExist(err) {
+							var unitLogoData = sendRequest(c, unitLogoURL)
+							if unitLogoData != nil {
+								createFile(unitLogoPath, unitLogoData, false)
+							}
+						}
+					}
+
+					for j := 0; j < len(factionObject.Units); j++ {
+						var unitData, _ = json.Marshal(factionObject.Units[j])
+						if unitData != nil {
+							var unitSlug = factionObject.Units[j].Slug
+							if unitSlug != "" {
+								var fileNameUnit = factionFolderPath + "/units/" + unitSlug + ".json"
+
+								createFile(fileNameUnit, []byte(prettyPrint(unitData)), true)
+							}
+						}
+					}
 				}
 			}
 		}

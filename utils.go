@@ -30,6 +30,10 @@ func createFile(fileName string, data []byte, update bool) {
 		return
 	}
 
+	if fileName == "" {
+		return
+	}
+
 	file, err := os.Create(fileName)
 	if err != nil {
 		log.Fatal("Cannot create file", err)
@@ -60,6 +64,10 @@ func sendRequest(client *http.Client, endpoint string) []byte {
 	}
 
 	defer response.Body.Close()
+
+	if response.StatusCode == http.StatusNotFound {
+		return nil
+	}
 
 	body, err := io.ReadAll(response.Body)
 	if err != nil {
