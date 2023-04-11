@@ -42,7 +42,7 @@ func fetchArmyData(version string, endpoint string, wg *sync.WaitGroup) {
 	json.Unmarshal(armyData, &armyObject)
 
 	createFolder(version)
-	createFile(version+"/army.json", armyData, true)
+	createFile(version+"/army.json", []byte(prettyPrint(armyData)), true)
 
 	for i := 0; i < len(armyObject.Factions); i++ {
 		var factionID = armyObject.Factions[i].ID
