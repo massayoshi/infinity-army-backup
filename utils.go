@@ -58,6 +58,10 @@ func sendRequest(client *http.Client, endpoint string) []byte {
 		log.Fatalf("Error Occurred. %+v", err)
 	}
 
+	req.Header.Add("Origin", "https://infinitytheuniverse.com")
+	req.Header.Add("Referer", "https://infinitytheuniverse.com")
+	req.Header.Add("User-Agent", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:89.0) Gecko/20100101 Firefox/89.0")
+
 	response, err := client.Do(req)
 	if err != nil {
 		log.Fatalf("Error sending request to API endpoint. %+v", err)
