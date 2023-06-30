@@ -15,10 +15,17 @@ var (
 )
 
 func init() {
-	createFolder("assets")
-	createFolder("assets/factions")
-	createFolder("assets/units")
-	createFolder("wiki")
+
+	var folders = []string{
+		"assets",
+		"assets/factions",
+		"assets/units",
+		"wiki",
+	}
+
+	for _, folder := range folders {
+		createFolder(folder)
+	}
 }
 
 func main() {
