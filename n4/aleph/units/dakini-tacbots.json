@@ -231,6 +231,47 @@
             }
           ],
           "peripheral": []
+        },
+        {
+          "id": 6,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 23,
+          "swc": "0.5",
+          "weapons": [
+            {
+              "id": 33,
+              "order": 1
+            },
+            {
+              "id": 71,
+              "order": 2
+            }
+          ],
+          "name": "DAKINI",
+          "skills": [
+            {
+              "id": 260,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 189,
+              "order": 2,
+              "q": 1
+            }
+          ],
+          "peripheral": []
         }
       ]
     }
@@ -246,7 +287,9 @@
       64,
       84,
       162,
-      235
+      189,
+      235,
+      260
     ],
     "equip": [
       106

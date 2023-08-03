@@ -61,6 +61,11 @@
             {
               "id": 88,
               "order": 4
+            },
+            {
+              "id": 213,
+              "order": 5,
+              "q": 1
             }
           ],
           "peripheral": []
@@ -78,14 +83,62 @@
               "type": "REGULAR",
               "list": 1,
               "total": 1
+            },
+            {
+              "type": "IRREGULAR",
+              "list": 0,
+              "total": 1
             }
           ],
           "includes": [],
-          "points": 20,
+          "points": 23,
           "swc": "0",
           "weapons": [
             {
               "id": 103,
+              "order": 1
+            },
+            {
+              "id": 80,
+              "order": 2
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            }
+          ],
+          "name": "JELENA KOVAČ",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "IRREGULAR",
+              "list": 0,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 23,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 41,
               "order": 1
             },
             {
@@ -118,6 +171,7 @@
       65,
       88,
       189,
+      213,
       242
     ],
     "equip": [
@@ -133,13 +187,16 @@
     ],
     "weapons": [
       5,
+      41,
       69,
       80,
       103
     ],
     "ammunition": [
       2,
-      3
+      3,
+      9,
+      35
     ]
   },
   "factions": [

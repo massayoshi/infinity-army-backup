@@ -1,0 +1,187 @@
+{
+  "id": 1691,
+  "idArmy": 1691,
+  "canonical": 998,
+  "isc": "Reinf. Wardrivers, Mercenary Hackers",
+  "iscAbbr": null,
+  "name": "REFUERZOS: WARDRIVERS, Mercenary Hackers",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 11,
+      "isc": "Reinf. Wardrivers, Mercenary Hackers",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 0,
+          "ava": 1,
+          "bs": 11,
+          "bts": 3,
+          "cc": 13,
+          "chars": [
+            1,
+            3,
+            5
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-wardrivers-mercenary-hackers-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 10,
+          "s": 2,
+          "str": false,
+          "type": 1,
+          "w": 1,
+          "wip": 13,
+          "name": "REFUERZOS: WARDRIVERS, Mercenary Hackers",
+          "notes": null,
+          "skills": [
+            {
+              "id": 67,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 12,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 26,
+              "order": 1
+            },
+            {
+              "id": 72,
+              "order": 2
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            }
+          ],
+          "name": "WARDRIVER REINF.",
+          "skills": [
+            {
+              "extra": [
+                265
+              ],
+              "id": 1000,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 100,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 14,
+          "swc": "1",
+          "weapons": [
+            {
+              "id": 69,
+              "order": 4
+            },
+            {
+              "id": 5,
+              "order": 5
+            },
+            {
+              "id": 26,
+              "order": 3
+            }
+          ],
+          "name": "WARDRIVER REINF.",
+          "skills": [
+            {
+              "id": 1000,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "reinf-wardrivers-mercenary-hackers",
+  "filters": {
+    "categories": [
+      11
+    ],
+    "skills": [
+      67,
+      1000
+    ],
+    "equip": [
+      100
+    ],
+    "chars": [
+      1,
+      3,
+      5
+    ],
+    "types": [
+      1
+    ],
+    "weapons": [
+      5,
+      26,
+      69,
+      72
+    ],
+    "ammunition": [
+      2,
+      3,
+      29
+    ]
+  },
+  "factions": [
+    998,
+    999
+  ]
+}

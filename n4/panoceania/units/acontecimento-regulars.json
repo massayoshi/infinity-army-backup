@@ -405,6 +405,54 @@
             }
           ],
           "peripheral": []
+        },
+        {
+          "id": 10,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 20,
+          "swc": "0.5",
+          "weapons": [
+            {
+              "id": 33,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 2
+            },
+            {
+              "id": 5,
+              "order": 3
+            }
+          ],
+          "name": "REGULAR",
+          "skills": [
+            {
+              "extra": [
+                298
+              ],
+              "id": 260,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 189,
+              "order": 2,
+              "q": 1
+            }
+          ],
+          "peripheral": []
         }
       ]
     }
@@ -423,7 +471,9 @@
       65,
       89,
       119,
+      189,
       242,
+      260,
       1000
     ],
     "equip": [

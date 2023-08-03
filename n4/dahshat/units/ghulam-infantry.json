@@ -616,6 +616,58 @@
             }
           ],
           "peripheral": []
+        },
+        {
+          "id": 20,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 21,
+          "swc": "0.5",
+          "weapons": [
+            {
+              "id": 31,
+              "order": 1
+            },
+            {
+              "id": 28,
+              "order": 2
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            }
+          ],
+          "name": "GHULAM",
+          "skills": [
+            {
+              "extra": [
+                299
+              ],
+              "id": 260,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 189,
+              "order": 2,
+              "q": 1
+            }
+          ],
+          "peripheral": []
         }
       ]
     }
@@ -632,7 +684,9 @@
       59,
       119,
       122,
+      189,
       211,
+      260,
       1000
     ],
     "equip": [

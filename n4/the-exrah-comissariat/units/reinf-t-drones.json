@@ -1,0 +1,189 @@
+{
+  "id": 1623,
+  "idArmy": 1623,
+  "canonical": 699,
+  "isc": "Reinf. T-Drones",
+  "iscAbbr": null,
+  "name": "REINF: T-DRONE",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 8,
+      "isc": "Reinf. T-Drones",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 0,
+          "ava": 1,
+          "bs": 12,
+          "bts": 3,
+          "cc": 13,
+          "chars": [
+            3,
+            5,
+            21
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-t-drones-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            10
+          ],
+          "ph": 10,
+          "s": 3,
+          "str": true,
+          "type": 5,
+          "w": 1,
+          "wip": 13,
+          "name": "REINF: T-DRONE",
+          "notes": null,
+          "skills": [
+            {
+              "id": 235,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 201,
+              "order": 2,
+              "extra": [
+                31
+              ],
+              "q": 1
+            },
+            {
+              "id": 84,
+              "order": 3,
+              "q": 1
+            },
+            {
+              "id": 162,
+              "order": 4,
+              "extra": [
+                30
+              ],
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 16,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 58,
+              "order": 1
+            },
+            {
+              "id": 71,
+              "order": 2
+            }
+          ],
+          "name": "REINF T-DRONE",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 16,
+          "swc": "1",
+          "weapons": [
+            {
+              "id": 88,
+              "order": 1
+            },
+            {
+              "id": 98,
+              "order": 2
+            },
+            {
+              "id": 71,
+              "order": 3
+            }
+          ],
+          "name": "REINF T-DRONE",
+          "skills": [
+            {
+              "extra": [
+                8
+              ],
+              "id": 201,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "reinf-t-drones",
+  "filters": {
+    "categories": [
+      8
+    ],
+    "skills": [
+      84,
+      162,
+      201,
+      235
+    ],
+    "equip": [],
+    "chars": [
+      3,
+      5,
+      21
+    ],
+    "types": [
+      5
+    ],
+    "weapons": [
+      58,
+      71,
+      88,
+      98
+    ],
+    "ammunition": [
+      2,
+      3,
+      6,
+      13,
+      37
+    ]
+  },
+  "factions": [
+    699
+  ]
+}

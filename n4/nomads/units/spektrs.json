@@ -84,82 +84,6 @@
       ],
       "options": [
         {
-          "id": 1,
-          "chars": [],
-          "disabled": false,
-          "equip": [],
-          "minis": 1,
-          "orders": [
-            {
-              "type": "REGULAR",
-              "list": 1,
-              "total": 1
-            }
-          ],
-          "includes": [],
-          "points": 31,
-          "swc": "0",
-          "weapons": [
-            {
-              "id": 33,
-              "order": 1
-            },
-            {
-              "id": 196,
-              "order": 2
-            },
-            {
-              "id": 69,
-              "order": 3
-            },
-            {
-              "id": 5,
-              "order": 4
-            }
-          ],
-          "name": "SPEKTR",
-          "skills": [],
-          "peripheral": []
-        },
-        {
-          "id": 2,
-          "chars": [],
-          "disabled": false,
-          "equip": [],
-          "minis": 1,
-          "orders": [
-            {
-              "type": "REGULAR",
-              "list": 1,
-              "total": 1
-            }
-          ],
-          "includes": [],
-          "points": 31,
-          "swc": "0",
-          "weapons": [
-            {
-              "id": 26,
-              "order": 1
-            },
-            {
-              "id": 196,
-              "order": 2
-            },
-            {
-              "id": 69,
-              "order": 3
-            },
-            {
-              "id": 5,
-              "order": 4
-            }
-          ],
-          "name": "SPEKTR",
-          "skills": [],
-          "peripheral": []
-        },
-        {
           "id": 3,
           "chars": [],
           "disabled": false,
@@ -216,11 +140,11 @@
             }
           ],
           "includes": [],
-          "points": 32,
+          "points": 28,
           "swc": "0",
           "weapons": [
             {
-              "id": 33,
+              "id": 77,
               "order": 1
             },
             {
@@ -267,12 +191,16 @@
               "order": 1
             },
             {
-              "id": 69,
+              "id": 17,
               "order": 2
             },
             {
-              "id": 5,
+              "id": 69,
               "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
             }
           ],
           "name": "SPEKTR",
@@ -302,7 +230,7 @@
           "swc": "0",
           "weapons": [
             {
-              "id": 33,
+              "id": 26,
               "order": 1
             },
             {
@@ -327,6 +255,56 @@
             {
               "id": 59,
               "order": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 8,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 100,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 35,
+          "swc": "0.5",
+          "weapons": [
+            {
+              "id": 26,
+              "order": 1
+            },
+            {
+              "id": 17,
+              "order": 2
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            }
+          ],
+          "name": "SPEKTR",
+          "skills": [
+            {
+              "id": 1000,
+              "order": 1,
+              "q": 1
             }
           ],
           "peripheral": []
@@ -365,11 +343,13 @@
     ],
     "weapons": [
       5,
+      17,
       26,
       33,
       36,
       69,
       72,
+      77,
       196,
       197
     ],
@@ -378,6 +358,7 @@
       3,
       8,
       9,
+      13,
       14,
       29,
       35

@@ -1,0 +1,130 @@
+{
+  "id": 1617,
+  "idArmy": 1617,
+  "canonical": 699,
+  "isc": "Reinf. Slave Drones",
+  "iscAbbr": null,
+  "name": "REINF. SLAVE DRONES",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 8,
+      "isc": "Reinf. Slave Drones",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 0,
+          "ava": 2,
+          "bs": 8,
+          "bts": 3,
+          "cc": 11,
+          "chars": [
+            21,
+            27
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-slave-drones-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            10
+          ],
+          "ph": 10,
+          "s": 1,
+          "str": true,
+          "type": 5,
+          "w": 1,
+          "wip": 13,
+          "name": "REINF. SLAVE DRONES",
+          "notes": null,
+          "skills": [
+            {
+              "id": 243,
+              "order": 1,
+              "extra": [
+                41
+              ],
+              "q": 1
+            },
+            {
+              "id": 84,
+              "order": 2,
+              "q": 1
+            },
+            {
+              "id": 162,
+              "order": 3,
+              "extra": [
+                30
+              ],
+              "q": 1
+            },
+            {
+              "id": 28,
+              "order": 4,
+              "extra": [
+                6
+              ],
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 0,
+          "orders": [],
+          "includes": [],
+          "points": 3,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 71,
+              "order": 1
+            }
+          ],
+          "name": "SLAVE DRONE REINF",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "reinf-slave-drones",
+  "filters": {
+    "categories": [
+      8
+    ],
+    "skills": [
+      28,
+      84,
+      162,
+      243
+    ],
+    "equip": [],
+    "chars": [
+      21,
+      27
+    ],
+    "types": [
+      5
+    ],
+    "weapons": [
+      71
+    ],
+    "ammunition": [
+      37
+    ]
+  },
+  "factions": [
+    699
+  ]
+}

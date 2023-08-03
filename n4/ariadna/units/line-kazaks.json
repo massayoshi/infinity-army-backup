@@ -349,6 +349,54 @@
             }
           ],
           "peripheral": []
+        },
+        {
+          "id": 10,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 19,
+          "swc": "0.5",
+          "weapons": [
+            {
+              "id": 31,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 2
+            },
+            {
+              "id": 5,
+              "order": 3
+            }
+          ],
+          "name": "LINE KAZAK",
+          "skills": [
+            {
+              "extra": [
+                299
+              ],
+              "id": 260,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 189,
+              "order": 2,
+              "q": 1
+            }
+          ],
+          "peripheral": []
         }
       ]
     }
@@ -362,7 +410,9 @@
     "skills": [
       59,
       64,
-      119
+      119,
+      189,
+      260
     ],
     "equip": [
       106

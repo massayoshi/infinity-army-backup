@@ -1,0 +1,213 @@
+{
+  "id": 1737,
+  "idArmy": 1737,
+  "canonical": 599,
+  "isc": "Reinf. Lunokhod Sputniks ",
+  "iscAbbr": null,
+  "name": "REINF: LUNOKHOD Sputniks",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 8,
+      "isc": "Reinf. Lunokhod Sputniks ",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 3,
+          "ava": 2,
+          "bs": 12,
+          "bts": 6,
+          "cc": 14,
+          "chars": [
+            3,
+            5,
+            21
+          ],
+          "equip": [
+            {
+              "id": 238,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 63,
+              "order": 2,
+              "q": 1
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-lunokhod-sputniks-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            10
+          ],
+          "ph": 10,
+          "s": 4,
+          "str": true,
+          "type": 5,
+          "w": 1,
+          "wip": 13,
+          "name": "REINF: LUNOKHOD Sputniks",
+          "notes": null,
+          "skills": [
+            {
+              "id": 235,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 84,
+              "order": 2,
+              "q": 1
+            },
+            {
+              "id": 162,
+              "order": 3,
+              "extra": [
+                30
+              ],
+              "q": 1
+            },
+            {
+              "id": 82,
+              "order": 4,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 27,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 29,
+              "order": 1
+            },
+            {
+              "id": 57,
+              "order": 2
+            },
+            {
+              "id": 17,
+              "order": 3
+            },
+            {
+              "id": 196,
+              "order": 4
+            },
+            {
+              "id": 71,
+              "order": 5
+            }
+          ],
+          "name": "LUNOKHOD REINF.",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 25,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 29,
+              "order": 1
+            },
+            {
+              "id": 1,
+              "order": 2
+            },
+            {
+              "id": 17,
+              "order": 3
+            },
+            {
+              "id": 196,
+              "order": 4
+            },
+            {
+              "id": 71,
+              "order": 5
+            }
+          ],
+          "name": "LUNOKHOD REINF.",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "reinf-lunokhod-sputniks",
+  "filters": {
+    "categories": [
+      8
+    ],
+    "skills": [
+      82,
+      84,
+      162,
+      235
+    ],
+    "equip": [
+      63,
+      238
+    ],
+    "chars": [
+      3,
+      5,
+      21
+    ],
+    "types": [
+      5
+    ],
+    "weapons": [
+      1,
+      17,
+      29,
+      57,
+      71,
+      196
+    ],
+    "ammunition": [
+      2,
+      3,
+      8,
+      13,
+      37
+    ]
+  },
+  "factions": [
+    599
+  ]
+}

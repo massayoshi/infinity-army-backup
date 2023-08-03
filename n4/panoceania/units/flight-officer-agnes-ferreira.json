@@ -102,6 +102,54 @@
           "name": "AGNES",
           "skills": [],
           "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 21,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 77,
+              "order": 1
+            },
+            {
+              "id": 65,
+              "order": 2
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            }
+          ],
+          "name": "AGNES",
+          "skills": [
+            {
+              "extra": [
+                271,
+                300
+              ],
+              "id": 255,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
         }
       ]
     }
@@ -116,7 +164,8 @@
       58,
       67,
       84,
-      189
+      189,
+      255
     ],
     "equip": [],
     "chars": [

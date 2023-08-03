@@ -26,10 +26,6 @@
           ],
           "equip": [
             {
-              "id": 115,
-              "order": 1
-            },
-            {
               "id": 63,
               "order": 2
             }
@@ -74,7 +70,13 @@
           "id": 1,
           "chars": [],
           "disabled": false,
-          "equip": [],
+          "equip": [
+            {
+              "id": 115,
+              "order": 1,
+              "q": 1
+            }
+          ],
           "minis": 1,
           "orders": [
             {
@@ -89,6 +91,42 @@
           "weapons": [
             {
               "id": 74,
+              "order": 1
+            },
+            {
+              "id": 71,
+              "order": 2
+            }
+          ],
+          "name": "RUI SHI",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 114,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 20,
+          "swc": "0.5",
+          "weapons": [
+            {
+              "id": 152,
               "order": 1
             },
             {
@@ -116,6 +154,7 @@
     ],
     "equip": [
       63,
+      114,
       115
     ],
     "chars": [
@@ -128,10 +167,12 @@
     ],
     "weapons": [
       71,
-      74
+      74,
+      152
     ],
     "ammunition": [
       2,
+      8,
       37
     ]
   },

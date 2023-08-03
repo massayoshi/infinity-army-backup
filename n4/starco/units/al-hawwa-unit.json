@@ -149,13 +149,9 @@
             }
           ],
           "includes": [],
-          "points": 23,
+          "points": 22,
           "swc": "0.5",
           "weapons": [
-            {
-              "id": 34,
-              "order": 1
-            },
             {
               "id": 196,
               "order": 2
@@ -167,6 +163,10 @@
             {
               "id": 5,
               "order": 4
+            },
+            {
+              "id": 155,
+              "order": 1
             }
           ],
           "name": "HAWWA'",
@@ -225,6 +225,104 @@
             }
           ],
           "peripheral": []
+        },
+        {
+          "id": 4,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 145,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 24,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 26,
+              "order": 1
+            },
+            {
+              "id": 17,
+              "order": 2
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            }
+          ],
+          "name": "HAWWA'",
+          "skills": [
+            {
+              "id": 1000,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 5,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 21,
+          "swc": "0.5",
+          "weapons": [
+            {
+              "id": 77,
+              "order": 1
+            },
+            {
+              "id": 194,
+              "order": 2
+            },
+            {
+              "id": 196,
+              "order": 3
+            },
+            {
+              "id": 69,
+              "order": 4
+            },
+            {
+              "id": 5,
+              "order": 5
+            }
+          ],
+          "name": "HAWWA'",
+          "skills": [
+            {
+              "id": 56,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
         }
       ]
     }
@@ -247,7 +345,8 @@
       1000
     ],
     "equip": [
-      100
+      100,
+      145
     ],
     "chars": [
       1,
@@ -261,9 +360,11 @@
       5,
       17,
       26,
-      34,
       69,
       72,
+      77,
+      155,
+      194,
       196
     ],
     "ammunition": [
@@ -271,7 +372,8 @@
       3,
       8,
       13,
-      29
+      29,
+      35
     ]
   },
   "factions": [

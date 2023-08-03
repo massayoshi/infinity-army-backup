@@ -227,6 +227,53 @@
           "name": "CHAKSA LONGARM",
           "skills": [],
           "peripheral": []
+        },
+        {
+          "id": 6,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 27,
+          "swc": "1",
+          "weapons": [
+            {
+              "id": 152,
+              "order": 1
+            },
+            {
+              "id": 145,
+              "order": 2
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            }
+          ],
+          "name": "CHAKSA LONGARM",
+          "skills": [
+            {
+              "extra": [
+                249
+              ],
+              "id": 201,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
         }
       ]
     }
@@ -261,12 +308,14 @@
       64,
       69,
       145,
+      152,
       199
     ],
     "ammunition": [
       2,
       3,
       6,
+      8,
       13,
       14
     ]

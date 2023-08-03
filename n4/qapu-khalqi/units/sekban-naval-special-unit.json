@@ -113,13 +113,9 @@
             }
           ],
           "includes": [],
-          "points": 30,
-          "swc": "1.5",
+          "points": 29,
+          "swc": "1",
           "weapons": [
-            {
-              "id": 74,
-              "order": 1
-            },
             {
               "id": 80,
               "order": 2
@@ -131,6 +127,10 @@
             {
               "id": 5,
               "order": 4
+            },
+            {
+              "id": 152,
+              "order": 1
             }
           ],
           "name": "SEKBAN",
@@ -197,16 +197,16 @@
               "order": 1
             },
             {
-              "id": 80,
-              "order": 2
-            },
-            {
               "id": 69,
               "order": 3
             },
             {
               "id": 5,
               "order": 4
+            },
+            {
+              "id": 28,
+              "order": 2
             }
           ],
           "name": "SEKBAN",
@@ -294,16 +294,16 @@
               "order": 1
             },
             {
-              "id": 80,
-              "order": 2
-            },
-            {
               "id": 69,
               "order": 3
             },
             {
               "id": 5,
               "order": 4
+            },
+            {
+              "id": 28,
+              "order": 2
             }
           ],
           "name": "SEKBAN",
@@ -318,6 +318,38 @@
               "q": 1
             }
           ],
+          "peripheral": []
+        },
+        {
+          "id": 9,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [],
+          "includes": [],
+          "points": 30,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 74,
+              "order": 1
+            },
+            {
+              "id": 80,
+              "order": 2
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            }
+          ],
+          "name": "SEKBAN",
+          "skills": [],
           "peripheral": []
         }
       ]
@@ -351,15 +383,18 @@
     "weapons": [
       5,
       26,
+      28,
       32,
       69,
       74,
       80,
-      89
+      89,
+      152
     ],
     "ammunition": [
       2,
-      3
+      3,
+      8
     ]
   },
   "factions": [

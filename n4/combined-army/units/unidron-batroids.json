@@ -339,6 +339,51 @@
             }
           ],
           "peripheral": []
+        },
+        {
+          "id": 8,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 24,
+          "swc": "0.5",
+          "weapons": [
+            {
+              "id": 111,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 2
+            },
+            {
+              "id": 71,
+              "order": 3
+            }
+          ],
+          "name": "UNIDRON",
+          "skills": [
+            {
+              "id": 260,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 189,
+              "order": 2,
+              "q": 1
+            }
+          ],
+          "peripheral": []
         }
       ]
     }
@@ -356,7 +401,9 @@
       85,
       131,
       162,
-      235
+      189,
+      235,
+      260
     ],
     "equip": [
       169

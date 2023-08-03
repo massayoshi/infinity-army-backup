@@ -1,0 +1,189 @@
+{
+  "id": 1616,
+  "idArmy": 1616,
+  "canonical": 699,
+  "isc": "Reinf. Special Operative Ko Dali",
+  "iscAbbr": null,
+  "name": "REINF. SPECIAL OPERATIVE KO DALI",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 10,
+      "isc": "Reinf. Special Operative Ko Dali",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 2,
+          "ava": 1,
+          "bs": 14,
+          "bts": 3,
+          "cc": 19,
+          "chars": [
+            1,
+            3,
+            5
+          ],
+          "equip": [
+            {
+              "id": 115,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-special-operative-ko-dali-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 13,
+          "s": 2,
+          "str": false,
+          "type": 2,
+          "w": 1,
+          "wip": 13,
+          "name": "REINF. SPECIAL OPERATIVE KO DALI",
+          "notes": null,
+          "skills": [
+            {
+              "id": 20,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 84,
+              "order": 2,
+              "q": 1
+            },
+            {
+              "id": 40,
+              "order": 4,
+              "extra": [
+                23
+              ],
+              "q": 1
+            },
+            {
+              "id": 162,
+              "order": 5,
+              "extra": [
+                30
+              ],
+              "q": 1
+            },
+            {
+              "id": 72,
+              "order": 6,
+              "q": 1
+            },
+            {
+              "id": 164,
+              "order": 7,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 33,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 41,
+              "order": 1
+            },
+            {
+              "id": 145,
+              "order": 2
+            },
+            {
+              "id": 17,
+              "order": 3
+            },
+            {
+              "id": 70,
+              "order": 4
+            },
+            {
+              "id": 6,
+              "order": 5
+            }
+          ],
+          "name": "KO DALI REINF",
+          "skills": [
+            {
+              "extra": [
+                6
+              ],
+              "id": 28,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "reinf-special-operative-ko-dali",
+  "filters": {
+    "categories": [
+      10
+    ],
+    "skills": [
+      20,
+      28,
+      40,
+      72,
+      84,
+      162,
+      164
+    ],
+    "equip": [
+      115
+    ],
+    "chars": [
+      1,
+      3,
+      5
+    ],
+    "types": [
+      2
+    ],
+    "weapons": [
+      6,
+      17,
+      41,
+      70,
+      145
+    ],
+    "ammunition": [
+      2,
+      3,
+      9,
+      13,
+      35
+    ]
+  },
+  "factions": [
+    699
+  ]
+}

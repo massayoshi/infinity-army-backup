@@ -1,0 +1,215 @@
+{
+  "id": 1641,
+  "idArmy": 1641,
+  "canonical": 199,
+  "isc": "Reinf. Blockers, Attached Agents of the CDCI",
+  "iscAbbr": "Reinf. Blockers",
+  "name": "REINF: BLOCKERS, Attached Agents of the CDCI",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 3,
+      "isc": "Reinf. Blockers, Attached Agents of the CDCI",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 1,
+          "ava": 1,
+          "bs": 12,
+          "bts": 3,
+          "cc": 17,
+          "chars": [
+            1,
+            3,
+            5
+          ],
+          "equip": [
+            {
+              "id": 184,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 117,
+              "order": 2,
+              "q": 1
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-blockers-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 10,
+          "s": 2,
+          "str": false,
+          "type": 1,
+          "w": 1,
+          "wip": 13,
+          "name": "REINF: BLOCKERS, Attached Agents of the CDCI",
+          "notes": null,
+          "skills": [
+            {
+              "id": 201,
+              "order": 1,
+              "extra": [
+                8
+              ],
+              "q": 1
+            },
+            {
+              "id": 65,
+              "order": 2,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 16,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 50,
+              "order": 1
+            },
+            {
+              "id": 65,
+              "order": 2
+            },
+            {
+              "id": 72,
+              "order": 3
+            },
+            {
+              "id": 189,
+              "order": 4
+            },
+            {
+              "id": 71,
+              "order": 5
+            }
+          ],
+          "name": "BLOCKER REINF",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 100,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 21,
+          "swc": "0.5",
+          "weapons": [
+            {
+              "id": 50,
+              "order": 1
+            },
+            {
+              "id": 65,
+              "order": 2
+            },
+            {
+              "id": 72,
+              "order": 3
+            },
+            {
+              "id": 189,
+              "order": 4
+            },
+            {
+              "id": 71,
+              "order": 5
+            }
+          ],
+          "name": "BLOCKER REINF",
+          "skills": [
+            {
+              "id": 1000,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "reinf-blockers",
+  "filters": {
+    "categories": [
+      3
+    ],
+    "skills": [
+      65,
+      201,
+      1000
+    ],
+    "equip": [
+      100,
+      117,
+      184
+    ],
+    "chars": [
+      1,
+      3,
+      5
+    ],
+    "types": [
+      1
+    ],
+    "weapons": [
+      50,
+      65,
+      71,
+      72,
+      189
+    ],
+    "ammunition": [
+      2,
+      9,
+      29,
+      35,
+      37,
+      39
+    ]
+  },
+  "factions": [
+    199
+  ]
+}

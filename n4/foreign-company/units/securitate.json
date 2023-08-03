@@ -395,6 +395,54 @@
             }
           ],
           "peripheral": []
+        },
+        {
+          "id": 11,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 23,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 33,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 2
+            },
+            {
+              "id": 5,
+              "order": 3
+            }
+          ],
+          "name": "SECURITATE",
+          "skills": [
+            {
+              "extra": [
+                298
+              ],
+              "id": 260,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 189,
+              "order": 2,
+              "q": 1
+            }
+          ],
+          "peripheral": []
         }
       ]
     }
@@ -409,6 +457,8 @@
       64,
       88,
       119,
+      189,
+      260,
       1000
     ],
     "equip": [

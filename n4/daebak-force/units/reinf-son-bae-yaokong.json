@@ -1,0 +1,205 @@
+{
+  "id": 1717,
+  "idArmy": 1717,
+  "canonical": 299,
+  "isc": "Reinf. Son-Bae  Yáokòng ",
+  "iscAbbr": null,
+  "name": "REINF: SON-BAE Yáokòng",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 8,
+      "isc": "Reinf. Son-Bae  Yáokòng ",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 0,
+          "ava": 1,
+          "bs": 12,
+          "bts": 3,
+          "cc": 13,
+          "chars": [
+            3,
+            5,
+            21
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-son-bae-yaokong-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            10
+          ],
+          "ph": 10,
+          "s": 3,
+          "str": true,
+          "type": 5,
+          "w": 1,
+          "wip": 13,
+          "name": "REINF: SON-BAE Yáokòng",
+          "notes": null,
+          "skills": [
+            {
+              "id": 235,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 84,
+              "order": 2,
+              "q": 1
+            },
+            {
+              "id": 162,
+              "order": 3,
+              "extra": [
+                30
+              ],
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 16,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 58,
+              "order": 1
+            },
+            {
+              "id": 71,
+              "order": 2
+            }
+          ],
+          "name": "Yáokòng SON-BAE REINF.",
+          "skills": [
+            {
+              "extra": [
+                31
+              ],
+              "id": 201,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 16,
+          "swc": "0.5",
+          "weapons": [
+            {
+              "id": 64,
+              "order": 1
+            },
+            {
+              "id": 71,
+              "order": 2
+            }
+          ],
+          "name": "Yáokòng SON-BAE REINF.",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 3,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 15,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 64,
+              "order": 1
+            },
+            {
+              "id": 71,
+              "order": 2
+            }
+          ],
+          "name": "Yáokòng SON-BAE REINF. FTO",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "reinf-son-bae-yaokong",
+  "filters": {
+    "categories": [
+      8
+    ],
+    "skills": [
+      84,
+      162,
+      201,
+      235
+    ],
+    "equip": [],
+    "chars": [
+      3,
+      5,
+      21
+    ],
+    "types": [
+      5
+    ],
+    "weapons": [
+      58,
+      64,
+      71
+    ],
+    "ammunition": [
+      2,
+      6,
+      13,
+      37
+    ]
+  },
+  "factions": [
+    299
+  ]
+}
