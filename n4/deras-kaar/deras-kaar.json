@@ -1,5 +1,5 @@
 {
-  "version": "7.23216.374",
+  "version": "7.23220.171",
   "units": [
     {
       "id": 1672,
@@ -2421,7 +2421,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 76
+                  "id": 2
                 }
               ]
             },
@@ -2465,7 +2465,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 76
+                  "id": 2
                 }
               ]
             },
@@ -2513,7 +2513,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 76
+                  "id": 2
                 }
               ]
             },
@@ -2564,7 +2564,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 76
+                  "id": 2
                 }
               ]
             },
@@ -2608,7 +2608,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 76
+                  "id": 2
                 }
               ]
             }
@@ -2654,6 +2654,19 @@
                   ],
                   "id": 243,
                   "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 84,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    6
+                  ],
+                  "id": 28,
+                  "order": 3
                 }
               ],
               "peripheral": []
@@ -2700,6 +2713,7 @@
           3
         ],
         "skills": [
+          28,
           84,
           162,
           243,
@@ -3597,7 +3611,7 @@
   "filters": {
     "peripheral": [
       {
-        "id": 76,
+        "id": 2,
         "name": "CHAKSA PERIPHERAL"
       }
     ],

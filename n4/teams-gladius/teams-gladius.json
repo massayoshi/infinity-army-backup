@@ -1,6 +1,815 @@
 {
-  "version": "7.23215.210",
+  "version": "7.23220.226",
   "units": [
+    {
+      "id": 1699,
+      "idArmy": 1699,
+      "canonical": 1099,
+      "isc": "Reinf. Nightshades",
+      "iscAbbr": null,
+      "name": "REINF: Clandestine Action Unit NIGHTSHADES",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Reinf. Nightshades",
+          "profiles": [
+            {
+              "bts": 0,
+              "cc": 22,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 6,
+              "ava": 2,
+              "str": false,
+              "bs": 12,
+              "s": 2,
+              "equip": [],
+              "w": 1,
+              "ph": 12,
+              "name": "REINF: Clandestine Action Unit NIGHTSHADES",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-nightshades-1-1.svg",
+              "id": 1,
+              "arm": 2,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                5
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 21,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 84,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    7
+                  ],
+                  "id": 28,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "id": 164,
+                  "order": 4
+                },
+                {
+                  "q": 1,
+                  "id": 74,
+                  "order": 5
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    33
+                  ],
+                  "id": 58,
+                  "order": 6
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 28,
+              "equip": [],
+              "name": "NIGHTSHADE REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "extra": null,
+                  "id": 26,
+                  "order": 1
+                },
+                {
+                  "extra": null,
+                  "id": 196,
+                  "order": 2
+                },
+                {
+                  "extra": null,
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "extra": null,
+                  "id": 10,
+                  "order": 4
+                },
+                {
+                  "extra": [
+                    7
+                  ],
+                  "id": 71,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 24,
+              "equip": [],
+              "name": "NIGHTSHADE REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "extra": null,
+                  "id": 77,
+                  "order": 1
+                },
+                {
+                  "extra": null,
+                  "id": 96,
+                  "order": 2
+                },
+                {
+                  "extra": null,
+                  "id": 17,
+                  "order": 3
+                },
+                {
+                  "extra": null,
+                  "id": 69,
+                  "order": 4
+                },
+                {
+                  "extra": null,
+                  "id": 10,
+                  "order": 5
+                },
+                {
+                  "extra": [
+                    7
+                  ],
+                  "id": 71,
+                  "order": 6
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 27,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 145,
+                  "order": 1
+                }
+              ],
+              "name": "NIGHTSHADE REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 3,
+              "weapons": [
+                {
+                  "extra": null,
+                  "id": 77,
+                  "order": 1
+                },
+                {
+                  "extra": null,
+                  "id": 96,
+                  "order": 2
+                },
+                {
+                  "extra": null,
+                  "id": 17,
+                  "order": 3
+                },
+                {
+                  "extra": null,
+                  "id": 69,
+                  "order": 4
+                },
+                {
+                  "extra": null,
+                  "id": 10,
+                  "order": 5
+                },
+                {
+                  "extra": [
+                    7
+                  ],
+                  "id": 71,
+                  "order": 6
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 1000,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 5
+        }
+      ],
+      "options": [],
+      "slug": "reinf-nightshades",
+      "filters": {
+        "categories": [
+          5
+        ],
+        "skills": [
+          21,
+          28,
+          58,
+          74,
+          84,
+          164,
+          1000
+        ],
+        "equip": [
+          145
+        ],
+        "chars": [
+          1,
+          3,
+          5
+        ],
+        "types": [
+          6
+        ],
+        "weapons": [
+          10,
+          17,
+          26,
+          69,
+          71,
+          77,
+          96,
+          196
+        ],
+        "ammunition": [
+          2,
+          3,
+          8,
+          13,
+          35,
+          37
+        ]
+      },
+      "factions": [
+        1099
+      ]
+    },
+    {
+      "id": 1705,
+      "idArmy": 1705,
+      "canonical": 1099,
+      "isc": "Reinf. Dakini Tacbots",
+      "iscAbbr": null,
+      "name": "REINF: DAKINI Tacbots",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Reinf. Dakini Tacbots",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 13,
+              "move": [
+                15,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 5,
+              "ava": 3,
+              "str": true,
+              "bs": 11,
+              "s": 2,
+              "equip": [],
+              "w": 1,
+              "ph": 10,
+              "name": "REINF: DAKINI Tacbots",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-dakini-tacbots-1-1.svg",
+              "id": 1,
+              "arm": 0,
+              "weapons": [],
+              "chars": [
+                3,
+                5,
+                21
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 235,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 84,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    30
+                  ],
+                  "id": 162,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    6
+                  ],
+                  "id": 28,
+                  "order": 4
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 21,
+              "equip": [],
+              "name": "DAKINI REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "extra": null,
+                  "id": 2,
+                  "order": 1
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 2
+                }
+              ],
+              "chars": [],
+              "swc": "1",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 17,
+              "equip": [],
+              "name": "DAKINI REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "extra": null,
+                  "id": 33,
+                  "order": 1
+                },
+                {
+                  "extra": null,
+                  "id": 194,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "1",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 20,
+              "equip": [],
+              "name": "DAKINI REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 3,
+              "weapons": [
+                {
+                  "extra": null,
+                  "id": 36,
+                  "order": 1
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "1.5",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 15,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 106,
+                  "order": 1
+                }
+              ],
+              "name": "DAKINI REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 4,
+              "weapons": [
+                {
+                  "extra": null,
+                  "id": 33,
+                  "order": 1
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 2
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 64,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 2
+        }
+      ],
+      "options": [],
+      "slug": "reinf-dakini-tacbots",
+      "filters": {
+        "categories": [
+          2
+        ],
+        "skills": [
+          28,
+          64,
+          84,
+          162,
+          235
+        ],
+        "equip": [
+          106
+        ],
+        "chars": [
+          3,
+          5,
+          21
+        ],
+        "types": [
+          5
+        ],
+        "weapons": [
+          2,
+          33,
+          36,
+          71,
+          194
+        ],
+        "ammunition": [
+          2,
+          9,
+          35,
+          37
+        ]
+      },
+      "factions": [
+        1099
+      ]
+    },
+    {
+      "id": 1696,
+      "idArmy": 1696,
+      "canonical": 1099,
+      "isc": "Reinf. Ment Agents",
+      "iscAbbr": null,
+      "name": "REINF: MENT Agents, PSID",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Reinf. Ment Agents",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 17,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 1,
+              "ava": 2,
+              "str": false,
+              "bs": 12,
+              "s": 2,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 184,
+                  "order": 1
+                }
+              ],
+              "w": 1,
+              "ph": 10,
+              "name": "REINF: MENT Agents, PSID",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-ment-agents-1-1.svg",
+              "id": 1,
+              "arm": 1,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                5
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 26,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 164,
+                  "order": 2
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 15,
+              "equip": [],
+              "name": "MENT REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 28,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 15,
+              "equip": [],
+              "name": "MENT REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "extra": [
+                    256
+                  ],
+                  "id": 188,
+                  "order": 1
+                },
+                {
+                  "id": 70,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 20,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 100,
+                  "order": 1
+                }
+              ],
+              "name": "MENT REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 3,
+              "weapons": [
+                {
+                  "id": 28,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0.5",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 1000,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 3
+        }
+      ],
+      "options": [],
+      "slug": "reinf-ment-agents",
+      "filters": {
+        "categories": [
+          3
+        ],
+        "skills": [
+          26,
+          164,
+          1000
+        ],
+        "equip": [
+          100,
+          184
+        ],
+        "chars": [
+          1,
+          3,
+          5
+        ],
+        "types": [
+          1
+        ],
+        "weapons": [
+          28,
+          69,
+          70,
+          71,
+          188
+        ],
+        "ammunition": [
+          2,
+          37
+        ]
+      },
+      "factions": [
+        1099
+      ]
+    },
     {
       "id": 1704,
       "idArmy": 1704,
@@ -1153,815 +1962,6 @@
       ]
     },
     {
-      "id": 1699,
-      "idArmy": 1699,
-      "canonical": 1099,
-      "isc": "Reinf. Nightshades",
-      "iscAbbr": null,
-      "name": "REINF: Clandestine Action Unit NIGHTSHADES",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Reinf. Nightshades",
-          "profiles": [
-            {
-              "bts": 0,
-              "cc": 22,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 6,
-              "ava": 2,
-              "str": false,
-              "bs": 12,
-              "s": 2,
-              "equip": [],
-              "w": 1,
-              "ph": 12,
-              "name": "REINF: Clandestine Action Unit NIGHTSHADES",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-nightshades-1-1.svg",
-              "id": 1,
-              "arm": 2,
-              "weapons": [],
-              "chars": [
-                1,
-                3,
-                5
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 21,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "id": 84,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    7
-                  ],
-                  "id": 28,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "id": 164,
-                  "order": 4
-                },
-                {
-                  "q": 1,
-                  "id": 74,
-                  "order": 5
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    33
-                  ],
-                  "id": 58,
-                  "order": 6
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 28,
-              "equip": [],
-              "name": "NIGHTSHADE REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "extra": null,
-                  "id": 26,
-                  "order": 1
-                },
-                {
-                  "extra": null,
-                  "id": 196,
-                  "order": 2
-                },
-                {
-                  "extra": null,
-                  "id": 69,
-                  "order": 3
-                },
-                {
-                  "extra": null,
-                  "id": 10,
-                  "order": 4
-                },
-                {
-                  "extra": [
-                    7
-                  ],
-                  "id": 71,
-                  "order": 5
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 24,
-              "equip": [],
-              "name": "NIGHTSHADE REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "extra": null,
-                  "id": 77,
-                  "order": 1
-                },
-                {
-                  "extra": null,
-                  "id": 96,
-                  "order": 2
-                },
-                {
-                  "extra": null,
-                  "id": 17,
-                  "order": 3
-                },
-                {
-                  "extra": null,
-                  "id": 69,
-                  "order": 4
-                },
-                {
-                  "extra": null,
-                  "id": 10,
-                  "order": 5
-                },
-                {
-                  "extra": [
-                    7
-                  ],
-                  "id": 71,
-                  "order": 6
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 27,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 145,
-                  "order": 1
-                }
-              ],
-              "name": "NIGHTSHADE REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 3,
-              "weapons": [
-                {
-                  "extra": null,
-                  "id": 77,
-                  "order": 1
-                },
-                {
-                  "extra": null,
-                  "id": 96,
-                  "order": 2
-                },
-                {
-                  "extra": null,
-                  "id": 17,
-                  "order": 3
-                },
-                {
-                  "extra": null,
-                  "id": 69,
-                  "order": 4
-                },
-                {
-                  "extra": null,
-                  "id": 10,
-                  "order": 5
-                },
-                {
-                  "extra": [
-                    7
-                  ],
-                  "id": 71,
-                  "order": 6
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 1000,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 5
-        }
-      ],
-      "options": [],
-      "slug": "reinf-nightshades",
-      "filters": {
-        "categories": [
-          5
-        ],
-        "skills": [
-          21,
-          28,
-          58,
-          74,
-          84,
-          164,
-          1000
-        ],
-        "equip": [
-          145
-        ],
-        "chars": [
-          1,
-          3,
-          5
-        ],
-        "types": [
-          6
-        ],
-        "weapons": [
-          10,
-          17,
-          26,
-          69,
-          71,
-          77,
-          96,
-          196
-        ],
-        "ammunition": [
-          2,
-          3,
-          8,
-          13,
-          35,
-          37
-        ]
-      },
-      "factions": [
-        1099
-      ]
-    },
-    {
-      "id": 1705,
-      "idArmy": 1705,
-      "canonical": 1099,
-      "isc": "Reinf. Dakini Tacbots",
-      "iscAbbr": null,
-      "name": "REINF: DAKINI Tacbots",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Reinf. Dakini Tacbots",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 13,
-              "move": [
-                15,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 5,
-              "ava": 3,
-              "str": true,
-              "bs": 11,
-              "s": 2,
-              "equip": [],
-              "w": 1,
-              "ph": 10,
-              "name": "REINF: DAKINI Tacbots",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-dakini-tacbots-1-1.svg",
-              "id": 1,
-              "arm": 0,
-              "weapons": [],
-              "chars": [
-                3,
-                5,
-                21
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 235,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "id": 84,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    30
-                  ],
-                  "id": 162,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    6
-                  ],
-                  "id": 28,
-                  "order": 4
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 21,
-              "equip": [],
-              "name": "DAKINI REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "extra": null,
-                  "id": 2,
-                  "order": 1
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 2
-                }
-              ],
-              "chars": [],
-              "swc": "1",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 17,
-              "equip": [],
-              "name": "DAKINI REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "extra": null,
-                  "id": 33,
-                  "order": 1
-                },
-                {
-                  "extra": null,
-                  "id": 194,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "1",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 20,
-              "equip": [],
-              "name": "DAKINI REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 3,
-              "weapons": [
-                {
-                  "extra": null,
-                  "id": 36,
-                  "order": 1
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "1.5",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 15,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 106,
-                  "order": 1
-                }
-              ],
-              "name": "DAKINI REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 4,
-              "weapons": [
-                {
-                  "extra": null,
-                  "id": 33,
-                  "order": 1
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 2
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 64,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 2
-        }
-      ],
-      "options": [],
-      "slug": "reinf-dakini-tacbots",
-      "filters": {
-        "categories": [
-          2
-        ],
-        "skills": [
-          28,
-          64,
-          84,
-          162,
-          235
-        ],
-        "equip": [
-          106
-        ],
-        "chars": [
-          3,
-          5,
-          21
-        ],
-        "types": [
-          5
-        ],
-        "weapons": [
-          2,
-          33,
-          36,
-          71,
-          194
-        ],
-        "ammunition": [
-          2,
-          9,
-          35,
-          37
-        ]
-      },
-      "factions": [
-        1099
-      ]
-    },
-    {
-      "id": 1696,
-      "idArmy": 1696,
-      "canonical": 1099,
-      "isc": "Reinf. Ment Agents",
-      "iscAbbr": null,
-      "name": "REINF: MENT Agents, PSID",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Reinf. Ment Agents",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 17,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 1,
-              "ava": 2,
-              "str": false,
-              "bs": 12,
-              "s": 2,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 184,
-                  "order": 1
-                }
-              ],
-              "w": 1,
-              "ph": 10,
-              "name": "REINF: MENT Agents, PSID",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-ment-agents-1-1.svg",
-              "id": 1,
-              "arm": 1,
-              "weapons": [],
-              "chars": [
-                1,
-                3,
-                5
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 26,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "id": 164,
-                  "order": 2
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 15,
-              "equip": [],
-              "name": "MENT REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 28,
-                  "order": 1
-                },
-                {
-                  "id": 69,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 15,
-              "equip": [],
-              "name": "MENT REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "extra": [
-                    256
-                  ],
-                  "id": 188,
-                  "order": 1
-                },
-                {
-                  "id": 70,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 20,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 100,
-                  "order": 1
-                }
-              ],
-              "name": "MENT REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 3,
-              "weapons": [
-                {
-                  "id": 28,
-                  "order": 1
-                },
-                {
-                  "id": 69,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "0.5",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 1000,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 3
-        }
-      ],
-      "options": [],
-      "slug": "reinf-ment-agents",
-      "filters": {
-        "categories": [
-          3
-        ],
-        "skills": [
-          26,
-          164,
-          1000
-        ],
-        "equip": [
-          100,
-          184
-        ],
-        "chars": [
-          1,
-          3,
-          5
-        ],
-        "types": [
-          1
-        ],
-        "weapons": [
-          28,
-          69,
-          70,
-          71,
-          188
-        ],
-        "ammunition": [
-          2,
-          37
-        ]
-      },
-      "factions": [
-        1099
-      ]
-    },
-    {
       "id": 1700,
       "idArmy": 1700,
       "canonical": 1099,
@@ -3034,7 +3034,7 @@
               "notes": null,
               "includes": [],
               "type": 3,
-              "ava": 2,
+              "ava": 1,
               "str": false,
               "bs": 13,
               "s": 2,
@@ -4122,6 +4122,36 @@
   },
   "resume": [
     {
+      "id": 1699,
+      "isc": "Reinf. Nightshades",
+      "idArmy": 1699,
+      "name": "REINF: Clandestine Action Unit NIGHTSHADES",
+      "slug": "reinf-nightshades",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-nightshades-1-1.svg",
+      "type": 6,
+      "category": 5
+    },
+    {
+      "id": 1705,
+      "isc": "Reinf. Dakini Tacbots",
+      "idArmy": 1705,
+      "name": "REINF: DAKINI Tacbots",
+      "slug": "reinf-dakini-tacbots",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-dakini-tacbots-1-1.svg",
+      "type": 5,
+      "category": 2
+    },
+    {
+      "id": 1696,
+      "isc": "Reinf. Ment Agents",
+      "idArmy": 1696,
+      "name": "REINF: MENT Agents, PSID",
+      "slug": "reinf-ment-agents",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-ment-agents-1-1.svg",
+      "type": 1,
+      "category": 3
+    },
+    {
       "id": 1704,
       "isc": "Reinf. Casanova, NOC Operative",
       "idArmy": 1704,
@@ -4170,36 +4200,6 @@
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-yudbots-1-1.svg",
       "type": 5,
       "category": 8
-    },
-    {
-      "id": 1699,
-      "isc": "Reinf. Nightshades",
-      "idArmy": 1699,
-      "name": "REINF: Clandestine Action Unit NIGHTSHADES",
-      "slug": "reinf-nightshades",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-nightshades-1-1.svg",
-      "type": 6,
-      "category": 5
-    },
-    {
-      "id": 1705,
-      "isc": "Reinf. Dakini Tacbots",
-      "idArmy": 1705,
-      "name": "REINF: DAKINI Tacbots",
-      "slug": "reinf-dakini-tacbots",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-dakini-tacbots-1-1.svg",
-      "type": 5,
-      "category": 2
-    },
-    {
-      "id": 1696,
-      "isc": "Reinf. Ment Agents",
-      "idArmy": 1696,
-      "name": "REINF: MENT Agents, PSID",
-      "slug": "reinf-ment-agents",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-ment-agents-1-1.svg",
-      "type": 1,
-      "category": 3
     },
     {
       "id": 1700,
