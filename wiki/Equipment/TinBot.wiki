@@ -12,7 +12,12 @@ A TinBot is a semi-autonomous piece of Equipment that remains near its owner and
 {{requirements}}
 * A TinBot grants its MODs or additional advantages as long as its owner is not in any [[Null]] State ([[Unconscious]], [[Dead]], [[Sepsitorized]], etc.) or Isolated State.
 {{effects}}
-* TinBots are pieces of Equipment, so they cannot be targeted by any Skill, even if they are represented by a [[Model]] or [[Token]]. 
+{{update | PDF 2.1, July 2023}}
+* {{erratahighlight}}TinBot Models and Tokens work as State Tokens, so they cannot block movement or [[LoF]], or be targeted by any Skill.{{erratahighlight-end}}
+{{update-end}}
+{{original}}
+* {{originalhighlight}}TinBots are pieces of Equipment, so they cannot be targeted by any Skill, even if they are represented by a [[Model]] or [[Token]].{{originalhighlight-end}} 
+{{original-end}}
 * If the owner of a TinBot enters [[Dead State]], remove the TinBot from the game alongside its owner.
 * A TinBot grants its owner with different MODs, Special Skills, or pieces of Equipment. The player will apply the one specified next to the TinBot, in the [[Unit Profile]].
 * If the owner of a TinBot is part of a [[Fireteam]], every member of the Fireteam will benefit from the TinBot. 

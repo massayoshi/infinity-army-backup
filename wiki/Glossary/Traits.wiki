@@ -54,11 +54,24 @@ This weapon or piece of Equipment may be deployed on the battlefield, thus becom
 This weapon or piece of Equipment uses the [[Direct Template]] rules, firing the Template indicated in brackets.
 
 === Disposable ===
-This weapon or Equipment has a limited amount of ammunition or uses, and one is expended every time you declare its use, regardless of the success or failure of the Roll involved, or if a Skill has been declared illegally. The profile indicates, by means of a figure in brackets after the Disposable trait, the number of uses for that weapon or Equipment. Once all the uses available are expended, the Trooper, or the item if the Trooper has several Disposable weapons or Equipment, will be in [[Unloaded]] State. {{seefaq}}
+{{update | PDF 2.1, July 2023}}
+This weapon or Equipment has a limited amount of ammunition or uses, and one is expended every time you declare its use, regardless of the success or failure of the Roll involved, or if a Skill has been declared illegally. The profile indicates, by means of a figure in brackets after the Disposable trait, the number of uses for that weapon or Equipment. Once all the uses available are expended, the Trooper, or the item if the Trooper has several Disposable weapons or Equipment, will be in [[Unloaded]] State.
+
+{{erratahighblock}}
+Each increment in the [[Burst]] (B) value applied to weapons with this Trait due any MOD uses up a Disposable use. For example, a Trooper with a Panzerfaust (a two-use weapon with B 1) and BS Attack (+1B) must make a BS Attack with B 2, consuming in a single Order the two uses available in the Panzerfaust, so this weapon will be unloaded and the player must place an Unloaded Token next to the Trooper.
+
+In this case, if due any MOD the Burst (B) value is higher than the remaining number of uses available thanks to this Trait, players cannot exceed the remaining number of uses.
+
+In addition, those weapons possessing the Disposable Trait and different Modes (such as [[Mixed Weapons]], [[D-Charges]]…) share the number of uses provided by Disposable between all Modes.
+{{erratahighblock-end}}
+{{update-end}}
 
 {{n4}}
+
 === Double Shot ===
-This weapon or piece of Equipment can apply a +1 MOD to its [[Burst]] value. If it also possesses the [[#Disposable|Disposable]] (2) Trait, this Burst MOD can only be applied if both uses remain unspent. Applying this MOD will expend both uses, putting the Trooper in Unloaded State. {{seefaq}}
+{{update | PDF 2.1, July 2023}}
+{{erratahighlight}}In Active Turn, t{{erratahighlight-end}}his weapon or piece of Equipment can apply a +1 MOD to its [[Burst]] value. If it also possesses the [[#Disposable|Disposable]] (2) Trait, this Burst MOD can only be applied if both uses remain unspent. Applying this MOD will expend both uses, putting the Trooper in Unloaded State.
+{{update-end}}
 
 === Impact Template ===
 This weapon or piece of Equipment places a [[Template]] on the point of impact, firing the Template indicated in brackets.
@@ -71,10 +84,14 @@ This weapon can be used to make [[Intuitive Attack]]s.
 {{n4end}}
 
 === Non-Lethal ===
-{{c1}}
-This weapon or piece of Equipment uses a Type of Ammunition that does not cause Damage, or that does not require its target to make a [[Saving Roll]] when hit.
-{{c1end}}{{n4}}This weapon, piece of Equipment or Hacking Program loads an ammunition type that doesn’t cause the target to lose points of its [[Wounds]]/[[STR]] Attribute, or doesn’t require the target to make a [[Saving Roll]] when hit. {{seefaq}}
+{{update | PDF 2.1, July 2023}}
+{{erratahighlight}}No matter the ammunition type this weapon, piece of Equipment or Hacking Program uses, it{{erratahighlight-end}} doesn’t cause the target to lose points of its [[Wounds]]/[[STR]] Attribute, or doesn’t require the target to make a [[Saving Roll]] when hit. {{erratahighlight}}Even if a Skill, rule or MOD adds or combines other ammunition types, the Non-Lethal Trait always take precedence, so this weapon, piece of Equipment or Hacking Program never causes the target to lose points of its Wounds/STR Attribute.{{erratahighlight-end}}
+{{update-end}}
+{{original}}
+{{originalhighlight}}This weapon, piece of Equipment or Hacking Program loads an ammunition type that{{originalhighlight-end}} doesn’t cause the target to lose points of its [[Wounds]]/[[STR]] Attribute, or doesn’t require the target to make a [[Saving Roll]] when hit. {{originalhighlight}}{{seefaq}}{{originalhighlight-end}}
+{{original-end}}
 
+{{n4}}
 === Perimeter ===
 When declaring [[Place Deployable]], the player will apply the [[Place_Deployable#Deployable_and_Perimeter|Deployable and Perimeter]] rule, placing the weapon or piece of Equipment '''completely''' inside the [[ZoC]] of the Trooper, instead of in [[Silhouette contact]].
 {{n4end}}
@@ -103,7 +120,9 @@ This weapon allows the user to engage in [[Suppressive Fire]], substituting its 
 {{n4end}}
 
 === Targetless ===
-This weapon utilizes a Special Ammunition capable of firing without designating an enemy as a target.
+{{update | PDF 2.1, July 2023}}
+This weapon utilizes a Special Ammunition capable of firing without designating an enemy as a target. {{erratahighlight}}In the Reactive Turn, LoF to the Active Trooper is required when using a Targetless weapon.{{erratahighlight-end}}
+{{update-end}}
 
 {{n4}}
 === Technical Weapon ===
@@ -176,7 +195,6 @@ related = [[Traits]] }}
 
 
 {{section-glossary}}
-
 
 
 

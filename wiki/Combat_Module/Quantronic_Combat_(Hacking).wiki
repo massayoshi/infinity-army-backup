@@ -32,7 +32,12 @@ These are programs of extended duration which are mainly designed to support all
 * A Trooper can benefit from the effects of only one Program with the Supportware Label at a time. 
 * Each Hacker can only sustain one active Supportware Program at a time. 
 * A Hacker can cancel an active Supportware Program by declaring another Program and expending the corresponding Order or ARO. 
-* A Supportware Program is automatically cancelled if the Trooper or Troop Type targeted by the Supportware is targeted by a new Supportware Program, or if the Hacker running the Program enters Isolated State or any Null States. 
+{{update | PDF 2.1, July 2023}}
+* {{erratahighlight}}A Supportware Program is automatically cancelled if the target of the Supportware is targeted by a new Supportware Program, or if the Hacker running the Program enters Isolated State or any Null States.{{erratahighlight-end}}
+{{update-end}}
+{{original}}
+* {{originalhighlight}}Supportware is automatically cancelled if the Trooper or Troop Type that benefits from the Supportware becomes targeted by a new Supportware Program, or the Hacker that is running it becomes Isolated or enters a Null State.{{originalhighlight-end}}
+{{original-end}}
 {{important-end}}
 
 
@@ -43,7 +48,6 @@ For tactical reasons, they decide to spend the last Order on the other Trooper w
 
 By designating a REM that was already benefitting from Fairy Dust, the new Supportware Program deactivates the Fairy Dust Program and the corresponding Token is removed from the table. 
 {{greybox-end}}
-
 
 == [[Firewall]] ==
 '''See [[Firewall]]'''
@@ -58,10 +62,14 @@ Hacking Devices and Hacking Programs have the following characteristics:
 *They act in the user's Hacking Area.
 *They do not require LoF to act, unless the Hacking Program's own description states otherwise. 
 {{n4list}}
-* Only Troopers or Peripherals in Model form may be targeted by Hacking Programs.
+{{update | PDF 2.1, July 2023}}
+* Only Troopers in Model form may be targeted by Hacking Programs.
+{{update-end}}
+{{original}}
+* Only Troopers {{originalhighlight}}or Peripherals{{originalhighlight-end}} in Model form may be targeted by Hacking Programs.
+{{original-end}}
 {{n4end}}
 * They benefit, if applicable, from the target's [[Targeted]] State.
-
 
 == [[Hacking Area]] ==
 

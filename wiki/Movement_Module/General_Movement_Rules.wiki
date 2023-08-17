@@ -17,11 +17,21 @@
 * Independently of the type of movement performed ([[Move]], [[Jump]], [[Climb]], etc.), the movement cannot, in any way, cause the [[Trooper]] to fall. If the Trooper cannot reach a new location with their [[Move]], [[Jump]], [[Climb]]…  they do not perform the movement and perform an [[Idle]] instead.
 * Once declared, Troopers always reach the end of their Movement, even if they enter a [[Null]] or [[Immobilized]] state due to successful enemy Attacks along the way.
 {{n4list}}
-* Mounting and dismounting: By performing any Skill with the Movement Label, a Trooper may mount or dismount a Motorcycle, TAG, Vehicle, etc. {{seefaq | There are exceptions for Possessed State. }}
-** The Trooper must mount or dismount at the start of the Order, after having declared the first Short Skill of the Order, or the Entire Order, but before measuring any movement.
+{{update | PDF 2.1, July 2023}}
+* Mounting and dismounting: By {{erratahighlight}}declaring the Move Skill as the first Skill of the Order{{erratahighlight-end}}, a Trooper may mount or dismount a Motorcycle, TAG, Vehicle, etc.
+** The Trooper must mount or dismount at the start of the Order, after having declared {{erratahighlight}}Move as the first Short Skill of the Order{{erratahighlight-end}}, but before measuring any movement.
 ** The new Troop Profile (Mounted/Dismounted) is applied for the entire Order Sequence, while the original profile will not be considered.
-** The Skill with the Movement Label must be one that can be declared by the original profile. For example if the Trooper is in [[Engaged]] State or an IMM State at the start of the Order, they cannot declare a Movement Skill to mount or dismount, and a TAG, Vehicle, or a Trooper mounted on a Motorcycle cannot declare [[Cautious Movement]], which allows other Troopers to mount or dismount.
+** {{erratahighlight}}The Trooper’s original profile must be able to declare the Move Skill. For example if the Trooper is in [[Engaged]] State or an IMM State at the start of the Order, they cannot declare Move to mount or dismount.{{erratahighlight-end}}
 ** Mounting or dismounting will cancel the [[Hidden Deployment]] State, and any Marker State, of both profiles.
+** {{erratahighlight}}When a TAG is in [[Possessed]] State, its [[Pilot]] cannot Dismount. If a TAG’s [[Escape System]] takes effect while the TAG is in Possessed State, the Operator profile will not be in such State.{{erratahighlight-end}}
+{{update-end}}
+{{original}}
+* Mounting and dismounting: By {{originalhighlight}}performing any Skill with the Movement Label{{originalhighlight-end}}, a Trooper may mount or dismount a Motorcycle, TAG, Vehicle, etc.
+** The Trooper must mount or dismount at the start of the Order, after having declared {{originalhighlight}}the first Short Skill of the Order, or the Entire Order{{originalhighlight-end}}, but before measuring any movement.
+** The new Troop Profile (Mounted/Dismounted) is applied for the entire Order Sequence, while the original profile will not be considered.
+** {{originalhighlight}}The Skill with the Movement Label must be one that can be declared by the original profile. For example if the Trooper is in [[Engaged]] State or an IMM State at the start of the Order, they cannot declare a Movement Skill to mount or dismount, and a TAG, Vehicle, or a Trooper mounted on a Motorcycle cannot declare [[Cautious Movement]], which allows other Troopers to mount or dismount.{{originalhighlight-end}}
+** Mounting or dismounting will cancel the [[Hidden Deployment]] State, and any Marker State, of both profiles.
+{{original-end}}
 {{n4end}}
 
 

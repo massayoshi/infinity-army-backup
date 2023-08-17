@@ -8,8 +8,15 @@ The user of this Special Skill has the innate or acquired ability to shrug off d
 {{skillbox |black| BIOIMMUNITY | AUTOMATIC SKILL }}
 {{skill-label | Optional }}
 {{effects}}
-* The Player may choose to make their [[Saving Rolls]] using either their [[ARM]] or [[BTS]] Attribute, regardless of what is indicated by the Weapon or piece of Equipment used to attack them. {{seefaq | Ammunition and Traits that target one Attribute will not work if the other Attribute is chosen.}}
+{{update | PDF 2.1, July 2023}}
+* {{erratahighlight}}When making [[Saving Roll]]s against [[ARM]] or [[BTS]], the Trooper can switch the values of these Attributes, using the most favorable value for the Trooper.{{erratahighlight-end}}
+* {{erratahighlight}}Bioimmunity doesn’t change the Saving Roll Attribute, only its value, so any Traits or rules of the Ammunition or weapon used in the Attack apply normally.{{erratahighlight-end}}
 * This Special Skill does '''not''' apply against [[Comms Attacks]].
+{{update-end}}
+{{original}}
+* {{originalhighlight}}The Player may choose to make their [[Saving Rolls]] using either their [[ARM]] or [[BTS]] Attribute, regardless of what is indicated by the Weapon or piece of Equipment used to attack them. {{seefaq | Ammunition and Traits that target one Attribute will not work if the other Attribute is chosen.}}{{originalhighlight-end}}
+* This Special Skill does '''not''' apply against [[Comms Attacks]].
+{{original-end}}
 
 
 
@@ -21,7 +28,21 @@ Troopers with this Special Skill will apply the Critical, making an additional S
 
 
 {{greybox-start | Example of Bioimmunity }}
-A Trooper suffers a [[DA]]+[[Shock]] impact and the [[Saving Roll]] must be made with the [[BTS]] Attribute. Thanks to the Trooper’s Bioimmunity, the Trooper may choose to make both Saving Rolls using their [[ARM]] Attribute, if it was advantageous to them. 
+{{update | PDF 2.1, July 2023}}
+A Trooper suffers a [[DA]]+[[Shock]] impact and the [[Saving Roll]] must be made {{erratahighlight}}against{{erratahighlight-end}} the [[BTS]] Attribute. Thanks to the Trooper’s Bioimmunity, the Trooper may choose to make both Saving Rolls using {{erratahighlight}}the value of{{erratahighlight-end}} their [[ARM]] Attribute, if it was advantageous to them. 
+
+{{erratahighblock}}
+Let’s suppose the Trooper suffers an impact from an AP Rifle. The profile of this weapon lists ARM as the Saving Roll Attribute. However, the targeted Trooper decides to use their Bioimmunity Special Skill to use their BTS value instead of their ARM value as their BTS is higher. The AP Ammunition rule still applies, so the Trooper halves whichever value they use.
+
+In the same way, if another Trooper applies Bioimmunity when suffering an impact from E/M Ammunition—which says that it halves BTS—and rolls against their ARM value instead, the new value is still halved.
+If the targeted Trooper instead suffers an impact from a weapon with the ARM=0 Trait, then Bioimmunity is not relevant as rolling against the BTS value, even if it is higher, is useless as the Trait always reduces the ARM value to 0.
+
+If the Trooper instead suffers an impact from a weapon that lists PH-6 as the Saving Roll Attribute, they cannot use Bioimmunity as they are not making a Saving Roll against the ARM or BTS Attributes.
+{{erratahighblock-end}}
+{{update-end}}
+{{original}}
+A Trooper suffers a [[DA]]+[[Shock]] impact and the [[Saving Roll]] must be made {{originalhighlight}}with{{originalhighlight-end}} the [[BTS]] Attribute. Thanks to the Trooper’s Bioimmunity, the Trooper may choose to make both Saving Rolls using their [[ARM]] Attribute, if it was advantageous to them. 
+{{original-end}}
 {{greybox-end}}
 
 

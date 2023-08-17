@@ -6,16 +6,16 @@ This Common Skill allows the user to move and to attempt to evade an [[Attack]] 
 {{skillbox |greenyellow| DODGE | SHORT SKILL / ARO}}
 {{skill-label | Movement}}
 {{Requirements}}
-{{update | 1.1.1, Dec 2021}}
+{{update | PDF 2.1, July 2023}}
 '''Troopers can only Dodge if at least one of these is true:'''
-*They are the Active Trooper.
-*{{erratahighlight}}In the Reactive Turn, the Active Trooper is within [[LoF]] or [[ZoC]], or they are affected by a [[Template Weapon]].
+* They are the Active Trooper.
+* In the [[Reactive Turn]], {{erratahighlight}}if they are allowed to declare an ARO.{{erratahighlight-end}}
 {{update-end}}
 {{original}}
 '''Troopers can only Dodge if at least one of these is true:'''
-*They are the Active Trooper.
-*{{originalhighlight}}In the [[Reactive Turn]], they have a valid ARO.
-*{{originalhighlight}}They are affected by a [[Template Weapon]]. 
+* They are the Active Trooper.
+* In the [[Reactive Turn]], {{originalhighlight}}they have a valid ARO.{{originalhighlight-end}}
+* {{originalhighlight}}They are affected by a [[Template Weapon]]. {{originalhighlight-end}}
 {{original-end}}
 {{effects}}
 *Allows the user to make a Face to Face Roll to evade all enemy Attacks during an Order or ARO, regardless of the [[Burst]] (B) value (for example, Dodging every strike in Close Combat, or shots from several opponents).  
@@ -104,7 +104,12 @@ Result:
 
 The Zhanshi manages to avoid the Fusilier's shots by winning the Face to Face Roll with his 8. 
 
-But the Mine hits the Zhanshi, since the Mine is a Deployable Weapon and it imposes a -3 MOD to Dodge. In addition, the Zhanshi lacks LoF to the Mine, so an additional -3 MOD will be applied due to Dodging a Template Weapon without LoF (a total of PH -6). {{seefaq | N4 errata, there is only one -3 MOD being applied.}} Therefore, the Zhanshi would only avoid the mine if his die's result was 4 or less. By failing to Dodge the Mine's impact, the Zhanshi will also be unable to move up to 2 inches, even though he succeeded against the Fusilier's Attacks.
+{{update | PDF 2.1, July 2023}}
+{{erratahighlight}}However, the Mine hits the Zhanshi. The Mine is a Deployable Weapon and it imposes a -3 MOD to Dodge.{{erratahighlight-end}} Therefore, the Zhanshi would only avoid the mine if his die’s result was {{erratahighlight}}7{{erratahighlight-end}} or less. By failing to Dodge the Mine’s impact, the Zhanshi will also be unable to move up to 2 inches, even though he succeeded against the Fusilier’s Attacks.
+{{update-end}}
+{{original}}
+{{originalhighlight}}But the Mine hits the Zhanshi, since the Mine is a Deployable Weapon and it imposes a -3 MOD to Dodge. In addition, the Zhanshi lacks LoF to the Mine, so an additional -3 MOD will be applied due to Dodging a Template Weapon without LoF (a total of PH -6).{{originalhighlight-end}} Therefore, the Zhanshi would only avoid the mine if his die's result was {{originalhighlight}}4{{originalhighlight-end}} or less. By failing to Dodge the Mine's impact, the Zhanshi will also be unable to move up to 2 inches, even though he succeeded against the Fusilier's Attacks.
+{{original-end}}
 {{greybox-end}}
 
 

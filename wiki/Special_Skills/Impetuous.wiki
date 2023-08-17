@@ -10,8 +10,37 @@ Impetuous Troopers are always eager to engage in combat.
 {{skillbox |black| IMPETUOUS | AUTOMATIC SKILL }}
 {{skill-label | Impetuous Phase, Obligatory. }}
 {{effects}}
-{{seefaq | Some Effects only apply during the Impetuous activation.}}
-* During the Turn's [[Impetuous Phase]], the player '''may''' activate each Impetuous Trooper once, '''without''' spending an Order.
+{{update | PDF 2.1, July 2023}}
+* During the Turn's [[Tactical Phase]], the player will place an Impetuous Token next to every Trooper with this Special Skill. This Token will be removed when the Trooper is activated, or at the end of the Impetuous Phase for any Trooper that has not been activated. 
+* {{erratahighlight}}During the Turn’s Impetuous Phase, the player may activate each Impetuous Trooper once, without spending an Order. However, removing the Impetuous Token to activate the Trooper counts as spending an Order on them, applying the Order Expenditure Sequence normally.{{erratahighlight-end}}
+* Impetuous activations only allow a fixed set of Skill combinations:
+** [[Move]] + [[Attack]] (or Attack + Move).
+** Move + [[Dodge]] (or Dodge + Move).
+** Move + [[Idle]] (or Idle + Move).
+** Move + Move.
+** [[Jump]].
+** [[Climb]].
+** {{erratahighlight}}[[Berserk]].{{erratahighlight-end}}
+** {{erratahighlight}}Skills with the [[Airborne Deployment]] Label.{{erratahighlight-end}}
+** {{erratahighlight}}Those Skills that specify they can be used during the Impetuous Phase{{erratahighlight-end}}
+* {{erratahighlight}}In the Impetuous Phase, when{{erratahighlight-end}} declaring Move, Jump, or Climb, the Trooper '''must''' always move the '''full''' corresponding [[MOV]] value, attempting to perform the first of these options that the Trooper can complete:
+** Enter [[Silhouette contact]] with an Enemy Trooper during this move. 
+** Go towards the Enemy Deployment Zone without doubling back from the movement's starting position{{erratahighlight}}, applying the following priorities:{{erratahighlight-end}}
+*** {{erratahighlight}}1. Use their complete MOV value.{{erratahighlight-end}}
+*** {{erratahighlight}}2. End their movement as far as possible from their starting point.{{erratahighlight-end}}
+*** {{erratahighlight}}3. End their movement as close as possible to the enemy Deployment Zone.{{erratahighlight-end}}
+** {{erratahighlight}}Once inside the enemy Deployment Zone, the Trooper can move normally as long as they stay inside it.{{erratahighlight-end}}
+* {{erratahighlight}}In the Impetuous Phase, when declaring Move, Jump, or Climb, the Trooper must cancel the Prone State, and move the full corresponding MOV value.{{erratahighlight-end}}
+* Troopers may only move a shorter distance if they reach Silhouette contact with an Enemy or a [[Special Terrain]] area hinders their Movement or forces them to declare Jump or Climb.
+* An Impetuous Trooper that has not been deployed on the gaming table due to an Airborne Deployment Special Skill may use their Impetuous activation to Deploy during the Impetuous Phase of their player's Turn.
+* {{erratahighlight}}In both the Impetuous Phase and Orders Phase,{{erratahighlight-end}} Impetuous Troopers '''cannot benefit from [[Partial Cover]]'''.
+* {{erratahighlight}}In both the Impetuous Phase and Orders Phase, Impetuous Troopers cannot enter Marker States (Camouflaged, Impersonation...), or any other States that say so.{{erratahighlight-end}}
+* Players in [[Retreat! situation]] do not carry out the Impetuous Phase during their Turn. 
+{{update-end}}
+{{original}}
+{{originalhighlight}}{{seefaq | Some Effects only apply during the Impetuous activation.}}
+{{originalhighlight-end}}
+* {{originalhighlight}}During the Turn's [[Impetuous Phase]], the player '''may''' activate each Impetuous Trooper once, '''without''' spending an Order.{{originalhighlight-end}}
 * During the Turn's [[Tactical Phase]], the player will place an Impetuous Token next to every Trooper with this Special Skill. This Token will be removed when the Trooper is activated, or at the end of the Impetuous Phase for any Trooper that has not been activated. 
 * Impetuous activations only allow a fixed set of Skill combinations:
 ** [[Move]] + [[Attack]] (or Attack + Move).
@@ -20,15 +49,16 @@ Impetuous Troopers are always eager to engage in combat.
 ** Move + Move.
 ** [[Jump]].
 ** [[Climb]].
-** [[Airborne Deployment]] Skills. {{seefaq | The Trooper's normal Order will be lost.}}
+** {{originalhighlight}}[[Airborne Deployment]] Skills. {{seefaq | The Trooper's normal Order will be lost.}}{{originalhighlight-end}}
 * When declaring Move, Jump, or Climb, the Trooper '''must''' always move the '''full''' corresponding [[MOV]] value, attempting to perform the first of these options that the Trooper can complete:
 :# Enter [[Silhouette contact]] with an Enemy Trooper during this move. 
-:# Go towards the Enemy Deployment Zone without doubling back from the movement's starting position. {{seefaq}}
+:# Go towards the Enemy Deployment Zone without doubling back from the movement's starting position. {{originalhighlight}}{{seefaq}}{{originalhighlight-end}}
 * Troopers may only move a shorter distance if they reach Silhouette contact with an Enemy or a [[Special Terrain]] area hinders their Movement or forces them to declare Jump or Climb.
 * An Impetuous Trooper that has not been deployed on the gaming table due to an Airborne Deployment Special Skill may use their Impetuous activation to Deploy during the Impetuous Phase of their player's Turn.
-* Impetuous Troopers '''cannot benefit from [[Partial Cover]] MODs'''.
+* Impetuous Troopers '''cannot benefit from [[Partial Cover]] {{originalhighlight}}MODs{{originalhighlight-end}}'''.
 * Players in [[Retreat! situation]] do not carry out the Impetuous Phase during their Turn. 
-* Impetuous Troopers cannot enter [[Marker]] States ([[Camouflaged]], [[Impersonation]]...), or any other States that say so.
+* {{originalhighlight}}Impetuous Troopers cannot enter [[Marker]] States ([[Camouflaged]], [[Impersonation]]...), or any other States that say so.{{originalhighlight-end}}
+{{original-end}}
 
 
 == FAQs & Errata ==
