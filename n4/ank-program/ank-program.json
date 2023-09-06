@@ -1,5 +1,5 @@
 {
-  "version": "7.23215.210",
+  "version": "7.23249.223",
   "units": [
     {
       "id": 1728,
@@ -697,6 +697,582 @@
           2,
           8,
           9,
+          35
+        ]
+      },
+      "factions": [
+        799
+      ]
+    },
+    {
+      "id": 1729,
+      "idArmy": 1729,
+      "canonical": 799,
+      "isc": "Reinf. Sophotects",
+      "iscAbbr": null,
+      "name": "REINF: SOPHOTECTS",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Reinf. Sophotects",
+          "profiles": [
+            {
+              "bts": 0,
+              "cc": 13,
+              "move": [
+                15,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 1,
+              "ava": 1,
+              "str": false,
+              "bs": 11,
+              "s": 2,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 237,
+                  "order": 1
+                }
+              ],
+              "w": 1,
+              "ph": 11,
+              "name": "REINF: SOPHOTECTS",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-sophotects-1-1.svg",
+              "id": 1,
+              "arm": 2,
+              "weapons": [],
+              "chars": [
+                3,
+                5,
+                20
+              ],
+              "wip": 15,
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 84,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 49,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "id": 86,
+                  "order": 3
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 31,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 106,
+                  "order": 1
+                }
+              ],
+              "name": "SOPHOTECT REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "extra": null,
+                  "id": 33,
+                  "order": 1
+                },
+                {
+                  "extra": null,
+                  "id": 17,
+                  "order": 2
+                },
+                {
+                  "extra": null,
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "extra": null,
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 53,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 28,
+              "equip": [],
+              "name": "SOPHOTECT REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "extra": null,
+                  "id": 26,
+                  "order": 1
+                },
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 72,
+                  "order": 2
+                },
+                {
+                  "extra": null,
+                  "id": 17,
+                  "order": 3
+                },
+                {
+                  "extra": null,
+                  "id": 69,
+                  "order": 4
+                },
+                {
+                  "extra": null,
+                  "id": 5,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 8
+        }
+      ],
+      "options": [],
+      "slug": "reinf-sophotects",
+      "filters": {
+        "categories": [
+          8
+        ],
+        "skills": [
+          49,
+          53,
+          84,
+          86
+        ],
+        "equip": [
+          106,
+          237
+        ],
+        "chars": [
+          3,
+          5,
+          20
+        ],
+        "types": [
+          1
+        ],
+        "weapons": [
+          5,
+          17,
+          26,
+          33,
+          69,
+          72
+        ],
+        "ammunition": [
+          2,
+          3,
+          13,
+          29
+        ]
+      },
+      "factions": [
+        799
+      ]
+    },
+    {
+      "id": 1727,
+      "idArmy": 1727,
+      "canonical": 799,
+      "isc": "Reinf. Dasyus",
+      "iscAbbr": null,
+      "name": "REINF: DASYUS",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Reinf. Dasyus",
+          "profiles": [
+            {
+              "bts": 0,
+              "cc": 14,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 6,
+              "ava": 2,
+              "str": false,
+              "bs": 12,
+              "s": 2,
+              "equip": [],
+              "w": 1,
+              "ph": 13,
+              "name": "REINF: DASYUS",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-dasyus-1-1.svg",
+              "id": 1,
+              "arm": 1,
+              "weapons": [],
+              "chars": [
+                3,
+                5,
+                20
+              ],
+              "wip": 14,
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 84,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 164,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "id": 86,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "id": 211,
+                  "order": 4
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    33
+                  ],
+                  "id": 58,
+                  "order": 5
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    7
+                  ],
+                  "id": 28,
+                  "order": 6
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 28,
+              "equip": [],
+              "name": "DASYU REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 26,
+                  "order": 1
+                },
+                {
+                  "id": 196,
+                  "order": 2
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 30,
+              "equip": [],
+              "name": "DASYU REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "id": 36,
+                  "order": 1
+                },
+                {
+                  "id": 65,
+                  "order": 2
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "1.5",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 30,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 145,
+                  "order": 1
+                }
+              ],
+              "name": "DASYU REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 3,
+              "weapons": [
+                {
+                  "id": 26,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 1000,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 28,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 100,
+                  "order": 1
+                }
+              ],
+              "name": "DASYU REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 4,
+              "weapons": [
+                {
+                  "id": 77,
+                  "order": 1
+                },
+                {
+                  "id": 65,
+                  "order": 2
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0.5",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 1000,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 25,
+              "equip": [],
+              "name": "DASYU REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 5,
+              "weapons": [
+                {
+                  "id": 77,
+                  "order": 1
+                },
+                {
+                  "id": 72,
+                  "order": 2
+                },
+                {
+                  "id": 196,
+                  "order": 3
+                },
+                {
+                  "id": 69,
+                  "order": 4
+                },
+                {
+                  "id": 5,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 59,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 5
+        }
+      ],
+      "options": [],
+      "slug": "reinf-dasyus",
+      "filters": {
+        "categories": [
+          5
+        ],
+        "skills": [
+          28,
+          58,
+          59,
+          84,
+          86,
+          164,
+          211,
+          1000
+        ],
+        "equip": [
+          100,
+          145
+        ],
+        "chars": [
+          3,
+          5,
+          20
+        ],
+        "types": [
+          6
+        ],
+        "weapons": [
+          5,
+          26,
+          36,
+          65,
+          69,
+          72,
+          77,
+          196
+        ],
+        "ammunition": [
+          2,
+          3,
+          8,
+          9,
+          29,
           35
         ]
       },
@@ -1512,582 +2088,6 @@
       "factions": [
         799,
         1099
-      ]
-    },
-    {
-      "id": 1729,
-      "idArmy": 1729,
-      "canonical": 799,
-      "isc": "Reinf. Sophotects",
-      "iscAbbr": null,
-      "name": "REINF: SOPHOTECTS",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Reinf. Sophotects",
-          "profiles": [
-            {
-              "bts": 0,
-              "cc": 13,
-              "move": [
-                15,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 1,
-              "ava": 1,
-              "str": false,
-              "bs": 11,
-              "s": 2,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 237,
-                  "order": 1
-                }
-              ],
-              "w": 1,
-              "ph": 11,
-              "name": "REINF: SOPHOTECTS",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-sophotects-1-1.svg",
-              "id": 1,
-              "arm": 2,
-              "weapons": [],
-              "chars": [
-                3,
-                5,
-                20
-              ],
-              "wip": 15,
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 84,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "id": 49,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "id": 86,
-                  "order": 3
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 31,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 106,
-                  "order": 1
-                }
-              ],
-              "name": "SOPHOTECT REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "extra": null,
-                  "id": 33,
-                  "order": 1
-                },
-                {
-                  "extra": null,
-                  "id": 17,
-                  "order": 2
-                },
-                {
-                  "extra": null,
-                  "id": 69,
-                  "order": 3
-                },
-                {
-                  "extra": null,
-                  "id": 5,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 53,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 28,
-              "equip": [],
-              "name": "SOPHOTECT REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "extra": null,
-                  "id": 26,
-                  "order": 1
-                },
-                {
-                  "extra": [
-                    8
-                  ],
-                  "id": 72,
-                  "order": 2
-                },
-                {
-                  "extra": null,
-                  "id": 17,
-                  "order": 3
-                },
-                {
-                  "extra": null,
-                  "id": 69,
-                  "order": 4
-                },
-                {
-                  "extra": null,
-                  "id": 5,
-                  "order": 5
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 8
-        }
-      ],
-      "options": [],
-      "slug": "reinf-sophotects",
-      "filters": {
-        "categories": [
-          8
-        ],
-        "skills": [
-          49,
-          53,
-          84,
-          86
-        ],
-        "equip": [
-          106,
-          237
-        ],
-        "chars": [
-          3,
-          5,
-          20
-        ],
-        "types": [
-          1
-        ],
-        "weapons": [
-          5,
-          17,
-          26,
-          33,
-          69,
-          72
-        ],
-        "ammunition": [
-          2,
-          3,
-          13,
-          29
-        ]
-      },
-      "factions": [
-        799
-      ]
-    },
-    {
-      "id": 1727,
-      "idArmy": 1727,
-      "canonical": 799,
-      "isc": "Reinf. Dasyus",
-      "iscAbbr": null,
-      "name": "REINF: DASYUS",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Reinf. Dasyus",
-          "profiles": [
-            {
-              "bts": 0,
-              "cc": 14,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 6,
-              "ava": 2,
-              "str": false,
-              "bs": 12,
-              "s": 2,
-              "equip": [],
-              "w": 1,
-              "ph": 13,
-              "name": "REINF: DASYUS",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-dasyus-1-1.svg",
-              "id": 1,
-              "arm": 1,
-              "weapons": [],
-              "chars": [
-                3,
-                5,
-                20
-              ],
-              "wip": 14,
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 84,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "id": 164,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "id": 86,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "id": 211,
-                  "order": 4
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    33
-                  ],
-                  "id": 58,
-                  "order": 5
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    7
-                  ],
-                  "id": 28,
-                  "order": 6
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 28,
-              "equip": [],
-              "name": "DASYU REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 26,
-                  "order": 1
-                },
-                {
-                  "id": 196,
-                  "order": 2
-                },
-                {
-                  "id": 69,
-                  "order": 3
-                },
-                {
-                  "id": 5,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 30,
-              "equip": [],
-              "name": "DASYU REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "id": 36,
-                  "order": 1
-                },
-                {
-                  "id": 65,
-                  "order": 2
-                },
-                {
-                  "id": 69,
-                  "order": 3
-                },
-                {
-                  "id": 5,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "1.5",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 30,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 145,
-                  "order": 1
-                }
-              ],
-              "name": "DASYU REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 3,
-              "weapons": [
-                {
-                  "id": 26,
-                  "order": 1
-                },
-                {
-                  "id": 69,
-                  "order": 2
-                },
-                {
-                  "id": 5,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 1000,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 28,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 100,
-                  "order": 1
-                }
-              ],
-              "name": "DASYU REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 4,
-              "weapons": [
-                {
-                  "id": 77,
-                  "order": 1
-                },
-                {
-                  "id": 65,
-                  "order": 2
-                },
-                {
-                  "id": 69,
-                  "order": 3
-                },
-                {
-                  "id": 5,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "0.5",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 1000,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 25,
-              "equip": [],
-              "name": "DASYU REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 5,
-              "weapons": [
-                {
-                  "id": 77,
-                  "order": 1
-                },
-                {
-                  "id": 72,
-                  "order": 2
-                },
-                {
-                  "id": 196,
-                  "order": 3
-                },
-                {
-                  "id": 69,
-                  "order": 4
-                },
-                {
-                  "id": 5,
-                  "order": 5
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 59,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 5
-        }
-      ],
-      "options": [],
-      "slug": "reinf-dasyus",
-      "filters": {
-        "categories": [
-          5
-        ],
-        "skills": [
-          28,
-          58,
-          59,
-          84,
-          86,
-          164,
-          211,
-          1000
-        ],
-        "equip": [
-          100,
-          145
-        ],
-        "chars": [
-          3,
-          5,
-          20
-        ],
-        "types": [
-          6
-        ],
-        "weapons": [
-          5,
-          26,
-          36,
-          65,
-          69,
-          72,
-          77,
-          196
-        ],
-        "ammunition": [
-          2,
-          3,
-          8,
-          9,
-          29,
-          35
-        ]
-      },
-      "factions": [
-        799
       ]
     },
     {
@@ -3404,7 +3404,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 20
+                  "id": 11
                 }
               ]
             },
@@ -3461,7 +3461,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 20,
+                  "id": 11,
                   "q": 2
                 }
               ]
@@ -3558,7 +3558,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 20
+                  "id": 11
                 }
               ]
             },
@@ -3611,7 +3611,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 20,
+                  "id": 11,
                   "q": 2
                 }
               ]
@@ -3708,7 +3708,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 20
+                  "id": 11
                 }
               ]
             },
@@ -3761,7 +3761,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 20,
+                  "id": 11,
                   "q": 2
                 }
               ]
@@ -3932,7 +3932,7 @@
   "filters": {
     "peripheral": [
       {
-        "id": 20,
+        "id": 11,
         "name": "KIRANBOT"
       }
     ],
@@ -4812,6 +4812,26 @@
       "category": 5
     },
     {
+      "id": 1729,
+      "isc": "Reinf. Sophotects",
+      "idArmy": 1729,
+      "name": "REINF: SOPHOTECTS",
+      "slug": "reinf-sophotects",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-sophotects-1-1.svg",
+      "type": 1,
+      "category": 8
+    },
+    {
+      "id": 1727,
+      "isc": "Reinf. Dasyus",
+      "idArmy": 1727,
+      "name": "REINF: DASYUS",
+      "slug": "reinf-dasyus",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-dasyus-1-1.svg",
+      "type": 6,
+      "category": 5
+    },
+    {
       "id": 1724,
       "isc": "Reinf. Dawon Tacbots",
       "idArmy": 1724,
@@ -4840,26 +4860,6 @@
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-yudbots-1-1.svg",
       "type": 5,
       "category": 8
-    },
-    {
-      "id": 1729,
-      "isc": "Reinf. Sophotects",
-      "idArmy": 1729,
-      "name": "REINF: SOPHOTECTS",
-      "slug": "reinf-sophotects",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-sophotects-1-1.svg",
-      "type": 1,
-      "category": 8
-    },
-    {
-      "id": 1727,
-      "isc": "Reinf. Dasyus",
-      "idArmy": 1727,
-      "name": "REINF: DASYUS",
-      "slug": "reinf-dasyus",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-dasyus-1-1.svg",
-      "type": 6,
-      "category": 5
     },
     {
       "id": 1723,

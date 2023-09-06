@@ -1,5 +1,5 @@
 {
-  "version": "7.23216.374",
+  "version": "7.23249.223",
   "units": [
     {
       "id": 1743,
@@ -664,6 +664,572 @@
       ]
     },
     {
+      "id": 1739,
+      "idArmy": 1739,
+      "canonical": 599,
+      "isc": "Reinf.  Jelena Kovač, Securitate DI",
+      "iscAbbr": null,
+      "name": "REINF: JELENA KOVAČ, Securitate DI",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Reinf.  Jelena Kovač, Securitate DI",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 15,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 1,
+              "ava": 1,
+              "str": false,
+              "bs": 12,
+              "s": 2,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 117,
+                  "order": 1
+                }
+              ],
+              "w": 1,
+              "ph": 10,
+              "name": "REINF: JELENA KOVAČ, Securitate DI",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-jelena-kovac-securitate-di-1-1.svg",
+              "id": 1,
+              "arm": 1,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                5
+              ],
+              "wip": 14,
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 242,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 189,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "id": 65,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "id": 213,
+                  "order": 4
+                },
+                {
+                  "q": 1,
+                  "id": 88,
+                  "order": 5
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 23,
+              "equip": [],
+              "name": "JELENA KOVAČ REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "IRREGULAR",
+                  "list": 0,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "extra": null,
+                  "id": 103,
+                  "order": 1
+                },
+                {
+                  "extra": null,
+                  "id": 80,
+                  "order": 2
+                },
+                {
+                  "extra": null,
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "extra": null,
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 23,
+              "equip": [],
+              "name": "JELENA KOVAČ REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "IRREGULAR",
+                  "list": 0,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "extra": null,
+                  "id": 41,
+                  "order": 1
+                },
+                {
+                  "extra": null,
+                  "id": 80,
+                  "order": 2
+                },
+                {
+                  "extra": null,
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "extra": null,
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 10
+        }
+      ],
+      "options": [],
+      "slug": "reinf-jelena-kovac-securitate-di",
+      "filters": {
+        "categories": [
+          10
+        ],
+        "skills": [
+          65,
+          88,
+          189,
+          213,
+          242
+        ],
+        "equip": [
+          117
+        ],
+        "chars": [
+          1,
+          3,
+          5
+        ],
+        "types": [
+          1
+        ],
+        "weapons": [
+          5,
+          41,
+          69,
+          80,
+          103
+        ],
+        "ammunition": [
+          2,
+          3,
+          9,
+          35
+        ]
+      },
+      "factions": [
+        599
+      ]
+    },
+    {
+      "id": 1734,
+      "idArmy": 1734,
+      "canonical": 599,
+      "isc": "Reinf. Prowlers",
+      "iscAbbr": null,
+      "name": "REINF: PROWLERS",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Reinf. Prowlers",
+          "profiles": [
+            {
+              "bts": 6,
+              "cc": 16,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 2,
+              "ava": 2,
+              "str": false,
+              "bs": 12,
+              "s": 2,
+              "equip": [],
+              "w": 1,
+              "ph": 11,
+              "name": "REINF: PROWLERS",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-prowlers-1-1.svg",
+              "id": 1,
+              "arm": 2,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                5
+              ],
+              "wip": 14,
+              "skills": [
+                {
+                  "q": 1,
+                  "extra": [
+                    30
+                  ],
+                  "id": 162,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    6
+                  ],
+                  "id": 28,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "id": 189,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "id": 213,
+                  "order": 4
+                },
+                {
+                  "q": 1,
+                  "id": 164,
+                  "order": 5
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    33
+                  ],
+                  "id": 58,
+                  "order": 6
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 28,
+              "equip": [],
+              "name": "PROWLER REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "IRREGULAR",
+                  "list": 0,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "extra": null,
+                  "id": 33,
+                  "order": 1
+                },
+                {
+                  "extra": null,
+                  "id": 56,
+                  "order": 2
+                },
+                {
+                  "extra": null,
+                  "id": 50,
+                  "order": 3
+                },
+                {
+                  "extra": null,
+                  "id": 69,
+                  "order": 4
+                },
+                {
+                  "extra": null,
+                  "id": 5,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 25,
+              "equip": [],
+              "name": "PROWLER REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "IRREGULAR",
+                  "list": 0,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "extra": null,
+                  "id": 26,
+                  "order": 1
+                },
+                {
+                  "extra": null,
+                  "id": 17,
+                  "order": 2
+                },
+                {
+                  "extra": null,
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "extra": null,
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 31,
+              "equip": [],
+              "name": "PROWLER REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "IRREGULAR",
+                  "list": 0,
+                  "total": 1
+                }
+              ],
+              "id": 3,
+              "weapons": [
+                {
+                  "extra": null,
+                  "id": 74,
+                  "order": 1
+                },
+                {
+                  "extra": null,
+                  "id": 65,
+                  "order": 2
+                },
+                {
+                  "extra": null,
+                  "id": 17,
+                  "order": 3
+                },
+                {
+                  "extra": null,
+                  "id": 69,
+                  "order": 4
+                },
+                {
+                  "extra": null,
+                  "id": 5,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "1.5",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 28,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 145,
+                  "order": 1
+                }
+              ],
+              "name": "PROWLER REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "IRREGULAR",
+                  "list": 0,
+                  "total": 1
+                }
+              ],
+              "id": 4,
+              "weapons": [
+                {
+                  "extra": null,
+                  "id": 26,
+                  "order": 1
+                },
+                {
+                  "extra": null,
+                  "id": 17,
+                  "order": 2
+                },
+                {
+                  "extra": null,
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "extra": null,
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 1000,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 4
+        }
+      ],
+      "options": [],
+      "slug": "reinf-prowlers",
+      "filters": {
+        "categories": [
+          4
+        ],
+        "skills": [
+          28,
+          58,
+          162,
+          164,
+          189,
+          213,
+          1000
+        ],
+        "equip": [
+          145
+        ],
+        "chars": [
+          1,
+          3,
+          5
+        ],
+        "types": [
+          2
+        ],
+        "weapons": [
+          5,
+          17,
+          26,
+          33,
+          50,
+          56,
+          65,
+          69,
+          74
+        ],
+        "ammunition": [
+          2,
+          3,
+          13,
+          37
+        ]
+      },
+      "factions": [
+        599
+      ]
+    },
+    {
       "id": 1741,
       "idArmy": 1741,
       "canonical": 599,
@@ -1266,572 +1832,6 @@
           2,
           6,
           10,
-          37
-        ]
-      },
-      "factions": [
-        599
-      ]
-    },
-    {
-      "id": 1739,
-      "idArmy": 1739,
-      "canonical": 599,
-      "isc": "Reinf.  Jelena Kovač, Securitate DI",
-      "iscAbbr": null,
-      "name": "REINF: JELENA KOVAČ, Securitate DI",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Reinf.  Jelena Kovač, Securitate DI",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 15,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 1,
-              "ava": 1,
-              "str": false,
-              "bs": 12,
-              "s": 2,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 117,
-                  "order": 1
-                }
-              ],
-              "w": 1,
-              "ph": 10,
-              "name": "REINF: JELENA KOVAČ, Securitate DI",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-jelena-kovac-securitate-di-1-1.svg",
-              "id": 1,
-              "arm": 1,
-              "weapons": [],
-              "chars": [
-                1,
-                3,
-                5
-              ],
-              "wip": 14,
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 242,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "id": 189,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "id": 65,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "id": 213,
-                  "order": 4
-                },
-                {
-                  "q": 1,
-                  "id": 88,
-                  "order": 5
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 23,
-              "equip": [],
-              "name": "JELENA KOVAČ REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "IRREGULAR",
-                  "list": 0,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "extra": null,
-                  "id": 103,
-                  "order": 1
-                },
-                {
-                  "extra": null,
-                  "id": 80,
-                  "order": 2
-                },
-                {
-                  "extra": null,
-                  "id": 69,
-                  "order": 3
-                },
-                {
-                  "extra": null,
-                  "id": 5,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 23,
-              "equip": [],
-              "name": "JELENA KOVAČ REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "IRREGULAR",
-                  "list": 0,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "extra": null,
-                  "id": 41,
-                  "order": 1
-                },
-                {
-                  "extra": null,
-                  "id": 80,
-                  "order": 2
-                },
-                {
-                  "extra": null,
-                  "id": 69,
-                  "order": 3
-                },
-                {
-                  "extra": null,
-                  "id": 5,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 10
-        }
-      ],
-      "options": [],
-      "slug": "reinf-jelena-kovac-securitate-di",
-      "filters": {
-        "categories": [
-          10
-        ],
-        "skills": [
-          65,
-          88,
-          189,
-          213,
-          242
-        ],
-        "equip": [
-          117
-        ],
-        "chars": [
-          1,
-          3,
-          5
-        ],
-        "types": [
-          1
-        ],
-        "weapons": [
-          5,
-          41,
-          69,
-          80,
-          103
-        ],
-        "ammunition": [
-          2,
-          3,
-          9,
-          35
-        ]
-      },
-      "factions": [
-        599
-      ]
-    },
-    {
-      "id": 1734,
-      "idArmy": 1734,
-      "canonical": 599,
-      "isc": "Reinf. Prowlers",
-      "iscAbbr": null,
-      "name": "REINF: PROWLERS",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Reinf. Prowlers",
-          "profiles": [
-            {
-              "bts": 6,
-              "cc": 16,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 2,
-              "ava": 2,
-              "str": false,
-              "bs": 12,
-              "s": 2,
-              "equip": [],
-              "w": 1,
-              "ph": 11,
-              "name": "REINF: PROWLERS",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-prowlers-1-1.svg",
-              "id": 1,
-              "arm": 2,
-              "weapons": [],
-              "chars": [
-                1,
-                3,
-                5
-              ],
-              "wip": 14,
-              "skills": [
-                {
-                  "q": 1,
-                  "extra": [
-                    30
-                  ],
-                  "id": 162,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    6
-                  ],
-                  "id": 28,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "id": 189,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "id": 213,
-                  "order": 4
-                },
-                {
-                  "q": 1,
-                  "id": 164,
-                  "order": 5
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    33
-                  ],
-                  "id": 58,
-                  "order": 6
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 28,
-              "equip": [],
-              "name": "PROWLER REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "IRREGULAR",
-                  "list": 0,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "extra": null,
-                  "id": 33,
-                  "order": 1
-                },
-                {
-                  "extra": null,
-                  "id": 56,
-                  "order": 2
-                },
-                {
-                  "extra": null,
-                  "id": 50,
-                  "order": 3
-                },
-                {
-                  "extra": null,
-                  "id": 69,
-                  "order": 4
-                },
-                {
-                  "extra": null,
-                  "id": 5,
-                  "order": 5
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 25,
-              "equip": [],
-              "name": "PROWLER REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "IRREGULAR",
-                  "list": 0,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "extra": null,
-                  "id": 26,
-                  "order": 1
-                },
-                {
-                  "extra": null,
-                  "id": 17,
-                  "order": 2
-                },
-                {
-                  "extra": null,
-                  "id": 69,
-                  "order": 3
-                },
-                {
-                  "extra": null,
-                  "id": 5,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 31,
-              "equip": [],
-              "name": "PROWLER REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "IRREGULAR",
-                  "list": 0,
-                  "total": 1
-                }
-              ],
-              "id": 3,
-              "weapons": [
-                {
-                  "extra": null,
-                  "id": 74,
-                  "order": 1
-                },
-                {
-                  "extra": null,
-                  "id": 65,
-                  "order": 2
-                },
-                {
-                  "extra": null,
-                  "id": 17,
-                  "order": 3
-                },
-                {
-                  "extra": null,
-                  "id": 69,
-                  "order": 4
-                },
-                {
-                  "extra": null,
-                  "id": 5,
-                  "order": 5
-                }
-              ],
-              "chars": [],
-              "swc": "1.5",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 28,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 145,
-                  "order": 1
-                }
-              ],
-              "name": "PROWLER REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "IRREGULAR",
-                  "list": 0,
-                  "total": 1
-                }
-              ],
-              "id": 4,
-              "weapons": [
-                {
-                  "extra": null,
-                  "id": 26,
-                  "order": 1
-                },
-                {
-                  "extra": null,
-                  "id": 17,
-                  "order": 2
-                },
-                {
-                  "extra": null,
-                  "id": 69,
-                  "order": 3
-                },
-                {
-                  "extra": null,
-                  "id": 5,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 1000,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 4
-        }
-      ],
-      "options": [],
-      "slug": "reinf-prowlers",
-      "filters": {
-        "categories": [
-          4
-        ],
-        "skills": [
-          28,
-          58,
-          162,
-          164,
-          189,
-          213,
-          1000
-        ],
-        "equip": [
-          145
-        ],
-        "chars": [
-          1,
-          3,
-          5
-        ],
-        "types": [
-          2
-        ],
-        "weapons": [
-          5,
-          17,
-          26,
-          33,
-          50,
-          56,
-          65,
-          69,
-          74
-        ],
-        "ammunition": [
-          2,
-          3,
-          13,
           37
         ]
       },
@@ -4492,26 +4492,6 @@
       "category": 8
     },
     {
-      "id": 1741,
-      "isc": "Reinf. Spektrs",
-      "idArmy": 1741,
-      "name": "REINF: SPEKTRS",
-      "slug": "reinf-spektrs",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-spektrs-1-1.svg",
-      "type": 6,
-      "category": 3
-    },
-    {
-      "id": 1736,
-      "isc": "Reinf. Tsyklon Sputniks",
-      "idArmy": 1736,
-      "name": "REINF: TSYKLON Sputniks",
-      "slug": "reinf-tsyklon-sputniks",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-tsyklon-sputniks-1-1.svg",
-      "type": 5,
-      "category": 8
-    },
-    {
       "id": 1739,
       "isc": "Reinf.  Jelena Kovač, Securitate DI",
       "idArmy": 1739,
@@ -4530,6 +4510,26 @@
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-prowlers-1-1.svg",
       "type": 2,
       "category": 4
+    },
+    {
+      "id": 1741,
+      "isc": "Reinf. Spektrs",
+      "idArmy": 1741,
+      "name": "REINF: SPEKTRS",
+      "slug": "reinf-spektrs",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-spektrs-1-1.svg",
+      "type": 6,
+      "category": 3
+    },
+    {
+      "id": 1736,
+      "isc": "Reinf. Tsyklon Sputniks",
+      "idArmy": 1736,
+      "name": "REINF: TSYKLON Sputniks",
+      "slug": "reinf-tsyklon-sputniks",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-tsyklon-sputniks-1-1.svg",
+      "type": 5,
+      "category": 8
     },
     {
       "id": 1737,

@@ -1,0 +1,253 @@
+{
+  "id": 1566,
+  "idArmy": 1566,
+  "canonical": 101,
+  "isc": "ITS Motorized Bounty Hunters",
+  "iscAbbr": null,
+  "name": "ITS Motorized Bounty Hunters",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 11,
+      "isc": "ITS Motorized Bounty Hunters",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 1,
+          "ava": 1,
+          "bs": 12,
+          "bts": 3,
+          "cc": 17,
+          "chars": [
+            1,
+            4,
+            6,
+            28
+          ],
+          "equip": [
+            {
+              "id": 107,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/its-bike-recon-motorized-bounty-hunters-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            20,
+            15
+          ],
+          "ph": 10,
+          "s": 4,
+          "str": false,
+          "type": 1,
+          "w": 1,
+          "wip": 13,
+          "name": "ITS Motorized Bounty Hunters",
+          "notes": null,
+          "skills": [
+            {
+              "id": 25,
+              "order": 1,
+              "extra": [
+                277
+              ],
+              "q": 1
+            },
+            {
+              "id": 40,
+              "order": 2,
+              "extra": [
+                23
+              ],
+              "q": 1
+            },
+            {
+              "id": 256,
+              "order": 3,
+              "q": 1
+            },
+            {
+              "id": 28,
+              "order": 4,
+              "extra": [
+                6
+              ],
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "arm": 1,
+          "ava": -1,
+          "bs": 12,
+          "bts": 3,
+          "cc": 17,
+          "chars": [
+            1,
+            4,
+            6,
+            28
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/its-bike-recon-motorized-bounty-hunters-1-2.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 10,
+          "s": 2,
+          "str": false,
+          "type": 1,
+          "w": 1,
+          "wip": 13,
+          "name": "DISMOUNTED",
+          "notes": null,
+          "skills": [
+            {
+              "id": 25,
+              "order": 1,
+              "extra": [
+                277
+              ],
+              "q": 1
+            },
+            {
+              "id": 256,
+              "order": 2,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 0,
+          "orders": [
+            {
+              "type": "IRREGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "IMPETUOUS",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 10,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 26,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 2
+            },
+            {
+              "id": 71,
+              "order": 3
+            }
+          ],
+          "name": "BOUNTY HUNTER",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "its-motorized-bounty-hunters",
+  "filters": {
+    "categories": [
+      11
+    ],
+    "skills": [
+      25,
+      28,
+      40,
+      256
+    ],
+    "equip": [
+      107
+    ],
+    "chars": [
+      1,
+      4,
+      6,
+      28
+    ],
+    "types": [
+      1
+    ],
+    "weapons": [
+      26,
+      69,
+      71
+    ],
+    "ammunition": [
+      2,
+      3,
+      37
+    ]
+  },
+  "factions": [
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    201,
+    202,
+    204,
+    205,
+    301,
+    302,
+    303,
+    304,
+    305,
+    306,
+    401,
+    402,
+    403,
+    404,
+    501,
+    502,
+    503,
+    504,
+    601,
+    602,
+    603,
+    604,
+    701,
+    702,
+    703,
+    801,
+    902,
+    903,
+    904,
+    905,
+    906,
+    907,
+    908,
+    909,
+    1001,
+    1002
+  ],
+  "notes": "This Trooper is only available with the Mercenary Contractors Extra"
+}

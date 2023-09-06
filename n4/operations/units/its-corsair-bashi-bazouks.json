@@ -67,11 +67,6 @@
               "q": 1
             },
             {
-              "id": 189,
-              "order": 3,
-              "q": 1
-            },
-            {
               "id": 58,
               "order": 4,
               "extra": [
@@ -119,82 +114,6 @@
           "peripheral": []
         },
         {
-          "id": 2,
-          "chars": [],
-          "disabled": false,
-          "equip": [],
-          "minis": 1,
-          "orders": [
-            {
-              "type": "IRREGULAR",
-              "list": 1,
-              "total": 1
-            }
-          ],
-          "includes": [],
-          "points": 14,
-          "swc": "0",
-          "weapons": [
-            {
-              "id": 32,
-              "order": 1
-            },
-            {
-              "id": 98,
-              "order": 2
-            },
-            {
-              "id": 5,
-              "order": 3
-            }
-          ],
-          "name": "CORSAIR BASHI BAZOUK",
-          "skills": [],
-          "peripheral": []
-        },
-        {
-          "id": 3,
-          "chars": [],
-          "disabled": false,
-          "equip": [],
-          "minis": 1,
-          "orders": [
-            {
-              "type": "IRREGULAR",
-              "list": 1,
-              "total": 1
-            }
-          ],
-          "includes": [],
-          "points": 15,
-          "swc": "0",
-          "weapons": [
-            {
-              "id": 31,
-              "order": 1
-            },
-            {
-              "id": 28,
-              "order": 2
-            },
-            {
-              "id": 197,
-              "order": 3
-            },
-            {
-              "id": 69,
-              "order": 4
-            },
-            {
-              "id": 5,
-              "order": 5
-            }
-          ],
-          "name": "CORSAIR BASHI BAZOUK",
-          "skills": [],
-          "peripheral": []
-        },
-        {
           "id": 4,
           "chars": [],
           "disabled": false,
@@ -231,44 +150,6 @@
           "name": "CORSAIR BASHI BAZOUK",
           "skills": [],
           "peripheral": []
-        },
-        {
-          "id": 5,
-          "chars": [],
-          "disabled": false,
-          "equip": [],
-          "minis": 1,
-          "orders": [
-            {
-              "type": "IRREGULAR",
-              "list": 1,
-              "total": 1
-            }
-          ],
-          "includes": [],
-          "points": 15,
-          "swc": "0",
-          "weapons": [
-            {
-              "id": 31,
-              "order": 1
-            },
-            {
-              "id": 28,
-              "order": 2
-            },
-            {
-              "id": 69,
-              "order": 3
-            },
-            {
-              "id": 5,
-              "order": 4
-            }
-          ],
-          "name": "CORSAIR BASHI BAZOUK",
-          "skills": [],
-          "peripheral": []
         }
       ]
     }
@@ -282,7 +163,6 @@
     "skills": [
       33,
       58,
-      189,
       191
     ],
     "equip": [
@@ -301,19 +181,13 @@
     "weapons": [
       5,
       26,
-      28,
-      31,
-      32,
       69,
       77,
-      80,
-      98,
-      197
+      80
     ],
     "ammunition": [
       2,
       3,
-      14,
       35
     ]
   },
@@ -361,5 +235,5 @@
     1001,
     1002
   ],
-  "notes": "This Trooper is only available for those missions with the CORSAIR rule."
+  "notes": "This Trooper is only available with the Mercenary Contractors Extra"
 }
