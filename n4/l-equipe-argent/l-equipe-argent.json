@@ -1,340 +1,6 @@
 {
-  "version": "7.23249.223",
+  "version": "7.23275.186",
   "units": [
-    {
-      "id": 1630,
-      "idArmy": 1630,
-      "canonical": 399,
-      "isc": "Reinf. Moblots",
-      "iscAbbr": null,
-      "name": "REINF: 13éme MOBLOTS",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Reinf. Moblots",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 16,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 3,
-              "ava": 2,
-              "str": false,
-              "bs": 13,
-              "s": 2,
-              "equip": [],
-              "w": 1,
-              "ph": 12,
-              "name": "REINF: 13éme MOBLOTS",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-moblots-1-1.svg",
-              "id": 1,
-              "arm": 3,
-              "weapons": [],
-              "chars": [
-                2,
-                3,
-                5,
-                24
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "q": 1,
-                  "extra": [
-                    30
-                  ],
-                  "id": 201,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    6
-                  ],
-                  "id": 28,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    30
-                  ],
-                  "id": 162,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "id": 213,
-                  "order": 4
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    37
-                  ],
-                  "id": 58,
-                  "order": 5
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 33,
-              "equip": [],
-              "name": "MOBLOT REINF",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "IRREGULAR",
-                  "list": 0,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 2,
-                  "order": 1
-                },
-                {
-                  "id": 69,
-                  "order": 2
-                },
-                {
-                  "id": 5,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "1.5",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 35,
-              "equip": [],
-              "name": "MOBLOT REINF",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "IRREGULAR",
-                  "list": 0,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "extra": [
-                    4
-                  ],
-                  "id": 157,
-                  "order": 1
-                },
-                {
-                  "id": 69,
-                  "order": 2
-                },
-                {
-                  "id": 5,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "1.5",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 33,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 238,
-                  "order": 1
-                }
-              ],
-              "name": "MOBLOT REINF",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "IRREGULAR",
-                  "list": 0,
-                  "total": 1
-                }
-              ],
-              "id": 3,
-              "weapons": [
-                {
-                  "id": 32,
-                  "order": 1
-                },
-                {
-                  "id": 28,
-                  "order": 2
-                },
-                {
-                  "id": 197,
-                  "order": 3
-                },
-                {
-                  "id": 17,
-                  "order": 4
-                },
-                {
-                  "id": 69,
-                  "order": 5
-                },
-                {
-                  "id": 5,
-                  "order": 6
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 49,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 29,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 106,
-                  "order": 1
-                }
-              ],
-              "name": "MOBLOT REINF",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "IRREGULAR",
-                  "list": 0,
-                  "total": 1
-                }
-              ],
-              "id": 4,
-              "weapons": [
-                {
-                  "id": 26,
-                  "order": 1
-                },
-                {
-                  "id": 69,
-                  "order": 2
-                },
-                {
-                  "id": 5,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 64,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 4
-        }
-      ],
-      "options": [],
-      "slug": "reinf-moblots",
-      "filters": {
-        "categories": [
-          4
-        ],
-        "skills": [
-          28,
-          49,
-          58,
-          64,
-          162,
-          201,
-          213
-        ],
-        "equip": [
-          106,
-          238
-        ],
-        "chars": [
-          2,
-          3,
-          5,
-          24
-        ],
-        "types": [
-          3
-        ],
-        "weapons": [
-          2,
-          5,
-          17,
-          26,
-          28,
-          32,
-          69,
-          157,
-          197
-        ],
-        "ammunition": [
-          2,
-          3,
-          13,
-          14
-        ]
-      },
-      "factions": [
-        399
-      ]
-    },
     {
       "id": 1625,
       "idArmy": 1625,
@@ -1585,19 +1251,19 @@
       ]
     },
     {
-      "id": 1626,
-      "idArmy": 1626,
+      "id": 1630,
+      "idArmy": 1630,
       "canonical": 399,
-      "isc": "Reinf. Loup-Garous ",
+      "isc": "Reinf. Moblots",
       "iscAbbr": null,
-      "name": "REINF: LOUP-GAROUS, Groupe Mobile d´Action Spéciale",
+      "name": "REINF: 13éme MOBLOTS",
       "profileGroups": [
         {
           "notes": null,
-          "isc": "Reinf. Loup-Garous ",
+          "isc": "Reinf. Moblots",
           "profiles": [
             {
-              "bts": 0,
+              "bts": 3,
               "cc": 16,
               "move": [
                 10,
@@ -1605,337 +1271,42 @@
               ],
               "notes": null,
               "includes": [],
-              "type": 1,
-              "ava": 5,
+              "type": 3,
+              "ava": 2,
               "str": false,
-              "bs": 12,
+              "bs": 13,
               "s": 2,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 117,
-                  "order": 1
-                }
-              ],
+              "equip": [],
               "w": 1,
-              "ph": 11,
-              "name": "REINF: LOUP-GAROUS, Groupe Mobile d´Action Spéciale",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-loup-garous-1-1.svg",
-              "id": 1,
-              "arm": 2,
-              "weapons": [],
-              "chars": [
-                2,
-                3,
-                5
-              ],
-              "wip": 13,
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 21,
-              "equip": [],
-              "name": "LOUP-GAROU REINF",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 43,
-                  "order": 1
-                },
-                {
-                  "id": 69,
-                  "order": 2
-                },
-                {
-                  "id": 5,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 19,
-              "equip": [],
-              "name": "LOUP-GAROU REINF",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "id": 26,
-                  "order": 1
-                },
-                {
-                  "id": 50,
-                  "order": 2
-                },
-                {
-                  "id": 69,
-                  "order": 3
-                },
-                {
-                  "id": 5,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 25,
-              "equip": [],
-              "name": "LOUP-GAROU REINF",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 3,
-              "weapons": [
-                {
-                  "id": 43,
-                  "order": 1
-                },
-                {
-                  "id": 194,
-                  "order": 2
-                },
-                {
-                  "id": 69,
-                  "order": 3
-                },
-                {
-                  "id": 5,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "1",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 20,
-              "equip": [],
-              "name": "LOUP-GAROU REINF",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 4,
-              "weapons": [
-                {
-                  "id": 34,
-                  "order": 1
-                },
-                {
-                  "id": 69,
-                  "order": 2
-                },
-                {
-                  "id": 5,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "0.5",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 21,
-              "equip": [],
-              "name": "LOUP-GAROU REINF",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 5,
-              "weapons": [
-                {
-                  "id": 206,
-                  "order": 1
-                },
-                {
-                  "id": 69,
-                  "order": 2
-                },
-                {
-                  "id": 5,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "1",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 3
-        }
-      ],
-      "options": [],
-      "slug": "reinf-loup-garous",
-      "filters": {
-        "categories": [
-          3
-        ],
-        "skills": [],
-        "equip": [
-          117
-        ],
-        "chars": [
-          2,
-          3,
-          5
-        ],
-        "types": [
-          1
-        ],
-        "weapons": [
-          5,
-          26,
-          34,
-          43,
-          50,
-          69,
-          194,
-          206
-        ],
-        "ammunition": [
-          2,
-          3,
-          8,
-          37,
-          38
-        ]
-      },
-      "factions": [
-        399
-      ]
-    },
-    {
-      "id": 1634,
-      "idArmy": 1634,
-      "canonical": 399,
-      "isc": "Reinf. Wolfgang Amadeus Wolff, Wulver Bounty Hunter",
-      "iscAbbr": "Reinf. Wolfgang Amadeus Wolff",
-      "name": "REINF: WOLFGANG AMADEUS WOLFF, Wulver Bounty Hunter",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Reinf. Wolfgang Amadeus Wolff, Wulver Bounty Hunter",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 22,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 7,
-              "ava": 1,
-              "str": false,
-              "bs": 12,
-              "s": 2,
-              "equip": [],
-              "w": 2,
-              "ph": 14,
-              "name": "REINF: WOLFGANG AMADEUS WOLFF, Wulver Bounty Hunter",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-wolfgang-amadeus-wolff-wulver-bounty-hunter-1-1.svg",
+              "ph": 12,
+              "name": "REINF: 13éme MOBLOTS",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-moblots-1-1.svg",
               "id": 1,
               "arm": 3,
               "weapons": [],
               "chars": [
                 2,
-                3
+                3,
+                5,
+                24
               ],
               "wip": 13,
               "skills": [
                 {
                   "q": 1,
-                  "id": 250,
+                  "extra": [
+                    30
+                  ],
+                  "id": 201,
                   "order": 1
                 },
                 {
                   "q": 1,
-                  "id": 21,
+                  "extra": [
+                    6
+                  ],
+                  "id": 28,
                   "order": 2
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    1
-                  ],
-                  "id": 24,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "id": 84,
-                  "order": 4
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    23
-                  ],
-                  "id": 40,
-                  "order": 5
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    1
-                  ],
-                  "id": 40,
-                  "order": 6
                 },
                 {
                   "q": 1,
@@ -1943,20 +1314,20 @@
                     30
                   ],
                   "id": 162,
-                  "order": 7
+                  "order": 3
                 },
                 {
                   "q": 1,
-                  "id": 82,
-                  "order": 8
+                  "id": 213,
+                  "order": 4
                 },
                 {
                   "q": 1,
                   "extra": [
-                    34
+                    37
                   ],
                   "id": 58,
-                  "order": 9
+                  "order": 5
                 }
               ],
               "peripheral": []
@@ -1966,93 +1337,247 @@
             {
               "includes": [],
               "minis": 1,
-              "points": 35,
+              "points": 33,
               "equip": [],
-              "name": "WOLFGANG AMADEUS REINF",
+              "name": "MOBLOT REINF",
               "disabled": false,
               "orders": [
                 {
                   "type": "REGULAR",
                   "list": 1,
                   "total": 1
+                },
+                {
+                  "type": "IRREGULAR",
+                  "list": 0,
+                  "total": 1
                 }
               ],
               "id": 1,
               "weapons": [
                 {
-                  "extra": [
-                    8
-                  ],
-                  "id": 41,
+                  "id": 2,
                   "order": 1
                 },
                 {
-                  "id": 80,
+                  "id": 69,
                   "order": 2
                 },
                 {
-                  "id": 107,
+                  "id": 5,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "1.5",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 35,
+              "equip": [],
+              "name": "MOBLOT REINF",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "IRREGULAR",
+                  "list": 0,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "extra": [
+                    4
+                  ],
+                  "id": 157,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "1.5",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 33,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 238,
+                  "order": 1
+                }
+              ],
+              "name": "MOBLOT REINF",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "IRREGULAR",
+                  "list": 0,
+                  "total": 1
+                }
+              ],
+              "id": 3,
+              "weapons": [
+                {
+                  "id": 32,
+                  "order": 1
+                },
+                {
+                  "id": 28,
+                  "order": 2
+                },
+                {
+                  "id": 197,
                   "order": 3
                 },
                 {
-                  "id": 11,
+                  "id": 17,
                   "order": 4
                 },
                 {
-                  "extra": [
-                    7
-                  ],
-                  "id": 71,
+                  "id": 69,
                   "order": 5
+                },
+                {
+                  "id": 5,
+                  "order": 6
                 }
               ],
               "chars": [],
               "swc": "0",
-              "skills": [],
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 49,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 29,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 106,
+                  "order": 1
+                }
+              ],
+              "name": "MOBLOT REINF",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "IRREGULAR",
+                  "list": 0,
+                  "total": 1
+                }
+              ],
+              "id": 4,
+              "weapons": [
+                {
+                  "id": 26,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 64,
+                  "order": 1
+                }
+              ],
               "peripheral": []
             }
           ],
           "id": 1,
-          "category": 10
+          "category": 4
         }
       ],
       "options": [],
-      "slug": "reinf-wolfgang-amadeus-wolff",
+      "slug": "reinf-moblots",
       "filters": {
         "categories": [
-          10
+          4
         ],
         "skills": [
-          21,
-          24,
-          40,
+          28,
+          49,
           58,
-          82,
-          84,
+          64,
           162,
-          250
+          201,
+          213
         ],
-        "equip": [],
+        "equip": [
+          106,
+          238
+        ],
         "chars": [
           2,
-          3
+          3,
+          5,
+          24
         ],
         "types": [
-          7
+          3
         ],
         "weapons": [
-          11,
-          41,
-          71,
-          80,
-          107
+          2,
+          5,
+          17,
+          26,
+          28,
+          32,
+          69,
+          157,
+          197
         ],
         "ammunition": [
           2,
-          8,
-          9,
-          35,
-          37
+          3,
+          13,
+          14
         ]
       },
       "factions": [
@@ -2786,6 +2311,481 @@
           2,
           3,
           29
+        ]
+      },
+      "factions": [
+        399
+      ]
+    },
+    {
+      "id": 1626,
+      "idArmy": 1626,
+      "canonical": 399,
+      "isc": "Reinf. Loup-Garous ",
+      "iscAbbr": null,
+      "name": "REINF: LOUP-GAROUS, Groupe Mobile d´Action Spéciale",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Reinf. Loup-Garous ",
+          "profiles": [
+            {
+              "bts": 0,
+              "cc": 16,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 1,
+              "ava": 5,
+              "str": false,
+              "bs": 12,
+              "s": 2,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 117,
+                  "order": 1
+                }
+              ],
+              "w": 1,
+              "ph": 11,
+              "name": "REINF: LOUP-GAROUS, Groupe Mobile d´Action Spéciale",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-loup-garous-1-1.svg",
+              "id": 1,
+              "arm": 2,
+              "weapons": [],
+              "chars": [
+                2,
+                3,
+                5
+              ],
+              "wip": 13,
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 21,
+              "equip": [],
+              "name": "LOUP-GAROU REINF",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 43,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 19,
+              "equip": [],
+              "name": "LOUP-GAROU REINF",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "id": 26,
+                  "order": 1
+                },
+                {
+                  "id": 50,
+                  "order": 2
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 25,
+              "equip": [],
+              "name": "LOUP-GAROU REINF",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 3,
+              "weapons": [
+                {
+                  "id": 43,
+                  "order": 1
+                },
+                {
+                  "id": 194,
+                  "order": 2
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "1",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 20,
+              "equip": [],
+              "name": "LOUP-GAROU REINF",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 4,
+              "weapons": [
+                {
+                  "id": 34,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0.5",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 21,
+              "equip": [],
+              "name": "LOUP-GAROU REINF",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 5,
+              "weapons": [
+                {
+                  "id": 206,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "1",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 3
+        }
+      ],
+      "options": [],
+      "slug": "reinf-loup-garous",
+      "filters": {
+        "categories": [
+          3
+        ],
+        "skills": [],
+        "equip": [
+          117
+        ],
+        "chars": [
+          2,
+          3,
+          5
+        ],
+        "types": [
+          1
+        ],
+        "weapons": [
+          5,
+          26,
+          34,
+          43,
+          50,
+          69,
+          194,
+          206
+        ],
+        "ammunition": [
+          2,
+          3,
+          8,
+          37,
+          38
+        ]
+      },
+      "factions": [
+        399
+      ]
+    },
+    {
+      "id": 1634,
+      "idArmy": 1634,
+      "canonical": 399,
+      "isc": "Reinf. Wolfgang Amadeus Wolff, Wulver Bounty Hunter",
+      "iscAbbr": "Reinf. Wolfgang Amadeus Wolff",
+      "name": "REINF: WOLFGANG AMADEUS WOLFF, Wulver Bounty Hunter",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Reinf. Wolfgang Amadeus Wolff, Wulver Bounty Hunter",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 22,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 7,
+              "ava": 1,
+              "str": false,
+              "bs": 12,
+              "s": 2,
+              "equip": [],
+              "w": 2,
+              "ph": 14,
+              "name": "REINF: WOLFGANG AMADEUS WOLFF, Wulver Bounty Hunter",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-wolfgang-amadeus-wolff-wulver-bounty-hunter-1-1.svg",
+              "id": 1,
+              "arm": 3,
+              "weapons": [],
+              "chars": [
+                2,
+                3
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 250,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 21,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    1
+                  ],
+                  "id": 24,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "id": 84,
+                  "order": 4
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    23
+                  ],
+                  "id": 40,
+                  "order": 5
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    1
+                  ],
+                  "id": 40,
+                  "order": 6
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    30
+                  ],
+                  "id": 162,
+                  "order": 7
+                },
+                {
+                  "q": 1,
+                  "id": 82,
+                  "order": 8
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    34
+                  ],
+                  "id": 58,
+                  "order": 9
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 35,
+              "equip": [],
+              "name": "WOLFGANG AMADEUS REINF",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 41,
+                  "order": 1
+                },
+                {
+                  "id": 80,
+                  "order": 2
+                },
+                {
+                  "id": 107,
+                  "order": 3
+                },
+                {
+                  "id": 11,
+                  "order": 4
+                },
+                {
+                  "extra": [
+                    7
+                  ],
+                  "id": 71,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 10
+        }
+      ],
+      "options": [],
+      "slug": "reinf-wolfgang-amadeus-wolff",
+      "filters": {
+        "categories": [
+          10
+        ],
+        "skills": [
+          21,
+          24,
+          40,
+          58,
+          82,
+          84,
+          162,
+          250
+        ],
+        "equip": [],
+        "chars": [
+          2,
+          3
+        ],
+        "types": [
+          7
+        ],
+        "weapons": [
+          11,
+          41,
+          71,
+          80,
+          107
+        ],
+        "ammunition": [
+          2,
+          8,
+          9,
+          35,
+          37
         ]
       },
       "factions": [
@@ -3815,16 +3815,6 @@
   },
   "resume": [
     {
-      "id": 1630,
-      "isc": "Reinf. Moblots",
-      "idArmy": 1630,
-      "name": "REINF: 13éme MOBLOTS",
-      "slug": "reinf-moblots",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-moblots-1-1.svg",
-      "type": 3,
-      "category": 4
-    },
-    {
       "id": 1625,
       "isc": "Reinf. Para-Commandos",
       "idArmy": 1625,
@@ -3875,24 +3865,14 @@
       "category": 10
     },
     {
-      "id": 1626,
-      "isc": "Reinf. Loup-Garous ",
-      "idArmy": 1626,
-      "name": "REINF: LOUP-GAROUS, Groupe Mobile d´Action Spéciale",
-      "slug": "reinf-loup-garous",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-loup-garous-1-1.svg",
-      "type": 1,
-      "category": 3
-    },
-    {
-      "id": 1634,
-      "isc": "Reinf. Wolfgang Amadeus Wolff",
-      "idArmy": 1634,
-      "name": "REINF: WOLFGANG AMADEUS WOLFF, Wulver Bounty Hunter",
-      "slug": "reinf-wolfgang-amadeus-wolff",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-wolfgang-amadeus-wolff-wulver-bounty-hunter-1-1.svg",
-      "type": 7,
-      "category": 10
+      "id": 1630,
+      "isc": "Reinf. Moblots",
+      "idArmy": 1630,
+      "name": "REINF: 13éme MOBLOTS",
+      "slug": "reinf-moblots",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-moblots-1-1.svg",
+      "type": 3,
+      "category": 4
     },
     {
       "id": 1635,
@@ -3923,6 +3903,26 @@
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-briscards-1-1.svg",
       "type": 2,
       "category": 4
+    },
+    {
+      "id": 1626,
+      "isc": "Reinf. Loup-Garous ",
+      "idArmy": 1626,
+      "name": "REINF: LOUP-GAROUS, Groupe Mobile d´Action Spéciale",
+      "slug": "reinf-loup-garous",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-loup-garous-1-1.svg",
+      "type": 1,
+      "category": 3
+    },
+    {
+      "id": 1634,
+      "isc": "Reinf. Wolfgang Amadeus Wolff",
+      "idArmy": 1634,
+      "name": "REINF: WOLFGANG AMADEUS WOLFF, Wulver Bounty Hunter",
+      "slug": "reinf-wolfgang-amadeus-wolff",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-wolfgang-amadeus-wolff-wulver-bounty-hunter-1-1.svg",
+      "type": 7,
+      "category": 10
     },
     {
       "id": 1629,
