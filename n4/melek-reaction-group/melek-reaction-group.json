@@ -1,6 +1,262 @@
 {
-  "version": "7.23249.223",
+  "version": "7.23275.328",
   "units": [
+    {
+      "id": 1654,
+      "idArmy": 1654,
+      "canonical": 499,
+      "isc": "Reinf. Hafza Unit",
+      "iscAbbr": null,
+      "name": "REINF: HAFZA Unit",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Reinf. Hafza Unit",
+          "profiles": [
+            {
+              "bts": 0,
+              "cc": 14,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 1,
+              "ava": 2,
+              "str": false,
+              "bs": 12,
+              "s": 2,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 24,
+                  "order": 1
+                }
+              ],
+              "w": 1,
+              "ph": 10,
+              "name": "REINF: HAFZA Unit",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-hafza-unit-1-1.svg",
+              "id": 1,
+              "arm": 2,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                5
+              ],
+              "wip": 14,
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 15,
+              "equip": [],
+              "name": "HAFZA REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 31,
+                  "order": 1
+                },
+                {
+                  "id": 28,
+                  "order": 2
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 17,
+              "equip": [],
+              "name": "HAFZA REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "id": 89,
+                  "order": 1
+                },
+                {
+                  "id": 70,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "1.5",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 22,
+              "equip": [],
+              "name": "HAFZA REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 3,
+              "weapons": [
+                {
+                  "id": 74,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "1",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 17,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 111,
+                  "order": 1
+                }
+              ],
+              "name": "HAFZA REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 4,
+              "weapons": [
+                {
+                  "id": 31,
+                  "order": 1
+                },
+                {
+                  "id": 28,
+                  "order": 2
+                },
+                {
+                  "id": 72,
+                  "order": 3
+                },
+                {
+                  "id": 69,
+                  "order": 4
+                },
+                {
+                  "id": 5,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 59,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 3
+        }
+      ],
+      "options": [],
+      "slug": "reinf-hafza-unit",
+      "filters": {
+        "categories": [
+          3
+        ],
+        "skills": [
+          59
+        ],
+        "equip": [
+          24,
+          111
+        ],
+        "chars": [
+          1,
+          3,
+          5
+        ],
+        "types": [
+          1
+        ],
+        "weapons": [
+          5,
+          28,
+          31,
+          69,
+          70,
+          72,
+          74,
+          89
+        ],
+        "ammunition": [
+          2,
+          29
+        ]
+      },
+      "factions": [
+        499
+      ]
+    },
     {
       "id": 1666,
       "idArmy": 1666,
@@ -1120,1220 +1376,6 @@
       ]
     },
     {
-      "id": 1654,
-      "idArmy": 1654,
-      "canonical": 499,
-      "isc": "Reinf. Hafza Unit",
-      "iscAbbr": null,
-      "name": "REINF: HAFZA Unit",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Reinf. Hafza Unit",
-          "profiles": [
-            {
-              "bts": 0,
-              "cc": 14,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 1,
-              "ava": 2,
-              "str": false,
-              "bs": 12,
-              "s": 2,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 24,
-                  "order": 1
-                }
-              ],
-              "w": 1,
-              "ph": 10,
-              "name": "REINF: HAFZA Unit",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-hafza-unit-1-1.svg",
-              "id": 1,
-              "arm": 2,
-              "weapons": [],
-              "chars": [
-                1,
-                3,
-                5
-              ],
-              "wip": 14,
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 15,
-              "equip": [],
-              "name": "HAFZA REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 31,
-                  "order": 1
-                },
-                {
-                  "id": 28,
-                  "order": 2
-                },
-                {
-                  "id": 69,
-                  "order": 3
-                },
-                {
-                  "id": 5,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 17,
-              "equip": [],
-              "name": "HAFZA REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "id": 89,
-                  "order": 1
-                },
-                {
-                  "id": 70,
-                  "order": 2
-                },
-                {
-                  "id": 5,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "1.5",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 22,
-              "equip": [],
-              "name": "HAFZA REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 3,
-              "weapons": [
-                {
-                  "id": 74,
-                  "order": 1
-                },
-                {
-                  "id": 69,
-                  "order": 2
-                },
-                {
-                  "id": 5,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "1",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 17,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 111,
-                  "order": 1
-                }
-              ],
-              "name": "HAFZA REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 4,
-              "weapons": [
-                {
-                  "id": 31,
-                  "order": 1
-                },
-                {
-                  "id": 28,
-                  "order": 2
-                },
-                {
-                  "id": 72,
-                  "order": 3
-                },
-                {
-                  "id": 69,
-                  "order": 4
-                },
-                {
-                  "id": 5,
-                  "order": 5
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 59,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 3
-        }
-      ],
-      "options": [],
-      "slug": "reinf-hafza-unit",
-      "filters": {
-        "categories": [
-          3
-        ],
-        "skills": [
-          59
-        ],
-        "equip": [
-          24,
-          111
-        ],
-        "chars": [
-          1,
-          3,
-          5
-        ],
-        "types": [
-          1
-        ],
-        "weapons": [
-          5,
-          28,
-          31,
-          69,
-          70,
-          72,
-          74,
-          89
-        ],
-        "ammunition": [
-          2,
-          29
-        ]
-      },
-      "factions": [
-        499
-      ]
-    },
-    {
-      "id": 1663,
-      "idArmy": 1663,
-      "canonical": 499,
-      "isc": "Reinf. Rafiq Remotes",
-      "iscAbbr": null,
-      "name": "REINF: RAFIQ REMOTES",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Reinf. Rafiq Remotes",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 13,
-              "move": [
-                15,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 5,
-              "ava": 1,
-              "str": true,
-              "bs": 11,
-              "s": 3,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 238,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "id": 63,
-                  "order": 2
-                }
-              ],
-              "w": 1,
-              "ph": 10,
-              "name": "REINF: RAFIQ REMOTES",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-rafiq-remotes-1-1.svg",
-              "id": 1,
-              "arm": 0,
-              "weapons": [],
-              "chars": [
-                3,
-                5,
-                21
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 235,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "id": 242,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "id": 84,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    30
-                  ],
-                  "id": 162,
-                  "order": 4
-                },
-                {
-                  "q": 1,
-                  "id": 59,
-                  "order": 5
-                },
-                {
-                  "q": 1,
-                  "id": 65,
-                  "order": 6
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 14,
-              "equip": [],
-              "name": "RAFIQ REMOTE REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "extra": null,
-                  "id": 31,
-                  "order": 1
-                },
-                {
-                  "extra": null,
-                  "id": 28,
-                  "order": 2
-                },
-                {
-                  "extra": null,
-                  "id": 72,
-                  "order": 3
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 20,
-              "equip": [],
-              "name": "RAFIQ REMOTE REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "extra": null,
-                  "id": 152,
-                  "order": 1
-                },
-                {
-                  "extra": null,
-                  "id": 72,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "0.5",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 8
-        }
-      ],
-      "options": [],
-      "slug": "reinf-rafiq-remotes",
-      "filters": {
-        "categories": [
-          8
-        ],
-        "skills": [
-          59,
-          65,
-          84,
-          162,
-          235,
-          242
-        ],
-        "equip": [
-          63,
-          238
-        ],
-        "chars": [
-          3,
-          5,
-          21
-        ],
-        "types": [
-          5
-        ],
-        "weapons": [
-          28,
-          31,
-          71,
-          72,
-          152
-        ],
-        "ammunition": [
-          2,
-          8,
-          29,
-          37
-        ]
-      },
-      "factions": [
-        499
-      ]
-    },
-    {
-      "id": 1661,
-      "idArmy": 1661,
-      "canonical": 499,
-      "isc": "Reinf. Special Deterrance Group Azra'il",
-      "iscAbbr": "Reinf. Azra'il",
-      "name": "Reinf. Special Deterrance Group AZRA'IL",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Reinf. Special Deterrance Group Azra'il",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 15,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 3,
-              "ava": 2,
-              "str": false,
-              "bs": 13,
-              "s": 5,
-              "equip": [],
-              "w": 2,
-              "ph": 13,
-              "name": "Reinf. Special Deterrance Group AZRA'IL",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-special-deterrance-group-azra-il-1-1.svg",
-              "id": 1,
-              "arm": 5,
-              "weapons": [],
-              "chars": [
-                1,
-                3,
-                5,
-                21
-              ],
-              "wip": 14,
-              "skills": [
-                {
-                  "q": 1,
-                  "extra": [
-                    4
-                  ],
-                  "id": 201,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    292
-                  ],
-                  "id": 201,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    27
-                  ],
-                  "id": 40,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    30
-                  ],
-                  "id": 162,
-                  "order": 4
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 38,
-              "equip": [],
-              "name": "AZRA'IL REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 157,
-                  "order": 1
-                },
-                {
-                  "id": 107,
-                  "order": 2
-                },
-                {
-                  "id": 5,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "1",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 33,
-              "equip": [],
-              "name": "AZRA'IL REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "id": 107,
-                  "order": 2
-                },
-                {
-                  "id": 5,
-                  "order": 3
-                },
-                {
-                  "extra": [
-                    8
-                  ],
-                  "id": 29,
-                  "order": 1
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 4
-        }
-      ],
-      "options": [],
-      "slug": "reinf-azra-il",
-      "filters": {
-        "categories": [
-          4
-        ],
-        "skills": [
-          40,
-          162,
-          201
-        ],
-        "equip": [],
-        "chars": [
-          1,
-          3,
-          5,
-          21
-        ],
-        "types": [
-          3
-        ],
-        "weapons": [
-          5,
-          29,
-          107,
-          157
-        ],
-        "ammunition": [
-          2,
-          3,
-          8
-        ]
-      },
-      "factions": [
-        499
-      ]
-    },
-    {
-      "id": 1665,
-      "idArmy": 1665,
-      "canonical": 499,
-      "isc": "Reinf. Husam Operative Leila Sharif",
-      "iscAbbr": null,
-      "name": "REINF: Husam Operative LEILA SHARIF",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Reinf. Husam Operative Leila Sharif",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 15,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 1,
-              "ava": 1,
-              "str": false,
-              "bs": 12,
-              "s": 2,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 145,
-                  "order": 1
-                }
-              ],
-              "w": 1,
-              "ph": 10,
-              "name": "REINF: Husam Operative LEILA SHARIF",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-husam-operative-leila-sharif-1-1.svg",
-              "id": 1,
-              "arm": 1,
-              "weapons": [],
-              "chars": [
-                1,
-                3,
-                5
-              ],
-              "wip": 14,
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 83,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 20,
-              "equip": [],
-              "name": "LEILA SHARIF REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 155,
-                  "order": 1
-                },
-                {
-                  "id": 197,
-                  "order": 2
-                },
-                {
-                  "id": 17,
-                  "order": 3
-                },
-                {
-                  "id": 98,
-                  "order": 4
-                },
-                {
-                  "id": 5,
-                  "order": 5
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 1000,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 10
-        }
-      ],
-      "options": [],
-      "slug": "reinf-husam-operative-leila-sharif",
-      "filters": {
-        "categories": [
-          10
-        ],
-        "skills": [
-          83,
-          1000
-        ],
-        "equip": [
-          145
-        ],
-        "chars": [
-          1,
-          3,
-          5
-        ],
-        "types": [
-          1
-        ],
-        "weapons": [
-          5,
-          17,
-          98,
-          155,
-          197
-        ],
-        "ammunition": [
-          2,
-          3,
-          8,
-          13,
-          14
-        ]
-      },
-      "factions": [
-        499
-      ]
-    },
-    {
-      "id": 1657,
-      "idArmy": 1657,
-      "canonical": 499,
-      "isc": "Reinf. Hakims, Special Medical Assistance Team",
-      "iscAbbr": "Reinf. Hakims",
-      "name": "REINF: HAKIMS, Special Medical Assistance Team",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Reinf. Hakims, Special Medical Assistance Team",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 14,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 2,
-              "ava": 2,
-              "str": false,
-              "bs": 12,
-              "s": 2,
-              "equip": [
-                {
-                  "q": 1,
-                  "extra": [
-                    8
-                  ],
-                  "id": 106,
-                  "order": 1
-                }
-              ],
-              "w": 1,
-              "ph": 11,
-              "name": "REINF: HAKIMS, Special Medical Assistance Team",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-hakims-special-medical-assistance-team-1-1.svg",
-              "id": 1,
-              "arm": 2,
-              "weapons": [],
-              "chars": [
-                1,
-                3,
-                5
-              ],
-              "wip": 15,
-              "skills": [
-                {
-                  "q": 1,
-                  "extra": [
-                    1
-                  ],
-                  "id": 53,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "id": 62,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    33
-                  ],
-                  "id": 58,
-                  "order": 3
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 23,
-              "equip": [],
-              "name": "HAKIM FTO REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 26,
-                  "order": 1
-                },
-                {
-                  "id": 69,
-                  "order": 2
-                },
-                {
-                  "id": 5,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 19,
-              "equip": [],
-              "name": "HAKIM FTO REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "id": 77,
-                  "order": 1
-                },
-                {
-                  "id": 80,
-                  "order": 2
-                },
-                {
-                  "id": 69,
-                  "order": 3
-                },
-                {
-                  "id": 5,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [
-                {
-                  "q": 1,
-                  "group": 2,
-                  "option": 1
-                }
-              ],
-              "minis": 1,
-              "points": 27,
-              "equip": [],
-              "name": "HAKIM REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 3,
-              "weapons": [
-                {
-                  "id": 26,
-                  "order": 1
-                },
-                {
-                  "id": 69,
-                  "order": 2
-                },
-                {
-                  "id": 5,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": [
-                {
-                  "id": 55
-                }
-              ]
-            },
-            {
-              "includes": [
-                {
-                  "q": 1,
-                  "group": 2,
-                  "option": 1
-                }
-              ],
-              "minis": 1,
-              "points": 23,
-              "equip": [],
-              "name": "HAKIM REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 4,
-              "weapons": [
-                {
-                  "id": 77,
-                  "order": 1
-                },
-                {
-                  "id": 80,
-                  "order": 2
-                },
-                {
-                  "id": 69,
-                  "order": 3
-                },
-                {
-                  "id": 5,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": [
-                {
-                  "id": 55
-                }
-              ]
-            }
-          ],
-          "id": 1,
-          "category": 3
-        },
-        {
-          "notes": null,
-          "isc": "Nasmats A2",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 8,
-              "move": [
-                15,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 5,
-              "ava": -1,
-              "str": true,
-              "bs": 8,
-              "s": 1,
-              "equip": [],
-              "w": 1,
-              "ph": 10,
-              "name": "NASMATS A2",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-hakims-special-medical-assistance-team-2-1.svg",
-              "id": 1,
-              "arm": 0,
-              "weapons": [],
-              "chars": [
-                21,
-                27
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "q": 1,
-                  "extra": [
-                    41
-                  ],
-                  "id": 243,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "id": 84,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    30
-                  ],
-                  "id": 162,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    6
-                  ],
-                  "id": 28,
-                  "order": 4
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    33
-                  ],
-                  "id": 58,
-                  "order": 5
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 0,
-              "points": 3,
-              "equip": [],
-              "name": "NASMAT A2",
-              "disabled": true,
-              "orders": [],
-              "id": 1,
-              "weapons": [
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 1
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 2,
-          "category": null
-        }
-      ],
-      "options": [],
-      "slug": "reinf-hakims",
-      "filters": {
-        "categories": [
-          3
-        ],
-        "skills": [
-          28,
-          53,
-          58,
-          62,
-          84,
-          162,
-          243
-        ],
-        "equip": [
-          106
-        ],
-        "chars": [
-          1,
-          3,
-          5,
-          21,
-          27
-        ],
-        "types": [
-          2,
-          5
-        ],
-        "weapons": [
-          5,
-          26,
-          69,
-          71,
-          77,
-          80
-        ],
-        "ammunition": [
-          2,
-          3,
-          35,
-          37
-        ]
-      },
-      "factions": [
-        499
-      ]
-    },
-    {
       "id": 1662,
       "idArmy": 1662,
       "canonical": 499,
@@ -3389,12 +2431,970 @@
       "factions": [
         499
       ]
+    },
+    {
+      "id": 1663,
+      "idArmy": 1663,
+      "canonical": 499,
+      "isc": "Reinf. Rafiq Remotes",
+      "iscAbbr": null,
+      "name": "REINF: RAFIQ REMOTES",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Reinf. Rafiq Remotes",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 13,
+              "move": [
+                15,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 5,
+              "ava": 1,
+              "str": true,
+              "bs": 11,
+              "s": 3,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 238,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 63,
+                  "order": 2
+                }
+              ],
+              "w": 1,
+              "ph": 10,
+              "name": "REINF: RAFIQ REMOTES",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-rafiq-remotes-1-1.svg",
+              "id": 1,
+              "arm": 0,
+              "weapons": [],
+              "chars": [
+                3,
+                5,
+                21
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 235,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 242,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "id": 84,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    30
+                  ],
+                  "id": 162,
+                  "order": 4
+                },
+                {
+                  "q": 1,
+                  "id": 59,
+                  "order": 5
+                },
+                {
+                  "q": 1,
+                  "id": 65,
+                  "order": 6
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 14,
+              "equip": [],
+              "name": "RAFIQ REMOTE REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "extra": null,
+                  "id": 31,
+                  "order": 1
+                },
+                {
+                  "extra": null,
+                  "id": 28,
+                  "order": 2
+                },
+                {
+                  "extra": null,
+                  "id": 72,
+                  "order": 3
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 20,
+              "equip": [],
+              "name": "RAFIQ REMOTE REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "extra": null,
+                  "id": 152,
+                  "order": 1
+                },
+                {
+                  "extra": null,
+                  "id": 72,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0.5",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 8
+        }
+      ],
+      "options": [],
+      "slug": "reinf-rafiq-remotes",
+      "filters": {
+        "categories": [
+          8
+        ],
+        "skills": [
+          59,
+          65,
+          84,
+          162,
+          235,
+          242
+        ],
+        "equip": [
+          63,
+          238
+        ],
+        "chars": [
+          3,
+          5,
+          21
+        ],
+        "types": [
+          5
+        ],
+        "weapons": [
+          28,
+          31,
+          71,
+          72,
+          152
+        ],
+        "ammunition": [
+          2,
+          8,
+          29,
+          37
+        ]
+      },
+      "factions": [
+        499
+      ]
+    },
+    {
+      "id": 1661,
+      "idArmy": 1661,
+      "canonical": 499,
+      "isc": "Reinf. Special Deterrance Group Azra'il",
+      "iscAbbr": "Reinf. Azra'il",
+      "name": "Reinf. Special Deterrance Group AZRA'IL",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Reinf. Special Deterrance Group Azra'il",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 15,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 3,
+              "ava": 2,
+              "str": false,
+              "bs": 13,
+              "s": 5,
+              "equip": [],
+              "w": 2,
+              "ph": 13,
+              "name": "Reinf. Special Deterrance Group AZRA'IL",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-special-deterrance-group-azra-il-1-1.svg",
+              "id": 1,
+              "arm": 5,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                5,
+                21
+              ],
+              "wip": 14,
+              "skills": [
+                {
+                  "q": 1,
+                  "extra": [
+                    4
+                  ],
+                  "id": 201,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    292
+                  ],
+                  "id": 201,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    27
+                  ],
+                  "id": 40,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    30
+                  ],
+                  "id": 162,
+                  "order": 4
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 38,
+              "equip": [],
+              "name": "AZRA'IL REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 157,
+                  "order": 1
+                },
+                {
+                  "id": 107,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "1",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 33,
+              "equip": [],
+              "name": "AZRA'IL REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "id": 107,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                },
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 29,
+                  "order": 1
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 4
+        }
+      ],
+      "options": [],
+      "slug": "reinf-azra-il",
+      "filters": {
+        "categories": [
+          4
+        ],
+        "skills": [
+          40,
+          162,
+          201
+        ],
+        "equip": [],
+        "chars": [
+          1,
+          3,
+          5,
+          21
+        ],
+        "types": [
+          3
+        ],
+        "weapons": [
+          5,
+          29,
+          107,
+          157
+        ],
+        "ammunition": [
+          2,
+          3,
+          8
+        ]
+      },
+      "factions": [
+        499
+      ]
+    },
+    {
+      "id": 1665,
+      "idArmy": 1665,
+      "canonical": 499,
+      "isc": "Reinf. Husam Operative Leila Sharif",
+      "iscAbbr": null,
+      "name": "REINF: Husam Operative LEILA SHARIF",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Reinf. Husam Operative Leila Sharif",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 15,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 1,
+              "ava": 1,
+              "str": false,
+              "bs": 12,
+              "s": 2,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 145,
+                  "order": 1
+                }
+              ],
+              "w": 1,
+              "ph": 10,
+              "name": "REINF: Husam Operative LEILA SHARIF",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-husam-operative-leila-sharif-1-1.svg",
+              "id": 1,
+              "arm": 1,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                5
+              ],
+              "wip": 14,
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 83,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 20,
+              "equip": [],
+              "name": "LEILA SHARIF REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 155,
+                  "order": 1
+                },
+                {
+                  "id": 197,
+                  "order": 2
+                },
+                {
+                  "id": 17,
+                  "order": 3
+                },
+                {
+                  "id": 98,
+                  "order": 4
+                },
+                {
+                  "id": 5,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 1000,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 10
+        }
+      ],
+      "options": [],
+      "slug": "reinf-husam-operative-leila-sharif",
+      "filters": {
+        "categories": [
+          10
+        ],
+        "skills": [
+          83,
+          1000
+        ],
+        "equip": [
+          145
+        ],
+        "chars": [
+          1,
+          3,
+          5
+        ],
+        "types": [
+          1
+        ],
+        "weapons": [
+          5,
+          17,
+          98,
+          155,
+          197
+        ],
+        "ammunition": [
+          2,
+          3,
+          8,
+          13,
+          14
+        ]
+      },
+      "factions": [
+        499
+      ]
+    },
+    {
+      "id": 1657,
+      "idArmy": 1657,
+      "canonical": 499,
+      "isc": "Reinf. Hakims, Special Medical Assistance Team",
+      "iscAbbr": "Reinf. Hakims",
+      "name": "REINF: HAKIMS, Special Medical Assistance Team",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Reinf. Hakims, Special Medical Assistance Team",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 14,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 2,
+              "ava": 2,
+              "str": false,
+              "bs": 12,
+              "s": 2,
+              "equip": [
+                {
+                  "q": 1,
+                  "extra": [
+                    8
+                  ],
+                  "id": 106,
+                  "order": 1
+                }
+              ],
+              "w": 1,
+              "ph": 11,
+              "name": "REINF: HAKIMS, Special Medical Assistance Team",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-hakims-special-medical-assistance-team-1-1.svg",
+              "id": 1,
+              "arm": 2,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                5
+              ],
+              "wip": 15,
+              "skills": [
+                {
+                  "q": 1,
+                  "extra": [
+                    1
+                  ],
+                  "id": 53,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 62,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    33
+                  ],
+                  "id": 58,
+                  "order": 3
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 23,
+              "equip": [],
+              "name": "HAKIM FTO REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 26,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 19,
+              "equip": [],
+              "name": "HAKIM FTO REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "id": 77,
+                  "order": 1
+                },
+                {
+                  "id": 80,
+                  "order": 2
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [
+                {
+                  "q": 1,
+                  "group": 2,
+                  "option": 1
+                }
+              ],
+              "minis": 1,
+              "points": 27,
+              "equip": [],
+              "name": "HAKIM REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 3,
+              "weapons": [
+                {
+                  "id": 26,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": [
+                {
+                  "id": 135
+                }
+              ]
+            },
+            {
+              "includes": [
+                {
+                  "q": 1,
+                  "group": 2,
+                  "option": 1
+                }
+              ],
+              "minis": 1,
+              "points": 23,
+              "equip": [],
+              "name": "HAKIM REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 4,
+              "weapons": [
+                {
+                  "id": 77,
+                  "order": 1
+                },
+                {
+                  "id": 80,
+                  "order": 2
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": [
+                {
+                  "id": 135
+                }
+              ]
+            }
+          ],
+          "id": 1,
+          "category": 3
+        },
+        {
+          "notes": null,
+          "isc": "Nasmats A2",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 8,
+              "move": [
+                15,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 5,
+              "ava": -1,
+              "str": true,
+              "bs": 8,
+              "s": 1,
+              "equip": [],
+              "w": 1,
+              "ph": 10,
+              "name": "NASMATS A2",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-hakims-special-medical-assistance-team-2-1.svg",
+              "id": 1,
+              "arm": 0,
+              "weapons": [],
+              "chars": [
+                21,
+                27
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "q": 1,
+                  "extra": [
+                    41
+                  ],
+                  "id": 243,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 84,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    30
+                  ],
+                  "id": 162,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    6
+                  ],
+                  "id": 28,
+                  "order": 4
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    33
+                  ],
+                  "id": 58,
+                  "order": 5
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 0,
+              "points": 3,
+              "equip": [],
+              "name": "NASMAT A2",
+              "disabled": true,
+              "orders": [],
+              "id": 1,
+              "weapons": [
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 1
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 2,
+          "category": null
+        }
+      ],
+      "options": [],
+      "slug": "reinf-hakims",
+      "filters": {
+        "categories": [
+          3
+        ],
+        "skills": [
+          28,
+          53,
+          58,
+          62,
+          84,
+          162,
+          243
+        ],
+        "equip": [
+          106
+        ],
+        "chars": [
+          1,
+          3,
+          5,
+          21,
+          27
+        ],
+        "types": [
+          2,
+          5
+        ],
+        "weapons": [
+          5,
+          26,
+          69,
+          71,
+          77,
+          80
+        ],
+        "ammunition": [
+          2,
+          3,
+          35,
+          37
+        ]
+      },
+      "factions": [
+        499
+      ]
     }
   ],
   "filters": {
     "peripheral": [
       {
-        "id": 55,
+        "id": 135,
         "name": "NASMAT A2"
       }
     ],
@@ -4137,6 +4137,16 @@
   },
   "resume": [
     {
+      "id": 1654,
+      "isc": "Reinf. Hafza Unit",
+      "idArmy": 1654,
+      "name": "REINF: HAFZA Unit",
+      "slug": "reinf-hafza-unit",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-hafza-unit-1-1.svg",
+      "type": 1,
+      "category": 3
+    },
+    {
       "id": 1666,
       "isc": "Reinf. Rahman Rouhani",
       "idArmy": 1666,
@@ -4177,14 +4187,44 @@
       "category": 5
     },
     {
-      "id": 1654,
-      "isc": "Reinf. Hafza Unit",
-      "idArmy": 1654,
-      "name": "REINF: HAFZA Unit",
-      "slug": "reinf-hafza-unit",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-hafza-unit-1-1.svg",
+      "id": 1662,
+      "isc": "Reinf. Al Hawwa' Unit",
+      "idArmy": 1662,
+      "name": null,
+      "slug": "reinf-al-hawwa-unit",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-al-hawwa-unit-1-1.svg",
+      "type": 6,
+      "category": 3
+    },
+    {
+      "id": 1656,
+      "isc": "Reinf. Korsan, Corsairs of the Gate",
+      "idArmy": 1656,
+      "name": "REINF: KORSAN, Corsairs of the Gate",
+      "slug": "reinf-korsan-corsairs-of-the-gate",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-korsan-corsairs-of-the-gate-1-1.svg",
       "type": 1,
       "category": 3
+    },
+    {
+      "id": 1660,
+      "isc": "Reinf. Burtuk",
+      "idArmy": 1660,
+      "name": "REINF: BURKUT, Aeronaval Engineering Regiment",
+      "slug": "reinf-burtuk",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-burtuk-aeronaval-engineering-regiment-1-1.svg",
+      "type": 3,
+      "category": 4
+    },
+    {
+      "id": 1664,
+      "isc": "Reinf. Nasmat Remotes",
+      "idArmy": 1664,
+      "name": "REINF: NASMAT Remotes",
+      "slug": "reinf-nasmat-remotes",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-nasmat-remotes-1-1.svg",
+      "type": 5,
+      "category": 8
     },
     {
       "id": 1663,
@@ -4225,46 +4265,6 @@
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-hakims-special-medical-assistance-team-1-1.svg",
       "type": 2,
       "category": 3
-    },
-    {
-      "id": 1662,
-      "isc": "Reinf. Al Hawwa' Unit",
-      "idArmy": 1662,
-      "name": null,
-      "slug": "reinf-al-hawwa-unit",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-al-hawwa-unit-1-1.svg",
-      "type": 6,
-      "category": 3
-    },
-    {
-      "id": 1656,
-      "isc": "Reinf. Korsan, Corsairs of the Gate",
-      "idArmy": 1656,
-      "name": "REINF: KORSAN, Corsairs of the Gate",
-      "slug": "reinf-korsan-corsairs-of-the-gate",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-korsan-corsairs-of-the-gate-1-1.svg",
-      "type": 1,
-      "category": 3
-    },
-    {
-      "id": 1660,
-      "isc": "Reinf. Burtuk",
-      "idArmy": 1660,
-      "name": "REINF: BURKUT, Aeronaval Engineering Regiment",
-      "slug": "reinf-burtuk",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-burtuk-aeronaval-engineering-regiment-1-1.svg",
-      "type": 3,
-      "category": 4
-    },
-    {
-      "id": 1664,
-      "isc": "Reinf. Nasmat Remotes",
-      "idArmy": 1664,
-      "name": "REINF: NASMAT Remotes",
-      "slug": "reinf-nasmat-remotes",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-nasmat-remotes-1-1.svg",
-      "type": 5,
-      "category": 8
     }
   ],
   "fireteams": [],
