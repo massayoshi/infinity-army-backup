@@ -1,5 +1,5 @@
 {
-  "version": "7.23275.186",
+  "version": "7.23282.19",
   "units": [
     {
       "id": 1525,
@@ -5142,6 +5142,11 @@
               "orders": [
                 {
                   "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "IMPETUOUS",
                   "list": 1,
                   "total": 1
                 }
@@ -17064,7 +17069,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 1
+                  "id": 30
                 }
               ]
             }
@@ -18546,7 +18551,7 @@
   "filters": {
     "peripheral": [
       {
-        "id": 1,
+        "id": 30,
         "name": "BÂTARD",
         "mercs": true
       }
