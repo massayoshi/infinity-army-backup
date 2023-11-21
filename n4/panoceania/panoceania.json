@@ -1,5 +1,5 @@
 {
-  "version": "7.23275.328",
+  "version": "7.23324.24",
   "units": [
     {
       "id": 1565,
@@ -4491,7 +4491,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 14
+                  "id": 42
                 }
               ]
             },
@@ -11180,7 +11180,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 15
+                  "id": 43
                 }
               ]
             },
@@ -11232,7 +11232,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 15
+                  "id": 43
                 }
               ]
             }
@@ -11547,7 +11547,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 15
+                  "id": 43
                 }
               ]
             },
@@ -11591,7 +11591,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 15
+                  "id": 43
                 }
               ]
             }
@@ -16868,352 +16868,6 @@
       ]
     },
     {
-      "id": 22,
-      "idArmy": 22,
-      "canonical": 101,
-      "isc": "Auxilia",
-      "iscAbbr": null,
-      "name": "AUXILIA",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Auxilia",
-          "profiles": [
-            {
-              "bts": 0,
-              "cc": 16,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 1,
-              "ava": 2,
-              "str": false,
-              "bs": 11,
-              "s": 2,
-              "equip": [],
-              "w": 1,
-              "ph": 10,
-              "name": "AUXILIA",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/auxilia-1-1.svg",
-              "id": 1,
-              "arm": 1,
-              "weapons": [],
-              "chars": [
-                1,
-                3
-              ],
-              "wip": 12,
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [
-                {
-                  "q": 1,
-                  "group": 2,
-                  "option": 1
-                }
-              ],
-              "minis": 1,
-              "points": 14,
-              "equip": [],
-              "name": "AUXILIA",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 33,
-                  "order": 1
-                },
-                {
-                  "id": 69,
-                  "order": 2
-                },
-                {
-                  "id": 5,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": [
-                {
-                  "id": 16
-                }
-              ]
-            },
-            {
-              "includes": [
-                {
-                  "q": 1,
-                  "group": 2,
-                  "option": 1
-                }
-              ],
-              "minis": 1,
-              "points": 15,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 111,
-                  "order": 1
-                }
-              ],
-              "name": "AUXILIA",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "id": 33,
-                  "order": 1
-                },
-                {
-                  "id": 72,
-                  "order": 2
-                },
-                {
-                  "id": 69,
-                  "order": 3
-                },
-                {
-                  "id": 5,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "id": 59,
-                  "order": 1
-                }
-              ],
-              "peripheral": [
-                {
-                  "id": 16
-                }
-              ]
-            },
-            {
-              "includes": [
-                {
-                  "q": 1,
-                  "group": 2,
-                  "option": 1
-                }
-              ],
-              "minis": 1,
-              "points": 14,
-              "equip": [],
-              "name": "AUXILIA",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "LIEUTENANT",
-                  "list": 0,
-                  "total": 1
-                }
-              ],
-              "id": 3,
-              "weapons": [
-                {
-                  "id": 33,
-                  "order": 1
-                },
-                {
-                  "id": 69,
-                  "order": 2
-                },
-                {
-                  "id": 5,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "0.5",
-              "skills": [
-                {
-                  "id": 119,
-                  "order": 1
-                }
-              ],
-              "peripheral": [
-                {
-                  "id": 16
-                }
-              ]
-            }
-          ],
-          "id": 1,
-          "category": 1
-        },
-        {
-          "notes": null,
-          "isc": null,
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 13,
-              "move": [
-                15,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 5,
-              "ava": -1,
-              "str": true,
-              "bs": 10,
-              "s": 1,
-              "equip": [],
-              "w": 1,
-              "ph": 10,
-              "name": "AUXBOT",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/auxilia-2-1.svg",
-              "id": 1,
-              "arm": 0,
-              "weapons": [],
-              "chars": [
-                21,
-                27
-              ],
-              "wip": 11,
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 84,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    30
-                  ],
-                  "id": 162,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    40
-                  ],
-                  "id": 243,
-                  "order": 3
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 4,
-              "equip": [],
-              "name": "AUXBOT_1",
-              "disabled": true,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 57,
-                  "order": 1
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 2
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 2,
-          "category": 0
-        }
-      ],
-      "options": [],
-      "slug": "auxilia",
-      "filters": {
-        "categories": [
-          1
-        ],
-        "skills": [
-          59,
-          84,
-          119,
-          162,
-          243
-        ],
-        "equip": [
-          111
-        ],
-        "chars": [
-          1,
-          3,
-          21,
-          27
-        ],
-        "types": [
-          1,
-          5
-        ],
-        "weapons": [
-          5,
-          33,
-          57,
-          69,
-          71,
-          72
-        ],
-        "ammunition": [
-          2,
-          29,
-          37
-        ]
-      },
-      "factions": [
-        101,
-        104
-      ]
-    },
-    {
       "id": 13,
       "idArmy": 13,
       "canonical": 101,
@@ -21927,6 +21581,346 @@
       ]
     },
     {
+      "id": 22,
+      "idArmy": 22,
+      "canonical": 101,
+      "isc": "Auxilia",
+      "iscAbbr": null,
+      "name": "AUXILIA",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Auxilia",
+          "profiles": [
+            {
+              "bts": 0,
+              "cc": 16,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 1,
+              "ava": 2,
+              "str": false,
+              "bs": 11,
+              "s": 2,
+              "equip": [],
+              "w": 1,
+              "ph": 10,
+              "name": "AUXILIA",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/auxilia-1-1.svg",
+              "id": 1,
+              "arm": 1,
+              "weapons": [],
+              "chars": [
+                1,
+                3
+              ],
+              "wip": 12,
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [
+                {
+                  "q": 1,
+                  "group": 2,
+                  "option": 1
+                }
+              ],
+              "minis": 1,
+              "points": 14,
+              "equip": [],
+              "name": "AUXILIA",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 33,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": [
+                {
+                  "id": 44
+                }
+              ]
+            },
+            {
+              "includes": [
+                {
+                  "q": 1,
+                  "group": 2,
+                  "option": 1
+                }
+              ],
+              "minis": 1,
+              "points": 15,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 111,
+                  "order": 1
+                }
+              ],
+              "name": "AUXILIA",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "id": 33,
+                  "order": 1
+                },
+                {
+                  "id": 72,
+                  "order": 2
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "id": 59,
+                  "order": 1
+                }
+              ],
+              "peripheral": [
+                {
+                  "id": 44
+                }
+              ]
+            },
+            {
+              "includes": [
+                {
+                  "q": 1,
+                  "group": 2,
+                  "option": 1
+                }
+              ],
+              "minis": 1,
+              "points": 14,
+              "equip": [],
+              "name": "AUXILIA",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "LIEUTENANT",
+                  "list": 0,
+                  "total": 1
+                }
+              ],
+              "id": 3,
+              "weapons": [
+                {
+                  "id": 33,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0.5",
+              "skills": [
+                {
+                  "id": 119,
+                  "order": 1
+                }
+              ],
+              "peripheral": [
+                {
+                  "id": 44
+                }
+              ]
+            }
+          ],
+          "id": 1,
+          "category": 1
+        },
+        {
+          "notes": null,
+          "isc": null,
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 13,
+              "move": [
+                15,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 5,
+              "ava": -1,
+              "str": true,
+              "bs": 10,
+              "s": 1,
+              "equip": [],
+              "w": 1,
+              "ph": 10,
+              "name": "AUXBOT",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/auxilia-2-1.svg",
+              "id": 1,
+              "arm": 0,
+              "weapons": [],
+              "chars": [
+                21,
+                27
+              ],
+              "wip": 11,
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 84,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    30
+                  ],
+                  "id": 162,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    40
+                  ],
+                  "id": 243,
+                  "order": 3
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 4,
+              "equip": [],
+              "name": "AUXBOT_1",
+              "disabled": true,
+              "orders": [],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 57,
+                  "order": 1
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 2
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 2,
+          "category": 0
+        }
+      ],
+      "options": [],
+      "slug": "auxilia",
+      "filters": {
+        "categories": [
+          1
+        ],
+        "skills": [
+          59,
+          84,
+          119,
+          162,
+          243
+        ],
+        "equip": [
+          111
+        ],
+        "chars": [
+          1,
+          3,
+          21,
+          27
+        ],
+        "types": [
+          1,
+          5
+        ],
+        "weapons": [
+          5,
+          33,
+          57,
+          69,
+          71,
+          72
+        ],
+        "ammunition": [
+          2,
+          29,
+          37
+        ]
+      },
+      "factions": [
+        101,
+        104
+      ]
+    },
+    {
       "id": 18,
       "idArmy": 18,
       "canonical": 101,
@@ -25146,7 +25140,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 14
+                  "id": 42
                 }
               ]
             },
@@ -25189,7 +25183,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 14
+                  "id": 42
                 }
               ]
             }
@@ -35701,7 +35695,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 17
+                  "id": 45
                 }
               ]
             }
@@ -36821,19 +36815,19 @@
   "filters": {
     "peripheral": [
       {
-        "id": 15,
+        "id": 43,
         "name": "AUXBOT"
       },
       {
-        "id": 16,
+        "id": 44,
         "name": "AUXBOT_1"
       },
       {
-        "id": 14,
+        "id": 42,
         "name": "AUXBOT_3"
       },
       {
-        "id": 17,
+        "id": 45,
         "name": "BÂTARD",
         "mercs": true
       }
@@ -39225,16 +39219,6 @@
       "category": 10
     },
     {
-      "id": 22,
-      "isc": "Auxilia",
-      "idArmy": 22,
-      "name": "AUXILIA",
-      "slug": "auxilia",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/auxilia-1-1.svg",
-      "type": 1,
-      "category": 1
-    },
-    {
       "id": 13,
       "isc": "Croc Men",
       "idArmy": 13,
@@ -39383,6 +39367,16 @@
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/freelance-operator-samsa-1-1.svg",
       "type": 2,
       "category": 10
+    },
+    {
+      "id": 22,
+      "isc": "Auxilia",
+      "idArmy": 22,
+      "name": "AUXILIA",
+      "slug": "auxilia",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/auxilia-1-1.svg",
+      "type": 1,
+      "category": 1
     },
     {
       "id": 18,
@@ -40220,6 +40214,131 @@
     ],
     "units": [
       {
+        "id": 24,
+        "idArmy": 24,
+        "canonical": 101,
+        "isc": "Order Sergeants",
+        "iscAbbr": null,
+        "notes": null,
+        "name": "ORDER SERGEANTS",
+        "profileGroups": [
+          {
+            "notes": null,
+            "isc": "Order Sergeants",
+            "profiles": [
+              {
+                "bts": 3,
+                "cc": 16,
+                "move": [
+                  10,
+                  10
+                ],
+                "notes": null,
+                "includes": [],
+                "type": 1,
+                "ava": 1,
+                "str": false,
+                "bs": 12,
+                "s": 2,
+                "equip": [],
+                "w": 1,
+                "ph": 10,
+                "name": "ORDER SERGEANTS",
+                "logo": "https://assets.corvusbelli.net/army/img/logo/units/order-sergeants-1-1.svg",
+                "id": 1,
+                "arm": 1,
+                "weapons": [],
+                "chars": [
+                  1,
+                  3,
+                  5
+                ],
+                "wip": 13,
+                "skills": [
+                  {
+                    "id": 83,
+                    "order": 1
+                  }
+                ],
+                "peripheral": []
+              }
+            ],
+            "options": [
+              {
+                "includes": [],
+                "minis": 1,
+                "points": 14,
+                "equip": [],
+                "name": "ORDEN SERGEANTS INDIGO",
+                "disabled": false,
+                "orders": [
+                  {
+                    "type": "REGULAR",
+                    "list": 1,
+                    "total": 1
+                  }
+                ],
+                "id": 13,
+                "weapons": [
+                  {
+                    "id": 33,
+                    "order": 1
+                  },
+                  {
+                    "id": 69,
+                    "order": 2
+                  },
+                  {
+                    "id": 5,
+                    "order": 3
+                  }
+                ],
+                "chars": [],
+                "swc": "0",
+                "skills": [
+                  {
+                    "id": 204,
+                    "order": 1
+                  }
+                ],
+                "peripheral": []
+              }
+            ],
+            "id": 1,
+            "category": 4
+          }
+        ],
+        "options": [],
+        "slug": "order-sergeants",
+        "filters": {
+          "categories": [
+            4
+          ],
+          "skills": [
+            83,
+            204
+          ],
+          "equip": [],
+          "chars": [
+            1,
+            3,
+            5
+          ],
+          "types": [
+            1
+          ],
+          "weapons": [
+            5,
+            33,
+            69
+          ],
+          "ammunition": [
+            2
+          ]
+        },
+        "factions": []
+      },
+      {
         "id": 21,
         "idArmy": 21,
         "canonical": 101,
@@ -40327,131 +40446,6 @@
           ],
           "skills": [
             58,
-            204
-          ],
-          "equip": [],
-          "chars": [
-            1,
-            3,
-            5
-          ],
-          "types": [
-            1
-          ],
-          "weapons": [
-            5,
-            33,
-            69
-          ],
-          "ammunition": [
-            2
-          ]
-        },
-        "factions": []
-      },
-      {
-        "id": 24,
-        "idArmy": 24,
-        "canonical": 101,
-        "isc": "Order Sergeants",
-        "iscAbbr": null,
-        "notes": null,
-        "name": "ORDER SERGEANTS",
-        "profileGroups": [
-          {
-            "notes": null,
-            "isc": "Order Sergeants",
-            "profiles": [
-              {
-                "bts": 3,
-                "cc": 16,
-                "move": [
-                  10,
-                  10
-                ],
-                "notes": null,
-                "includes": [],
-                "type": 1,
-                "ava": 1,
-                "str": false,
-                "bs": 12,
-                "s": 2,
-                "equip": [],
-                "w": 1,
-                "ph": 10,
-                "name": "ORDER SERGEANTS",
-                "logo": "https://assets.corvusbelli.net/army/img/logo/units/order-sergeants-1-1.svg",
-                "id": 1,
-                "arm": 1,
-                "weapons": [],
-                "chars": [
-                  1,
-                  3,
-                  5
-                ],
-                "wip": 13,
-                "skills": [
-                  {
-                    "id": 83,
-                    "order": 1
-                  }
-                ],
-                "peripheral": []
-              }
-            ],
-            "options": [
-              {
-                "includes": [],
-                "minis": 1,
-                "points": 14,
-                "equip": [],
-                "name": "ORDEN SERGEANTS INDIGO",
-                "disabled": false,
-                "orders": [
-                  {
-                    "type": "REGULAR",
-                    "list": 1,
-                    "total": 1
-                  }
-                ],
-                "id": 13,
-                "weapons": [
-                  {
-                    "id": 33,
-                    "order": 1
-                  },
-                  {
-                    "id": 69,
-                    "order": 2
-                  },
-                  {
-                    "id": 5,
-                    "order": 3
-                  }
-                ],
-                "chars": [],
-                "swc": "0",
-                "skills": [
-                  {
-                    "id": 204,
-                    "order": 1
-                  }
-                ],
-                "peripheral": []
-              }
-            ],
-            "id": 1,
-            "category": 4
-          }
-        ],
-        "options": [],
-        "slug": "order-sergeants",
-        "filters": {
-          "categories": [
-            4
-          ],
-          "skills": [
-            83,
             204
           ],
           "equip": [],
