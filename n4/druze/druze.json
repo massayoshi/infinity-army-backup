@@ -1,5 +1,5 @@
 {
-  "version": "7.23282.37",
+  "version": "7.2432.453",
   "units": [
     {
       "id": 333,
@@ -1575,7 +1575,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 4
+                  "id": 1
                 }
               ]
             },
@@ -1618,7 +1618,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 4
+                  "id": 1
                 }
               ]
             }
@@ -3205,7 +3205,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 5
+                  "id": 2
                 }
               ]
             },
@@ -3269,7 +3269,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 5,
+                  "id": 2,
                   "q": 2
                 }
               ]
@@ -8399,163 +8399,6 @@
       ]
     },
     {
-      "id": 265,
-      "idArmy": 39,
-      "canonical": 1,
-      "isc": "Wardrivers, Mercenary Hackers",
-      "iscAbbr": "Wardrivers, Merc. Hackers",
-      "name": "WARDRIVERS, Mercenary Hackers",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Wardrivers, Mercenary Hackers",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 13,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 1,
-              "ava": 1,
-              "str": false,
-              "bs": 11,
-              "s": 2,
-              "equip": [],
-              "w": 1,
-              "ph": 10,
-              "name": "WARDRIVERS, Mercenary Hackers",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/wardrivers-merc-hackers-1-1.svg",
-              "id": 1,
-              "arm": 0,
-              "weapons": [],
-              "chars": [
-                1,
-                3,
-                5
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "id": 67,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 22,
-              "equip": [],
-              "name": "WARDRIVER ",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 4,
-              "weapons": [
-                {
-                  "id": 26,
-                  "order": 1
-                },
-                {
-                  "id": 72,
-                  "order": 2
-                },
-                {
-                  "id": 69,
-                  "order": 3
-                },
-                {
-                  "id": 5,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "0.5",
-              "skills": [
-                {
-                  "q": 1,
-                  "extra": [
-                    265
-                  ],
-                  "id": 1000,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "id": 260,
-                  "order": 2
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 11
-        }
-      ],
-      "options": [],
-      "slug": "wardrivers-merc-hackers",
-      "filters": {
-        "categories": [
-          11
-        ],
-        "skills": [
-          67,
-          260,
-          1000
-        ],
-        "equip": [],
-        "chars": [
-          1,
-          3,
-          5
-        ],
-        "types": [
-          1
-        ],
-        "weapons": [
-          5,
-          26,
-          69,
-          72
-        ],
-        "ammunition": [
-          2,
-          3,
-          29
-        ]
-      },
-      "factions": [
-        301,
-        302,
-        303,
-        304,
-        305,
-        306,
-        801,
-        902,
-        903,
-        904,
-        905,
-        906,
-        907,
-        908,
-        909
-      ]
-    },
-    {
       "id": 1598,
       "idArmy": 1598,
       "canonical": 101,
@@ -9241,20 +9084,20 @@
       ]
     },
     {
-      "id": 1538,
-      "idArmy": 1538,
-      "canonical": 201,
-      "isc": "Táowù, Mastermind and schemer",
-      "iscAbbr": null,
-      "name": "TÁOWÙ, Mastermind and schemer",
+      "id": 265,
+      "idArmy": 39,
+      "canonical": 1,
+      "isc": "Wardrivers, Mercenary Hackers",
+      "iscAbbr": "Wardrivers, Merc. Hackers",
+      "name": "WARDRIVERS, Mercenary Hackers",
       "profileGroups": [
         {
           "notes": null,
-          "isc": "Táowù, Mastermind and schemer",
+          "isc": "Wardrivers, Mercenary Hackers",
           "profiles": [
             {
               "bts": 3,
-              "cc": 21,
+              "cc": 13,
               "move": [
                 10,
                 10
@@ -9264,51 +9107,26 @@
               "type": 1,
               "ava": 1,
               "str": false,
-              "bs": 12,
+              "bs": 11,
               "s": 2,
-              "equip": [
-                {
-                  "id": 24,
-                  "order": 1
-                }
-              ],
+              "equip": [],
               "w": 1,
               "ph": 10,
-              "name": "TÁOWÙ, Mastermind and schemer",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/taowu-1-1.svg",
+              "name": "WARDRIVERS, Mercenary Hackers",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/wardrivers-merc-hackers-1-1.svg",
               "id": 1,
-              "arm": 1,
+              "arm": 0,
               "weapons": [],
               "chars": [
                 1,
                 3,
                 5
               ],
-              "wip": 14,
+              "wip": 13,
               "skills": [
                 {
-                  "extra": [
-                    7
-                  ],
-                  "id": 240,
+                  "id": 67,
                   "order": 1
-                },
-                {
-                  "extra": [],
-                  "id": 39,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    30
-                  ],
-                  "id": 162,
-                  "order": 3
-                },
-                {
-                  "extra": [],
-                  "id": 164,
-                  "order": 4
                 }
               ],
               "peripheral": []
@@ -9318,9 +9136,9 @@
             {
               "includes": [],
               "minis": 1,
-              "points": 26,
+              "points": 14,
               "equip": [],
-              "name": "TÁOWÙ",
+              "name": "WARDRIVER ",
               "disabled": false,
               "orders": [
                 {
@@ -9329,84 +9147,22 @@
                   "total": 1
                 }
               ],
-              "id": 1,
+              "id": 4,
               "weapons": [
                 {
-                  "id": 19,
+                  "id": 26,
                   "order": 1
                 },
                 {
-                  "extra": [
-                    256
-                  ],
-                  "id": 65,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    8
-                  ],
-                  "id": 72,
-                  "order": 3
-                },
-                {
-                  "extra": [
-                    8
-                  ],
-                  "id": 156,
-                  "order": 4
-                },
-                {
-                  "extra": [],
-                  "id": 9,
-                  "order": 5
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 25,
-              "equip": [],
-              "name": "TÁOWÙ",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "extra": [
-                    256
-                  ],
-                  "id": 65,
-                  "order": 1
-                },
-                {
-                  "extra": [
-                    8
-                  ],
                   "id": 72,
                   "order": 2
                 },
                 {
-                  "extra": [
-                    8
-                  ],
-                  "id": 156,
+                  "id": 69,
                   "order": 3
                 },
                 {
-                  "extra": [],
-                  "id": 9,
+                  "id": 5,
                   "order": 4
                 }
               ],
@@ -9414,33 +9170,38 @@
               "swc": "0",
               "skills": [
                 {
-                  "id": 207,
+                  "q": 1,
+                  "extra": [
+                    265
+                  ],
+                  "id": 1000,
                   "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 260,
+                  "order": 2
                 }
               ],
               "peripheral": []
             }
           ],
           "id": 1,
-          "category": 10
+          "category": 11
         }
       ],
       "options": [],
-      "slug": "taowu-mastermind-and-schemer",
+      "slug": "wardrivers-merc-hackers",
       "filters": {
         "categories": [
-          10
+          11
         ],
         "skills": [
-          39,
-          162,
-          164,
-          207,
-          240
+          67,
+          260,
+          1000
         ],
-        "equip": [
-          24
-        ],
+        "equip": [],
         "chars": [
           1,
           3,
@@ -9450,24 +9211,32 @@
           1
         ],
         "weapons": [
-          9,
-          19,
-          65,
-          72,
-          156
+          5,
+          26,
+          69,
+          72
         ],
         "ammunition": [
           2,
-          9,
-          29,
-          38
+          3,
+          29
         ]
       },
       "factions": [
-        201,
-        202,
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        801,
         902,
+        903,
         904,
+        905,
+        906,
+        907,
+        908,
         909
       ]
     },
@@ -10157,6 +9926,256 @@
         902,
         904,
         907,
+        909
+      ]
+    },
+    {
+      "id": 1538,
+      "idArmy": 1538,
+      "canonical": 201,
+      "isc": "Táowù, Mastermind and schemer",
+      "iscAbbr": null,
+      "name": "TÁOWÙ, Mastermind and schemer",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Táowù, Mastermind and schemer",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 18,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 1,
+              "ava": 1,
+              "str": false,
+              "bs": 12,
+              "s": 2,
+              "equip": [
+                {
+                  "id": 24,
+                  "order": 1
+                }
+              ],
+              "w": 1,
+              "ph": 10,
+              "name": "TÁOWÙ, Mastermind and schemer",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/taowu-1-1.svg",
+              "id": 1,
+              "arm": 1,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                5
+              ],
+              "wip": 14,
+              "skills": [
+                {
+                  "q": 1,
+                  "extra": [
+                    8
+                  ],
+                  "id": 201,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 207,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    1
+                  ],
+                  "id": 40,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "id": 39,
+                  "order": 4
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    30
+                  ],
+                  "id": 162,
+                  "order": 5
+                },
+                {
+                  "q": 1,
+                  "id": 189,
+                  "order": 6
+                },
+                {
+                  "q": 1,
+                  "id": 164,
+                  "order": 7
+                },
+                {
+                  "q": 1,
+                  "id": 85,
+                  "order": 8
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 21,
+              "equip": [],
+              "name": "TÁOWÙ",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "extra": null,
+                  "id": 23,
+                  "order": 1
+                },
+                {
+                  "extra": null,
+                  "id": 72,
+                  "order": 2
+                },
+                {
+                  "extra": null,
+                  "id": 156,
+                  "order": 3
+                },
+                {
+                  "extra": [
+                    7
+                  ],
+                  "id": 71,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 24,
+              "equip": [],
+              "name": "TÁOWÙ",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "extra": null,
+                  "id": 19,
+                  "order": 1
+                },
+                {
+                  "extra": null,
+                  "id": 145,
+                  "order": 2
+                },
+                {
+                  "extra": null,
+                  "id": 72,
+                  "order": 3
+                },
+                {
+                  "extra": null,
+                  "id": 156,
+                  "order": 4
+                },
+                {
+                  "extra": [
+                    7
+                  ],
+                  "id": 71,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 10
+        }
+      ],
+      "options": [],
+      "slug": "taowu-mastermind-and-schemer",
+      "filters": {
+        "categories": [
+          10
+        ],
+        "skills": [
+          39,
+          40,
+          85,
+          162,
+          164,
+          189,
+          201,
+          207
+        ],
+        "equip": [
+          24
+        ],
+        "chars": [
+          1,
+          3,
+          5
+        ],
+        "types": [
+          1
+        ],
+        "weapons": [
+          19,
+          23,
+          71,
+          72,
+          145,
+          156
+        ],
+        "ammunition": [
+          2,
+          9,
+          14,
+          29,
+          37,
+          38
+        ]
+      },
+      "factions": [
+        201,
+        202,
+        902,
+        904,
         909
       ]
     },
@@ -14317,291 +14336,6 @@
       "factions": []
     },
     {
-      "id": 11506,
-      "idArmy": 21506,
-      "canonical": 1,
-      "isc": "REM Racers, Mercenary Hacker-Pilots",
-      "iscAbbr": "REM Racers",
-      "notes": null,
-      "name": "REM RACERS, Mercenary Hacker-Pilots",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "REM Racers, Mercenary Hacker-Pilots",
-          "profiles": [
-            {
-              "bts": 6,
-              "cc": 14,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 1,
-              "ava": 1,
-              "str": false,
-              "bs": 11,
-              "s": 2,
-              "equip": [
-                {
-                  "id": 111,
-                  "order": 2
-                }
-              ],
-              "w": 1,
-              "ph": 10,
-              "name": "REM RACERS, Mercenary Hacker-Pilots",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/rem-racers-1-1.svg",
-              "id": 1,
-              "arm": 0,
-              "weapons": [],
-              "chars": [
-                1,
-                3,
-                5
-              ],
-              "wip": 13,
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 21,
-              "equip": [
-                {
-                  "id": 100,
-                  "order": 1
-                }
-              ],
-              "name": "REM RACER ",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 77,
-                  "order": 1
-                },
-                {
-                  "id": 69,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "0.5",
-              "skills": [
-                {
-                  "id": 1000,
-                  "order": 1
-                },
-                {
-                  "extra": [
-                    271
-                  ],
-                  "id": 255,
-                  "order": 2
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 15,
-              "equip": [],
-              "name": "REM RACER",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "id": 28,
-                  "order": 1
-                },
-                {
-                  "id": 69,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "extra": [
-                    271
-                  ],
-                  "id": 255,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 12,
-              "equip": [],
-              "name": "REM RACER",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 3,
-              "weapons": [
-                {
-                  "id": 28,
-                  "order": 1
-                },
-                {
-                  "id": 69,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "extra": [
-                    4,
-                    273,
-                    274
-                  ],
-                  "id": 255,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 12,
-              "equip": [],
-              "name": "REM RACER ",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 4,
-              "weapons": [
-                {
-                  "id": 28,
-                  "order": 1
-                },
-                {
-                  "id": 69,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "extra": [
-                    276,
-                    275,
-                    272
-                  ],
-                  "id": 255,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 11
-        }
-      ],
-      "options": [],
-      "slug": "merc-rem-racers",
-      "filters": {
-        "categories": [
-          11
-        ],
-        "skills": [
-          255,
-          1000
-        ],
-        "equip": [
-          100,
-          111
-        ],
-        "chars": [
-          1,
-          3,
-          5
-        ],
-        "types": [
-          1
-        ],
-        "weapons": [
-          28,
-          69,
-          71,
-          77
-        ],
-        "ammunition": [
-          2,
-          35,
-          37
-        ]
-      },
-      "factions": []
-    },
-    {
       "id": 11569,
       "idArmy": 21569,
       "canonical": 1,
@@ -15518,6 +15252,198 @@
       "factions": []
     },
     {
+      "id": 11558,
+      "idArmy": 21558,
+      "canonical": 1,
+      "isc": "Kendrat, Krakot Renegade",
+      "iscAbbr": null,
+      "notes": null,
+      "name": "KENDRAT, Krakot Renegade",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Kendrat, Krakot Renegade",
+          "profiles": [
+            {
+              "bts": 0,
+              "cc": 23,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 7,
+              "ava": 1,
+              "str": false,
+              "bs": 11,
+              "s": 2,
+              "equip": [],
+              "w": 1,
+              "ph": 13,
+              "name": "KENDRAT, Krakot Renegade",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/kendrat-krakot-renegade-1-1.svg",
+              "id": 1,
+              "arm": 1,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                6
+              ],
+              "wip": 12,
+              "skills": [
+                {
+                  "id": 19,
+                  "order": 1
+                },
+                {
+                  "extra": [
+                    1
+                  ],
+                  "id": 24,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    26
+                  ],
+                  "id": 161,
+                  "order": 4
+                },
+                {
+                  "extra": [
+                    23
+                  ],
+                  "id": 40,
+                  "order": 5
+                },
+                {
+                  "extra": [],
+                  "id": 39,
+                  "order": 6
+                },
+                {
+                  "extra": [
+                    33
+                  ],
+                  "id": 162,
+                  "order": 7
+                },
+                {
+                  "extra": [],
+                  "id": 85,
+                  "order": 8
+                },
+                {
+                  "id": 83,
+                  "order": 9
+                },
+                {
+                  "id": 88,
+                  "order": 10
+                },
+                {
+                  "q": 1,
+                  "id": 256,
+                  "order": 11
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 22,
+              "equip": [],
+              "name": "KENDRAT",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "IMPETUOUS",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 81,
+                  "order": 1
+                },
+                {
+                  "id": 147,
+                  "order": 2
+                },
+                {
+                  "id": 11,
+                  "order": 4
+                },
+                {
+                  "id": 107,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 10
+        }
+      ],
+      "options": [],
+      "slug": "merc-kendrat-krakot-renegade",
+      "filters": {
+        "categories": [
+          10
+        ],
+        "skills": [
+          19,
+          24,
+          39,
+          40,
+          83,
+          85,
+          88,
+          161,
+          162,
+          256
+        ],
+        "equip": [],
+        "chars": [
+          1,
+          3,
+          6
+        ],
+        "types": [
+          7
+        ],
+        "weapons": [
+          11,
+          81,
+          107,
+          147
+        ],
+        "ammunition": [
+          2,
+          3,
+          8,
+          9
+        ]
+      },
+      "factions": []
+    },
+    {
       "id": 10265,
       "idArmy": 10039,
       "canonical": 1,
@@ -15753,103 +15679,52 @@
       "factions": []
     },
     {
-      "id": 11558,
-      "idArmy": 21558,
+      "id": 11506,
+      "idArmy": 21506,
       "canonical": 1,
-      "isc": "Kendrat, Krakot Renegade",
-      "iscAbbr": null,
+      "isc": "REM Racers, Mercenary Hacker-Pilots",
+      "iscAbbr": "REM Racers",
       "notes": null,
-      "name": "KENDRAT, Krakot Renegade",
+      "name": "REM RACERS, Mercenary Hacker-Pilots",
       "profileGroups": [
         {
           "notes": null,
-          "isc": "Kendrat, Krakot Renegade",
+          "isc": "REM Racers, Mercenary Hacker-Pilots",
           "profiles": [
             {
-              "bts": 0,
-              "cc": 23,
+              "bts": 6,
+              "cc": 14,
               "move": [
                 10,
                 10
               ],
               "notes": null,
               "includes": [],
-              "type": 7,
+              "type": 1,
               "ava": 1,
               "str": false,
               "bs": 11,
               "s": 2,
-              "equip": [],
+              "equip": [
+                {
+                  "id": 111,
+                  "order": 2
+                }
+              ],
               "w": 1,
-              "ph": 13,
-              "name": "KENDRAT, Krakot Renegade",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/kendrat-krakot-renegade-1-1.svg",
+              "ph": 10,
+              "name": "REM RACERS, Mercenary Hacker-Pilots",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/rem-racers-1-1.svg",
               "id": 1,
-              "arm": 1,
+              "arm": 0,
               "weapons": [],
               "chars": [
                 1,
                 3,
-                6
+                5
               ],
-              "wip": 12,
-              "skills": [
-                {
-                  "id": 19,
-                  "order": 1
-                },
-                {
-                  "extra": [
-                    1
-                  ],
-                  "id": 24,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    26
-                  ],
-                  "id": 161,
-                  "order": 4
-                },
-                {
-                  "extra": [
-                    23
-                  ],
-                  "id": 40,
-                  "order": 5
-                },
-                {
-                  "extra": [],
-                  "id": 39,
-                  "order": 6
-                },
-                {
-                  "extra": [
-                    33
-                  ],
-                  "id": 162,
-                  "order": 7
-                },
-                {
-                  "extra": [],
-                  "id": 85,
-                  "order": 8
-                },
-                {
-                  "id": 83,
-                  "order": 9
-                },
-                {
-                  "id": 88,
-                  "order": 10
-                },
-                {
-                  "q": 1,
-                  "id": 256,
-                  "order": 11
-                }
-              ],
+              "wip": 13,
+              "skills": [],
               "peripheral": []
             }
           ],
@@ -15857,18 +15732,18 @@
             {
               "includes": [],
               "minis": 1,
-              "points": 22,
-              "equip": [],
-              "name": "KENDRAT",
+              "points": 21,
+              "equip": [
+                {
+                  "id": 100,
+                  "order": 1
+                }
+              ],
+              "name": "REM RACER ",
               "disabled": false,
               "orders": [
                 {
                   "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "IMPETUOUS",
                   "list": 1,
                   "total": 1
                 }
@@ -15876,70 +15751,215 @@
               "id": 1,
               "weapons": [
                 {
-                  "id": 81,
+                  "id": 77,
                   "order": 1
                 },
                 {
-                  "id": 147,
+                  "id": 69,
                   "order": 2
                 },
                 {
-                  "id": 11,
-                  "order": 4
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0.5",
+              "skills": [
+                {
+                  "id": 1000,
+                  "order": 1
                 },
                 {
-                  "id": 107,
+                  "extra": [
+                    271
+                  ],
+                  "id": 255,
+                  "order": 2
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 15,
+              "equip": [],
+              "name": "REM RACER",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "id": 28,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
                   "order": 3
                 }
               ],
               "chars": [],
               "swc": "0",
-              "skills": [],
+              "skills": [
+                {
+                  "extra": [
+                    271
+                  ],
+                  "id": 255,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 12,
+              "equip": [],
+              "name": "REM RACER",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 3,
+              "weapons": [
+                {
+                  "id": 28,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "extra": [
+                    4,
+                    273,
+                    274
+                  ],
+                  "id": 255,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 12,
+              "equip": [],
+              "name": "REM RACER ",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 4,
+              "weapons": [
+                {
+                  "id": 28,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "extra": [
+                    276,
+                    301,
+                    52
+                  ],
+                  "id": 255,
+                  "order": 1
+                }
+              ],
               "peripheral": []
             }
           ],
           "id": 1,
-          "category": 10
+          "category": 11
         }
       ],
       "options": [],
-      "slug": "merc-kendrat-krakot-renegade",
+      "slug": "merc-rem-racers",
       "filters": {
         "categories": [
-          10
+          11
         ],
         "skills": [
-          19,
-          24,
-          39,
-          40,
-          83,
-          85,
-          88,
-          161,
-          162,
-          256
+          255,
+          1000
         ],
-        "equip": [],
+        "equip": [
+          100,
+          111
+        ],
         "chars": [
           1,
           3,
-          6
+          5
         ],
         "types": [
-          7
+          1
         ],
         "weapons": [
-          11,
-          81,
-          107,
-          147
+          28,
+          69,
+          71,
+          77
         ],
         "ammunition": [
           2,
-          3,
-          8,
-          9
+          35,
+          37
         ]
       },
       "factions": []
@@ -19869,7 +19889,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 6
+                  "id": 3
                 }
               ]
             }
@@ -21025,16 +21045,16 @@
   "filters": {
     "peripheral": [
       {
-        "id": 4,
+        "id": 1,
         "name": "AUXBOT_3"
       },
       {
-        "id": 6,
+        "id": 3,
         "name": "BÂTARD",
         "mercs": true
       },
       {
-        "id": 5,
+        "id": 2,
         "name": "JACKBOT"
       }
     ],
@@ -21810,8 +21830,7 @@
       {
         "id": 85,
         "name": "Dogged",
-        "wiki": "https://infinitythewiki.com/Dogged?version=n4",
-        "mercs": true
+        "wiki": "https://infinitythewiki.com/Dogged?version=n4"
       },
       {
         "id": 86,
@@ -22147,6 +22166,11 @@
         "type": "BS"
       },
       {
+        "id": 23,
+        "name": "E/Marat",
+        "type": "BS"
+      },
+      {
         "id": 25,
         "name": "E/Mitter",
         "type": "BS",
@@ -22243,7 +22267,8 @@
       {
         "id": 9,
         "name": "Monofilament CC Weapon",
-        "type": "CC"
+        "type": "CC",
+        "mercs": true
       },
       {
         "id": 169,
@@ -22473,11 +22498,6 @@
         "type": "DISTANCE"
       },
       {
-        "id": 256,
-        "name": "+2B",
-        "type": "TEXT"
-      },
-      {
         "id": 1,
         "name": "+3",
         "type": "TEXT"
@@ -22489,12 +22509,6 @@
         "mercs": true
       },
       {
-        "id": 275,
-        "name": "+3 PH",
-        "type": "TEXT",
-        "mercs": true
-      },
-      {
         "id": 23,
         "name": "+5",
         "type": "DISTANCE"
@@ -22502,12 +22516,6 @@
       {
         "id": 2,
         "name": "+6",
-        "type": "TEXT",
-        "mercs": true
-      },
-      {
-        "id": 272,
-        "name": "+9 CC",
         "type": "TEXT",
         "mercs": true
       },
@@ -22535,6 +22543,12 @@
         "mercs": true
       },
       {
+        "id": 301,
+        "name": "CC=22",
+        "type": "TEXT",
+        "mercs": true
+      },
+      {
         "id": 49,
         "name": "Critical",
         "type": "TEXT"
@@ -22553,6 +22567,12 @@
         "id": 27,
         "name": "PH=11",
         "type": "TEXT"
+      },
+      {
+        "id": 52,
+        "name": "PH=13",
+        "type": "TEXT",
+        "mercs": true
       },
       {
         "id": 46,
@@ -22920,16 +22940,6 @@
       "category": 10
     },
     {
-      "id": 265,
-      "isc": "Wardrivers, Merc. Hackers",
-      "idArmy": 39,
-      "name": "WARDRIVERS, Mercenary Hackers",
-      "slug": "wardrivers-merc-hackers",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/wardrivers-merc-hackers-1-1.svg",
-      "type": 1,
-      "category": 11
-    },
-    {
       "id": 1598,
       "isc": "ITS Corsair Bashi Bazouks",
       "idArmy": 1598,
@@ -22960,14 +22970,14 @@
       "category": 10
     },
     {
-      "id": 1538,
-      "isc": "Táowù, Mastermind and schemer",
-      "idArmy": 1538,
-      "name": "TÁOWÙ, Mastermind and schemer",
-      "slug": "taowu-mastermind-and-schemer",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/taowu-1-1.svg",
+      "id": 265,
+      "isc": "Wardrivers, Merc. Hackers",
+      "idArmy": 39,
+      "name": "WARDRIVERS, Mercenary Hackers",
+      "slug": "wardrivers-merc-hackers",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/wardrivers-merc-hackers-1-1.svg",
       "type": 1,
-      "category": 10
+      "category": 11
     },
     {
       "id": 49,
@@ -22998,6 +23008,16 @@
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/sierra-dronbot-1-1.svg",
       "type": 5,
       "category": 8
+    },
+    {
+      "id": 1538,
+      "isc": "Táowù, Mastermind and schemer",
+      "idArmy": 1538,
+      "name": "TÁOWÙ, Mastermind and schemer",
+      "slug": "taowu-mastermind-and-schemer",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/taowu-1-1.svg",
+      "type": 1,
+      "category": 10
     },
     {
       "id": 11345,
@@ -23170,16 +23190,6 @@
       "category": 10
     },
     {
-      "id": 11506,
-      "isc": "REM Racers",
-      "idArmy": 21506,
-      "name": "REM RACERS, Mercenary Hacker-Pilots",
-      "slug": "merc-rem-racers",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/rem-racers-1-1.svg",
-      "type": 1,
-      "category": 11
-    },
-    {
       "id": 11569,
       "isc": "Triphammers, Repurposed Industrial TAGs",
       "idArmy": 21569,
@@ -23210,6 +23220,16 @@
       "category": 10
     },
     {
+      "id": 11558,
+      "isc": "Kendrat, Krakot Renegade",
+      "idArmy": 21558,
+      "name": "KENDRAT, Krakot Renegade",
+      "slug": "merc-kendrat-krakot-renegade",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/kendrat-krakot-renegade-1-1.svg",
+      "type": 7,
+      "category": 10
+    },
+    {
       "id": 10265,
       "isc": "Wardrivers, Merc. Hackers",
       "idArmy": 10039,
@@ -23220,14 +23240,14 @@
       "category": 11
     },
     {
-      "id": 11558,
-      "isc": "Kendrat, Krakot Renegade",
-      "idArmy": 21558,
-      "name": "KENDRAT, Krakot Renegade",
-      "slug": "merc-kendrat-krakot-renegade",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/kendrat-krakot-renegade-1-1.svg",
-      "type": 7,
-      "category": 10
+      "id": 11506,
+      "isc": "REM Racers",
+      "idArmy": 21506,
+      "name": "REM RACERS, Mercenary Hacker-Pilots",
+      "slug": "merc-rem-racers",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/rem-racers-1-1.svg",
+      "type": 1,
+      "category": 11
     },
     {
       "id": 11568,

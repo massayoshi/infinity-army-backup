@@ -1,5 +1,5 @@
 {
-  "version": "7.23275.327",
+  "version": "7.2432.453",
   "units": [
     {
       "id": 1699,
@@ -1063,596 +1063,6 @@
       ]
     },
     {
-      "id": 1694,
-      "idArmy": 1694,
-      "canonical": 1099,
-      "isc": "Reinf. Jackboots",
-      "iscAbbr": null,
-      "name": "REINF: JACKBOOTS, Armed Presence Unit",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Reinf. Jackboots",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 15,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 2,
-              "ava": 4,
-              "str": false,
-              "bs": 12,
-              "s": 2,
-              "equip": [],
-              "w": 1,
-              "ph": 11,
-              "name": "REINF: JACKBOOTS, Armed Presence Unit",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-jackboots-1-1.svg",
-              "id": 1,
-              "arm": 3,
-              "weapons": [],
-              "chars": [
-                1,
-                3,
-                5
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "q": 1,
-                  "extra": [
-                    33
-                  ],
-                  "id": 162,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 26,
-              "equip": [],
-              "name": "JACKBOOT REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 89,
-                  "order": 1
-                },
-                {
-                  "id": 28,
-                  "order": 2
-                },
-                {
-                  "id": 69,
-                  "order": 3
-                },
-                {
-                  "id": 5,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "1.5",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 25,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 237,
-                  "order": 1
-                }
-              ],
-              "name": "JACKBOOT REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "extra": [
-                    4
-                  ],
-                  "id": 77,
-                  "order": 1
-                },
-                {
-                  "id": 187,
-                  "order": 2
-                },
-                {
-                  "id": 17,
-                  "order": 3
-                },
-                {
-                  "id": 69,
-                  "order": 4
-                },
-                {
-                  "id": 5,
-                  "order": 5
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 49,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 23,
-              "equip": [],
-              "name": "JACKBOOT REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 3,
-              "weapons": [
-                {
-                  "extra": [
-                    4
-                  ],
-                  "id": 33,
-                  "order": 1
-                },
-                {
-                  "id": 187,
-                  "order": 2
-                },
-                {
-                  "id": 72,
-                  "order": 3
-                },
-                {
-                  "id": 69,
-                  "order": 4
-                },
-                {
-                  "id": 5,
-                  "order": 5
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 59,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 23,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 106,
-                  "order": 1
-                }
-              ],
-              "name": "JACKBOOT REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 4,
-              "weapons": [
-                {
-                  "extra": [
-                    4
-                  ],
-                  "id": 77,
-                  "order": 1
-                },
-                {
-                  "id": 187,
-                  "order": 2
-                },
-                {
-                  "id": 69,
-                  "order": 3
-                },
-                {
-                  "id": 5,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 64,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 30,
-              "equip": [],
-              "name": "JACKBOOT REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 5,
-              "weapons": [
-                {
-                  "id": 74,
-                  "order": 1
-                },
-                {
-                  "id": 187,
-                  "order": 2
-                },
-                {
-                  "id": 69,
-                  "order": 3
-                },
-                {
-                  "id": 5,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "1",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 211,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 4
-        }
-      ],
-      "options": [],
-      "slug": "reinf-jackboots",
-      "filters": {
-        "categories": [
-          4
-        ],
-        "skills": [
-          49,
-          59,
-          64,
-          162,
-          211
-        ],
-        "equip": [
-          106,
-          237
-        ],
-        "chars": [
-          1,
-          3,
-          5
-        ],
-        "types": [
-          2
-        ],
-        "weapons": [
-          5,
-          17,
-          28,
-          33,
-          69,
-          72,
-          74,
-          77,
-          89,
-          187
-        ],
-        "ammunition": [
-          2,
-          13,
-          29,
-          35,
-          37
-        ]
-      },
-      "factions": [
-        1099
-      ]
-    },
-    {
-      "id": 1695,
-      "idArmy": 1695,
-      "canonical": 1099,
-      "isc": "Reinf. Vidocq",
-      "iscAbbr": null,
-      "name": "REFUERZOS: VIDOCQ, Multipurpose Security Brigade",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Reinf. Vidocq",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 16,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 1,
-              "ava": 2,
-              "str": false,
-              "bs": 13,
-              "s": 2,
-              "equip": [],
-              "w": 1,
-              "ph": 10,
-              "name": "REFUERZOS: VIDOCQ, Multipurpose Security Brigade",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-vidocq-1-1.svg",
-              "id": 1,
-              "arm": 1,
-              "weapons": [],
-              "chars": [
-                1,
-                3,
-                5
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "q": 1,
-                  "extra": [
-                    6
-                  ],
-                  "id": 28,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "id": 164,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "id": 211,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    33
-                  ],
-                  "id": 58,
-                  "order": 4
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 19,
-              "equip": [],
-              "name": "VIDOCQ REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 26,
-                  "order": 1
-                },
-                {
-                  "id": 69,
-                  "order": 2
-                },
-                {
-                  "id": 5,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 23,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 106,
-                  "order": 1
-                }
-              ],
-              "name": "VIDOCQ REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "id": 26,
-                  "order": 1
-                },
-                {
-                  "id": 69,
-                  "order": 2
-                },
-                {
-                  "id": 5,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 53,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 25,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 114,
-                  "order": 1
-                }
-              ],
-              "name": "VIDOCQ REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 3,
-              "weapons": [
-                {
-                  "id": 169,
-                  "order": 1
-                },
-                {
-                  "id": 69,
-                  "order": 2
-                },
-                {
-                  "id": 5,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "0.5",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 3
-        }
-      ],
-      "options": [],
-      "slug": "reinf-vidocq",
-      "filters": {
-        "categories": [
-          3
-        ],
-        "skills": [
-          28,
-          53,
-          58,
-          164,
-          211
-        ],
-        "equip": [
-          106,
-          114
-        ],
-        "chars": [
-          1,
-          3,
-          5
-        ],
-        "types": [
-          1
-        ],
-        "weapons": [
-          5,
-          26,
-          69,
-          169
-        ],
-        "ammunition": [
-          2,
-          3,
-          9,
-          35
-        ]
-      },
-      "factions": [
-        1099
-      ]
-    },
-    {
       "id": 1701,
       "idArmy": 1701,
       "canonical": 1099,
@@ -1958,6 +1368,596 @@
       },
       "factions": [
         799,
+        1099
+      ]
+    },
+    {
+      "id": 1694,
+      "idArmy": 1694,
+      "canonical": 1099,
+      "isc": "Reinf. Jackboots",
+      "iscAbbr": null,
+      "name": "REINF: JACKBOOTS, Armed Presence Unit",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Reinf. Jackboots",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 15,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 2,
+              "ava": 4,
+              "str": false,
+              "bs": 12,
+              "s": 2,
+              "equip": [],
+              "w": 1,
+              "ph": 11,
+              "name": "REINF: JACKBOOTS, Armed Presence Unit",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-jackboots-1-1.svg",
+              "id": 1,
+              "arm": 3,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                5
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "q": 1,
+                  "extra": [
+                    33
+                  ],
+                  "id": 162,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 22,
+              "equip": [],
+              "name": "JACKBOOT REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 89,
+                  "order": 1
+                },
+                {
+                  "id": 28,
+                  "order": 2
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "1.5",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 25,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 237,
+                  "order": 1
+                }
+              ],
+              "name": "JACKBOOT REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "extra": [
+                    4
+                  ],
+                  "id": 77,
+                  "order": 1
+                },
+                {
+                  "id": 187,
+                  "order": 2
+                },
+                {
+                  "id": 17,
+                  "order": 3
+                },
+                {
+                  "id": 69,
+                  "order": 4
+                },
+                {
+                  "id": 5,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 49,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 23,
+              "equip": [],
+              "name": "JACKBOOT REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 3,
+              "weapons": [
+                {
+                  "extra": [
+                    4
+                  ],
+                  "id": 33,
+                  "order": 1
+                },
+                {
+                  "id": 187,
+                  "order": 2
+                },
+                {
+                  "id": 72,
+                  "order": 3
+                },
+                {
+                  "id": 69,
+                  "order": 4
+                },
+                {
+                  "id": 5,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 59,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 23,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 106,
+                  "order": 1
+                }
+              ],
+              "name": "JACKBOOT REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 4,
+              "weapons": [
+                {
+                  "extra": [
+                    4
+                  ],
+                  "id": 77,
+                  "order": 1
+                },
+                {
+                  "id": 187,
+                  "order": 2
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 64,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 30,
+              "equip": [],
+              "name": "JACKBOOT REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 5,
+              "weapons": [
+                {
+                  "id": 74,
+                  "order": 1
+                },
+                {
+                  "id": 187,
+                  "order": 2
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "1",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 211,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 4
+        }
+      ],
+      "options": [],
+      "slug": "reinf-jackboots",
+      "filters": {
+        "categories": [
+          4
+        ],
+        "skills": [
+          49,
+          59,
+          64,
+          162,
+          211
+        ],
+        "equip": [
+          106,
+          237
+        ],
+        "chars": [
+          1,
+          3,
+          5
+        ],
+        "types": [
+          2
+        ],
+        "weapons": [
+          5,
+          17,
+          28,
+          33,
+          69,
+          72,
+          74,
+          77,
+          89,
+          187
+        ],
+        "ammunition": [
+          2,
+          13,
+          29,
+          35,
+          37
+        ]
+      },
+      "factions": [
+        1099
+      ]
+    },
+    {
+      "id": 1695,
+      "idArmy": 1695,
+      "canonical": 1099,
+      "isc": "Reinf. Vidocq",
+      "iscAbbr": null,
+      "name": "REINF: VIDOCQ, Multipurpose Security Brigade",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Reinf. Vidocq",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 16,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 1,
+              "ava": 2,
+              "str": false,
+              "bs": 13,
+              "s": 2,
+              "equip": [],
+              "w": 1,
+              "ph": 10,
+              "name": "REINF: VIDOCQ, Multipurpose Security Brigade",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-vidocq-1-1.svg",
+              "id": 1,
+              "arm": 1,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                5
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "q": 1,
+                  "extra": [
+                    6
+                  ],
+                  "id": 28,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 164,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "id": 211,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    33
+                  ],
+                  "id": 58,
+                  "order": 4
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 19,
+              "equip": [],
+              "name": "VIDOCQ REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 26,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 23,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 106,
+                  "order": 1
+                }
+              ],
+              "name": "VIDOCQ REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "id": 26,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 53,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 25,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 114,
+                  "order": 1
+                }
+              ],
+              "name": "VIDOCQ REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 3,
+              "weapons": [
+                {
+                  "id": 169,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0.5",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 3
+        }
+      ],
+      "options": [],
+      "slug": "reinf-vidocq",
+      "filters": {
+        "categories": [
+          3
+        ],
+        "skills": [
+          28,
+          53,
+          58,
+          164,
+          211
+        ],
+        "equip": [
+          106,
+          114
+        ],
+        "chars": [
+          1,
+          3,
+          5
+        ],
+        "types": [
+          1
+        ],
+        "weapons": [
+          5,
+          26,
+          69,
+          169
+        ],
+        "ammunition": [
+          2,
+          3,
+          9,
+          35
+        ]
+      },
+      "factions": [
         1099
       ]
     },
@@ -4162,26 +4162,6 @@
       "category": 10
     },
     {
-      "id": 1694,
-      "isc": "Reinf. Jackboots",
-      "idArmy": 1694,
-      "name": "REINF: JACKBOOTS, Armed Presence Unit",
-      "slug": "reinf-jackboots",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-jackboots-1-1.svg",
-      "type": 2,
-      "category": 4
-    },
-    {
-      "id": 1695,
-      "isc": "Reinf. Vidocq",
-      "idArmy": 1695,
-      "name": "REFUERZOS: VIDOCQ, Multipurpose Security Brigade",
-      "slug": "reinf-vidocq",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-vidocq-1-1.svg",
-      "type": 1,
-      "category": 3
-    },
-    {
       "id": 1701,
       "isc": "Reinf. Oko Copperbots",
       "idArmy": 1701,
@@ -4200,6 +4180,26 @@
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-yudbots-1-1.svg",
       "type": 5,
       "category": 8
+    },
+    {
+      "id": 1694,
+      "isc": "Reinf. Jackboots",
+      "idArmy": 1694,
+      "name": "REINF: JACKBOOTS, Armed Presence Unit",
+      "slug": "reinf-jackboots",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-jackboots-1-1.svg",
+      "type": 2,
+      "category": 4
+    },
+    {
+      "id": 1695,
+      "isc": "Reinf. Vidocq",
+      "idArmy": 1695,
+      "name": "REINF: VIDOCQ, Multipurpose Security Brigade",
+      "slug": "reinf-vidocq",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-vidocq-1-1.svg",
+      "type": 1,
+      "category": 3
     },
     {
       "id": 1700,

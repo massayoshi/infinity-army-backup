@@ -1,5 +1,5 @@
 {
-  "version": "7.23275.327",
+  "version": "7.2432.453",
   "units": [
     {
       "id": 496,
@@ -808,437 +808,6 @@
           74,
           107,
           114
-        ],
-        "ammunition": [
-          2,
-          8
-        ]
-      },
-      "factions": [
-        601
-      ]
-    },
-    {
-      "id": 523,
-      "idArmy": 32,
-      "canonical": 601,
-      "isc": "The Anathematics",
-      "iscAbbr": null,
-      "name": "THE ANATHEMATICS",
-      "profileGroups": [
-        {
-          "id": 1,
-          "category": 6,
-          "isc": "The Anathematics",
-          "notes": null,
-          "profiles": [
-            {
-              "id": 1,
-              "arm": 5,
-              "ava": 1,
-              "bs": 13,
-              "bts": 6,
-              "cc": 19,
-              "chars": [
-                3,
-                5,
-                21
-              ],
-              "equip": [],
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/the-anathematics-1-1.svg",
-              "weapons": [],
-              "includes": [],
-              "move": [
-                10,
-                10
-              ],
-              "ph": 13,
-              "s": 6,
-              "str": false,
-              "type": 3,
-              "w": 2,
-              "wip": 16,
-              "name": "THE ANATHEMATICS",
-              "notes": null,
-              "skills": [
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 191,
-                  "order": 2
-                },
-                {
-                  "extra": [],
-                  "id": 29,
-                  "order": 3
-                },
-                {
-                  "id": 238,
-                  "order": 4
-                },
-                {
-                  "extra": [
-                    30
-                  ],
-                  "id": 162,
-                  "order": 5
-                },
-                {
-                  "extra": [],
-                  "id": 248,
-                  "order": 6
-                },
-                {
-                  "extra": [
-                    7
-                  ],
-                  "id": 28,
-                  "order": 7
-                },
-                {
-                  "extra": [],
-                  "id": 164,
-                  "order": 8
-                },
-                {
-                  "id": 86,
-                  "order": 9
-                },
-                {
-                  "q": 1,
-                  "id": 84,
-                  "order": 10
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "id": 1,
-              "chars": [],
-              "disabled": false,
-              "equip": [],
-              "minis": 1,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "includes": [],
-              "points": 71,
-              "swc": "0",
-              "weapons": [
-                {
-                  "id": 40,
-                  "order": 1
-                },
-                {
-                  "id": 65,
-                  "order": 2
-                },
-                {
-                  "id": 69,
-                  "order": 3
-                },
-                {
-                  "id": 9,
-                  "order": 4
-                }
-              ],
-              "name": "ANATHEMATIC",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "id": 2,
-              "chars": [],
-              "disabled": false,
-              "equip": [],
-              "minis": 1,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "includes": [],
-              "points": 70,
-              "swc": "1.5",
-              "weapons": [
-                {
-                  "id": 74,
-                  "order": 1
-                },
-                {
-                  "id": 65,
-                  "order": 2
-                },
-                {
-                  "id": 69,
-                  "order": 3
-                },
-                {
-                  "id": 9,
-                  "order": 4
-                }
-              ],
-              "name": "ANATHEMATIC",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "id": 3,
-              "chars": [],
-              "disabled": false,
-              "equip": [],
-              "minis": 1,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "includes": [],
-              "points": 77,
-              "swc": "0.5",
-              "weapons": [
-                {
-                  "id": 40,
-                  "order": 1
-                },
-                {
-                  "id": 73,
-                  "order": 2
-                },
-                {
-                  "id": 65,
-                  "order": 3
-                },
-                {
-                  "id": 69,
-                  "order": 4
-                },
-                {
-                  "id": 9,
-                  "order": 5
-                }
-              ],
-              "name": "ANATHEMATIC",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "id": 4,
-              "chars": [],
-              "disabled": false,
-              "equip": [
-                {
-                  "id": 100,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    290
-                  ],
-                  "id": 100,
-                  "order": 1
-                }
-              ],
-              "minis": 1,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "includes": [],
-              "points": 76,
-              "swc": "0.5",
-              "weapons": [
-                {
-                  "id": 40,
-                  "order": 1
-                },
-                {
-                  "id": 65,
-                  "order": 2
-                },
-                {
-                  "id": 69,
-                  "order": 3
-                },
-                {
-                  "id": 10,
-                  "order": 4
-                }
-              ],
-              "name": "ANATHEMATIC",
-              "skills": [
-                {
-                  "id": 1000,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "id": 5,
-              "chars": [],
-              "disabled": false,
-              "equip": [],
-              "minis": 1,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "LIEUTENANT",
-                  "list": 0,
-                  "total": 1
-                }
-              ],
-              "includes": [],
-              "points": 71,
-              "swc": "0",
-              "weapons": [
-                {
-                  "id": 40,
-                  "order": 1
-                },
-                {
-                  "id": 65,
-                  "order": 2
-                },
-                {
-                  "id": 69,
-                  "order": 3
-                },
-                {
-                  "id": 9,
-                  "order": 4
-                }
-              ],
-              "name": "ANATHEMATIC",
-              "skills": [
-                {
-                  "id": 119,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "id": 6,
-              "chars": [],
-              "disabled": false,
-              "equip": [
-                {
-                  "q": 1,
-                  "extra": [
-                    290
-                  ],
-                  "id": 100,
-                  "order": 1
-                }
-              ],
-              "minis": 1,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "LIEUTENANT",
-                  "list": 0,
-                  "total": 1
-                }
-              ],
-              "includes": [],
-              "points": 76,
-              "swc": "0.5",
-              "weapons": [
-                {
-                  "id": 40,
-                  "order": 1
-                },
-                {
-                  "id": 65,
-                  "order": 2
-                },
-                {
-                  "id": 69,
-                  "order": 3
-                },
-                {
-                  "id": 10,
-                  "order": 4
-                }
-              ],
-              "name": "ANATHEMATIC",
-              "skills": [
-                {
-                  "id": 119,
-                  "order": 1
-                },
-                {
-                  "id": 1000,
-                  "order": 2
-                }
-              ],
-              "peripheral": []
-            }
-          ]
-        }
-      ],
-      "options": [],
-      "slug": "the-anathematics",
-      "filters": {
-        "categories": [
-          6
-        ],
-        "skills": [
-          28,
-          29,
-          84,
-          86,
-          119,
-          162,
-          164,
-          191,
-          238,
-          248,
-          1000
-        ],
-        "equip": [
-          100
-        ],
-        "chars": [
-          3,
-          5,
-          21
-        ],
-        "types": [
-          3
-        ],
-        "weapons": [
-          9,
-          10,
-          40,
-          65,
-          69,
-          73,
-          74
         ],
         "ammunition": [
           2,
@@ -6520,6 +6089,690 @@
       ]
     },
     {
+      "id": 1763,
+      "idArmy": 1763,
+      "canonical": 601,
+      "isc": "WCD Vector Operators",
+      "iscAbbr": null,
+      "name": "WCD Vector Operators",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "WCD Vector Operators",
+          "profiles": [
+            {
+              "bts": 0,
+              "cc": 14,
+              "move": [
+                15,
+                5
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 2,
+              "ava": 1,
+              "str": false,
+              "bs": 12,
+              "s": 2,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 115,
+                  "order": 1
+                }
+              ],
+              "w": 1,
+              "ph": 11,
+              "name": "VECTOR",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/wcd-vector-operators-1-1.svg",
+              "id": 1,
+              "arm": 3,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                5
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 84,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    11
+                  ],
+                  "id": 40,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "id": 259,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    6
+                  ],
+                  "id": 28,
+                  "order": 4
+                },
+                {
+                  "q": 1,
+                  "id": 74,
+                  "order": 5
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    33
+                  ],
+                  "id": 58,
+                  "order": 6
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 21,
+              "equip": [],
+              "name": "VECTOR",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 26,
+                  "order": 1
+                },
+                {
+                  "id": 17,
+                  "order": 2
+                },
+                {
+                  "id": 196,
+                  "order": 3
+                },
+                {
+                  "id": 69,
+                  "order": 4
+                },
+                {
+                  "id": 5,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 24,
+              "equip": [],
+              "name": "VECTOR",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "id": 169,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0.5",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 26,
+              "equip": [],
+              "name": "VECTOR",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 3,
+              "weapons": [
+                {
+                  "id": 74,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "1.5",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 5
+        }
+      ],
+      "options": [],
+      "slug": "wcd-vector-operators",
+      "filters": {
+        "categories": [
+          5
+        ],
+        "skills": [
+          28,
+          40,
+          58,
+          74,
+          84,
+          259
+        ],
+        "equip": [
+          115
+        ],
+        "chars": [
+          1,
+          3,
+          5
+        ],
+        "types": [
+          2
+        ],
+        "weapons": [
+          5,
+          17,
+          26,
+          69,
+          74,
+          169,
+          196
+        ],
+        "ammunition": [
+          2,
+          3,
+          8,
+          9,
+          13,
+          35
+        ]
+      },
+      "factions": [
+        601,
+        604
+      ]
+    },
+    {
+      "id": 523,
+      "idArmy": 32,
+      "canonical": 601,
+      "isc": "The Anathematics",
+      "iscAbbr": null,
+      "name": "THE ANATHEMATICS",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "The Anathematics",
+          "profiles": [
+            {
+              "bts": 6,
+              "cc": 19,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 3,
+              "ava": 1,
+              "str": false,
+              "bs": 13,
+              "s": 6,
+              "equip": [],
+              "w": 2,
+              "ph": 13,
+              "name": "THE ANATHEMATICS",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/the-anathematics-1-1.svg",
+              "id": 1,
+              "arm": 5,
+              "weapons": [],
+              "chars": [
+                3,
+                5,
+                21
+              ],
+              "wip": 16,
+              "skills": [
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 191,
+                  "order": 2
+                },
+                {
+                  "extra": [],
+                  "id": 29,
+                  "order": 3
+                },
+                {
+                  "id": 238,
+                  "order": 4
+                },
+                {
+                  "extra": [
+                    30
+                  ],
+                  "id": 162,
+                  "order": 5
+                },
+                {
+                  "extra": [],
+                  "id": 248,
+                  "order": 6
+                },
+                {
+                  "extra": [
+                    7
+                  ],
+                  "id": 28,
+                  "order": 7
+                },
+                {
+                  "extra": [],
+                  "id": 164,
+                  "order": 8
+                },
+                {
+                  "id": 86,
+                  "order": 9
+                },
+                {
+                  "q": 1,
+                  "id": 84,
+                  "order": 10
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 71,
+              "equip": [],
+              "name": "ANATHEMATIC",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 40,
+                  "order": 1
+                },
+                {
+                  "id": 65,
+                  "order": 2
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "id": 9,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 70,
+              "equip": [],
+              "name": "ANATHEMATIC",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "id": 74,
+                  "order": 1
+                },
+                {
+                  "id": 65,
+                  "order": 2
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "id": 9,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "1.5",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 77,
+              "equip": [],
+              "name": "ANATHEMATIC",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 3,
+              "weapons": [
+                {
+                  "id": 40,
+                  "order": 1
+                },
+                {
+                  "id": 73,
+                  "order": 2
+                },
+                {
+                  "id": 65,
+                  "order": 3
+                },
+                {
+                  "id": 69,
+                  "order": 4
+                },
+                {
+                  "id": 9,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0.5",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 77,
+              "equip": [
+                {
+                  "q": 1,
+                  "extra": [
+                    290
+                  ],
+                  "id": 100,
+                  "order": 1
+                }
+              ],
+              "name": "ANATHEMATIC",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 4,
+              "weapons": [
+                {
+                  "id": 40,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "id": 10,
+                  "order": 4
+                },
+                {
+                  "extra": null,
+                  "id": 145,
+                  "order": 2
+                }
+              ],
+              "chars": [],
+              "swc": "0.5",
+              "skills": [
+                {
+                  "id": 1000,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 71,
+              "equip": [],
+              "name": "ANATHEMATIC",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "LIEUTENANT",
+                  "list": 0,
+                  "total": 1
+                }
+              ],
+              "id": 5,
+              "weapons": [
+                {
+                  "id": 40,
+                  "order": 1
+                },
+                {
+                  "id": 65,
+                  "order": 2
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "id": 9,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "id": 119,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 77,
+              "equip": [
+                {
+                  "q": 1,
+                  "extra": [
+                    290
+                  ],
+                  "id": 100,
+                  "order": 1
+                }
+              ],
+              "name": "ANATHEMATIC",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "LIEUTENANT",
+                  "list": 0,
+                  "total": 1
+                }
+              ],
+              "id": 6,
+              "weapons": [
+                {
+                  "id": 40,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "id": 10,
+                  "order": 4
+                },
+                {
+                  "extra": null,
+                  "id": 145,
+                  "order": 2
+                }
+              ],
+              "chars": [],
+              "swc": "0.5",
+              "skills": [
+                {
+                  "id": 119,
+                  "order": 1
+                },
+                {
+                  "id": 1000,
+                  "order": 2
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 6
+        }
+      ],
+      "options": [],
+      "slug": "the-anathematics",
+      "filters": {
+        "categories": [
+          6
+        ],
+        "skills": [
+          28,
+          29,
+          84,
+          86,
+          119,
+          162,
+          164,
+          191,
+          238,
+          248,
+          1000
+        ],
+        "equip": [
+          100
+        ],
+        "chars": [
+          3,
+          5,
+          21
+        ],
+        "types": [
+          3
+        ],
+        "weapons": [
+          9,
+          10,
+          40,
+          65,
+          69,
+          73,
+          74,
+          145
+        ],
+        "ammunition": [
+          2,
+          8
+        ]
+      },
+      "factions": [
+        601
+      ]
+    },
+    {
       "id": 502,
       "idArmy": 11,
       "canonical": 601,
@@ -11757,7 +12010,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 11
+                  "id": 137
                 }
               ]
             }
@@ -13982,918 +14235,6 @@
       ]
     },
     {
-      "id": 1290,
-      "idArmy": 59,
-      "canonical": 601,
-      "isc": "Shasvastii Nox Troops",
-      "iscAbbr": null,
-      "name": "Shasvastii Nox Troops",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Shasvastii Nox Troops",
-          "profiles": [
-            {
-              "bts": 0,
-              "cc": 15,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 1,
-              "ava": 5,
-              "str": false,
-              "bs": 11,
-              "s": 2,
-              "equip": [],
-              "w": 1,
-              "ph": 10,
-              "name": "Shasvastii Nox Troops",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/shasvastii-nox-troops-1-1.svg",
-              "id": 1,
-              "arm": 1,
-              "weapons": [],
-              "chars": [
-                1,
-                3,
-                5
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "id": 237,
-                  "order": 1
-                },
-                {
-                  "extra": [
-                    30
-                  ],
-                  "id": 162,
-                  "order": 2
-                },
-                {
-                  "extra": [],
-                  "id": 164,
-                  "order": 3
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 14,
-              "equip": [],
-              "name": "NOX",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 33,
-                  "order": 1
-                },
-                {
-                  "id": 175,
-                  "order": 2
-                },
-                {
-                  "id": 69,
-                  "order": 3
-                },
-                {
-                  "id": 5,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 21,
-              "equip": [],
-              "name": "NOX",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "id": 69,
-                  "order": 1
-                },
-                {
-                  "id": 5,
-                  "order": 2
-                },
-                {
-                  "id": 2,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "1",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 17,
-              "equip": [],
-              "name": "NOX",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 3,
-              "weapons": [
-                {
-                  "id": 33,
-                  "order": 1
-                },
-                {
-                  "id": 194,
-                  "order": 2
-                },
-                {
-                  "id": 69,
-                  "order": 3
-                },
-                {
-                  "id": 5,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "1",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 20,
-              "equip": [],
-              "name": "NOX",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 4,
-              "weapons": [
-                {
-                  "id": 69,
-                  "order": 1
-                },
-                {
-                  "id": 5,
-                  "order": 2
-                },
-                {
-                  "id": 36,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "1.5",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 19,
-              "equip": [
-                {
-                  "id": 100,
-                  "order": 1
-                }
-              ],
-              "name": "NOX",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 5,
-              "weapons": [
-                {
-                  "id": 69,
-                  "order": 1
-                },
-                {
-                  "id": 5,
-                  "order": 2
-                },
-                {
-                  "id": 33,
-                  "order": 3
-                },
-                {
-                  "id": 175,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "0.5",
-              "skills": [
-                {
-                  "id": 1000,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 15,
-              "equip": [],
-              "name": "NOX",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 7,
-              "weapons": [
-                {
-                  "id": 33,
-                  "order": 1
-                },
-                {
-                  "id": 175,
-                  "order": 2
-                },
-                {
-                  "id": 72,
-                  "order": 3
-                },
-                {
-                  "id": 69,
-                  "order": 4
-                },
-                {
-                  "id": 5,
-                  "order": 5
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "id": 59,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 16,
-              "equip": [
-                {
-                  "id": 106,
-                  "order": 1
-                }
-              ],
-              "name": "NOX",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 8,
-              "weapons": [
-                {
-                  "id": 69,
-                  "order": 1
-                },
-                {
-                  "id": 5,
-                  "order": 2
-                },
-                {
-                  "id": 33,
-                  "order": 3
-                },
-                {
-                  "id": 175,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "id": 64,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 24,
-              "equip": [],
-              "name": "NOX",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 13,
-              "weapons": [
-                {
-                  "id": 33,
-                  "order": 1
-                },
-                {
-                  "id": 175,
-                  "order": 2
-                },
-                {
-                  "id": 69,
-                  "order": 3
-                },
-                {
-                  "id": 5,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "0.5",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 260,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "id": 189,
-                  "order": 2
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 2
-        }
-      ],
-      "options": [],
-      "slug": "shasvastii-nox-troops",
-      "filters": {
-        "categories": [
-          2
-        ],
-        "skills": [
-          59,
-          64,
-          162,
-          164,
-          189,
-          237,
-          260,
-          1000
-        ],
-        "equip": [
-          100,
-          106
-        ],
-        "chars": [
-          1,
-          3,
-          5
-        ],
-        "types": [
-          1
-        ],
-        "weapons": [
-          2,
-          5,
-          33,
-          36,
-          69,
-          72,
-          175,
-          194
-        ],
-        "ammunition": [
-          2,
-          9,
-          14,
-          29,
-          35
-        ]
-      },
-      "factions": [
-        601,
-        603
-      ]
-    },
-    {
-      "id": 492,
-      "idArmy": 1,
-      "canonical": 601,
-      "isc": "Morat Vanguard Infantry",
-      "iscAbbr": null,
-      "name": "MORAT VANGUARD INFANTRY",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Morat Vanguard Infantry",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 15,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 1,
-              "ava": 255,
-              "str": false,
-              "bs": 11,
-              "s": 2,
-              "equip": [],
-              "w": 1,
-              "ph": 12,
-              "name": "MORAT VANGUARD INFANTRY",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/morat-vanguard-infantry-1-1.svg",
-              "id": 1,
-              "arm": 1,
-              "weapons": [],
-              "chars": [
-                1,
-                3,
-                5
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "id": 83,
-                  "order": 1
-                },
-                {
-                  "id": 88,
-                  "order": 2
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 14,
-              "equip": [],
-              "name": "MORAT VANGUARD",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 33,
-                  "order": 1
-                },
-                {
-                  "id": 107,
-                  "order": 2
-                },
-                {
-                  "id": 5,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 22,
-              "equip": [],
-              "name": "MORAT VANGUARD",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "id": 2,
-                  "order": 1
-                },
-                {
-                  "id": 107,
-                  "order": 2
-                },
-                {
-                  "id": 5,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "1",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 18,
-              "equip": [],
-              "name": "MORAT VANGUARD",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 3,
-              "weapons": [
-                {
-                  "id": 33,
-                  "order": 1
-                },
-                {
-                  "id": 194,
-                  "order": 2
-                },
-                {
-                  "id": 107,
-                  "order": 3
-                },
-                {
-                  "id": 5,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "1",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 18,
-              "equip": [],
-              "name": "MORAT VANGUARD",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 4,
-              "weapons": [
-                {
-                  "id": 110,
-                  "order": 1
-                },
-                {
-                  "id": 107,
-                  "order": 2
-                },
-                {
-                  "id": 5,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "1",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 19,
-              "equip": [],
-              "name": "MORAT VANGUARD",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 5,
-              "weapons": [
-                {
-                  "id": 58,
-                  "order": 1
-                },
-                {
-                  "id": 107,
-                  "order": 2
-                },
-                {
-                  "id": 5,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "1.5",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 15,
-              "equip": [],
-              "name": "MORAT VANGUARD",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 7,
-              "weapons": [
-                {
-                  "id": 33,
-                  "order": 1
-                },
-                {
-                  "id": 72,
-                  "order": 2
-                },
-                {
-                  "id": 107,
-                  "order": 3
-                },
-                {
-                  "id": 5,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "id": 59,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 16,
-              "equip": [
-                {
-                  "id": 106,
-                  "order": 1
-                }
-              ],
-              "name": "MORAT VANGUARD",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 8,
-              "weapons": [
-                {
-                  "id": 33,
-                  "order": 1
-                },
-                {
-                  "id": 107,
-                  "order": 2
-                },
-                {
-                  "id": 5,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "id": 64,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 14,
-              "equip": [],
-              "name": "MORAT VANGUARD",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "LIEUTENANT",
-                  "list": 0,
-                  "total": 1
-                }
-              ],
-              "id": 9,
-              "weapons": [
-                {
-                  "id": 33,
-                  "order": 1
-                },
-                {
-                  "id": 107,
-                  "order": 2
-                },
-                {
-                  "id": 5,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "1",
-              "skills": [
-                {
-                  "id": 119,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 24,
-              "equip": [],
-              "name": "MORAT VANGUARD",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 11,
-              "weapons": [
-                {
-                  "id": 33,
-                  "order": 1
-                },
-                {
-                  "id": 107,
-                  "order": 2
-                },
-                {
-                  "id": 5,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "0.5",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 260,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "id": 189,
-                  "order": 2
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 2
-        }
-      ],
-      "options": [],
-      "slug": "morat-vanguard-infantry",
-      "filters": {
-        "categories": [
-          2
-        ],
-        "skills": [
-          59,
-          64,
-          83,
-          88,
-          119,
-          189,
-          260
-        ],
-        "equip": [
-          106
-        ],
-        "chars": [
-          1,
-          3,
-          5
-        ],
-        "types": [
-          1
-        ],
-        "weapons": [
-          2,
-          5,
-          33,
-          58,
-          72,
-          107,
-          110,
-          194
-        ],
-        "ammunition": [
-          2,
-          6,
-          8,
-          13,
-          29
-        ]
-      },
-      "factions": [
-        601,
-        602
-      ]
-    },
-    {
       "id": 680,
       "idArmy": 18,
       "canonical": 1,
@@ -15516,6 +14857,1157 @@
       ]
     },
     {
+      "id": 1598,
+      "idArmy": 1598,
+      "canonical": 101,
+      "isc": "ITS Corsair Bashi Bazouks",
+      "iscAbbr": null,
+      "notes": "This Trooper is only available with the Mercenary Contractors Extra",
+      "name": "ITS CORSAIR BASHI BAZOUKS",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "ITS Corsair Bashi Bazouks",
+          "profiles": [
+            {
+              "bts": 0,
+              "cc": 15,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 1,
+              "ava": 1,
+              "str": false,
+              "bs": 11,
+              "s": 2,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 24,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 104,
+                  "order": 2
+                }
+              ],
+              "w": 1,
+              "ph": 10,
+              "name": "ITS CORSAIR BASHI BAZOUKS",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/bashi-bazouks-1-1.svg",
+              "id": 1,
+              "arm": 2,
+              "weapons": [],
+              "chars": [
+                2,
+                4,
+                5,
+                28
+              ],
+              "wip": 12,
+              "skills": [
+                {
+                  "q": 1,
+                  "extra": [
+                    6
+                  ],
+                  "id": 191,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 33,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    34
+                  ],
+                  "id": 58,
+                  "order": 4
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 15,
+              "equip": [],
+              "name": "CORSAIR BASHI BAZOUK",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "IRREGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 26,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 12,
+              "equip": [],
+              "name": "CORSAIR BASHI BAZOUK",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "IRREGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 4,
+              "weapons": [
+                {
+                  "id": 77,
+                  "order": 1
+                },
+                {
+                  "id": 80,
+                  "order": 2
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 11
+        }
+      ],
+      "options": [],
+      "slug": "its-corsair-bashi-bazouks",
+      "filters": {
+        "categories": [
+          11
+        ],
+        "skills": [
+          33,
+          58,
+          191
+        ],
+        "equip": [
+          24,
+          104
+        ],
+        "chars": [
+          2,
+          4,
+          5,
+          28
+        ],
+        "types": [
+          1
+        ],
+        "weapons": [
+          5,
+          26,
+          69,
+          77,
+          80
+        ],
+        "ammunition": [
+          2,
+          3,
+          35
+        ]
+      },
+      "factions": [
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        201,
+        202,
+        204,
+        205,
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        401,
+        402,
+        403,
+        404,
+        501,
+        502,
+        503,
+        504,
+        601,
+        602,
+        603,
+        604,
+        701,
+        702,
+        703,
+        801,
+        902,
+        903,
+        904,
+        905,
+        906,
+        907,
+        908,
+        909,
+        1001,
+        1002
+      ]
+    },
+    {
+      "id": 1290,
+      "idArmy": 59,
+      "canonical": 601,
+      "isc": "Shasvastii Nox Troops",
+      "iscAbbr": null,
+      "name": "Shasvastii Nox Troops",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Shasvastii Nox Troops",
+          "profiles": [
+            {
+              "bts": 0,
+              "cc": 15,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 1,
+              "ava": 5,
+              "str": false,
+              "bs": 11,
+              "s": 2,
+              "equip": [],
+              "w": 1,
+              "ph": 10,
+              "name": "Shasvastii Nox Troops",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/shasvastii-nox-troops-1-1.svg",
+              "id": 1,
+              "arm": 1,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                5
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "id": 237,
+                  "order": 1
+                },
+                {
+                  "extra": [
+                    30
+                  ],
+                  "id": 162,
+                  "order": 2
+                },
+                {
+                  "extra": [],
+                  "id": 164,
+                  "order": 3
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 14,
+              "equip": [],
+              "name": "NOX",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 33,
+                  "order": 1
+                },
+                {
+                  "id": 175,
+                  "order": 2
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 21,
+              "equip": [],
+              "name": "NOX",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "id": 69,
+                  "order": 1
+                },
+                {
+                  "id": 5,
+                  "order": 2
+                },
+                {
+                  "id": 2,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "1",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 17,
+              "equip": [],
+              "name": "NOX",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 3,
+              "weapons": [
+                {
+                  "id": 33,
+                  "order": 1
+                },
+                {
+                  "id": 194,
+                  "order": 2
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "1",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 20,
+              "equip": [],
+              "name": "NOX",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 4,
+              "weapons": [
+                {
+                  "id": 69,
+                  "order": 1
+                },
+                {
+                  "id": 5,
+                  "order": 2
+                },
+                {
+                  "id": 36,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "1.5",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 19,
+              "equip": [
+                {
+                  "id": 100,
+                  "order": 1
+                }
+              ],
+              "name": "NOX",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 5,
+              "weapons": [
+                {
+                  "id": 69,
+                  "order": 1
+                },
+                {
+                  "id": 5,
+                  "order": 2
+                },
+                {
+                  "id": 33,
+                  "order": 3
+                },
+                {
+                  "id": 175,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0.5",
+              "skills": [
+                {
+                  "id": 1000,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 15,
+              "equip": [],
+              "name": "NOX",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 7,
+              "weapons": [
+                {
+                  "id": 33,
+                  "order": 1
+                },
+                {
+                  "id": 175,
+                  "order": 2
+                },
+                {
+                  "id": 72,
+                  "order": 3
+                },
+                {
+                  "id": 69,
+                  "order": 4
+                },
+                {
+                  "id": 5,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "id": 59,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 16,
+              "equip": [
+                {
+                  "id": 106,
+                  "order": 1
+                }
+              ],
+              "name": "NOX",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 8,
+              "weapons": [
+                {
+                  "id": 69,
+                  "order": 1
+                },
+                {
+                  "id": 5,
+                  "order": 2
+                },
+                {
+                  "id": 33,
+                  "order": 3
+                },
+                {
+                  "id": 175,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "id": 64,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 16,
+              "equip": [],
+              "name": "NOX",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 13,
+              "weapons": [
+                {
+                  "id": 33,
+                  "order": 1
+                },
+                {
+                  "id": 175,
+                  "order": 2
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 260,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 189,
+                  "order": 2
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 2
+        }
+      ],
+      "options": [],
+      "slug": "shasvastii-nox-troops",
+      "filters": {
+        "categories": [
+          2
+        ],
+        "skills": [
+          59,
+          64,
+          162,
+          164,
+          189,
+          237,
+          260,
+          1000
+        ],
+        "equip": [
+          100,
+          106
+        ],
+        "chars": [
+          1,
+          3,
+          5
+        ],
+        "types": [
+          1
+        ],
+        "weapons": [
+          2,
+          5,
+          33,
+          36,
+          69,
+          72,
+          175,
+          194
+        ],
+        "ammunition": [
+          2,
+          9,
+          14,
+          29,
+          35
+        ]
+      },
+      "factions": [
+        601,
+        603
+      ]
+    },
+    {
+      "id": 492,
+      "idArmy": 1,
+      "canonical": 601,
+      "isc": "Morat Vanguard Infantry",
+      "iscAbbr": null,
+      "name": "MORAT VANGUARD INFANTRY",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Morat Vanguard Infantry",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 15,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 1,
+              "ava": 255,
+              "str": false,
+              "bs": 11,
+              "s": 2,
+              "equip": [],
+              "w": 1,
+              "ph": 12,
+              "name": "MORAT VANGUARD INFANTRY",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/morat-vanguard-infantry-1-1.svg",
+              "id": 1,
+              "arm": 1,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                5
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "id": 83,
+                  "order": 1
+                },
+                {
+                  "id": 88,
+                  "order": 2
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 14,
+              "equip": [],
+              "name": "MORAT VANGUARD",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 33,
+                  "order": 1
+                },
+                {
+                  "id": 107,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 22,
+              "equip": [],
+              "name": "MORAT VANGUARD",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "id": 2,
+                  "order": 1
+                },
+                {
+                  "id": 107,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "1",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 18,
+              "equip": [],
+              "name": "MORAT VANGUARD",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 3,
+              "weapons": [
+                {
+                  "id": 33,
+                  "order": 1
+                },
+                {
+                  "id": 194,
+                  "order": 2
+                },
+                {
+                  "id": 107,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "1",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 18,
+              "equip": [],
+              "name": "MORAT VANGUARD",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 4,
+              "weapons": [
+                {
+                  "id": 110,
+                  "order": 1
+                },
+                {
+                  "id": 107,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "1",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 19,
+              "equip": [],
+              "name": "MORAT VANGUARD",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 5,
+              "weapons": [
+                {
+                  "id": 58,
+                  "order": 1
+                },
+                {
+                  "id": 107,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "1.5",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 15,
+              "equip": [],
+              "name": "MORAT VANGUARD",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 7,
+              "weapons": [
+                {
+                  "id": 33,
+                  "order": 1
+                },
+                {
+                  "id": 72,
+                  "order": 2
+                },
+                {
+                  "id": 107,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "id": 59,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 16,
+              "equip": [
+                {
+                  "id": 106,
+                  "order": 1
+                }
+              ],
+              "name": "MORAT VANGUARD",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 8,
+              "weapons": [
+                {
+                  "id": 33,
+                  "order": 1
+                },
+                {
+                  "id": 107,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "id": 64,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 14,
+              "equip": [],
+              "name": "MORAT VANGUARD",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "LIEUTENANT",
+                  "list": 0,
+                  "total": 1
+                }
+              ],
+              "id": 9,
+              "weapons": [
+                {
+                  "id": 33,
+                  "order": 1
+                },
+                {
+                  "id": 107,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "1",
+              "skills": [
+                {
+                  "id": 119,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 16,
+              "equip": [],
+              "name": "MORAT VANGUARD",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 11,
+              "weapons": [
+                {
+                  "id": 33,
+                  "order": 1
+                },
+                {
+                  "id": 107,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 260,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 189,
+                  "order": 2
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 2
+        }
+      ],
+      "options": [],
+      "slug": "morat-vanguard-infantry",
+      "filters": {
+        "categories": [
+          2
+        ],
+        "skills": [
+          59,
+          64,
+          83,
+          88,
+          119,
+          189,
+          260
+        ],
+        "equip": [
+          106
+        ],
+        "chars": [
+          1,
+          3,
+          5
+        ],
+        "types": [
+          1
+        ],
+        "weapons": [
+          2,
+          5,
+          33,
+          58,
+          72,
+          107,
+          110,
+          194
+        ],
+        "ammunition": [
+          2,
+          6,
+          8,
+          13,
+          29
+        ]
+      },
+      "factions": [
+        601,
+        602
+      ]
+    },
+    {
       "id": 493,
       "idArmy": 2,
       "canonical": 601,
@@ -15880,7 +16372,7 @@
             {
               "includes": [],
               "minis": 1,
-              "points": 24,
+              "points": 16,
               "equip": [],
               "name": "UNIDRON",
               "disabled": false,
@@ -15910,7 +16402,7 @@
                 }
               ],
               "chars": [],
-              "swc": "0.5",
+              "swc": "0",
               "skills": [
                 {
                   "q": 1,
@@ -15980,245 +16472,6 @@
       "factions": [
         601,
         604
-      ]
-    },
-    {
-      "id": 1598,
-      "idArmy": 1598,
-      "canonical": 101,
-      "isc": "ITS Corsair Bashi Bazouks",
-      "iscAbbr": null,
-      "notes": "This Trooper is only available with the Mercenary Contractors Extra",
-      "name": "ITS CORSAIR BASHI BAZOUKS",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "ITS Corsair Bashi Bazouks",
-          "profiles": [
-            {
-              "bts": 0,
-              "cc": 15,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 1,
-              "ava": 1,
-              "str": false,
-              "bs": 11,
-              "s": 2,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 24,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "id": 104,
-                  "order": 2
-                }
-              ],
-              "w": 1,
-              "ph": 10,
-              "name": "ITS CORSAIR BASHI BAZOUKS",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/bashi-bazouks-1-1.svg",
-              "id": 1,
-              "arm": 2,
-              "weapons": [],
-              "chars": [
-                2,
-                4,
-                5,
-                28
-              ],
-              "wip": 12,
-              "skills": [
-                {
-                  "q": 1,
-                  "extra": [
-                    6
-                  ],
-                  "id": 191,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "id": 33,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    34
-                  ],
-                  "id": 58,
-                  "order": 4
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 15,
-              "equip": [],
-              "name": "CORSAIR BASHI BAZOUK",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "IRREGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 26,
-                  "order": 1
-                },
-                {
-                  "id": 69,
-                  "order": 2
-                },
-                {
-                  "id": 5,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 12,
-              "equip": [],
-              "name": "CORSAIR BASHI BAZOUK",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "IRREGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 4,
-              "weapons": [
-                {
-                  "id": 77,
-                  "order": 1
-                },
-                {
-                  "id": 80,
-                  "order": 2
-                },
-                {
-                  "id": 69,
-                  "order": 3
-                },
-                {
-                  "id": 5,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 11
-        }
-      ],
-      "options": [],
-      "slug": "its-corsair-bashi-bazouks",
-      "filters": {
-        "categories": [
-          11
-        ],
-        "skills": [
-          33,
-          58,
-          191
-        ],
-        "equip": [
-          24,
-          104
-        ],
-        "chars": [
-          2,
-          4,
-          5,
-          28
-        ],
-        "types": [
-          1
-        ],
-        "weapons": [
-          5,
-          26,
-          69,
-          77,
-          80
-        ],
-        "ammunition": [
-          2,
-          3,
-          35
-        ]
-      },
-      "factions": [
-        101,
-        102,
-        103,
-        104,
-        105,
-        106,
-        201,
-        202,
-        204,
-        205,
-        301,
-        302,
-        303,
-        304,
-        305,
-        306,
-        401,
-        402,
-        403,
-        404,
-        501,
-        502,
-        503,
-        504,
-        601,
-        602,
-        603,
-        604,
-        701,
-        702,
-        703,
-        801,
-        902,
-        903,
-        904,
-        905,
-        906,
-        907,
-        908,
-        909,
-        1001,
-        1002
       ]
     },
     {
@@ -20808,7 +21061,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 12
+                  "id": 138
                 }
               ]
             },
@@ -20878,7 +21131,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 13
+                  "id": 139
                 }
               ]
             }
@@ -21247,6 +21500,633 @@
         909,
         1001,
         1002
+      ]
+    },
+    {
+      "id": 1765,
+      "idArmy": 1765,
+      "canonical": 601,
+      "isc": "WCD Base Operators",
+      "iscAbbr": null,
+      "name": "WCD Base Operators",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "WCD Base Operators",
+          "profiles": [
+            {
+              "bts": 0,
+              "cc": 14,
+              "move": [
+                15,
+                5
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 2,
+              "ava": 2,
+              "str": false,
+              "bs": 11,
+              "s": 2,
+              "equip": [],
+              "w": 1,
+              "ph": 11,
+              "name": "BASE OPERATORS",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/wcd-base-operators-1-1.svg",
+              "id": 1,
+              "arm": 2,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                5
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 84,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    11
+                  ],
+                  "id": 40,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "id": 259,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "id": 74,
+                  "order": 4
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 17,
+              "equip": [],
+              "name": "BASE OPERATORS",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 33,
+                  "order": 1
+                },
+                {
+                  "id": 28,
+                  "order": 2
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 19,
+              "equip": [],
+              "name": "BASE OPERATORS",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 41,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 20,
+              "equip": [],
+              "name": "BASE OPERATORS",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 3,
+              "weapons": [
+                {
+                  "id": 64,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 20,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 100,
+                  "order": 1
+                }
+              ],
+              "name": "BASE OPERATORS",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 4,
+              "weapons": [
+                {
+                  "id": 26,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0.5",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 1000,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 19,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 237,
+                  "order": 1
+                }
+              ],
+              "name": "BASE OPERATORS",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 5,
+              "weapons": [
+                {
+                  "id": 26,
+                  "order": 1
+                },
+                {
+                  "id": 17,
+                  "order": 2
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 49,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 3
+        }
+      ],
+      "options": [],
+      "slug": "wcd-base-operators",
+      "filters": {
+        "categories": [
+          3
+        ],
+        "skills": [
+          40,
+          49,
+          74,
+          84,
+          259,
+          1000
+        ],
+        "equip": [
+          100,
+          237
+        ],
+        "chars": [
+          1,
+          3,
+          5
+        ],
+        "types": [
+          2
+        ],
+        "weapons": [
+          5,
+          17,
+          26,
+          28,
+          33,
+          41,
+          64,
+          69
+        ],
+        "ammunition": [
+          2,
+          3,
+          9,
+          13,
+          35
+        ]
+      },
+      "factions": [
+        601,
+        604
+      ]
+    },
+    {
+      "id": 1764,
+      "idArmy": 1764,
+      "canonical": 601,
+      "isc": "WCD Void Operators",
+      "iscAbbr": null,
+      "name": "WCD Void Operators",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "WCD Void Operators",
+          "profiles": [
+            {
+              "bts": 0,
+              "cc": 17,
+              "move": [
+                15,
+                5
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 2,
+              "ava": 2,
+              "str": false,
+              "bs": 12,
+              "s": 2,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 117,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 113,
+                  "order": 2
+                }
+              ],
+              "w": 1,
+              "ph": 11,
+              "name": "VOID OPERATOR",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/wcd-void-operators-1-1.svg",
+              "id": 1,
+              "arm": 3,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                5
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 84,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    11
+                  ],
+                  "id": 40,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "id": 211,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "id": 74,
+                  "order": 4
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    34
+                  ],
+                  "id": 58,
+                  "order": 5
+                },
+                {
+                  "q": 1,
+                  "id": 259,
+                  "order": 6
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 19,
+              "equip": [],
+              "name": "VOID OPERATOR",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 26,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 26,
+              "equip": [],
+              "name": "VOID OPERATOR",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "id": 152,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "1",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 27,
+              "equip": [],
+              "name": "VOID OPERATOR",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 3,
+              "weapons": [
+                {
+                  "id": 33,
+                  "order": 1
+                },
+                {
+                  "id": 88,
+                  "order": 2
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "1",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 21,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 145,
+                  "order": 1
+                }
+              ],
+              "name": "VOID OPERATOR",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 4,
+              "weapons": [
+                {
+                  "id": 77,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 1000,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 3
+        }
+      ],
+      "options": [],
+      "slug": "wcd-void-operators",
+      "filters": {
+        "categories": [
+          3
+        ],
+        "skills": [
+          40,
+          58,
+          74,
+          84,
+          211,
+          259,
+          1000
+        ],
+        "equip": [
+          113,
+          117,
+          145
+        ],
+        "chars": [
+          1,
+          3,
+          5
+        ],
+        "types": [
+          2
+        ],
+        "weapons": [
+          5,
+          26,
+          33,
+          69,
+          77,
+          88,
+          152
+        ],
+        "ammunition": [
+          2,
+          3,
+          8,
+          35
+        ]
+      },
+      "factions": [
+        601,
+        604
       ]
     },
     {
@@ -23612,6 +24492,225 @@
           3,
           13,
           14
+        ]
+      },
+      "factions": [
+        601,
+        604
+      ]
+    },
+    {
+      "id": 1766,
+      "idArmy": 1766,
+      "canonical": 601,
+      "isc": "EXOs, Exrah Executive Officers",
+      "iscAbbr": null,
+      "name": "EXOs, Exrah Executive Officers",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "EXOs, Exrah Executive Officers",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 14,
+              "move": [
+                15,
+                5
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 2,
+              "ava": 1,
+              "str": false,
+              "bs": 12,
+              "s": 2,
+              "equip": [],
+              "w": 1,
+              "ph": 11,
+              "name": "EXO",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/exos-exrah-executive-officers-1-1.svg",
+              "id": 1,
+              "arm": 3,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                5
+              ],
+              "wip": 14,
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 84,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    11
+                  ],
+                  "id": 40,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "id": 259,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "id": 74,
+                  "order": 4
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 19,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 117,
+                  "order": 1
+                }
+              ],
+              "name": "EXO",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 3,
+              "weapons": [
+                {
+                  "id": 111,
+                  "order": 1
+                },
+                {
+                  "id": 70,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    7
+                  ],
+                  "id": 71,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 189,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 22,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 117,
+                  "order": 1
+                }
+              ],
+              "name": "EXO",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 4,
+              "weapons": [
+                {
+                  "id": 41,
+                  "order": 1
+                },
+                {
+                  "id": 65,
+                  "order": 2
+                },
+                {
+                  "id": 70,
+                  "order": 3
+                },
+                {
+                  "extra": [
+                    7
+                  ],
+                  "id": 71,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 189,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 3
+        }
+      ],
+      "options": [],
+      "slug": "exos-exrah-executive-officers",
+      "filters": {
+        "categories": [
+          3
+        ],
+        "skills": [
+          40,
+          74,
+          84,
+          189,
+          259
+        ],
+        "equip": [
+          117
+        ],
+        "chars": [
+          1,
+          3,
+          5
+        ],
+        "types": [
+          2
+        ],
+        "weapons": [
+          41,
+          65,
+          70,
+          71,
+          111
+        ],
+        "ammunition": [
+          2,
+          9,
+          35,
+          37
         ]
       },
       "factions": [
@@ -28619,291 +29718,6 @@
       "factions": []
     },
     {
-      "id": 11506,
-      "idArmy": 21506,
-      "canonical": 1,
-      "isc": "REM Racers, Mercenary Hacker-Pilots",
-      "iscAbbr": "REM Racers",
-      "notes": null,
-      "name": "REM RACERS, Mercenary Hacker-Pilots",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "REM Racers, Mercenary Hacker-Pilots",
-          "profiles": [
-            {
-              "bts": 6,
-              "cc": 14,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 1,
-              "ava": 1,
-              "str": false,
-              "bs": 11,
-              "s": 2,
-              "equip": [
-                {
-                  "id": 111,
-                  "order": 2
-                }
-              ],
-              "w": 1,
-              "ph": 10,
-              "name": "REM RACERS, Mercenary Hacker-Pilots",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/rem-racers-1-1.svg",
-              "id": 1,
-              "arm": 0,
-              "weapons": [],
-              "chars": [
-                1,
-                3,
-                5
-              ],
-              "wip": 13,
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 21,
-              "equip": [
-                {
-                  "id": 100,
-                  "order": 1
-                }
-              ],
-              "name": "REM RACER ",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 77,
-                  "order": 1
-                },
-                {
-                  "id": 69,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "0.5",
-              "skills": [
-                {
-                  "id": 1000,
-                  "order": 1
-                },
-                {
-                  "extra": [
-                    271
-                  ],
-                  "id": 255,
-                  "order": 2
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 15,
-              "equip": [],
-              "name": "REM RACER",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "id": 28,
-                  "order": 1
-                },
-                {
-                  "id": 69,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "extra": [
-                    271
-                  ],
-                  "id": 255,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 12,
-              "equip": [],
-              "name": "REM RACER",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 3,
-              "weapons": [
-                {
-                  "id": 28,
-                  "order": 1
-                },
-                {
-                  "id": 69,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "extra": [
-                    4,
-                    273,
-                    274
-                  ],
-                  "id": 255,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 12,
-              "equip": [],
-              "name": "REM RACER ",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 4,
-              "weapons": [
-                {
-                  "id": 28,
-                  "order": 1
-                },
-                {
-                  "id": 69,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "extra": [
-                    276,
-                    275,
-                    272
-                  ],
-                  "id": 255,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 11
-        }
-      ],
-      "options": [],
-      "slug": "merc-rem-racers",
-      "filters": {
-        "categories": [
-          11
-        ],
-        "skills": [
-          255,
-          1000
-        ],
-        "equip": [
-          100,
-          111
-        ],
-        "chars": [
-          1,
-          3,
-          5
-        ],
-        "types": [
-          1
-        ],
-        "weapons": [
-          28,
-          69,
-          71,
-          77
-        ],
-        "ammunition": [
-          2,
-          35,
-          37
-        ]
-      },
-      "factions": []
-    },
-    {
       "id": 11569,
       "idArmy": 21569,
       "canonical": 1,
@@ -29820,6 +30634,198 @@
       "factions": []
     },
     {
+      "id": 11558,
+      "idArmy": 21558,
+      "canonical": 1,
+      "isc": "Kendrat, Krakot Renegade",
+      "iscAbbr": null,
+      "notes": null,
+      "name": "KENDRAT, Krakot Renegade",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Kendrat, Krakot Renegade",
+          "profiles": [
+            {
+              "bts": 0,
+              "cc": 23,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 7,
+              "ava": 1,
+              "str": false,
+              "bs": 11,
+              "s": 2,
+              "equip": [],
+              "w": 1,
+              "ph": 13,
+              "name": "KENDRAT, Krakot Renegade",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/kendrat-krakot-renegade-1-1.svg",
+              "id": 1,
+              "arm": 1,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                6
+              ],
+              "wip": 12,
+              "skills": [
+                {
+                  "id": 19,
+                  "order": 1
+                },
+                {
+                  "extra": [
+                    1
+                  ],
+                  "id": 24,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    26
+                  ],
+                  "id": 161,
+                  "order": 4
+                },
+                {
+                  "extra": [
+                    23
+                  ],
+                  "id": 40,
+                  "order": 5
+                },
+                {
+                  "extra": [],
+                  "id": 39,
+                  "order": 6
+                },
+                {
+                  "extra": [
+                    33
+                  ],
+                  "id": 162,
+                  "order": 7
+                },
+                {
+                  "extra": [],
+                  "id": 85,
+                  "order": 8
+                },
+                {
+                  "id": 83,
+                  "order": 9
+                },
+                {
+                  "id": 88,
+                  "order": 10
+                },
+                {
+                  "q": 1,
+                  "id": 256,
+                  "order": 11
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 22,
+              "equip": [],
+              "name": "KENDRAT",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "IMPETUOUS",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 81,
+                  "order": 1
+                },
+                {
+                  "id": 147,
+                  "order": 2
+                },
+                {
+                  "id": 11,
+                  "order": 4
+                },
+                {
+                  "id": 107,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 10
+        }
+      ],
+      "options": [],
+      "slug": "merc-kendrat-krakot-renegade",
+      "filters": {
+        "categories": [
+          10
+        ],
+        "skills": [
+          19,
+          24,
+          39,
+          40,
+          83,
+          85,
+          88,
+          161,
+          162,
+          256
+        ],
+        "equip": [],
+        "chars": [
+          1,
+          3,
+          6
+        ],
+        "types": [
+          7
+        ],
+        "weapons": [
+          11,
+          81,
+          107,
+          147
+        ],
+        "ammunition": [
+          2,
+          3,
+          8,
+          9
+        ]
+      },
+      "factions": []
+    },
+    {
       "id": 10265,
       "idArmy": 10039,
       "canonical": 1,
@@ -30055,103 +31061,52 @@
       "factions": []
     },
     {
-      "id": 11558,
-      "idArmy": 21558,
+      "id": 11506,
+      "idArmy": 21506,
       "canonical": 1,
-      "isc": "Kendrat, Krakot Renegade",
-      "iscAbbr": null,
+      "isc": "REM Racers, Mercenary Hacker-Pilots",
+      "iscAbbr": "REM Racers",
       "notes": null,
-      "name": "KENDRAT, Krakot Renegade",
+      "name": "REM RACERS, Mercenary Hacker-Pilots",
       "profileGroups": [
         {
           "notes": null,
-          "isc": "Kendrat, Krakot Renegade",
+          "isc": "REM Racers, Mercenary Hacker-Pilots",
           "profiles": [
             {
-              "bts": 0,
-              "cc": 23,
+              "bts": 6,
+              "cc": 14,
               "move": [
                 10,
                 10
               ],
               "notes": null,
               "includes": [],
-              "type": 7,
+              "type": 1,
               "ava": 1,
               "str": false,
               "bs": 11,
               "s": 2,
-              "equip": [],
+              "equip": [
+                {
+                  "id": 111,
+                  "order": 2
+                }
+              ],
               "w": 1,
-              "ph": 13,
-              "name": "KENDRAT, Krakot Renegade",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/kendrat-krakot-renegade-1-1.svg",
+              "ph": 10,
+              "name": "REM RACERS, Mercenary Hacker-Pilots",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/rem-racers-1-1.svg",
               "id": 1,
-              "arm": 1,
+              "arm": 0,
               "weapons": [],
               "chars": [
                 1,
                 3,
-                6
+                5
               ],
-              "wip": 12,
-              "skills": [
-                {
-                  "id": 19,
-                  "order": 1
-                },
-                {
-                  "extra": [
-                    1
-                  ],
-                  "id": 24,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    26
-                  ],
-                  "id": 161,
-                  "order": 4
-                },
-                {
-                  "extra": [
-                    23
-                  ],
-                  "id": 40,
-                  "order": 5
-                },
-                {
-                  "extra": [],
-                  "id": 39,
-                  "order": 6
-                },
-                {
-                  "extra": [
-                    33
-                  ],
-                  "id": 162,
-                  "order": 7
-                },
-                {
-                  "extra": [],
-                  "id": 85,
-                  "order": 8
-                },
-                {
-                  "id": 83,
-                  "order": 9
-                },
-                {
-                  "id": 88,
-                  "order": 10
-                },
-                {
-                  "q": 1,
-                  "id": 256,
-                  "order": 11
-                }
-              ],
+              "wip": 13,
+              "skills": [],
               "peripheral": []
             }
           ],
@@ -30159,18 +31114,18 @@
             {
               "includes": [],
               "minis": 1,
-              "points": 22,
-              "equip": [],
-              "name": "KENDRAT",
+              "points": 21,
+              "equip": [
+                {
+                  "id": 100,
+                  "order": 1
+                }
+              ],
+              "name": "REM RACER ",
               "disabled": false,
               "orders": [
                 {
                   "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "IMPETUOUS",
                   "list": 1,
                   "total": 1
                 }
@@ -30178,70 +31133,215 @@
               "id": 1,
               "weapons": [
                 {
-                  "id": 81,
+                  "id": 77,
                   "order": 1
                 },
                 {
-                  "id": 147,
+                  "id": 69,
                   "order": 2
                 },
                 {
-                  "id": 11,
-                  "order": 4
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0.5",
+              "skills": [
+                {
+                  "id": 1000,
+                  "order": 1
                 },
                 {
-                  "id": 107,
+                  "extra": [
+                    271
+                  ],
+                  "id": 255,
+                  "order": 2
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 15,
+              "equip": [],
+              "name": "REM RACER",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "id": 28,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
                   "order": 3
                 }
               ],
               "chars": [],
               "swc": "0",
-              "skills": [],
+              "skills": [
+                {
+                  "extra": [
+                    271
+                  ],
+                  "id": 255,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 12,
+              "equip": [],
+              "name": "REM RACER",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 3,
+              "weapons": [
+                {
+                  "id": 28,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "extra": [
+                    4,
+                    273,
+                    274
+                  ],
+                  "id": 255,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 12,
+              "equip": [],
+              "name": "REM RACER ",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 4,
+              "weapons": [
+                {
+                  "id": 28,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "extra": [
+                    276,
+                    301,
+                    52
+                  ],
+                  "id": 255,
+                  "order": 1
+                }
+              ],
               "peripheral": []
             }
           ],
           "id": 1,
-          "category": 10
+          "category": 11
         }
       ],
       "options": [],
-      "slug": "merc-kendrat-krakot-renegade",
+      "slug": "merc-rem-racers",
       "filters": {
         "categories": [
-          10
+          11
         ],
         "skills": [
-          19,
-          24,
-          39,
-          40,
-          83,
-          85,
-          88,
-          161,
-          162,
-          256
+          255,
+          1000
         ],
-        "equip": [],
+        "equip": [
+          100,
+          111
+        ],
         "chars": [
           1,
           3,
-          6
+          5
         ],
         "types": [
-          7
+          1
         ],
         "weapons": [
-          11,
-          81,
-          107,
-          147
+          28,
+          69,
+          71,
+          77
         ],
         "ammunition": [
           2,
-          3,
-          8,
-          9
+          35,
+          37
         ]
       },
       "factions": []
@@ -34025,7 +35125,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 14
+                  "id": 140
                 }
               ]
             }
@@ -35507,20 +36607,20 @@
   "filters": {
     "peripheral": [
       {
-        "id": 14,
+        "id": 140,
         "name": "BÂTARD",
         "mercs": true
       },
       {
-        "id": 13,
+        "id": 139,
         "name": "KISS!"
       },
       {
-        "id": 12,
+        "id": 138,
         "name": "KISS! (Repeater)"
       },
       {
-        "id": 11,
+        "id": 137,
         "name": "SYNC PRETA"
       }
     ],
@@ -35848,10 +36948,6 @@
       {
         "id": 74,
         "name": "74"
-      },
-      {
-        "id": 76,
-        "name": "76"
       },
       {
         "id": 77,
@@ -36258,8 +37354,7 @@
         "id": 117,
         "name": "X Visor",
         "type": "PERSON",
-        "wiki": "https://infinitythewiki.com/X-Visor?version=n4",
-        "mercs": true
+        "wiki": "https://infinitythewiki.com/X-Visor?version=n4"
       }
     ],
     "skills": [
@@ -36638,8 +37733,7 @@
       },
       {
         "id": 259,
-        "name": "Exrah",
-        "mercs": true
+        "name": "Exrah"
       },
       {
         "id": 260,
@@ -36928,8 +38022,7 @@
       {
         "id": 88,
         "name": "Light Rocket Launcher",
-        "type": "BS",
-        "specops": true
+        "type": "BS"
       },
       {
         "id": 28,
@@ -37266,12 +38359,6 @@
         "mercs": true
       },
       {
-        "id": 275,
-        "name": "+3 PH",
-        "type": "TEXT",
-        "mercs": true
-      },
-      {
         "id": 23,
         "name": "+5",
         "type": "DISTANCE"
@@ -37280,12 +38367,6 @@
         "id": 2,
         "name": "+6",
         "type": "TEXT"
-      },
-      {
-        "id": 272,
-        "name": "+9 CC",
-        "type": "TEXT",
-        "mercs": true
       },
       {
         "id": 44,
@@ -37312,6 +38393,12 @@
         "id": 35,
         "name": "Aquatic",
         "type": "TEXT"
+      },
+      {
+        "id": 301,
+        "name": "CC=22",
+        "type": "TEXT",
+        "mercs": true
       },
       {
         "id": 49,
@@ -37525,16 +38612,6 @@
       "category": 6
     },
     {
-      "id": 523,
-      "isc": "The Anathematics",
-      "idArmy": 32,
-      "name": "THE ANATHEMATICS",
-      "slug": "the-anathematics",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/the-anathematics-1-1.svg",
-      "type": 3,
-      "category": 6
-    },
-    {
       "id": 516,
       "isc": "Shasvastii Noctifers",
       "idArmy": 25,
@@ -37703,6 +38780,26 @@
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/oktavia-grimsdottir-1-1.svg",
       "type": 1,
       "category": 10
+    },
+    {
+      "id": 1763,
+      "isc": "WCD Vector Operators",
+      "idArmy": 1763,
+      "name": "WCD Vector Operators",
+      "slug": "wcd-vector-operators",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/wcd-vector-operators-1-1.svg",
+      "type": 2,
+      "category": 5
+    },
+    {
+      "id": 523,
+      "isc": "The Anathematics",
+      "idArmy": 32,
+      "name": "THE ANATHEMATICS",
+      "slug": "the-anathematics",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/the-anathematics-1-1.svg",
+      "type": 3,
+      "category": 6
     },
     {
       "id": 502,
@@ -37985,26 +39082,6 @@
       "category": 6
     },
     {
-      "id": 1290,
-      "isc": "Shasvastii Nox Troops",
-      "idArmy": 59,
-      "name": "Shasvastii Nox Troops",
-      "slug": "shasvastii-nox-troops",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/shasvastii-nox-troops-1-1.svg",
-      "type": 1,
-      "category": 2
-    },
-    {
-      "id": 492,
-      "isc": "Morat Vanguard Infantry",
-      "idArmy": 1,
-      "name": "MORAT VANGUARD INFANTRY",
-      "slug": "morat-vanguard-infantry",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/morat-vanguard-infantry-1-1.svg",
-      "type": 1,
-      "category": 2
-    },
-    {
       "id": 680,
       "isc": "Armand 'Le Muet', Freelance Killer",
       "idArmy": 18,
@@ -38025,16 +39102,6 @@
       "category": 7
     },
     {
-      "id": 493,
-      "isc": "Unidron Batroids",
-      "idArmy": 2,
-      "name": "UNIDRON BATROIDS",
-      "slug": "unidron-batroids",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/unidron-batroids-1-1.svg",
-      "type": 5,
-      "category": 2
-    },
-    {
       "id": 1598,
       "isc": "ITS Corsair Bashi Bazouks",
       "idArmy": 1598,
@@ -38043,6 +39110,36 @@
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/bashi-bazouks-1-1.svg",
       "type": 1,
       "category": 11
+    },
+    {
+      "id": 1290,
+      "isc": "Shasvastii Nox Troops",
+      "idArmy": 59,
+      "name": "Shasvastii Nox Troops",
+      "slug": "shasvastii-nox-troops",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/shasvastii-nox-troops-1-1.svg",
+      "type": 1,
+      "category": 2
+    },
+    {
+      "id": 492,
+      "isc": "Morat Vanguard Infantry",
+      "idArmy": 1,
+      "name": "MORAT VANGUARD INFANTRY",
+      "slug": "morat-vanguard-infantry",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/morat-vanguard-infantry-1-1.svg",
+      "type": 1,
+      "category": 2
+    },
+    {
+      "id": 493,
+      "isc": "Unidron Batroids",
+      "idArmy": 2,
+      "name": "UNIDRON BATROIDS",
+      "slug": "unidron-batroids",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/unidron-batroids-1-1.svg",
+      "type": 5,
+      "category": 2
     },
     {
       "id": 1292,
@@ -38225,6 +39322,26 @@
       "category": 11
     },
     {
+      "id": 1765,
+      "isc": "WCD Base Operators",
+      "idArmy": 1765,
+      "name": "WCD Base Operators",
+      "slug": "wcd-base-operators",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/wcd-base-operators-1-1.svg",
+      "type": 2,
+      "category": 3
+    },
+    {
+      "id": 1764,
+      "isc": "WCD Void Operators",
+      "idArmy": 1764,
+      "name": "WCD Void Operators",
+      "slug": "wcd-void-operators",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/wcd-void-operators-1-1.svg",
+      "type": 2,
+      "category": 3
+    },
+    {
       "id": 509,
       "isc": "Q-Drones",
       "idArmy": 18,
@@ -38312,6 +39429,16 @@
       "slug": "nexus-operatives",
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/nexus-operatives-1-1.svg",
       "type": 1,
+      "category": 3
+    },
+    {
+      "id": 1766,
+      "isc": "EXOs, Exrah Executive Officers",
+      "idArmy": 1766,
+      "name": "EXOs, Exrah Executive Officers",
+      "slug": "exos-exrah-executive-officers",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/exos-exrah-executive-officers-1-1.svg",
+      "type": 2,
       "category": 3
     },
     {
@@ -38505,16 +39632,6 @@
       "category": 10
     },
     {
-      "id": 11506,
-      "isc": "REM Racers",
-      "idArmy": 21506,
-      "name": "REM RACERS, Mercenary Hacker-Pilots",
-      "slug": "merc-rem-racers",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/rem-racers-1-1.svg",
-      "type": 1,
-      "category": 11
-    },
-    {
       "id": 11569,
       "isc": "Triphammers, Repurposed Industrial TAGs",
       "idArmy": 21569,
@@ -38545,6 +39662,16 @@
       "category": 10
     },
     {
+      "id": 11558,
+      "isc": "Kendrat, Krakot Renegade",
+      "idArmy": 21558,
+      "name": "KENDRAT, Krakot Renegade",
+      "slug": "merc-kendrat-krakot-renegade",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/kendrat-krakot-renegade-1-1.svg",
+      "type": 7,
+      "category": 10
+    },
+    {
       "id": 10265,
       "isc": "Wardrivers, Merc. Hackers",
       "idArmy": 10039,
@@ -38555,14 +39682,14 @@
       "category": 11
     },
     {
-      "id": 11558,
-      "isc": "Kendrat, Krakot Renegade",
-      "idArmy": 21558,
-      "name": "KENDRAT, Krakot Renegade",
-      "slug": "merc-kendrat-krakot-renegade",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/kendrat-krakot-renegade-1-1.svg",
-      "type": 7,
-      "category": 10
+      "id": 11506,
+      "isc": "REM Racers",
+      "idArmy": 21506,
+      "name": "REM RACERS, Mercenary Hacker-Pilots",
+      "slug": "merc-rem-racers",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/rem-racers-1-1.svg",
+      "type": 1,
+      "category": 11
     },
     {
       "id": 11568,
@@ -39491,6 +40618,14 @@
             "comment": "",
             "required": false,
             "slug": "sargosh"
+          },
+          {
+            "min": 0,
+            "max": 2,
+            "name": "VOID OPERATOR",
+            "comment": "",
+            "required": false,
+            "slug": "wcd-void-operators"
           }
         ]
       }

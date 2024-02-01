@@ -128,7 +128,7 @@
               "order": 4
             }
           ],
-          "name": "APACHE",
+          "name": "APACHE REINF. FTO",
           "skills": [],
           "peripheral": []
         },
@@ -166,7 +166,7 @@
               "order": 4
             }
           ],
-          "name": "APACHE",
+          "name": "APACHE REINF.",
           "skills": [
             {
               "extra": [
@@ -209,7 +209,7 @@
               "order": 3
             }
           ],
-          "name": "APACHE",
+          "name": "APACHE REINF.",
           "skills": [
             {
               "extra": [
@@ -217,6 +217,174 @@
               ],
               "id": 201,
               "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 4,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "IRREGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 14,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 18,
+              "order": 1
+            },
+            {
+              "id": 44,
+              "order": 2
+            },
+            {
+              "id": 107,
+              "order": 3
+            },
+            {
+              "id": 6,
+              "order": 4
+            }
+          ],
+          "name": "APACHE REINF. FTO",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 5,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 15,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 28,
+              "order": 1
+            },
+            {
+              "id": 107,
+              "order": 2
+            },
+            {
+              "id": 6,
+              "order": 3
+            }
+          ],
+          "name": "APACHE REINF. FTO",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 6,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 17,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 31,
+              "order": 1
+            },
+            {
+              "id": 80,
+              "order": 2
+            },
+            {
+              "id": 107,
+              "order": 3
+            },
+            {
+              "id": 6,
+              "order": 4
+            }
+          ],
+          "name": "APACHE REINF.",
+          "skills": [
+            {
+              "id": 24,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 7,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 17,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 18,
+              "order": 1
+            },
+            {
+              "id": 44,
+              "order": 2
+            },
+            {
+              "id": 107,
+              "order": 3
+            },
+            {
+              "id": 6,
+              "order": 4
+            }
+          ],
+          "name": "APACHE REINF.",
+          "skills": [
+            {
+              "extra": [
+                8
+              ],
+              "id": 201,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 24,
+              "order": 2,
               "q": 1
             }
           ],
@@ -232,6 +400,7 @@
       3
     ],
     "skills": [
+      24,
       39,
       40,
       74,

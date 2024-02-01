@@ -1,5 +1,5 @@
 {
-  "version": "7.23282.19",
+  "version": "7.2432.452",
   "units": [
     {
       "id": 1625,
@@ -2891,7 +2891,7 @@
               "minis": 1,
               "points": 16,
               "equip": [],
-              "name": "APACHE",
+              "name": "APACHE REINF. FTO",
               "disabled": false,
               "orders": [
                 {
@@ -2932,7 +2932,7 @@
               "minis": 1,
               "points": 16,
               "equip": [],
-              "name": "APACHE",
+              "name": "APACHE REINF.",
               "disabled": false,
               "orders": [
                 {
@@ -2982,7 +2982,7 @@
               "minis": 1,
               "points": 17,
               "equip": [],
-              "name": "APACHE",
+              "name": "APACHE REINF.",
               "disabled": false,
               "orders": [
                 {
@@ -3022,6 +3022,189 @@
                 }
               ],
               "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 14,
+              "equip": [],
+              "name": "APACHE REINF. FTO",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "IRREGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 4,
+              "weapons": [
+                {
+                  "id": 18,
+                  "order": 1
+                },
+                {
+                  "id": 44,
+                  "order": 2
+                },
+                {
+                  "id": 107,
+                  "order": 3
+                },
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 6,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 15,
+              "equip": [],
+              "name": "APACHE REINF. FTO",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 5,
+              "weapons": [
+                {
+                  "id": 28,
+                  "order": 1
+                },
+                {
+                  "id": 107,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 6,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 17,
+              "equip": [],
+              "name": "APACHE REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 6,
+              "weapons": [
+                {
+                  "id": 31,
+                  "order": 1
+                },
+                {
+                  "id": 80,
+                  "order": 2
+                },
+                {
+                  "id": 107,
+                  "order": 3
+                },
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 6,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 24,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 17,
+              "equip": [],
+              "name": "APACHE REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 7,
+              "weapons": [
+                {
+                  "extra": null,
+                  "id": 18,
+                  "order": 1
+                },
+                {
+                  "extra": null,
+                  "id": 44,
+                  "order": 2
+                },
+                {
+                  "extra": null,
+                  "id": 107,
+                  "order": 3
+                },
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 6,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "extra": [
+                    8
+                  ],
+                  "id": 201,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 24,
+                  "order": 2
+                }
+              ],
+              "peripheral": []
             }
           ],
           "id": 1,
@@ -3035,6 +3218,7 @@
           3
         ],
         "skills": [
+          24,
           39,
           40,
           74,
@@ -4002,7 +4186,7 @@
           {
             "min": 0,
             "max": 2,
-            "name": "APACHE",
+            "name": "APACHE REINF. FTO",
             "comment": "(Loup-Garou)",
             "required": false,
             "slug": "reinf-apaches"

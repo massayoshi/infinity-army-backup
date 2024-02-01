@@ -15,7 +15,7 @@
         {
           "id": 1,
           "arm": 3,
-          "ava": 5,
+          "ava": 2,
           "bs": 13,
           "bts": 3,
           "cc": 16,
@@ -82,10 +82,15 @@
               "type": "REGULAR",
               "list": 1,
               "total": 1
+            },
+            {
+              "type": "IRREGULAR",
+              "list": 0,
+              "total": 1
             }
           ],
           "includes": [],
-          "points": 28,
+          "points": 33,
           "swc": "1.5",
           "weapons": [
             {
@@ -102,7 +107,21 @@
             }
           ],
           "name": "MOBLOT",
-          "skills": [],
+          "skills": [
+            {
+              "extra": [
+                6
+              ],
+              "id": 28,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 213,
+              "order": 2,
+              "q": 1
+            }
+          ],
           "peripheral": []
         },
         {
@@ -157,7 +176,7 @@
             }
           ],
           "includes": [],
-          "points": 23,
+          "points": 24,
           "swc": "0",
           "weapons": [
             {
@@ -169,12 +188,16 @@
               "order": 2
             },
             {
-              "id": 69,
+              "id": 197,
               "order": 3
             },
             {
-              "id": 5,
+              "id": 69,
               "order": 4
+            },
+            {
+              "id": 5,
+              "order": 5
             }
           ],
           "name": "MOBLOT",
@@ -313,7 +336,7 @@
             }
           ],
           "includes": [],
-          "points": 27,
+          "points": 30,
           "swc": "0",
           "weapons": [
             {
@@ -329,12 +352,16 @@
               "order": 3
             },
             {
-              "id": 69,
+              "id": 197,
               "order": 4
             },
             {
-              "id": 5,
+              "id": 69,
               "order": 5
+            },
+            {
+              "id": 5,
+              "order": 6
             }
           ],
           "name": "MOBLOT",
@@ -342,6 +369,14 @@
             {
               "id": 49,
               "order": 1
+            },
+            {
+              "extra": [
+                6
+              ],
+              "id": 28,
+              "order": 2,
+              "q": 1
             }
           ],
           "peripheral": []
@@ -362,10 +397,15 @@
               "type": "REGULAR",
               "list": 1,
               "total": 1
+            },
+            {
+              "type": "IRREGULAR",
+              "list": 0,
+              "total": 1
             }
           ],
           "includes": [],
-          "points": 25,
+          "points": 28,
           "swc": "0",
           "weapons": [
             {
@@ -390,6 +430,11 @@
             {
               "id": 64,
               "order": 1,
+              "q": 1
+            },
+            {
+              "id": 213,
+              "order": 2,
               "q": 1
             }
           ],
@@ -483,7 +528,7 @@
           "peripheral": []
         },
         {
-          "id": 14,
+          "id": 15,
           "chars": [],
           "disabled": false,
           "equip": [],
@@ -495,17 +540,17 @@
               "total": 1
             },
             {
-              "type": "LIEUTENANT",
+              "type": "IRREGULAR",
               "list": 0,
               "total": 1
             }
           ],
           "includes": [],
-          "points": 28,
-          "swc": "1",
+          "points": 35,
+          "swc": "1.5",
           "weapons": [
             {
-              "id": 2,
+              "id": 157,
               "order": 1
             },
             {
@@ -520,8 +565,17 @@
           "name": "MOBLOT",
           "skills": [
             {
-              "id": 119,
-              "order": 1
+              "extra": [
+                6
+              ],
+              "id": 28,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 213,
+              "order": 2,
+              "q": 1
             }
           ],
           "peripheral": []
@@ -544,7 +598,8 @@
       89,
       119,
       162,
-      201
+      201,
+      213
     ],
     "equip": [
       106,
@@ -568,6 +623,7 @@
       32,
       68,
       69,
+      157,
       197
     ],
     "ammunition": [

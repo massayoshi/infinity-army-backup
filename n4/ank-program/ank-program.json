@@ -1,5 +1,5 @@
 {
-  "version": "7.23324.21",
+  "version": "7.2432.453",
   "units": [
     {
       "id": 1729,
@@ -1281,289 +1281,6 @@
       ]
     },
     {
-      "id": 1724,
-      "idArmy": 1724,
-      "canonical": 799,
-      "isc": "Reinf. Dawon Tacbots",
-      "iscAbbr": null,
-      "name": "REINF: DAWON Tacbots",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Reinf. Dawon Tacbots",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 22,
-              "move": [
-                15,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 1,
-              "ava": 5,
-              "str": true,
-              "bs": 11,
-              "s": 2,
-              "equip": [
-                {
-                  "q": 1,
-                  "extra": [
-                    6
-                  ],
-                  "id": 241,
-                  "order": 1
-                }
-              ],
-              "w": 1,
-              "ph": 13,
-              "name": "REINF: DAWON Tacbots",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-dawon-tacbots-1-1.svg",
-              "id": 1,
-              "arm": 1,
-              "weapons": [],
-              "chars": [
-                3,
-                5,
-                21
-              ],
-              "wip": 12,
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 235,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "id": 20,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    1
-                  ],
-                  "id": 40,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    23
-                  ],
-                  "id": 40,
-                  "order": 4
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    33
-                  ],
-                  "id": 162,
-                  "order": 5
-                },
-                {
-                  "q": 1,
-                  "id": 85,
-                  "order": 6
-                },
-                {
-                  "q": 1,
-                  "id": 83,
-                  "order": 7
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 19,
-              "equip": [],
-              "name": "DAWON REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "extra": [
-                    8
-                  ],
-                  "id": 18,
-                  "order": 1
-                },
-                {
-                  "id": 82,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    8
-                  ],
-                  "id": 189,
-                  "order": 3
-                },
-                {
-                  "id": 7,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 19,
-              "equip": [],
-              "name": "DAWON REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "extra": [
-                    8
-                  ],
-                  "id": 145,
-                  "order": 1
-                },
-                {
-                  "extra": null,
-                  "id": 14,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    8
-                  ],
-                  "id": 189,
-                  "order": 3
-                },
-                {
-                  "extra": null,
-                  "id": 10,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 24,
-              "equip": [],
-              "name": "DAWON REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 3,
-              "weapons": [
-                {
-                  "extra": null,
-                  "id": 26,
-                  "order": 1
-                },
-                {
-                  "extra": [
-                    8
-                  ],
-                  "id": 189,
-                  "order": 2
-                },
-                {
-                  "extra": null,
-                  "id": 10,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 3
-        }
-      ],
-      "options": [],
-      "slug": "reinf-dawon-tacbots",
-      "filters": {
-        "categories": [
-          3
-        ],
-        "skills": [
-          20,
-          40,
-          83,
-          85,
-          162,
-          235
-        ],
-        "equip": [
-          241
-        ],
-        "chars": [
-          3,
-          5,
-          21
-        ],
-        "types": [
-          1
-        ],
-        "weapons": [
-          7,
-          10,
-          14,
-          18,
-          26,
-          82,
-          145,
-          189
-        ],
-        "ammunition": [
-          2,
-          3,
-          5,
-          8,
-          9,
-          14,
-          35,
-          39
-        ]
-      },
-      "factions": [
-        799
-      ]
-    },
-    {
       "id": 1732,
       "idArmy": 1732,
       "canonical": 799,
@@ -2090,6 +1807,373 @@
           10,
           13,
           35
+        ]
+      },
+      "factions": [
+        799
+      ]
+    },
+    {
+      "id": 1724,
+      "idArmy": 1724,
+      "canonical": 799,
+      "isc": "Reinf. Dawon Tacbots",
+      "iscAbbr": null,
+      "name": "REINF: DAWON Tacbots",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Reinf. Dawon Tacbots",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 22,
+              "move": [
+                15,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 1,
+              "ava": 5,
+              "str": true,
+              "bs": 11,
+              "s": 2,
+              "equip": [
+                {
+                  "q": 1,
+                  "extra": [
+                    6
+                  ],
+                  "id": 241,
+                  "order": 1
+                }
+              ],
+              "w": 1,
+              "ph": 13,
+              "name": "REINF: DAWON Tacbots",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-dawon-tacbots-1-1.svg",
+              "id": 1,
+              "arm": 1,
+              "weapons": [],
+              "chars": [
+                3,
+                5,
+                21
+              ],
+              "wip": 12,
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 235,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 20,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    1
+                  ],
+                  "id": 40,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    23
+                  ],
+                  "id": 40,
+                  "order": 4
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    33
+                  ],
+                  "id": 162,
+                  "order": 5
+                },
+                {
+                  "q": 1,
+                  "id": 85,
+                  "order": 6
+                },
+                {
+                  "q": 1,
+                  "id": 83,
+                  "order": 7
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 19,
+              "equip": [],
+              "name": "DAWON REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 18,
+                  "order": 1
+                },
+                {
+                  "id": 82,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 189,
+                  "order": 3
+                },
+                {
+                  "id": 7,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 19,
+              "equip": [],
+              "name": "DAWON REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 145,
+                  "order": 1
+                },
+                {
+                  "id": 14,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 189,
+                  "order": 3
+                },
+                {
+                  "id": 10,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 24,
+              "equip": [],
+              "name": "DAWON REF. FTO",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 3,
+              "weapons": [
+                {
+                  "id": 26,
+                  "order": 1
+                },
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 189,
+                  "order": 2
+                },
+                {
+                  "id": 10,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 18,
+              "equip": [],
+              "name": "DAWON REF. FTO",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 4,
+              "weapons": [
+                {
+                  "extra": null,
+                  "id": 18,
+                  "order": 1
+                },
+                {
+                  "extra": null,
+                  "id": 82,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 189,
+                  "order": 3
+                },
+                {
+                  "extra": null,
+                  "id": 7,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 18,
+              "equip": [],
+              "name": "DAWON REF. FTO",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 5,
+              "weapons": [
+                {
+                  "extra": null,
+                  "id": 145,
+                  "order": 1
+                },
+                {
+                  "extra": null,
+                  "id": 14,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 189,
+                  "order": 3
+                },
+                {
+                  "extra": null,
+                  "id": 10,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 3
+        }
+      ],
+      "options": [],
+      "slug": "reinf-dawon-tacbots",
+      "filters": {
+        "categories": [
+          3
+        ],
+        "skills": [
+          20,
+          40,
+          83,
+          85,
+          162,
+          235
+        ],
+        "equip": [
+          241
+        ],
+        "chars": [
+          3,
+          5,
+          21
+        ],
+        "types": [
+          1
+        ],
+        "weapons": [
+          7,
+          10,
+          14,
+          18,
+          26,
+          82,
+          145,
+          189
+        ],
+        "ammunition": [
+          2,
+          3,
+          5,
+          8,
+          9,
+          14,
+          35,
+          39
         ]
       },
       "factions": [
@@ -3246,7 +3330,7 @@
           "profiles": [
             {
               "bts": 3,
-              "cc": 17,
+              "cc": 19,
               "move": [
                 15,
                 5
@@ -3313,7 +3397,7 @@
             {
               "includes": [],
               "minis": 1,
-              "points": 29,
+              "points": 30,
               "equip": [],
               "name": "ARJUNA REINF. FTO",
               "disabled": false,
@@ -3366,7 +3450,7 @@
                 }
               ],
               "minis": 1,
-              "points": 33,
+              "points": 34,
               "equip": [],
               "name": "ARJUNA REINF.",
               "disabled": false,
@@ -3410,7 +3494,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 2
+                  "id": 63
                 }
               ]
             },
@@ -3423,7 +3507,7 @@
                 }
               ],
               "minis": 1,
-              "points": 37,
+              "points": 38,
               "equip": [],
               "name": "ARJUNA REINF.",
               "disabled": false,
@@ -3467,7 +3551,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 2,
+                  "id": 63,
                   "q": 2
                 }
               ]
@@ -3475,7 +3559,7 @@
             {
               "includes": [],
               "minis": 1,
-              "points": 31,
+              "points": 32,
               "equip": [],
               "name": "ARJUNA REINF. FTO",
               "disabled": false,
@@ -3524,7 +3608,7 @@
                 }
               ],
               "minis": 1,
-              "points": 35,
+              "points": 36,
               "equip": [],
               "name": "ARJUNA REINF.",
               "disabled": false,
@@ -3564,7 +3648,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 2
+                  "id": 63
                 }
               ]
             },
@@ -3577,7 +3661,7 @@
                 }
               ],
               "minis": 1,
-              "points": 39,
+              "points": 40,
               "equip": [],
               "name": "ARJUNA REINF.",
               "disabled": false,
@@ -3617,7 +3701,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 2,
+                  "id": 63,
                   "q": 2
                 }
               ]
@@ -3625,7 +3709,7 @@
             {
               "includes": [],
               "minis": 1,
-              "points": 34,
+              "points": 35,
               "equip": [],
               "name": "ARJUNA REINF. FTO",
               "disabled": false,
@@ -3714,7 +3798,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 2
+                  "id": 63
                 }
               ]
             },
@@ -3727,7 +3811,7 @@
                 }
               ],
               "minis": 1,
-              "points": 42,
+              "points": 43,
               "equip": [],
               "name": "ARJUNA REINF.",
               "disabled": false,
@@ -3767,7 +3851,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 2,
+                  "id": 63,
                   "q": 2
                 }
               ]
@@ -3938,7 +4022,7 @@
   "filters": {
     "peripheral": [
       {
-        "id": 2,
+        "id": 63,
         "name": "KIRANBOT"
       }
     ],
@@ -4068,10 +4152,6 @@
         "name": "28"
       },
       {
-        "id": 29,
-        "name": "29"
-      },
-      {
         "id": 30,
         "name": "30"
       },
@@ -4080,8 +4160,8 @@
         "name": "31"
       },
       {
-        "id": 33,
-        "name": "33"
+        "id": 32,
+        "name": "32"
       },
       {
         "id": 34,
@@ -4092,24 +4172,20 @@
         "name": "35"
       },
       {
-        "id": 37,
-        "name": "37"
+        "id": 36,
+        "name": "36"
       },
       {
         "id": 38,
         "name": "38"
       },
       {
-        "id": 39,
-        "name": "39"
-      },
-      {
         "id": 40,
         "name": "40"
       },
       {
-        "id": 42,
-        "name": "42"
+        "id": 43,
+        "name": "43"
       },
       {
         "id": 71,
@@ -4843,16 +4919,6 @@
       "category": 5
     },
     {
-      "id": 1724,
-      "isc": "Reinf. Dawon Tacbots",
-      "idArmy": 1724,
-      "name": "REINF: DAWON Tacbots",
-      "slug": "reinf-dawon-tacbots",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-dawon-tacbots-1-1.svg",
-      "type": 1,
-      "category": 3
-    },
-    {
       "id": 1732,
       "isc": "Reinf. Yudbots",
       "idArmy": 1732,
@@ -4871,6 +4937,16 @@
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-maximus-optimate-and-hexadome-s-legend-1-1.svg",
       "type": 4,
       "category": 10
+    },
+    {
+      "id": 1724,
+      "isc": "Reinf. Dawon Tacbots",
+      "idArmy": 1724,
+      "name": "REINF: DAWON Tacbots",
+      "slug": "reinf-dawon-tacbots",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-dawon-tacbots-1-1.svg",
+      "type": 1,
+      "category": 3
     },
     {
       "id": 1723,
@@ -4971,7 +5047,7 @@
             "min": 0,
             "max": 5,
             "name": "DAWON REINF.",
-            "comment": "(ANK)",
+            "comment": "FTO (ANK)",
             "required": true,
             "slug": "reinf-dawon-tacbots"
           },

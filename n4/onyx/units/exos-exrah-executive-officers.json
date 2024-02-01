@@ -1,0 +1,299 @@
+{
+  "id": 1766,
+  "idArmy": 1766,
+  "canonical": 601,
+  "isc": "EXOs, Exrah Executive Officers",
+  "iscAbbr": null,
+  "name": "EXOs, Exrah Executive Officers",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 3,
+      "isc": "EXOs, Exrah Executive Officers",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 3,
+          "ava": 1,
+          "bs": 12,
+          "bts": 3,
+          "cc": 14,
+          "chars": [
+            1,
+            3,
+            5
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/exos-exrah-executive-officers-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            5
+          ],
+          "ph": 11,
+          "s": 2,
+          "str": false,
+          "type": 2,
+          "w": 1,
+          "wip": 14,
+          "name": "EXO",
+          "notes": null,
+          "skills": [
+            {
+              "id": 84,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 40,
+              "order": 2,
+              "extra": [
+                11
+              ],
+              "q": 1
+            },
+            {
+              "id": 259,
+              "order": 3,
+              "q": 1
+            },
+            {
+              "id": 74,
+              "order": 4,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 19,
+          "swc": "0.5",
+          "weapons": [
+            {
+              "id": 111,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 2
+            },
+            {
+              "id": 71,
+              "order": 3
+            }
+          ],
+          "name": "EXO",
+          "skills": [
+            {
+              "id": 26,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 22,
+          "swc": "0.5",
+          "weapons": [
+            {
+              "id": 41,
+              "order": 1
+            },
+            {
+              "id": 65,
+              "order": 2
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 71,
+              "order": 4
+            }
+          ],
+          "name": "EXO",
+          "skills": [
+            {
+              "id": 26,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 3,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 117,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 19,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 111,
+              "order": 1
+            },
+            {
+              "id": 70,
+              "order": 2
+            },
+            {
+              "id": 71,
+              "order": 3
+            }
+          ],
+          "name": "EXO",
+          "skills": [
+            {
+              "id": 189,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 4,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 117,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 22,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 41,
+              "order": 1
+            },
+            {
+              "id": 65,
+              "order": 2
+            },
+            {
+              "id": 70,
+              "order": 3
+            },
+            {
+              "id": 71,
+              "order": 4
+            }
+          ],
+          "name": "EXO",
+          "skills": [
+            {
+              "id": 189,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "exos-exrah-executive-officers",
+  "filters": {
+    "categories": [
+      3
+    ],
+    "skills": [
+      26,
+      40,
+      74,
+      84,
+      189,
+      259
+    ],
+    "equip": [
+      117
+    ],
+    "chars": [
+      1,
+      3,
+      5
+    ],
+    "types": [
+      2
+    ],
+    "weapons": [
+      41,
+      65,
+      69,
+      70,
+      71,
+      111
+    ],
+    "ammunition": [
+      2,
+      9,
+      35,
+      37
+    ]
+  },
+  "factions": [
+    601,
+    604
+  ]
+}

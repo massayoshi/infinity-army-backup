@@ -1,5 +1,5 @@
 {
-  "version": "7.23275.327",
+  "version": "7.2432.453",
   "units": [
     {
       "id": 950,
@@ -2201,709 +2201,6 @@
       ]
     },
     {
-      "id": 1178,
-      "idArmy": 64,
-      "canonical": 701,
-      "isc": "Arjuna Unit",
-      "iscAbbr": null,
-      "name": "ARJUNA Unit",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Arjuna Troops",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 17,
-              "move": [
-                15,
-                5
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 2,
-              "ava": 2,
-              "str": false,
-              "bs": 12,
-              "s": 2,
-              "equip": [],
-              "w": 1,
-              "ph": 11,
-              "name": "ARJUNA Troops",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/arjuna-unit-1-1.svg",
-              "id": 1,
-              "arm": 3,
-              "weapons": [],
-              "chars": [
-                3,
-                5,
-                20
-              ],
-              "wip": 14,
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 84,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    6
-                  ],
-                  "id": 28,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "extra": [],
-                  "id": 189,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    11
-                  ],
-                  "id": 40,
-                  "order": 4
-                },
-                {
-                  "q": 1,
-                  "id": 213,
-                  "order": 5
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 29,
-              "equip": [],
-              "name": "ARJUNA",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "IRREGULAR",
-                  "list": 0,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 26,
-                  "order": 1
-                },
-                {
-                  "id": 1,
-                  "order": 2
-                },
-                {
-                  "id": 17,
-                  "order": 3
-                },
-                {
-                  "id": 98,
-                  "order": 4
-                },
-                {
-                  "id": 5,
-                  "order": 5
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [
-                {
-                  "q": 1,
-                  "group": 2,
-                  "option": 1
-                }
-              ],
-              "minis": 1,
-              "points": 33,
-              "equip": [],
-              "name": "ARJUNA",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "IRREGULAR",
-                  "list": 0,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "id": 26,
-                  "order": 1
-                },
-                {
-                  "id": 1,
-                  "order": 2
-                },
-                {
-                  "id": 17,
-                  "order": 3
-                },
-                {
-                  "id": 98,
-                  "order": 4
-                },
-                {
-                  "id": 5,
-                  "order": 5
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": [
-                {
-                  "id": 79
-                }
-              ]
-            },
-            {
-              "includes": [
-                {
-                  "q": 2,
-                  "group": 2,
-                  "option": 1
-                }
-              ],
-              "minis": 1,
-              "points": 37,
-              "equip": [],
-              "name": "ARJUNA",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "IRREGULAR",
-                  "list": 0,
-                  "total": 1
-                }
-              ],
-              "id": 3,
-              "weapons": [
-                {
-                  "id": 26,
-                  "order": 1
-                },
-                {
-                  "id": 1,
-                  "order": 2
-                },
-                {
-                  "id": 17,
-                  "order": 3
-                },
-                {
-                  "id": 98,
-                  "order": 4
-                },
-                {
-                  "id": 5,
-                  "order": 5
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": [
-                {
-                  "id": 79,
-                  "q": 2
-                }
-              ]
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 31,
-              "equip": [],
-              "name": "ARJUNA",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "IRREGULAR",
-                  "list": 0,
-                  "total": 1
-                }
-              ],
-              "id": 4,
-              "weapons": [
-                {
-                  "id": 155,
-                  "order": 1
-                },
-                {
-                  "id": 17,
-                  "order": 2
-                },
-                {
-                  "id": 98,
-                  "order": 3
-                },
-                {
-                  "id": 5,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [
-                {
-                  "q": 1,
-                  "group": 2,
-                  "option": 1
-                }
-              ],
-              "minis": 1,
-              "points": 35,
-              "equip": [],
-              "name": "ARJUNA",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "IRREGULAR",
-                  "list": 0,
-                  "total": 1
-                }
-              ],
-              "id": 5,
-              "weapons": [
-                {
-                  "id": 155,
-                  "order": 1
-                },
-                {
-                  "id": 17,
-                  "order": 2
-                },
-                {
-                  "id": 98,
-                  "order": 3
-                },
-                {
-                  "id": 5,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": [
-                {
-                  "id": 79
-                }
-              ]
-            },
-            {
-              "includes": [
-                {
-                  "q": 2,
-                  "group": 2,
-                  "option": 1
-                }
-              ],
-              "minis": 1,
-              "points": 39,
-              "equip": [],
-              "name": "ARJUNA",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "IRREGULAR",
-                  "list": 0,
-                  "total": 1
-                }
-              ],
-              "id": 6,
-              "weapons": [
-                {
-                  "id": 155,
-                  "order": 1
-                },
-                {
-                  "id": 17,
-                  "order": 2
-                },
-                {
-                  "id": 98,
-                  "order": 3
-                },
-                {
-                  "id": 5,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": [
-                {
-                  "id": 79,
-                  "q": 2
-                }
-              ]
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 34,
-              "equip": [],
-              "name": "ARJUNA",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "IRREGULAR",
-                  "list": 0,
-                  "total": 1
-                }
-              ],
-              "id": 7,
-              "weapons": [
-                {
-                  "id": 74,
-                  "order": 1
-                },
-                {
-                  "id": 17,
-                  "order": 2
-                },
-                {
-                  "id": 98,
-                  "order": 3
-                },
-                {
-                  "id": 5,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "1.5",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [
-                {
-                  "q": 1,
-                  "group": 2,
-                  "option": 1
-                }
-              ],
-              "minis": 1,
-              "points": 38,
-              "equip": [],
-              "name": "ARJUNA",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "IRREGULAR",
-                  "list": 0,
-                  "total": 1
-                }
-              ],
-              "id": 8,
-              "weapons": [
-                {
-                  "id": 74,
-                  "order": 1
-                },
-                {
-                  "id": 17,
-                  "order": 2
-                },
-                {
-                  "id": 98,
-                  "order": 3
-                },
-                {
-                  "id": 5,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "1.5",
-              "skills": [],
-              "peripheral": [
-                {
-                  "id": 79
-                }
-              ]
-            },
-            {
-              "includes": [
-                {
-                  "q": 2,
-                  "group": 2,
-                  "option": 1
-                }
-              ],
-              "minis": 1,
-              "points": 42,
-              "equip": [],
-              "name": "ARJUNA",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "IRREGULAR",
-                  "list": 0,
-                  "total": 1
-                }
-              ],
-              "id": 9,
-              "weapons": [
-                {
-                  "id": 74,
-                  "order": 1
-                },
-                {
-                  "id": 17,
-                  "order": 2
-                },
-                {
-                  "id": 98,
-                  "order": 3
-                },
-                {
-                  "id": 5,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "1.5",
-              "skills": [],
-              "peripheral": [
-                {
-                  "id": 79,
-                  "q": 2
-                }
-              ]
-            }
-          ],
-          "id": 1,
-          "category": 3
-        },
-        {
-          "notes": null,
-          "isc": "KiranBots",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 13,
-              "move": [
-                15,
-                5
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 5,
-              "ava": -1,
-              "str": true,
-              "bs": 10,
-              "s": 2,
-              "equip": [],
-              "w": 1,
-              "ph": 10,
-              "name": "KIRANBOTS",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/arjuna-unit-2-1.svg",
-              "id": 1,
-              "arm": 0,
-              "weapons": [],
-              "chars": [
-                2,
-                5,
-                21,
-                27
-              ],
-              "wip": 11,
-              "skills": [
-                {
-                  "q": 1,
-                  "extra": [
-                    40
-                  ],
-                  "id": 243,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "extra": [],
-                  "id": 84,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    1
-                  ],
-                  "id": 40,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    30
-                  ],
-                  "id": 162,
-                  "order": 4
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 4,
-              "equip": [],
-              "name": "KIRANBOT",
-              "disabled": true,
-              "orders": [],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 23,
-                  "order": 1
-                },
-                {
-                  "id": 174,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 2,
-          "category": 0
-        }
-      ],
-      "options": [],
-      "slug": "arjuna-unit",
-      "filters": {
-        "categories": [
-          3
-        ],
-        "skills": [
-          28,
-          40,
-          84,
-          162,
-          189,
-          213,
-          243
-        ],
-        "equip": [],
-        "chars": [
-          2,
-          3,
-          5,
-          20,
-          21,
-          27
-        ],
-        "types": [
-          2,
-          5
-        ],
-        "weapons": [
-          1,
-          5,
-          17,
-          23,
-          26,
-          71,
-          74,
-          98,
-          155,
-          174
-        ],
-        "ammunition": [
-          2,
-          3,
-          8,
-          13,
-          14,
-          37
-        ]
-      },
-      "factions": [
-        701,
-        703
-      ]
-    },
-    {
       "id": 587,
       "idArmy": 7,
       "canonical": 701,
@@ -3534,6 +2831,1071 @@
       ]
     },
     {
+      "id": 1178,
+      "idArmy": 64,
+      "canonical": 701,
+      "isc": "Arjuna Unit",
+      "iscAbbr": null,
+      "name": "ARJUNA Unit",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Arjuna Troops",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 17,
+              "move": [
+                15,
+                5
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 2,
+              "ava": 2,
+              "str": false,
+              "bs": 12,
+              "s": 2,
+              "equip": [],
+              "w": 1,
+              "ph": 11,
+              "name": "ARJUNA Troops",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/arjuna-unit-1-1.svg",
+              "id": 1,
+              "arm": 3,
+              "weapons": [],
+              "chars": [
+                3,
+                5,
+                20
+              ],
+              "wip": 14,
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 84,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    6
+                  ],
+                  "id": 28,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "extra": [],
+                  "id": 189,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    11
+                  ],
+                  "id": 40,
+                  "order": 4
+                },
+                {
+                  "q": 1,
+                  "id": 213,
+                  "order": 5
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 29,
+              "equip": [],
+              "name": "ARJUNA FTO",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "IRREGULAR",
+                  "list": 0,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 26,
+                  "order": 1
+                },
+                {
+                  "id": 1,
+                  "order": 2
+                },
+                {
+                  "id": 17,
+                  "order": 3
+                },
+                {
+                  "id": 98,
+                  "order": 4
+                },
+                {
+                  "id": 5,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [
+                {
+                  "q": 1,
+                  "group": 2,
+                  "option": 1
+                }
+              ],
+              "minis": 1,
+              "points": 33,
+              "equip": [],
+              "name": "ARJUNA",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "IRREGULAR",
+                  "list": 0,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "id": 26,
+                  "order": 1
+                },
+                {
+                  "id": 1,
+                  "order": 2
+                },
+                {
+                  "id": 17,
+                  "order": 3
+                },
+                {
+                  "id": 98,
+                  "order": 4
+                },
+                {
+                  "id": 5,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": [
+                {
+                  "id": 35
+                }
+              ]
+            },
+            {
+              "includes": [
+                {
+                  "q": 2,
+                  "group": 2,
+                  "option": 1
+                }
+              ],
+              "minis": 1,
+              "points": 37,
+              "equip": [],
+              "name": "ARJUNA",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "IRREGULAR",
+                  "list": 0,
+                  "total": 1
+                }
+              ],
+              "id": 3,
+              "weapons": [
+                {
+                  "id": 26,
+                  "order": 1
+                },
+                {
+                  "id": 1,
+                  "order": 2
+                },
+                {
+                  "id": 17,
+                  "order": 3
+                },
+                {
+                  "id": 98,
+                  "order": 4
+                },
+                {
+                  "id": 5,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": [
+                {
+                  "id": 35,
+                  "q": 2
+                }
+              ]
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 31,
+              "equip": [],
+              "name": "ARJUNA FTO",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "IRREGULAR",
+                  "list": 0,
+                  "total": 1
+                }
+              ],
+              "id": 4,
+              "weapons": [
+                {
+                  "id": 155,
+                  "order": 1
+                },
+                {
+                  "id": 17,
+                  "order": 2
+                },
+                {
+                  "id": 98,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [
+                {
+                  "q": 1,
+                  "group": 2,
+                  "option": 1
+                }
+              ],
+              "minis": 1,
+              "points": 35,
+              "equip": [],
+              "name": "ARJUNA",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "IRREGULAR",
+                  "list": 0,
+                  "total": 1
+                }
+              ],
+              "id": 5,
+              "weapons": [
+                {
+                  "id": 155,
+                  "order": 1
+                },
+                {
+                  "id": 17,
+                  "order": 2
+                },
+                {
+                  "id": 98,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": [
+                {
+                  "id": 35
+                }
+              ]
+            },
+            {
+              "includes": [
+                {
+                  "q": 2,
+                  "group": 2,
+                  "option": 1
+                }
+              ],
+              "minis": 1,
+              "points": 39,
+              "equip": [],
+              "name": "ARJUNA",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "IRREGULAR",
+                  "list": 0,
+                  "total": 1
+                }
+              ],
+              "id": 6,
+              "weapons": [
+                {
+                  "id": 155,
+                  "order": 1
+                },
+                {
+                  "id": 17,
+                  "order": 2
+                },
+                {
+                  "id": 98,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": [
+                {
+                  "id": 35,
+                  "q": 2
+                }
+              ]
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 34,
+              "equip": [],
+              "name": "ARJUNA FTO",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "IRREGULAR",
+                  "list": 0,
+                  "total": 1
+                }
+              ],
+              "id": 7,
+              "weapons": [
+                {
+                  "id": 74,
+                  "order": 1
+                },
+                {
+                  "id": 17,
+                  "order": 2
+                },
+                {
+                  "id": 98,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "1.5",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [
+                {
+                  "q": 1,
+                  "group": 2,
+                  "option": 1
+                }
+              ],
+              "minis": 1,
+              "points": 38,
+              "equip": [],
+              "name": "ARJUNA",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "IRREGULAR",
+                  "list": 0,
+                  "total": 1
+                }
+              ],
+              "id": 8,
+              "weapons": [
+                {
+                  "id": 74,
+                  "order": 1
+                },
+                {
+                  "id": 17,
+                  "order": 2
+                },
+                {
+                  "id": 98,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "1.5",
+              "skills": [],
+              "peripheral": [
+                {
+                  "id": 35
+                }
+              ]
+            },
+            {
+              "includes": [
+                {
+                  "q": 2,
+                  "group": 2,
+                  "option": 1
+                }
+              ],
+              "minis": 1,
+              "points": 42,
+              "equip": [],
+              "name": "ARJUNA",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "IRREGULAR",
+                  "list": 0,
+                  "total": 1
+                }
+              ],
+              "id": 9,
+              "weapons": [
+                {
+                  "id": 74,
+                  "order": 1
+                },
+                {
+                  "id": 17,
+                  "order": 2
+                },
+                {
+                  "id": 98,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "1.5",
+              "skills": [],
+              "peripheral": [
+                {
+                  "id": 35,
+                  "q": 2
+                }
+              ]
+            }
+          ],
+          "id": 1,
+          "category": 3
+        },
+        {
+          "notes": null,
+          "isc": "KiranBots",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 13,
+              "move": [
+                15,
+                5
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 5,
+              "ava": -1,
+              "str": true,
+              "bs": 10,
+              "s": 2,
+              "equip": [],
+              "w": 1,
+              "ph": 10,
+              "name": "KIRANBOTS",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/arjuna-unit-2-1.svg",
+              "id": 1,
+              "arm": 0,
+              "weapons": [],
+              "chars": [
+                2,
+                5,
+                21,
+                27
+              ],
+              "wip": 11,
+              "skills": [
+                {
+                  "q": 1,
+                  "extra": [
+                    40
+                  ],
+                  "id": 243,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "extra": [],
+                  "id": 84,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    1
+                  ],
+                  "id": 40,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    30
+                  ],
+                  "id": 162,
+                  "order": 4
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 4,
+              "equip": [],
+              "name": "KIRANBOT",
+              "disabled": true,
+              "orders": [],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 23,
+                  "order": 1
+                },
+                {
+                  "id": 174,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 2,
+          "category": 0
+        }
+      ],
+      "options": [],
+      "slug": "arjuna-unit",
+      "filters": {
+        "categories": [
+          3
+        ],
+        "skills": [
+          28,
+          40,
+          84,
+          162,
+          189,
+          213,
+          243
+        ],
+        "equip": [],
+        "chars": [
+          2,
+          3,
+          5,
+          20,
+          21,
+          27
+        ],
+        "types": [
+          2,
+          5
+        ],
+        "weapons": [
+          1,
+          5,
+          17,
+          23,
+          26,
+          71,
+          74,
+          98,
+          155,
+          174
+        ],
+        "ammunition": [
+          2,
+          3,
+          8,
+          13,
+          14,
+          37
+        ]
+      },
+      "factions": [
+        701,
+        703
+      ]
+    },
+    {
+      "id": 1770,
+      "idArmy": 1770,
+      "canonical": 701,
+      "isc": "Dawon Tacbots",
+      "iscAbbr": null,
+      "name": "Dawon Tacbots",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Dawon Tacbots",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 22,
+              "move": [
+                15,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 5,
+              "ava": 2,
+              "str": true,
+              "bs": 11,
+              "s": 2,
+              "equip": [
+                {
+                  "q": 1,
+                  "extra": [
+                    28
+                  ],
+                  "id": 102,
+                  "order": 1
+                }
+              ],
+              "w": 1,
+              "ph": 13,
+              "name": "DAWON Tacbots",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/dawon-tacbots-1-1.svg",
+              "id": 1,
+              "arm": 1,
+              "weapons": [],
+              "chars": [
+                3,
+                5,
+                21
+              ],
+              "wip": 12,
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 235,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 20,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    1
+                  ],
+                  "id": 40,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    23
+                  ],
+                  "id": 40,
+                  "order": 4
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    33
+                  ],
+                  "id": 162,
+                  "order": 5
+                },
+                {
+                  "q": 1,
+                  "id": 85,
+                  "order": 6
+                },
+                {
+                  "q": 1,
+                  "id": 83,
+                  "order": 7
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 19,
+              "equip": [],
+              "name": "DAWON",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 18,
+                  "order": 1
+                },
+                {
+                  "id": 82,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 189,
+                  "order": 3
+                },
+                {
+                  "id": 7,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 19,
+              "equip": [],
+              "name": "DAWON",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 145,
+                  "order": 1
+                },
+                {
+                  "id": 14,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 189,
+                  "order": 3
+                },
+                {
+                  "id": 10,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 24,
+              "equip": [],
+              "name": "DAWON FTO",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 3,
+              "weapons": [
+                {
+                  "id": 26,
+                  "order": 1
+                },
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 189,
+                  "order": 2
+                },
+                {
+                  "id": 10,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 18,
+              "equip": [],
+              "name": "DAWON FTO",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 4,
+              "weapons": [
+                {
+                  "id": 18,
+                  "order": 1
+                },
+                {
+                  "id": 82,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 189,
+                  "order": 3
+                },
+                {
+                  "id": 7,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 18,
+              "equip": [],
+              "name": "DAWON FTO",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 5,
+              "weapons": [
+                {
+                  "id": 145,
+                  "order": 1
+                },
+                {
+                  "id": 14,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 189,
+                  "order": 3
+                },
+                {
+                  "id": 10,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 3
+        }
+      ],
+      "options": [],
+      "slug": "dawon-tacbots",
+      "filters": {
+        "categories": [
+          3
+        ],
+        "skills": [
+          20,
+          40,
+          83,
+          85,
+          162,
+          235
+        ],
+        "equip": [
+          102
+        ],
+        "chars": [
+          3,
+          5,
+          21
+        ],
+        "types": [
+          5
+        ],
+        "weapons": [
+          7,
+          10,
+          14,
+          18,
+          26,
+          82,
+          145,
+          189
+        ],
+        "ammunition": [
+          2,
+          3,
+          5,
+          8,
+          9,
+          14,
+          35,
+          39
+        ]
+      },
+      "factions": [
+        701,
+        703
+      ]
+    },
+    {
       "id": 596,
       "idArmy": 16,
       "canonical": 701,
@@ -3907,7 +4269,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 80
+                  "id": 36
                 }
               ]
             },
@@ -4280,7 +4642,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 80
+                  "id": 36
                 }
               ]
             },
@@ -5585,6 +5947,343 @@
         104,
         105,
         106,
+        701,
+        703
+      ]
+    },
+    {
+      "id": 1771,
+      "idArmy": 1771,
+      "canonical": 701,
+      "isc": "Artalis Unit",
+      "iscAbbr": null,
+      "name": "Artalis Unit",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Artalis Unit",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 17,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 1,
+              "ava": 1,
+              "str": false,
+              "bs": 12,
+              "s": 2,
+              "equip": [],
+              "w": 1,
+              "ph": 10,
+              "name": "ARTALIS",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-artalis-unit-1-1.svg",
+              "id": 1,
+              "arm": 1,
+              "weapons": [],
+              "chars": [
+                3,
+                5,
+                20
+              ],
+              "wip": 14,
+              "skills": [
+                {
+                  "q": 1,
+                  "extra": [
+                    11
+                  ],
+                  "id": 40,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    30
+                  ],
+                  "id": 162,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "id": 211,
+                  "order": 3
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 27,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 238,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 237,
+                  "order": 2
+                }
+              ],
+              "name": "ARTALIS",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 33,
+                  "order": 1
+                },
+                {
+                  "id": 88,
+                  "order": 2
+                },
+                {
+                  "id": 17,
+                  "order": 3
+                },
+                {
+                  "id": 69,
+                  "order": 4
+                },
+                {
+                  "id": 5,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 49,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 23,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 238,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 237,
+                  "order": 2
+                }
+              ],
+              "name": "ARTALIS",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "id": 41,
+                  "order": 1
+                },
+                {
+                  "id": 17,
+                  "order": 2
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 49,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 23,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 106,
+                  "order": 1
+                }
+              ],
+              "name": "ARTALIS",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 3,
+              "weapons": [
+                {
+                  "id": 41,
+                  "order": 1
+                },
+                {
+                  "id": 17,
+                  "order": 2
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 53,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 25,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 106,
+                  "order": 1
+                }
+              ],
+              "name": "ARTALIS",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 4,
+              "weapons": [
+                {
+                  "id": 33,
+                  "order": 1
+                },
+                {
+                  "id": 88,
+                  "order": 2
+                },
+                {
+                  "id": 17,
+                  "order": 3
+                },
+                {
+                  "id": 69,
+                  "order": 4
+                },
+                {
+                  "id": 5,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 64,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 4
+        }
+      ],
+      "options": [],
+      "slug": "artalis-unit",
+      "filters": {
+        "categories": [
+          4
+        ],
+        "skills": [
+          40,
+          49,
+          53,
+          64,
+          162,
+          211
+        ],
+        "equip": [
+          106,
+          237,
+          238
+        ],
+        "chars": [
+          3,
+          5,
+          20
+        ],
+        "types": [
+          1
+        ],
+        "weapons": [
+          5,
+          17,
+          33,
+          41,
+          69,
+          88
+        ],
+        "ammunition": [
+          2,
+          9,
+          13,
+          35
+        ]
+      },
+      "factions": [
         701,
         703
       ]
@@ -7494,6 +8193,309 @@
         909,
         1001,
         1002
+      ]
+    },
+    {
+      "id": 1772,
+      "idArmy": 1772,
+      "canonical": 701,
+      "isc": "Satrah Unit",
+      "iscAbbr": null,
+      "name": "Satrah Unit",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Satrah Unit",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 16,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 1,
+              "ava": 1,
+              "str": false,
+              "bs": 13,
+              "s": 2,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 183,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 115,
+                  "order": 2
+                }
+              ],
+              "w": 1,
+              "ph": 10,
+              "name": "SATRAH",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-satrah-unit-1-1.svg",
+              "id": 1,
+              "arm": 2,
+              "weapons": [],
+              "chars": [
+                3,
+                5,
+                20
+              ],
+              "wip": 14,
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 27,
+              "equip": [],
+              "name": "SATRAH",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "extra": null,
+                  "id": 155,
+                  "order": 1
+                },
+                {
+                  "extra": null,
+                  "id": 145,
+                  "order": 2
+                },
+                {
+                  "extra": null,
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "extra": null,
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 26,
+              "equip": [],
+              "name": "SATRAH",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "extra": null,
+                  "id": 41,
+                  "order": 1
+                },
+                {
+                  "extra": null,
+                  "id": 145,
+                  "order": 2
+                },
+                {
+                  "extra": null,
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "extra": null,
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 25,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 100,
+                  "order": 1
+                }
+              ],
+              "name": "SATRAH",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 3,
+              "weapons": [
+                {
+                  "extra": null,
+                  "id": 77,
+                  "order": 1
+                },
+                {
+                  "extra": null,
+                  "id": 65,
+                  "order": 2
+                },
+                {
+                  "extra": null,
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "extra": null,
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0.5",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 1000,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 24,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 145,
+                  "order": 1
+                }
+              ],
+              "name": "SATRAH",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 4,
+              "weapons": [
+                {
+                  "extra": null,
+                  "id": 77,
+                  "order": 1
+                },
+                {
+                  "extra": null,
+                  "id": 65,
+                  "order": 2
+                },
+                {
+                  "extra": null,
+                  "id": 174,
+                  "order": 3
+                },
+                {
+                  "extra": null,
+                  "id": 69,
+                  "order": 4
+                },
+                {
+                  "extra": null,
+                  "id": 5,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 1000,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 5
+        }
+      ],
+      "options": [],
+      "slug": "satrah-unit",
+      "filters": {
+        "categories": [
+          5
+        ],
+        "skills": [
+          1000
+        ],
+        "equip": [
+          100,
+          115,
+          145,
+          183
+        ],
+        "chars": [
+          3,
+          5,
+          20
+        ],
+        "types": [
+          1
+        ],
+        "weapons": [
+          5,
+          41,
+          65,
+          69,
+          77,
+          145,
+          155,
+          174
+        ],
+        "ammunition": [
+          2,
+          8,
+          9,
+          35
+        ]
+      },
+      "factions": [
+        701,
+        703
       ]
     },
     {
@@ -10364,6 +11366,245 @@
       ]
     },
     {
+      "id": 1598,
+      "idArmy": 1598,
+      "canonical": 101,
+      "isc": "ITS Corsair Bashi Bazouks",
+      "iscAbbr": null,
+      "notes": "This Trooper is only available with the Mercenary Contractors Extra",
+      "name": "ITS CORSAIR BASHI BAZOUKS",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "ITS Corsair Bashi Bazouks",
+          "profiles": [
+            {
+              "bts": 0,
+              "cc": 15,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 1,
+              "ava": 1,
+              "str": false,
+              "bs": 11,
+              "s": 2,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 24,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 104,
+                  "order": 2
+                }
+              ],
+              "w": 1,
+              "ph": 10,
+              "name": "ITS CORSAIR BASHI BAZOUKS",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/bashi-bazouks-1-1.svg",
+              "id": 1,
+              "arm": 2,
+              "weapons": [],
+              "chars": [
+                2,
+                4,
+                5,
+                28
+              ],
+              "wip": 12,
+              "skills": [
+                {
+                  "q": 1,
+                  "extra": [
+                    6
+                  ],
+                  "id": 191,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 33,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    34
+                  ],
+                  "id": 58,
+                  "order": 4
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 15,
+              "equip": [],
+              "name": "CORSAIR BASHI BAZOUK",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "IRREGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 26,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 12,
+              "equip": [],
+              "name": "CORSAIR BASHI BAZOUK",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "IRREGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 4,
+              "weapons": [
+                {
+                  "id": 77,
+                  "order": 1
+                },
+                {
+                  "id": 80,
+                  "order": 2
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 11
+        }
+      ],
+      "options": [],
+      "slug": "its-corsair-bashi-bazouks",
+      "filters": {
+        "categories": [
+          11
+        ],
+        "skills": [
+          33,
+          58,
+          191
+        ],
+        "equip": [
+          24,
+          104
+        ],
+        "chars": [
+          2,
+          4,
+          5,
+          28
+        ],
+        "types": [
+          1
+        ],
+        "weapons": [
+          5,
+          26,
+          69,
+          77,
+          80
+        ],
+        "ammunition": [
+          2,
+          3,
+          35
+        ]
+      },
+      "factions": [
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        201,
+        202,
+        204,
+        205,
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        401,
+        402,
+        403,
+        404,
+        501,
+        502,
+        503,
+        504,
+        601,
+        602,
+        603,
+        604,
+        701,
+        702,
+        703,
+        801,
+        902,
+        903,
+        904,
+        905,
+        906,
+        907,
+        908,
+        909,
+        1001,
+        1002
+      ]
+    },
+    {
       "id": 183,
       "idArmy": 11,
       "canonical": 202,
@@ -10613,7 +11854,7 @@
             {
               "includes": [],
               "minis": 1,
-              "points": 23,
+              "points": 15,
               "equip": [],
               "name": "DAKINI",
               "disabled": false,
@@ -10639,7 +11880,7 @@
                 }
               ],
               "chars": [],
-              "swc": "0.5",
+              "swc": "0",
               "skills": [
                 {
                   "q": 1,
@@ -10707,79 +11948,96 @@
       ]
     },
     {
-      "id": 1598,
-      "idArmy": 1598,
-      "canonical": 101,
-      "isc": "ITS Corsair Bashi Bazouks",
+      "id": 1769,
+      "idArmy": 1769,
+      "canonical": 701,
+      "isc": "Riksha Tacbots",
       "iscAbbr": null,
-      "notes": "This Trooper is only available with the Mercenary Contractors Extra",
-      "name": "ITS CORSAIR BASHI BAZOUKS",
+      "name": "Riksha Tacbots",
       "profileGroups": [
         {
           "notes": null,
-          "isc": "ITS Corsair Bashi Bazouks",
+          "isc": "Riksha Tacbots",
           "profiles": [
             {
-              "bts": 0,
-              "cc": 15,
+              "bts": 3,
+              "cc": 13,
               "move": [
-                10,
-                10
+                15,
+                5
               ],
               "notes": null,
               "includes": [],
-              "type": 1,
-              "ava": 1,
-              "str": false,
-              "bs": 11,
+              "type": 5,
+              "ava": 2,
+              "str": true,
+              "bs": 12,
               "s": 2,
               "equip": [
                 {
                   "q": 1,
-                  "id": 24,
+                  "extra": [
+                    28
+                  ],
+                  "id": 102,
                   "order": 1
-                },
-                {
-                  "q": 1,
-                  "id": 104,
-                  "order": 2
                 }
               ],
               "w": 1,
               "ph": 10,
-              "name": "ITS CORSAIR BASHI BAZOUKS",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/bashi-bazouks-1-1.svg",
+              "name": "RIKSHA",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/riksha-tacbots-1-1.svg",
               "id": 1,
-              "arm": 2,
+              "arm": 3,
               "weapons": [],
               "chars": [
-                2,
-                4,
+                3,
                 5,
-                28
+                21
               ],
-              "wip": 12,
+              "wip": 13,
               "skills": [
+                {
+                  "q": 1,
+                  "id": 235,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 84,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    23
+                  ],
+                  "id": 40,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    30
+                  ],
+                  "id": 162,
+                  "order": 4
+                },
                 {
                   "q": 1,
                   "extra": [
                     6
                   ],
-                  "id": 191,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "id": 33,
-                  "order": 2
+                  "id": 28,
+                  "order": 6
                 },
                 {
                   "q": 1,
                   "extra": [
-                    34
+                    33
                   ],
-                  "id": 58,
-                  "order": 4
+                  "id": 162,
+                  "order": 7
                 }
               ],
               "peripheral": []
@@ -10789,13 +12047,13 @@
             {
               "includes": [],
               "minis": 1,
-              "points": 15,
+              "points": 19,
               "equip": [],
-              "name": "CORSAIR BASHI BAZOUK",
+              "name": "RIKSHA",
               "disabled": false,
               "orders": [
                 {
-                  "type": "IRREGULAR",
+                  "type": "REGULAR",
                   "list": 1,
                   "total": 1
                 }
@@ -10807,12 +12065,11 @@
                   "order": 1
                 },
                 {
-                  "id": 69,
+                  "extra": [
+                    7
+                  ],
+                  "id": 71,
                   "order": 2
-                },
-                {
-                  "id": 5,
-                  "order": 3
                 }
               ],
               "chars": [],
@@ -10823,13 +12080,83 @@
             {
               "includes": [],
               "minis": 1,
-              "points": 12,
+              "points": 22,
               "equip": [],
-              "name": "CORSAIR BASHI BAZOUK",
+              "name": "RIKSHA",
               "disabled": false,
               "orders": [
                 {
-                  "type": "IRREGULAR",
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "id": 89,
+                  "order": 1
+                },
+                {
+                  "id": 28,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    7
+                  ],
+                  "id": 71,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "1.5",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 24,
+              "equip": [],
+              "name": "RIKSHA",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 3,
+              "weapons": [
+                {
+                  "id": 152,
+                  "order": 1
+                },
+                {
+                  "extra": [
+                    7
+                  ],
+                  "id": 71,
+                  "order": 2
+                }
+              ],
+              "chars": [],
+              "swc": "1",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 20,
+              "equip": [],
+              "name": "RIKSHA",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
                   "list": 1,
                   "total": 1
                 }
@@ -10837,112 +12164,82 @@
               "id": 4,
               "weapons": [
                 {
-                  "id": 77,
+                  "id": 33,
                   "order": 1
                 },
                 {
-                  "id": 80,
+                  "id": 72,
                   "order": 2
                 },
                 {
-                  "id": 69,
+                  "extra": [
+                    7
+                  ],
+                  "id": 71,
                   "order": 3
-                },
-                {
-                  "id": 5,
-                  "order": 4
                 }
               ],
               "chars": [],
               "swc": "0",
-              "skills": [],
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 59,
+                  "order": 1
+                }
+              ],
               "peripheral": []
             }
           ],
           "id": 1,
-          "category": 11
+          "category": 3
         }
       ],
       "options": [],
-      "slug": "its-corsair-bashi-bazouks",
+      "slug": "riksha-tacbots",
       "filters": {
         "categories": [
-          11
+          3
         ],
         "skills": [
-          33,
-          58,
-          191
+          28,
+          40,
+          59,
+          84,
+          162,
+          235
         ],
         "equip": [
-          24,
-          104
+          102
         ],
         "chars": [
-          2,
-          4,
+          3,
           5,
-          28
+          21
         ],
         "types": [
-          1
+          5
         ],
         "weapons": [
-          5,
           26,
-          69,
-          77,
-          80
+          28,
+          33,
+          71,
+          72,
+          89,
+          152
         ],
         "ammunition": [
           2,
           3,
-          35
+          8,
+          29,
+          37
         ]
       },
       "factions": [
-        101,
-        102,
-        103,
-        104,
-        105,
-        106,
-        201,
-        202,
-        204,
-        205,
-        301,
-        302,
-        303,
-        304,
-        305,
-        306,
-        401,
-        402,
-        403,
-        404,
-        501,
-        502,
-        503,
-        504,
-        601,
-        602,
-        603,
-        604,
         701,
-        702,
-        703,
-        801,
-        902,
-        903,
-        904,
-        905,
-        906,
-        907,
-        908,
-        909,
-        1001,
-        1002
+        703
       ]
     },
     {
@@ -16008,291 +17305,6 @@
       "factions": []
     },
     {
-      "id": 11506,
-      "idArmy": 21506,
-      "canonical": 1,
-      "isc": "REM Racers, Mercenary Hacker-Pilots",
-      "iscAbbr": "REM Racers",
-      "notes": null,
-      "name": "REM RACERS, Mercenary Hacker-Pilots",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "REM Racers, Mercenary Hacker-Pilots",
-          "profiles": [
-            {
-              "bts": 6,
-              "cc": 14,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 1,
-              "ava": 1,
-              "str": false,
-              "bs": 11,
-              "s": 2,
-              "equip": [
-                {
-                  "id": 111,
-                  "order": 2
-                }
-              ],
-              "w": 1,
-              "ph": 10,
-              "name": "REM RACERS, Mercenary Hacker-Pilots",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/rem-racers-1-1.svg",
-              "id": 1,
-              "arm": 0,
-              "weapons": [],
-              "chars": [
-                1,
-                3,
-                5
-              ],
-              "wip": 13,
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 21,
-              "equip": [
-                {
-                  "id": 100,
-                  "order": 1
-                }
-              ],
-              "name": "REM RACER ",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 77,
-                  "order": 1
-                },
-                {
-                  "id": 69,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "0.5",
-              "skills": [
-                {
-                  "id": 1000,
-                  "order": 1
-                },
-                {
-                  "extra": [
-                    271
-                  ],
-                  "id": 255,
-                  "order": 2
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 15,
-              "equip": [],
-              "name": "REM RACER",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "id": 28,
-                  "order": 1
-                },
-                {
-                  "id": 69,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "extra": [
-                    271
-                  ],
-                  "id": 255,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 12,
-              "equip": [],
-              "name": "REM RACER",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 3,
-              "weapons": [
-                {
-                  "id": 28,
-                  "order": 1
-                },
-                {
-                  "id": 69,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "extra": [
-                    4,
-                    273,
-                    274
-                  ],
-                  "id": 255,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 12,
-              "equip": [],
-              "name": "REM RACER ",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 4,
-              "weapons": [
-                {
-                  "id": 28,
-                  "order": 1
-                },
-                {
-                  "id": 69,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "extra": [
-                    276,
-                    275,
-                    272
-                  ],
-                  "id": 255,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 11
-        }
-      ],
-      "options": [],
-      "slug": "merc-rem-racers",
-      "filters": {
-        "categories": [
-          11
-        ],
-        "skills": [
-          255,
-          1000
-        ],
-        "equip": [
-          100,
-          111
-        ],
-        "chars": [
-          1,
-          3,
-          5
-        ],
-        "types": [
-          1
-        ],
-        "weapons": [
-          28,
-          69,
-          71,
-          77
-        ],
-        "ammunition": [
-          2,
-          35,
-          37
-        ]
-      },
-      "factions": []
-    },
-    {
       "id": 11569,
       "idArmy": 21569,
       "canonical": 1,
@@ -17209,6 +18221,198 @@
       "factions": []
     },
     {
+      "id": 11558,
+      "idArmy": 21558,
+      "canonical": 1,
+      "isc": "Kendrat, Krakot Renegade",
+      "iscAbbr": null,
+      "notes": null,
+      "name": "KENDRAT, Krakot Renegade",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Kendrat, Krakot Renegade",
+          "profiles": [
+            {
+              "bts": 0,
+              "cc": 23,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 7,
+              "ava": 1,
+              "str": false,
+              "bs": 11,
+              "s": 2,
+              "equip": [],
+              "w": 1,
+              "ph": 13,
+              "name": "KENDRAT, Krakot Renegade",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/kendrat-krakot-renegade-1-1.svg",
+              "id": 1,
+              "arm": 1,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                6
+              ],
+              "wip": 12,
+              "skills": [
+                {
+                  "id": 19,
+                  "order": 1
+                },
+                {
+                  "extra": [
+                    1
+                  ],
+                  "id": 24,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    26
+                  ],
+                  "id": 161,
+                  "order": 4
+                },
+                {
+                  "extra": [
+                    23
+                  ],
+                  "id": 40,
+                  "order": 5
+                },
+                {
+                  "extra": [],
+                  "id": 39,
+                  "order": 6
+                },
+                {
+                  "extra": [
+                    33
+                  ],
+                  "id": 162,
+                  "order": 7
+                },
+                {
+                  "extra": [],
+                  "id": 85,
+                  "order": 8
+                },
+                {
+                  "id": 83,
+                  "order": 9
+                },
+                {
+                  "id": 88,
+                  "order": 10
+                },
+                {
+                  "q": 1,
+                  "id": 256,
+                  "order": 11
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 22,
+              "equip": [],
+              "name": "KENDRAT",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "IMPETUOUS",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 81,
+                  "order": 1
+                },
+                {
+                  "id": 147,
+                  "order": 2
+                },
+                {
+                  "id": 11,
+                  "order": 4
+                },
+                {
+                  "id": 107,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 10
+        }
+      ],
+      "options": [],
+      "slug": "merc-kendrat-krakot-renegade",
+      "filters": {
+        "categories": [
+          10
+        ],
+        "skills": [
+          19,
+          24,
+          39,
+          40,
+          83,
+          85,
+          88,
+          161,
+          162,
+          256
+        ],
+        "equip": [],
+        "chars": [
+          1,
+          3,
+          6
+        ],
+        "types": [
+          7
+        ],
+        "weapons": [
+          11,
+          81,
+          107,
+          147
+        ],
+        "ammunition": [
+          2,
+          3,
+          8,
+          9
+        ]
+      },
+      "factions": []
+    },
+    {
       "id": 10265,
       "idArmy": 10039,
       "canonical": 1,
@@ -17444,103 +18648,52 @@
       "factions": []
     },
     {
-      "id": 11558,
-      "idArmy": 21558,
+      "id": 11506,
+      "idArmy": 21506,
       "canonical": 1,
-      "isc": "Kendrat, Krakot Renegade",
-      "iscAbbr": null,
+      "isc": "REM Racers, Mercenary Hacker-Pilots",
+      "iscAbbr": "REM Racers",
       "notes": null,
-      "name": "KENDRAT, Krakot Renegade",
+      "name": "REM RACERS, Mercenary Hacker-Pilots",
       "profileGroups": [
         {
           "notes": null,
-          "isc": "Kendrat, Krakot Renegade",
+          "isc": "REM Racers, Mercenary Hacker-Pilots",
           "profiles": [
             {
-              "bts": 0,
-              "cc": 23,
+              "bts": 6,
+              "cc": 14,
               "move": [
                 10,
                 10
               ],
               "notes": null,
               "includes": [],
-              "type": 7,
+              "type": 1,
               "ava": 1,
               "str": false,
               "bs": 11,
               "s": 2,
-              "equip": [],
+              "equip": [
+                {
+                  "id": 111,
+                  "order": 2
+                }
+              ],
               "w": 1,
-              "ph": 13,
-              "name": "KENDRAT, Krakot Renegade",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/kendrat-krakot-renegade-1-1.svg",
+              "ph": 10,
+              "name": "REM RACERS, Mercenary Hacker-Pilots",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/rem-racers-1-1.svg",
               "id": 1,
-              "arm": 1,
+              "arm": 0,
               "weapons": [],
               "chars": [
                 1,
                 3,
-                6
+                5
               ],
-              "wip": 12,
-              "skills": [
-                {
-                  "id": 19,
-                  "order": 1
-                },
-                {
-                  "extra": [
-                    1
-                  ],
-                  "id": 24,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    26
-                  ],
-                  "id": 161,
-                  "order": 4
-                },
-                {
-                  "extra": [
-                    23
-                  ],
-                  "id": 40,
-                  "order": 5
-                },
-                {
-                  "extra": [],
-                  "id": 39,
-                  "order": 6
-                },
-                {
-                  "extra": [
-                    33
-                  ],
-                  "id": 162,
-                  "order": 7
-                },
-                {
-                  "extra": [],
-                  "id": 85,
-                  "order": 8
-                },
-                {
-                  "id": 83,
-                  "order": 9
-                },
-                {
-                  "id": 88,
-                  "order": 10
-                },
-                {
-                  "q": 1,
-                  "id": 256,
-                  "order": 11
-                }
-              ],
+              "wip": 13,
+              "skills": [],
               "peripheral": []
             }
           ],
@@ -17548,18 +18701,18 @@
             {
               "includes": [],
               "minis": 1,
-              "points": 22,
-              "equip": [],
-              "name": "KENDRAT",
+              "points": 21,
+              "equip": [
+                {
+                  "id": 100,
+                  "order": 1
+                }
+              ],
+              "name": "REM RACER ",
               "disabled": false,
               "orders": [
                 {
                   "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "IMPETUOUS",
                   "list": 1,
                   "total": 1
                 }
@@ -17567,70 +18720,215 @@
               "id": 1,
               "weapons": [
                 {
-                  "id": 81,
+                  "id": 77,
                   "order": 1
                 },
                 {
-                  "id": 147,
+                  "id": 69,
                   "order": 2
                 },
                 {
-                  "id": 11,
-                  "order": 4
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0.5",
+              "skills": [
+                {
+                  "id": 1000,
+                  "order": 1
                 },
                 {
-                  "id": 107,
+                  "extra": [
+                    271
+                  ],
+                  "id": 255,
+                  "order": 2
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 15,
+              "equip": [],
+              "name": "REM RACER",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "id": 28,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
                   "order": 3
                 }
               ],
               "chars": [],
               "swc": "0",
-              "skills": [],
+              "skills": [
+                {
+                  "extra": [
+                    271
+                  ],
+                  "id": 255,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 12,
+              "equip": [],
+              "name": "REM RACER",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 3,
+              "weapons": [
+                {
+                  "id": 28,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "extra": [
+                    4,
+                    273,
+                    274
+                  ],
+                  "id": 255,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 12,
+              "equip": [],
+              "name": "REM RACER ",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 4,
+              "weapons": [
+                {
+                  "id": 28,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "extra": [
+                    276,
+                    301,
+                    52
+                  ],
+                  "id": 255,
+                  "order": 1
+                }
+              ],
               "peripheral": []
             }
           ],
           "id": 1,
-          "category": 10
+          "category": 11
         }
       ],
       "options": [],
-      "slug": "merc-kendrat-krakot-renegade",
+      "slug": "merc-rem-racers",
       "filters": {
         "categories": [
-          10
+          11
         ],
         "skills": [
-          19,
-          24,
-          39,
-          40,
-          83,
-          85,
-          88,
-          161,
-          162,
-          256
+          255,
+          1000
         ],
-        "equip": [],
+        "equip": [
+          100,
+          111
+        ],
         "chars": [
           1,
           3,
-          6
+          5
         ],
         "types": [
-          7
+          1
         ],
         "weapons": [
-          11,
-          81,
-          107,
-          147
+          28,
+          69,
+          71,
+          77
         ],
         "ammunition": [
           2,
-          3,
-          8,
-          9
+          35,
+          37
         ]
       },
       "factions": []
@@ -21553,7 +22851,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 81
+                  "id": 37
                 }
               ]
             }
@@ -23035,16 +24333,16 @@
   "filters": {
     "peripheral": [
       {
-        "id": 81,
+        "id": 37,
         "name": "BÂTARD",
         "mercs": true
       },
       {
-        "id": 80,
+        "id": 36,
         "name": "DEVABOT"
       },
       {
-        "id": 79,
+        "id": 35,
         "name": "KIRANBOT"
       }
     ],
@@ -23410,8 +24708,7 @@
       },
       {
         "id": 39,
-        "name": "AP/Shock/DA",
-        "mercs": true
+        "name": "AP/Shock/DA"
       },
       {
         "id": 10,
@@ -23456,8 +24753,7 @@
       },
       {
         "id": 5,
-        "name": "N+E/M",
-        "mercs": true
+        "name": "N+E/M"
       },
       {
         "id": 37,
@@ -23575,6 +24871,12 @@
         "wiki": "https://infinitythewiki.com/360º_Visor?version=n4"
       },
       {
+        "id": 183,
+        "name": "Albedo",
+        "type": "PERSON",
+        "wiki": "https://infinitythewiki.com/Albedo?version=n4"
+      },
+      {
         "id": 91,
         "name": "Baggage",
         "type": "PERSON",
@@ -23598,6 +24900,12 @@
         "type": "WEAPON",
         "wiki": "https://infinitythewiki.com/Deployable_Repeater?version=n4",
         "mercs": true
+      },
+      {
+        "id": 102,
+        "name": "ECM",
+        "type": "PERSON",
+        "wiki": "https://infinitythewiki.com/ECM?version=n4"
       },
       {
         "id": 239,
@@ -23714,8 +25022,7 @@
       {
         "id": 20,
         "name": "Martial Arts L2",
-        "wiki": "https://infinitythewiki.com/Martial_Arts?version=n4",
-        "mercs": true
+        "wiki": "https://infinitythewiki.com/Martial_Arts?version=n4"
       },
       {
         "id": 21,
@@ -23869,8 +25176,7 @@
       {
         "id": 83,
         "name": "Religious Troop",
-        "wiki": "https://infinitythewiki.com/Religious_Troop?version=n4",
-        "mercs": true
+        "wiki": "https://infinitythewiki.com/Religious_Troop?version=n4"
       },
       {
         "id": 84,
@@ -24137,8 +25443,7 @@
       {
         "id": 14,
         "name": "Blitzen",
-        "type": "BS",
-        "mercs": true
+        "type": "BS"
       },
       {
         "id": 26,
@@ -24168,8 +25473,7 @@
       {
         "id": 18,
         "name": "Chain Rifle",
-        "type": "BS",
-        "mercs": true
+        "type": "BS"
       },
       {
         "id": 80,
@@ -24226,8 +25530,7 @@
       {
         "id": 7,
         "name": "E/M CC Weapon",
-        "type": "CC",
-        "mercs": true
+        "type": "CC"
       },
       {
         "id": 201,
@@ -24276,8 +25579,7 @@
       {
         "id": 82,
         "name": "Flammenspeer",
-        "type": "BS",
-        "mercs": true
+        "type": "BS"
       },
       {
         "id": 72,
@@ -24341,8 +25643,7 @@
       {
         "id": 88,
         "name": "Light Rocket Launcher",
-        "type": "BS",
-        "specops": true
+        "type": "BS"
       },
       {
         "id": 28,
@@ -24388,8 +25689,7 @@
       {
         "id": 189,
         "name": "MULTI Pistol",
-        "type": "CC",
-        "mercs": true
+        "type": "CC"
       },
       {
         "id": 41,
@@ -24432,6 +25732,11 @@
         "name": "Plasma Rifle",
         "type": "BS",
         "mercs": true
+      },
+      {
+        "id": 145,
+        "name": "Pulzar",
+        "type": "BS"
       },
       {
         "id": 152,
@@ -24624,12 +25929,6 @@
         "mercs": true
       },
       {
-        "id": 275,
-        "name": "+3 PH",
-        "type": "TEXT",
-        "mercs": true
-      },
-      {
         "id": 23,
         "name": "+5",
         "type": "DISTANCE"
@@ -24637,12 +25936,6 @@
       {
         "id": 2,
         "name": "+6",
-        "type": "TEXT",
-        "mercs": true
-      },
-      {
-        "id": 272,
-        "name": "+9 CC",
         "type": "TEXT",
         "mercs": true
       },
@@ -24686,6 +25979,12 @@
         "type": "TEXT"
       },
       {
+        "id": 301,
+        "name": "CC=22",
+        "type": "TEXT",
+        "mercs": true
+      },
+      {
         "id": 49,
         "name": "Critical",
         "type": "TEXT"
@@ -24693,6 +25992,11 @@
       {
         "id": 31,
         "name": "Guided",
+        "type": "TEXT"
+      },
+      {
+        "id": 28,
+        "name": "Hacking -3",
         "type": "TEXT"
       },
       {
@@ -24893,16 +26197,6 @@
       "category": 10
     },
     {
-      "id": 1178,
-      "isc": "Arjuna Unit",
-      "idArmy": 64,
-      "name": "ARJUNA Unit",
-      "slug": "arjuna-unit",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/arjuna-unit-1-1.svg",
-      "type": 2,
-      "category": 3
-    },
-    {
       "id": 587,
       "isc": "Dasyus",
       "idArmy": 7,
@@ -24921,6 +26215,26 @@
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/its-bike-recon-motorized-bounty-hunters-1-1.svg",
       "type": 1,
       "category": 11
+    },
+    {
+      "id": 1178,
+      "isc": "Arjuna Unit",
+      "idArmy": 64,
+      "name": "ARJUNA Unit",
+      "slug": "arjuna-unit",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/arjuna-unit-1-1.svg",
+      "type": 2,
+      "category": 3
+    },
+    {
+      "id": 1770,
+      "isc": "Dawon Tacbots",
+      "idArmy": 1770,
+      "name": "Dawon Tacbots",
+      "slug": "dawon-tacbots",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/dawon-tacbots-1-1.svg",
+      "type": 5,
+      "category": 3
     },
     {
       "id": 596,
@@ -24971,6 +26285,16 @@
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/maximus-optimate-and-hexadome-legend-null-1.svg",
       "type": 4,
       "category": 10
+    },
+    {
+      "id": 1771,
+      "isc": "Artalis Unit",
+      "idArmy": 1771,
+      "name": "Artalis Unit",
+      "slug": "artalis-unit",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-artalis-unit-1-1.svg",
+      "type": 1,
+      "category": 4
     },
     {
       "id": 1130,
@@ -25051,6 +26375,16 @@
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/csu-corporate-security-unit-1-1.svg",
       "type": 1,
       "category": 11
+    },
+    {
+      "id": 1772,
+      "isc": "Satrah Unit",
+      "idArmy": 1772,
+      "name": "Satrah Unit",
+      "slug": "satrah-unit",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-satrah-unit-1-1.svg",
+      "type": 1,
+      "category": 5
     },
     {
       "id": 110,
@@ -25183,6 +26517,16 @@
       "category": 11
     },
     {
+      "id": 1598,
+      "isc": "ITS Corsair Bashi Bazouks",
+      "idArmy": 1598,
+      "name": "ITS CORSAIR BASHI BAZOUKS",
+      "slug": "its-corsair-bashi-bazouks",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/bashi-bazouks-1-1.svg",
+      "type": 1,
+      "category": 11
+    },
+    {
       "id": 183,
       "isc": "Dakini Tacbots",
       "idArmy": 11,
@@ -25193,14 +26537,14 @@
       "category": 2
     },
     {
-      "id": 1598,
-      "isc": "ITS Corsair Bashi Bazouks",
-      "idArmy": 1598,
-      "name": "ITS CORSAIR BASHI BAZOUKS",
-      "slug": "its-corsair-bashi-bazouks",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/bashi-bazouks-1-1.svg",
-      "type": 1,
-      "category": 11
+      "id": 1769,
+      "isc": "Riksha Tacbots",
+      "idArmy": 1769,
+      "name": "Riksha Tacbots",
+      "slug": "riksha-tacbots",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/riksha-tacbots-1-1.svg",
+      "type": 5,
+      "category": 3
     },
     {
       "id": 10680,
@@ -25393,16 +26737,6 @@
       "category": 10
     },
     {
-      "id": 11506,
-      "isc": "REM Racers",
-      "idArmy": 21506,
-      "name": "REM RACERS, Mercenary Hacker-Pilots",
-      "slug": "merc-rem-racers",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/rem-racers-1-1.svg",
-      "type": 1,
-      "category": 11
-    },
-    {
       "id": 11569,
       "isc": "Triphammers, Repurposed Industrial TAGs",
       "idArmy": 21569,
@@ -25433,6 +26767,16 @@
       "category": 10
     },
     {
+      "id": 11558,
+      "isc": "Kendrat, Krakot Renegade",
+      "idArmy": 21558,
+      "name": "KENDRAT, Krakot Renegade",
+      "slug": "merc-kendrat-krakot-renegade",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/kendrat-krakot-renegade-1-1.svg",
+      "type": 7,
+      "category": 10
+    },
+    {
       "id": 10265,
       "isc": "Wardrivers, Merc. Hackers",
       "idArmy": 10039,
@@ -25443,14 +26787,14 @@
       "category": 11
     },
     {
-      "id": 11558,
-      "isc": "Kendrat, Krakot Renegade",
-      "idArmy": 21558,
-      "name": "KENDRAT, Krakot Renegade",
-      "slug": "merc-kendrat-krakot-renegade",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/kendrat-krakot-renegade-1-1.svg",
-      "type": 7,
-      "category": 10
+      "id": 11506,
+      "isc": "REM Racers",
+      "idArmy": 21506,
+      "name": "REM RACERS, Mercenary Hacker-Pilots",
+      "slug": "merc-rem-racers",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/rem-racers-1-1.svg",
+      "type": 1,
+      "category": 11
     },
     {
       "id": 11160,
@@ -26090,6 +27434,30 @@
             "comment": "",
             "required": false,
             "slug": "csu-corporate-security-unit"
+          },
+          {
+            "min": 0,
+            "max": 1,
+            "name": "RIKSHA",
+            "comment": "",
+            "required": false,
+            "slug": "riksha-tacbots"
+          },
+          {
+            "min": 0,
+            "max": 1,
+            "name": "DAWON",
+            "comment": "FTO",
+            "required": false,
+            "slug": "dawon-tacbots"
+          },
+          {
+            "min": 0,
+            "max": 1,
+            "name": "ARJUNA FTO",
+            "comment": "",
+            "required": false,
+            "slug": "arjuna-unit"
           }
         ]
       },
@@ -26117,6 +27485,48 @@
             "comment": "(Yadu)",
             "required": false,
             "slug": "yadu-officer-shakti"
+          }
+        ]
+      },
+      {
+        "name": "Samarthan Fireteams",
+        "obs": "",
+        "type": [
+          "DUO",
+          "HARIS"
+        ],
+        "units": [
+          {
+            "min": 0,
+            "max": 2,
+            "name": "RIKSHA",
+            "comment": "(Samarthan)",
+            "required": true,
+            "slug": "riksha-tacbots"
+          },
+          {
+            "min": 0,
+            "max": 2,
+            "name": "DAWON",
+            "comment": "(Samarthan)",
+            "required": true,
+            "slug": "dawon-tacbots"
+          },
+          {
+            "min": 0,
+            "max": 1,
+            "name": "ARTALIS",
+            "comment": "(Samarthan)",
+            "required": false,
+            "slug": "artalis-unit"
+          },
+          {
+            "min": 0,
+            "max": 1,
+            "name": "ARJUNA FTO",
+            "comment": "",
+            "required": false,
+            "slug": "arjuna-unit"
           }
         ]
       },
