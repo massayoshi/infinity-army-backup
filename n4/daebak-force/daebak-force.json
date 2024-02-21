@@ -1,423 +1,6 @@
 {
-  "version": "7.2432.452",
+  "version": "7.2452.367",
   "units": [
-    {
-      "id": 1711,
-      "idArmy": 1711,
-      "canonical": 299,
-      "isc": "Reinf. Hwarang Corps",
-      "iscAbbr": null,
-      "name": "REINF: HWARANG CORPS",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Reinf. Hwarang Corps",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 22,
-              "move": [
-                15,
-                5
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 3,
-              "ava": 4,
-              "str": false,
-              "bs": 12,
-              "s": 2,
-              "equip": [],
-              "w": 2,
-              "ph": 13,
-              "name": "REINF: HWARANG CORPS",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-hwarang-corps-1-1.svg",
-              "id": 1,
-              "arm": 3,
-              "weapons": [],
-              "chars": [
-                1,
-                3,
-                21
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 250,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "id": 21,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "id": 84,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    23
-                  ],
-                  "id": 40,
-                  "order": 4
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    30
-                  ],
-                  "id": 162,
-                  "order": 5
-                },
-                {
-                  "q": 1,
-                  "id": 164,
-                  "order": 6
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 22,
-              "equip": [],
-              "name": "HWARANG REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "extra": null,
-                  "id": 28,
-                  "order": 1
-                },
-                {
-                  "extra": null,
-                  "id": 69,
-                  "order": 2
-                },
-                {
-                  "extra": null,
-                  "id": 8,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 23,
-              "equip": [],
-              "name": "HWARANG REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "extra": null,
-                  "id": 28,
-                  "order": 1
-                },
-                {
-                  "extra": null,
-                  "id": 68,
-                  "order": 2
-                },
-                {
-                  "extra": null,
-                  "id": 69,
-                  "order": 3
-                },
-                {
-                  "extra": null,
-                  "id": 8,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 28,
-              "equip": [],
-              "name": "HWARANG REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 3,
-              "weapons": [
-                {
-                  "extra": [
-                    5
-                  ],
-                  "id": 33,
-                  "order": 1
-                },
-                {
-                  "extra": null,
-                  "id": 69,
-                  "order": 2
-                },
-                {
-                  "extra": null,
-                  "id": 8,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 23,
-              "equip": [],
-              "name": "HWARANG REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 4,
-              "weapons": [
-                {
-                  "extra": null,
-                  "id": 77,
-                  "order": 1
-                },
-                {
-                  "extra": null,
-                  "id": 69,
-                  "order": 2
-                },
-                {
-                  "extra": null,
-                  "id": 8,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 5
-        }
-      ],
-      "options": [],
-      "slug": "reinf-hwarang-corps",
-      "filters": {
-        "categories": [
-          5
-        ],
-        "skills": [
-          21,
-          40,
-          84,
-          162,
-          164,
-          250
-        ],
-        "equip": [],
-        "chars": [
-          1,
-          3,
-          21
-        ],
-        "types": [
-          3
-        ],
-        "weapons": [
-          8,
-          28,
-          33,
-          68,
-          69,
-          77
-        ],
-        "ammunition": [
-          2,
-          6,
-          13,
-          35
-        ]
-      },
-      "factions": [
-        299
-      ]
-    },
-    {
-      "id": 1709,
-      "idArmy": 1709,
-      "canonical": 299,
-      "isc": "Reinf. Yáozăo",
-      "iscAbbr": null,
-      "name": "REINF: YÁOZĂO",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Reinf. Yáozăo",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 17,
-              "move": [
-                15,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 5,
-              "ava": 2,
-              "str": true,
-              "bs": 8,
-              "s": 1,
-              "equip": [],
-              "w": 1,
-              "ph": 10,
-              "name": "REINF: YÁOZĂO",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-yaozao-1-1.svg",
-              "id": 1,
-              "arm": 0,
-              "weapons": [],
-              "chars": [
-                21,
-                27
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "q": 1,
-                  "extra": [
-                    41
-                  ],
-                  "id": 243,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "id": 84,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    30
-                  ],
-                  "id": 162,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    6
-                  ],
-                  "id": 28,
-                  "order": 4
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 0,
-              "points": 3,
-              "equip": [],
-              "name": "YÁOZĂO REINF.",
-              "disabled": false,
-              "orders": [],
-              "id": 1,
-              "weapons": [
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 1
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 8
-        }
-      ],
-      "options": [],
-      "slug": "reinf-yaozao",
-      "filters": {
-        "categories": [
-          8
-        ],
-        "skills": [
-          28,
-          84,
-          162,
-          243
-        ],
-        "equip": [],
-        "chars": [
-          21,
-          27
-        ],
-        "types": [
-          5
-        ],
-        "weapons": [
-          71
-        ],
-        "ammunition": [
-          37
-        ]
-      },
-      "factions": [
-        299
-      ]
-    },
     {
       "id": 1718,
       "idArmy": 1718,
@@ -1096,6 +679,423 @@
           35,
           37,
           39
+        ]
+      },
+      "factions": [
+        299
+      ]
+    },
+    {
+      "id": 1711,
+      "idArmy": 1711,
+      "canonical": 299,
+      "isc": "Reinf. Hwarang Corps",
+      "iscAbbr": null,
+      "name": "REINF: HWARANG CORPS",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Reinf. Hwarang Corps",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 22,
+              "move": [
+                15,
+                5
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 3,
+              "ava": 4,
+              "str": false,
+              "bs": 12,
+              "s": 2,
+              "equip": [],
+              "w": 2,
+              "ph": 13,
+              "name": "REINF: HWARANG CORPS",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-hwarang-corps-1-1.svg",
+              "id": 1,
+              "arm": 3,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                21
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 250,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 21,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "id": 84,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    23
+                  ],
+                  "id": 40,
+                  "order": 4
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    30
+                  ],
+                  "id": 162,
+                  "order": 5
+                },
+                {
+                  "q": 1,
+                  "id": 164,
+                  "order": 6
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 22,
+              "equip": [],
+              "name": "HWARANG REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "extra": null,
+                  "id": 28,
+                  "order": 1
+                },
+                {
+                  "extra": null,
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "extra": null,
+                  "id": 8,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 23,
+              "equip": [],
+              "name": "HWARANG REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "extra": null,
+                  "id": 28,
+                  "order": 1
+                },
+                {
+                  "extra": null,
+                  "id": 68,
+                  "order": 2
+                },
+                {
+                  "extra": null,
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "extra": null,
+                  "id": 8,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 28,
+              "equip": [],
+              "name": "HWARANG REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 3,
+              "weapons": [
+                {
+                  "extra": [
+                    5
+                  ],
+                  "id": 33,
+                  "order": 1
+                },
+                {
+                  "extra": null,
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "extra": null,
+                  "id": 8,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 23,
+              "equip": [],
+              "name": "HWARANG REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 4,
+              "weapons": [
+                {
+                  "extra": null,
+                  "id": 77,
+                  "order": 1
+                },
+                {
+                  "extra": null,
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "extra": null,
+                  "id": 8,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 5
+        }
+      ],
+      "options": [],
+      "slug": "reinf-hwarang-corps",
+      "filters": {
+        "categories": [
+          5
+        ],
+        "skills": [
+          21,
+          40,
+          84,
+          162,
+          164,
+          250
+        ],
+        "equip": [],
+        "chars": [
+          1,
+          3,
+          21
+        ],
+        "types": [
+          3
+        ],
+        "weapons": [
+          8,
+          28,
+          33,
+          68,
+          69,
+          77
+        ],
+        "ammunition": [
+          2,
+          6,
+          13,
+          35
+        ]
+      },
+      "factions": [
+        299
+      ]
+    },
+    {
+      "id": 1709,
+      "idArmy": 1709,
+      "canonical": 299,
+      "isc": "Reinf. Yáozăo",
+      "iscAbbr": null,
+      "name": "REINF: YÁOZĂO",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Reinf. Yáozăo",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 17,
+              "move": [
+                15,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 5,
+              "ava": 2,
+              "str": true,
+              "bs": 8,
+              "s": 1,
+              "equip": [],
+              "w": 1,
+              "ph": 10,
+              "name": "REINF: YÁOZĂO",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-yaozao-1-1.svg",
+              "id": 1,
+              "arm": 0,
+              "weapons": [],
+              "chars": [
+                21,
+                27
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "q": 1,
+                  "extra": [
+                    41
+                  ],
+                  "id": 243,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 84,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    30
+                  ],
+                  "id": 162,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    6
+                  ],
+                  "id": 28,
+                  "order": 4
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 0,
+              "points": 3,
+              "equip": [],
+              "name": "YÁOZĂO REINF.",
+              "disabled": false,
+              "orders": [],
+              "id": 1,
+              "weapons": [
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 1
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 8
+        }
+      ],
+      "options": [],
+      "slug": "reinf-yaozao",
+      "filters": {
+        "categories": [
+          8
+        ],
+        "skills": [
+          28,
+          84,
+          162,
+          243
+        ],
+        "equip": [],
+        "chars": [
+          21,
+          27
+        ],
+        "types": [
+          5
+        ],
+        "weapons": [
+          71
+        ],
+        "ammunition": [
+          37
         ]
       },
       "factions": [
@@ -4057,26 +4057,6 @@
   },
   "resume": [
     {
-      "id": 1711,
-      "isc": "Reinf. Hwarang Corps",
-      "idArmy": 1711,
-      "name": "REINF: HWARANG CORPS",
-      "slug": "reinf-hwarang-corps",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-hwarang-corps-1-1.svg",
-      "type": 3,
-      "category": 5
-    },
-    {
-      "id": 1709,
-      "isc": "Reinf. Yáozăo",
-      "idArmy": 1709,
-      "name": "REINF: YÁOZĂO",
-      "slug": "reinf-yaozao",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-yaozao-1-1.svg",
-      "type": 5,
-      "category": 8
-    },
-    {
       "id": 1718,
       "isc": "Reinf. Yáoxiè Rui Shi",
       "idArmy": 1718,
@@ -4105,6 +4085,26 @@
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-dokkaebi-cyberteam-1-1.svg",
       "type": 3,
       "category": 4
+    },
+    {
+      "id": 1711,
+      "isc": "Reinf. Hwarang Corps",
+      "idArmy": 1711,
+      "name": "REINF: HWARANG CORPS",
+      "slug": "reinf-hwarang-corps",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-hwarang-corps-1-1.svg",
+      "type": 3,
+      "category": 5
+    },
+    {
+      "id": 1709,
+      "isc": "Reinf. Yáozăo",
+      "idArmy": 1709,
+      "name": "REINF: YÁOZĂO",
+      "slug": "reinf-yaozao",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-yaozao-1-1.svg",
+      "type": 5,
+      "category": 8
     },
     {
       "id": 1712,

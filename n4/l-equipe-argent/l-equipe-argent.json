@@ -1,6 +1,340 @@
 {
-  "version": "7.2432.452",
+  "version": "7.2452.367",
   "units": [
+    {
+      "id": 1630,
+      "idArmy": 1630,
+      "canonical": 399,
+      "isc": "Reinf. Moblots",
+      "iscAbbr": null,
+      "name": "REINF: 13éme MOBLOTS",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Reinf. Moblots",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 16,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 3,
+              "ava": 2,
+              "str": false,
+              "bs": 13,
+              "s": 2,
+              "equip": [],
+              "w": 1,
+              "ph": 12,
+              "name": "REINF: 13éme MOBLOTS",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-moblots-1-1.svg",
+              "id": 1,
+              "arm": 3,
+              "weapons": [],
+              "chars": [
+                2,
+                3,
+                5,
+                24
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "q": 1,
+                  "extra": [
+                    30
+                  ],
+                  "id": 201,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    6
+                  ],
+                  "id": 28,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    30
+                  ],
+                  "id": 162,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "id": 213,
+                  "order": 4
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    37
+                  ],
+                  "id": 58,
+                  "order": 5
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 33,
+              "equip": [],
+              "name": "MOBLOT REINF",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "IRREGULAR",
+                  "list": 0,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 2,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "1.5",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 35,
+              "equip": [],
+              "name": "MOBLOT REINF",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "IRREGULAR",
+                  "list": 0,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "extra": [
+                    4
+                  ],
+                  "id": 157,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "1.5",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 33,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 238,
+                  "order": 1
+                }
+              ],
+              "name": "MOBLOT REINF",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "IRREGULAR",
+                  "list": 0,
+                  "total": 1
+                }
+              ],
+              "id": 3,
+              "weapons": [
+                {
+                  "id": 32,
+                  "order": 1
+                },
+                {
+                  "id": 28,
+                  "order": 2
+                },
+                {
+                  "id": 197,
+                  "order": 3
+                },
+                {
+                  "id": 17,
+                  "order": 4
+                },
+                {
+                  "id": 69,
+                  "order": 5
+                },
+                {
+                  "id": 5,
+                  "order": 6
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 49,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 29,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 106,
+                  "order": 1
+                }
+              ],
+              "name": "MOBLOT REINF",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "IRREGULAR",
+                  "list": 0,
+                  "total": 1
+                }
+              ],
+              "id": 4,
+              "weapons": [
+                {
+                  "id": 26,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 64,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 4
+        }
+      ],
+      "options": [],
+      "slug": "reinf-moblots",
+      "filters": {
+        "categories": [
+          4
+        ],
+        "skills": [
+          28,
+          49,
+          58,
+          64,
+          162,
+          201,
+          213
+        ],
+        "equip": [
+          106,
+          238
+        ],
+        "chars": [
+          2,
+          3,
+          5,
+          24
+        ],
+        "types": [
+          3
+        ],
+        "weapons": [
+          2,
+          5,
+          17,
+          26,
+          28,
+          32,
+          69,
+          157,
+          197
+        ],
+        "ammunition": [
+          2,
+          3,
+          13,
+          14
+        ]
+      },
+      "factions": [
+        399
+      ]
+    },
     {
       "id": 1625,
       "idArmy": 1625,
@@ -1244,340 +1578,6 @@
           3,
           13,
           18
-        ]
-      },
-      "factions": [
-        399
-      ]
-    },
-    {
-      "id": 1630,
-      "idArmy": 1630,
-      "canonical": 399,
-      "isc": "Reinf. Moblots",
-      "iscAbbr": null,
-      "name": "REINF: 13éme MOBLOTS",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Reinf. Moblots",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 16,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 3,
-              "ava": 2,
-              "str": false,
-              "bs": 13,
-              "s": 2,
-              "equip": [],
-              "w": 1,
-              "ph": 12,
-              "name": "REINF: 13éme MOBLOTS",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-moblots-1-1.svg",
-              "id": 1,
-              "arm": 3,
-              "weapons": [],
-              "chars": [
-                2,
-                3,
-                5,
-                24
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "q": 1,
-                  "extra": [
-                    30
-                  ],
-                  "id": 201,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    6
-                  ],
-                  "id": 28,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    30
-                  ],
-                  "id": 162,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "id": 213,
-                  "order": 4
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    37
-                  ],
-                  "id": 58,
-                  "order": 5
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 33,
-              "equip": [],
-              "name": "MOBLOT REINF",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "IRREGULAR",
-                  "list": 0,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 2,
-                  "order": 1
-                },
-                {
-                  "id": 69,
-                  "order": 2
-                },
-                {
-                  "id": 5,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "1.5",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 35,
-              "equip": [],
-              "name": "MOBLOT REINF",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "IRREGULAR",
-                  "list": 0,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "extra": [
-                    4
-                  ],
-                  "id": 157,
-                  "order": 1
-                },
-                {
-                  "id": 69,
-                  "order": 2
-                },
-                {
-                  "id": 5,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "1.5",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 33,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 238,
-                  "order": 1
-                }
-              ],
-              "name": "MOBLOT REINF",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "IRREGULAR",
-                  "list": 0,
-                  "total": 1
-                }
-              ],
-              "id": 3,
-              "weapons": [
-                {
-                  "id": 32,
-                  "order": 1
-                },
-                {
-                  "id": 28,
-                  "order": 2
-                },
-                {
-                  "id": 197,
-                  "order": 3
-                },
-                {
-                  "id": 17,
-                  "order": 4
-                },
-                {
-                  "id": 69,
-                  "order": 5
-                },
-                {
-                  "id": 5,
-                  "order": 6
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 49,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 29,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 106,
-                  "order": 1
-                }
-              ],
-              "name": "MOBLOT REINF",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "IRREGULAR",
-                  "list": 0,
-                  "total": 1
-                }
-              ],
-              "id": 4,
-              "weapons": [
-                {
-                  "id": 26,
-                  "order": 1
-                },
-                {
-                  "id": 69,
-                  "order": 2
-                },
-                {
-                  "id": 5,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 64,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 4
-        }
-      ],
-      "options": [],
-      "slug": "reinf-moblots",
-      "filters": {
-        "categories": [
-          4
-        ],
-        "skills": [
-          28,
-          49,
-          58,
-          64,
-          162,
-          201,
-          213
-        ],
-        "equip": [
-          106,
-          238
-        ],
-        "chars": [
-          2,
-          3,
-          5,
-          24
-        ],
-        "types": [
-          3
-        ],
-        "weapons": [
-          2,
-          5,
-          17,
-          26,
-          28,
-          32,
-          69,
-          157,
-          197
-        ],
-        "ammunition": [
-          2,
-          3,
-          13,
-          14
         ]
       },
       "factions": [
@@ -3999,6 +3999,16 @@
   },
   "resume": [
     {
+      "id": 1630,
+      "isc": "Reinf. Moblots",
+      "idArmy": 1630,
+      "name": "REINF: 13éme MOBLOTS",
+      "slug": "reinf-moblots",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-moblots-1-1.svg",
+      "type": 3,
+      "category": 4
+    },
+    {
       "id": 1625,
       "isc": "Reinf. Para-Commandos",
       "idArmy": 1625,
@@ -4047,16 +4057,6 @@
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/brigadier-jacques-bruant-1-1.svg",
       "type": 1,
       "category": 10
-    },
-    {
-      "id": 1630,
-      "isc": "Reinf. Moblots",
-      "idArmy": 1630,
-      "name": "REINF: 13éme MOBLOTS",
-      "slug": "reinf-moblots",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-moblots-1-1.svg",
-      "type": 3,
-      "category": 4
     },
     {
       "id": 1635,
