@@ -1,0 +1,246 @@
+{
+  "id": 1767,
+  "idArmy": 1767,
+  "canonical": 1001,
+  "isc": "Jackboots",
+  "iscAbbr": null,
+  "name": "Jackboots",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 4,
+      "isc": "Jackboots",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 3,
+          "ava": 1,
+          "bs": 12,
+          "bts": 3,
+          "cc": 15,
+          "chars": [
+            1,
+            3,
+            5
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/jackboots-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 11,
+          "s": 2,
+          "str": false,
+          "type": 2,
+          "w": 1,
+          "wip": 13,
+          "name": "JACKBOOT, Armed Presence Unit",
+          "notes": null,
+          "skills": [
+            {
+              "id": 162,
+              "order": 1,
+              "extra": [
+                33
+              ],
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 3,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 24,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 33,
+              "order": 1
+            },
+            {
+              "id": 187,
+              "order": 2
+            },
+            {
+              "id": 72,
+              "order": 3
+            },
+            {
+              "id": 69,
+              "order": 4
+            },
+            {
+              "id": 5,
+              "order": 5
+            }
+          ],
+          "name": "JACKBOOT",
+          "skills": [
+            {
+              "id": 59,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 4,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 106,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 23,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 77,
+              "order": 1
+            },
+            {
+              "id": 187,
+              "order": 2
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            }
+          ],
+          "name": "JACKBOOT",
+          "skills": [
+            {
+              "id": 64,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 5,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 31,
+          "swc": "1",
+          "weapons": [
+            {
+              "id": 74,
+              "order": 1
+            },
+            {
+              "id": 187,
+              "order": 2
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            }
+          ],
+          "name": "JACKBOOT",
+          "skills": [
+            {
+              "id": 211,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "jackboots",
+  "filters": {
+    "categories": [
+      4
+    ],
+    "skills": [
+      59,
+      64,
+      162,
+      211
+    ],
+    "equip": [
+      106
+    ],
+    "chars": [
+      1,
+      3,
+      5
+    ],
+    "types": [
+      2
+    ],
+    "weapons": [
+      5,
+      33,
+      69,
+      72,
+      74,
+      77,
+      187
+    ],
+    "ammunition": [
+      2,
+      29,
+      35,
+      37
+    ]
+  },
+  "factions": [
+    1001,
+    1002,
+    1003
+  ]
+}

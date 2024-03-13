@@ -89,6 +89,19 @@
                 33
               ],
               "q": 1
+            },
+            {
+              "id": 191,
+              "order": 9,
+              "extra": [
+                6
+              ],
+              "q": 1
+            },
+            {
+              "id": 238,
+              "order": 10,
+              "q": 1
             }
           ],
           "peripheral": []
@@ -240,6 +253,58 @@
             }
           ],
           "peripheral": []
+        },
+        {
+          "id": 4,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 32,
+          "swc": "0.5",
+          "weapons": [
+            {
+              "id": 77,
+              "order": 1
+            },
+            {
+              "id": 17,
+              "order": 2
+            },
+            {
+              "id": 196,
+              "order": 3
+            },
+            {
+              "id": 69,
+              "order": 4
+            },
+            {
+              "id": 10,
+              "order": 5
+            },
+            {
+              "id": 71,
+              "order": 6
+            }
+          ],
+          "name": "NIGHTSHADE",
+          "skills": [
+            {
+              "id": 56,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
         }
       ]
     }
@@ -254,11 +319,14 @@
       21,
       28,
       29,
+      56,
       58,
       74,
       84,
       161,
       164,
+      191,
+      238,
       1000
     ],
     "equip": [
@@ -293,6 +361,7 @@
   },
   "factions": [
     1001,
-    1002
+    1002,
+    1003
   ]
 }

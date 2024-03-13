@@ -102,7 +102,7 @@
               "order": 3
             }
           ],
-          "name": "VIDOCQ",
+          "name": "VIDOCQ FTO",
           "skills": [],
           "peripheral": []
         },
@@ -142,7 +142,7 @@
               "order": 3
             }
           ],
-          "name": "VIDOCQ",
+          "name": "VIDOCQ FTO",
           "skills": [
             {
               "id": 53,
@@ -180,6 +180,46 @@
               "order": 1
             },
             {
+              "id": 5,
+              "order": 3
+            },
+            {
+              "id": 98,
+              "order": 2
+            }
+          ],
+          "name": "VIDOCQ FTO",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 4,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 114,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 30,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 36,
+              "order": 1
+            },
+            {
               "id": 69,
               "order": 2
             },
@@ -189,7 +229,21 @@
             }
           ],
           "name": "VIDOCQ",
-          "skills": [],
+          "skills": [
+            {
+              "extra": [
+                6
+              ],
+              "id": 191,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 29,
+              "order": 2,
+              "q": 1
+            }
+          ],
           "peripheral": []
         }
       ]
@@ -203,9 +257,11 @@
     ],
     "skills": [
       28,
+      29,
       53,
       58,
       164,
+      191,
       211
     ],
     "equip": [
@@ -224,7 +280,8 @@
       5,
       26,
       36,
-      69
+      69,
+      98
     ],
     "ammunition": [
       2,
@@ -235,6 +292,7 @@
   },
   "factions": [
     1001,
-    1002
+    1002,
+    1003
   ]
 }

@@ -1,0 +1,368 @@
+{
+  "id": 11153,
+  "idArmy": 10019,
+  "canonical": 1,
+  "isc": "Carmen Johns, Mercenary Biker",
+  "iscAbbr": null,
+  "name": "CARMEN JOHNS \u0026 BÂTARD",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 10,
+      "isc": "Carmen Johns, Mercenary Biker",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 1,
+          "ava": 1,
+          "bs": 11,
+          "bts": 0,
+          "cc": 22,
+          "chars": [
+            2,
+            4,
+            6
+          ],
+          "equip": [
+            {
+              "id": 107,
+              "order": 1
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/carmen-johns-mercenary-biker-1-1.svg",
+          "weapons": [
+            {
+              "id": 195,
+              "order": 1
+            }
+          ],
+          "includes": [],
+          "move": [
+            20,
+            10
+          ],
+          "ph": 13,
+          "s": 4,
+          "str": false,
+          "type": 7,
+          "w": 1,
+          "wip": 13,
+          "name": "CARMEN JOHNS, Mercenary Biker",
+          "notes": null,
+          "skills": [
+            {
+              "id": 20,
+              "order": 1
+            },
+            {
+              "id": 25,
+              "order": 2
+            },
+            {
+              "id": 84,
+              "order": 3
+            },
+            {
+              "id": 40,
+              "order": 4,
+              "extra": [
+                23
+              ]
+            },
+            {
+              "id": 39,
+              "order": 5
+            },
+            {
+              "id": 85,
+              "order": 6
+            },
+            {
+              "id": 256,
+              "order": 7,
+              "q": 1
+            },
+            {
+              "id": 28,
+              "order": 8,
+              "extra": [
+                6
+              ],
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "arm": 1,
+          "ava": -1,
+          "bs": 11,
+          "bts": 0,
+          "cc": 22,
+          "chars": [
+            2,
+            4,
+            6
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/carmen-johns-mercenary-biker-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 13,
+          "s": 2,
+          "str": false,
+          "type": 7,
+          "w": 1,
+          "wip": 13,
+          "name": "DISMOUNTED",
+          "notes": null,
+          "skills": [
+            {
+              "id": 20,
+              "order": 1
+            },
+            {
+              "id": 84,
+              "order": 2
+            },
+            {
+              "id": 40,
+              "order": 3,
+              "extra": [
+                11
+              ]
+            },
+            {
+              "id": 39,
+              "order": 4
+            },
+            {
+              "id": 85,
+              "order": 5
+            },
+            {
+              "id": 256,
+              "order": 6,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 4264,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "IRREGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "IMPETUOUS",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [
+            {
+              "group": 2,
+              "option": 1,
+              "q": 1
+            }
+          ],
+          "points": 18,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 18,
+              "order": 1
+            },
+            {
+              "id": 45,
+              "order": 2
+            },
+            {
+              "id": 107,
+              "order": 3
+            },
+            {
+              "id": 11,
+              "order": 4
+            }
+          ],
+          "name": "CARMEN",
+          "skills": [],
+          "peripheral": [
+            {
+              "id": 14
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": 10,
+      "isc": "Bâtard, Merc Antipode",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 1,
+          "ava": -1,
+          "bs": 0,
+          "bts": 0,
+          "cc": 22,
+          "chars": [
+            27
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/carmen-johns-mercenary-biker-2-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            15
+          ],
+          "ph": 15,
+          "s": 5,
+          "str": false,
+          "type": 7,
+          "w": 1,
+          "wip": 13,
+          "name": "BÂTARD, Merc Antipode",
+          "notes": null,
+          "skills": [
+            {
+              "id": 240,
+              "order": 1,
+              "extra": [
+                30
+              ]
+            },
+            {
+              "id": 84,
+              "order": 2
+            },
+            {
+              "id": 40,
+              "order": 3,
+              "extra": [
+                23
+              ]
+            },
+            {
+              "id": 28,
+              "order": 4,
+              "extra": [
+                6
+              ]
+            },
+            {
+              "id": 243,
+              "order": 5,
+              "extra": [
+                40
+              ]
+            },
+            {
+              "id": 65,
+              "order": 6
+            },
+            {
+              "id": 85,
+              "order": 7
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": true,
+          "equip": [],
+          "minis": 1,
+          "orders": [],
+          "includes": [],
+          "points": 5,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 177,
+              "order": 1
+            },
+            {
+              "id": 6,
+              "order": 2
+            }
+          ],
+          "name": "BÂTARD",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "merc-carmen-johns-mercenary-biker",
+  "filters": {
+    "categories": [
+      10
+    ],
+    "skills": [
+      20,
+      25,
+      28,
+      39,
+      40,
+      65,
+      84,
+      85,
+      240,
+      243,
+      256
+    ],
+    "equip": [
+      107
+    ],
+    "chars": [
+      2,
+      4,
+      6,
+      27
+    ],
+    "types": [
+      7
+    ],
+    "weapons": [
+      6,
+      11,
+      18,
+      45,
+      107,
+      177,
+      195
+    ],
+    "ammunition": [
+      2,
+      3,
+      8,
+      9,
+      21
+    ]
+  },
+  "factions": []
+}
