@@ -1,5 +1,5 @@
 {
-  "version": "7.2473.509",
+  "version": "7.2475.439",
   "units": [
     {
       "id": 1469,
@@ -381,417 +381,6 @@
       "factions": [
         1001,
         1002,
-        1003
-      ]
-    },
-    {
-      "id": 1781,
-      "idArmy": 1781,
-      "canonical": 1001,
-      "isc": "Striders, Scouting Forward Unit",
-      "iscAbbr": null,
-      "name": "STRIDERS, Unidad de Exploración y Avanzada",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Striders, Scouting Forward Unit",
-          "profiles": [
-            {
-              "bts": 6,
-              "cc": 16,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 3,
-              "ava": 2,
-              "str": false,
-              "bs": 12,
-              "s": 2,
-              "equip": [],
-              "w": 1,
-              "ph": 11,
-              "name": "STRIDERS, Scouting Forward Unit",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/striders-scouting-forward-unit-1-1.svg",
-              "id": 1,
-              "arm": 3,
-              "weapons": [],
-              "chars": [
-                1,
-                3,
-                5,
-                21
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "q": 1,
-                  "extra": [
-                    6
-                  ],
-                  "id": 191,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "id": 29,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    22
-                  ],
-                  "id": 161,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    30
-                  ],
-                  "id": 162,
-                  "order": 4
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    6
-                  ],
-                  "id": 28,
-                  "order": 5
-                },
-                {
-                  "q": 1,
-                  "id": 86,
-                  "order": 6
-                },
-                {
-                  "q": 1,
-                  "id": 164,
-                  "order": 7
-                },
-                {
-                  "q": 1,
-                  "id": 211,
-                  "order": 8
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    33
-                  ],
-                  "id": 58,
-                  "order": 9
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 36,
-              "equip": [],
-              "name": "STRIDER",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 152,
-                  "order": 1
-                },
-                {
-                  "id": 69,
-                  "order": 2
-                },
-                {
-                  "id": 5,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "1.5",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 31,
-              "equip": [],
-              "name": "STRIDER",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "extra": [
-                    8
-                  ],
-                  "id": 28,
-                  "order": 1
-                },
-                {
-                  "id": 72,
-                  "order": 2
-                },
-                {
-                  "id": 196,
-                  "order": 3
-                },
-                {
-                  "id": 17,
-                  "order": 4
-                },
-                {
-                  "id": 69,
-                  "order": 5
-                },
-                {
-                  "id": 5,
-                  "order": 6
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 59,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 29,
-              "equip": [],
-              "name": "STRIDER",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 3,
-              "weapons": [
-                {
-                  "id": 77,
-                  "order": 1
-                },
-                {
-                  "id": 196,
-                  "order": 2
-                },
-                {
-                  "id": 17,
-                  "order": 3
-                },
-                {
-                  "id": 69,
-                  "order": 4
-                },
-                {
-                  "id": 5,
-                  "order": 5
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 189,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 30,
-              "equip": [],
-              "name": "STRIDER",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 4,
-              "weapons": [
-                {
-                  "id": 77,
-                  "order": 1
-                },
-                {
-                  "id": 196,
-                  "order": 2
-                },
-                {
-                  "id": 17,
-                  "order": 3
-                },
-                {
-                  "id": 69,
-                  "order": 4
-                },
-                {
-                  "id": 5,
-                  "order": 5
-                }
-              ],
-              "chars": [],
-              "swc": "0.5",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 56,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "id": 189,
-                  "order": 2
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 30,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 111,
-                  "order": 1
-                }
-              ],
-              "name": "STRIDER",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 5,
-              "weapons": [
-                {
-                  "id": 77,
-                  "order": 1
-                },
-                {
-                  "id": 17,
-                  "order": 2
-                },
-                {
-                  "id": 69,
-                  "order": 3
-                },
-                {
-                  "id": 5,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "0.5",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 56,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "id": 189,
-                  "order": 2
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 4
-        }
-      ],
-      "options": [],
-      "slug": "striders-scouting-forward-unit",
-      "filters": {
-        "categories": [
-          4
-        ],
-        "skills": [
-          28,
-          29,
-          56,
-          58,
-          59,
-          86,
-          161,
-          162,
-          164,
-          189,
-          191,
-          211
-        ],
-        "equip": [
-          111
-        ],
-        "chars": [
-          1,
-          3,
-          5,
-          21
-        ],
-        "types": [
-          3
-        ],
-        "weapons": [
-          5,
-          17,
-          28,
-          69,
-          72,
-          77,
-          152,
-          196
-        ],
-        "ammunition": [
-          2,
-          8,
-          13,
-          29,
-          35
-        ]
-      },
-      "factions": [
         1003
       ]
     },
@@ -1196,6 +785,417 @@
       },
       "factions": [
         1001,
+        1003
+      ]
+    },
+    {
+      "id": 1781,
+      "idArmy": 1781,
+      "canonical": 1001,
+      "isc": "Striders, Scouting Forward Unit",
+      "iscAbbr": null,
+      "name": "STRIDERS, Scouting Forward Unit",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Striders, Scouting Forward Unit",
+          "profiles": [
+            {
+              "bts": 6,
+              "cc": 16,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 3,
+              "ava": 2,
+              "str": false,
+              "bs": 12,
+              "s": 2,
+              "equip": [],
+              "w": 1,
+              "ph": 11,
+              "name": "STRIDERS, Scouting Forward Unit",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/striders-scouting-forward-unit-1-1.svg",
+              "id": 1,
+              "arm": 3,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                5,
+                21
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "q": 1,
+                  "extra": [
+                    6
+                  ],
+                  "id": 191,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 29,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    22
+                  ],
+                  "id": 161,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    30
+                  ],
+                  "id": 162,
+                  "order": 4
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    6
+                  ],
+                  "id": 28,
+                  "order": 5
+                },
+                {
+                  "q": 1,
+                  "id": 86,
+                  "order": 6
+                },
+                {
+                  "q": 1,
+                  "id": 164,
+                  "order": 7
+                },
+                {
+                  "q": 1,
+                  "id": 211,
+                  "order": 8
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    33
+                  ],
+                  "id": 58,
+                  "order": 9
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 36,
+              "equip": [],
+              "name": "STRIDER",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 152,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "1.5",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 31,
+              "equip": [],
+              "name": "STRIDER",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 28,
+                  "order": 1
+                },
+                {
+                  "id": 72,
+                  "order": 2
+                },
+                {
+                  "id": 196,
+                  "order": 3
+                },
+                {
+                  "id": 17,
+                  "order": 4
+                },
+                {
+                  "id": 69,
+                  "order": 5
+                },
+                {
+                  "id": 5,
+                  "order": 6
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 59,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 29,
+              "equip": [],
+              "name": "STRIDER",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 3,
+              "weapons": [
+                {
+                  "id": 77,
+                  "order": 1
+                },
+                {
+                  "id": 196,
+                  "order": 2
+                },
+                {
+                  "id": 17,
+                  "order": 3
+                },
+                {
+                  "id": 69,
+                  "order": 4
+                },
+                {
+                  "id": 5,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 189,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 30,
+              "equip": [],
+              "name": "STRIDER",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 4,
+              "weapons": [
+                {
+                  "id": 77,
+                  "order": 1
+                },
+                {
+                  "id": 196,
+                  "order": 2
+                },
+                {
+                  "id": 17,
+                  "order": 3
+                },
+                {
+                  "id": 69,
+                  "order": 4
+                },
+                {
+                  "id": 5,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0.5",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 56,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 189,
+                  "order": 2
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 30,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 111,
+                  "order": 1
+                }
+              ],
+              "name": "STRIDER",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 5,
+              "weapons": [
+                {
+                  "id": 77,
+                  "order": 1
+                },
+                {
+                  "id": 17,
+                  "order": 2
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0.5",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 56,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 189,
+                  "order": 2
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 4
+        }
+      ],
+      "options": [],
+      "slug": "striders-scouting-forward-unit",
+      "filters": {
+        "categories": [
+          4
+        ],
+        "skills": [
+          28,
+          29,
+          56,
+          58,
+          59,
+          86,
+          161,
+          162,
+          164,
+          189,
+          191,
+          211
+        ],
+        "equip": [
+          111
+        ],
+        "chars": [
+          1,
+          3,
+          5,
+          21
+        ],
+        "types": [
+          3
+        ],
+        "weapons": [
+          5,
+          17,
+          28,
+          69,
+          72,
+          77,
+          152,
+          196
+        ],
+        "ammunition": [
+          2,
+          8,
+          13,
+          29,
+          35
+        ]
+      },
+      "factions": [
         1003
       ]
     },
@@ -19539,7 +19539,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 4
+                  "id": 1
                 }
               ]
             }
@@ -21354,7 +21354,7 @@
   "filters": {
     "peripheral": [
       {
-        "id": 4,
+        "id": 1,
         "name": "BÂTARD",
         "mercs": true
       }
@@ -23106,16 +23106,6 @@
       "category": 8
     },
     {
-      "id": 1781,
-      "isc": "Striders, Scouting Forward Unit",
-      "idArmy": 1781,
-      "name": "STRIDERS, Unidad de Exploración y Avanzada",
-      "slug": "striders-scouting-forward-unit",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/striders-scouting-forward-unit-1-1.svg",
-      "type": 3,
-      "category": 4
-    },
-    {
       "id": 1783,
       "isc": "Wreckers, Fire Recon Armored Squadron",
       "idArmy": 1783,
@@ -23124,6 +23114,16 @@
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/wreckers-fire-recon-armored-squadron-1-1.svg",
       "type": 4,
       "category": 7
+    },
+    {
+      "id": 1781,
+      "isc": "Striders, Scouting Forward Unit",
+      "idArmy": 1781,
+      "name": "STRIDERS, Scouting Forward Unit",
+      "slug": "striders-scouting-forward-unit",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/striders-scouting-forward-unit-1-1.svg",
+      "type": 3,
+      "category": 4
     },
     {
       "id": 192,
