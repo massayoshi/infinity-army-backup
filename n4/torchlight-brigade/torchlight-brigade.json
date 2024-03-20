@@ -1,5 +1,5 @@
 {
-  "version": "7.2475.439",
+  "version": "7.2479.289",
   "units": [
     {
       "id": 1469,
@@ -2819,271 +2819,6 @@
       ]
     },
     {
-      "id": 1786,
-      "idArmy": 1786,
-      "canonical": 1001,
-      "isc": "Jamie Arantes, Netroid Rover",
-      "iscAbbr": null,
-      "name": "JAMIE ARANTES, Netroid Rover",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Jamie Arantes, Netroid Rover",
-          "profiles": [
-            {
-              "bts": 9,
-              "cc": 22,
-              "move": [
-                15,
-                5
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 3,
-              "ava": 1,
-              "str": false,
-              "bs": 13,
-              "s": 4,
-              "equip": [],
-              "w": 2,
-              "ph": 14,
-              "name": "JAMIE ARANTES, Netroid Rover",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/jamie-samus-arantes-netroid-rover-1-1.svg",
-              "id": 1,
-              "arm": 4,
-              "weapons": [],
-              "chars": [
-                1,
-                3,
-                5,
-                21
-              ],
-              "wip": 14,
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 19,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "id": 84,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    22
-                  ],
-                  "id": 161,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    23
-                  ],
-                  "id": 40,
-                  "order": 4
-                },
-                {
-                  "q": 1,
-                  "id": 247,
-                  "order": 5
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    30
-                  ],
-                  "id": 162,
-                  "order": 6
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    6
-                  ],
-                  "id": 28,
-                  "order": 7
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    44
-                  ],
-                  "id": 215,
-                  "order": 8
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    33
-                  ],
-                  "id": 58,
-                  "order": 9
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 49,
-              "equip": [],
-              "name": "JAMIE",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 40,
-                  "order": 1
-                },
-                {
-                  "id": 1,
-                  "order": 2
-                },
-                {
-                  "id": 65,
-                  "order": 3
-                },
-                {
-                  "id": 69,
-                  "order": 4
-                },
-                {
-                  "id": 10,
-                  "order": 5
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 211,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 49,
-              "equip": [],
-              "name": "JAMIE",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "LIEUTENANT",
-                  "list": 0,
-                  "total": 2
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "id": 40,
-                  "order": 1
-                },
-                {
-                  "id": 1,
-                  "order": 2
-                },
-                {
-                  "id": 65,
-                  "order": 3
-                },
-                {
-                  "id": 69,
-                  "order": 4
-                },
-                {
-                  "id": 10,
-                  "order": 5
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "q": 1,
-                  "extra": [
-                    246
-                  ],
-                  "id": 119,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 10
-        }
-      ],
-      "options": [],
-      "slug": "jamie-arantes-netroid-rover",
-      "filters": {
-        "categories": [
-          10
-        ],
-        "skills": [
-          19,
-          28,
-          40,
-          58,
-          84,
-          119,
-          161,
-          162,
-          211,
-          215,
-          247
-        ],
-        "equip": [],
-        "chars": [
-          1,
-          3,
-          5,
-          21
-        ],
-        "types": [
-          3
-        ],
-        "weapons": [
-          1,
-          10,
-          40,
-          65,
-          69
-        ],
-        "ammunition": [
-          2,
-          8,
-          37
-        ]
-      },
-      "factions": [
-        1003
-      ]
-    },
-    {
       "id": 1463,
       "idArmy": 17,
       "canonical": 1001,
@@ -3525,6 +3260,271 @@
       },
       "factions": [
         1001,
+        1003
+      ]
+    },
+    {
+      "id": 1786,
+      "idArmy": 1786,
+      "canonical": 1001,
+      "isc": "Jamie Arantes, Netroid Rover",
+      "iscAbbr": null,
+      "name": "JAMIE ARANTES, Netroid Rover",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Jamie Arantes, Netroid Rover",
+          "profiles": [
+            {
+              "bts": 9,
+              "cc": 22,
+              "move": [
+                15,
+                5
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 3,
+              "ava": 1,
+              "str": false,
+              "bs": 13,
+              "s": 4,
+              "equip": [],
+              "w": 2,
+              "ph": 14,
+              "name": "JAMIE ARANTES, Netroid Rover",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/jamie-arantes-netroid-rover-1-1.svg",
+              "id": 1,
+              "arm": 4,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                5,
+                21
+              ],
+              "wip": 14,
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 19,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 84,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    22
+                  ],
+                  "id": 161,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    23
+                  ],
+                  "id": 40,
+                  "order": 4
+                },
+                {
+                  "q": 1,
+                  "id": 247,
+                  "order": 5
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    30
+                  ],
+                  "id": 162,
+                  "order": 6
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    6
+                  ],
+                  "id": 28,
+                  "order": 7
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    44
+                  ],
+                  "id": 215,
+                  "order": 8
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    33
+                  ],
+                  "id": 58,
+                  "order": 9
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 49,
+              "equip": [],
+              "name": "JAMIE",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 40,
+                  "order": 1
+                },
+                {
+                  "id": 1,
+                  "order": 2
+                },
+                {
+                  "id": 65,
+                  "order": 3
+                },
+                {
+                  "id": 69,
+                  "order": 4
+                },
+                {
+                  "id": 10,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 211,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 49,
+              "equip": [],
+              "name": "JAMIE",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "LIEUTENANT",
+                  "list": 0,
+                  "total": 2
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "id": 40,
+                  "order": 1
+                },
+                {
+                  "id": 1,
+                  "order": 2
+                },
+                {
+                  "id": 65,
+                  "order": 3
+                },
+                {
+                  "id": 69,
+                  "order": 4
+                },
+                {
+                  "id": 10,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "extra": [
+                    246
+                  ],
+                  "id": 119,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 10
+        }
+      ],
+      "options": [],
+      "slug": "jamie-arantes-netroid-rover",
+      "filters": {
+        "categories": [
+          10
+        ],
+        "skills": [
+          19,
+          28,
+          40,
+          58,
+          84,
+          119,
+          161,
+          162,
+          211,
+          215,
+          247
+        ],
+        "equip": [],
+        "chars": [
+          1,
+          3,
+          5,
+          21
+        ],
+        "types": [
+          3
+        ],
+        "weapons": [
+          1,
+          10,
+          40,
+          65,
+          69
+        ],
+        "ammunition": [
+          2,
+          8,
+          37
+        ]
+      },
+      "factions": [
         1003
       ]
     },
@@ -19539,7 +19539,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 1
+                  "id": 2
                 }
               ]
             }
@@ -21354,7 +21354,7 @@
   "filters": {
     "peripheral": [
       {
-        "id": 1,
+        "id": 2,
         "name": "BÂTARD",
         "mercs": true
       }
@@ -23186,16 +23186,6 @@
       "category": 8
     },
     {
-      "id": 1786,
-      "isc": "Jamie Arantes, Netroid Rover",
-      "idArmy": 1786,
-      "name": "JAMIE ARANTES, Netroid Rover",
-      "slug": "jamie-arantes-netroid-rover",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/jamie-samus-arantes-netroid-rover-1-1.svg",
-      "type": 3,
-      "category": 10
-    },
-    {
       "id": 1463,
       "isc": "Specialized Support Unit Lambda",
       "idArmy": 17,
@@ -23214,6 +23204,16 @@
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/hellblazers-cqb-spec-unit-1-1.svg",
       "type": 3,
       "category": 2
+    },
+    {
+      "id": 1786,
+      "isc": "Jamie Arantes, Netroid Rover",
+      "idArmy": 1786,
+      "name": "JAMIE ARANTES, Netroid Rover",
+      "slug": "jamie-arantes-netroid-rover",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/jamie-arantes-netroid-rover-1-1.svg",
+      "type": 3,
+      "category": 10
     },
     {
       "id": 49,
@@ -24361,7 +24361,7 @@
             "name": "KLUDGER",
             "comment": "",
             "required": false,
-            "slug": "klugders-resolution-team"
+            "slug": "kludgers-resolution-team"
           },
           {
             "min": 0,
