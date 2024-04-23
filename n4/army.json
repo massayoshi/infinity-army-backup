@@ -5207,32 +5207,24 @@
   ],
   "hack": [
     {
-      "damage": "-",
-      "devices": [
-        182
-      ],
-      "attack": "-",
-      "name": "Assisted Fire",
-      "burst": "-",
       "opponent": "-",
       "special": "Target gains Marksmanship.",
       "skillType": [
         "entire order"
       ],
       "extra": 18,
+      "damage": "-",
+      "devices": [
+        182
+      ],
       "target": [
         "REM"
-      ]
+      ],
+      "attack": "-",
+      "name": "Assisted Fire",
+      "burst": "-"
     },
     {
-      "damage": "13",
-      "devices": [
-        100,
-        101
-      ],
-      "attack": "0",
-      "name": "Carbonite",
-      "burst": "2",
       "opponent": "0",
       "skillType": [
         "short",
@@ -5240,21 +5232,22 @@
       ],
       "special": "DA Ammo.  State: IMM-B.  Comms Attack",
       "extra": 13,
+      "damage": "13",
+      "devices": [
+        100,
+        101
+      ],
       "target": [
         "TAG",
         "HI",
         "REM",
         "Hacker"
-      ]
+      ],
+      "attack": "0",
+      "name": "Carbonite",
+      "burst": "2"
     },
     {
-      "damage": "-",
-      "devices": [
-        182
-      ],
-      "attack": "-",
-      "name": "Controlled Jump",
-      "burst": "-",
       "opponent": "-",
       "special": "+3/-3 MOD to the PH of every Trooper that performs Combat Jump.",
       "skillType": [
@@ -5262,72 +5255,71 @@
         "aro"
       ],
       "extra": 16,
-      "target": []
-    },
-    {
       "damage": "-",
       "devices": [
-        145,
-        101
+        182
       ],
+      "target": [],
       "attack": "-",
-      "name": "Cybermask",
-      "burst": "-",
+      "name": "Controlled Jump",
+      "burst": "-"
+    },
+    {
       "opponent": "-",
       "special": "Replace user with IMP-2 Marker.",
       "skillType": [
         "entire order"
       ],
       "extra": 289,
-      "target": []
-    },
-    {
       "damage": "-",
       "devices": [
-        182
+        145,
+        101
       ],
+      "target": [],
       "attack": "-",
-      "name": "Enhanced Reaction",
-      "burst": "-",
+      "name": "Cybermask",
+      "burst": "-"
+    },
+    {
       "opponent": "-",
       "special": "Target gains B2 in ARO.",
       "skillType": [
         "entire order"
       ],
       "extra": 19,
-      "target": [
-        "REM"
-      ]
-    },
-    {
       "damage": "-",
       "devices": [
         182
       ],
+      "target": [
+        "REM"
+      ],
       "attack": "-",
-      "name": "Fairy Dust",
-      "burst": "-",
+      "name": "Enhanced Reaction",
+      "burst": "-"
+    },
+    {
       "opponent": "-",
       "skillType": [
         "entire order"
       ],
       "special": "The targets gain Firewall MODs.",
       "extra": 17,
+      "damage": "-",
+      "devices": [
+        182
+      ],
       "target": [
         "TAG",
         "HI",
         "REM"
-      ]
+      ],
+      "attack": "-",
+      "name": "Fairy Dust",
+      "burst": "-"
     },
     {
-      "damage": "16",
-      "devices": [
-        100,
-        101
-      ],
-      "attack": "0",
-      "name": "Oblivion",
-      "burst": "2",
       "opponent": "0",
       "special": "AP Ammo, State: Isolated.  Comms Attack",
       "skillType": [
@@ -5335,12 +5327,20 @@
         "aro"
       ],
       "extra": 21,
+      "damage": "16",
+      "devices": [
+        100,
+        101
+      ],
       "target": [
         "TAG",
         "HI",
         "REM",
         "Hacker"
-      ]
+      ],
+      "attack": "0",
+      "name": "Oblivion",
+      "burst": "2"
     },
     {
       "opponent": "0",
@@ -5361,14 +5361,6 @@
       "target": []
     },
     {
-      "damage": "16",
-      "devices": [
-        100,
-        101
-      ],
-      "attack": "0",
-      "name": "Total Control",
-      "burst": "1",
       "opponent": "0",
       "special": "DA Ammo, State: POS/Normal.  Comms Attack",
       "skillType": [
@@ -5376,18 +5368,19 @@
         "aro"
       ],
       "extra": 15,
+      "damage": "16",
+      "devices": [
+        100,
+        101
+      ],
       "target": [
         "TAG"
-      ]
+      ],
+      "attack": "0",
+      "name": "Total Control",
+      "burst": "1"
     },
     {
-      "damage": "14",
-      "devices": [
-        145
-      ],
-      "attack": "+3",
-      "name": "Trinity",
-      "burst": "3",
       "opponent": "0",
       "special": "Loss of 1 Wounds/STR.  Comms Attack",
       "skillType": [
@@ -5395,25 +5388,32 @@
         "aro"
       ],
       "extra": 12,
+      "damage": "14",
+      "devices": [
+        145
+      ],
       "target": [
         "Hacker"
-      ]
+      ],
+      "attack": "+3",
+      "name": "Trinity",
+      "burst": "3"
     },
     {
-      "damage": "-",
-      "devices": [
-        101
-      ],
-      "attack": "-",
-      "name": "White Noise",
-      "burst": "1",
       "opponent": "-",
       "special": "NFB, Reflective: Circular Template blocking LoF for Multispectral Visors.",
       "skillType": [
         "short"
       ],
       "extra": 20,
-      "target": []
+      "damage": "-",
+      "devices": [
+        101
+      ],
+      "target": [],
+      "attack": "-",
+      "name": "White Noise",
+      "burst": "1"
     },
     {
       "opponent": "-3",

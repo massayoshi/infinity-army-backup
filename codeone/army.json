@@ -1531,14 +1531,6 @@
   ],
   "hack": [
     {
-      "damage": "13",
-      "devices": [
-        100,
-        101
-      ],
-      "attack": "0",
-      "name": "Carbonite",
-      "burst": "2",
       "opponent": "0",
       "skillType": [
         "short",
@@ -1546,12 +1538,20 @@
       ],
       "special": "DA Ammo.  State: IMM-B.  Comms Attack",
       "extra": 13,
+      "damage": "13",
+      "devices": [
+        100,
+        101
+      ],
       "target": [
         "TAG",
         "HI",
         "REM",
         "Hacker"
-      ]
+      ],
+      "attack": "0",
+      "name": "Carbonite",
+      "burst": "2"
     },
     {
       "opponent": "0",
