@@ -1,15 +1,15 @@
 {
-  "id": 1002,
-  "idArmy": 9,
-  "canonical": 903,
-  "isc": "Daiyōkai Dengekitai",
+  "id": 1796,
+  "idArmy": 1796,
+  "canonical": 1199,
+  "isc": "Reinf. Daiyōkai Dengekitai",
   "iscAbbr": null,
-  "name": "DAIYŌKAI Dengekitai",
+  "name": "REINF: DAIYŌKAI Dengekitai",
   "profileGroups": [
     {
       "id": 1,
       "category": 6,
-      "isc": "Daiyōkai Dengekitai",
+      "isc": "Reinf. Daiyōkai Dengekitai",
       "notes": null,
       "profiles": [
         {
@@ -26,7 +26,7 @@
             21
           ],
           "equip": [],
-          "logo": "https://assets.corvusbelli.net/army/img/logo/units/daiy-kai-dengekitai-1-1.svg",
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-daiy-kai-dengekitai-1-1.svg",
           "weapons": [],
           "includes": [],
           "move": [
@@ -39,42 +39,43 @@
           "type": 3,
           "w": 2,
           "wip": 13,
-          "name": "DAIYŌKAI Dengekitai",
+          "name": "REINF: DAIYŌKAI Dengekitai",
           "notes": null,
           "skills": [
             {
               "id": 20,
-              "order": 1
+              "order": 1,
+              "q": 1
             },
             {
               "id": 201,
               "order": 2,
               "extra": [
                 4
-              ]
+              ],
+              "q": 1
             },
             {
               "id": 84,
-              "order": 3
+              "order": 3,
+              "q": 1
             },
             {
               "id": 162,
               "order": 4,
               "extra": [
                 30
-              ]
-            },
-            {
-              "id": 86,
-              "order": 5
-            },
-            {
-              "id": 211,
-              "order": 6
+              ],
+              "q": 1
             },
             {
               "id": 164,
-              "order": 7,
+              "order": 5,
+              "q": 1
+            },
+            {
+              "id": 86,
+              "order": 6,
               "q": 1
             }
           ],
@@ -116,7 +117,7 @@
               "order": 4
             }
           ],
-          "name": "DAIYŌKAI",
+          "name": "DAIYŌKAI REINF.",
           "skills": [],
           "peripheral": []
         },
@@ -154,7 +155,7 @@
               "order": 4
             }
           ],
-          "name": "DAIYŌKAI",
+          "name": "DAIYŌKAI REINF.",
           "skills": [],
           "peripheral": []
         },
@@ -192,7 +193,7 @@
               "order": 4
             }
           ],
-          "name": "DAIYŌKAI",
+          "name": "DAIYŌKAI REINF.",
           "skills": [],
           "peripheral": []
         }
@@ -200,7 +201,7 @@
     }
   ],
   "options": [],
-  "slug": "daiy-kai-dengekitai",
+  "slug": "reinf-daiy-kai-dengekitai",
   "filters": {
     "categories": [
       6
@@ -211,8 +212,7 @@
       86,
       162,
       164,
-      201,
-      211
+      201
     ],
     "equip": [],
     "chars": [
@@ -242,7 +242,6 @@
     ]
   },
   "factions": [
-    903,
-    904
+    1199
   ]
 }

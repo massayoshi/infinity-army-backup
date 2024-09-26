@@ -1,80 +1,89 @@
 {
-  "id": 1002,
-  "idArmy": 9,
-  "canonical": 903,
-  "isc": "Daiyōkai Dengekitai",
-  "iscAbbr": null,
-  "name": "DAIYŌKAI Dengekitai",
+  "id": 1799,
+  "idArmy": 1799,
+  "canonical": 1199,
+  "isc": "Reinf. Kaizoku Yuriko Oda",
+  "iscAbbr": "Reinf. Yuriko Oda",
+  "name": "REINF: KAIZOKU YURIKO ODA",
   "profileGroups": [
     {
       "id": 1,
-      "category": 6,
-      "isc": "Daiyōkai Dengekitai",
+      "category": 10,
+      "isc": "Reinf. Kaizoku Yuriko Oda",
       "notes": null,
       "profiles": [
         {
           "id": 1,
-          "arm": 5,
+          "arm": 1,
           "ava": 1,
-          "bs": 13,
+          "bs": 12,
           "bts": 3,
-          "cc": 21,
+          "cc": 15,
           "chars": [
-            1,
+            2,
             3,
-            5,
-            21
+            5
           ],
-          "equip": [],
-          "logo": "https://assets.corvusbelli.net/army/img/logo/units/daiy-kai-dengekitai-1-1.svg",
+          "equip": [
+            {
+              "id": 238,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 237,
+              "order": 2,
+              "q": 1
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-yuriko-oda-1-1.svg",
           "weapons": [],
           "includes": [],
           "move": [
             10,
             10
           ],
-          "ph": 14,
-          "s": 5,
+          "ph": 11,
+          "s": 2,
           "str": false,
-          "type": 3,
-          "w": 2,
+          "type": 1,
+          "w": 1,
           "wip": 13,
-          "name": "DAIYŌKAI Dengekitai",
+          "name": "REINF: KAIZOKU YURIKO ODA",
           "notes": null,
           "skills": [
             {
-              "id": 20,
-              "order": 1
+              "id": 84,
+              "order": 1,
+              "q": 1
             },
             {
-              "id": 201,
+              "id": 40,
               "order": 2,
               "extra": [
-                4
-              ]
+                1
+              ],
+              "q": 1
             },
             {
-              "id": 84,
-              "order": 3
-            },
-            {
-              "id": 162,
-              "order": 4,
+              "id": 40,
+              "order": 3,
               "extra": [
-                30
-              ]
+                11
+              ],
+              "q": 1
             },
             {
-              "id": 86,
-              "order": 5
+              "id": 49,
+              "order": 4,
+              "q": 1
             },
             {
-              "id": 211,
-              "order": 6
-            },
-            {
-              "id": 164,
-              "order": 7,
+              "id": 28,
+              "order": 5,
+              "extra": [
+                6
+              ],
               "q": 1
             }
           ],
@@ -96,27 +105,35 @@
             }
           ],
           "includes": [],
-          "points": 48,
+          "points": 23,
           "swc": "0",
           "weapons": [
             {
-              "id": 169,
+              "id": 33,
               "order": 1
             },
             {
-              "id": 68,
+              "id": 25,
               "order": 2
             },
             {
-              "id": 69,
+              "id": 17,
               "order": 3
             },
             {
-              "id": 78,
+              "id": 196,
               "order": 4
+            },
+            {
+              "id": 69,
+              "order": 5
+            },
+            {
+              "id": 5,
+              "order": 6
             }
           ],
-          "name": "DAIYŌKAI",
+          "name": "YURIKO ODA REINF.",
           "skills": [],
           "peripheral": []
         },
@@ -134,11 +151,11 @@
             }
           ],
           "includes": [],
-          "points": 49,
-          "swc": "1",
+          "points": 22,
+          "swc": "0",
           "weapons": [
             {
-              "id": 152,
+              "id": 33,
               "order": 1
             },
             {
@@ -146,53 +163,23 @@
               "order": 2
             },
             {
-              "id": 69,
+              "id": 17,
               "order": 3
             },
             {
-              "id": 78,
+              "id": 196,
               "order": 4
-            }
-          ],
-          "name": "DAIYŌKAI",
-          "skills": [],
-          "peripheral": []
-        },
-        {
-          "id": 3,
-          "chars": [],
-          "disabled": false,
-          "equip": [],
-          "minis": 1,
-          "orders": [
-            {
-              "type": "REGULAR",
-              "list": 1,
-              "total": 1
-            }
-          ],
-          "includes": [],
-          "points": 52,
-          "swc": "1",
-          "weapons": [
-            {
-              "id": 2,
-              "order": 1
-            },
-            {
-              "id": 68,
-              "order": 2
             },
             {
               "id": 69,
-              "order": 3
+              "order": 5
             },
             {
-              "id": 78,
-              "order": 4
+              "id": 5,
+              "order": 6
             }
           ],
-          "name": "DAIYŌKAI",
+          "name": "YURIKO ODA REINF.",
           "skills": [],
           "peripheral": []
         }
@@ -200,49 +187,46 @@
     }
   ],
   "options": [],
-  "slug": "daiy-kai-dengekitai",
+  "slug": "reinf-yuriko-oda",
   "filters": {
     "categories": [
-      6
+      10
     ],
     "skills": [
-      20,
-      84,
-      86,
-      162,
-      164,
-      201,
-      211
+      28,
+      40,
+      49,
+      84
     ],
-    "equip": [],
+    "equip": [
+      237,
+      238
+    ],
     "chars": [
-      1,
+      2,
       3,
-      5,
-      21
+      5
     ],
     "types": [
-      3
+      1
     ],
     "weapons": [
-      2,
+      5,
+      17,
+      25,
+      33,
       68,
       69,
-      78,
-      152,
-      169
+      196
     ],
     "ammunition": [
       2,
       8,
-      9,
-      10,
       13,
-      35
+      14
     ]
   },
   "factions": [
-    903,
-    904
+    1199
   ]
 }

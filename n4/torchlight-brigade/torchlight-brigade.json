@@ -1,5 +1,5 @@
 {
-  "version": "7.2479.289",
+  "version": "7.24270.160",
   "units": [
     {
       "id": 1469,
@@ -3005,265 +3005,6 @@
       ]
     },
     {
-      "id": 1776,
-      "idArmy": 1776,
-      "canonical": 1001,
-      "isc": "Hellblazers, CQB Spec. Unit",
-      "iscAbbr": null,
-      "name": "HELLBLAZERS, CQB Spec. Unit",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Hellblazers, CQB Spec. Unit",
-          "profiles": [
-            {
-              "bts": 6,
-              "cc": 22,
-              "move": [
-                15,
-                5
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 3,
-              "ava": 3,
-              "str": false,
-              "bs": 12,
-              "s": 2,
-              "equip": [],
-              "w": 2,
-              "ph": 13,
-              "name": "HELLBLAZERS, CQB Spec. Unit",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/hellblazers-cqb-spec-unit-1-1.svg",
-              "id": 1,
-              "arm": 3,
-              "weapons": [],
-              "chars": [
-                1,
-                3,
-                6,
-                21
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 20,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "id": 84,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    23
-                  ],
-                  "id": 40,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    30
-                  ],
-                  "id": 162,
-                  "order": 4
-                },
-                {
-                  "q": 1,
-                  "id": 164,
-                  "order": 5
-                },
-                {
-                  "q": 1,
-                  "id": 256,
-                  "order": 6
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 18,
-              "equip": [],
-              "name": "HELLBLAZER",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "IMPETUOUS",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 28,
-                  "order": 1
-                },
-                {
-                  "id": 82,
-                  "order": 2
-                },
-                {
-                  "id": 69,
-                  "order": 3
-                },
-                {
-                  "id": 8,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 19,
-              "equip": [],
-              "name": "HELLBLAZER",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "IMPETUOUS",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "id": 77,
-                  "order": 1
-                },
-                {
-                  "id": 14,
-                  "order": 2
-                },
-                {
-                  "id": 69,
-                  "order": 3
-                },
-                {
-                  "id": 8,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 22,
-              "equip": [],
-              "name": "HELLBLAZER",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "IMPETUOUS",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 3,
-              "weapons": [
-                {
-                  "id": 26,
-                  "order": 1
-                },
-                {
-                  "id": 69,
-                  "order": 2
-                },
-                {
-                  "id": 8,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 2
-        }
-      ],
-      "options": [],
-      "slug": "hellblazers-cqb-spec-unit",
-      "filters": {
-        "categories": [
-          2
-        ],
-        "skills": [
-          20,
-          40,
-          84,
-          162,
-          164,
-          256
-        ],
-        "equip": [],
-        "chars": [
-          1,
-          3,
-          6,
-          21
-        ],
-        "types": [
-          3
-        ],
-        "weapons": [
-          8,
-          14,
-          26,
-          28,
-          69,
-          77,
-          82
-        ],
-        "ammunition": [
-          2,
-          3,
-          6,
-          14,
-          35
-        ]
-      },
-      "factions": [
-        1001,
-        1003
-      ]
-    },
-    {
       "id": 1786,
       "idArmy": 1786,
       "canonical": 1001,
@@ -3525,6 +3266,265 @@
         ]
       },
       "factions": [
+        1003
+      ]
+    },
+    {
+      "id": 1776,
+      "idArmy": 1776,
+      "canonical": 1001,
+      "isc": "Hellblazers, CQB Spec. Unit",
+      "iscAbbr": null,
+      "name": "HELLBLAZERS, CQB Spec. Unit",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Hellblazers, CQB Spec. Unit",
+          "profiles": [
+            {
+              "bts": 6,
+              "cc": 22,
+              "move": [
+                15,
+                5
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 3,
+              "ava": 3,
+              "str": false,
+              "bs": 12,
+              "s": 2,
+              "equip": [],
+              "w": 2,
+              "ph": 13,
+              "name": "HELLBLAZERS, CQB Spec. Unit",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/hellblazers-cqb-spec-unit-1-1.svg",
+              "id": 1,
+              "arm": 3,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                6,
+                21
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 20,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 84,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    23
+                  ],
+                  "id": 40,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    30
+                  ],
+                  "id": 162,
+                  "order": 4
+                },
+                {
+                  "q": 1,
+                  "id": 164,
+                  "order": 5
+                },
+                {
+                  "q": 1,
+                  "id": 256,
+                  "order": 6
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 18,
+              "equip": [],
+              "name": "HELLBLAZER",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "IMPETUOUS",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 28,
+                  "order": 1
+                },
+                {
+                  "id": 82,
+                  "order": 2
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "id": 8,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 19,
+              "equip": [],
+              "name": "HELLBLAZER",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "IMPETUOUS",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "id": 77,
+                  "order": 1
+                },
+                {
+                  "id": 14,
+                  "order": 2
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "id": 8,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 22,
+              "equip": [],
+              "name": "HELLBLAZER",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "IMPETUOUS",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 3,
+              "weapons": [
+                {
+                  "id": 26,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "id": 8,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 2
+        }
+      ],
+      "options": [],
+      "slug": "hellblazers-cqb-spec-unit",
+      "filters": {
+        "categories": [
+          2
+        ],
+        "skills": [
+          20,
+          40,
+          84,
+          162,
+          164,
+          256
+        ],
+        "equip": [],
+        "chars": [
+          1,
+          3,
+          6,
+          21
+        ],
+        "types": [
+          3
+        ],
+        "weapons": [
+          8,
+          14,
+          26,
+          28,
+          69,
+          77,
+          82
+        ],
+        "ammunition": [
+          2,
+          3,
+          6,
+          14,
+          35
+        ]
+      },
+      "factions": [
+        1001,
         1003
       ]
     },
@@ -4494,6 +4494,198 @@
         ]
       },
       "factions": [
+        1001,
+        1002,
+        1003
+      ]
+    },
+    {
+      "id": 1597,
+      "idArmy": 1597,
+      "canonical": 101,
+      "isc": "ITS SeCDet CSU, Corporate Security Unit",
+      "iscAbbr": null,
+      "notes": "This Trooper is a CSU for all intents and purposes when creating Fireteams.  \nThis Trooper is only available with the Mercenary Contractors Extra",
+      "name": "ITS SECDET CSU, Corporate Security Unit",
+      "profileGroups": [
+        {
+          "id": 1,
+          "category": 11,
+          "isc": "ITS SeCDet CSU, Corporate Security Unit",
+          "notes": null,
+          "profiles": [
+            {
+              "id": 1,
+              "arm": 0,
+              "ava": 1,
+              "bs": 12,
+              "bts": 3,
+              "cc": 16,
+              "chars": [
+                1,
+                4,
+                5,
+                28
+              ],
+              "equip": [],
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/csu-corporate-security-unit-1-1.svg",
+              "weapons": [],
+              "includes": [],
+              "move": [
+                10,
+                10
+              ],
+              "ph": 10,
+              "s": 2,
+              "str": false,
+              "type": 1,
+              "w": 1,
+              "wip": 12,
+              "name": "ITS SECDET CSU, Corporate Security Unit",
+              "notes": null,
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 55,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 189,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "id": 67,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    34
+                  ],
+                  "id": 58,
+                  "order": 4
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "id": 3,
+              "chars": [],
+              "disabled": false,
+              "equip": [],
+              "minis": 1,
+              "orders": [
+                {
+                  "type": "IRREGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "includes": [],
+              "points": 8,
+              "swc": "0",
+              "weapons": [
+                {
+                  "id": 26,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    7
+                  ],
+                  "id": 71,
+                  "order": 3
+                }
+              ],
+              "name": "SECDET CSU Agent",
+              "skills": [],
+              "peripheral": []
+            }
+          ]
+        }
+      ],
+      "options": [],
+      "slug": "its-secdet-csu-corporate-security-unit",
+      "filters": {
+        "categories": [
+          11
+        ],
+        "skills": [
+          55,
+          58,
+          67,
+          189
+        ],
+        "equip": [],
+        "chars": [
+          1,
+          4,
+          5,
+          28
+        ],
+        "types": [
+          1
+        ],
+        "weapons": [
+          26,
+          69,
+          71
+        ],
+        "ammunition": [
+          2,
+          3,
+          37
+        ]
+      },
+      "factions": [
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        201,
+        202,
+        204,
+        205,
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        401,
+        402,
+        403,
+        404,
+        501,
+        502,
+        503,
+        504,
+        601,
+        602,
+        603,
+        604,
+        701,
+        702,
+        703,
+        801,
+        902,
+        903,
+        904,
+        905,
+        906,
+        907,
+        908,
+        909,
         1001,
         1002,
         1003
@@ -6226,6 +6418,503 @@
         ]
       },
       "factions": [
+        1001,
+        1002,
+        1003
+      ]
+    },
+    {
+      "id": 1598,
+      "idArmy": 1598,
+      "canonical": 101,
+      "isc": "ITS Corsair Bashi Bazouks",
+      "iscAbbr": null,
+      "notes": "This Trooper is only available with the Mercenary Contractors Extra",
+      "name": "ITS CORSAIR BASHI BAZOUKS",
+      "profileGroups": [
+        {
+          "id": 1,
+          "category": 11,
+          "isc": "ITS Corsair Bashi Bazouks",
+          "notes": null,
+          "profiles": [
+            {
+              "id": 1,
+              "arm": 2,
+              "ava": 1,
+              "bs": 11,
+              "bts": 0,
+              "cc": 15,
+              "chars": [
+                2,
+                4,
+                5,
+                28
+              ],
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 24,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 104,
+                  "order": 2
+                }
+              ],
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/bashi-bazouks-1-1.svg",
+              "weapons": [],
+              "includes": [],
+              "move": [
+                10,
+                10
+              ],
+              "ph": 10,
+              "s": 2,
+              "str": false,
+              "type": 1,
+              "w": 1,
+              "wip": 12,
+              "name": "ITS CORSAIR BASHI BAZOUKS",
+              "notes": null,
+              "skills": [
+                {
+                  "q": 1,
+                  "extra": [
+                    6
+                  ],
+                  "id": 191,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 33,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    34
+                  ],
+                  "id": 58,
+                  "order": 4
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "id": 1,
+              "chars": [],
+              "disabled": false,
+              "equip": [],
+              "minis": 1,
+              "orders": [
+                {
+                  "type": "IRREGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "includes": [],
+              "points": 15,
+              "swc": "0",
+              "weapons": [
+                {
+                  "id": 26,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                }
+              ],
+              "name": "CORSAIR BASHI BAZOUK",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "id": 4,
+              "chars": [],
+              "disabled": false,
+              "equip": [],
+              "minis": 1,
+              "orders": [
+                {
+                  "type": "IRREGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "includes": [],
+              "points": 12,
+              "swc": "0",
+              "weapons": [
+                {
+                  "id": 77,
+                  "order": 1
+                },
+                {
+                  "id": 80,
+                  "order": 2
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "name": "CORSAIR BASHI BAZOUK",
+              "skills": [],
+              "peripheral": []
+            }
+          ]
+        }
+      ],
+      "options": [],
+      "slug": "its-corsair-bashi-bazouks",
+      "filters": {
+        "categories": [
+          11
+        ],
+        "skills": [
+          33,
+          58,
+          191
+        ],
+        "equip": [
+          24,
+          104
+        ],
+        "chars": [
+          2,
+          4,
+          5,
+          28
+        ],
+        "types": [
+          1
+        ],
+        "weapons": [
+          5,
+          26,
+          69,
+          77,
+          80
+        ],
+        "ammunition": [
+          2,
+          3,
+          35
+        ]
+      },
+      "factions": [
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        201,
+        202,
+        204,
+        205,
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        401,
+        402,
+        403,
+        404,
+        501,
+        502,
+        503,
+        504,
+        601,
+        602,
+        603,
+        604,
+        701,
+        702,
+        703,
+        801,
+        902,
+        903,
+        904,
+        905,
+        906,
+        907,
+        908,
+        909,
+        1001,
+        1002,
+        1003
+      ]
+    },
+    {
+      "id": 1566,
+      "idArmy": 1566,
+      "canonical": 101,
+      "isc": "ITS Motorized Bounty Hunters",
+      "iscAbbr": null,
+      "notes": "This Trooper is only available with the Mercenary Contractors Extra",
+      "name": "ITS Motorized Bounty Hunters",
+      "profileGroups": [
+        {
+          "id": 1,
+          "category": 11,
+          "isc": "ITS Motorized Bounty Hunters",
+          "notes": null,
+          "profiles": [
+            {
+              "id": 1,
+              "arm": 1,
+              "ava": 1,
+              "bs": 12,
+              "bts": 3,
+              "cc": 17,
+              "chars": [
+                1,
+                4,
+                6,
+                28
+              ],
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 107,
+                  "order": 1
+                }
+              ],
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/its-bike-recon-motorized-bounty-hunters-1-1.svg",
+              "weapons": [],
+              "includes": [],
+              "move": [
+                20,
+                15
+              ],
+              "ph": 10,
+              "s": 4,
+              "str": false,
+              "type": 1,
+              "w": 1,
+              "wip": 13,
+              "name": "ITS Motorized Bounty Hunters",
+              "notes": null,
+              "skills": [
+                {
+                  "q": 1,
+                  "extra": [
+                    277
+                  ],
+                  "id": 25,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    23
+                  ],
+                  "id": 40,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "id": 256,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    6
+                  ],
+                  "id": 28,
+                  "order": 4
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "id": 2,
+              "arm": 1,
+              "ava": -1,
+              "bs": 12,
+              "bts": 3,
+              "cc": 17,
+              "chars": [
+                1,
+                4,
+                6,
+                28
+              ],
+              "equip": [],
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/its-bike-recon-motorized-bounty-hunters-1-2.svg",
+              "weapons": [],
+              "includes": [],
+              "move": [
+                10,
+                10
+              ],
+              "ph": 10,
+              "s": 2,
+              "str": false,
+              "type": 1,
+              "w": 1,
+              "wip": 13,
+              "name": "DISMOUNTED",
+              "notes": null,
+              "skills": [
+                {
+                  "q": 1,
+                  "extra": [
+                    277
+                  ],
+                  "id": 25,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 256,
+                  "order": 2
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "id": 2,
+              "chars": [],
+              "disabled": false,
+              "equip": [],
+              "minis": 0,
+              "orders": [
+                {
+                  "type": "IRREGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "IMPETUOUS",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "includes": [],
+              "points": 10,
+              "swc": "0",
+              "weapons": [
+                {
+                  "id": 26,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    7
+                  ],
+                  "id": 71,
+                  "order": 3
+                }
+              ],
+              "name": "BOUNTY HUNTER",
+              "skills": [],
+              "peripheral": []
+            }
+          ]
+        }
+      ],
+      "options": [],
+      "slug": "its-motorized-bounty-hunters",
+      "filters": {
+        "categories": [
+          11
+        ],
+        "skills": [
+          25,
+          28,
+          40,
+          256
+        ],
+        "equip": [
+          107
+        ],
+        "chars": [
+          1,
+          4,
+          6,
+          28
+        ],
+        "types": [
+          1
+        ],
+        "weapons": [
+          26,
+          69,
+          71
+        ],
+        "ammunition": [
+          2,
+          3,
+          37
+        ]
+      },
+      "factions": [
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        201,
+        202,
+        204,
+        205,
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        401,
+        402,
+        403,
+        404,
+        501,
+        502,
+        503,
+        504,
+        601,
+        602,
+        603,
+        604,
+        701,
+        702,
+        703,
+        801,
+        902,
+        903,
+        904,
+        905,
+        906,
+        907,
+        908,
+        909,
         1001,
         1002,
         1003
@@ -11469,241 +12158,6 @@
       "factions": []
     },
     {
-      "id": 10265,
-      "idArmy": 10039,
-      "canonical": 1,
-      "isc": "Wardrivers, Mercenary Hackers",
-      "iscAbbr": "Wardrivers, Merc. Hackers",
-      "notes": null,
-      "name": "WARDRIVERS, Mercenary Hackers",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Wardrivers, Mercenary Hackers",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 13,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 1,
-              "ava": 1,
-              "str": false,
-              "bs": 11,
-              "s": 2,
-              "equip": [],
-              "w": 1,
-              "ph": 10,
-              "name": "WARDRIVERS, Mercenary Hackers",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/wardrivers-merc-hackers-1-1.svg",
-              "id": 1,
-              "arm": 0,
-              "weapons": [],
-              "chars": [
-                1,
-                3,
-                5
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "id": 67,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 12,
-              "equip": [],
-              "name": "WARDRIVER ",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 26,
-                  "order": 1
-                },
-                {
-                  "id": 72,
-                  "order": 2
-                },
-                {
-                  "id": 69,
-                  "order": 3
-                },
-                {
-                  "id": 5,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "extra": [
-                    265
-                  ],
-                  "id": 1000,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 14,
-              "equip": [
-                {
-                  "id": 100,
-                  "order": 1
-                }
-              ],
-              "name": "WARDRIVER ",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "id": 26,
-                  "order": 1
-                },
-                {
-                  "id": 69,
-                  "order": 2
-                },
-                {
-                  "id": 5,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "1",
-              "skills": [
-                {
-                  "id": 1000,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 17,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 182,
-                  "order": 1
-                }
-              ],
-              "name": "WARDRIVER ",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 3,
-              "weapons": [
-                {
-                  "id": 33,
-                  "order": 1
-                },
-                {
-                  "id": 25,
-                  "order": 2
-                },
-                {
-                  "id": 69,
-                  "order": 3
-                },
-                {
-                  "id": 5,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "1",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 1000,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 11
-        }
-      ],
-      "options": [],
-      "slug": "merc-wardrivers-merc-hackers",
-      "filters": {
-        "categories": [
-          11
-        ],
-        "skills": [
-          67,
-          1000
-        ],
-        "equip": [
-          100,
-          182
-        ],
-        "chars": [
-          1,
-          3,
-          5
-        ],
-        "types": [
-          1
-        ],
-        "weapons": [
-          5,
-          25,
-          26,
-          33,
-          69,
-          72
-        ],
-        "ammunition": [
-          2,
-          3,
-          14,
-          29
-        ]
-      },
-      "factions": []
-    },
-    {
       "id": 11570,
       "idArmy": 21570,
       "canonical": 1,
@@ -12016,6 +12470,241 @@
           3,
           9,
           13
+        ]
+      },
+      "factions": []
+    },
+    {
+      "id": 10265,
+      "idArmy": 10039,
+      "canonical": 1,
+      "isc": "Wardrivers, Mercenary Hackers",
+      "iscAbbr": "Wardrivers, Merc. Hackers",
+      "notes": null,
+      "name": "WARDRIVERS, Mercenary Hackers",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Wardrivers, Mercenary Hackers",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 13,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 1,
+              "ava": 1,
+              "str": false,
+              "bs": 11,
+              "s": 2,
+              "equip": [],
+              "w": 1,
+              "ph": 10,
+              "name": "WARDRIVERS, Mercenary Hackers",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/wardrivers-merc-hackers-1-1.svg",
+              "id": 1,
+              "arm": 0,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                5
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "id": 67,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 12,
+              "equip": [],
+              "name": "WARDRIVER ",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 26,
+                  "order": 1
+                },
+                {
+                  "id": 72,
+                  "order": 2
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "extra": [
+                    265
+                  ],
+                  "id": 1000,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 14,
+              "equip": [
+                {
+                  "id": 100,
+                  "order": 1
+                }
+              ],
+              "name": "WARDRIVER ",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "id": 26,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "1",
+              "skills": [
+                {
+                  "id": 1000,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 17,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 182,
+                  "order": 1
+                }
+              ],
+              "name": "WARDRIVER ",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 3,
+              "weapons": [
+                {
+                  "id": 33,
+                  "order": 1
+                },
+                {
+                  "id": 25,
+                  "order": 2
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "1",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 1000,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 11
+        }
+      ],
+      "options": [],
+      "slug": "merc-wardrivers-merc-hackers",
+      "filters": {
+        "categories": [
+          11
+        ],
+        "skills": [
+          67,
+          1000
+        ],
+        "equip": [
+          100,
+          182
+        ],
+        "chars": [
+          1,
+          3,
+          5
+        ],
+        "types": [
+          1
+        ],
+        "weapons": [
+          5,
+          25,
+          26,
+          33,
+          69,
+          72
+        ],
+        "ammunition": [
+          2,
+          3,
+          14,
+          29
         ]
       },
       "factions": []
@@ -19539,7 +20228,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 2
+                  "id": 5
                 }
               ]
             }
@@ -19889,192 +20578,6 @@
         "ammunition": [
           2,
           38
-        ]
-      },
-      "factions": []
-    },
-    {
-      "id": 10668,
-      "idArmy": 10006,
-      "canonical": 1,
-      "isc": "Saito Togan",
-      "iscAbbr": null,
-      "notes": null,
-      "name": "SAITO TOGAN, Mercenary Ninja",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Saito Togan",
-          "profiles": [
-            {
-              "bts": 0,
-              "cc": 24,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 6,
-              "ava": 1,
-              "str": false,
-              "bs": 11,
-              "s": 2,
-              "equip": [],
-              "w": 1,
-              "ph": 13,
-              "name": "SAITO TŌGAN, Mercenary Ninja",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/saito-togan-1-1.svg",
-              "id": 1,
-              "arm": 1,
-              "weapons": [],
-              "chars": [
-                1,
-                3,
-                5
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "id": 22,
-                  "order": 1
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 191,
-                  "order": 2
-                },
-                {
-                  "extra": [],
-                  "id": 29,
-                  "order": 3
-                },
-                {
-                  "id": 84,
-                  "order": 4
-                },
-                {
-                  "id": 238,
-                  "order": 5
-                },
-                {
-                  "extra": [
-                    11
-                  ],
-                  "id": 40,
-                  "order": 6
-                },
-                {
-                  "extra": [],
-                  "id": 47,
-                  "order": 7
-                },
-                {
-                  "extra": [
-                    7
-                  ],
-                  "id": 28,
-                  "order": 8
-                },
-                {
-                  "extra": [],
-                  "id": 164,
-                  "order": 9
-                },
-                {
-                  "extra": [
-                    33
-                  ],
-                  "id": 58,
-                  "order": 10
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 36,
-              "equip": [],
-              "name": "SAITO TOGAN",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 33,
-                  "order": 1
-                },
-                {
-                  "id": 45,
-                  "order": 2
-                },
-                {
-                  "id": 69,
-                  "order": 3
-                },
-                {
-                  "id": 8,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 10
-        }
-      ],
-      "options": [],
-      "slug": "merc-saito-togan",
-      "filters": {
-        "categories": [
-          10
-        ],
-        "skills": [
-          22,
-          28,
-          29,
-          40,
-          47,
-          58,
-          84,
-          164,
-          191,
-          238
-        ],
-        "equip": [],
-        "chars": [
-          1,
-          3,
-          5
-        ],
-        "types": [
-          6
-        ],
-        "weapons": [
-          8,
-          33,
-          45,
-          69
-        ],
-        "ammunition": [
-          2,
-          6,
-          21
         ]
       },
       "factions": []
@@ -21348,13 +21851,199 @@
         ]
       },
       "factions": []
+    },
+    {
+      "id": 10668,
+      "idArmy": 10006,
+      "canonical": 1,
+      "isc": "Saito Togan",
+      "iscAbbr": null,
+      "notes": null,
+      "name": "SAITO TOGAN, Mercenary Ninja",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Saito Togan",
+          "profiles": [
+            {
+              "bts": 0,
+              "cc": 24,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 6,
+              "ava": 1,
+              "str": false,
+              "bs": 11,
+              "s": 2,
+              "equip": [],
+              "w": 1,
+              "ph": 13,
+              "name": "SAITO TŌGAN, Mercenary Ninja",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/saito-togan-1-1.svg",
+              "id": 1,
+              "arm": 1,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                5
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "id": 22,
+                  "order": 1
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 191,
+                  "order": 2
+                },
+                {
+                  "extra": [],
+                  "id": 29,
+                  "order": 3
+                },
+                {
+                  "id": 84,
+                  "order": 4
+                },
+                {
+                  "id": 238,
+                  "order": 5
+                },
+                {
+                  "extra": [
+                    11
+                  ],
+                  "id": 40,
+                  "order": 6
+                },
+                {
+                  "extra": [],
+                  "id": 47,
+                  "order": 7
+                },
+                {
+                  "extra": [
+                    7
+                  ],
+                  "id": 28,
+                  "order": 8
+                },
+                {
+                  "extra": [],
+                  "id": 164,
+                  "order": 9
+                },
+                {
+                  "extra": [
+                    33
+                  ],
+                  "id": 58,
+                  "order": 10
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 36,
+              "equip": [],
+              "name": "SAITO TOGAN",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 33,
+                  "order": 1
+                },
+                {
+                  "id": 45,
+                  "order": 2
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "id": 8,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 10
+        }
+      ],
+      "options": [],
+      "slug": "merc-saito-togan",
+      "filters": {
+        "categories": [
+          10
+        ],
+        "skills": [
+          22,
+          28,
+          29,
+          40,
+          47,
+          58,
+          84,
+          164,
+          191,
+          238
+        ],
+        "equip": [],
+        "chars": [
+          1,
+          3,
+          5
+        ],
+        "types": [
+          6
+        ],
+        "weapons": [
+          8,
+          33,
+          45,
+          69
+        ],
+        "ammunition": [
+          2,
+          6,
+          21
+        ]
+      },
+      "factions": []
     }
   ],
   "reinforcements": 1099,
   "filters": {
     "peripheral": [
       {
-        "id": 2,
+        "id": 5,
         "name": "BÂTARD",
         "mercs": true
       }
@@ -21379,7 +22068,7 @@
         "name": "Movement",
         "abbr": "MOV",
         "min": 5,
-        "max": 15
+        "max": 20
       },
       {
         "id": "ph",
@@ -21451,6 +22140,10 @@
       {
         "id": 9,
         "name": "9"
+      },
+      {
+        "id": 10,
+        "name": "10"
       },
       {
         "id": 11,
@@ -21801,6 +22494,10 @@
         "wiki": "https://infinitythewiki.com/Orders_and_the_Order_Pool?version=n4"
       },
       {
+        "id": 28,
+        "name": "ITS"
+      },
+      {
         "id": 2,
         "name": "No Cube"
       },
@@ -21941,8 +22638,7 @@
         "id": 104,
         "name": "Holoprojector",
         "type": "PERSON",
-        "wiki": "https://infinitythewiki.com/Holoprojector?version=n4",
-        "mercs": true
+        "wiki": "https://infinitythewiki.com/Holoprojector?version=n4"
       },
       {
         "id": 145,
@@ -21960,8 +22656,7 @@
         "id": 107,
         "name": "Motorcycle",
         "type": "PERSON",
-        "wiki": "https://infinitythewiki.com/Motorcycle?version=n4",
-        "mercs": true
+        "wiki": "https://infinitythewiki.com/Motorcycle?version=n4"
       },
       {
         "id": 114,
@@ -22086,8 +22781,7 @@
       {
         "id": 55,
         "name": "MetaChemistry",
-        "wiki": "https://infinitythewiki.com/MetaChemistry?version=n4",
-        "mercs": true
+        "wiki": "https://infinitythewiki.com/MetaChemistry?version=n4"
       },
       {
         "id": 56,
@@ -22459,8 +23153,7 @@
       {
         "id": 80,
         "name": "Chain-colt",
-        "type": "BS",
-        "mercs": true
+        "type": "BS"
       },
       {
         "id": 147,
@@ -23079,8 +23772,7 @@
       {
         "id": 34,
         "name": "Zero-G",
-        "type": "TEXT",
-        "mercs": true
+        "type": "TEXT"
       }
     ]
   },
@@ -23196,16 +23888,6 @@
       "category": 8
     },
     {
-      "id": 1776,
-      "isc": "Hellblazers, CQB Spec. Unit",
-      "idArmy": 1776,
-      "name": "HELLBLAZERS, CQB Spec. Unit",
-      "slug": "hellblazers-cqb-spec-unit",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/hellblazers-cqb-spec-unit-1-1.svg",
-      "type": 3,
-      "category": 2
-    },
-    {
       "id": 1786,
       "isc": "Jamie Arantes, Netroid Rover",
       "idArmy": 1786,
@@ -23214,6 +23896,16 @@
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/jamie-arantes-netroid-rover-1-1.svg",
       "type": 3,
       "category": 10
+    },
+    {
+      "id": 1776,
+      "isc": "Hellblazers, CQB Spec. Unit",
+      "idArmy": 1776,
+      "name": "HELLBLAZERS, CQB Spec. Unit",
+      "slug": "hellblazers-cqb-spec-unit",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/hellblazers-cqb-spec-unit-1-1.svg",
+      "type": 3,
+      "category": 2
     },
     {
       "id": 49,
@@ -23244,6 +23936,16 @@
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/nightshades-1-1.svg",
       "type": 6,
       "category": 5
+    },
+    {
+      "id": 1597,
+      "isc": "ITS SeCDet CSU, Corporate Security Unit",
+      "idArmy": 1597,
+      "name": "ITS SECDET CSU, Corporate Security Unit",
+      "slug": "its-secdet-csu-corporate-security-unit",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/csu-corporate-security-unit-1-1.svg",
+      "type": 1,
+      "category": 11
     },
     {
       "id": 1465,
@@ -23304,6 +24006,26 @@
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/kappa-unit-1-1.svg",
       "type": 1,
       "category": 2
+    },
+    {
+      "id": 1598,
+      "isc": "ITS Corsair Bashi Bazouks",
+      "idArmy": 1598,
+      "name": "ITS CORSAIR BASHI BAZOUKS",
+      "slug": "its-corsair-bashi-bazouks",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/bashi-bazouks-1-1.svg",
+      "type": 1,
+      "category": 11
+    },
+    {
+      "id": 1566,
+      "isc": "ITS Motorized Bounty Hunters",
+      "idArmy": 1566,
+      "name": "ITS Motorized Bounty Hunters",
+      "slug": "its-motorized-bounty-hunters",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/its-bike-recon-motorized-bounty-hunters-1-1.svg",
+      "type": 1,
+      "category": 11
     },
     {
       "id": 1778,
@@ -23506,22 +24228,22 @@
       "category": 11
     },
     {
-      "id": 10265,
-      "isc": "Wardrivers, Merc. Hackers",
-      "idArmy": 10039,
-      "name": "WARDRIVERS, Mercenary Hackers",
-      "slug": "merc-wardrivers-merc-hackers",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/wardrivers-merc-hackers-1-1.svg",
-      "type": 1,
-      "category": 11
-    },
-    {
       "id": 11570,
       "isc": "Beasthunters Free Guild",
       "idArmy": 21570,
       "name": "BEASTHUNTERS Free Guild",
       "slug": "merc-beasthunters-free-guild",
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/beasthunters-free-guild-null-1.svg",
+      "type": 1,
+      "category": 11
+    },
+    {
+      "id": 10265,
+      "isc": "Wardrivers, Merc. Hackers",
+      "idArmy": 10039,
+      "name": "WARDRIVERS, Mercenary Hackers",
+      "slug": "merc-wardrivers-merc-hackers",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/wardrivers-merc-hackers-1-1.svg",
       "type": 1,
       "category": 11
     },
@@ -23826,16 +24548,6 @@
       "category": 10
     },
     {
-      "id": 10668,
-      "isc": "Saito Togan",
-      "idArmy": 10006,
-      "name": "SAITO TOGAN, Mercenary Ninja",
-      "slug": "merc-saito-togan",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/saito-togan-1-1.svg",
-      "type": 6,
-      "category": 10
-    },
-    {
       "id": 10224,
       "isc": "Yojimbo, Sword for Hire",
       "idArmy": 10025,
@@ -23894,6 +24606,16 @@
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/authorized-bounty-hunters-1-1.svg",
       "type": 1,
       "category": 11
+    },
+    {
+      "id": 10668,
+      "isc": "Saito Togan",
+      "idArmy": 10006,
+      "name": "SAITO TOGAN, Mercenary Ninja",
+      "slug": "merc-saito-togan",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/saito-togan-1-1.svg",
+      "type": 6,
+      "category": 10
     }
   ],
   "fireteams": [],

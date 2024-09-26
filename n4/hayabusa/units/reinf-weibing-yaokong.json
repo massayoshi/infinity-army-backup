@@ -1,67 +1,87 @@
 {
-  "id": 1597,
-  "idArmy": 1597,
-  "canonical": 101,
-  "isc": "ITS SeCDet CSU, Corporate Security Unit",
+  "id": 1801,
+  "idArmy": 1801,
+  "canonical": 1199,
+  "isc": "Reinf. Wèibīng  Yáokòng ",
   "iscAbbr": null,
-  "name": "ITS SECDET CSU, Corporate Security Unit",
+  "name": "REINF: Yáokòng WÈIBĪNG (Guardian Remote)",
   "profileGroups": [
     {
       "id": 1,
-      "category": 11,
-      "isc": "ITS SeCDet CSU, Corporate Security Unit",
+      "category": 8,
+      "isc": "Reinf. Wèibīng  Yáokòng ",
       "notes": null,
       "profiles": [
         {
           "id": 1,
           "arm": 0,
           "ava": 1,
-          "bs": 12,
+          "bs": 11,
           "bts": 3,
-          "cc": 16,
+          "cc": 13,
           "chars": [
-            1,
-            4,
+            3,
             5,
-            28
+            21
           ],
-          "equip": [],
-          "logo": "https://assets.corvusbelli.net/army/img/logo/units/csu-corporate-security-unit-1-1.svg",
-          "weapons": [],
-          "includes": [],
-          "move": [
-            10,
-            10
-          ],
-          "ph": 10,
-          "s": 2,
-          "str": false,
-          "type": 1,
-          "w": 1,
-          "wip": 12,
-          "name": "ITS SECDET CSU, Corporate Security Unit",
-          "notes": null,
-          "skills": [
+          "equip": [
             {
-              "id": 55,
+              "id": 238,
               "order": 1,
               "q": 1
             },
             {
-              "id": 189,
+              "id": 63,
+              "order": 2,
+              "q": 1
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-weibing-yaokong-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            10
+          ],
+          "ph": 10,
+          "s": 3,
+          "str": true,
+          "type": 5,
+          "w": 1,
+          "wip": 13,
+          "name": "REINF: Yáokòng WÈIBĪNG (Guardian Remote)",
+          "notes": null,
+          "skills": [
+            {
+              "id": 235,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 84,
               "order": 2,
               "q": 1
             },
             {
-              "id": 67,
+              "id": 242,
               "order": 3,
               "q": 1
             },
             {
-              "id": 58,
+              "id": 59,
               "order": 4,
+              "q": 1
+            },
+            {
+              "id": 65,
+              "order": 5,
+              "q": 1
+            },
+            {
+              "id": 162,
+              "order": 6,
               "extra": [
-                34
+                30
               ],
               "q": 1
             }
@@ -71,28 +91,28 @@
       ],
       "options": [
         {
-          "id": 3,
+          "id": 1,
           "chars": [],
           "disabled": false,
           "equip": [],
           "minis": 1,
           "orders": [
             {
-              "type": "IRREGULAR",
+              "type": "REGULAR",
               "list": 1,
               "total": 1
             }
           ],
           "includes": [],
-          "points": 8,
+          "points": 15,
           "swc": "0",
           "weapons": [
             {
-              "id": 26,
+              "id": 33,
               "order": 1
             },
             {
-              "id": 69,
+              "id": 72,
               "order": 2
             },
             {
@@ -100,7 +120,7 @@
               "order": 3
             }
           ],
-          "name": "SECDET CSU Agent",
+          "name": "Yáokòng WÈIBĪNG REINF.",
           "skills": [],
           "peripheral": []
         }
@@ -108,82 +128,43 @@
     }
   ],
   "options": [],
-  "slug": "its-secdet-csu-corporate-security-unit",
+  "slug": "reinf-weibing-yaokong",
   "filters": {
     "categories": [
-      11
+      8
     ],
     "skills": [
-      55,
-      58,
-      67,
-      189
+      59,
+      65,
+      84,
+      162,
+      235,
+      242
     ],
-    "equip": [],
+    "equip": [
+      63,
+      238
+    ],
     "chars": [
-      1,
-      4,
+      3,
       5,
-      28
+      21
     ],
     "types": [
-      1
+      5
     ],
     "weapons": [
-      26,
-      69,
-      71
+      33,
+      71,
+      72
     ],
     "ammunition": [
       2,
-      3,
+      29,
       37
     ]
   },
   "factions": [
-    101,
-    102,
-    103,
-    104,
-    105,
-    106,
-    201,
-    202,
-    204,
-    205,
-    301,
-    302,
-    303,
-    304,
-    305,
-    306,
-    401,
-    402,
-    403,
-    404,
-    501,
-    502,
-    503,
-    504,
-    601,
-    602,
-    603,
-    604,
-    701,
-    702,
-    703,
-    801,
-    902,
-    903,
-    904,
-    905,
-    906,
-    907,
-    908,
-    909,
-    1001,
-    1002,
-    1003
-  ],
-  "notes": "This Trooper is a CSU for all intents and purposes when creating Fireteams.  \nThis Trooper is only available with the Mercenary Contractors Extra"
+    1199
+  ]
 }

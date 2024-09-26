@@ -1,80 +1,91 @@
 {
-  "id": 1002,
-  "idArmy": 9,
-  "canonical": 903,
-  "isc": "Daiyōkai Dengekitai",
+  "id": 1797,
+  "idArmy": 1797,
+  "canonical": 1199,
+  "isc": "Reinf. Ninjas",
   "iscAbbr": null,
-  "name": "DAIYŌKAI Dengekitai",
+  "name": "REINF: NINJAS",
   "profileGroups": [
     {
       "id": 1,
-      "category": 6,
-      "isc": "Daiyōkai Dengekitai",
+      "category": 0,
+      "isc": "Reinf. Ninjas",
       "notes": null,
       "profiles": [
         {
           "id": 1,
-          "arm": 5,
+          "arm": 1,
           "ava": 1,
-          "bs": 13,
-          "bts": 3,
-          "cc": 21,
+          "bs": 11,
+          "bts": 0,
+          "cc": 23,
           "chars": [
             1,
             3,
-            5,
-            21
+            5
           ],
           "equip": [],
-          "logo": "https://assets.corvusbelli.net/army/img/logo/units/daiy-kai-dengekitai-1-1.svg",
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-ninjas-1-1.svg",
           "weapons": [],
           "includes": [],
           "move": [
             10,
             10
           ],
-          "ph": 14,
-          "s": 5,
+          "ph": 12,
+          "s": 2,
           "str": false,
-          "type": 3,
-          "w": 2,
+          "type": 6,
+          "w": 1,
           "wip": 13,
-          "name": "DAIYŌKAI Dengekitai",
+          "name": "REINF: NINJAS",
           "notes": null,
           "skills": [
             {
-              "id": 20,
-              "order": 1
+              "id": 240,
+              "order": 1,
+              "extra": [
+                30
+              ],
+              "q": 1
             },
             {
-              "id": 201,
+              "id": 21,
               "order": 2,
-              "extra": [
-                4
-              ]
+              "q": 1
             },
             {
               "id": 84,
-              "order": 3
+              "order": 3,
+              "q": 1
             },
             {
-              "id": 162,
+              "id": 40,
               "order": 4,
               "extra": [
-                30
-              ]
+                11
+              ],
+              "q": 1
             },
             {
-              "id": 86,
-              "order": 5
-            },
-            {
-              "id": 211,
-              "order": 6
+              "id": 28,
+              "order": 5,
+              "extra": [
+                7
+              ],
+              "q": 1
             },
             {
               "id": 164,
+              "order": 6,
+              "q": 1
+            },
+            {
+              "id": 58,
               "order": 7,
+              "extra": [
+                33
+              ],
               "q": 1
             }
           ],
@@ -86,7 +97,13 @@
           "id": 1,
           "chars": [],
           "disabled": false,
-          "equip": [],
+          "equip": [
+            {
+              "id": 100,
+              "order": 1,
+              "q": 1
+            }
+          ],
           "minis": 1,
           "orders": [
             {
@@ -96,35 +113,43 @@
             }
           ],
           "includes": [],
-          "points": 48,
-          "swc": "0",
+          "points": 24,
+          "swc": "0.5",
           "weapons": [
             {
-              "id": 169,
+              "id": 77,
               "order": 1
             },
             {
-              "id": 68,
+              "id": 69,
               "order": 2
             },
             {
-              "id": 69,
+              "id": 6,
               "order": 3
-            },
-            {
-              "id": 78,
-              "order": 4
             }
           ],
-          "name": "DAIYŌKAI",
-          "skills": [],
+          "name": "NINJA REINF.",
+          "skills": [
+            {
+              "id": 1000,
+              "order": 1,
+              "q": 1
+            }
+          ],
           "peripheral": []
         },
         {
           "id": 2,
           "chars": [],
           "disabled": false,
-          "equip": [],
+          "equip": [
+            {
+              "id": 145,
+              "order": 1,
+              "q": 1
+            }
+          ],
           "minis": 1,
           "orders": [
             {
@@ -134,28 +159,30 @@
             }
           ],
           "includes": [],
-          "points": 49,
-          "swc": "1",
+          "points": 22,
+          "swc": "0",
           "weapons": [
             {
-              "id": 152,
+              "id": 77,
               "order": 1
             },
             {
-              "id": 68,
+              "id": 69,
               "order": 2
             },
             {
-              "id": 69,
+              "id": 11,
               "order": 3
-            },
-            {
-              "id": 78,
-              "order": 4
             }
           ],
-          "name": "DAIYŌKAI",
-          "skills": [],
+          "name": "NINJA REINF.",
+          "skills": [
+            {
+              "id": 1000,
+              "order": 1,
+              "q": 1
+            }
+          ],
           "peripheral": []
         },
         {
@@ -172,15 +199,15 @@
             }
           ],
           "includes": [],
-          "points": 52,
-          "swc": "1",
+          "points": 24,
+          "swc": "0",
           "weapons": [
             {
-              "id": 2,
+              "id": 33,
               "order": 1
             },
             {
-              "id": 68,
+              "id": 72,
               "order": 2
             },
             {
@@ -188,61 +215,67 @@
               "order": 3
             },
             {
-              "id": 78,
+              "id": 11,
               "order": 4
             }
           ],
-          "name": "DAIYŌKAI",
-          "skills": [],
+          "name": "NINJA REINF.",
+          "skills": [
+            {
+              "id": 59,
+              "order": 1,
+              "q": 1
+            }
+          ],
           "peripheral": []
         }
       ]
     }
   ],
   "options": [],
-  "slug": "daiy-kai-dengekitai",
+  "slug": "reinf-ninjas",
   "filters": {
-    "categories": [
-      6
-    ],
+    "categories": [],
     "skills": [
-      20,
+      21,
+      28,
+      40,
+      58,
+      59,
       84,
-      86,
-      162,
       164,
-      201,
-      211
+      240,
+      1000
     ],
-    "equip": [],
+    "equip": [
+      100,
+      145
+    ],
     "chars": [
       1,
       3,
-      5,
-      21
+      5
     ],
     "types": [
-      3
+      6
     ],
     "weapons": [
-      2,
-      68,
+      6,
+      11,
+      33,
       69,
-      78,
-      152,
-      169
+      72,
+      77
     ],
     "ammunition": [
       2,
-      8,
+      3,
       9,
-      10,
-      13,
+      29,
       35
     ]
   },
   "factions": [
-    903,
-    904
+    1199
   ]
 }
