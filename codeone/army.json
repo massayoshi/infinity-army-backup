@@ -145,17 +145,16 @@
   ],
   "weapons": [
     {
-      "id": 61,
+      "id": 227,
       "type": "WEAPON",
-      "name": "Antipersonnel Mines",
-      "ammunition": 2,
+      "name": "AP + EXP CC Weapon",
+      "ammunition": 13,
       "burst": "1",
-      "damage": "13",
-      "saving": "ARM",
+      "damage": "8",
+      "saving": "ARM/2",
+      "savingNum": "3",
       "properties": [
-        "Concealed",
-        "Disposable (3)",
-        "Direct Template (Small Teardrop)"
+        "CC"
       ],
       "distance": null
     },
@@ -165,8 +164,9 @@
       "name": "AP CC Weapon",
       "ammunition": 3,
       "burst": "1",
-      "damage": "PH",
-      "saving": "ARM",
+      "damage": "8",
+      "saving": "ARM/2",
+      "savingNum": "1",
       "properties": [
         "CC"
       ],
@@ -178,8 +178,9 @@
       "name": "AP Heavy Machine Gun",
       "ammunition": 3,
       "burst": "4",
-      "damage": "15",
-      "saving": "ARM",
+      "damage": "5",
+      "saving": "ARM/2",
+      "savingNum": "1",
       "properties": [],
       "distance": {
         "short": {
@@ -206,8 +207,9 @@
       "name": "AP Marksman Rifle",
       "ammunition": 3,
       "burst": "3",
-      "damage": "13",
-      "saving": "ARM",
+      "damage": "7",
+      "saving": "ARM/2",
+      "savingNum": "1",
       "properties": [],
       "distance": {
         "short": {
@@ -234,8 +236,9 @@
       "name": "AP Rifle",
       "ammunition": 3,
       "burst": "3",
-      "damage": "13",
-      "saving": "ARM",
+      "damage": "7",
+      "saving": "ARM/2",
+      "savingNum": "1",
       "properties": [],
       "distance": {
         "short": {
@@ -262,8 +265,9 @@
       "name": "AP Sniper Rifle",
       "ammunition": 3,
       "burst": "2",
-      "damage": "15",
-      "saving": "ARM",
+      "damage": "5",
+      "saving": "ARM/2",
+      "savingNum": "1",
       "properties": [],
       "distance": {
         "short": {
@@ -290,8 +294,9 @@
       "name": "AP Spitfire",
       "ammunition": 3,
       "burst": "4",
-      "damage": "14",
-      "saving": "ARM",
+      "damage": "6",
+      "saving": "ARM/2",
+      "savingNum": "1",
       "properties": [],
       "distance": {
         "short": {
@@ -316,34 +321,20 @@
       "id": 26,
       "type": "WEAPON",
       "name": "Boarding Shotgun",
-      "mode": "Blast Mode",
-      "ammunition": 2,
-      "burst": "2",
-      "damage": "14",
-      "saving": "ARM",
-      "properties": [
-        "Direct Template (Small Teardrop)"
-      ],
-      "distance": null
-    },
-    {
-      "id": 26,
-      "type": "WEAPON",
-      "name": "Boarding Shotgun",
-      "mode": "Hit Mode",
       "ammunition": 3,
       "burst": "2",
-      "damage": "14",
-      "saving": "ARM",
+      "damage": "6",
+      "saving": "ARM/2",
+      "savingNum": "1",
       "properties": [],
       "distance": {
-        "short": {
-          "max": 20,
-          "mod": "+6"
-        },
         "med": {
           "max": 40,
           "mod": "0"
+        },
+        "short": {
+          "max": 20,
+          "mod": "+6"
         },
         "long": {
           "max": 60,
@@ -357,17 +348,18 @@
       "name": "Breaker Combi Rifle",
       "ammunition": 3,
       "burst": "3",
-      "damage": "13",
-      "saving": "BTS",
+      "damage": "7",
+      "saving": "BTS/2",
+      "savingNum": "1",
       "properties": [],
       "distance": {
-        "short": {
-          "max": 40,
-          "mod": "+3"
-        },
         "med": {
           "max": 80,
           "mod": "-3"
+        },
+        "short": {
+          "max": 40,
+          "mod": "+3"
         },
         "long": {
           "max": 120,
@@ -381,8 +373,9 @@
       "name": "CC Weapon",
       "ammunition": 2,
       "burst": "1",
-      "damage": "PH",
+      "damage": "8",
       "saving": "ARM",
+      "savingNum": "1",
       "properties": [
         "CC"
       ],
@@ -394,8 +387,9 @@
       "name": "Chain Rifle",
       "ammunition": 2,
       "burst": "1",
-      "damage": "13",
+      "damage": "7",
       "saving": "ARM",
+      "savingNum": "1",
       "properties": [
         "Direct Template (Large Teardrop)"
       ],
@@ -407,8 +401,9 @@
       "name": "Chain-colt",
       "ammunition": 2,
       "burst": "1",
-      "damage": "13",
+      "damage": "7",
       "saving": "ARM",
+      "savingNum": "1",
       "properties": [
         "Direct Template (Small Teardrop)"
       ],
@@ -420,17 +415,18 @@
       "name": "Combi Rifle",
       "ammunition": 2,
       "burst": "3",
-      "damage": "13",
+      "damage": "7",
       "saving": "ARM",
+      "savingNum": "1",
       "properties": [],
       "distance": {
-        "short": {
-          "max": 40,
-          "mod": "+3"
-        },
         "med": {
           "max": 80,
           "mod": "-3"
+        },
+        "short": {
+          "max": 40,
+          "mod": "+3"
         },
         "long": {
           "max": 120,
@@ -444,8 +440,9 @@
       "name": "DA CC Weapon",
       "ammunition": 9,
       "burst": "1",
-      "damage": "PH",
+      "damage": "8",
       "saving": "ARM",
+      "savingNum": "1",
       "properties": [
         "Anti-materiel",
         "CC"
@@ -461,6 +458,7 @@
       "burst": "-",
       "damage": "-",
       "saving": "",
+      "savingNum": "-",
       "properties": [],
       "distance": {
         "short": {
@@ -488,8 +486,9 @@
       "mode": "Burst Mode",
       "ammunition": 10,
       "burst": "2",
-      "damage": "14",
-      "saving": "ARM",
+      "damage": "6",
+      "saving": "ARM/2",
+      "savingNum": "2",
       "properties": [
         "Anti-materiel"
       ],
@@ -519,8 +518,9 @@
       "mode": "Explosive Mode",
       "ammunition": 6,
       "burst": "1",
-      "damage": "14",
+      "damage": "6",
       "saving": "ARM",
+      "savingNum": "3",
       "properties": [
         "Anti-materiel"
       ],
@@ -549,8 +549,9 @@
       "name": "Heavy Flamethrower",
       "ammunition": 2,
       "burst": "1",
-      "damage": "14",
+      "damage": "6",
       "saving": "ARM",
+      "savingNum": "1",
       "properties": [
         "Direct Template (Large Teardrop)",
         "Continous Damage"
@@ -563,8 +564,9 @@
       "name": "Heavy Machine Gun",
       "ammunition": 2,
       "burst": "4",
-      "damage": "15",
+      "damage": "5",
       "saving": "ARM",
+      "savingNum": "1",
       "properties": [],
       "distance": {
         "short": {
@@ -589,11 +591,11 @@
       "id": 107,
       "type": "WEAPON",
       "name": "Heavy Pistol",
-      "mode": "Burst Mode",
       "ammunition": 2,
       "burst": "2",
-      "damage": "14",
-      "saving": "ARM",
+      "damage": "6",
+      "saving": "ARM/2",
+      "savingNum": "1",
       "properties": [],
       "distance": {
         "short": {
@@ -612,20 +614,6 @@
       }
     },
     {
-      "id": 107,
-      "type": "WEAPON",
-      "name": "Heavy Pistol",
-      "mode": "CC Mode",
-      "ammunition": 2,
-      "burst": "1",
-      "damage": "14",
-      "saving": "ARM",
-      "properties": [
-        "CC"
-      ],
-      "distance": null
-    },
-    {
       "id": 188,
       "type": "WEAPON",
       "name": "Heavy Riotstopper",
@@ -633,6 +621,7 @@
       "burst": "1",
       "damage": "-",
       "saving": "PH-6",
+      "savingNum": "1",
       "properties": [
         "State: IMM-A",
         "Non-lethal",
@@ -647,8 +636,9 @@
       "mode": "Hit Mode",
       "ammunition": 2,
       "burst": "2",
-      "damage": "15",
+      "damage": "5",
       "saving": "ARM",
+      "savingNum": "1",
       "properties": [
         "Continous Damage"
       ],
@@ -678,8 +668,9 @@
       "mode": "Anti-Materiel Mode",
       "ammunition": 9,
       "burst": "1",
-      "damage": "15",
+      "damage": "5",
       "saving": "ARM",
+      "savingNum": "2",
       "properties": [
         "Anti-materiel"
       ],
@@ -706,11 +697,42 @@
       "id": 15,
       "type": "WEAPON",
       "name": "Hyper-Rapid Magnetic Cannon",
-      "mode": "Burst Mode",
+      "mode": "AP Mode",
       "ammunition": 3,
       "burst": "5",
-      "damage": "15",
+      "damage": "5",
+      "saving": "ARM/2",
+      "savingNum": "1",
+      "properties": [],
+      "distance": {
+        "short": {
+          "max": 20,
+          "mod": "-3"
+        },
+        "max": {
+          "max": 120,
+          "mod": "0"
+        },
+        "med": {
+          "max": 40,
+          "mod": "0"
+        },
+        "long": {
+          "max": 80,
+          "mod": "+3"
+        }
+      }
+    },
+    {
+      "id": 15,
+      "type": "WEAPON",
+      "name": "Hyper-Rapid Magnetic Cannon",
+      "mode": "Shock Mode",
+      "ammunition": 8,
+      "burst": "5",
+      "damage": "5",
       "saving": "ARM",
+      "savingNum": "1",
       "properties": [],
       "distance": {
         "short": {
@@ -737,8 +759,9 @@
       "name": "Light Flamethrower",
       "ammunition": 2,
       "burst": "1",
-      "damage": "13",
+      "damage": "7",
       "saving": "ARM",
+      "savingNum": "1",
       "properties": [
         "Direct Template (Small Teardrop)",
         "Continous Damage"
@@ -753,6 +776,7 @@
       "burst": "1",
       "damage": "-",
       "saving": "PH-6",
+      "savingNum": "1",
       "properties": [
         "State: IMM-A",
         "Non-lethal",
@@ -767,8 +791,9 @@
       "mode": "Hit Mode",
       "ammunition": 2,
       "burst": "2",
-      "damage": "14",
+      "damage": "6",
       "saving": "ARM",
+      "savingNum": "1",
       "properties": [
         "Continous Damage"
       ],
@@ -795,34 +820,20 @@
       "id": 28,
       "type": "WEAPON",
       "name": "Light Shotgun",
-      "mode": "Blast Mode",
       "ammunition": 2,
       "burst": "2",
-      "damage": "13",
+      "damage": "7",
       "saving": "ARM",
-      "properties": [
-        "Direct Template (Small Teardrop)"
-      ],
-      "distance": null
-    },
-    {
-      "id": 28,
-      "type": "WEAPON",
-      "name": "Light Shotgun",
-      "mode": "Hit Mode",
-      "ammunition": 2,
-      "burst": "2",
-      "damage": "13",
-      "saving": "ARM",
+      "savingNum": "1",
       "properties": [],
       "distance": {
-        "short": {
-          "max": 20,
-          "mod": "+6"
-        },
         "med": {
           "max": 40,
           "mod": "0"
+        },
+        "short": {
+          "max": 20,
+          "mod": "+6"
         },
         "long": {
           "max": 60,
@@ -836,8 +847,9 @@
       "name": "Marksman Rifle",
       "ammunition": 2,
       "burst": "3",
-      "damage": "13",
+      "damage": "7",
       "saving": "ARM",
+      "savingNum": "1",
       "properties": [],
       "distance": {
         "short": {
@@ -867,6 +879,7 @@
       "burst": "1",
       "damage": "-",
       "saving": "",
+      "savingNum": "-",
       "properties": [
         "Non-lethal"
       ],
@@ -893,8 +906,9 @@
       "mode": "Hit Mode",
       "ammunition": 13,
       "burst": "1",
-      "damage": "14",
-      "saving": "ARM",
+      "damage": "6",
+      "saving": "ARM/2",
+      "savingNum": "3",
       "properties": [
         "Anti-materiel"
       ],
@@ -923,8 +937,9 @@
       "name": "Mk12",
       "ammunition": 2,
       "burst": "3",
-      "damage": "15",
+      "damage": "5",
       "saving": "ARM",
+      "savingNum": "1",
       "properties": [],
       "distance": {
         "short": {
@@ -951,11 +966,11 @@
       "name": "Monofilament CC Weapon",
       "ammunition": 2,
       "burst": "1",
-      "damage": "12",
-      "saving": "ARM",
+      "damage": "8",
+      "saving": "ARM=0",
+      "savingNum": "1",
       "properties": [
         "CC",
-        "ARM=0",
         "State: Dead"
       ],
       "distance": null
@@ -967,8 +982,9 @@
       "mode": "Anti-materiel Mode",
       "ammunition": 6,
       "burst": "1",
-      "damage": "15",
+      "damage": "5",
       "saving": "ARM",
+      "savingNum": "1",
       "properties": [
         "Anti-materiel"
       ],
@@ -995,11 +1011,42 @@
       "id": 4,
       "type": "WEAPON",
       "name": "MULTI Heavy Machine Gun",
-      "mode": "Burst Mode",
+      "mode": "AP Mode",
       "ammunition": 3,
       "burst": "4",
-      "damage": "15",
+      "damage": "5",
+      "saving": "ARM/2",
+      "savingNum": "1",
+      "properties": [],
+      "distance": {
+        "short": {
+          "max": 20,
+          "mod": "-3"
+        },
+        "max": {
+          "max": 120,
+          "mod": "-3"
+        },
+        "med": {
+          "max": 40,
+          "mod": "0"
+        },
+        "long": {
+          "max": 80,
+          "mod": "+3"
+        }
+      }
+    },
+    {
+      "id": 4,
+      "type": "WEAPON",
+      "name": "MULTI Heavy Machine Gun",
+      "mode": "Shock Mode",
+      "ammunition": 8,
+      "burst": "4",
+      "damage": "5",
       "saving": "ARM",
+      "savingNum": "3",
       "properties": [],
       "distance": {
         "short": {
@@ -1024,22 +1071,23 @@
       "id": 41,
       "type": "WEAPON",
       "name": "MULTI Rifle",
-      "mode": "Anti-Materiel  Mode",
+      "mode": "Anti-Materiel Mode",
       "ammunition": 9,
       "burst": "1",
-      "damage": "13",
+      "damage": "7",
       "saving": "ARM",
+      "savingNum": "2",
       "properties": [
         "Anti-materiel"
       ],
       "distance": {
-        "short": {
-          "max": 40,
-          "mod": "+3"
-        },
         "med": {
           "max": 80,
           "mod": "-3"
+        },
+        "short": {
+          "max": 40,
+          "mod": "+3"
         },
         "long": {
           "max": 120,
@@ -1051,20 +1099,47 @@
       "id": 41,
       "type": "WEAPON",
       "name": "MULTI Rifle",
-      "mode": "Burst Mode",
+      "mode": "AP Mode",
       "ammunition": 3,
       "burst": "3",
-      "damage": "13",
-      "saving": "ARM",
+      "damage": "7",
+      "saving": "ARM/2",
+      "savingNum": "1",
       "properties": [],
       "distance": {
+        "med": {
+          "max": 80,
+          "mod": "-3"
+        },
         "short": {
           "max": 40,
           "mod": "+3"
         },
+        "long": {
+          "max": 120,
+          "mod": "-6"
+        }
+      }
+    },
+    {
+      "id": 41,
+      "type": "WEAPON",
+      "name": "MULTI Rifle",
+      "mode": "AP Mode",
+      "ammunition": 8,
+      "burst": "3",
+      "damage": "7",
+      "saving": "ARM",
+      "savingNum": "1",
+      "properties": [],
+      "distance": {
         "med": {
           "max": 80,
           "mod": "-3"
+        },
+        "short": {
+          "max": 40,
+          "mod": "+3"
         },
         "long": {
           "max": 120,
@@ -1079,8 +1154,9 @@
       "mode": "Anti-Materiel Mode",
       "ammunition": 9,
       "burst": "2",
-      "damage": "15",
+      "damage": "5",
       "saving": "ARM",
+      "savingNum": "2",
       "properties": [
         "Anti-materiel"
       ],
@@ -1107,11 +1183,42 @@
       "id": 36,
       "type": "WEAPON",
       "name": "MULTI Sniper Rifle",
-      "mode": "Burst Mode",
+      "mode": "AP Mode",
       "ammunition": 3,
       "burst": "2",
-      "damage": "15",
+      "damage": "5",
+      "saving": "ARM/2",
+      "savingNum": "1",
+      "properties": [],
+      "distance": {
+        "short": {
+          "max": 20,
+          "mod": "-3"
+        },
+        "max": {
+          "max": 240,
+          "mod": "-3"
+        },
+        "med": {
+          "max": 40,
+          "mod": "0"
+        },
+        "long": {
+          "max": 120,
+          "mod": "+3"
+        }
+      }
+    },
+    {
+      "id": 36,
+      "type": "WEAPON",
+      "name": "MULTI Sniper Rifle",
+      "mode": "Shock Mode",
+      "ammunition": 3,
+      "burst": "2",
+      "damage": "5",
       "saving": "ARM",
+      "savingNum": "1",
       "properties": [],
       "distance": {
         "short": {
@@ -1138,8 +1245,9 @@
       "name": "Nanopulser",
       "ammunition": 2,
       "burst": "1",
-      "damage": "13",
+      "damage": "7",
       "saving": "BTS",
+      "savingNum": "1",
       "properties": [
         "Direct Template (Small Teardrop)"
       ],
@@ -1153,6 +1261,7 @@
       "burst": "1",
       "damage": "-",
       "saving": "PH-6",
+      "savingNum": "1",
       "properties": [
         "CC",
         "Non-lethal",
@@ -1164,20 +1273,20 @@
       "id": 69,
       "type": "WEAPON",
       "name": "Pistol",
-      "mode": "Burst Mode",
       "ammunition": 2,
       "burst": "2",
-      "damage": "11",
+      "damage": "9",
       "saving": "ARM",
+      "savingNum": "1",
       "properties": [],
       "distance": {
-        "short": {
-          "max": 20,
-          "mod": "+3"
-        },
         "med": {
           "max": 40,
           "mod": "0"
+        },
+        "short": {
+          "max": 20,
+          "mod": "+3"
         },
         "long": {
           "max": 60,
@@ -1186,27 +1295,14 @@
       }
     },
     {
-      "id": 69,
-      "type": "WEAPON",
-      "name": "Pistol",
-      "mode": "CC Mode",
-      "ammunition": 2,
-      "burst": "1",
-      "damage": "11",
-      "saving": "ARM",
-      "properties": [
-        "CC"
-      ],
-      "distance": null
-    },
-    {
       "id": 152,
       "type": "WEAPON",
       "name": "Red Fury",
       "ammunition": 2,
       "burst": "4",
-      "damage": "13",
+      "damage": "7",
       "saving": "ARM",
+      "savingNum": "1",
       "properties": [],
       "distance": {
         "short": {
@@ -1233,8 +1329,9 @@
       "name": "Rifle",
       "ammunition": 2,
       "burst": "3",
-      "damage": "13",
+      "damage": "7",
       "saving": "ARM",
+      "savingNum": "1",
       "properties": [],
       "distance": {
         "short": {
@@ -1261,8 +1358,9 @@
       "name": "Sniper Rifle",
       "ammunition": 2,
       "burst": "2",
-      "damage": "15",
+      "damage": "5",
       "saving": "ARM",
+      "savingNum": "1",
       "properties": [],
       "distance": {
         "short": {
@@ -1289,8 +1387,9 @@
       "name": "Spitfire",
       "ammunition": 2,
       "burst": "4",
-      "damage": "14",
+      "damage": "6",
       "saving": "ARM",
+      "savingNum": "1",
       "properties": [],
       "distance": {
         "short": {
@@ -1315,10 +1414,11 @@
       "id": 77,
       "type": "WEAPON",
       "name": "Submachine Gun",
-      "ammunition": 3,
+      "ammunition": 2,
       "burst": "3",
-      "damage": "13",
+      "damage": "7",
       "saving": "ARM",
+      "savingNum": "1",
       "properties": [],
       "distance": {
         "short": {
@@ -1536,9 +1636,9 @@
         "short",
         "aro"
       ],
-      "special": "DA Ammo.  State: IMM-B.  Comms Attack",
+      "special": "DA Ammo.  State: IMM-B.  Non-Lethal.",
       "extra": 13,
-      "damage": "13",
+      "damage": "7",
       "devices": [
         100,
         101
@@ -1547,7 +1647,8 @@
         "TAG",
         "HI",
         "REM",
-        "Hacker"
+        "Hacker",
+        "VH"
       ],
       "attack": "0",
       "name": "Carbonite",
@@ -1559,54 +1660,54 @@
         "short",
         "aro"
       ],
-      "special": "State: Targeted.  Comms Attack, Non-Lethal",
+      "special": "AP Ammo, State: TARGETED, Non-Lethal.",
       "extra": 14,
-      "damage": "--",
+      "damage": "5",
       "devices": [
         100,
         101
       ],
       "attack": "0",
       "name": "Spotlight",
-      "burst": "1",
+      "burst": "2",
       "target": []
     }
   ],
   "martialArts": [
     {
       "opponent": "-3",
-      "damage": "+1",
+      "damage": "-",
       "attack": "0",
       "name": "1",
       "burst": "0"
     },
     {
       "opponent": "-3",
-      "damage": "+1",
+      "damage": "-",
       "attack": "+3",
       "name": "2",
       "burst": "0"
     },
     {
       "opponent": "-3",
-      "damage": "+2",
+      "damage": "-",
       "attack": "+3",
       "name": "3",
-      "burst": "0"
+      "burst": "+1SD"
     },
     {
       "opponent": "-3",
-      "damage": "+3",
+      "damage": "-",
       "attack": "+3",
       "name": "4",
-      "burst": "0"
+      "burst": "+1B"
     },
     {
       "opponent": "-3",
-      "damage": "+3",
+      "damage": "-",
       "attack": "+3",
       "name": "5",
-      "burst": "+1"
+      "burst": "+1B, +1SD"
     }
   ],
   "metachemistry": [],
