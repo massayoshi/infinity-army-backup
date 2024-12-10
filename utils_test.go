@@ -70,13 +70,13 @@ func TestHttpClient(t *testing.T) {
 
 func TestSendRequest(t *testing.T) {
 	testServer := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-		if r.Header.Get("Origin") != getEnvVar("HTTP_REQUEST_HEADER_ORIGIN") {
+		if r.Header.Get("origin") != getEnvVar("HTTP_REQUEST_HEADER_ORIGIN") {
 			t.Error("Origin header not set correctly")
 		}
-		if r.Header.Get("Referer") != getEnvVar("HTTP_REQUEST_HEADER_REFERER") {
+		if r.Header.Get("referer") != getEnvVar("HTTP_REQUEST_HEADER_REFERER") {
 			t.Error("Referer header not set correctly")
 		}
-		if r.Header.Get("User-Agent") != getEnvVar("HTTP_REQUEST_HEADER_USER_AGENT") {
+		if r.Header.Get("user-agent") != getEnvVar("HTTP_REQUEST_HEADER_USER_AGENT") {
 			t.Error("User-Agent header not set correctly")
 		}
 		fmt.Fprintln(w, "Hello, world!")

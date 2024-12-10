@@ -58,9 +58,9 @@ func sendRequest(client *http.Client, endpoint string) []byte {
 		log.Fatalf("Error Occurred. %+v", err)
 	}
 
-	req.Header.Add("Origin", getEnvVar("HTTP_REQUEST_HEADER_ORIGIN"))
-	req.Header.Add("Referer", getEnvVar("HTTP_REQUEST_HEADER_REFERER"))
-	req.Header.Add("User-Agent", getEnvVar("HTTP_REQUEST_HEADER_USER_AGENT"))
+	req.Header.Add("origin", getEnvVar("HTTP_REQUEST_HEADER_ORIGIN"))
+	req.Header.Add("referer", getEnvVar("HTTP_REQUEST_HEADER_REFERER"))
+	req.Header.Add("user-agent", getEnvVar("HTTP_REQUEST_HEADER_USER_AGENT"))
 
 	response, err := client.Do(req)
 	if err != nil {
