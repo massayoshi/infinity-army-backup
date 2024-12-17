@@ -1,5 +1,5 @@
 {
-  "version": "7.24351.346",
+  "version": "7.24352.325",
   "units": [
     {
       "id": 593,
@@ -2241,7 +2241,7 @@
               ],
               "notes": null,
               "includes": [],
-              "type": 7,
+              "type": 3,
               "ava": 1,
               "str": true,
               "bs": 13,
@@ -2407,7 +2407,7 @@
           21
         ],
         "types": [
-          7
+          3
         ],
         "weapons": [
           11,
@@ -4717,7 +4717,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 100
+                  "id": 1
                 }
               ]
             },
@@ -4786,7 +4786,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 100
+                  "id": 1
                 }
               ]
             },
@@ -6208,179 +6208,6 @@
       ]
     },
     {
-      "id": 591,
-      "idArmy": 11,
-      "canonical": 701,
-      "isc": "Zayin Rebots",
-      "iscAbbr": null,
-      "name": "ZAYIN Rebots",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Zayin Rebots",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 13,
-              "move": [
-                15,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 5,
-              "ava": 1,
-              "str": true,
-              "bs": 11,
-              "s": 3,
-              "equip": [
-                {
-                  "id": 113,
-                  "order": 1
-                }
-              ],
-              "w": 1,
-              "ph": 10,
-              "name": "ZAYIN Rebots",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/zayin-rebots-1-1.svg",
-              "id": 1,
-              "arm": 0,
-              "weapons": [],
-              "chars": [
-                3,
-                21
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "id": 235,
-                  "order": 1
-                },
-                {
-                  "id": 84,
-                  "order": 2
-                },
-                {
-                  "id": 61,
-                  "order": 3
-                },
-                {
-                  "extra": [],
-                  "id": 82,
-                  "order": 5
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 24,
-              "equip": [],
-              "name": "ZAYIN Rebot",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 2,
-                  "order": 1
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 2
-                }
-              ],
-              "chars": [],
-              "swc": "1",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 19,
-              "equip": [],
-              "name": "ZAYIN Rebot",
-              "disabled": false,
-              "orders": [],
-              "id": 2,
-              "weapons": [
-                {
-                  "extra": [
-                    8
-                  ],
-                  "id": 207,
-                  "order": 1
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 2
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 8
-        }
-      ],
-      "options": [],
-      "slug": "zayin-rebots",
-      "filters": {
-        "categories": [
-          8
-        ],
-        "skills": [
-          61,
-          82,
-          84,
-          235
-        ],
-        "equip": [
-          113
-        ],
-        "chars": [
-          3,
-          21
-        ],
-        "types": [
-          5
-        ],
-        "weapons": [
-          2,
-          71,
-          207
-        ],
-        "ammunition": [
-          2,
-          37
-        ]
-      },
-      "factions": [
-        701,
-        702,
-        703
-      ]
-    },
-    {
       "id": 588,
       "idArmy": 8,
       "canonical": 701,
@@ -6782,295 +6609,6 @@
       },
       "factions": [
         701,
-        702
-      ]
-    },
-    {
-      "id": 612,
-      "idArmy": 32,
-      "canonical": 701,
-      "isc": "Thamyris the Aoidos",
-      "iscAbbr": null,
-      "name": "THAMYRIS the Aoidos",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Thamyris the Aoidos",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 17,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 1,
-              "ava": 1,
-              "str": false,
-              "bs": 12,
-              "s": 2,
-              "equip": [
-                {
-                  "q": 1,
-                  "extra": [
-                    25,
-                    12
-                  ],
-                  "id": 100,
-                  "order": 1
-                }
-              ],
-              "w": 1,
-              "ph": 12,
-              "name": "THAMYRIS the Aoidos",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/thamyris-the-aoidos-1-1.svg",
-              "id": 1,
-              "arm": 1,
-              "weapons": [],
-              "chars": [
-                3,
-                5,
-                20
-              ],
-              "wip": 14,
-              "skills": [
-                {
-                  "q": 1,
-                  "extra": [
-                    6
-                  ],
-                  "id": 40,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "id": 257,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "id": 86,
-                  "order": 3
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 27,
-              "equip": [],
-              "name": "THAMYRIS",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "extra": null,
-                  "id": 25,
-                  "order": 1
-                },
-                {
-                  "extra": null,
-                  "id": 154,
-                  "order": 2
-                },
-                {
-                  "extra": null,
-                  "id": 145,
-                  "order": 3
-                },
-                {
-                  "extra": null,
-                  "id": 70,
-                  "order": 4
-                },
-                {
-                  "extra": null,
-                  "id": 5,
-                  "order": 5
-                }
-              ],
-              "chars": [],
-              "swc": "0.5",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 1000,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 28,
-              "equip": [],
-              "name": "THAMYRIS",
-              "disabled": false,
-              "orders": [],
-              "id": 2,
-              "weapons": [
-                {
-                  "extra": null,
-                  "id": 25,
-                  "order": 1
-                },
-                {
-                  "extra": null,
-                  "id": 154,
-                  "order": 2
-                },
-                {
-                  "extra": null,
-                  "id": 145,
-                  "order": 3
-                },
-                {
-                  "extra": null,
-                  "id": 174,
-                  "order": 4
-                },
-                {
-                  "extra": null,
-                  "id": 70,
-                  "order": 5
-                },
-                {
-                  "extra": null,
-                  "id": 5,
-                  "order": 6
-                }
-              ],
-              "chars": [],
-              "swc": "0.5",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 1000,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 21,
-              "equip": [],
-              "name": "THAMYRIS",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 3,
-              "weapons": [
-                {
-                  "id": 154,
-                  "order": 1
-                },
-                {
-                  "id": 145,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    8
-                  ],
-                  "id": 72,
-                  "order": 3
-                },
-                {
-                  "extra": [],
-                  "id": 70,
-                  "order": 4
-                },
-                {
-                  "id": 5,
-                  "order": 5
-                },
-                {
-                  "extra": null,
-                  "id": 174,
-                  "order": 6
-                }
-              ],
-              "chars": [],
-              "swc": "0.5",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 1000,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "id": 56,
-                  "order": 2
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 10
-        }
-      ],
-      "options": [],
-      "slug": "thamyris-the-aoidos",
-      "filters": {
-        "categories": [
-          10
-        ],
-        "skills": [
-          40,
-          56,
-          86,
-          257,
-          1000
-        ],
-        "equip": [
-          100
-        ],
-        "chars": [
-          3,
-          5,
-          20
-        ],
-        "types": [
-          1
-        ],
-        "weapons": [
-          5,
-          25,
-          70,
-          72,
-          145,
-          154,
-          174
-        ],
-        "ammunition": [
-          2,
-          14,
-          29
-        ]
-      },
-      "factions": [
         702
       ]
     },
@@ -7992,6 +7530,468 @@
       ]
     },
     {
+      "id": 591,
+      "idArmy": 11,
+      "canonical": 701,
+      "isc": "Zayin Rebots",
+      "iscAbbr": null,
+      "name": "ZAYIN Rebots",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Zayin Rebots",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 13,
+              "move": [
+                15,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 5,
+              "ava": 1,
+              "str": true,
+              "bs": 11,
+              "s": 3,
+              "equip": [
+                {
+                  "id": 113,
+                  "order": 1
+                }
+              ],
+              "w": 1,
+              "ph": 10,
+              "name": "ZAYIN Rebots",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/zayin-rebots-1-1.svg",
+              "id": 1,
+              "arm": 0,
+              "weapons": [],
+              "chars": [
+                3,
+                21
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "id": 235,
+                  "order": 1
+                },
+                {
+                  "id": 84,
+                  "order": 2
+                },
+                {
+                  "id": 61,
+                  "order": 3
+                },
+                {
+                  "extra": [],
+                  "id": 82,
+                  "order": 5
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 24,
+              "equip": [],
+              "name": "ZAYIN Rebot",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 2,
+                  "order": 1
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 2
+                }
+              ],
+              "chars": [],
+              "swc": "1",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 19,
+              "equip": [],
+              "name": "ZAYIN Rebot",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 207,
+                  "order": 1
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 2
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 8
+        }
+      ],
+      "options": [],
+      "slug": "zayin-rebots",
+      "filters": {
+        "categories": [
+          8
+        ],
+        "skills": [
+          61,
+          82,
+          84,
+          235
+        ],
+        "equip": [
+          113
+        ],
+        "chars": [
+          3,
+          21
+        ],
+        "types": [
+          5
+        ],
+        "weapons": [
+          2,
+          71,
+          207
+        ],
+        "ammunition": [
+          2,
+          37
+        ]
+      },
+      "factions": [
+        701,
+        702,
+        703
+      ]
+    },
+    {
+      "id": 612,
+      "idArmy": 32,
+      "canonical": 701,
+      "isc": "Thamyris the Aoidos",
+      "iscAbbr": null,
+      "name": "THAMYRIS the Aoidos",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Thamyris the Aoidos",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 17,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 1,
+              "ava": 1,
+              "str": false,
+              "bs": 12,
+              "s": 2,
+              "equip": [
+                {
+                  "q": 1,
+                  "extra": [
+                    25,
+                    12
+                  ],
+                  "id": 100,
+                  "order": 1
+                }
+              ],
+              "w": 1,
+              "ph": 12,
+              "name": "THAMYRIS the Aoidos",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/thamyris-the-aoidos-1-1.svg",
+              "id": 1,
+              "arm": 1,
+              "weapons": [],
+              "chars": [
+                3,
+                5,
+                20
+              ],
+              "wip": 14,
+              "skills": [
+                {
+                  "q": 1,
+                  "extra": [
+                    6
+                  ],
+                  "id": 40,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 257,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "id": 86,
+                  "order": 3
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 27,
+              "equip": [],
+              "name": "THAMYRIS",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 25,
+                  "order": 1
+                },
+                {
+                  "id": 154,
+                  "order": 2
+                },
+                {
+                  "id": 145,
+                  "order": 3
+                },
+                {
+                  "id": 70,
+                  "order": 4
+                },
+                {
+                  "id": 5,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0.5",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 1000,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 28,
+              "equip": [],
+              "name": "THAMYRIS",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "id": 25,
+                  "order": 1
+                },
+                {
+                  "id": 154,
+                  "order": 2
+                },
+                {
+                  "id": 145,
+                  "order": 3
+                },
+                {
+                  "id": 174,
+                  "order": 4
+                },
+                {
+                  "id": 70,
+                  "order": 5
+                },
+                {
+                  "id": 5,
+                  "order": 6
+                }
+              ],
+              "chars": [],
+              "swc": "0.5",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 1000,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 21,
+              "equip": [],
+              "name": "THAMYRIS",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 3,
+              "weapons": [
+                {
+                  "id": 154,
+                  "order": 1
+                },
+                {
+                  "id": 145,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 72,
+                  "order": 3
+                },
+                {
+                  "extra": [],
+                  "id": 70,
+                  "order": 4
+                },
+                {
+                  "id": 5,
+                  "order": 5
+                },
+                {
+                  "id": 174,
+                  "order": 6
+                }
+              ],
+              "chars": [],
+              "swc": "0.5",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 1000,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 56,
+                  "order": 2
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 10
+        }
+      ],
+      "options": [],
+      "slug": "thamyris-the-aoidos",
+      "filters": {
+        "categories": [
+          10
+        ],
+        "skills": [
+          40,
+          56,
+          86,
+          257,
+          1000
+        ],
+        "equip": [
+          100
+        ],
+        "chars": [
+          3,
+          5,
+          20
+        ],
+        "types": [
+          1
+        ],
+        "weapons": [
+          5,
+          25,
+          70,
+          72,
+          145,
+          154,
+          174
+        ],
+        "ammunition": [
+          2,
+          14,
+          29
+        ]
+      },
+      "factions": [
+        702
+      ]
+    },
+    {
       "id": 590,
       "idArmy": 10,
       "canonical": 701,
@@ -8839,7 +8839,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 101
+                  "id": 2
                 }
               ]
             },
@@ -8894,7 +8894,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 101
+                  "id": 2
                 }
               ]
             },
@@ -8960,7 +8960,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 101
+                  "id": 2
                 }
               ]
             }
@@ -10312,7 +10312,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 102
+                  "id": 3
                 }
               ]
             },
@@ -10367,7 +10367,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 102
+                  "id": 3
                 }
               ]
             },
@@ -10422,7 +10422,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 102
+                  "id": 3
                 }
               ]
             },
@@ -10481,7 +10481,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 102
+                  "id": 3
                 }
               ]
             }
@@ -14673,7 +14673,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 103
+                  "id": 4
                 }
               ]
             },
@@ -14737,7 +14737,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 103,
+                  "id": 4,
                   "q": 2
                 }
               ]
@@ -15433,7 +15433,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 102
+                  "id": 3
                 }
               ]
             },
@@ -15485,7 +15485,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 102
+                  "id": 3
                 }
               ]
             },
@@ -15541,7 +15541,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 102
+                  "id": 3
                 }
               ]
             }
@@ -16483,6 +16483,11 @@
                   ],
                   "id": 74,
                   "order": 5
+                },
+                {
+                  "q": 1,
+                  "id": 256,
+                  "order": 6
                 }
               ],
               "peripheral": []
@@ -16689,6 +16694,7 @@
           33,
           35,
           74,
+          256,
           264
         ],
         "equip": [],
@@ -18653,217 +18659,6 @@
       "factions": []
     },
     {
-      "id": 11500,
-      "idArmy": 21500,
-      "canonical": 1,
-      "isc": "Liang Kai, Wandering Shaolin Monk",
-      "iscAbbr": "Liang Kai",
-      "notes": null,
-      "name": "LIANG KAI, Wandering Shaolin Monk",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Liang Kai, Wandering Shaolin Monk",
-          "profiles": [
-            {
-              "bts": 0,
-              "cc": 23,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 7,
-              "ava": 1,
-              "str": false,
-              "bs": 11,
-              "s": 2,
-              "equip": [],
-              "w": 1,
-              "ph": 13,
-              "name": "LIANG KAI, Wandering Shaolin Monk",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/liang-kai-1-1.svg",
-              "id": 1,
-              "arm": 1,
-              "weapons": [],
-              "chars": [
-                2,
-                3,
-                6
-              ],
-              "wip": 14,
-              "skills": [
-                {
-                  "id": 22,
-                  "order": 1
-                },
-                {
-                  "id": 24,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    26
-                  ],
-                  "id": 161,
-                  "order": 3
-                },
-                {
-                  "extra": [
-                    11
-                  ],
-                  "id": 40,
-                  "order": 4
-                },
-                {
-                  "extra": [
-                    1
-                  ],
-                  "id": 40,
-                  "order": 5
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 28,
-                  "order": 6
-                },
-                {
-                  "extra": [],
-                  "id": 86,
-                  "order": 7
-                },
-                {
-                  "id": 164,
-                  "order": 8
-                },
-                {
-                  "id": 74,
-                  "order": 9
-                },
-                {
-                  "id": 83,
-                  "order": 10
-                },
-                {
-                  "q": 1,
-                  "id": 268,
-                  "order": 11
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    329
-                  ],
-                  "id": 261,
-                  "order": 12
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 21,
-              "equip": [],
-              "name": "LIANG KAI",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "IMPETUOUS",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 18,
-                  "order": 1
-                },
-                {
-                  "id": 28,
-                  "order": 2
-                },
-                {
-                  "id": 72,
-                  "order": 3
-                },
-                {
-                  "id": 69,
-                  "order": 4
-                },
-                {
-                  "extra": [
-                    311
-                  ],
-                  "id": 8,
-                  "order": 5
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 10
-        }
-      ],
-      "options": [],
-      "slug": "merc-liang-kai",
-      "filters": {
-        "categories": [
-          10
-        ],
-        "skills": [
-          22,
-          24,
-          28,
-          40,
-          74,
-          83,
-          86,
-          161,
-          164,
-          261,
-          268
-        ],
-        "equip": [],
-        "chars": [
-          2,
-          3,
-          6
-        ],
-        "types": [
-          7
-        ],
-        "weapons": [
-          8,
-          18,
-          28,
-          69,
-          72
-        ],
-        "ammunition": [
-          2,
-          6,
-          29
-        ]
-      },
-      "factions": []
-    },
-    {
       "id": 11565,
       "idArmy": 21565,
       "canonical": 1,
@@ -19125,6 +18920,223 @@
           3,
           8,
           37
+        ]
+      },
+      "factions": []
+    },
+    {
+      "id": 11500,
+      "idArmy": 21500,
+      "canonical": 1,
+      "isc": "Liang Kai, Wandering Shaolin Monk",
+      "iscAbbr": "Liang Kai",
+      "notes": null,
+      "name": "LIANG KAI, Wandering Shaolin Monk",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Liang Kai, Wandering Shaolin Monk",
+          "profiles": [
+            {
+              "bts": 0,
+              "cc": 23,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 7,
+              "ava": 1,
+              "str": false,
+              "bs": 11,
+              "s": 2,
+              "equip": [],
+              "w": 1,
+              "ph": 13,
+              "name": "LIANG KAI, Wandering Shaolin Monk",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/liang-kai-1-1.svg",
+              "id": 1,
+              "arm": 1,
+              "weapons": [],
+              "chars": [
+                2,
+                3,
+                6
+              ],
+              "wip": 14,
+              "skills": [
+                {
+                  "id": 22,
+                  "order": 1
+                },
+                {
+                  "id": 24,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    26
+                  ],
+                  "id": 161,
+                  "order": 3
+                },
+                {
+                  "extra": [
+                    11
+                  ],
+                  "id": 40,
+                  "order": 4
+                },
+                {
+                  "extra": [
+                    1
+                  ],
+                  "id": 40,
+                  "order": 5
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 28,
+                  "order": 6
+                },
+                {
+                  "extra": [],
+                  "id": 86,
+                  "order": 7
+                },
+                {
+                  "id": 164,
+                  "order": 8
+                },
+                {
+                  "id": 74,
+                  "order": 9
+                },
+                {
+                  "id": 83,
+                  "order": 10
+                },
+                {
+                  "q": 1,
+                  "id": 268,
+                  "order": 11
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    329
+                  ],
+                  "id": 261,
+                  "order": 12
+                },
+                {
+                  "q": 1,
+                  "id": 256,
+                  "order": 13
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 21,
+              "equip": [],
+              "name": "LIANG KAI",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "IMPETUOUS",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 18,
+                  "order": 1
+                },
+                {
+                  "id": 28,
+                  "order": 2
+                },
+                {
+                  "id": 72,
+                  "order": 3
+                },
+                {
+                  "id": 69,
+                  "order": 4
+                },
+                {
+                  "extra": [
+                    311
+                  ],
+                  "id": 8,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 10
+        }
+      ],
+      "options": [],
+      "slug": "merc-liang-kai",
+      "filters": {
+        "categories": [
+          10
+        ],
+        "skills": [
+          22,
+          24,
+          28,
+          40,
+          74,
+          83,
+          86,
+          161,
+          164,
+          256,
+          261,
+          268
+        ],
+        "equip": [],
+        "chars": [
+          2,
+          3,
+          6
+        ],
+        "types": [
+          7
+        ],
+        "weapons": [
+          8,
+          18,
+          28,
+          69,
+          72
+        ],
+        "ammunition": [
+          2,
+          6,
+          29
         ]
       },
       "factions": []
@@ -21861,7 +21873,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 104
+                  "id": 5
                 }
               ]
             }
@@ -22296,25 +22308,25 @@
   "filters": {
     "peripheral": [
       {
-        "id": 104,
+        "id": 5,
         "name": "BÂTARD",
         "mercs": true
       },
       {
-        "id": 100,
+        "id": 1,
         "name": "DEVABOT CHARYBDIS"
       },
       {
-        "id": 103,
+        "id": 4,
         "name": "JACKBOT",
         "mercs": true
       },
       {
-        "id": 101,
+        "id": 2,
         "name": "KARKATA"
       },
       {
-        "id": 102,
+        "id": 3,
         "name": "TURTLEMEK",
         "mercs": true
       }
@@ -24235,7 +24247,7 @@
       "name": "EUDOROS, MYRMIDON Officer",
       "slug": "eudoros-myrmidon-officer",
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/eudoros-myrmidon-officer-1-1.svg",
-      "type": 7,
+      "type": 3,
       "category": 10
     },
     {
@@ -24359,16 +24371,6 @@
       "category": 4
     },
     {
-      "id": 591,
-      "isc": "Zayin Rebots",
-      "idArmy": 11,
-      "name": "ZAYIN Rebots",
-      "slug": "zayin-rebots",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/zayin-rebots-1-1.svg",
-      "type": 5,
-      "category": 8
-    },
-    {
       "id": 588,
       "isc": "Myrmidons",
       "idArmy": 8,
@@ -24377,16 +24379,6 @@
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/myrmidons-1-1.svg",
       "type": 7,
       "category": 4
-    },
-    {
-      "id": 612,
-      "isc": "Thamyris the Aoidos",
-      "idArmy": 32,
-      "name": "THAMYRIS the Aoidos",
-      "slug": "thamyris-the-aoidos",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/thamyris-the-aoidos-1-1.svg",
-      "type": 1,
-      "category": 10
     },
     {
       "id": 1592,
@@ -24416,6 +24408,26 @@
       "slug": "andromeda",
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/andromeda-1-1.svg",
       "type": 2,
+      "category": 10
+    },
+    {
+      "id": 591,
+      "isc": "Zayin Rebots",
+      "idArmy": 11,
+      "name": "ZAYIN Rebots",
+      "slug": "zayin-rebots",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/zayin-rebots-1-1.svg",
+      "type": 5,
+      "category": 8
+    },
+    {
+      "id": 612,
+      "isc": "Thamyris the Aoidos",
+      "idArmy": 32,
+      "name": "THAMYRIS the Aoidos",
+      "slug": "thamyris-the-aoidos",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/thamyris-the-aoidos-1-1.svg",
+      "type": 1,
       "category": 10
     },
     {
@@ -24819,16 +24831,6 @@
       "category": 11
     },
     {
-      "id": 11500,
-      "isc": "Liang Kai",
-      "idArmy": 21500,
-      "name": "LIANG KAI, Wandering Shaolin Monk",
-      "slug": "merc-liang-kai",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/liang-kai-1-1.svg",
-      "type": 7,
-      "category": 10
-    },
-    {
       "id": 11565,
       "isc": "Motorized Bounty Hunters",
       "idArmy": 21565,
@@ -24837,6 +24839,16 @@
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/motorized-bounty-hunters-1-1.svg",
       "type": 1,
       "category": 11
+    },
+    {
+      "id": 11500,
+      "isc": "Liang Kai",
+      "idArmy": 21500,
+      "name": "LIANG KAI, Wandering Shaolin Monk",
+      "slug": "merc-liang-kai",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/liang-kai-1-1.svg",
+      "type": 7,
+      "category": 10
     },
     {
       "id": 10464,
