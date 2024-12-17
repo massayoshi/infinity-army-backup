@@ -1,0 +1,220 @@
+{
+  "id": 46,
+  "idArmy": 46,
+  "canonical": 101,
+  "isc": "Fusilier Indigo Bipandra",
+  "iscAbbr": null,
+  "name": "FUSILIER INDIGO BIPANDRA",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 10,
+      "isc": "Fusilier Indigo Bipandra",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 2,
+          "ava": 1,
+          "bs": 12,
+          "bts": 3,
+          "cc": 17,
+          "chars": [
+            1,
+            3,
+            5
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/fusilier-indigo-bipandra-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 11,
+          "s": 2,
+          "str": false,
+          "type": 1,
+          "w": 1,
+          "wip": 13,
+          "name": "FUSILIER INDIGO BIPANDRA",
+          "notes": null,
+          "skills": [
+            {
+              "id": 40,
+              "order": 1,
+              "extra": [
+                11
+              ],
+              "q": 1
+            },
+            {
+              "id": 162,
+              "order": 2,
+              "extra": [
+                30
+              ],
+              "q": 1
+            },
+            {
+              "id": 53,
+              "order": 3,
+              "extra": [
+                366
+              ],
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "extra": [
+                8
+              ],
+              "id": 106,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 23,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 33,
+              "order": 1
+            },
+            {
+              "id": 65,
+              "order": 2
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            }
+          ],
+          "name": "BIPANDRA",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "extra": [
+                8
+              ],
+              "id": 106,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "TACTICAL",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 25,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 33,
+              "order": 1
+            },
+            {
+              "id": 65,
+              "order": 2
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            }
+          ],
+          "name": "BIPANDRA",
+          "skills": [
+            {
+              "id": 213,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "fusilier-indigo-bipandra",
+  "filters": {
+    "categories": [
+      10
+    ],
+    "skills": [
+      40,
+      53,
+      162,
+      213
+    ],
+    "equip": [
+      106
+    ],
+    "chars": [
+      1,
+      3,
+      5
+    ],
+    "types": [
+      1
+    ],
+    "weapons": [
+      5,
+      33,
+      65,
+      69
+    ],
+    "ammunition": [
+      2
+    ]
+  },
+  "factions": [
+    101,
+    104,
+    105,
+    107
+  ]
+}

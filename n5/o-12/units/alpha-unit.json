@@ -1,0 +1,228 @@
+{
+  "id": 1449,
+  "idArmy": 3,
+  "canonical": 1001,
+  "isc": "Alpha Unit",
+  "iscAbbr": null,
+  "name": "ALPHA UNIT",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 5,
+      "isc": "Alpha Unit",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 1,
+          "ava": 2,
+          "bs": 11,
+          "bts": 0,
+          "cc": 21,
+          "chars": [
+            1,
+            3,
+            5
+          ],
+          "equip": [
+            {
+              "id": 184,
+              "order": 1
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/alpha-unit-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 12,
+          "s": 4,
+          "str": false,
+          "type": 1,
+          "w": 1,
+          "wip": 14,
+          "name": "ALPHA UNIT",
+          "notes": null,
+          "skills": [
+            {
+              "id": 20,
+              "order": 1
+            },
+            {
+              "id": 201,
+              "order": 2,
+              "extra": [
+                8
+              ]
+            },
+            {
+              "id": 207,
+              "order": 3
+            },
+            {
+              "id": 84,
+              "order": 4
+            },
+            {
+              "id": 131,
+              "order": 5,
+              "extra": [
+                1
+              ]
+            },
+            {
+              "id": 247,
+              "order": 6
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 24,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 28,
+              "order": 1
+            },
+            {
+              "id": 65,
+              "order": 2
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 11,
+              "order": 4
+            }
+          ],
+          "name": "ALPHA",
+          "skills": [
+            {
+              "id": 26,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "LIEUTENANT",
+              "list": 0,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 24,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 28,
+              "order": 1
+            },
+            {
+              "id": 65,
+              "order": 2
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 11,
+              "order": 4
+            }
+          ],
+          "name": "ALPHA",
+          "skills": [
+            {
+              "extra": [
+                245
+              ],
+              "id": 119,
+              "order": 1
+            },
+            {
+              "extra": [],
+              "id": 69,
+              "order": 2
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "alpha-unit",
+  "filters": {
+    "categories": [
+      5
+    ],
+    "skills": [
+      20,
+      26,
+      69,
+      84,
+      119,
+      131,
+      201,
+      207,
+      247
+    ],
+    "equip": [
+      184
+    ],
+    "chars": [
+      1,
+      3,
+      5
+    ],
+    "types": [
+      1
+    ],
+    "weapons": [
+      11,
+      28,
+      65,
+      69
+    ],
+    "ammunition": [
+      2,
+      9
+    ]
+  },
+  "factions": [
+    1001
+  ]
+}

@@ -1,0 +1,273 @@
+{
+  "id": 241,
+  "idArmy": 15,
+  "canonical": 301,
+  "isc": "Antipode Assault Pack",
+  "iscAbbr": null,
+  "name": "ANTIPODE ASSAULT PACK",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 8,
+      "isc": "",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 1,
+          "ava": 2,
+          "bs": 11,
+          "bts": 0,
+          "cc": 14,
+          "chars": [
+            2,
+            3,
+            5
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/antipode-assault-pack-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 11,
+          "s": 2,
+          "str": false,
+          "type": 7,
+          "w": 1,
+          "wip": 13,
+          "name": "ANTIPODE ASSAULT PACK HANDLER",
+          "notes": null,
+          "skills": [
+            {
+              "id": 213,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "TACTICAL",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [
+            {
+              "group": 2,
+              "option": 1,
+              "q": 3
+            }
+          ],
+          "points": 26,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 31,
+              "order": 1
+            },
+            {
+              "id": 195,
+              "order": 2
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            }
+          ],
+          "name": "HANDLER",
+          "skills": [],
+          "peripheral": [
+            {
+              "id": 51,
+              "q": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": 8,
+      "isc": "",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 0,
+          "ava": -1,
+          "bs": 0,
+          "bts": 0,
+          "cc": 20,
+          "chars": [
+            2,
+            27
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/antipode-assault-pack-2-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            15
+          ],
+          "ph": 15,
+          "s": 5,
+          "str": false,
+          "type": 7,
+          "w": 1,
+          "wip": 13,
+          "name": "ANTIPODE",
+          "notes": null,
+          "skills": [
+            {
+              "id": 243,
+              "order": 1,
+              "extra": [
+                47
+              ]
+            },
+            {
+              "id": 191,
+              "order": 2,
+              "extra": [
+                6
+              ]
+            },
+            {
+              "id": 29,
+              "order": 3
+            },
+            {
+              "id": 40,
+              "order": 5,
+              "extra": [
+                23
+              ]
+            },
+            {
+              "id": 28,
+              "order": 6,
+              "extra": [
+                6
+              ]
+            },
+            {
+              "id": 65,
+              "order": 7
+            },
+            {
+              "id": 164,
+              "order": 8
+            },
+            {
+              "id": 74,
+              "order": 9
+            },
+            {
+              "id": 58,
+              "order": 10,
+              "extra": [
+                37
+              ]
+            },
+            {
+              "id": 264,
+              "order": 11,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": true,
+          "equip": [],
+          "minis": 1,
+          "orders": [],
+          "includes": [],
+          "points": 5,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 6,
+              "order": 1
+            }
+          ],
+          "name": "ANTIPODE",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "antipode-assault-pack",
+  "filters": {
+    "categories": [
+      8
+    ],
+    "skills": [
+      28,
+      29,
+      40,
+      58,
+      65,
+      74,
+      164,
+      191,
+      213,
+      243,
+      264
+    ],
+    "equip": [],
+    "chars": [
+      2,
+      3,
+      5,
+      27
+    ],
+    "types": [
+      7
+    ],
+    "weapons": [
+      5,
+      6,
+      31,
+      69,
+      195
+    ],
+    "ammunition": [
+      2,
+      3,
+      21
+    ]
+  },
+  "factions": [
+    301,
+    305
+  ]
+}

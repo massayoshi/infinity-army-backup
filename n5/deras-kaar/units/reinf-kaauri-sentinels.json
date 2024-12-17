@@ -1,0 +1,196 @@
+{
+  "id": 1670,
+  "idArmy": 1670,
+  "canonical": 899,
+  "isc": "Reinf. Kaauri Sentinels",
+  "iscAbbr": null,
+  "name": "REINF: KAAURI SENTINELS",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 1,
+      "isc": "Reinf. Kaauri Sentinels",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 0,
+          "ava": 2,
+          "bs": 11,
+          "bts": 3,
+          "cc": 13,
+          "chars": [
+            2,
+            3,
+            5
+          ],
+          "equip": [
+            {
+              "id": 184,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 114,
+              "order": 2,
+              "q": 1
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-kaauri-sentinels-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 10,
+          "s": 1,
+          "str": true,
+          "type": 1,
+          "w": 1,
+          "wip": 13,
+          "name": "REINF: KAAURI SENTINELS",
+          "notes": null,
+          "skills": [
+            {
+              "id": 131,
+              "order": 1,
+              "extra": [
+                1
+              ],
+              "q": 1
+            },
+            {
+              "id": 67,
+              "order": 3,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 11,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 71,
+              "order": 4
+            },
+            {
+              "id": 81,
+              "order": 1
+            },
+            {
+              "id": 197,
+              "order": 5
+            },
+            {
+              "id": 69,
+              "order": 6
+            }
+          ],
+          "name": "KAAURI SENTINEL REINF.",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 11,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 77,
+              "order": 1
+            },
+            {
+              "id": 65,
+              "order": 2
+            },
+            {
+              "id": 197,
+              "order": 3
+            },
+            {
+              "id": 69,
+              "order": 4
+            },
+            {
+              "id": 71,
+              "order": 5
+            }
+          ],
+          "name": "KAAURI SENTINEL REINF.",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "reinf-kaauri-sentinels",
+  "filters": {
+    "categories": [
+      1
+    ],
+    "skills": [
+      67,
+      131
+    ],
+    "equip": [
+      114,
+      184
+    ],
+    "chars": [
+      2,
+      3,
+      5
+    ],
+    "types": [
+      1
+    ],
+    "weapons": [
+      65,
+      69,
+      71,
+      77,
+      81,
+      197
+    ],
+    "ammunition": [
+      2,
+      3,
+      14,
+      37
+    ]
+  },
+  "factions": [
+    899
+  ]
+}

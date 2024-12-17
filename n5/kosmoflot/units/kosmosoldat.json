@@ -1,0 +1,310 @@
+{
+  "id": 1521,
+  "idArmy": 1521,
+  "canonical": 301,
+  "isc": "Armata-4 Proyekt \"Kosmosoldat\"",
+  "iscAbbr": "Kosmosoldat",
+  "name": "Armata-4 Proyekt \"KOSMOSOLDAT\"",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 6,
+      "isc": "Armata-4 Proyekt \"Kosmosoldat\"",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 6,
+          "ava": 2,
+          "bs": 13,
+          "bts": 3,
+          "cc": 16,
+          "chars": [
+            2,
+            3,
+            5,
+            21
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/kosmosoldat.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 12,
+          "s": 2,
+          "str": false,
+          "type": 3,
+          "w": 1,
+          "wip": 13,
+          "name": "Armata-4 Proyekt \"KOSMOSOLDAT\"",
+          "notes": null,
+          "skills": [
+            {
+              "id": 84,
+              "order": 1
+            },
+            {
+              "id": 162,
+              "order": 4,
+              "extra": [
+                30
+              ]
+            },
+            {
+              "id": 86,
+              "order": 5
+            },
+            {
+              "id": 58,
+              "order": 6,
+              "extra": [
+                34
+              ]
+            },
+            {
+              "id": 267,
+              "order": 7,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 40,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 3,
+              "order": 1
+            },
+            {
+              "id": 100,
+              "order": 2
+            },
+            {
+              "id": 5,
+              "order": 3
+            },
+            {
+              "id": 18,
+              "order": 4
+            }
+          ],
+          "name": "KOSMOSOLDAT",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 114,
+              "order": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 42,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 16,
+              "order": 1
+            },
+            {
+              "id": 100,
+              "order": 2
+            },
+            {
+              "id": 5,
+              "order": 3
+            },
+            {
+              "id": 18,
+              "order": 4
+            }
+          ],
+          "name": "KOSMOSOLDAT",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 3,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 33,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 42,
+              "order": 1
+            },
+            {
+              "id": 57,
+              "order": 2
+            },
+            {
+              "id": 68,
+              "order": 3
+            },
+            {
+              "id": 100,
+              "order": 4
+            },
+            {
+              "id": 5,
+              "order": 5
+            }
+          ],
+          "name": "KOSMOSOLDAT",
+          "skills": [
+            {
+              "id": 189,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 5,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 114,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "LIEUTENANT",
+              "list": 0,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 42,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 16,
+              "order": 1
+            },
+            {
+              "id": 100,
+              "order": 2
+            },
+            {
+              "id": 5,
+              "order": 3
+            },
+            {
+              "id": 18,
+              "order": 4
+            }
+          ],
+          "name": "KOSMOSOLDAT",
+          "skills": [
+            {
+              "id": 119,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "kosmosoldat",
+  "filters": {
+    "categories": [
+      6
+    ],
+    "skills": [
+      58,
+      84,
+      86,
+      119,
+      162,
+      189,
+      267
+    ],
+    "equip": [
+      114
+    ],
+    "chars": [
+      2,
+      3,
+      5,
+      21
+    ],
+    "types": [
+      3
+    ],
+    "weapons": [
+      3,
+      5,
+      16,
+      18,
+      42,
+      57,
+      68,
+      100
+    ],
+    "ammunition": [
+      2,
+      3,
+      13,
+      18
+    ]
+  },
+  "factions": [
+    306
+  ]
+}

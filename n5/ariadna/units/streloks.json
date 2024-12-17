@@ -1,0 +1,451 @@
+{
+  "id": 1126,
+  "idArmy": 61,
+  "canonical": 301,
+  "isc": "Streloks, Kazak Reconaissance Unit",
+  "iscAbbr": "Streloks",
+  "name": "STRELOKS, Kazak Reconaissance Unit",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 3,
+      "isc": "Streloks, Kazak Reconaissance Unit",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 1,
+          "ava": 2,
+          "bs": 11,
+          "bts": 0,
+          "cc": 16,
+          "chars": [
+            2,
+            3,
+            5
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/streloks-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 11,
+          "s": 2,
+          "str": false,
+          "type": 1,
+          "w": 1,
+          "wip": 13,
+          "name": "STRELOKS, Kazak Reconaissance Unit",
+          "notes": null,
+          "skills": [
+            {
+              "id": 191,
+              "order": 1,
+              "extra": [
+                6
+              ],
+              "q": 1
+            },
+            {
+              "id": 29,
+              "order": 2,
+              "q": 1
+            },
+            {
+              "id": 161,
+              "order": 3,
+              "extra": [
+                22
+              ],
+              "q": 1
+            },
+            {
+              "id": 28,
+              "order": 4,
+              "extra": [
+                6
+              ],
+              "q": 1
+            },
+            {
+              "id": 215,
+              "order": 5,
+              "extra": [
+                44
+              ],
+              "q": 1
+            },
+            {
+              "id": 164,
+              "order": 6,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 22,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 180,
+              "order": 1
+            },
+            {
+              "id": 196,
+              "order": 2
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            }
+          ],
+          "name": "STRELOK",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 3,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 16,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 77,
+              "order": 1
+            },
+            {
+              "id": 80,
+              "order": 2
+            },
+            {
+              "id": 196,
+              "order": 3
+            },
+            {
+              "id": 69,
+              "order": 4
+            },
+            {
+              "id": 5,
+              "order": 5
+            }
+          ],
+          "name": "STRELOK",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 4,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [
+            {
+              "group": 2,
+              "option": 1,
+              "q": 1
+            }
+          ],
+          "points": 25,
+          "swc": "0.5",
+          "weapons": [
+            {
+              "id": 77,
+              "order": 1
+            },
+            {
+              "id": 80,
+              "order": 2
+            },
+            {
+              "id": 196,
+              "order": 3
+            },
+            {
+              "id": 69,
+              "order": 4
+            },
+            {
+              "id": 5,
+              "order": 5
+            }
+          ],
+          "name": "STRELOK K-9",
+          "skills": [],
+          "peripheral": [
+            {
+              "id": 2
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 17,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 26,
+              "order": 1
+            },
+            {
+              "id": 196,
+              "order": 2
+            },
+            {
+              "id": 72,
+              "order": 3
+            },
+            {
+              "id": 69,
+              "order": 4
+            },
+            {
+              "id": 5,
+              "order": 5
+            }
+          ],
+          "name": "STRELOK",
+          "skills": [
+            {
+              "id": 59,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": 3,
+      "isc": "K-9 ANTIPODE",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 0,
+          "ava": -1,
+          "bs": 10,
+          "bts": 0,
+          "cc": 20,
+          "chars": [
+            2,
+            5,
+            27
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/streloks-2-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            15
+          ],
+          "ph": 15,
+          "s": 5,
+          "str": false,
+          "type": 7,
+          "w": 1,
+          "wip": 13,
+          "name": "K-9 ANTIPODE",
+          "notes": null,
+          "skills": [
+            {
+              "id": 243,
+              "order": 1,
+              "extra": [
+                40
+              ]
+            },
+            {
+              "id": 191,
+              "order": 2,
+              "extra": [
+                6
+              ]
+            },
+            {
+              "id": 29,
+              "order": 3
+            },
+            {
+              "id": 161,
+              "order": 5,
+              "extra": [
+                22
+              ]
+            },
+            {
+              "id": 40,
+              "order": 6,
+              "extra": [
+                23
+              ]
+            },
+            {
+              "id": 28,
+              "order": 7,
+              "extra": [
+                6
+              ]
+            },
+            {
+              "id": 65,
+              "order": 8
+            },
+            {
+              "id": 164,
+              "order": 9
+            },
+            {
+              "id": 82,
+              "order": 10,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": true,
+          "equip": [],
+          "minis": 1,
+          "orders": [],
+          "includes": [],
+          "points": 9,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 193,
+              "order": 1
+            },
+            {
+              "id": 177,
+              "order": 2
+            },
+            {
+              "id": 6,
+              "order": 3
+            }
+          ],
+          "name": "K-9 ANTIPODE",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "streloks",
+  "filters": {
+    "categories": [
+      3
+    ],
+    "skills": [
+      28,
+      29,
+      40,
+      59,
+      65,
+      82,
+      161,
+      164,
+      191,
+      215,
+      243
+    ],
+    "equip": [],
+    "chars": [
+      2,
+      3,
+      5,
+      27
+    ],
+    "types": [
+      1,
+      7
+    ],
+    "weapons": [
+      5,
+      6,
+      26,
+      69,
+      72,
+      77,
+      80,
+      177,
+      180,
+      193,
+      196
+    ],
+    "ammunition": [
+      2,
+      3,
+      8,
+      9,
+      18,
+      29
+    ]
+  },
+  "factions": [
+    301,
+    305
+  ]
+}

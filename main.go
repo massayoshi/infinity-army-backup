@@ -30,10 +30,9 @@ func init() {
 
 func main() {
 	var wg sync.WaitGroup
-	wg.Add(3)
+	wg.Add(2)
 
-	fetchArmyData("n4", armyN4URL, &wg)
-	fetchArmyData("codeone", armyCodeoneURL, &wg)
+	fetchArmyData("n5", armyN4URL, &wg)
 	wiki(&wg)
 
 	wg.Wait()

@@ -1,0 +1,247 @@
+{
+  "id": 1846,
+  "idArmy": 1846,
+  "canonical": 301,
+  "isc": "Vystrel Mobile Artillery Regiment",
+  "iscAbbr": null,
+  "name": "VYSTREL Mobile Artillery Regiment",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 8,
+      "isc": "Vystrel Mobile Artillery Regiment",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 2,
+          "ava": 2,
+          "bs": 12,
+          "bts": 0,
+          "cc": 13,
+          "chars": [
+            3,
+            5,
+            21
+          ],
+          "equip": [
+            {
+              "extra": [
+                7
+              ],
+              "id": 239,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/vystrel-mobile-artillery-regiment-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 9,
+          "s": 4,
+          "str": true,
+          "type": 5,
+          "w": 2,
+          "wip": 12,
+          "name": "VYSTREL Mobile Artillery Regiment",
+          "notes": null,
+          "skills": [
+            {
+              "id": 201,
+              "order": 1,
+              "extra": [
+                305
+              ],
+              "q": 1
+            },
+            {
+              "id": 201,
+              "order": 2,
+              "extra": [
+                30
+              ],
+              "q": 1
+            },
+            {
+              "id": 84,
+              "order": 3,
+              "q": 1
+            },
+            {
+              "id": 235,
+              "order": 4,
+              "q": 1
+            },
+            {
+              "id": 89,
+              "order": 5,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 23,
+          "swc": "0.5",
+          "weapons": [
+            {
+              "id": 35,
+              "order": 1
+            },
+            {
+              "id": 88,
+              "order": 2
+            },
+            {
+              "id": 71,
+              "order": 3
+            }
+          ],
+          "name": "VYSTREL",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 32,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 16,
+              "order": 1
+            },
+            {
+              "id": 88,
+              "order": 2
+            },
+            {
+              "id": 71,
+              "order": 3
+            }
+          ],
+          "name": "VYSTREL",
+          "skills": [
+            {
+              "id": 109,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 3,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 26,
+          "swc": "0.5",
+          "weapons": [
+            {
+              "id": 35,
+              "order": 1
+            },
+            {
+              "id": 88,
+              "order": 2
+            },
+            {
+              "id": 71,
+              "order": 3
+            }
+          ],
+          "name": "VYSTREL",
+          "skills": [
+            {
+              "id": 109,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "vystrel-mobile-artillery-regiment",
+  "filters": {
+    "categories": [
+      8
+    ],
+    "skills": [
+      84,
+      89,
+      109,
+      201,
+      235
+    ],
+    "equip": [
+      239
+    ],
+    "chars": [
+      3,
+      5,
+      21
+    ],
+    "types": [
+      5
+    ],
+    "weapons": [
+      16,
+      35,
+      71,
+      88
+    ],
+    "ammunition": [
+      2,
+      3,
+      13,
+      37
+    ]
+  },
+  "factions": [
+    301,
+    305
+  ]
+}

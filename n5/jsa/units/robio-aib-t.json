@@ -1,0 +1,142 @@
+{
+  "id": 1833,
+  "idArmy": 1833,
+  "canonical": 1101,
+  "isc": "Robio Aibōt",
+  "iscAbbr": null,
+  "name": "ROBIO Aibōt",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 8,
+      "isc": "Robio Aibōt",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 0,
+          "ava": 1,
+          "bs": 8,
+          "bts": 3,
+          "cc": 13,
+          "chars": [
+            3,
+            5,
+            21
+          ],
+          "equip": [
+            {
+              "id": 63,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/robio-aib-t-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            15
+          ],
+          "ph": 11,
+          "s": 3,
+          "str": true,
+          "type": 5,
+          "w": 1,
+          "wip": 13,
+          "name": "ROBIO Aibōt",
+          "notes": null,
+          "skills": [
+            {
+              "id": 84,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 28,
+              "order": 2,
+              "extra": [
+                6
+              ],
+              "q": 1
+            },
+            {
+              "id": 235,
+              "order": 3,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 7,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 72,
+              "order": 1
+            },
+            {
+              "id": 71,
+              "order": 2
+            }
+          ],
+          "name": "ROBIO",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "robio-aib-t",
+  "filters": {
+    "categories": [
+      8
+    ],
+    "skills": [
+      28,
+      84,
+      235
+    ],
+    "equip": [
+      63
+    ],
+    "chars": [
+      3,
+      5,
+      21
+    ],
+    "types": [
+      5
+    ],
+    "weapons": [
+      71,
+      72
+    ],
+    "ammunition": [
+      29,
+      37
+    ]
+  },
+  "factions": [
+    1101,
+    1102,
+    1103
+  ]
+}

@@ -1,0 +1,300 @@
+{
+  "id": 146,
+  "idArmy": 23,
+  "canonical": 201,
+  "isc": "Kuang Shi",
+  "iscAbbr": null,
+  "name": "KUANG SHI",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 2,
+      "isc": "Kuang Shi",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 0,
+          "ava": 8,
+          "bs": 11,
+          "bts": 0,
+          "cc": 14,
+          "chars": [
+            2,
+            3,
+            6
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/kuang-shi-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 11,
+          "s": 2,
+          "str": false,
+          "type": 1,
+          "w": 1,
+          "wip": 13,
+          "name": "KUANG SHI",
+          "notes": null,
+          "skills": [
+            {
+              "id": 40,
+              "order": 1,
+              "extra": [
+                1
+              ],
+              "q": 1
+            },
+            {
+              "id": 264,
+              "order": 2,
+              "q": 1
+            },
+            {
+              "id": 40,
+              "order": 3,
+              "extra": [
+                23
+              ],
+              "q": 1
+            },
+            {
+              "id": 83,
+              "order": 4,
+              "q": 1
+            },
+            {
+              "id": 38,
+              "order": 5,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "IMPETUOUS",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 6,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 18,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 2
+            },
+            {
+              "id": 5,
+              "order": 3
+            }
+          ],
+          "name": "KUANG SHI",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "IMPETUOUS",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 8,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 26,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 2
+            },
+            {
+              "id": 5,
+              "order": 3
+            }
+          ],
+          "name": "KUANG SHI",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": 0,
+      "isc": "Celestial Guard",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 1,
+          "ava": 2,
+          "bs": 11,
+          "bts": 3,
+          "cc": 15,
+          "chars": [
+            1,
+            3,
+            5
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/celestial-guard-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 10,
+          "s": 2,
+          "str": false,
+          "type": 1,
+          "w": 1,
+          "wip": 14,
+          "name": "CELESTIAL GUARD Monitor",
+          "notes": null,
+          "skills": [
+            {
+              "id": 40,
+              "order": 1,
+              "extra": [
+                11
+              ],
+              "q": 1
+            },
+            {
+              "id": 261,
+              "order": 2,
+              "extra": [
+                325
+              ],
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 13,
+          "swc": "0.5",
+          "weapons": [
+            {
+              "id": 33,
+              "order": 1
+            },
+            {
+              "id": 195,
+              "order": 2
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            }
+          ],
+          "name": "CELESTIAL GUARD Monitor",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "kuang-shi",
+  "filters": {
+    "categories": [
+      2
+    ],
+    "skills": [
+      38,
+      40,
+      83,
+      261,
+      264
+    ],
+    "equip": [],
+    "chars": [
+      1,
+      2,
+      3,
+      5,
+      6
+    ],
+    "types": [
+      1
+    ],
+    "weapons": [
+      5,
+      18,
+      26,
+      33,
+      69,
+      195
+    ],
+    "ammunition": [
+      2,
+      3,
+      21
+    ]
+  },
+  "factions": [
+    201,
+    202
+  ],
+  "notes": "NOTE: A Kuang Shi Unit is composed by 1 Monitor Celestial Guard and up to 4 Kuang Shi. All of them must be in the same Combat Group. "
+}

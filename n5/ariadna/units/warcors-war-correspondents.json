@@ -1,0 +1,210 @@
+{
+  "id": 50,
+  "idArmy": 50,
+  "canonical": 1,
+  "isc": "Warcors, War Correspondents",
+  "iscAbbr": null,
+  "name": "WARCORS, WAR CORRESPONDENTS",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 11,
+      "isc": "Warcors, War Correspondents",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 0,
+          "ava": 1,
+          "bs": 9,
+          "bts": 0,
+          "cc": 11,
+          "chars": [
+            1,
+            4,
+            5
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/warcors-war-correspondents-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 11,
+          "s": 2,
+          "str": false,
+          "type": 1,
+          "w": 1,
+          "wip": 13,
+          "name": "WARCORS, WAR CORRESPONDENTS",
+          "notes": null,
+          "skills": [
+            {
+              "id": 127,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 113,
+              "order": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "IRREGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 3,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 72,
+              "order": 1
+            },
+            {
+              "id": 92,
+              "order": 2
+            },
+            {
+              "id": 71,
+              "order": 3
+            }
+          ],
+          "name": "WARCOR",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "IRREGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 3,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 72,
+              "order": 1
+            },
+            {
+              "id": 92,
+              "order": 2
+            },
+            {
+              "id": 71,
+              "order": 3
+            }
+          ],
+          "name": "WARCOR",
+          "skills": [
+            {
+              "id": 67,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "warcors-war-correspondents",
+  "filters": {
+    "categories": [
+      11
+    ],
+    "skills": [
+      67,
+      127
+    ],
+    "equip": [
+      113
+    ],
+    "chars": [
+      1,
+      4,
+      5
+    ],
+    "types": [
+      1
+    ],
+    "weapons": [
+      71,
+      72,
+      92
+    ],
+    "ammunition": [
+      29,
+      37
+    ]
+  },
+  "factions": [
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    201,
+    202,
+    204,
+    205,
+    301,
+    302,
+    303,
+    304,
+    305,
+    306,
+    401,
+    402,
+    403,
+    404,
+    501,
+    502,
+    503,
+    504,
+    701,
+    702,
+    703,
+    902,
+    903,
+    904,
+    905,
+    906,
+    907,
+    908,
+    909,
+    1001,
+    1002,
+    1003,
+    1101,
+    1102,
+    1103
+  ]
+}

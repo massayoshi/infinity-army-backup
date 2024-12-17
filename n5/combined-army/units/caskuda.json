@@ -1,0 +1,311 @@
+{
+  "id": 1624,
+  "idArmy": 1624,
+  "canonical": 601,
+  "isc": "Caskuda WCD Armored Jump Operator",
+  "iscAbbr": "Caskuda",
+  "name": "CASKUDA WCD Armored Jump Operator",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 7,
+      "isc": "Caskuda WCD Armored Jump Operator",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 7,
+          "ava": 1,
+          "bs": 14,
+          "bts": 6,
+          "cc": 18,
+          "chars": [
+            3,
+            5,
+            21
+          ],
+          "equip": [
+            {
+              "extra": [
+                7
+              ],
+              "id": 239,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/caskuda-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            10
+          ],
+          "ph": 16,
+          "s": 7,
+          "str": true,
+          "type": 4,
+          "w": 3,
+          "wip": 12,
+          "name": "CASKUDA WCD Armored Jump Operator",
+          "notes": null,
+          "skills": [
+            {
+              "id": 235,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 84,
+              "order": 3,
+              "q": 1
+            },
+            {
+              "id": 35,
+              "order": 7,
+              "extra": [
+                244
+              ],
+              "q": 1
+            },
+            {
+              "id": 35,
+              "order": 8,
+              "extra": [
+                255
+              ],
+              "q": 1
+            },
+            {
+              "id": 213,
+              "order": 9,
+              "q": 1
+            },
+            {
+              "id": 201,
+              "order": 10,
+              "extra": [
+                337
+              ],
+              "q": 1
+            },
+            {
+              "id": 201,
+              "order": 11,
+              "extra": [
+                8
+              ],
+              "q": 1
+            },
+            {
+              "id": 40,
+              "order": 12,
+              "extra": [
+                250
+              ],
+              "q": 1
+            },
+            {
+              "id": 254,
+              "order": 13,
+              "extra": [
+                250
+              ],
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "TACTICAL",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [
+            {
+              "group": 2,
+              "option": 1,
+              "q": 1
+            }
+          ],
+          "points": 64,
+          "swc": "1",
+          "weapons": [
+            {
+              "id": 41,
+              "order": 1
+            },
+            {
+              "id": 18,
+              "order": 2
+            },
+            {
+              "id": 7,
+              "order": 3
+            }
+          ],
+          "name": "CASKUDA",
+          "skills": [],
+          "peripheral": [
+            {
+              "id": 179
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": 0,
+      "isc": "Staldron Remote Ancillary Unit",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 0,
+          "ava": -1,
+          "bs": -1,
+          "bts": 3,
+          "cc": -1,
+          "chars": [
+            21,
+            27
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/caskuda-2-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            10
+          ],
+          "ph": 11,
+          "s": 1,
+          "str": true,
+          "type": 5,
+          "w": 1,
+          "wip": 13,
+          "name": "STALDRON Remote Ancillary Unit",
+          "notes": null,
+          "skills": [
+            {
+              "id": 84,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 28,
+              "order": 3,
+              "extra": [
+                6
+              ],
+              "q": 1
+            },
+            {
+              "id": 189,
+              "order": 4,
+              "q": 1
+            },
+            {
+              "id": 243,
+              "order": 5,
+              "extra": [
+                322
+              ],
+              "q": 1
+            },
+            {
+              "id": 40,
+              "order": 6,
+              "extra": [
+                1
+              ],
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": true,
+          "equip": [],
+          "minis": 0,
+          "orders": [],
+          "includes": [],
+          "points": 3,
+          "swc": "0",
+          "weapons": [],
+          "name": "STALDRON",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "caskuda",
+  "filters": {
+    "categories": [
+      7
+    ],
+    "skills": [
+      28,
+      35,
+      40,
+      84,
+      189,
+      201,
+      213,
+      235,
+      243,
+      254
+    ],
+    "equip": [
+      239
+    ],
+    "chars": [
+      3,
+      5,
+      21,
+      27
+    ],
+    "types": [
+      4,
+      5
+    ],
+    "weapons": [
+      7,
+      18,
+      41
+    ],
+    "ammunition": [
+      2,
+      3,
+      5,
+      8,
+      9
+    ]
+  },
+  "factions": [
+    601,
+    604
+  ]
+}

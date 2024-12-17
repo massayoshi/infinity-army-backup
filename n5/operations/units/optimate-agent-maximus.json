@@ -1,0 +1,189 @@
+{
+  "id": 1862,
+  "idArmy": 1862,
+  "canonical": 101,
+  "isc": "Optimate Agent Maximus",
+  "iscAbbr": null,
+  "name": "Optimate Agent Maximus",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 10,
+      "isc": "Optimate Agent Maximus",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 3,
+          "ava": 1,
+          "bs": 12,
+          "bts": 3,
+          "cc": 23,
+          "chars": [
+            1,
+            3,
+            5
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/optimate-agent-maximus-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            5
+          ],
+          "ph": 13,
+          "s": 2,
+          "str": false,
+          "type": 2,
+          "w": 1,
+          "wip": 13,
+          "name": "Optimate Agent MAXIMUS",
+          "notes": null,
+          "skills": [
+            {
+              "id": 240,
+              "order": 1,
+              "extra": [
+                7
+              ],
+              "q": 1
+            },
+            {
+              "id": 84,
+              "order": 2,
+              "q": 1
+            },
+            {
+              "id": 40,
+              "order": 3,
+              "extra": [
+                11
+              ],
+              "q": 1
+            },
+            {
+              "id": 39,
+              "order": 4,
+              "q": 1
+            },
+            {
+              "id": 162,
+              "order": 5,
+              "extra": [
+                319
+              ],
+              "q": 1
+            },
+            {
+              "id": 189,
+              "order": 6,
+              "q": 1
+            },
+            {
+              "id": 213,
+              "order": 7,
+              "q": 1
+            },
+            {
+              "id": 86,
+              "order": 8,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "TACTICAL",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 40,
+          "swc": "1",
+          "weapons": [
+            {
+              "id": 207,
+              "order": 1
+            },
+            {
+              "id": 213,
+              "order": 2
+            },
+            {
+              "id": 107,
+              "order": 3
+            },
+            {
+              "id": 78,
+              "order": 4
+            }
+          ],
+          "name": "MAXIMUS AGENT",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "optimate-agent-maximus",
+  "filters": {
+    "categories": [
+      10
+    ],
+    "skills": [
+      39,
+      40,
+      84,
+      86,
+      162,
+      189,
+      213,
+      240
+    ],
+    "equip": [],
+    "chars": [
+      1,
+      3,
+      5
+    ],
+    "types": [
+      2
+    ],
+    "weapons": [
+      78,
+      107,
+      207,
+      213
+    ],
+    "ammunition": [
+      2,
+      8,
+      10,
+      14
+    ]
+  },
+  "factions": [
+    101,
+    107,
+    701,
+    703
+  ],
+  "notes": "There can only be one Maximus in each Army List."
+}

@@ -1,0 +1,231 @@
+{
+  "id": 1275,
+  "idArmy": 36,
+  "canonical": 1,
+  "isc": "Libertos Freedom Fighters",
+  "iscAbbr": null,
+  "name": "LIBERTOS Freedom Fighters",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 11,
+      "isc": "Libertos Freedom Fighters",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 0,
+          "ava": 1,
+          "bs": 11,
+          "bts": 0,
+          "cc": 16,
+          "chars": [
+            2,
+            4
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/libertos-freedom-fighters-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 11,
+          "s": 2,
+          "str": false,
+          "type": 1,
+          "w": 1,
+          "wip": 12,
+          "name": "LIBERTOS Freedom Fighters",
+          "notes": null,
+          "skills": [
+            {
+              "id": 29,
+              "order": 1,
+              "extra": [
+                43
+              ]
+            },
+            {
+              "id": 84,
+              "order": 3,
+              "q": 1
+            },
+            {
+              "id": 161,
+              "order": 4,
+              "extra": [
+                22
+              ],
+              "q": 1
+            },
+            {
+              "id": 40,
+              "order": 5,
+              "extra": [
+                1
+              ],
+              "q": 1
+            },
+            {
+              "id": 40,
+              "order": 6,
+              "extra": [
+                11
+              ],
+              "q": 1
+            },
+            {
+              "id": 58,
+              "order": 7,
+              "extra": [
+                35
+              ],
+              "q": 1
+            },
+            {
+              "id": 85,
+              "order": 8,
+              "q": 1
+            },
+            {
+              "id": 250,
+              "order": 9,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "IRREGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 8,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 77,
+              "order": 1
+            },
+            {
+              "id": 80,
+              "order": 2
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            }
+          ],
+          "name": "LIBERTO",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 4,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "IRREGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 8,
+          "swc": "1",
+          "weapons": [
+            {
+              "id": 28,
+              "order": 1
+            },
+            {
+              "id": 196,
+              "order": 2
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            }
+          ],
+          "name": "LIBERTO",
+          "skills": [
+            {
+              "id": 56,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "libertos-freedom-fighters",
+  "filters": {
+    "categories": [
+      11
+    ],
+    "skills": [
+      29,
+      40,
+      56,
+      58,
+      84,
+      85,
+      161,
+      250
+    ],
+    "equip": [],
+    "chars": [
+      2,
+      4
+    ],
+    "types": [
+      1
+    ],
+    "weapons": [
+      5,
+      28,
+      69,
+      77,
+      80,
+      196
+    ],
+    "ammunition": [
+      2,
+      8
+    ]
+  },
+  "factions": [
+    201,
+    204,
+    601,
+    801,
+    902,
+    908
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "id": 1544,
+  "idArmy": 1544,
+  "canonical": 501,
+  "isc": "Vostok Sputniks ",
+  "iscAbbr": null,
+  "name": "VOSTOK Sputniks",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 8,
+      "isc": "Vostok Sputniks ",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 3,
+          "ava": 2,
+          "bs": 12,
+          "bts": 6,
+          "cc": 14,
+          "chars": [
+            3,
+            5,
+            21
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/vostok-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            10
+          ],
+          "ph": 10,
+          "s": 4,
+          "str": true,
+          "type": 5,
+          "w": 2,
+          "wip": 13,
+          "name": "VOSTOK Sputniks",
+          "notes": null,
+          "skills": [
+            {
+              "id": 235,
+              "order": 1
+            },
+            {
+              "id": 84,
+              "order": 2
+            },
+            {
+              "id": 162,
+              "order": 3,
+              "extra": [
+                249
+              ]
+            },
+            {
+              "id": 82,
+              "order": 5
+            },
+            {
+              "id": 28,
+              "order": 6,
+              "extra": [
+                7
+              ],
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 4,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 63,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 40,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 71,
+              "order": 2
+            },
+            {
+              "id": 64,
+              "order": 1
+            }
+          ],
+          "name": "VOSTOK",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 5,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 35,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 64,
+              "order": 1
+            },
+            {
+              "id": 71,
+              "order": 2
+            }
+          ],
+          "name": "VOSTOK FTO",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "vostok-sputniks",
+  "filters": {
+    "categories": [
+      8
+    ],
+    "skills": [
+      28,
+      82,
+      84,
+      162,
+      235
+    ],
+    "equip": [
+      63
+    ],
+    "chars": [
+      3,
+      5,
+      21
+    ],
+    "types": [
+      5
+    ],
+    "weapons": [
+      64,
+      71
+    ],
+    "ammunition": [
+      2,
+      37
+    ]
+  },
+  "factions": [
+    501,
+    502,
+    503,
+    504
+  ]
+}

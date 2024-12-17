@@ -1,0 +1,192 @@
+{
+  "id": 1462,
+  "idArmy": 16,
+  "canonical": 1001,
+  "isc": "Cyberghosts, Quantronic Intervention Unit",
+  "iscAbbr": "Cyberghosts",
+  "name": "CYBERGHOSTS, Quantronic Intervention Unit",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 8,
+      "isc": "Cyberghosts, Quantronic Intervention Unit",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 1,
+          "ava": 2,
+          "bs": 11,
+          "bts": 6,
+          "cc": 14,
+          "chars": [
+            1,
+            3,
+            5,
+            21
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/cyberghosts-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 10,
+          "s": 2,
+          "str": false,
+          "type": 1,
+          "w": 1,
+          "wip": 14,
+          "name": "CYBERGHOSTS, Quantronic Intervention Unit",
+          "notes": null,
+          "skills": [
+            {
+              "id": 164,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 101,
+              "order": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 21,
+          "swc": "0.5",
+          "weapons": [
+            {
+              "id": 33,
+              "order": 1
+            },
+            {
+              "id": 154,
+              "order": 2
+            },
+            {
+              "id": 98,
+              "order": 3
+            },
+            {
+              "id": 71,
+              "order": 4
+            }
+          ],
+          "name": "CYBERGHOSTS",
+          "skills": [
+            {
+              "id": 1000,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 145,
+              "order": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 18,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 33,
+              "order": 1
+            },
+            {
+              "id": 154,
+              "order": 2
+            },
+            {
+              "id": 98,
+              "order": 3
+            },
+            {
+              "id": 71,
+              "order": 4
+            }
+          ],
+          "name": "CYBERGHOSTS",
+          "skills": [
+            {
+              "id": 1000,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "cyberghosts",
+  "filters": {
+    "categories": [
+      8
+    ],
+    "skills": [
+      164,
+      1000
+    ],
+    "equip": [
+      101,
+      145
+    ],
+    "chars": [
+      1,
+      3,
+      5,
+      21
+    ],
+    "types": [
+      1
+    ],
+    "weapons": [
+      33,
+      71,
+      98,
+      154
+    ],
+    "ammunition": [
+      2,
+      3,
+      37
+    ]
+  },
+  "factions": [
+    1001,
+    1002
+  ]
+}

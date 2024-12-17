@@ -1,0 +1,321 @@
+{
+  "id": 1568,
+  "idArmy": 1568,
+  "canonical": 1,
+  "isc": "Diggers, Armed Prospectors",
+  "iscAbbr": null,
+  "name": "DIGGERS, Armed Prospectors",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 11,
+      "isc": "DIGGERS, Armed Prospectors",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 3,
+          "ava": 2,
+          "bs": 11,
+          "bts": 0,
+          "cc": 21,
+          "chars": [
+            1,
+            3,
+            6,
+            21
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/diggers-armed-prospectors-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 13,
+          "s": 2,
+          "str": false,
+          "type": 3,
+          "w": 2,
+          "wip": 12,
+          "name": "FULL POWER",
+          "notes": null,
+          "skills": [
+            {
+              "id": 240,
+              "order": 1,
+              "extra": [
+                8
+              ],
+              "q": 1
+            },
+            {
+              "id": 25,
+              "order": 2,
+              "q": 1
+            },
+            {
+              "id": 84,
+              "order": 3,
+              "q": 1
+            },
+            {
+              "id": 40,
+              "order": 4,
+              "extra": [
+                11
+              ],
+              "q": 1
+            },
+            {
+              "id": 39,
+              "order": 5,
+              "q": 1
+            },
+            {
+              "id": 256,
+              "order": 6,
+              "q": 1
+            },
+            {
+              "id": 162,
+              "order": 7,
+              "extra": [
+                30
+              ],
+              "q": 1
+            },
+            {
+              "id": 246,
+              "order": 8,
+              "extra": [
+                44
+              ],
+              "q": 1
+            },
+            {
+              "id": 264,
+              "order": 9,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "arm": 2,
+          "ava": -1,
+          "bs": 10,
+          "bts": 0,
+          "cc": 21,
+          "chars": [
+            1,
+            3,
+            6,
+            21
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/diggers-armed-prospectors-1-2.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 12,
+          "s": 2,
+          "str": false,
+          "type": 3,
+          "w": 2,
+          "wip": 12,
+          "name": "BATTLE-RAVAGED",
+          "notes": null,
+          "skills": [
+            {
+              "id": 240,
+              "order": 1,
+              "extra": [
+                8
+              ],
+              "q": 1
+            },
+            {
+              "id": 25,
+              "order": 2,
+              "q": 1
+            },
+            {
+              "id": 84,
+              "order": 3,
+              "q": 1
+            },
+            {
+              "id": 39,
+              "order": 4,
+              "q": 1
+            },
+            {
+              "id": 256,
+              "order": 5,
+              "q": 1
+            },
+            {
+              "id": 162,
+              "order": 6,
+              "extra": [
+                30
+              ],
+              "q": 1
+            },
+            {
+              "id": 264,
+              "order": 7,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "IMPETUOUS",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 18,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 31,
+              "order": 1
+            },
+            {
+              "id": 28,
+              "order": 2
+            },
+            {
+              "id": 44,
+              "order": 3
+            },
+            {
+              "id": 69,
+              "order": 4
+            },
+            {
+              "id": 6,
+              "order": 5
+            }
+          ],
+          "name": "DIGGER",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "IMPETUOUS",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 14,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 18,
+              "order": 1
+            },
+            {
+              "id": 44,
+              "order": 2
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 6,
+              "order": 4
+            }
+          ],
+          "name": "DIGGER",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "diggers-armed-prospectors",
+  "filters": {
+    "categories": [
+      11
+    ],
+    "skills": [
+      25,
+      39,
+      40,
+      84,
+      162,
+      240,
+      246,
+      256,
+      264
+    ],
+    "equip": [],
+    "chars": [
+      1,
+      3,
+      6,
+      21
+    ],
+    "types": [
+      3
+    ],
+    "weapons": [
+      6,
+      18,
+      28,
+      31,
+      44,
+      69
+    ],
+    "ammunition": [
+      2,
+      3
+    ]
+  },
+  "factions": [
+    902,
+    904,
+    905,
+    908,
+    1003
+  ]
+}

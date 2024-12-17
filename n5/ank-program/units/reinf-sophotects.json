@@ -1,0 +1,255 @@
+{
+  "id": 1729,
+  "idArmy": 1729,
+  "canonical": 799,
+  "isc": "Reinf. Sophotects",
+  "iscAbbr": null,
+  "name": "REINF: SOPHOTECTS",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 8,
+      "isc": "Reinf. Sophotects",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 2,
+          "ava": 1,
+          "bs": 11,
+          "bts": 0,
+          "cc": 13,
+          "chars": [
+            3,
+            5,
+            20
+          ],
+          "equip": [
+            {
+              "id": 237,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 245,
+              "order": 2,
+              "q": 1
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-sophotects-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            10
+          ],
+          "ph": 11,
+          "s": 2,
+          "str": false,
+          "type": 1,
+          "w": 1,
+          "wip": 15,
+          "name": "REINF: SOPHOTECTS",
+          "notes": null,
+          "skills": [
+            {
+              "id": 84,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 40,
+              "order": 2,
+              "extra": [
+                11
+              ],
+              "q": 1
+            },
+            {
+              "id": 49,
+              "order": 3,
+              "extra": [
+                366
+              ],
+              "q": 1
+            },
+            {
+              "id": 162,
+              "order": 4,
+              "extra": [
+                30
+              ],
+              "q": 1
+            },
+            {
+              "id": 263,
+              "order": 5,
+              "extra": [
+                324
+              ],
+              "q": 1
+            },
+            {
+              "id": 86,
+              "order": 6,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "extra": [
+                8
+              ],
+              "id": 106,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 29,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 33,
+              "order": 1
+            },
+            {
+              "id": 17,
+              "order": 2
+            },
+            {
+              "id": 5,
+              "order": 4
+            },
+            {
+              "id": 145,
+              "order": 5
+            },
+            {
+              "id": 69,
+              "order": 6
+            }
+          ],
+          "name": "SOPHOTECT REINF.",
+          "skills": [
+            {
+              "id": 53,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 23,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 26,
+              "order": 1
+            },
+            {
+              "id": 17,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 5
+            },
+            {
+              "id": 145,
+              "order": 2
+            },
+            {
+              "id": 72,
+              "order": 6
+            },
+            {
+              "id": 69,
+              "order": 7
+            }
+          ],
+          "name": "SOPHOTECT REINF.",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "reinf-sophotects",
+  "filters": {
+    "categories": [
+      8
+    ],
+    "skills": [
+      40,
+      49,
+      53,
+      84,
+      86,
+      162,
+      263
+    ],
+    "equip": [
+      106,
+      237,
+      245
+    ],
+    "chars": [
+      3,
+      5,
+      20
+    ],
+    "types": [
+      1
+    ],
+    "weapons": [
+      5,
+      17,
+      26,
+      33,
+      69,
+      72,
+      145
+    ],
+    "ammunition": [
+      2,
+      3,
+      13,
+      29
+    ]
+  },
+  "factions": [
+    799
+  ]
+}

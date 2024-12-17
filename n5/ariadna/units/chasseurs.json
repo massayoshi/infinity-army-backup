@@ -1,0 +1,319 @@
+{
+  "id": 252,
+  "idArmy": 26,
+  "canonical": 301,
+  "isc": "Chasseurs",
+  "iscAbbr": null,
+  "name": "4éme de CHASSEURS",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 3,
+      "isc": "Chasseurs",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 0,
+          "ava": 2,
+          "bs": 11,
+          "bts": 0,
+          "cc": 14,
+          "chars": [
+            2,
+            3,
+            5
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/chasseurs-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 13,
+          "s": 2,
+          "str": false,
+          "type": 6,
+          "w": 1,
+          "wip": 13,
+          "name": "4éme de CHASSEURS",
+          "notes": null,
+          "skills": [
+            {
+              "id": 191,
+              "order": 1,
+              "extra": [
+                6
+              ]
+            },
+            {
+              "id": 29,
+              "order": 2
+            },
+            {
+              "id": 47,
+              "order": 3
+            },
+            {
+              "id": 28,
+              "order": 4,
+              "extra": [
+                6
+              ]
+            },
+            {
+              "id": 67,
+              "order": 5
+            },
+            {
+              "id": 164,
+              "order": 6
+            },
+            {
+              "id": 58,
+              "order": 7,
+              "extra": [
+                33
+              ]
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 19,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 31,
+              "order": 1
+            },
+            {
+              "id": 56,
+              "order": 2
+            },
+            {
+              "id": 196,
+              "order": 3
+            },
+            {
+              "id": 69,
+              "order": 4
+            },
+            {
+              "id": 5,
+              "order": 5
+            }
+          ],
+          "name": "CHASSEUR",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 3,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 20,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 69,
+              "order": 4
+            },
+            {
+              "id": 5,
+              "order": 5
+            },
+            {
+              "id": 31,
+              "order": 1
+            },
+            {
+              "id": 216,
+              "order": 6
+            },
+            {
+              "id": 17,
+              "order": 7
+            }
+          ],
+          "name": "CHASSEUR",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 4,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 20,
+          "swc": "0.5",
+          "weapons": [
+            {
+              "id": 31,
+              "order": 1
+            },
+            {
+              "id": 56,
+              "order": 2
+            },
+            {
+              "id": 196,
+              "order": 3
+            },
+            {
+              "id": 69,
+              "order": 4
+            },
+            {
+              "id": 5,
+              "order": 5
+            }
+          ],
+          "name": "CHASSEUR",
+          "skills": [
+            {
+              "id": 56,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 5,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 20,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 31,
+              "order": 1
+            },
+            {
+              "id": 56,
+              "order": 2
+            },
+            {
+              "id": 72,
+              "order": 3
+            },
+            {
+              "id": 196,
+              "order": 4
+            },
+            {
+              "id": 69,
+              "order": 5
+            },
+            {
+              "id": 5,
+              "order": 6
+            }
+          ],
+          "name": "CHASSEUR",
+          "skills": [
+            {
+              "id": 59,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "chasseurs",
+  "filters": {
+    "categories": [
+      3
+    ],
+    "skills": [
+      28,
+      29,
+      47,
+      56,
+      58,
+      59,
+      67,
+      164,
+      191
+    ],
+    "equip": [],
+    "chars": [
+      2,
+      3,
+      5
+    ],
+    "types": [
+      6
+    ],
+    "weapons": [
+      5,
+      17,
+      31,
+      56,
+      69,
+      72,
+      196,
+      216
+    ],
+    "ammunition": [
+      2,
+      8,
+      13,
+      29,
+      37
+    ]
+  },
+  "factions": [
+    301,
+    303
+  ]
+}

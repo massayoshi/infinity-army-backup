@@ -1,0 +1,314 @@
+{
+  "id": 603,
+  "idArmy": 23,
+  "canonical": 701,
+  "isc": "Ekdromoi",
+  "iscAbbr": null,
+  "name": "EKDROMOI",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 5,
+      "isc": "Ekdromoi",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 2,
+          "ava": 4,
+          "bs": 12,
+          "bts": 0,
+          "cc": 22,
+          "chars": [
+            3,
+            5,
+            20
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/ekdromoi-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 13,
+          "s": 2,
+          "str": false,
+          "type": 2,
+          "w": 1,
+          "wip": 14,
+          "name": "EKDROMOI",
+          "notes": null,
+          "skills": [
+            {
+              "id": 21,
+              "order": 1
+            },
+            {
+              "id": 84,
+              "order": 2,
+              "q": 1
+            },
+            {
+              "id": 33,
+              "order": 4,
+              "q": 1
+            },
+            {
+              "id": 35,
+              "order": 5,
+              "q": 1
+            },
+            {
+              "id": 164,
+              "order": 6,
+              "q": 1
+            },
+            {
+              "id": 40,
+              "order": 8,
+              "extra": [
+                11
+              ],
+              "q": 1
+            },
+            {
+              "id": 74,
+              "order": 9,
+              "extra": [
+                304
+              ],
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 3,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 32,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 74,
+              "order": 1
+            },
+            {
+              "id": 65,
+              "order": 2
+            },
+            {
+              "id": 100,
+              "order": 3
+            },
+            {
+              "id": 11,
+              "order": 4
+            }
+          ],
+          "name": "EKDROMOS",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 4,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 18,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 18,
+              "order": 1
+            },
+            {
+              "id": 100,
+              "order": 2
+            },
+            {
+              "id": 11,
+              "order": 3
+            }
+          ],
+          "name": "EKDROMOS",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 6,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 100,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 23,
+          "swc": "0.5",
+          "weapons": [
+            {
+              "id": 18,
+              "order": 1
+            },
+            {
+              "id": 100,
+              "order": 2
+            },
+            {
+              "id": 11,
+              "order": 3
+            }
+          ],
+          "name": "EKDROMOS",
+          "skills": [
+            {
+              "id": 1000,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 7,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 145,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 25,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 77,
+              "order": 1
+            },
+            {
+              "id": 72,
+              "order": 2
+            },
+            {
+              "id": 100,
+              "order": 3
+            },
+            {
+              "id": 11,
+              "order": 4
+            },
+            {
+              "id": 17,
+              "order": 5
+            }
+          ],
+          "name": "EKDROMOS",
+          "skills": [
+            {
+              "id": 1000,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "ekdromoi",
+  "filters": {
+    "categories": [
+      5
+    ],
+    "skills": [
+      21,
+      33,
+      35,
+      40,
+      74,
+      84,
+      164,
+      1000
+    ],
+    "equip": [
+      100,
+      145
+    ],
+    "chars": [
+      3,
+      5,
+      20
+    ],
+    "types": [
+      2
+    ],
+    "weapons": [
+      11,
+      17,
+      18,
+      65,
+      72,
+      74,
+      77,
+      100
+    ],
+    "ammunition": [
+      2,
+      3,
+      9,
+      13,
+      29
+    ]
+  },
+  "factions": [
+    701,
+    702
+  ]
+}

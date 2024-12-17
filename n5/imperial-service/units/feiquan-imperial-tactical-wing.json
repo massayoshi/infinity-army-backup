@@ -1,0 +1,242 @@
+{
+  "id": 1842,
+  "idArmy": 1842,
+  "canonical": 201,
+  "isc": "Fēiquán Imperial Tactical Wing",
+  "iscAbbr": null,
+  "name": "FĒIQUÁN Imperial Tactical Wing",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 5,
+      "isc": "Fēiquán Imperial Tactical Wing",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 3,
+          "ava": 1,
+          "bs": 12,
+          "bts": 3,
+          "cc": -1,
+          "chars": [
+            1,
+            3,
+            5,
+            21
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/feiquan-imperial-tactical-wing-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            20,
+            5
+          ],
+          "ph": 12,
+          "s": 7,
+          "str": true,
+          "type": 8,
+          "w": 2,
+          "wip": 13,
+          "name": "FĒIQUÁN Imperial Tactical Wing",
+          "notes": null,
+          "skills": [
+            {
+              "id": 265,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 84,
+              "order": 2,
+              "q": 1
+            },
+            {
+              "id": 40,
+              "order": 3,
+              "extra": [
+                6
+              ],
+              "q": 1
+            },
+            {
+              "id": 254,
+              "order": 4,
+              "extra": [
+                52
+              ],
+              "q": 1
+            },
+            {
+              "id": 28,
+              "order": 5,
+              "extra": [
+                7
+              ],
+              "q": 1
+            },
+            {
+              "id": 263,
+              "order": 6,
+              "extra": [
+                324
+              ],
+              "q": 1
+            },
+            {
+              "id": 264,
+              "order": 7,
+              "q": 1
+            },
+            {
+              "id": 65,
+              "order": 8,
+              "q": 1
+            },
+            {
+              "id": 74,
+              "order": 9,
+              "extra": [
+                304
+              ],
+              "q": 1
+            },
+            {
+              "id": 58,
+              "order": 10,
+              "extra": [
+                33
+              ],
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 28,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 213,
+              "order": 1
+            },
+            {
+              "id": 72,
+              "order": 2
+            },
+            {
+              "id": 1,
+              "order": 3
+            }
+          ],
+          "name": "FĒIQUÁN",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 117,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 35,
+          "swc": "0.5",
+          "weapons": [
+            {
+              "id": 41,
+              "order": 1
+            },
+            {
+              "id": 216,
+              "order": 2
+            }
+          ],
+          "name": "FĒIQUÁN",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "feiquan-imperial-tactical-wing",
+  "filters": {
+    "categories": [
+      5
+    ],
+    "skills": [
+      28,
+      40,
+      58,
+      65,
+      74,
+      84,
+      254,
+      263,
+      264,
+      265
+    ],
+    "equip": [
+      117
+    ],
+    "chars": [
+      1,
+      3,
+      5,
+      21
+    ],
+    "types": [
+      8
+    ],
+    "weapons": [
+      1,
+      41,
+      72,
+      213,
+      216
+    ],
+    "ammunition": [
+      3,
+      8,
+      9,
+      14,
+      29,
+      37
+    ]
+  },
+  "factions": [
+    201,
+    202,
+    205
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "id": 131,
+  "idArmy": 8,
+  "canonical": 201,
+  "isc": "Hac Tao Special Unit",
+  "iscAbbr": null,
+  "name": "HAC TAO Special Unit",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 5,
+      "isc": "Hac Tao Special Unit",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 5,
+          "ava": 1,
+          "bs": 14,
+          "bts": 6,
+          "cc": 19,
+          "chars": [
+            1,
+            3,
+            5,
+            21
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/hac-tao-special-unit-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            5
+          ],
+          "ph": 14,
+          "s": 2,
+          "str": false,
+          "type": 3,
+          "w": 2,
+          "wip": 14,
+          "name": "HAC TAO Special Unit",
+          "notes": null,
+          "skills": [
+            {
+              "id": 191,
+              "order": 1,
+              "extra": [
+                6
+              ]
+            },
+            {
+              "id": 29,
+              "order": 2
+            },
+            {
+              "id": 238,
+              "order": 3
+            },
+            {
+              "id": 40,
+              "order": 4,
+              "extra": [
+                11
+              ]
+            },
+            {
+              "id": 28,
+              "order": 5,
+              "extra": [
+                7
+              ]
+            },
+            {
+              "id": 164,
+              "order": 6
+            },
+            {
+              "id": 162,
+              "order": 7,
+              "extra": [
+                30
+              ]
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 9,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "extra": [
+                12
+              ],
+              "id": 100,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 58,
+          "swc": "1",
+          "weapons": [
+            {
+              "id": 41,
+              "order": 1
+            },
+            {
+              "id": 65,
+              "order": 2
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 10,
+              "order": 4
+            }
+          ],
+          "name": "HAC TAO",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "hac-tao-special-unit",
+  "filters": {
+    "categories": [
+      5
+    ],
+    "skills": [
+      28,
+      29,
+      40,
+      162,
+      164,
+      191,
+      238
+    ],
+    "equip": [
+      100
+    ],
+    "chars": [
+      1,
+      3,
+      5,
+      21
+    ],
+    "types": [
+      3
+    ],
+    "weapons": [
+      10,
+      41,
+      65,
+      69
+    ],
+    "ammunition": [
+      2,
+      3,
+      8,
+      9
+    ]
+  },
+  "factions": [
+    201,
+    204,
+    205
+  ]
+}

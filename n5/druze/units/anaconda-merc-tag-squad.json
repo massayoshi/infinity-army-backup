@@ -1,0 +1,349 @@
+{
+  "id": 300,
+  "idArmy": 15,
+  "canonical": 1,
+  "isc": "Anaconda, Mercenary TAG Squad",
+  "iscAbbr": "Anaconda, Merc. TAG Squad",
+  "name": "ANACONDA, Mercenary TAG Squad",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 11,
+      "isc": "Anaconda, Mercenary TAG Squad",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 7,
+          "ava": 1,
+          "bs": 13,
+          "bts": 6,
+          "cc": 18,
+          "chars": [
+            1,
+            3,
+            5,
+            21
+          ],
+          "equip": [
+            {
+              "extra": [
+                7
+              ],
+              "id": 239,
+              "order": 1
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/anaconda-merc-tag-squad-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            5
+          ],
+          "ph": 16,
+          "s": 7,
+          "str": true,
+          "type": 4,
+          "w": 3,
+          "wip": 13,
+          "name": "ANACONDA, Mercenary TAG Squad",
+          "notes": null,
+          "skills": [
+            {
+              "id": 201,
+              "order": 1,
+              "extra": [
+                305
+              ],
+              "q": 1
+            },
+            {
+              "id": 84,
+              "order": 2,
+              "q": 1
+            },
+            {
+              "id": 40,
+              "order": 3,
+              "extra": [
+                27
+              ],
+              "q": 1
+            },
+            {
+              "id": 254,
+              "order": 4,
+              "extra": [
+                27
+              ],
+              "q": 1
+            },
+            {
+              "id": 213,
+              "order": 5,
+              "q": 1
+            },
+            {
+              "id": 246,
+              "order": 6,
+              "extra": [
+                321
+              ],
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "TACTICAL",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [
+            {
+              "group": 2,
+              "option": 1,
+              "q": 1
+            }
+          ],
+          "points": 57,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 157,
+              "order": 1
+            },
+            {
+              "id": 89,
+              "order": 2
+            },
+            {
+              "id": 207,
+              "order": 3
+            },
+            {
+              "id": 6,
+              "order": 4
+            }
+          ],
+          "name": "ANACONDA",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "TACTICAL",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [
+            {
+              "group": 2,
+              "option": 1,
+              "q": 1
+            }
+          ],
+          "points": 56,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 2,
+              "order": 1
+            },
+            {
+              "id": 28,
+              "order": 2
+            },
+            {
+              "id": 68,
+              "order": 3
+            },
+            {
+              "id": 6,
+              "order": 4
+            }
+          ],
+          "name": "ANACONDA",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": 11,
+      "isc": "",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 1,
+          "ava": -1,
+          "bs": 12,
+          "bts": 3,
+          "cc": 13,
+          "chars": [
+            1,
+            3,
+            5
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/anaconda-merc-tag-squad-2-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 10,
+          "s": 2,
+          "str": false,
+          "type": 1,
+          "w": 3,
+          "wip": 13,
+          "name": "ANACONDA OPERATOR",
+          "notes": null,
+          "skills": [
+            {
+              "id": 84,
+              "order": 1
+            },
+            {
+              "id": 189,
+              "order": 2
+            },
+            {
+              "id": 213,
+              "order": 3,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": true,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "TACTICAL",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 0,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 74,
+              "order": 1
+            },
+            {
+              "id": 212,
+              "order": 2
+            },
+            {
+              "id": 5,
+              "order": 3
+            }
+          ],
+          "name": "OPERATOR",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "anaconda-merc-tag-squad",
+  "filters": {
+    "categories": [
+      11
+    ],
+    "skills": [
+      40,
+      84,
+      189,
+      201,
+      213,
+      246,
+      254
+    ],
+    "equip": [
+      239
+    ],
+    "chars": [
+      1,
+      3,
+      5,
+      21
+    ],
+    "types": [
+      1,
+      4
+    ],
+    "weapons": [
+      2,
+      5,
+      6,
+      28,
+      68,
+      74,
+      89,
+      157,
+      207,
+      212
+    ],
+    "ammunition": [
+      2,
+      3,
+      13
+    ]
+  },
+  "factions": [
+    303,
+    504,
+    902,
+    905,
+    906,
+    909
+  ]
+}

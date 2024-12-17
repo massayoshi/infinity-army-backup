@@ -1,0 +1,231 @@
+{
+  "id": 110,
+  "idArmy": 10,
+  "canonical": 104,
+  "isc": "Garuda Tacbots",
+  "iscAbbr": null,
+  "name": "GARUDA Tacbots",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 3,
+      "isc": "Garuda Tacbots",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 0,
+          "ava": 1,
+          "bs": 12,
+          "bts": 3,
+          "cc": 13,
+          "chars": [
+            3,
+            5,
+            21
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/garuda-tacbots-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            20,
+            5
+          ],
+          "ph": 11,
+          "s": 2,
+          "str": true,
+          "type": 5,
+          "w": 1,
+          "wip": 13,
+          "name": "GARUDA Tacbots",
+          "notes": null,
+          "skills": [
+            {
+              "id": 235,
+              "order": 1
+            },
+            {
+              "id": 84,
+              "order": 2
+            },
+            {
+              "id": 28,
+              "order": 4,
+              "extra": [
+                6
+              ]
+            },
+            {
+              "id": 33,
+              "order": 5
+            },
+            {
+              "id": 35,
+              "order": 6
+            },
+            {
+              "id": 74,
+              "order": 7,
+              "extra": [
+                304
+              ],
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 3,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 18,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 26,
+              "order": 1
+            },
+            {
+              "id": 71,
+              "order": 2
+            },
+            {
+              "id": 80,
+              "order": 3
+            }
+          ],
+          "name": "GARUDA",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 4,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 25,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 74,
+              "order": 1
+            },
+            {
+              "id": 71,
+              "order": 2
+            }
+          ],
+          "name": "GARUDA",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 5,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 20,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 33,
+              "order": 1
+            },
+            {
+              "id": 72,
+              "order": 2
+            },
+            {
+              "id": 71,
+              "order": 3
+            }
+          ],
+          "name": "GARUDA",
+          "skills": [
+            {
+              "id": 59,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "garuda-tacbots",
+  "filters": {
+    "categories": [
+      3
+    ],
+    "skills": [
+      28,
+      33,
+      35,
+      59,
+      74,
+      84,
+      235
+    ],
+    "equip": [],
+    "chars": [
+      3,
+      5,
+      21
+    ],
+    "types": [
+      5
+    ],
+    "weapons": [
+      26,
+      33,
+      71,
+      72,
+      74,
+      80
+    ],
+    "ammunition": [
+      2,
+      3,
+      29,
+      37
+    ]
+  },
+  "factions": [
+    104,
+    202,
+    701,
+    703
+  ]
+}

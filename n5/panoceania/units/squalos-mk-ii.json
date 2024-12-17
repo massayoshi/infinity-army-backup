@@ -1,0 +1,414 @@
+{
+  "id": 1651,
+  "idArmy": 1651,
+  "canonical": 101,
+  "isc": "Squalos Mk-II",
+  "iscAbbr": null,
+  "name": "SQUALOS Mk-II, PanOceanian Armored Cavalry Heavy Lancers",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 7,
+      "isc": "Squalos Mk-II",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 6,
+          "ava": 2,
+          "bs": 15,
+          "bts": 6,
+          "cc": 18,
+          "chars": [
+            3,
+            5,
+            21
+          ],
+          "equip": [
+            {
+              "extra": [
+                7
+              ],
+              "id": 239,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/squalos-mk-ii-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            10
+          ],
+          "ph": 15,
+          "s": 6,
+          "str": true,
+          "type": 4,
+          "w": 3,
+          "wip": 13,
+          "name": "SQUALOS Mk-II, PanOceanian Armored Cavalry Heavy Lancers",
+          "notes": null,
+          "skills": [
+            {
+              "id": 201,
+              "order": 1,
+              "extra": [
+                305
+              ],
+              "q": 1
+            },
+            {
+              "id": 84,
+              "order": 2,
+              "q": 1
+            },
+            {
+              "id": 40,
+              "order": 3,
+              "extra": [
+                11
+              ],
+              "q": 1
+            },
+            {
+              "id": 40,
+              "order": 4,
+              "extra": [
+                27
+              ],
+              "q": 1
+            },
+            {
+              "id": 254,
+              "order": 5,
+              "extra": [
+                52
+              ],
+              "q": 1
+            },
+            {
+              "id": 262,
+              "order": 6,
+              "q": 1
+            },
+            {
+              "id": 235,
+              "order": 7,
+              "q": 1
+            },
+            {
+              "id": 213,
+              "order": 8,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "TACTICAL",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [
+            {
+              "group": 2,
+              "option": 1,
+              "q": 1
+            }
+          ],
+          "points": 55,
+          "swc": "1",
+          "weapons": [
+            {
+              "id": 169,
+              "order": 1
+            },
+            {
+              "id": 189,
+              "order": 2
+            },
+            {
+              "id": 5,
+              "order": 3
+            }
+          ],
+          "name": "SQUALO Mk-II",
+          "skills": [],
+          "peripheral": [
+            {
+              "id": 28
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "TACTICAL",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [
+            {
+              "group": 2,
+              "option": 1,
+              "q": 1
+            }
+          ],
+          "points": 62,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 2,
+              "order": 1
+            },
+            {
+              "id": 194,
+              "order": 2
+            },
+            {
+              "id": 189,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            }
+          ],
+          "name": "SQUALO Mk-II",
+          "skills": [],
+          "peripheral": [
+            {
+              "id": 28
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "TACTICAL",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [
+            {
+              "group": 2,
+              "option": 1,
+              "q": 1
+            }
+          ],
+          "points": 66,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 4,
+              "order": 1
+            },
+            {
+              "id": 189,
+              "order": 2
+            },
+            {
+              "id": 5,
+              "order": 3
+            }
+          ],
+          "name": "SQUALO Mk-II",
+          "skills": [
+            {
+              "id": 211,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": [
+            {
+              "id": 28
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": 0,
+      "isc": "Crabbot Ancillary Remote Unit",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 0,
+          "ava": -1,
+          "bs": -1,
+          "bts": 3,
+          "cc": -1,
+          "chars": [
+            21,
+            27
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/squalos-mk-ii-2-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            10
+          ],
+          "ph": 10,
+          "s": 1,
+          "str": true,
+          "type": 5,
+          "w": 1,
+          "wip": 12,
+          "name": "CRABBOT Ancillary Remote Unit",
+          "notes": null,
+          "skills": [
+            {
+              "id": 84,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 40,
+              "order": 2,
+              "extra": [
+                1
+              ],
+              "q": 1
+            },
+            {
+              "id": 28,
+              "order": 3,
+              "extra": [
+                6
+              ],
+              "q": 1
+            },
+            {
+              "id": 189,
+              "order": 4,
+              "q": 1
+            },
+            {
+              "id": 243,
+              "order": 5,
+              "extra": [
+                322
+              ],
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": true,
+          "equip": [],
+          "minis": 0,
+          "orders": [],
+          "includes": [],
+          "points": 2,
+          "swc": "0",
+          "weapons": [],
+          "name": "CRABBOT",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "squalos-mk-ii",
+  "filters": {
+    "categories": [
+      7
+    ],
+    "skills": [
+      28,
+      40,
+      84,
+      189,
+      201,
+      211,
+      213,
+      235,
+      243,
+      254,
+      262
+    ],
+    "equip": [
+      239
+    ],
+    "chars": [
+      3,
+      5,
+      21,
+      27
+    ],
+    "types": [
+      4,
+      5
+    ],
+    "weapons": [
+      2,
+      4,
+      5,
+      169,
+      189,
+      194
+    ],
+    "ammunition": [
+      2,
+      3,
+      6,
+      8,
+      9
+    ]
+  },
+  "factions": [
+    101,
+    104,
+    105,
+    107
+  ]
+}

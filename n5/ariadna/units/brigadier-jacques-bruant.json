@@ -1,0 +1,286 @@
+{
+  "id": 262,
+  "idArmy": 36,
+  "canonical": 301,
+  "isc": "Brigadier Jacques Bruant, Sous-officier des Métros",
+  "iscAbbr": "Brigadier Jacques Bruant",
+  "name": "BRIGADIER JACQUES BRUANT, Sous-officier des Métros",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 10,
+      "isc": "Brigadier Jacques Bruant, Sous-officier des Métros",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 2,
+          "ava": 1,
+          "bs": 12,
+          "bts": 0,
+          "cc": 15,
+          "chars": [
+            2,
+            3,
+            5
+          ],
+          "equip": [
+            {
+              "id": 117,
+              "order": 1
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/brigadier-jacques-bruant-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 11,
+          "s": 2,
+          "str": false,
+          "type": 1,
+          "w": 1,
+          "wip": 13,
+          "name": "BRIGADIER JACQUES BRUANT, Sous-officier des Métros",
+          "notes": null,
+          "skills": [
+            {
+              "id": 29,
+              "order": 1,
+              "extra": [
+                43
+              ],
+              "q": 1
+            },
+            {
+              "id": 28,
+              "order": 2,
+              "extra": [
+                6
+              ],
+              "q": 1
+            },
+            {
+              "id": 189,
+              "order": 3,
+              "q": 1
+            },
+            {
+              "id": 164,
+              "order": 4,
+              "q": 1
+            },
+            {
+              "id": 58,
+              "order": 5,
+              "extra": [
+                33
+              ],
+              "q": 1
+            },
+            {
+              "id": 191,
+              "order": 6,
+              "extra": [
+                6
+              ],
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 29,
+          "swc": "1",
+          "weapons": [
+            {
+              "id": 157,
+              "order": 1
+            },
+            {
+              "id": 80,
+              "order": 2
+            },
+            {
+              "id": 17,
+              "order": 3
+            },
+            {
+              "id": 69,
+              "order": 4
+            },
+            {
+              "id": 5,
+              "order": 5
+            }
+          ],
+          "name": "BRIGADIER BRUANT",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 33,
+          "swc": "1",
+          "weapons": [
+            {
+              "id": 157,
+              "order": 1
+            },
+            {
+              "id": 80,
+              "order": 2
+            },
+            {
+              "id": 17,
+              "order": 3
+            },
+            {
+              "id": 69,
+              "order": 4
+            },
+            {
+              "id": 5,
+              "order": 5
+            }
+          ],
+          "name": "BRIGADIER BRUANT",
+          "skills": [
+            {
+              "id": 47,
+              "order": 2,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 3,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "LIEUTENANT",
+              "list": 0,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 29,
+          "swc": "1",
+          "weapons": [
+            {
+              "id": 157,
+              "order": 1
+            },
+            {
+              "id": 80,
+              "order": 2
+            },
+            {
+              "id": 17,
+              "order": 3
+            },
+            {
+              "id": 69,
+              "order": 4
+            },
+            {
+              "id": 5,
+              "order": 5
+            }
+          ],
+          "name": "BRIGADIER BRUANT",
+          "skills": [
+            {
+              "id": 119,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "brigadier-jacques-bruant",
+  "filters": {
+    "categories": [
+      10
+    ],
+    "skills": [
+      28,
+      29,
+      47,
+      58,
+      119,
+      164,
+      189,
+      191
+    ],
+    "equip": [
+      117
+    ],
+    "chars": [
+      2,
+      3,
+      5
+    ],
+    "types": [
+      1
+    ],
+    "weapons": [
+      5,
+      17,
+      69,
+      80,
+      157
+    ],
+    "ammunition": [
+      2,
+      3,
+      13
+    ]
+  },
+  "factions": [
+    301,
+    303
+  ],
+  "notes": "Troops with Infiltration cannot be part of a Fireteam."
+}

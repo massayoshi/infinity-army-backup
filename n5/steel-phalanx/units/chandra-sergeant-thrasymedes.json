@@ -1,0 +1,236 @@
+{
+  "id": 615,
+  "idArmy": 35,
+  "canonical": 701,
+  "isc": "Chandra Sergeant Thrasymedes",
+  "iscAbbr": null,
+  "name": "CHANDRA SERGEANT THRASYMEDES",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 10,
+      "isc": "Chandra Sergeant Thrasymedes",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 3,
+          "ava": 1,
+          "bs": 12,
+          "bts": 0,
+          "cc": 19,
+          "chars": [
+            3,
+            20
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/chandra-sergeant-thrasymedes-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 13,
+          "s": 2,
+          "str": false,
+          "type": 2,
+          "w": 1,
+          "wip": 13,
+          "name": "CHANDRA SERGEANT THRASYMEDES",
+          "notes": null,
+          "skills": [
+            {
+              "id": 250,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 84,
+              "order": 2,
+              "q": 1
+            },
+            {
+              "id": 40,
+              "order": 3,
+              "extra": [
+                11
+              ],
+              "q": 1
+            },
+            {
+              "id": 28,
+              "order": 4,
+              "extra": [
+                7
+              ],
+              "q": 1
+            },
+            {
+              "id": 59,
+              "order": 5,
+              "q": 1
+            },
+            {
+              "id": 164,
+              "order": 6,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 28,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 28,
+              "order": 1
+            },
+            {
+              "id": 25,
+              "order": 2
+            },
+            {
+              "id": 72,
+              "order": 3
+            },
+            {
+              "id": 212,
+              "order": 4
+            },
+            {
+              "id": 10,
+              "order": 5
+            }
+          ],
+          "name": "THRASYMEDES",
+          "skills": [
+            {
+              "id": 47,
+              "order": 1
+            },
+            {
+              "extra": [
+                44
+              ],
+              "id": 215,
+              "order": 2,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 117,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 28,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 214,
+              "order": 1
+            },
+            {
+              "id": 25,
+              "order": 2
+            },
+            {
+              "id": 88,
+              "order": 3
+            },
+            {
+              "id": 212,
+              "order": 4
+            },
+            {
+              "id": 10,
+              "order": 5
+            }
+          ],
+          "name": "THRASYMEDES FTO",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "chandra-sergeant-thrasymedes",
+  "filters": {
+    "categories": [
+      10
+    ],
+    "skills": [
+      28,
+      40,
+      47,
+      59,
+      84,
+      164,
+      215,
+      250
+    ],
+    "equip": [
+      117
+    ],
+    "chars": [
+      3,
+      20
+    ],
+    "types": [
+      2
+    ],
+    "weapons": [
+      10,
+      25,
+      28,
+      72,
+      88,
+      212,
+      214
+    ],
+    "ammunition": [
+      2,
+      3,
+      8,
+      14,
+      29
+    ]
+  },
+  "factions": [
+    702
+  ]
+}

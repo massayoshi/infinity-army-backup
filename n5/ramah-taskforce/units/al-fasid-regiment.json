@@ -1,0 +1,211 @@
+{
+  "id": 343,
+  "idArmy": 43,
+  "canonical": 401,
+  "isc": "Al Fasid Regiment",
+  "iscAbbr": null,
+  "name": "AL FASID Regiment",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 4,
+      "isc": "Al Fasid Regiment",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 5,
+          "ava": 3,
+          "bs": 13,
+          "bts": 6,
+          "cc": 17,
+          "chars": [
+            1,
+            3,
+            5,
+            21
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/al-fasid-regiment-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 14,
+          "s": 5,
+          "str": false,
+          "type": 3,
+          "w": 2,
+          "wip": 14,
+          "name": "AL FASID Regiment",
+          "notes": null,
+          "skills": [
+            {
+              "id": 267,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 56,
+              "order": 2
+            },
+            {
+              "id": 67,
+              "order": 3
+            },
+            {
+              "id": 162,
+              "order": 5,
+              "extra": [
+                30
+              ],
+              "q": 1
+            },
+            {
+              "id": 262,
+              "order": 6,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 49,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 2,
+              "order": 1
+            },
+            {
+              "id": 194,
+              "order": 2
+            },
+            {
+              "id": 195,
+              "order": 3
+            },
+            {
+              "id": 196,
+              "order": 4
+            },
+            {
+              "id": 107,
+              "order": 5
+            },
+            {
+              "id": 5,
+              "order": 6
+            }
+          ],
+          "name": "FASID",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 43,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 89,
+              "order": 1
+            },
+            {
+              "id": 77,
+              "order": 2
+            },
+            {
+              "id": 196,
+              "order": 3
+            },
+            {
+              "id": 107,
+              "order": 4
+            },
+            {
+              "id": 5,
+              "order": 5
+            }
+          ],
+          "name": "FASID",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "al-fasid-regiment",
+  "filters": {
+    "categories": [
+      4
+    ],
+    "skills": [
+      56,
+      67,
+      162,
+      262,
+      267
+    ],
+    "equip": [],
+    "chars": [
+      1,
+      3,
+      5,
+      21
+    ],
+    "types": [
+      3
+    ],
+    "weapons": [
+      2,
+      5,
+      77,
+      89,
+      107,
+      194,
+      195,
+      196
+    ],
+    "ammunition": [
+      2,
+      8,
+      21
+    ]
+  },
+  "factions": [
+    404,
+    904,
+    908
+  ]
+}

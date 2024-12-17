@@ -1,0 +1,241 @@
+{
+  "id": 775,
+  "idArmy": 51,
+  "canonical": 301,
+  "isc": "Blackjacks, 10th Heavy Rangers Battalion",
+  "iscAbbr": "Blackjacks",
+  "name": "BLACKJACKS, 10th Heavy Rangers Battalion",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 6,
+      "isc": "",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 5,
+          "ava": 3,
+          "bs": 13,
+          "bts": 3,
+          "cc": 15,
+          "chars": [
+            2,
+            3,
+            5,
+            21
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/blackjacks-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 10,
+          "s": 5,
+          "str": false,
+          "type": 3,
+          "w": 2,
+          "wip": 13,
+          "name": "FULL POWER",
+          "notes": null,
+          "skills": [
+            {
+              "id": 84,
+              "order": 1
+            },
+            {
+              "id": 162,
+              "order": 3,
+              "extra": [
+                30
+              ]
+            },
+            {
+              "id": 246,
+              "order": 4,
+              "extra": [
+                44
+              ],
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "arm": 4,
+          "ava": -1,
+          "bs": 12,
+          "bts": 0,
+          "cc": 14,
+          "chars": [
+            2,
+            3,
+            5,
+            21
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/blackjacks-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 9,
+          "s": 5,
+          "str": false,
+          "type": 3,
+          "w": 2,
+          "wip": 13,
+          "name": "BATTLE RAVAGED",
+          "notes": null,
+          "skills": [
+            {
+              "id": 84,
+              "order": 1
+            },
+            {
+              "id": 162,
+              "order": 3,
+              "extra": [
+                30
+              ]
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 2862,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 34,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 3,
+              "order": 1
+            },
+            {
+              "id": 147,
+              "order": 2
+            },
+            {
+              "id": 68,
+              "order": 3
+            },
+            {
+              "id": 107,
+              "order": 4
+            },
+            {
+              "id": 5,
+              "order": 5
+            }
+          ],
+          "name": "BLACKJACK",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2863,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 32,
+          "swc": "1",
+          "weapons": [
+            {
+              "id": 38,
+              "order": 1
+            },
+            {
+              "id": 77,
+              "order": 2
+            },
+            {
+              "id": 147,
+              "order": 3
+            },
+            {
+              "id": 107,
+              "order": 4
+            },
+            {
+              "id": 5,
+              "order": 5
+            }
+          ],
+          "name": "BLACKJACK",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "blackjacks",
+  "filters": {
+    "categories": [
+      6
+    ],
+    "skills": [
+      84,
+      162,
+      246
+    ],
+    "equip": [],
+    "chars": [
+      2,
+      3,
+      5,
+      21
+    ],
+    "types": [
+      3
+    ],
+    "weapons": [
+      3,
+      5,
+      38,
+      68,
+      77,
+      107,
+      147
+    ],
+    "ammunition": [
+      2,
+      3,
+      8,
+      13,
+      18
+    ]
+  },
+  "factions": [
+    304
+  ]
+}

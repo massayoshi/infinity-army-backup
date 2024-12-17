@@ -1,0 +1,230 @@
+{
+  "id": 1816,
+  "idArmy": 1816,
+  "canonical": 101,
+  "isc": "Redeye Close Air Support Squad",
+  "iscAbbr": null,
+  "name": "REDEYE Close Air Support Squad",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 5,
+      "isc": "Redeye Close Air Support Squad",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 6,
+          "ava": 2,
+          "bs": 13,
+          "bts": 6,
+          "cc": -1,
+          "chars": [
+            3,
+            5,
+            21
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/redeye-close-air-support-squad-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            20,
+            5
+          ],
+          "ph": 13,
+          "s": 7,
+          "str": true,
+          "type": 8,
+          "w": 2,
+          "wip": 13,
+          "name": "REDEYE Close Air Support Squad",
+          "notes": null,
+          "skills": [
+            {
+              "id": 265,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 84,
+              "order": 2,
+              "q": 1
+            },
+            {
+              "id": 40,
+              "order": 3,
+              "extra": [
+                6
+              ],
+              "q": 1
+            },
+            {
+              "id": 254,
+              "order": 4,
+              "extra": [
+                244
+              ],
+              "q": 1
+            },
+            {
+              "id": 28,
+              "order": 5,
+              "extra": [
+                7
+              ],
+              "q": 1
+            },
+            {
+              "id": 235,
+              "order": 6,
+              "q": 1
+            },
+            {
+              "id": 263,
+              "order": 7,
+              "extra": [
+                324
+              ],
+              "q": 1
+            },
+            {
+              "id": 74,
+              "order": 8,
+              "extra": [
+                304
+              ],
+              "q": 1
+            },
+            {
+              "id": 58,
+              "order": 9,
+              "extra": [
+                33
+              ],
+              "q": 1
+            },
+            {
+              "id": 264,
+              "order": 10,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 44,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 74,
+              "order": 1
+            },
+            {
+              "id": 18,
+              "order": 2
+            },
+            {
+              "id": 14,
+              "order": 3
+            }
+          ],
+          "name": "REDEYE",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 45,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 74,
+              "order": 1
+            },
+            {
+              "id": 18,
+              "order": 2
+            },
+            {
+              "id": 194,
+              "order": 3
+            }
+          ],
+          "name": "REDEYE",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "redeye-close-air-support-squad",
+  "filters": {
+    "categories": [
+      5
+    ],
+    "skills": [
+      28,
+      40,
+      58,
+      74,
+      84,
+      235,
+      254,
+      263,
+      264,
+      265
+    ],
+    "equip": [],
+    "chars": [
+      3,
+      5,
+      21
+    ],
+    "types": [
+      8
+    ],
+    "weapons": [
+      14,
+      18,
+      74,
+      194
+    ],
+    "ammunition": [
+      2,
+      14
+    ]
+  },
+  "factions": [
+    101,
+    107
+  ]
+}

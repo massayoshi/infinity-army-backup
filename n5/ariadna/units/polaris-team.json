@@ -1,0 +1,356 @@
+{
+  "id": 1522,
+  "idArmy": 1522,
+  "canonical": 301,
+  "isc": "Polaris Team",
+  "iscAbbr": null,
+  "name": "POLARIS TEAM",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 8,
+      "isc": "Masha, Polaris Handler",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 2,
+          "ava": 1,
+          "bs": 11,
+          "bts": 0,
+          "cc": 14,
+          "chars": [
+            3
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/team-polaris-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 11,
+          "s": 2,
+          "str": false,
+          "type": 1,
+          "w": 1,
+          "wip": 13,
+          "name": "MASHA, Polaris Handler",
+          "notes": null,
+          "skills": [],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": true,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 9,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 28,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 2
+            },
+            {
+              "id": 5,
+              "order": 3
+            }
+          ],
+          "name": "MASHA",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": 8,
+      "isc": "Polaris Bearpode",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 4,
+          "ava": 1,
+          "bs": 7,
+          "bts": 3,
+          "cc": 24,
+          "chars": [
+            3
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/team-polaris-2-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            10
+          ],
+          "ph": 16,
+          "s": 6,
+          "str": false,
+          "type": 7,
+          "w": 2,
+          "wip": 12,
+          "name": "POLARIS BEARPODE",
+          "notes": null,
+          "skills": [
+            {
+              "id": 84,
+              "order": 2
+            },
+            {
+              "id": 24,
+              "order": 3
+            },
+            {
+              "id": 85,
+              "order": 5
+            },
+            {
+              "id": 82,
+              "order": 6
+            },
+            {
+              "id": 162,
+              "order": 7,
+              "extra": [
+                319
+              ],
+              "q": 1
+            },
+            {
+              "id": 264,
+              "order": 8,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": true,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 26,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 18,
+              "order": 1
+            },
+            {
+              "id": 44,
+              "order": 2
+            },
+            {
+              "id": 45,
+              "order": 3
+            },
+            {
+              "id": 177,
+              "order": 4
+            },
+            {
+              "id": 6,
+              "order": 5
+            }
+          ],
+          "name": "POLARIS BEARPODE ALPHA",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": true,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 31,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 29,
+              "order": 1
+            },
+            {
+              "id": 45,
+              "order": 2
+            },
+            {
+              "id": 177,
+              "order": 3
+            },
+            {
+              "id": 6,
+              "order": 4
+            }
+          ],
+          "name": "POLARIS BEARPODE BETA",
+          "skills": [
+            {
+              "extra": [
+                310
+              ],
+              "id": 201,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [
+    {
+      "chars": [],
+      "compatible": null,
+      "disabled": false,
+      "equip": [],
+      "habilities": [],
+      "id": 1,
+      "includes": [
+        {
+          "group": 1,
+          "option": 1,
+          "q": 1
+        },
+        {
+          "group": 2,
+          "option": 1,
+          "q": 1
+        }
+      ],
+      "minis": 2,
+      "name": "POLARIS TEAM ALPHA",
+      "orders": [
+        {
+          "list": 2,
+          "total": 2,
+          "type": "REGULAR"
+        }
+      ],
+      "peripheral": [],
+      "points": 35,
+      "skills": [],
+      "swc": "0",
+      "weapons": []
+    },
+    {
+      "chars": [],
+      "compatible": null,
+      "disabled": false,
+      "equip": [],
+      "habilities": [],
+      "id": 2,
+      "includes": [
+        {
+          "group": 1,
+          "option": 1,
+          "q": 1
+        },
+        {
+          "group": 2,
+          "option": 2,
+          "q": 1
+        }
+      ],
+      "minis": 2,
+      "name": "POLARIS TEAM BETA",
+      "orders": [
+        {
+          "list": 2,
+          "total": 2,
+          "type": "REGULAR"
+        }
+      ],
+      "peripheral": [],
+      "points": 40,
+      "skills": [],
+      "swc": "0",
+      "weapons": []
+    }
+  ],
+  "slug": "polaris-team",
+  "filters": {
+    "categories": [
+      8
+    ],
+    "skills": [
+      24,
+      82,
+      84,
+      85,
+      162,
+      201,
+      264
+    ],
+    "equip": [],
+    "chars": [
+      3
+    ],
+    "types": [
+      1,
+      7
+    ],
+    "weapons": [
+      5,
+      6,
+      18,
+      28,
+      29,
+      44,
+      45,
+      69,
+      177
+    ],
+    "ammunition": [
+      2,
+      3,
+      9,
+      21
+    ]
+  },
+  "factions": [
+    301,
+    306
+  ],
+  "notes": "NOTE: A Polaris Team is composed of 1 Polaris Bearpode and 1 Masha. Both must belong to the same Combat Group."
+}

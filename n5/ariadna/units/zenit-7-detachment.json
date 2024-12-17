@@ -1,0 +1,253 @@
+{
+  "id": 1519,
+  "idArmy": 1519,
+  "canonical": 301,
+  "isc": "Zenit-7 Detachment",
+  "iscAbbr": null,
+  "name": "ZENIT-7 Detachment",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 5,
+      "isc": "Zenit-7 Detachment",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 2,
+          "ava": 1,
+          "bs": 12,
+          "bts": 0,
+          "cc": 14,
+          "chars": [
+            2,
+            3,
+            5
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/zenit-7-detachment.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 10,
+          "s": 2,
+          "str": false,
+          "type": 1,
+          "w": 1,
+          "wip": 13,
+          "name": "ZENIT-7 Detachment",
+          "notes": null,
+          "skills": [
+            {
+              "id": 191,
+              "order": 1,
+              "extra": [
+                6
+              ]
+            },
+            {
+              "id": 201,
+              "order": 3,
+              "extra": [
+                30
+              ]
+            },
+            {
+              "id": 29,
+              "order": 4
+            },
+            {
+              "id": 28,
+              "order": 5,
+              "extra": [
+                6
+              ]
+            },
+            {
+              "id": 215,
+              "order": 6,
+              "extra": [
+                44
+              ]
+            },
+            {
+              "id": 164,
+              "order": 7
+            },
+            {
+              "id": 201,
+              "order": 8,
+              "extra": [
+                305
+              ],
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 25,
+          "swc": "0.5",
+          "weapons": [
+            {
+              "id": 85,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 2
+            },
+            {
+              "id": 5,
+              "order": 3
+            }
+          ],
+          "name": "ZENIT-7",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 3,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 30,
+          "swc": "0.5",
+          "weapons": [
+            {
+              "id": 85,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 2
+            },
+            {
+              "id": 5,
+              "order": 3
+            }
+          ],
+          "name": "ZENIT-7",
+          "skills": [
+            {
+              "id": 26,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 4,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 27,
+          "swc": "1",
+          "weapons": [
+            {
+              "id": 35,
+              "order": 1
+            },
+            {
+              "id": 28,
+              "order": 2
+            },
+            {
+              "id": 69,
+              "order": 4
+            },
+            {
+              "id": 5,
+              "order": 5
+            }
+          ],
+          "name": "ZENIT-7",
+          "skills": [
+            {
+              "id": 59,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "zenit-7-detachment",
+  "filters": {
+    "categories": [
+      5
+    ],
+    "skills": [
+      26,
+      28,
+      29,
+      59,
+      164,
+      191,
+      201,
+      215
+    ],
+    "equip": [],
+    "chars": [
+      2,
+      3,
+      5
+    ],
+    "types": [
+      1
+    ],
+    "weapons": [
+      5,
+      28,
+      35,
+      69,
+      85
+    ],
+    "ammunition": [
+      2,
+      3
+    ]
+  },
+  "factions": [
+    301,
+    306
+  ]
+}

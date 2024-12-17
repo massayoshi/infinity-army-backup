@@ -1,0 +1,491 @@
+{
+  "id": 34,
+  "idArmy": 34,
+  "canonical": 101,
+  "isc": "Seraphs",
+  "iscAbbr": null,
+  "name": "SERAPHS, Armoured Cavalry of Military Order",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 7,
+      "isc": "Seraphs",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 7,
+          "ava": 2,
+          "bs": 15,
+          "bts": 6,
+          "cc": 23,
+          "chars": [
+            3,
+            5,
+            21
+          ],
+          "equip": [
+            {
+              "extra": [
+                7
+              ],
+              "id": 239,
+              "order": 1
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/seraphs-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            10
+          ],
+          "ph": 16,
+          "s": 7,
+          "str": true,
+          "type": 4,
+          "w": 3,
+          "wip": 13,
+          "name": "SERAPHS, Armoured Cavalry of Military Order",
+          "notes": null,
+          "skills": [
+            {
+              "id": 19,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 201,
+              "order": 2,
+              "extra": [
+                305
+              ],
+              "q": 1
+            },
+            {
+              "id": 40,
+              "order": 3,
+              "extra": [
+                23
+              ],
+              "q": 1
+            },
+            {
+              "id": 235,
+              "order": 4,
+              "q": 1
+            },
+            {
+              "id": 213,
+              "order": 5,
+              "q": 1
+            },
+            {
+              "id": 211,
+              "order": 6,
+              "q": 1
+            },
+            {
+              "id": 74,
+              "order": 7,
+              "extra": [
+                324
+              ],
+              "q": 1
+            },
+            {
+              "id": 74,
+              "order": 8,
+              "extra": [
+                304
+              ],
+              "q": 1
+            },
+            {
+              "id": 83,
+              "order": 9,
+              "q": 1
+            },
+            {
+              "id": 40,
+              "order": 10,
+              "extra": [
+                250
+              ],
+              "q": 1
+            },
+            {
+              "id": 254,
+              "order": 11,
+              "extra": [
+                52
+              ],
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "TACTICAL",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [
+            {
+              "group": 2,
+              "option": 1,
+              "q": 1
+            },
+            {
+              "group": 3,
+              "option": 1,
+              "q": 1
+            }
+          ],
+          "points": 72,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 157,
+              "order": 1
+            },
+            {
+              "id": 145,
+              "order": 2
+            },
+            {
+              "id": 8,
+              "order": 3
+            }
+          ],
+          "name": "SERAPH",
+          "skills": [],
+          "peripheral": [
+            {
+              "id": 7
+            },
+            {
+              "id": 6
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "TACTICAL",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [
+            {
+              "group": 3,
+              "option": 1,
+              "q": 1
+            }
+          ],
+          "points": 74,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 4,
+              "order": 1
+            },
+            {
+              "id": 145,
+              "order": 2
+            },
+            {
+              "id": 8,
+              "order": 3
+            }
+          ],
+          "name": "SERAPH",
+          "skills": [],
+          "peripheral": [
+            {
+              "id": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": 0,
+      "isc": "",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 0,
+          "ava": -1,
+          "bs": 10,
+          "bts": 3,
+          "cc": 13,
+          "chars": [
+            21,
+            27
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/seraphs-2-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            10
+          ],
+          "ph": 10,
+          "s": 1,
+          "str": true,
+          "type": 5,
+          "w": 1,
+          "wip": 11,
+          "name": "AUXBOT_2",
+          "notes": null,
+          "skills": [
+            {
+              "id": 243,
+              "order": 1,
+              "extra": [
+                40
+              ]
+            },
+            {
+              "id": 84,
+              "order": 2,
+              "q": 1
+            },
+            {
+              "id": 74,
+              "order": 3,
+              "extra": [
+                324
+              ],
+              "q": 1
+            },
+            {
+              "id": 74,
+              "order": 4,
+              "extra": [
+                304
+              ],
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": true,
+          "equip": [],
+          "minis": 1,
+          "orders": [],
+          "includes": [],
+          "points": 4,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 57,
+              "order": 1
+            },
+            {
+              "id": 71,
+              "order": 2
+            }
+          ],
+          "name": "AUXBOT_2",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "category": 0,
+      "isc": "Crabbot Ancillary Remote Unit",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 0,
+          "ava": -1,
+          "bs": -1,
+          "bts": 3,
+          "cc": -1,
+          "chars": [
+            21,
+            27
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/seraphs-3-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            10
+          ],
+          "ph": 10,
+          "s": 1,
+          "str": true,
+          "type": 5,
+          "w": 1,
+          "wip": 12,
+          "name": "Crabbot Ancillary Remote Unit",
+          "notes": null,
+          "skills": [
+            {
+              "id": 84,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 40,
+              "order": 2,
+              "extra": [
+                1
+              ],
+              "q": 1
+            },
+            {
+              "id": 28,
+              "order": 3,
+              "extra": [
+                6
+              ],
+              "q": 1
+            },
+            {
+              "id": 189,
+              "order": 4,
+              "q": 1
+            },
+            {
+              "id": 243,
+              "order": 5,
+              "extra": [
+                322
+              ],
+              "q": 1
+            },
+            {
+              "id": 74,
+              "order": 6,
+              "extra": [
+                324
+              ],
+              "q": 1
+            },
+            {
+              "id": 74,
+              "order": 7,
+              "extra": [
+                304
+              ],
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": true,
+          "equip": [],
+          "minis": 1,
+          "orders": [],
+          "includes": [],
+          "points": 2,
+          "swc": "0",
+          "weapons": [],
+          "name": "CRABBOT",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "seraphs",
+  "filters": {
+    "categories": [
+      7
+    ],
+    "skills": [
+      19,
+      28,
+      40,
+      74,
+      83,
+      84,
+      189,
+      201,
+      211,
+      213,
+      235,
+      243,
+      254
+    ],
+    "equip": [
+      239
+    ],
+    "chars": [
+      3,
+      5,
+      21,
+      27
+    ],
+    "types": [
+      4,
+      5
+    ],
+    "weapons": [
+      4,
+      8,
+      57,
+      71,
+      145,
+      157
+    ],
+    "ammunition": [
+      2,
+      3,
+      6,
+      8,
+      37
+    ]
+  },
+  "factions": [
+    103
+  ]
+}

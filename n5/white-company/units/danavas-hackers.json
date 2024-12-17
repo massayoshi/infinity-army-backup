@@ -1,0 +1,145 @@
+{
+  "id": 950,
+  "idArmy": 57,
+  "canonical": 701,
+  "isc": "Danavas Hackers",
+  "iscAbbr": null,
+  "name": "DANAVAS Hackers",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 2,
+      "isc": "Danavas Hackers",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 1,
+          "ava": 1,
+          "bs": 11,
+          "bts": 3,
+          "cc": 15,
+          "chars": [
+            3,
+            5,
+            20
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/danavas-hackers-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 11,
+          "s": 2,
+          "str": false,
+          "type": 1,
+          "w": 1,
+          "wip": 15,
+          "name": "DANAVAS Hackers",
+          "notes": null,
+          "skills": [
+            {
+              "id": 84,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "extra": [
+                269
+              ],
+              "id": 101,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 22,
+          "swc": "0.5",
+          "weapons": [
+            {
+              "id": 33,
+              "order": 1
+            },
+            {
+              "id": 154,
+              "order": 2
+            },
+            {
+              "id": 98,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            }
+          ],
+          "name": "DANAVAS",
+          "skills": [
+            {
+              "id": 1000,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "danavas-hackers",
+  "filters": {
+    "categories": [
+      2
+    ],
+    "skills": [
+      84,
+      1000
+    ],
+    "equip": [
+      101
+    ],
+    "chars": [
+      3,
+      5,
+      20
+    ],
+    "types": [
+      1
+    ],
+    "weapons": [
+      5,
+      33,
+      98,
+      154
+    ],
+    "ammunition": [
+      2,
+      3
+    ]
+  },
+  "factions": [
+    701,
+    703,
+    909
+  ]
+}

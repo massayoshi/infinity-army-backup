@@ -1,0 +1,377 @@
+{
+  "id": 258,
+  "idArmy": 32,
+  "canonical": 301,
+  "isc": "Equipe Mirage-5",
+  "iscAbbr": null,
+  "name": "EQUIPE MIRAGE-5",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 10,
+      "isc": "Lieutenant Margot Berthier",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 3,
+          "ava": 1,
+          "bs": 14,
+          "bts": 3,
+          "cc": 16,
+          "chars": [
+            3,
+            5,
+            24
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/equipe-mirage-5-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 12,
+          "s": 2,
+          "str": false,
+          "type": 3,
+          "w": 1,
+          "wip": 13,
+          "name": "Lieutenant MARGOT BERTHIER",
+          "notes": null,
+          "skills": [
+            {
+              "id": 201,
+              "order": 1,
+              "extra": [
+                30
+              ]
+            },
+            {
+              "id": 162,
+              "order": 2,
+              "extra": [
+                30
+              ]
+            },
+            {
+              "id": 58,
+              "order": 3,
+              "extra": [
+                33
+              ]
+            },
+            {
+              "id": 33,
+              "order": 4,
+              "extra": [
+                48
+              ]
+            },
+            {
+              "id": 28,
+              "order": 5,
+              "extra": [
+                6
+              ],
+              "q": 1
+            },
+            {
+              "id": 211,
+              "order": 6,
+              "q": 1
+            },
+            {
+              "id": 189,
+              "order": 7,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": true,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 33,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 32,
+              "order": 1
+            },
+            {
+              "id": 194,
+              "order": 2
+            },
+            {
+              "id": 28,
+              "order": 3
+            },
+            {
+              "id": 17,
+              "order": 4
+            },
+            {
+              "id": 69,
+              "order": 5
+            },
+            {
+              "id": 5,
+              "order": 6
+            }
+          ],
+          "name": "MARGOT",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": 10,
+      "isc": "Sergent Duroc",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 3,
+          "ava": 1,
+          "bs": 10,
+          "bts": 3,
+          "cc": 23,
+          "chars": [
+            2,
+            4,
+            6
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/equipe-mirage-5-2-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            10
+          ],
+          "ph": 16,
+          "s": 6,
+          "str": false,
+          "type": 7,
+          "w": 2,
+          "wip": 13,
+          "name": "Sergent DUROC",
+          "notes": null,
+          "skills": [
+            {
+              "id": 20,
+              "order": 1
+            },
+            {
+              "id": 84,
+              "order": 2
+            },
+            {
+              "id": 40,
+              "order": 3,
+              "extra": [
+                11
+              ]
+            },
+            {
+              "id": 33,
+              "order": 5,
+              "extra": [
+                48
+              ]
+            },
+            {
+              "id": 74,
+              "order": 6,
+              "q": 1
+            },
+            {
+              "id": 256,
+              "order": 7,
+              "q": 1
+            },
+            {
+              "id": 162,
+              "order": 8,
+              "extra": [
+                319
+              ],
+              "q": 1
+            },
+            {
+              "id": 264,
+              "order": 9,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": true,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "IRREGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "IMPETUOUS",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 25,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 18,
+              "order": 1
+            },
+            {
+              "id": 44,
+              "order": 2
+            },
+            {
+              "id": 45,
+              "order": 3
+            },
+            {
+              "id": 6,
+              "order": 4
+            }
+          ],
+          "name": "DUROC",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [
+    {
+      "chars": [],
+      "compatible": null,
+      "disabled": false,
+      "equip": [],
+      "habilities": [],
+      "id": 1,
+      "includes": [
+        {
+          "group": 1,
+          "option": 1,
+          "q": 1
+        },
+        {
+          "group": 2,
+          "option": 1,
+          "q": 1
+        }
+      ],
+      "minis": 2,
+      "name": "EQUIPE MIRAGE-5 (MARGOT \u0026 DUROC)",
+      "orders": [
+        {
+          "list": 1,
+          "total": 1,
+          "type": "REGULAR"
+        },
+        {
+          "list": 1,
+          "total": 1,
+          "type": "IRREGULAR"
+        },
+        {
+          "list": 1,
+          "total": 1,
+          "type": "IMPETUOUS"
+        }
+      ],
+      "peripheral": [],
+      "points": 58,
+      "skills": [],
+      "swc": "2",
+      "weapons": []
+    }
+  ],
+  "slug": "equipe-mirage-5",
+  "filters": {
+    "categories": [
+      10
+    ],
+    "skills": [
+      20,
+      28,
+      33,
+      40,
+      58,
+      74,
+      84,
+      162,
+      189,
+      201,
+      211,
+      256,
+      264
+    ],
+    "equip": [],
+    "chars": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      24
+    ],
+    "types": [
+      3,
+      7
+    ],
+    "weapons": [
+      5,
+      6,
+      17,
+      18,
+      28,
+      32,
+      44,
+      45,
+      69,
+      194
+    ],
+    "ammunition": [
+      2,
+      3,
+      13,
+      21
+    ]
+  },
+  "factions": [
+    301,
+    303,
+    306
+  ]
+}

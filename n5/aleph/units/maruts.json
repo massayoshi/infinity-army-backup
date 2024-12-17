@@ -1,0 +1,383 @@
+{
+  "id": 585,
+  "idArmy": 5,
+  "canonical": 701,
+  "isc": "Maruts",
+  "iscAbbr": null,
+  "name": "MARUTS",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 12,
+      "isc": "Maruts",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 8,
+          "ava": 1,
+          "bs": 15,
+          "bts": 9,
+          "cc": 18,
+          "chars": [
+            3,
+            5,
+            21
+          ],
+          "equip": [
+            {
+              "extra": [
+                7
+              ],
+              "id": 239,
+              "order": 1
+            },
+            {
+              "id": 115,
+              "order": 2
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/maruts-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            10
+          ],
+          "ph": 17,
+          "s": 7,
+          "str": true,
+          "type": 4,
+          "w": 3,
+          "wip": 15,
+          "name": "MARUTS",
+          "notes": null,
+          "skills": [
+            {
+              "id": 235,
+              "order": 1
+            },
+            {
+              "id": 84,
+              "order": 3
+            },
+            {
+              "id": 40,
+              "order": 4,
+              "extra": [
+                27
+              ]
+            },
+            {
+              "id": 254,
+              "order": 6,
+              "extra": [
+                52
+              ]
+            },
+            {
+              "id": 213,
+              "order": 7
+            },
+            {
+              "id": 58,
+              "order": 8,
+              "extra": [
+                33
+              ]
+            },
+            {
+              "id": 240,
+              "order": 9,
+              "extra": [
+                8
+              ],
+              "q": 1
+            },
+            {
+              "id": 201,
+              "order": 10,
+              "extra": [
+                305
+              ],
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "TACTICAL",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [
+            {
+              "group": 2,
+              "option": 1,
+              "q": 1
+            }
+          ],
+          "points": 86,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 4,
+              "order": 1
+            },
+            {
+              "id": 57,
+              "order": 2
+            },
+            {
+              "id": 6,
+              "order": 4
+            },
+            {
+              "id": 145,
+              "order": 5
+            }
+          ],
+          "name": "MARUT",
+          "skills": [],
+          "peripheral": [
+            {
+              "id": 1
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "TACTICAL",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "LIEUTENANT",
+              "list": 0,
+              "total": 1
+            }
+          ],
+          "includes": [
+            {
+              "group": 2,
+              "option": 1,
+              "q": 1
+            }
+          ],
+          "points": 90,
+          "swc": "2",
+          "weapons": [
+            {
+              "id": 4,
+              "order": 1
+            },
+            {
+              "id": 57,
+              "order": 2
+            },
+            {
+              "id": 6,
+              "order": 4
+            },
+            {
+              "id": 145,
+              "order": 5
+            }
+          ],
+          "name": "MARUT",
+          "skills": [
+            {
+              "id": 119,
+              "order": 1
+            },
+            {
+              "id": 70,
+              "order": 2
+            }
+          ],
+          "peripheral": [
+            {
+              "id": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": 0,
+      "isc": "Karkata Ancillary Remote Unit",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 0,
+          "ava": -1,
+          "bs": -1,
+          "bts": 3,
+          "cc": -1,
+          "chars": [
+            21,
+            27
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/maruts-2-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            10
+          ],
+          "ph": 10,
+          "s": 1,
+          "str": true,
+          "type": 5,
+          "w": 1,
+          "wip": 12,
+          "name": "KARKATA Ancillary Remote Unit",
+          "notes": null,
+          "skills": [
+            {
+              "id": 84,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 40,
+              "order": 2,
+              "extra": [
+                1
+              ],
+              "q": 1
+            },
+            {
+              "id": 28,
+              "order": 3,
+              "extra": [
+                6
+              ],
+              "q": 1
+            },
+            {
+              "id": 189,
+              "order": 4,
+              "q": 1
+            },
+            {
+              "id": 58,
+              "order": 5,
+              "extra": [
+                33
+              ],
+              "q": 1
+            },
+            {
+              "id": 243,
+              "order": 6,
+              "extra": [
+                322
+              ],
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": true,
+          "equip": [],
+          "minis": 1,
+          "orders": [],
+          "includes": [],
+          "points": 3,
+          "swc": "0",
+          "weapons": [],
+          "name": "KARKATA",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "maruts",
+  "filters": {
+    "categories": [
+      12
+    ],
+    "skills": [
+      28,
+      40,
+      58,
+      70,
+      84,
+      119,
+      189,
+      201,
+      213,
+      235,
+      240,
+      243,
+      254
+    ],
+    "equip": [
+      115,
+      239
+    ],
+    "chars": [
+      3,
+      5,
+      21,
+      27
+    ],
+    "types": [
+      4,
+      5
+    ],
+    "weapons": [
+      4,
+      6,
+      57,
+      145
+    ],
+    "ammunition": [
+      2,
+      3,
+      6,
+      8
+    ]
+  },
+  "factions": [
+    701,
+    703
+  ]
+}

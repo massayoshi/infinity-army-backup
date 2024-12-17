@@ -1,0 +1,343 @@
+{
+  "id": 1458,
+  "idArmy": 12,
+  "canonical": 1001,
+  "isc": "Zeta Unit",
+  "iscAbbr": null,
+  "name": "ZETA UNIT",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 7,
+      "isc": "Zeta Unit",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 8,
+          "ava": 1,
+          "bs": 14,
+          "bts": 6,
+          "cc": 17,
+          "chars": [
+            2,
+            3,
+            5,
+            21
+          ],
+          "equip": [
+            {
+              "extra": [
+                251
+              ],
+              "id": 239,
+              "order": 1
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/zeta-unit-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            10
+          ],
+          "ph": 16,
+          "s": 7,
+          "str": true,
+          "type": 4,
+          "w": 3,
+          "wip": 13,
+          "name": "ZETA UNIT",
+          "notes": null,
+          "skills": [
+            {
+              "id": 235,
+              "order": 1
+            },
+            {
+              "id": 40,
+              "order": 3,
+              "extra": [
+                27
+              ]
+            },
+            {
+              "id": 82,
+              "order": 5
+            },
+            {
+              "id": 84,
+              "order": 6
+            },
+            {
+              "id": 254,
+              "order": 8,
+              "extra": [
+                52
+              ],
+              "q": 1
+            },
+            {
+              "id": 201,
+              "order": 9,
+              "extra": [
+                305
+              ],
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [
+            {
+              "group": 2,
+              "option": 1,
+              "q": 1
+            }
+          ],
+          "points": 73,
+          "swc": "2",
+          "weapons": [
+            {
+              "id": 15,
+              "order": 1
+            },
+            {
+              "id": 188,
+              "order": 2
+            },
+            {
+              "id": 6,
+              "order": 3
+            }
+          ],
+          "name": "ZETA",
+          "skills": [
+            {
+              "id": 211,
+              "order": 1
+            }
+          ],
+          "peripheral": [
+            {
+              "id": 134
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "LIEUTENANT",
+              "list": 0,
+              "total": 1
+            }
+          ],
+          "includes": [
+            {
+              "group": 2,
+              "option": 1,
+              "q": 1
+            }
+          ],
+          "points": 70,
+          "swc": "2",
+          "weapons": [
+            {
+              "id": 15,
+              "order": 1
+            },
+            {
+              "id": 188,
+              "order": 2
+            },
+            {
+              "id": 6,
+              "order": 3
+            }
+          ],
+          "name": "ZETA",
+          "skills": [
+            {
+              "id": 119,
+              "order": 1
+            }
+          ],
+          "peripheral": [
+            {
+              "id": 134
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": 0,
+      "isc": "Zetbot Ancillary Remote Unit",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 0,
+          "ava": -1,
+          "bs": -1,
+          "bts": 3,
+          "cc": -1,
+          "chars": [
+            21,
+            27
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/zeta-unit-2-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            10
+          ],
+          "ph": 10,
+          "s": 1,
+          "str": true,
+          "type": 5,
+          "w": 1,
+          "wip": 12,
+          "name": "ZETBOT Ancillary Remote Unit",
+          "notes": null,
+          "skills": [
+            {
+              "id": 84,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 40,
+              "order": 2,
+              "extra": [
+                1
+              ],
+              "q": 1
+            },
+            {
+              "id": 28,
+              "order": 3,
+              "extra": [
+                6
+              ],
+              "q": 1
+            },
+            {
+              "id": 189,
+              "order": 4,
+              "q": 1
+            },
+            {
+              "id": 82,
+              "order": 5,
+              "q": 1
+            },
+            {
+              "id": 243,
+              "order": 6,
+              "extra": [
+                322
+              ],
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": true,
+          "equip": [],
+          "minis": 1,
+          "orders": [],
+          "includes": [],
+          "points": 3,
+          "swc": "0",
+          "weapons": [],
+          "name": "ZETBOT",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "zeta-unit",
+  "filters": {
+    "categories": [
+      7
+    ],
+    "skills": [
+      28,
+      40,
+      82,
+      84,
+      119,
+      189,
+      201,
+      211,
+      235,
+      243,
+      254
+    ],
+    "equip": [
+      239
+    ],
+    "chars": [
+      2,
+      3,
+      5,
+      21,
+      27
+    ],
+    "types": [
+      4,
+      5
+    ],
+    "weapons": [
+      6,
+      15,
+      188
+    ],
+    "ammunition": [
+      3,
+      8,
+      9,
+      37
+    ]
+  },
+  "factions": [
+    1001,
+    1002
+  ]
+}

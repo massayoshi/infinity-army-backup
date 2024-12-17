@@ -1,0 +1,154 @@
+{
+  "id": 1296,
+  "idArmy": 62,
+  "canonical": 601,
+  "isc": "Taigha Creatures",
+  "iscAbbr": null,
+  "name": "TAIGHA Creatures",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 8,
+      "isc": "Taigha Creatures",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 0,
+          "ava": 4,
+          "bs": 9,
+          "bts": 0,
+          "cc": 21,
+          "chars": [
+            2,
+            4,
+            6
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/taigha-creatures-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            10
+          ],
+          "ph": 13,
+          "s": 1,
+          "str": false,
+          "type": 7,
+          "w": 1,
+          "wip": 12,
+          "name": "TAIGHA Creatures",
+          "notes": null,
+          "skills": [
+            {
+              "id": 24,
+              "order": 1
+            },
+            {
+              "id": 40,
+              "order": 2,
+              "extra": [
+                1
+              ]
+            },
+            {
+              "id": 40,
+              "order": 3,
+              "extra": [
+                23
+              ]
+            },
+            {
+              "id": 67,
+              "order": 4
+            },
+            {
+              "id": 256,
+              "order": 5,
+              "q": 1
+            },
+            {
+              "id": 84,
+              "order": 6,
+              "q": 1
+            },
+            {
+              "id": 264,
+              "order": 7,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "IRREGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "IMPETUOUS",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 6,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 13,
+              "order": 1
+            }
+          ],
+          "name": "TAIGHA",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "taigha-creatures",
+  "filters": {
+    "categories": [
+      8
+    ],
+    "skills": [
+      24,
+      40,
+      67,
+      84,
+      256,
+      264
+    ],
+    "equip": [],
+    "chars": [
+      2,
+      4,
+      6
+    ],
+    "types": [
+      7
+    ],
+    "weapons": [
+      13
+    ],
+    "ammunition": [
+      2
+    ]
+  },
+  "factions": [
+    601,
+    603
+  ]
+}

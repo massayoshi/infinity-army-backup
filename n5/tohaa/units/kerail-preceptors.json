@@ -1,0 +1,545 @@
+{
+  "id": 1553,
+  "idArmy": 1553,
+  "canonical": 801,
+  "isc": "Kerail Preceptors",
+  "iscAbbr": null,
+  "name": "KERAIL PRECEPTOR",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 8,
+      "isc": "",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 1,
+          "ava": 2,
+          "bs": 11,
+          "bts": 3,
+          "cc": 21,
+          "chars": [
+            1,
+            3,
+            5
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/kerail-preceptors-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            10
+          ],
+          "ph": 11,
+          "s": 2,
+          "str": false,
+          "type": 1,
+          "w": 2,
+          "wip": 13,
+          "name": "KERAIL Preceptors",
+          "notes": null,
+          "skills": [
+            {
+              "id": 162,
+              "order": 1,
+              "extra": [
+                30
+              ]
+            },
+            {
+              "id": 240,
+              "order": 3,
+              "extra": [
+                7
+              ],
+              "q": 1
+            },
+            {
+              "id": 246,
+              "order": 4,
+              "extra": [
+                44
+              ],
+              "q": 1
+            },
+            {
+              "id": 74,
+              "order": 5,
+              "extra": [
+                324
+              ],
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "arm": 0,
+          "ava": -1,
+          "bs": 11,
+          "bts": 0,
+          "cc": 21,
+          "chars": [
+            1,
+            3,
+            5
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/kerail-preceptors-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 10,
+          "s": 2,
+          "str": false,
+          "type": 1,
+          "w": 2,
+          "wip": 13,
+          "name": "Inactive Symbiont Armor",
+          "notes": null,
+          "skills": [
+            {
+              "id": 162,
+              "order": 1,
+              "extra": [
+                30
+              ]
+            },
+            {
+              "id": 240,
+              "order": 2,
+              "extra": [
+                6
+              ],
+              "q": 1
+            },
+            {
+              "id": 74,
+              "order": 3,
+              "extra": [
+                324
+              ],
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [
+            {
+              "group": 2,
+              "option": 1,
+              "q": 1
+            }
+          ],
+          "points": 25,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 77,
+              "order": 1
+            },
+            {
+              "id": 45,
+              "order": 2
+            },
+            {
+              "id": 221,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 5
+            }
+          ],
+          "name": "KERAIL PRECEPTOR",
+          "skills": [],
+          "peripheral": [
+            {
+              "id": 76
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [
+            {
+              "group": 2,
+              "option": 1,
+              "q": 2
+            }
+          ],
+          "points": 33,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 77,
+              "order": 1
+            },
+            {
+              "id": 45,
+              "order": 2
+            },
+            {
+              "id": 221,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            }
+          ],
+          "name": "KERAIL PRECEPTOR",
+          "skills": [],
+          "peripheral": [
+            {
+              "id": 76,
+              "q": 2
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [
+            {
+              "group": 3,
+              "option": 1,
+              "q": 1
+            }
+          ],
+          "points": 30,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 77,
+              "order": 1
+            },
+            {
+              "id": 45,
+              "order": 5
+            },
+            {
+              "id": 221,
+              "order": 6
+            },
+            {
+              "id": 5,
+              "order": 7
+            }
+          ],
+          "name": "KERAIL PRECEPTOR",
+          "skills": [],
+          "peripheral": [
+            {
+              "id": 77
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": 0,
+      "isc": "Surda SymbioBeasts",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 0,
+          "ava": -1,
+          "bs": 8,
+          "bts": 3,
+          "cc": 22,
+          "chars": [
+            27
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/kerail-preceptors-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            10
+          ],
+          "ph": 15,
+          "s": 3,
+          "str": false,
+          "type": 7,
+          "w": 1,
+          "wip": 10,
+          "name": "SURDA SYMBIOBEAST",
+          "notes": null,
+          "skills": [
+            {
+              "id": 240,
+              "order": 1,
+              "extra": [
+                6
+              ]
+            },
+            {
+              "id": 84,
+              "order": 2
+            },
+            {
+              "id": 40,
+              "order": 3,
+              "extra": [
+                1
+              ]
+            },
+            {
+              "id": 40,
+              "order": 4,
+              "extra": [
+                23
+              ]
+            },
+            {
+              "id": 243,
+              "order": 5,
+              "extra": [
+                40
+              ]
+            },
+            {
+              "id": 74,
+              "order": 6,
+              "extra": [
+                324
+              ],
+              "q": 1
+            },
+            {
+              "id": 85,
+              "order": 7
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": true,
+          "equip": [],
+          "minis": 1,
+          "orders": [],
+          "includes": [],
+          "points": 8,
+          "swc": "-",
+          "weapons": [
+            {
+              "id": 145,
+              "order": 1
+            },
+            {
+              "id": 13,
+              "order": 2
+            }
+          ],
+          "name": "SURDA SYMBIOBEAST",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "category": 0,
+      "isc": "Mutan SymbioBeasts",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 0,
+          "ava": -1,
+          "bs": 11,
+          "bts": 3,
+          "cc": 20,
+          "chars": [
+            27
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/kerail-preceptors-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            10
+          ],
+          "ph": 14,
+          "s": 3,
+          "str": false,
+          "type": 7,
+          "w": 1,
+          "wip": 10,
+          "name": "MUTAN SYMBIOBEAST",
+          "notes": null,
+          "skills": [
+            {
+              "id": 84,
+              "order": 1
+            },
+            {
+              "id": 40,
+              "order": 2,
+              "extra": [
+                1
+              ]
+            },
+            {
+              "id": 40,
+              "order": 3,
+              "extra": [
+                23
+              ]
+            },
+            {
+              "id": 243,
+              "order": 4,
+              "extra": [
+                40
+              ]
+            },
+            {
+              "id": 74,
+              "order": 5,
+              "extra": [
+                324
+              ],
+              "q": 1
+            },
+            {
+              "id": 85,
+              "order": 6
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": true,
+          "equip": [],
+          "minis": 1,
+          "orders": [],
+          "includes": [],
+          "points": 13,
+          "swc": "-",
+          "weapons": [
+            {
+              "id": 19,
+              "order": 1
+            },
+            {
+              "id": 145,
+              "order": 2
+            },
+            {
+              "id": 6,
+              "order": 3
+            }
+          ],
+          "name": "MUTAN SYMBIOBEAST",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "kerail-preceptors",
+  "filters": {
+    "categories": [
+      8
+    ],
+    "skills": [
+      40,
+      74,
+      84,
+      85,
+      162,
+      240,
+      243,
+      246
+    ],
+    "equip": [],
+    "chars": [
+      1,
+      3,
+      5,
+      27
+    ],
+    "types": [
+      1,
+      7
+    ],
+    "weapons": [
+      5,
+      6,
+      13,
+      19,
+      45,
+      77,
+      145,
+      221
+    ],
+    "ammunition": [
+      2,
+      3,
+      8,
+      18,
+      21
+    ]
+  },
+  "factions": [
+    801,
+    906
+  ]
+}

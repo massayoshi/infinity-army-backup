@@ -1,0 +1,200 @@
+{
+  "id": 330,
+  "idArmy": 30,
+  "canonical": 401,
+  "isc": "Special Deterrance Group Azra'il",
+  "iscAbbr": "Azra'il",
+  "name": "Special Deterrance Group AZRA'IL",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 4,
+      "isc": "Special Deterrance Group Azra'il",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 5,
+          "ava": 3,
+          "bs": 13,
+          "bts": 3,
+          "cc": 15,
+          "chars": [
+            1,
+            3,
+            5,
+            21
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/azra-il-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 11,
+          "s": 5,
+          "str": false,
+          "type": 3,
+          "w": 2,
+          "wip": 14,
+          "name": "Special Deterrance Group AZRA'IL",
+          "notes": null,
+          "skills": [
+            {
+              "id": 201,
+              "order": 1,
+              "extra": [
+                305
+              ],
+              "q": 1
+            },
+            {
+              "id": 201,
+              "order": 2,
+              "extra": [
+                292
+              ],
+              "q": 1
+            },
+            {
+              "id": 162,
+              "order": 5,
+              "extra": [
+                30
+              ],
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 37,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 3,
+              "order": 1
+            },
+            {
+              "id": 18,
+              "order": 2
+            },
+            {
+              "id": 100,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            }
+          ],
+          "name": "AZRA'IL",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 41,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 30,
+              "order": 1
+            },
+            {
+              "id": 18,
+              "order": 5
+            },
+            {
+              "id": 100,
+              "order": 6
+            },
+            {
+              "id": 5,
+              "order": 7
+            }
+          ],
+          "name": "AZRA'IL",
+          "skills": [
+            {
+              "extra": [
+                8
+              ],
+              "id": 201,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "azra-il",
+  "filters": {
+    "categories": [
+      4
+    ],
+    "skills": [
+      162,
+      201
+    ],
+    "equip": [],
+    "chars": [
+      1,
+      3,
+      5,
+      21
+    ],
+    "types": [
+      3
+    ],
+    "weapons": [
+      3,
+      5,
+      18,
+      30,
+      100
+    ],
+    "ammunition": [
+      2,
+      3,
+      6,
+      10
+    ]
+  },
+  "factions": [
+    401,
+    403
+  ]
+}

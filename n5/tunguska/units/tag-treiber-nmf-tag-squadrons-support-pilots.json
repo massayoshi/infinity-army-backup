@@ -1,0 +1,146 @@
+{
+  "id": 1853,
+  "idArmy": 1853,
+  "canonical": 501,
+  "isc": "TAG-Treiber, NMF TAG Squadrons Support Pilots",
+  "iscAbbr": null,
+  "name": "TAG-TREIBER, NMF TAG Squadrons Support Pilots",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 8,
+      "isc": "TAG-Treiber, NMF TAG Squadrons Support Pilots",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 1,
+          "ava": 1,
+          "bs": 11,
+          "bts": 0,
+          "cc": 13,
+          "chars": [
+            1,
+            3,
+            5
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/tag-treiber-nmf-tag-squadrons-pilots-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 10,
+          "s": 2,
+          "str": false,
+          "type": 1,
+          "w": 1,
+          "wip": 13,
+          "name": "TAG-TREIBER, NMF TAG Squadrons Support Pilots",
+          "notes": null,
+          "skills": [
+            {
+              "id": 189,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 270,
+              "order": 2,
+              "extra": [
+                369
+              ],
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 3,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 145,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 10,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 28,
+              "order": 1
+            },
+            {
+              "id": 174,
+              "order": 2
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            }
+          ],
+          "name": "SZALAMANDRA PILOT",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "tag-treiber-nmf-tag-squadrons-support-pilots",
+  "filters": {
+    "categories": [
+      8
+    ],
+    "skills": [
+      189,
+      270
+    ],
+    "equip": [
+      145
+    ],
+    "chars": [
+      1,
+      3,
+      5
+    ],
+    "types": [
+      1
+    ],
+    "weapons": [
+      5,
+      28,
+      69,
+      174
+    ],
+    "ammunition": [
+      2
+    ]
+  },
+  "factions": [
+    501,
+    502,
+    503,
+    504
+  ]
+}

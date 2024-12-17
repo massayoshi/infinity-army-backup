@@ -1,0 +1,215 @@
+{
+  "id": 1632,
+  "idArmy": 1632,
+  "canonical": 399,
+  "isc": "Reinf. Chasseurs",
+  "iscAbbr": null,
+  "name": "REINF: 4éme DE CHASSEURS",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 3,
+      "isc": "Reinf. Chasseurs",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 0,
+          "ava": 1,
+          "bs": 11,
+          "bts": 0,
+          "cc": 14,
+          "chars": [
+            2,
+            3,
+            5
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-chasseurs-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 13,
+          "s": 2,
+          "str": false,
+          "type": 6,
+          "w": 1,
+          "wip": 13,
+          "name": "REINF: 4éme DE CHASSEURS",
+          "notes": null,
+          "skills": [
+            {
+              "id": 28,
+              "order": 1,
+              "extra": [
+                6
+              ],
+              "q": 1
+            },
+            {
+              "id": 67,
+              "order": 2,
+              "q": 1
+            },
+            {
+              "id": 164,
+              "order": 3,
+              "q": 1
+            },
+            {
+              "id": 58,
+              "order": 4,
+              "extra": [
+                33
+              ],
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 16,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 31,
+              "order": 1
+            },
+            {
+              "id": 17,
+              "order": 3
+            },
+            {
+              "id": 107,
+              "order": 4
+            },
+            {
+              "id": 5,
+              "order": 5
+            },
+            {
+              "id": 216,
+              "order": 2
+            }
+          ],
+          "name": "CHASSEUR REINF",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 15,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 31,
+              "order": 1
+            },
+            {
+              "id": 56,
+              "order": 2
+            },
+            {
+              "id": 72,
+              "order": 3
+            },
+            {
+              "id": 196,
+              "order": 4
+            },
+            {
+              "id": 107,
+              "order": 5
+            },
+            {
+              "id": 5,
+              "order": 6
+            }
+          ],
+          "name": "CHASSEUR REINF",
+          "skills": [
+            {
+              "id": 59,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "reinf-chasseurs",
+  "filters": {
+    "categories": [
+      3
+    ],
+    "skills": [
+      28,
+      58,
+      59,
+      67,
+      164
+    ],
+    "equip": [],
+    "chars": [
+      2,
+      3,
+      5
+    ],
+    "types": [
+      6
+    ],
+    "weapons": [
+      5,
+      17,
+      31,
+      56,
+      72,
+      107,
+      196,
+      216
+    ],
+    "ammunition": [
+      2,
+      8,
+      13,
+      29,
+      37
+    ]
+  },
+  "factions": [
+    399
+  ]
+}

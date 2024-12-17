@@ -1,0 +1,216 @@
+{
+  "id": 1637,
+  "idArmy": 1637,
+  "canonical": 399,
+  "isc": "Reinf. Brigadier Jacques Bruant",
+  "iscAbbr": null,
+  "name": "REINF: BRIGADIER JACQUES BRUANT, Sous-officier des Métros",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 10,
+      "isc": "Reinf. Brigadier Jacques Bruant",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 2,
+          "ava": 1,
+          "bs": 12,
+          "bts": 0,
+          "cc": 15,
+          "chars": [
+            2,
+            3,
+            5
+          ],
+          "equip": [
+            {
+              "id": 117,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/brigadier-jacques-bruant-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 11,
+          "s": 2,
+          "str": false,
+          "type": 1,
+          "w": 1,
+          "wip": 13,
+          "name": "REINF: BRIGADIER JACQUES BRUANT, Sous-officier des Métros",
+          "notes": null,
+          "skills": [
+            {
+              "id": 28,
+              "order": 1,
+              "extra": [
+                6
+              ],
+              "q": 1
+            },
+            {
+              "id": 189,
+              "order": 2,
+              "q": 1
+            },
+            {
+              "id": 211,
+              "order": 3,
+              "q": 1
+            },
+            {
+              "id": 58,
+              "order": 4,
+              "extra": [
+                33
+              ],
+              "q": 1
+            },
+            {
+              "id": 164,
+              "order": 5,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 29,
+          "swc": "1",
+          "weapons": [
+            {
+              "id": 157,
+              "order": 1
+            },
+            {
+              "id": 80,
+              "order": 2
+            },
+            {
+              "id": 17,
+              "order": 3
+            },
+            {
+              "id": 69,
+              "order": 4
+            },
+            {
+              "id": 5,
+              "order": 5
+            }
+          ],
+          "name": "BRIGADIER BRUANT REINF",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 24,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 42,
+              "order": 1
+            },
+            {
+              "id": 28,
+              "order": 2
+            },
+            {
+              "id": 17,
+              "order": 3
+            },
+            {
+              "id": 69,
+              "order": 4
+            },
+            {
+              "id": 5,
+              "order": 5
+            }
+          ],
+          "name": "BRIGADIER BRUANT REINF",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "reinf-brigadier-jacques-bruant",
+  "filters": {
+    "categories": [
+      10
+    ],
+    "skills": [
+      28,
+      58,
+      164,
+      189,
+      211
+    ],
+    "equip": [
+      117
+    ],
+    "chars": [
+      2,
+      3,
+      5
+    ],
+    "types": [
+      1
+    ],
+    "weapons": [
+      5,
+      17,
+      28,
+      42,
+      69,
+      80,
+      157
+    ],
+    "ammunition": [
+      2,
+      3,
+      13,
+      18
+    ]
+  },
+  "factions": [
+    399
+  ]
+}

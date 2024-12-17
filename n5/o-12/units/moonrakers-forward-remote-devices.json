@@ -1,0 +1,216 @@
+{
+  "id": 1784,
+  "idArmy": 1784,
+  "canonical": 1001,
+  "isc": "Moonrakers, Forward Remote Devices",
+  "iscAbbr": null,
+  "name": "MOONRAKERS, Forward Remote Devices",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 8,
+      "isc": "Moonrakers, Forward Remote Devices",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 0,
+          "ava": 2,
+          "bs": 11,
+          "bts": 6,
+          "cc": 14,
+          "chars": [
+            3,
+            5,
+            21
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/moonrakers-forward-remote-devices-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 10,
+          "s": 2,
+          "str": true,
+          "type": 5,
+          "w": 1,
+          "wip": 12,
+          "name": "MOONRAKERS, Forward Remote Devices",
+          "notes": null,
+          "skills": [
+            {
+              "id": 191,
+              "order": 1,
+              "extra": [
+                6
+              ],
+              "q": 1
+            },
+            {
+              "id": 29,
+              "order": 2,
+              "extra": [
+                43
+              ],
+              "q": 1
+            },
+            {
+              "id": 84,
+              "order": 3,
+              "q": 1
+            },
+            {
+              "id": 161,
+              "order": 4,
+              "extra": [
+                22
+              ],
+              "q": 1
+            },
+            {
+              "id": 28,
+              "order": 6,
+              "extra": [
+                6
+              ],
+              "q": 1
+            },
+            {
+              "id": 235,
+              "order": 7,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 14,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 29,
+              "order": 1
+            },
+            {
+              "id": 216,
+              "order": 2
+            },
+            {
+              "id": 196,
+              "order": 3
+            },
+            {
+              "id": 71,
+              "order": 4
+            }
+          ],
+          "name": "MOONRAKER",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 15,
+          "swc": "0.5",
+          "weapons": [
+            {
+              "id": 29,
+              "order": 1
+            },
+            {
+              "id": 216,
+              "order": 2
+            },
+            {
+              "id": 196,
+              "order": 3
+            },
+            {
+              "id": 71,
+              "order": 4
+            }
+          ],
+          "name": "MOONRAKER",
+          "skills": [
+            {
+              "id": 56,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "moonrakers-forward-remote-devices",
+  "filters": {
+    "categories": [
+      8
+    ],
+    "skills": [
+      28,
+      29,
+      56,
+      84,
+      161,
+      191,
+      235
+    ],
+    "equip": [],
+    "chars": [
+      3,
+      5,
+      21
+    ],
+    "types": [
+      5
+    ],
+    "weapons": [
+      29,
+      71,
+      196,
+      216
+    ],
+    "ammunition": [
+      3,
+      8,
+      37
+    ]
+  },
+  "factions": [
+    1001,
+    1003
+  ]
+}

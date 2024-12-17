@@ -1,0 +1,155 @@
+{
+  "id": 1738,
+  "idArmy": 1738,
+  "canonical": 599,
+  "isc": "Reinf. Vostok Sputniks",
+  "iscAbbr": null,
+  "name": "REINF: VOSTOK Sputniks",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 8,
+      "isc": "Reinf. Vostok Sputniks",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 3,
+          "ava": 2,
+          "bs": 12,
+          "bts": 6,
+          "cc": 14,
+          "chars": [
+            3,
+            5,
+            21
+          ],
+          "equip": [
+            {
+              "id": 63,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-vostok-sputniks-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            10
+          ],
+          "ph": 10,
+          "s": 4,
+          "str": true,
+          "type": 5,
+          "w": 2,
+          "wip": 13,
+          "name": "REINF: VOSTOK Sputniks",
+          "notes": null,
+          "skills": [
+            {
+              "id": 235,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 84,
+              "order": 2,
+              "q": 1
+            },
+            {
+              "id": 162,
+              "order": 3,
+              "extra": [
+                249
+              ],
+              "q": 1
+            },
+            {
+              "id": 28,
+              "order": 5,
+              "extra": [
+                7
+              ],
+              "q": 1
+            },
+            {
+              "id": 82,
+              "order": 6,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 40,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 71,
+              "order": 2
+            },
+            {
+              "id": 64,
+              "order": 1
+            }
+          ],
+          "name": "VOSTOK REINF.",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "reinf-vostok-sputniks",
+  "filters": {
+    "categories": [
+      8
+    ],
+    "skills": [
+      28,
+      82,
+      84,
+      162,
+      235
+    ],
+    "equip": [
+      63
+    ],
+    "chars": [
+      3,
+      5,
+      21
+    ],
+    "types": [
+      5
+    ],
+    "weapons": [
+      64,
+      71
+    ],
+    "ammunition": [
+      2,
+      37
+    ]
+  },
+  "factions": [
+    599
+  ]
+}

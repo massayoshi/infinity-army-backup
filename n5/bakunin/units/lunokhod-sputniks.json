@@ -1,0 +1,212 @@
+{
+  "id": 424,
+  "idArmy": 33,
+  "canonical": 501,
+  "isc": "Lunokhod Sputniks",
+  "iscAbbr": null,
+  "name": "LUNOKHOD Sputnik",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 8,
+      "isc": "Lunokhod Sputniks",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 3,
+          "ava": 2,
+          "bs": 12,
+          "bts": 6,
+          "cc": 14,
+          "chars": [
+            3,
+            5,
+            21
+          ],
+          "equip": [
+            {
+              "id": 63,
+              "order": 2
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/lunokhod-sputniks-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            20,
+            5
+          ],
+          "ph": 10,
+          "s": 4,
+          "str": true,
+          "type": 5,
+          "w": 1,
+          "wip": 13,
+          "name": "LUNOKHOD Sputnik",
+          "notes": null,
+          "skills": [
+            {
+              "id": 235,
+              "order": 1
+            },
+            {
+              "id": 84,
+              "order": 2
+            },
+            {
+              "id": 56,
+              "order": 4
+            },
+            {
+              "id": 82,
+              "order": 5
+            },
+            {
+              "id": 161,
+              "order": 6,
+              "extra": [
+                26
+              ],
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 25,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 29,
+              "order": 1
+            },
+            {
+              "id": 57,
+              "order": 2
+            },
+            {
+              "id": 25,
+              "order": 3
+            },
+            {
+              "id": 20,
+              "order": 4
+            },
+            {
+              "id": 71,
+              "order": 5
+            }
+          ],
+          "name": "LUNOKHOD",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 26,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 29,
+              "order": 1
+            },
+            {
+              "id": 207,
+              "order": 2
+            },
+            {
+              "id": 25,
+              "order": 3
+            },
+            {
+              "id": 20,
+              "order": 4
+            },
+            {
+              "id": 71,
+              "order": 5
+            }
+          ],
+          "name": "LUNOKHOD",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "lunokhod-sputniks",
+  "filters": {
+    "categories": [
+      8
+    ],
+    "skills": [
+      56,
+      82,
+      84,
+      161,
+      235
+    ],
+    "equip": [
+      63
+    ],
+    "chars": [
+      3,
+      5,
+      21
+    ],
+    "types": [
+      5
+    ],
+    "weapons": [
+      20,
+      25,
+      29,
+      57,
+      71,
+      207
+    ],
+    "ammunition": [
+      2,
+      3,
+      8,
+      14,
+      37
+    ]
+  },
+  "factions": [
+    501,
+    502,
+    503,
+    504,
+    905
+  ]
+}

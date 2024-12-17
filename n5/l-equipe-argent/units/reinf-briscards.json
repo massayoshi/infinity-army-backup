@@ -1,0 +1,289 @@
+{
+  "id": 1627,
+  "idArmy": 1627,
+  "canonical": 399,
+  "isc": "Reinf. Briscards",
+  "iscAbbr": null,
+  "name": "REINF: BRISCARDS, 8éme Régiment d'Infanterie de Montagne",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 4,
+      "isc": "Reinf. Briscards",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 2,
+          "ava": 4,
+          "bs": 12,
+          "bts": 0,
+          "cc": 16,
+          "chars": [
+            2,
+            3,
+            5
+          ],
+          "equip": [
+            {
+              "id": 114,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-briscards-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 11,
+          "s": 2,
+          "str": false,
+          "type": 2,
+          "w": 1,
+          "wip": 13,
+          "name": "REINF: BRISCARDS, 8éme Régiment d'Infanterie de Montagne",
+          "notes": null,
+          "skills": [
+            {
+              "id": 84,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 58,
+              "order": 2,
+              "extra": [
+                38
+              ],
+              "q": 1
+            },
+            {
+              "id": 271,
+              "order": 3,
+              "extra": [
+                324
+              ],
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 18,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 89,
+              "order": 1
+            },
+            {
+              "id": 70,
+              "order": 2
+            },
+            {
+              "id": 5,
+              "order": 3
+            }
+          ],
+          "name": "BRISCARD REINF",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 3,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 25,
+          "swc": "0.5",
+          "weapons": [
+            {
+              "id": 5,
+              "order": 3
+            },
+            {
+              "id": 35,
+              "order": 1
+            },
+            {
+              "id": 70,
+              "order": 2
+            }
+          ],
+          "name": "BRISCARD REINF",
+          "skills": [
+            {
+              "extra": [
+                30
+              ],
+              "id": 201,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 4,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 21,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 84,
+              "order": 1
+            },
+            {
+              "id": 72,
+              "order": 2
+            },
+            {
+              "id": 70,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            }
+          ],
+          "name": "BRISCARD REINF",
+          "skills": [
+            {
+              "id": 59,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 5,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 106,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 22,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 84,
+              "order": 1
+            },
+            {
+              "id": 70,
+              "order": 2
+            },
+            {
+              "id": 5,
+              "order": 3
+            }
+          ],
+          "name": "BRISCARD REINF",
+          "skills": [
+            {
+              "id": 64,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "reinf-briscards",
+  "filters": {
+    "categories": [
+      4
+    ],
+    "skills": [
+      58,
+      59,
+      64,
+      84,
+      201,
+      271
+    ],
+    "equip": [
+      106,
+      114
+    ],
+    "chars": [
+      2,
+      3,
+      5
+    ],
+    "types": [
+      2
+    ],
+    "weapons": [
+      5,
+      35,
+      70,
+      72,
+      84,
+      89
+    ],
+    "ammunition": [
+      2,
+      3,
+      29
+    ]
+  },
+  "factions": [
+    399
+  ]
+}

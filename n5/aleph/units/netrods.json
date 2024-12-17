@@ -1,0 +1,119 @@
+{
+  "id": 595,
+  "idArmy": 15,
+  "canonical": 701,
+  "isc": "Netrods",
+  "iscAbbr": null,
+  "name": "NETRODS",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 8,
+      "isc": "Netrods",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 0,
+          "ava": 3,
+          "bs": -1,
+          "bts": 3,
+          "cc": -1,
+          "chars": [
+            2,
+            3,
+            5
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/netrods-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            -1,
+            -1
+          ],
+          "ph": -1,
+          "s": 2,
+          "str": true,
+          "type": 1,
+          "w": 1,
+          "wip": -1,
+          "name": "NETRODS",
+          "notes": null,
+          "skills": [
+            {
+              "id": 267,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 35,
+              "order": 2,
+              "extra": [
+                250
+              ]
+            },
+            {
+              "id": 83,
+              "order": 3,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 6,
+          "swc": "0",
+          "weapons": [],
+          "name": "NETROD",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "netrods",
+  "filters": {
+    "categories": [
+      8
+    ],
+    "skills": [
+      35,
+      83,
+      267
+    ],
+    "equip": [],
+    "chars": [
+      2,
+      3,
+      5
+    ],
+    "types": [
+      1
+    ],
+    "weapons": [],
+    "ammunition": []
+  },
+  "factions": [
+    701,
+    702,
+    703
+  ],
+  "notes": "This Trooper must be deployed by Combat Jump during the Deployment Phase."
+}
