@@ -77,28 +77,28 @@
             }
           ],
           "includes": [],
-          "points": 17,
+          "points": 15,
           "swc": "0",
           "weapons": [
             {
-              "id": 69,
+              "id": 26,
               "order": 1
             },
             {
-              "id": 26,
-              "order": 3
-            },
-            {
-              "id": 50,
-              "order": 4
+              "id": 216,
+              "order": 2
             },
             {
               "id": 47,
-              "order": 5
+              "order": 3
+            },
+            {
+              "id": 69,
+              "order": 4
             },
             {
               "id": 5,
-              "order": 2
+              "order": 5
             }
           ],
           "name": "MONSTRUCKER",
@@ -151,6 +151,52 @@
           "id": 3,
           "chars": [],
           "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "IRREGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 15,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 77,
+              "order": 1
+            },
+            {
+              "id": 18,
+              "order": 2
+            },
+            {
+              "id": 96,
+              "order": 3
+            },
+            {
+              "id": 219,
+              "order": 4
+            },
+            {
+              "id": 69,
+              "order": 5
+            },
+            {
+              "id": 5,
+              "order": 6
+            }
+          ],
+          "name": "MONSTRUCKER",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 4,
+          "chars": [],
+          "disabled": false,
           "equip": [
             {
               "id": 113,
@@ -166,7 +212,7 @@
             }
           ],
           "includes": [],
-          "points": 17,
+          "points": 16,
           "swc": "0",
           "weapons": [
             {
@@ -233,10 +279,11 @@
       28,
       31,
       47,
-      50,
       69,
       77,
-      96
+      96,
+      216,
+      219
     ],
     "ammunition": [
       2,
