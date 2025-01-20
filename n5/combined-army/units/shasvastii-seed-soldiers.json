@@ -16,7 +16,7 @@
           "id": 1,
           "arm": 2,
           "ava": 2,
-          "bs": -1,
+          "bs": 1,
           "bts": 3,
           "cc": 10,
           "chars": [
@@ -27,16 +27,7 @@
           ],
           "equip": [],
           "logo": "https://assets.corvusbelli.net/army/img/logo/units/shasvastii-seed-soldiers-1-1.svg",
-          "weapons": [
-            {
-              "id": 147,
-              "order": 1
-            },
-            {
-              "id": 71,
-              "order": 2
-            }
-          ],
+          "weapons": [],
           "includes": [],
           "move": [
             -1,
@@ -167,12 +158,16 @@
               "order": 2
             },
             {
-              "id": 212,
+              "id": 147,
               "order": 3
             },
             {
-              "id": 5,
+              "id": 212,
               "order": 4
+            },
+            {
+              "id": 71,
+              "order": 5
             }
           ],
           "name": "SEED-SOLDIER",
@@ -205,12 +200,16 @@
               "order": 2
             },
             {
-              "id": 69,
+              "id": 147,
               "order": 3
             },
             {
-              "id": 5,
+              "id": 69,
               "order": 4
+            },
+            {
+              "id": 71,
+              "order": 5
             }
           ],
           "name": "SEED-SOLDIER",
@@ -239,20 +238,24 @@
               "order": 1
             },
             {
-              "id": 69,
-              "order": 4
-            },
-            {
-              "id": 5,
-              "order": 5
-            },
-            {
               "id": 68,
-              "order": 6
+              "order": 2
             },
             {
               "id": 72,
-              "order": 7
+              "order": 3
+            },
+            {
+              "id": 147,
+              "order": 4
+            },
+            {
+              "id": 69,
+              "order": 5
+            },
+            {
+              "id": 71,
+              "order": 6
             }
           ],
           "name": "SEED-SOLDIER",
@@ -297,12 +300,16 @@
               "order": 2
             },
             {
-              "id": 69,
+              "id": 147,
               "order": 3
             },
             {
-              "id": 5,
+              "id": 69,
               "order": 4
+            },
+            {
+              "id": 71,
+              "order": 5
             }
           ],
           "name": "SEED-SOLDIER",
@@ -347,7 +354,6 @@
       1
     ],
     "weapons": [
-      5,
       26,
       33,
       68,
@@ -369,5 +375,6 @@
   "factions": [
     601,
     603
-  ]
+  ],
+  "notes": "The Seed-Embryo profile can only use as Weapons or Equipment the Chest Mine and the PARA CC Weapon. "
 }

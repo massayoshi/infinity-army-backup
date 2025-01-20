@@ -16,7 +16,7 @@
           "id": 1,
           "arm": 2,
           "ava": 4,
-          "bs": -1,
+          "bs": 1,
           "bts": 3,
           "cc": 10,
           "chars": [
@@ -27,17 +27,7 @@
           ],
           "equip": [],
           "logo": "https://assets.corvusbelli.net/army/img/logo/units/shasvastii-cadmus-1-1.svg",
-          "weapons": [
-            {
-              "id": 147,
-              "order": 1
-            },
-            {
-              "extra": null,
-              "id": 71,
-              "order": 2
-            }
-          ],
+          "weapons": [],
           "includes": [],
           "move": [
             -1,
@@ -170,12 +160,20 @@
               "order": 1
             },
             {
-              "id": 69,
+              "id": 147,
               "order": 2
             },
             {
-              "id": 10,
+              "id": 69,
               "order": 3
+            },
+            {
+              "id": 10,
+              "order": 4
+            },
+            {
+              "id": 71,
+              "order": 5
             }
           ],
           "name": "CADMUS-SOLDIER",
@@ -208,12 +206,20 @@
               "order": 2
             },
             {
-              "id": 69,
+              "id": 147,
               "order": 3
             },
             {
-              "id": 10,
+              "id": 69,
               "order": 4
+            },
+            {
+              "id": 10,
+              "order": 5
+            },
+            {
+              "id": 71,
+              "order": 6
             }
           ],
           "name": "CADMUS-SOLDIER",
@@ -251,12 +257,20 @@
               "order": 2
             },
             {
-              "id": 69,
+              "id": 147,
               "order": 3
             },
             {
-              "id": 10,
+              "id": 69,
               "order": 4
+            },
+            {
+              "id": 10,
+              "order": 5
+            },
+            {
+              "id": 71,
+              "order": 6
             }
           ],
           "name": "CADMUS-SOLDIER",
@@ -320,5 +334,5 @@
   "factions": [
     603
   ],
-  "notes": "NOTE: The MOV, CC, BS and PH values can vary depending on the Morpho-Scan."
+  "notes": "NOTE: The MOV, CC, BS and PH values can vary depending on the Morpho-Scan.\n\nNOTE: The Seed-Cadmus profile can only use as Weapons or Equipment the Chest Mine and the PARA CC Weapon. "
 }
