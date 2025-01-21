@@ -1,6 +1,886 @@
 {
-  "version": "7.24352.507",
+  "version": "7.2521.209",
   "units": [
+    {
+      "id": 1614,
+      "idArmy": 1614,
+      "canonical": 699,
+      "isc": "Reinf. WCD Base Operators",
+      "iscAbbr": null,
+      "name": "REINF. WCD BASE OPERATORS",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Reinf. WCD Base Operators",
+          "profiles": [
+            {
+              "bts": 0,
+              "cc": 14,
+              "move": [
+                15,
+                5
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 2,
+              "ava": 5,
+              "str": false,
+              "bs": 11,
+              "s": 2,
+              "equip": [],
+              "w": 1,
+              "ph": 11,
+              "name": "REINF. WCD BASE OPERATORS",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-wcd-base-operators-1-1.svg",
+              "id": 1,
+              "arm": 2,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                5
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 84,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    11
+                  ],
+                  "id": 40,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "id": 74,
+                  "order": 4
+                },
+                {
+                  "q": 1,
+                  "id": 259,
+                  "order": 5
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 17,
+              "equip": [],
+              "name": "BASE OPERATORS REINF",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 33,
+                  "order": 1
+                },
+                {
+                  "id": 28,
+                  "order": 2
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 19,
+              "equip": [],
+              "name": "BASE OPERATORS REINF",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 41,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 20,
+              "equip": [],
+              "name": "BASE OPERATORS REINF",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 3,
+              "weapons": [
+                {
+                  "id": 64,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 18,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 100,
+                  "order": 1
+                }
+              ],
+              "name": "BASE OPERATORS REINF",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 4,
+              "weapons": [
+                {
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                },
+                {
+                  "extra": null,
+                  "id": 29,
+                  "order": 1
+                }
+              ],
+              "chars": [],
+              "swc": "0.5",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 1000,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 17,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 237,
+                  "order": 1
+                }
+              ],
+              "name": "BASE OPERATORS REINF",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 5,
+              "weapons": [
+                {
+                  "id": 17,
+                  "order": 2
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                },
+                {
+                  "extra": null,
+                  "id": 29,
+                  "order": 1
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 49,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 3
+        }
+      ],
+      "options": [],
+      "slug": "reinf-wcd-base-operators",
+      "filters": {
+        "categories": [
+          3
+        ],
+        "skills": [
+          40,
+          49,
+          74,
+          84,
+          259,
+          1000
+        ],
+        "equip": [
+          100,
+          237
+        ],
+        "chars": [
+          1,
+          3,
+          5
+        ],
+        "types": [
+          2
+        ],
+        "weapons": [
+          5,
+          17,
+          28,
+          29,
+          33,
+          41,
+          64,
+          69
+        ],
+        "ammunition": [
+          2,
+          3,
+          8,
+          9,
+          13
+        ]
+      },
+      "factions": [
+        699
+      ]
+    },
+    {
+      "id": 1619,
+      "idArmy": 1619,
+      "canonical": 699,
+      "isc": "Reinf. Nexus Operatives",
+      "iscAbbr": null,
+      "name": "REINF. NEXUS Operatives",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Reinf. Nexus Operatives",
+          "profiles": [
+            {
+              "bts": 6,
+              "cc": 17,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 2,
+              "ava": 2,
+              "str": false,
+              "bs": 12,
+              "s": 2,
+              "equip": [],
+              "w": 1,
+              "ph": 11,
+              "name": "REINF. NEXUS Operatives",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-nexus-operatives-1-1.svg",
+              "id": 1,
+              "arm": 2,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                5
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 84,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    1
+                  ],
+                  "id": 40,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "id": 211,
+                  "order": 3
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 18,
+              "equip": [],
+              "name": "NEXUS REINF",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 33,
+                  "order": 1
+                },
+                {
+                  "id": 17,
+                  "order": 2
+                },
+                {
+                  "id": 212,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 189,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 23,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 100,
+                  "order": 1
+                }
+              ],
+              "name": "NEXUS REINF",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "id": 33,
+                  "order": 1
+                },
+                {
+                  "id": 197,
+                  "order": 2
+                },
+                {
+                  "id": 212,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0.5",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 1000,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 27,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 108,
+                  "order": 1
+                }
+              ],
+              "name": "NEXUS REINF",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 3,
+              "weapons": [
+                {
+                  "id": 74,
+                  "order": 1
+                },
+                {
+                  "id": 212,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "1",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 264,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 3
+        }
+      ],
+      "options": [],
+      "slug": "reinf-nexus-operatives",
+      "filters": {
+        "categories": [
+          3
+        ],
+        "skills": [
+          40,
+          84,
+          189,
+          211,
+          264,
+          1000
+        ],
+        "equip": [
+          100,
+          108
+        ],
+        "chars": [
+          1,
+          3,
+          5
+        ],
+        "types": [
+          2
+        ],
+        "weapons": [
+          5,
+          17,
+          33,
+          74,
+          197,
+          212
+        ],
+        "ammunition": [
+          2,
+          13,
+          14
+        ]
+      },
+      "factions": [
+        699
+      ]
+    },
+    {
+      "id": 1618,
+      "idArmy": 1618,
+      "canonical": 699,
+      "isc": "Reinf. Caskuda WCD Armoured Jump Operator",
+      "iscAbbr": "Reinf. Caskuda",
+      "name": "REINF. CASKUDA WCD Armoured Jump Operator",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Reinf. Caskuda WCD Armoured Jump Operator",
+          "profiles": [
+            {
+              "bts": 6,
+              "cc": 18,
+              "move": [
+                15,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 4,
+              "ava": 1,
+              "str": true,
+              "bs": 14,
+              "s": 7,
+              "equip": [
+                {
+                  "q": 1,
+                  "extra": [
+                    7
+                  ],
+                  "id": 239,
+                  "order": 1
+                }
+              ],
+              "w": 3,
+              "ph": 16,
+              "name": "REINF. CASKUDA WCD Armoured Jump Operator",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-caskuda-wcd-armoured-jump-operator-1-1.svg",
+              "id": 1,
+              "arm": 7,
+              "weapons": [],
+              "chars": [
+                3,
+                5,
+                21
+              ],
+              "wip": 12,
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 235,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 84,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "id": 213,
+                  "order": 7
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    337
+                  ],
+                  "id": 201,
+                  "order": 8
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    8
+                  ],
+                  "id": 201,
+                  "order": 9
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    250
+                  ],
+                  "id": 40,
+                  "order": 10
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    250
+                  ],
+                  "id": 254,
+                  "order": 11
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [
+                {
+                  "q": 1,
+                  "group": 2,
+                  "option": 1
+                }
+              ],
+              "minis": 1,
+              "points": 58,
+              "equip": [],
+              "name": "CASKUDA REINF",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "TACTICAL",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "extra": null,
+                  "id": 41,
+                  "order": 1
+                },
+                {
+                  "extra": null,
+                  "id": 18,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    311
+                  ],
+                  "id": 7,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "1",
+              "skills": [],
+              "peripheral": [
+                {
+                  "id": 3
+                }
+              ]
+            }
+          ],
+          "id": 1,
+          "category": 3
+        },
+        {
+          "notes": null,
+          "isc": "Staldron Remote Ancillary Unit",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": -1,
+              "move": [
+                15,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 5,
+              "ava": -1,
+              "str": true,
+              "bs": -1,
+              "s": 1,
+              "equip": [],
+              "w": 1,
+              "ph": 11,
+              "name": "STALDRON Remote Ancillary Unit",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-caskuda-wcd-armoured-jump-operator-2-1.svg",
+              "id": 1,
+              "arm": 0,
+              "weapons": [],
+              "chars": [
+                21,
+                27
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 84,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    1
+                  ],
+                  "id": 40,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    6
+                  ],
+                  "id": 28,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "id": 189,
+                  "order": 4
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    322
+                  ],
+                  "id": 243,
+                  "order": 5
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 3,
+              "equip": [],
+              "name": "STALDRON",
+              "disabled": true,
+              "orders": [],
+              "id": 1,
+              "weapons": [],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 2,
+          "category": null
+        }
+      ],
+      "options": [],
+      "slug": "reinf-caskuda",
+      "filters": {
+        "categories": [
+          3
+        ],
+        "skills": [
+          28,
+          40,
+          84,
+          189,
+          201,
+          213,
+          235,
+          243,
+          254
+        ],
+        "equip": [
+          239
+        ],
+        "chars": [
+          3,
+          5,
+          21,
+          27
+        ],
+        "types": [
+          4,
+          5
+        ],
+        "weapons": [
+          7,
+          18,
+          41
+        ],
+        "ammunition": [
+          2,
+          3,
+          5,
+          8,
+          9
+        ]
+      },
+      "factions": [
+        699
+      ]
+    },
     {
       "id": 1615,
       "idArmy": 1615,
@@ -1308,886 +2188,6 @@
       ]
     },
     {
-      "id": 1614,
-      "idArmy": 1614,
-      "canonical": 699,
-      "isc": "Reinf. WCD Base Operators",
-      "iscAbbr": null,
-      "name": "REINF. WCD BASE OPERATORS",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Reinf. WCD Base Operators",
-          "profiles": [
-            {
-              "bts": 0,
-              "cc": 14,
-              "move": [
-                15,
-                5
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 2,
-              "ava": 5,
-              "str": false,
-              "bs": 11,
-              "s": 2,
-              "equip": [],
-              "w": 1,
-              "ph": 11,
-              "name": "REINF. WCD BASE OPERATORS",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-wcd-base-operators-1-1.svg",
-              "id": 1,
-              "arm": 2,
-              "weapons": [],
-              "chars": [
-                1,
-                3,
-                5
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 84,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    11
-                  ],
-                  "id": 40,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "id": 74,
-                  "order": 4
-                },
-                {
-                  "q": 1,
-                  "id": 259,
-                  "order": 5
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 17,
-              "equip": [],
-              "name": "BASE OPERATORS REINF",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 33,
-                  "order": 1
-                },
-                {
-                  "id": 28,
-                  "order": 2
-                },
-                {
-                  "id": 69,
-                  "order": 3
-                },
-                {
-                  "id": 5,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 19,
-              "equip": [],
-              "name": "BASE OPERATORS REINF",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "extra": [
-                    8
-                  ],
-                  "id": 41,
-                  "order": 1
-                },
-                {
-                  "id": 69,
-                  "order": 2
-                },
-                {
-                  "id": 5,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 20,
-              "equip": [],
-              "name": "BASE OPERATORS REINF",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 3,
-              "weapons": [
-                {
-                  "id": 64,
-                  "order": 1
-                },
-                {
-                  "id": 69,
-                  "order": 2
-                },
-                {
-                  "id": 5,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 18,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 100,
-                  "order": 1
-                }
-              ],
-              "name": "BASE OPERATORS REINF",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 4,
-              "weapons": [
-                {
-                  "id": 69,
-                  "order": 2
-                },
-                {
-                  "id": 5,
-                  "order": 3
-                },
-                {
-                  "extra": null,
-                  "id": 29,
-                  "order": 1
-                }
-              ],
-              "chars": [],
-              "swc": "0.5",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 1000,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 17,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 237,
-                  "order": 1
-                }
-              ],
-              "name": "BASE OPERATORS REINF",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 5,
-              "weapons": [
-                {
-                  "id": 17,
-                  "order": 2
-                },
-                {
-                  "id": 69,
-                  "order": 3
-                },
-                {
-                  "id": 5,
-                  "order": 4
-                },
-                {
-                  "extra": null,
-                  "id": 29,
-                  "order": 1
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 49,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 3
-        }
-      ],
-      "options": [],
-      "slug": "reinf-wcd-base-operators",
-      "filters": {
-        "categories": [
-          3
-        ],
-        "skills": [
-          40,
-          49,
-          74,
-          84,
-          259,
-          1000
-        ],
-        "equip": [
-          100,
-          237
-        ],
-        "chars": [
-          1,
-          3,
-          5
-        ],
-        "types": [
-          2
-        ],
-        "weapons": [
-          5,
-          17,
-          28,
-          29,
-          33,
-          41,
-          64,
-          69
-        ],
-        "ammunition": [
-          2,
-          3,
-          8,
-          9,
-          13
-        ]
-      },
-      "factions": [
-        699
-      ]
-    },
-    {
-      "id": 1619,
-      "idArmy": 1619,
-      "canonical": 699,
-      "isc": "Reinf. Nexus Operatives",
-      "iscAbbr": null,
-      "name": "REINF. NEXUS Operatives",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Reinf. Nexus Operatives",
-          "profiles": [
-            {
-              "bts": 6,
-              "cc": 17,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 2,
-              "ava": 2,
-              "str": false,
-              "bs": 12,
-              "s": 2,
-              "equip": [],
-              "w": 1,
-              "ph": 11,
-              "name": "REINF. NEXUS Operatives",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-nexus-operatives-1-1.svg",
-              "id": 1,
-              "arm": 2,
-              "weapons": [],
-              "chars": [
-                1,
-                3,
-                5
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 84,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    1
-                  ],
-                  "id": 40,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "id": 211,
-                  "order": 3
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 18,
-              "equip": [],
-              "name": "NEXUS REINF",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 33,
-                  "order": 1
-                },
-                {
-                  "id": 17,
-                  "order": 2
-                },
-                {
-                  "id": 212,
-                  "order": 3
-                },
-                {
-                  "id": 5,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 189,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 23,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 100,
-                  "order": 1
-                }
-              ],
-              "name": "NEXUS REINF",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "id": 33,
-                  "order": 1
-                },
-                {
-                  "id": 197,
-                  "order": 2
-                },
-                {
-                  "id": 212,
-                  "order": 3
-                },
-                {
-                  "id": 5,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "0.5",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 1000,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 27,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 108,
-                  "order": 1
-                }
-              ],
-              "name": "NEXUS REINF",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 3,
-              "weapons": [
-                {
-                  "id": 74,
-                  "order": 1
-                },
-                {
-                  "id": 212,
-                  "order": 2
-                },
-                {
-                  "id": 5,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "1",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 264,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 3
-        }
-      ],
-      "options": [],
-      "slug": "reinf-nexus-operatives",
-      "filters": {
-        "categories": [
-          3
-        ],
-        "skills": [
-          40,
-          84,
-          189,
-          211,
-          264,
-          1000
-        ],
-        "equip": [
-          100,
-          108
-        ],
-        "chars": [
-          1,
-          3,
-          5
-        ],
-        "types": [
-          2
-        ],
-        "weapons": [
-          5,
-          17,
-          33,
-          74,
-          197,
-          212
-        ],
-        "ammunition": [
-          2,
-          13,
-          14
-        ]
-      },
-      "factions": [
-        699
-      ]
-    },
-    {
-      "id": 1618,
-      "idArmy": 1618,
-      "canonical": 699,
-      "isc": "Reinf. Caskuda WCD Armoured Jump Operator",
-      "iscAbbr": "Reinf. Caskuda",
-      "name": "REINF. CASKUDA WCD Armoured Jump Operator",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Reinf. Caskuda WCD Armoured Jump Operator",
-          "profiles": [
-            {
-              "bts": 6,
-              "cc": 18,
-              "move": [
-                15,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 4,
-              "ava": 1,
-              "str": true,
-              "bs": 14,
-              "s": 7,
-              "equip": [
-                {
-                  "q": 1,
-                  "extra": [
-                    7
-                  ],
-                  "id": 239,
-                  "order": 1
-                }
-              ],
-              "w": 3,
-              "ph": 16,
-              "name": "REINF. CASKUDA WCD Armoured Jump Operator",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-caskuda-wcd-armoured-jump-operator-1-1.svg",
-              "id": 1,
-              "arm": 7,
-              "weapons": [],
-              "chars": [
-                3,
-                5,
-                21
-              ],
-              "wip": 12,
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 235,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "id": 84,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "id": 213,
-                  "order": 7
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    337
-                  ],
-                  "id": 201,
-                  "order": 8
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    8
-                  ],
-                  "id": 201,
-                  "order": 9
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    250
-                  ],
-                  "id": 40,
-                  "order": 10
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    250
-                  ],
-                  "id": 254,
-                  "order": 11
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [
-                {
-                  "q": 1,
-                  "group": 2,
-                  "option": 1
-                }
-              ],
-              "minis": 1,
-              "points": 58,
-              "equip": [],
-              "name": "CASKUDA REINF",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "TACTICAL",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "extra": null,
-                  "id": 41,
-                  "order": 1
-                },
-                {
-                  "extra": null,
-                  "id": 18,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    311
-                  ],
-                  "id": 7,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "1",
-              "skills": [],
-              "peripheral": [
-                {
-                  "id": 26
-                }
-              ]
-            }
-          ],
-          "id": 1,
-          "category": 3
-        },
-        {
-          "notes": null,
-          "isc": "Staldron Remote Ancillary Unit",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": -1,
-              "move": [
-                15,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 5,
-              "ava": -1,
-              "str": true,
-              "bs": -1,
-              "s": 1,
-              "equip": [],
-              "w": 1,
-              "ph": 11,
-              "name": "STALDRON Remote Ancillary Unit",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-caskuda-wcd-armoured-jump-operator-2-1.svg",
-              "id": 1,
-              "arm": 0,
-              "weapons": [],
-              "chars": [
-                21,
-                27
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 84,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    1
-                  ],
-                  "id": 40,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    6
-                  ],
-                  "id": 28,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "id": 189,
-                  "order": 4
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    322
-                  ],
-                  "id": 243,
-                  "order": 5
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 3,
-              "equip": [],
-              "name": "STALDRON",
-              "disabled": true,
-              "orders": [],
-              "id": 1,
-              "weapons": [],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 2,
-          "category": null
-        }
-      ],
-      "options": [],
-      "slug": "reinf-caskuda",
-      "filters": {
-        "categories": [
-          3
-        ],
-        "skills": [
-          28,
-          40,
-          84,
-          189,
-          201,
-          213,
-          235,
-          243,
-          254
-        ],
-        "equip": [
-          239
-        ],
-        "chars": [
-          3,
-          5,
-          21,
-          27
-        ],
-        "types": [
-          4,
-          5
-        ],
-        "weapons": [
-          7,
-          18,
-          41
-        ],
-        "ammunition": [
-          2,
-          3,
-          5,
-          8,
-          9
-        ]
-      },
-      "factions": [
-        699
-      ]
-    },
-    {
       "id": 1620,
       "idArmy": 1620,
       "canonical": 699,
@@ -3138,7 +3138,7 @@
   "filters": {
     "peripheral": [
       {
-        "id": 26,
+        "id": 3,
         "name": "STALDRON"
       }
     ],
@@ -3897,6 +3897,36 @@
   },
   "resume": [
     {
+      "id": 1614,
+      "isc": "Reinf. WCD Base Operators",
+      "idArmy": 1614,
+      "name": "REINF. WCD BASE OPERATORS",
+      "slug": "reinf-wcd-base-operators",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-wcd-base-operators-1-1.svg",
+      "type": 2,
+      "category": 3
+    },
+    {
+      "id": 1619,
+      "isc": "Reinf. Nexus Operatives",
+      "idArmy": 1619,
+      "name": "REINF. NEXUS Operatives",
+      "slug": "reinf-nexus-operatives",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-nexus-operatives-1-1.svg",
+      "type": 2,
+      "category": 3
+    },
+    {
+      "id": 1618,
+      "isc": "Reinf. Caskuda",
+      "idArmy": 1618,
+      "name": "REINF. CASKUDA WCD Armoured Jump Operator",
+      "slug": "reinf-caskuda",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-caskuda-wcd-armoured-jump-operator-1-1.svg",
+      "type": 4,
+      "category": 3
+    },
+    {
       "id": 1615,
       "isc": "Reinf. EXOs, Exrah Executive Officers",
       "idArmy": 1615,
@@ -3945,36 +3975,6 @@
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-m-drones-1-1.svg",
       "type": 5,
       "category": 8
-    },
-    {
-      "id": 1614,
-      "isc": "Reinf. WCD Base Operators",
-      "idArmy": 1614,
-      "name": "REINF. WCD BASE OPERATORS",
-      "slug": "reinf-wcd-base-operators",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-wcd-base-operators-1-1.svg",
-      "type": 2,
-      "category": 3
-    },
-    {
-      "id": 1619,
-      "isc": "Reinf. Nexus Operatives",
-      "idArmy": 1619,
-      "name": "REINF. NEXUS Operatives",
-      "slug": "reinf-nexus-operatives",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-nexus-operatives-1-1.svg",
-      "type": 2,
-      "category": 3
-    },
-    {
-      "id": 1618,
-      "isc": "Reinf. Caskuda",
-      "idArmy": 1618,
-      "name": "REINF. CASKUDA WCD Armoured Jump Operator",
-      "slug": "reinf-caskuda",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-caskuda-wcd-armoured-jump-operator-1-1.svg",
-      "type": 4,
-      "category": 3
     },
     {
       "id": 1620,

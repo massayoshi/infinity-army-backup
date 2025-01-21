@@ -1,5 +1,5 @@
 {
-  "version": "7.2520.491",
+  "version": "7.2521.209",
   "units": [
     {
       "id": 508,
@@ -6740,7 +6740,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 11
+                  "id": 101
                 }
               ]
             }
@@ -7657,7 +7657,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 12
+                  "id": 102
                 }
               ]
             }
@@ -9114,7 +9114,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 12
+                  "id": 102
                 }
               ]
             }
@@ -9334,17 +9334,7 @@
               "includes": [],
               "minis": 1,
               "points": 21,
-              "equip": [
-                {
-                  "id": 237,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "id": 106,
-                  "order": 2
-                }
-              ],
+              "equip": [],
               "name": "MED-TECH OBSIDON",
               "disabled": false,
               "orders": [
@@ -9686,7 +9676,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 13
+                  "id": 103
                 }
               ]
             },
@@ -9756,7 +9746,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 14
+                  "id": 104
                 }
               ]
             }
@@ -13271,7 +13261,7 @@
       "canonical": 601,
       "isc": "Shasvastii Seed-Soldiers",
       "iscAbbr": null,
-      "notes": "The Seed-Embryo profile can only use as Weapons or Equipment the Chest Mine and the PARA CC Weapon. ",
+      "notes": "The only Weapons or Equipment the Seed-Embryo profile can use are the Chest Mines and the PARA CC Weapon.\n",
       "name": "SHASVASTII SEED-SOLDIERS",
       "profileGroups": [
         {
@@ -13798,7 +13788,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 12
+                  "id": 102
                 }
               ]
             },
@@ -13854,7 +13844,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 12
+                  "id": 102
                 }
               ]
             },
@@ -13915,7 +13905,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 12
+                  "id": 102
                 }
               ]
             }
@@ -14880,7 +14870,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 15
+                  "id": 105
                 }
               ]
             },
@@ -14934,7 +14924,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 15
+                  "id": 105
                 }
               ]
             },
@@ -14988,7 +14978,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 15
+                  "id": 105
                 }
               ]
             },
@@ -18091,7 +18081,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 16
+                  "id": 106
                 }
               ]
             },
@@ -18155,7 +18145,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 16,
+                  "id": 106,
                   "q": 2
                 }
               ]
@@ -20151,7 +20141,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 17
+                  "id": 107
                 }
               ]
             },
@@ -20203,7 +20193,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 17
+                  "id": 107
                 }
               ]
             },
@@ -20259,7 +20249,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 17
+                  "id": 107
                 }
               ]
             }
@@ -22899,7 +22889,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 17
+                  "id": 107
                 }
               ]
             },
@@ -22954,7 +22944,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 17
+                  "id": 107
                 }
               ]
             },
@@ -23009,7 +22999,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 17
+                  "id": 107
                 }
               ]
             },
@@ -23068,7 +23058,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 17
+                  "id": 107
                 }
               ]
             }
@@ -25157,272 +25147,6 @@
       "factions": []
     },
     {
-      "id": 11565,
-      "idArmy": 21565,
-      "canonical": 1,
-      "isc": "Motorized Bounty Hunters",
-      "iscAbbr": null,
-      "notes": null,
-      "name": "Motorized Bounty Hunters",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Motorized Bounty Hunters",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 17,
-              "move": [
-                20,
-                15
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 1,
-              "ava": 1,
-              "str": false,
-              "bs": 12,
-              "s": 4,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 107,
-                  "order": 1
-                }
-              ],
-              "w": 1,
-              "ph": 10,
-              "name": "Motorized Bounty Hunters",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/motorized-bounty-hunters-1-1.svg",
-              "id": 1,
-              "arm": 1,
-              "weapons": [],
-              "chars": [
-                1,
-                4,
-                6
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "q": 1,
-                  "extra": [
-                    277
-                  ],
-                  "id": 25,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "id": 268,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    23
-                  ],
-                  "id": 40,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    6
-                  ],
-                  "id": 28,
-                  "order": 4
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 8,
-              "equip": [],
-              "name": "MOTORIZED BOUNTY HUNTER",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "IRREGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "IMPETUOUS",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 26,
-                  "order": 1
-                },
-                {
-                  "id": 69,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    7
-                  ],
-                  "id": 71,
-                  "order": 3
-                },
-                {
-                  "id": 188,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 9,
-              "equip": [],
-              "name": "MOTORIZED BOUNTY HUNTER",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "IRREGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "IMPETUOUS",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "id": 77,
-                  "order": 1
-                },
-                {
-                  "extra": [
-                    8
-                  ],
-                  "id": 80,
-                  "order": 2
-                },
-                {
-                  "id": 69,
-                  "order": 3
-                },
-                {
-                  "extra": [
-                    7
-                  ],
-                  "id": 71,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 16,
-              "equip": [],
-              "name": "MOTORIZED BOUNTY HUNTER",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "IRREGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "IMPETUOUS",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 3,
-              "weapons": [
-                {
-                  "id": 152,
-                  "order": 1
-                },
-                {
-                  "id": 98,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    7
-                  ],
-                  "id": 71,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "0.5",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 11
-        }
-      ],
-      "options": [],
-      "slug": "merc-motorized-bounty-hunters",
-      "filters": {
-        "categories": [
-          11
-        ],
-        "skills": [
-          25,
-          28,
-          40,
-          268
-        ],
-        "equip": [
-          107
-        ],
-        "chars": [
-          1,
-          4,
-          6
-        ],
-        "types": [
-          1
-        ],
-        "weapons": [
-          26,
-          69,
-          71,
-          77,
-          80,
-          98,
-          152,
-          188
-        ],
-        "ammunition": [
-          2,
-          3,
-          8,
-          37
-        ]
-      },
-      "factions": []
-    },
-    {
       "id": 11500,
       "idArmy": 21500,
       "canonical": 1,
@@ -25635,6 +25359,278 @@
           2,
           6,
           29
+        ]
+      },
+      "factions": []
+    },
+    {
+      "id": 11565,
+      "idArmy": 21565,
+      "canonical": 1,
+      "isc": "Motorized Bounty Hunters",
+      "iscAbbr": null,
+      "notes": null,
+      "name": "Motorized Bounty Hunters",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Motorized Bounty Hunters",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 17,
+              "move": [
+                20,
+                15
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 1,
+              "ava": 1,
+              "str": false,
+              "bs": 12,
+              "s": 4,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 107,
+                  "order": 1
+                }
+              ],
+              "w": 1,
+              "ph": 10,
+              "name": "Motorized Bounty Hunters",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/motorized-bounty-hunters-1-1.svg",
+              "id": 1,
+              "arm": 1,
+              "weapons": [],
+              "chars": [
+                1,
+                4,
+                6
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "q": 1,
+                  "extra": [
+                    277
+                  ],
+                  "id": 25,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 268,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    23
+                  ],
+                  "id": 40,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    6
+                  ],
+                  "id": 28,
+                  "order": 4
+                },
+                {
+                  "q": 1,
+                  "id": 256,
+                  "order": 5
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 8,
+              "equip": [],
+              "name": "MOTORIZED BOUNTY HUNTER",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "IRREGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "IMPETUOUS",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 26,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    7
+                  ],
+                  "id": 71,
+                  "order": 3
+                },
+                {
+                  "id": 188,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 9,
+              "equip": [],
+              "name": "MOTORIZED BOUNTY HUNTER",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "IRREGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "IMPETUOUS",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "id": 77,
+                  "order": 1
+                },
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 80,
+                  "order": 2
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "extra": [
+                    7
+                  ],
+                  "id": 71,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 16,
+              "equip": [],
+              "name": "MOTORIZED BOUNTY HUNTER",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "IRREGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "IMPETUOUS",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 3,
+              "weapons": [
+                {
+                  "id": 152,
+                  "order": 1
+                },
+                {
+                  "id": 98,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    7
+                  ],
+                  "id": 71,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0.5",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 11
+        }
+      ],
+      "options": [],
+      "slug": "merc-motorized-bounty-hunters",
+      "filters": {
+        "categories": [
+          11
+        ],
+        "skills": [
+          25,
+          28,
+          40,
+          256,
+          268
+        ],
+        "equip": [
+          107
+        ],
+        "chars": [
+          1,
+          4,
+          6
+        ],
+        "types": [
+          1
+        ],
+        "weapons": [
+          26,
+          69,
+          71,
+          77,
+          80,
+          98,
+          152,
+          188
+        ],
+        "ammunition": [
+          2,
+          3,
+          8,
+          37
         ]
       },
       "factions": []
@@ -28371,7 +28367,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 18
+                  "id": 108
                 }
               ]
             }
@@ -28806,37 +28802,37 @@
   "filters": {
     "peripheral": [
       {
-        "id": 18,
+        "id": 108,
         "name": "BÂTARD",
         "mercs": true
       },
       {
-        "id": 16,
+        "id": 106,
         "name": "JACKBOT",
         "mercs": true
       },
       {
-        "id": 14,
+        "id": 104,
         "name": "KISS!"
       },
       {
-        "id": 13,
+        "id": 103,
         "name": "KISS! (Repeater)"
       },
       {
-        "id": 15,
+        "id": 105,
         "name": "KYDOIMOS"
       },
       {
-        "id": 11,
+        "id": 101,
         "name": "SCINDRON"
       },
       {
-        "id": 12,
+        "id": 102,
         "name": "STALDRON"
       },
       {
-        "id": 17,
+        "id": 107,
         "name": "TURTLEMEK",
         "mercs": true
       }
@@ -31699,16 +31695,6 @@
       "category": 11
     },
     {
-      "id": 11565,
-      "isc": "Motorized Bounty Hunters",
-      "idArmy": 21565,
-      "name": "Motorized Bounty Hunters",
-      "slug": "merc-motorized-bounty-hunters",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/motorized-bounty-hunters-1-1.svg",
-      "type": 1,
-      "category": 11
-    },
-    {
       "id": 11500,
       "isc": "Liang Kai",
       "idArmy": 21500,
@@ -31717,6 +31703,16 @@
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/liang-kai-1-1.svg",
       "type": 7,
       "category": 10
+    },
+    {
+      "id": 11565,
+      "isc": "Motorized Bounty Hunters",
+      "idArmy": 21565,
+      "name": "Motorized Bounty Hunters",
+      "slug": "merc-motorized-bounty-hunters",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/motorized-bounty-hunters-1-1.svg",
+      "type": 1,
+      "category": 11
     },
     {
       "id": 10464,

@@ -1,5 +1,5 @@
 {
-  "version": "7.2520.491",
+  "version": "7.2521.209",
   "units": [
     {
       "id": 510,
@@ -805,7 +805,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 19
+                  "id": 91
                 }
               ]
             }
@@ -1052,17 +1052,7 @@
               "includes": [],
               "minis": 1,
               "points": 21,
-              "equip": [
-                {
-                  "id": 237,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "id": 106,
-                  "order": 2
-                }
-              ],
+              "equip": [],
               "name": "MED-TECH OBSIDON",
               "disabled": false,
               "orders": [
@@ -2166,12 +2156,350 @@
       ]
     },
     {
+      "id": 513,
+      "idArmy": 22,
+      "canonical": 601,
+      "isc": "Shasvastii Cadmus",
+      "iscAbbr": null,
+      "notes": "NOTE: The MOV, CC, BS and PH values can vary depending on the Morpho-Scan.\n\nNOTE: The only Weapons or Equipment the Seed-Cadmus profile can use are the Chest Mines and the PARA CC Weapon.",
+      "name": "Shasvastii Airborne Infiltration Group CADMUS",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Shasvastii Cadmus",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 10,
+              "move": [
+                -1,
+                -1
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 1,
+              "ava": 4,
+              "str": false,
+              "bs": 1,
+              "s": 0,
+              "equip": [],
+              "w": 1,
+              "ph": 12,
+              "name": "CADMUS-SEED",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/shasvastii-cadmus-1-1.svg",
+              "id": 1,
+              "arm": 2,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                5,
+                24
+              ],
+              "wip": -1,
+              "skills": [
+                {
+                  "id": 237,
+                  "order": 1
+                },
+                {
+                  "id": 35,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    44
+                  ],
+                  "id": 215,
+                  "order": 4
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 191,
+                  "order": 5
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    346
+                  ],
+                  "id": 246,
+                  "order": 6
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "bts": 0,
+              "cc": 15,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 1,
+              "ava": -1,
+              "str": false,
+              "bs": 11,
+              "s": 2,
+              "equip": [],
+              "w": 1,
+              "ph": 12,
+              "name": "DEVELOPED SHAPE",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/shasvastii-cadmus-1-1.svg",
+              "id": 2,
+              "arm": 1,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                5,
+                18
+              ],
+              "wip": 12,
+              "skills": [
+                {
+                  "id": 237,
+                  "order": 1
+                },
+                {
+                  "id": 73,
+                  "order": 2
+                },
+                {
+                  "id": 164,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    6
+                  ],
+                  "id": 191,
+                  "order": 4
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    8
+                  ],
+                  "id": 201,
+                  "order": 5
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 22,
+              "equip": [],
+              "name": "CADMUS-SOLDIER",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1826,
+              "weapons": [
+                {
+                  "id": 33,
+                  "order": 1
+                },
+                {
+                  "id": 147,
+                  "order": 2
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "id": 10,
+                  "order": 4
+                },
+                {
+                  "id": 71,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 19,
+              "equip": [],
+              "name": "CADMUS-SOLDIER",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1827,
+              "weapons": [
+                {
+                  "id": 26,
+                  "order": 1
+                },
+                {
+                  "id": 65,
+                  "order": 2
+                },
+                {
+                  "id": 147,
+                  "order": 3
+                },
+                {
+                  "id": 69,
+                  "order": 4
+                },
+                {
+                  "id": 10,
+                  "order": 5
+                },
+                {
+                  "id": 71,
+                  "order": 6
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 22,
+              "equip": [
+                {
+                  "id": 145,
+                  "order": 1
+                }
+              ],
+              "name": "CADMUS-SOLDIER",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1829,
+              "weapons": [
+                {
+                  "id": 26,
+                  "order": 1
+                },
+                {
+                  "id": 65,
+                  "order": 2
+                },
+                {
+                  "id": 147,
+                  "order": 3
+                },
+                {
+                  "id": 69,
+                  "order": 4
+                },
+                {
+                  "id": 10,
+                  "order": 5
+                },
+                {
+                  "id": 71,
+                  "order": 6
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "id": 1000,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 3
+        }
+      ],
+      "options": [],
+      "slug": "shasvastii-cadmus",
+      "filters": {
+        "categories": [
+          3
+        ],
+        "skills": [
+          35,
+          73,
+          164,
+          191,
+          201,
+          215,
+          237,
+          246,
+          1000
+        ],
+        "equip": [
+          145
+        ],
+        "chars": [
+          1,
+          3,
+          5,
+          18,
+          24
+        ],
+        "types": [
+          1
+        ],
+        "weapons": [
+          10,
+          26,
+          33,
+          65,
+          69,
+          71,
+          147
+        ],
+        "ammunition": [
+          2,
+          3,
+          8,
+          37
+        ]
+      },
+      "factions": [
+        603
+      ]
+    },
+    {
       "id": 512,
       "idArmy": 21,
       "canonical": 601,
       "isc": "Shasvastii Seed-Soldiers",
       "iscAbbr": null,
-      "notes": "The Seed-Embryo profile can only use as Weapons or Equipment the Chest Mine and the PARA CC Weapon. ",
+      "notes": "The only Weapons or Equipment the Seed-Embryo profile can use are the Chest Mines and the PARA CC Weapon.\n",
       "name": "SHASVASTII SEED-SOLDIERS",
       "profileGroups": [
         {
@@ -2542,344 +2870,6 @@
       },
       "factions": [
         601,
-        603
-      ]
-    },
-    {
-      "id": 513,
-      "idArmy": 22,
-      "canonical": 601,
-      "isc": "Shasvastii Cadmus",
-      "iscAbbr": null,
-      "notes": "NOTE: The MOV, CC, BS and PH values can vary depending on the Morpho-Scan.\n\nNOTE: The Seed-Cadmus profile can only use as Weapons or Equipment the Chest Mine and the PARA CC Weapon. ",
-      "name": "Shasvastii Airborne Infiltration Group CADMUS",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Shasvastii Cadmus",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 10,
-              "move": [
-                -1,
-                -1
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 1,
-              "ava": 4,
-              "str": false,
-              "bs": 1,
-              "s": 0,
-              "equip": [],
-              "w": 1,
-              "ph": 12,
-              "name": "CADMUS-SEED",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/shasvastii-cadmus-1-1.svg",
-              "id": 1,
-              "arm": 2,
-              "weapons": [],
-              "chars": [
-                1,
-                3,
-                5,
-                24
-              ],
-              "wip": -1,
-              "skills": [
-                {
-                  "id": 237,
-                  "order": 1
-                },
-                {
-                  "id": 35,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    44
-                  ],
-                  "id": 215,
-                  "order": 4
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 191,
-                  "order": 5
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    346
-                  ],
-                  "id": 246,
-                  "order": 6
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "bts": 0,
-              "cc": 15,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 1,
-              "ava": -1,
-              "str": false,
-              "bs": 11,
-              "s": 2,
-              "equip": [],
-              "w": 1,
-              "ph": 12,
-              "name": "DEVELOPED SHAPE",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/shasvastii-cadmus-1-1.svg",
-              "id": 2,
-              "arm": 1,
-              "weapons": [],
-              "chars": [
-                1,
-                3,
-                5,
-                18
-              ],
-              "wip": 12,
-              "skills": [
-                {
-                  "id": 237,
-                  "order": 1
-                },
-                {
-                  "id": 73,
-                  "order": 2
-                },
-                {
-                  "id": 164,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    6
-                  ],
-                  "id": 191,
-                  "order": 4
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    8
-                  ],
-                  "id": 201,
-                  "order": 5
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 22,
-              "equip": [],
-              "name": "CADMUS-SOLDIER",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1826,
-              "weapons": [
-                {
-                  "id": 33,
-                  "order": 1
-                },
-                {
-                  "id": 147,
-                  "order": 2
-                },
-                {
-                  "id": 69,
-                  "order": 3
-                },
-                {
-                  "id": 10,
-                  "order": 4
-                },
-                {
-                  "id": 71,
-                  "order": 5
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 19,
-              "equip": [],
-              "name": "CADMUS-SOLDIER",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1827,
-              "weapons": [
-                {
-                  "id": 26,
-                  "order": 1
-                },
-                {
-                  "id": 65,
-                  "order": 2
-                },
-                {
-                  "id": 147,
-                  "order": 3
-                },
-                {
-                  "id": 69,
-                  "order": 4
-                },
-                {
-                  "id": 10,
-                  "order": 5
-                },
-                {
-                  "id": 71,
-                  "order": 6
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 22,
-              "equip": [
-                {
-                  "id": 145,
-                  "order": 1
-                }
-              ],
-              "name": "CADMUS-SOLDIER",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1829,
-              "weapons": [
-                {
-                  "id": 26,
-                  "order": 1
-                },
-                {
-                  "id": 65,
-                  "order": 2
-                },
-                {
-                  "id": 147,
-                  "order": 3
-                },
-                {
-                  "id": 69,
-                  "order": 4
-                },
-                {
-                  "id": 10,
-                  "order": 5
-                },
-                {
-                  "id": 71,
-                  "order": 6
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "id": 1000,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 3
-        }
-      ],
-      "options": [],
-      "slug": "shasvastii-cadmus",
-      "filters": {
-        "categories": [
-          3
-        ],
-        "skills": [
-          35,
-          73,
-          164,
-          191,
-          201,
-          215,
-          237,
-          246,
-          1000
-        ],
-        "equip": [
-          145
-        ],
-        "chars": [
-          1,
-          3,
-          5,
-          18,
-          24
-        ],
-        "types": [
-          1
-        ],
-        "weapons": [
-          10,
-          26,
-          33,
-          65,
-          69,
-          71,
-          147
-        ],
-        "ammunition": [
-          2,
-          3,
-          8,
-          37
-        ]
-      },
-      "factions": [
         603
       ]
     },
@@ -8140,7 +8130,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 20
+                  "id": 92
                 }
               ]
             }
@@ -10214,7 +10204,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 21
+                  "id": 93
                 }
               ]
             },
@@ -10278,7 +10268,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 21,
+                  "id": 93,
                   "q": 2
                 }
               ]
@@ -12274,7 +12264,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 22
+                  "id": 94
                 }
               ]
             },
@@ -12326,7 +12316,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 22
+                  "id": 94
                 }
               ]
             },
@@ -12382,7 +12372,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 22
+                  "id": 94
                 }
               ]
             }
@@ -15022,7 +15012,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 22
+                  "id": 94
                 }
               ]
             },
@@ -15077,7 +15067,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 22
+                  "id": 94
                 }
               ]
             },
@@ -15132,7 +15122,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 22
+                  "id": 94
                 }
               ]
             },
@@ -15191,7 +15181,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 22
+                  "id": 94
                 }
               ]
             }
@@ -17134,272 +17124,6 @@
       "factions": []
     },
     {
-      "id": 11565,
-      "idArmy": 21565,
-      "canonical": 1,
-      "isc": "Motorized Bounty Hunters",
-      "iscAbbr": null,
-      "notes": null,
-      "name": "Motorized Bounty Hunters",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Motorized Bounty Hunters",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 17,
-              "move": [
-                20,
-                15
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 1,
-              "ava": 1,
-              "str": false,
-              "bs": 12,
-              "s": 4,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 107,
-                  "order": 1
-                }
-              ],
-              "w": 1,
-              "ph": 10,
-              "name": "Motorized Bounty Hunters",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/motorized-bounty-hunters-1-1.svg",
-              "id": 1,
-              "arm": 1,
-              "weapons": [],
-              "chars": [
-                1,
-                4,
-                6
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "q": 1,
-                  "extra": [
-                    277
-                  ],
-                  "id": 25,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "id": 268,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    23
-                  ],
-                  "id": 40,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    6
-                  ],
-                  "id": 28,
-                  "order": 4
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 8,
-              "equip": [],
-              "name": "MOTORIZED BOUNTY HUNTER",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "IRREGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "IMPETUOUS",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 26,
-                  "order": 1
-                },
-                {
-                  "id": 69,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    7
-                  ],
-                  "id": 71,
-                  "order": 3
-                },
-                {
-                  "id": 188,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 9,
-              "equip": [],
-              "name": "MOTORIZED BOUNTY HUNTER",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "IRREGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "IMPETUOUS",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "id": 77,
-                  "order": 1
-                },
-                {
-                  "extra": [
-                    8
-                  ],
-                  "id": 80,
-                  "order": 2
-                },
-                {
-                  "id": 69,
-                  "order": 3
-                },
-                {
-                  "extra": [
-                    7
-                  ],
-                  "id": 71,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 16,
-              "equip": [],
-              "name": "MOTORIZED BOUNTY HUNTER",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "IRREGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "IMPETUOUS",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 3,
-              "weapons": [
-                {
-                  "id": 152,
-                  "order": 1
-                },
-                {
-                  "id": 98,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    7
-                  ],
-                  "id": 71,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "0.5",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 11
-        }
-      ],
-      "options": [],
-      "slug": "merc-motorized-bounty-hunters",
-      "filters": {
-        "categories": [
-          11
-        ],
-        "skills": [
-          25,
-          28,
-          40,
-          268
-        ],
-        "equip": [
-          107
-        ],
-        "chars": [
-          1,
-          4,
-          6
-        ],
-        "types": [
-          1
-        ],
-        "weapons": [
-          26,
-          69,
-          71,
-          77,
-          80,
-          98,
-          152,
-          188
-        ],
-        "ammunition": [
-          2,
-          3,
-          8,
-          37
-        ]
-      },
-      "factions": []
-    },
-    {
       "id": 11500,
       "idArmy": 21500,
       "canonical": 1,
@@ -17612,6 +17336,278 @@
           2,
           6,
           29
+        ]
+      },
+      "factions": []
+    },
+    {
+      "id": 11565,
+      "idArmy": 21565,
+      "canonical": 1,
+      "isc": "Motorized Bounty Hunters",
+      "iscAbbr": null,
+      "notes": null,
+      "name": "Motorized Bounty Hunters",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Motorized Bounty Hunters",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 17,
+              "move": [
+                20,
+                15
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 1,
+              "ava": 1,
+              "str": false,
+              "bs": 12,
+              "s": 4,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 107,
+                  "order": 1
+                }
+              ],
+              "w": 1,
+              "ph": 10,
+              "name": "Motorized Bounty Hunters",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/motorized-bounty-hunters-1-1.svg",
+              "id": 1,
+              "arm": 1,
+              "weapons": [],
+              "chars": [
+                1,
+                4,
+                6
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "q": 1,
+                  "extra": [
+                    277
+                  ],
+                  "id": 25,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 268,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    23
+                  ],
+                  "id": 40,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    6
+                  ],
+                  "id": 28,
+                  "order": 4
+                },
+                {
+                  "q": 1,
+                  "id": 256,
+                  "order": 5
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 8,
+              "equip": [],
+              "name": "MOTORIZED BOUNTY HUNTER",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "IRREGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "IMPETUOUS",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 26,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    7
+                  ],
+                  "id": 71,
+                  "order": 3
+                },
+                {
+                  "id": 188,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 9,
+              "equip": [],
+              "name": "MOTORIZED BOUNTY HUNTER",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "IRREGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "IMPETUOUS",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "id": 77,
+                  "order": 1
+                },
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 80,
+                  "order": 2
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "extra": [
+                    7
+                  ],
+                  "id": 71,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 16,
+              "equip": [],
+              "name": "MOTORIZED BOUNTY HUNTER",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "IRREGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "IMPETUOUS",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 3,
+              "weapons": [
+                {
+                  "id": 152,
+                  "order": 1
+                },
+                {
+                  "id": 98,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    7
+                  ],
+                  "id": 71,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0.5",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 11
+        }
+      ],
+      "options": [],
+      "slug": "merc-motorized-bounty-hunters",
+      "filters": {
+        "categories": [
+          11
+        ],
+        "skills": [
+          25,
+          28,
+          40,
+          256,
+          268
+        ],
+        "equip": [
+          107
+        ],
+        "chars": [
+          1,
+          4,
+          6
+        ],
+        "types": [
+          1
+        ],
+        "weapons": [
+          26,
+          69,
+          71,
+          77,
+          80,
+          98,
+          152,
+          188
+        ],
+        "ammunition": [
+          2,
+          3,
+          8,
+          37
         ]
       },
       "factions": []
@@ -20348,7 +20344,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 23
+                  "id": 95
                 }
               ]
             }
@@ -20783,25 +20779,25 @@
   "filters": {
     "peripheral": [
       {
-        "id": 23,
+        "id": 95,
         "name": "BÂTARD",
         "mercs": true
       },
       {
-        "id": 21,
+        "id": 93,
         "name": "JACKBOT",
         "mercs": true
       },
       {
-        "id": 20,
+        "id": 92,
         "name": "SCINDRON"
       },
       {
-        "id": 19,
+        "id": 91,
         "name": "TAIGHA SYNC"
       },
       {
-        "id": 22,
+        "id": 94,
         "name": "TURTLEMEK",
         "mercs": true
       }
@@ -22691,16 +22687,6 @@
       "category": 5
     },
     {
-      "id": 512,
-      "isc": "Shasvastii Seed-Soldiers",
-      "idArmy": 21,
-      "name": "SHASVASTII SEED-SOLDIERS",
-      "slug": "shasvastii-seed-soldiers",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/shasvastii-seed-soldiers-1-1.svg",
-      "type": 1,
-      "category": 2
-    },
-    {
       "id": 513,
       "isc": "Shasvastii Cadmus",
       "idArmy": 22,
@@ -22709,6 +22695,16 @@
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/shasvastii-cadmus-1-1.svg",
       "type": 1,
       "category": 3
+    },
+    {
+      "id": 512,
+      "isc": "Shasvastii Seed-Soldiers",
+      "idArmy": 21,
+      "name": "SHASVASTII SEED-SOLDIERS",
+      "slug": "shasvastii-seed-soldiers",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/shasvastii-seed-soldiers-1-1.svg",
+      "type": 1,
+      "category": 2
     },
     {
       "id": 526,
@@ -23231,16 +23227,6 @@
       "category": 11
     },
     {
-      "id": 11565,
-      "isc": "Motorized Bounty Hunters",
-      "idArmy": 21565,
-      "name": "Motorized Bounty Hunters",
-      "slug": "merc-motorized-bounty-hunters",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/motorized-bounty-hunters-1-1.svg",
-      "type": 1,
-      "category": 11
-    },
-    {
       "id": 11500,
       "isc": "Liang Kai",
       "idArmy": 21500,
@@ -23249,6 +23235,16 @@
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/liang-kai-1-1.svg",
       "type": 7,
       "category": 10
+    },
+    {
+      "id": 11565,
+      "isc": "Motorized Bounty Hunters",
+      "idArmy": 21565,
+      "name": "Motorized Bounty Hunters",
+      "slug": "merc-motorized-bounty-hunters",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/motorized-bounty-hunters-1-1.svg",
+      "type": 1,
+      "category": 11
     },
     {
       "id": 10464,
@@ -23843,7 +23839,7 @@
             "min": 0,
             "max": 1,
             "name": "GWAILO",
-            "comment": "(Cutthroad)",
+            "comment": "(Cutthroats)",
             "required": true,
             "slug": "shasvastii-gwailos"
           },
