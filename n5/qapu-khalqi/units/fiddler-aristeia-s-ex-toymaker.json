@@ -1,7 +1,7 @@
 {
   "id": 1564,
   "idArmy": 1564,
-  "canonical": 401,
+  "canonical": 1,
   "isc": "Fiddler, Aristeia!'s ex-toymaker",
   "iscAbbr": null,
   "name": "Fiddler, Aristeia!'s ex-toymaker",
@@ -40,7 +40,7 @@
           ],
           "ph": 12,
           "s": 2,
-          "str": false,
+          "str": true,
           "type": 1,
           "w": 1,
           "wip": 14,
@@ -78,14 +78,6 @@
             },
             {
               "id": 162,
-              "order": 5,
-              "extra": [
-                30
-              ],
-              "q": 1
-            },
-            {
-              "id": 162,
               "order": 6,
               "extra": [
                 49
@@ -116,7 +108,7 @@
             }
           ],
           "includes": [],
-          "points": 28,
+          "points": 29,
           "swc": "0",
           "weapons": [
             {
@@ -170,9 +162,13 @@
               "q": 1
             }
           ],
-          "points": 35,
+          "points": 36,
           "swc": "0",
           "weapons": [
+            {
+              "id": 19,
+              "order": 1
+            },
             {
               "id": 96,
               "order": 2
@@ -188,10 +184,6 @@
             {
               "id": 71,
               "order": 5
-            },
-            {
-              "id": 19,
-              "order": 1
             }
           ],
           "name": "FIDDLER",
@@ -204,7 +196,7 @@
           ],
           "peripheral": [
             {
-              "id": 1
+              "id": 14
             }
           ]
         },
@@ -228,7 +220,7 @@
               "q": 2
             }
           ],
-          "points": 42,
+          "points": 43,
           "swc": "0",
           "weapons": [
             {
@@ -262,7 +254,7 @@
           ],
           "peripheral": [
             {
-              "id": 1,
+              "id": 14,
               "q": 2
             }
           ]
@@ -283,6 +275,7 @@
           "bts": 3,
           "cc": 16,
           "chars": [
+            21,
             27
           ],
           "equip": [],
@@ -318,14 +311,6 @@
             {
               "id": 38,
               "order": 3,
-              "q": 1
-            },
-            {
-              "id": 162,
-              "order": 4,
-              "extra": [
-                30
-              ],
               "q": 1
             },
             {
@@ -387,6 +372,7 @@
       1,
       3,
       5,
+      21,
       27
     ],
     "types": [
