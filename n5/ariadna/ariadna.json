@@ -1,5 +1,5 @@
 {
-  "version": "7.2521.496",
+  "version": "7.2534.189",
   "units": [
     {
       "id": 227,
@@ -2790,7 +2790,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 12,
+                  "id": 20,
                   "q": 3
                 }
               ]
@@ -4015,7 +4015,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 13
+                  "id": 21
                 }
               ]
             },
@@ -4490,7 +4490,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 14
+                  "id": 22
                 }
               ]
             },
@@ -4546,7 +4546,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 14
+                  "id": 22
                 }
               ]
             }
@@ -11503,222 +11503,6 @@
       ]
     },
     {
-      "id": 50,
-      "idArmy": 50,
-      "canonical": 1,
-      "isc": "Warcors, War Correspondents",
-      "iscAbbr": null,
-      "name": "WARCORS, WAR CORRESPONDENTS",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Warcors, War Correspondents",
-          "profiles": [
-            {
-              "bts": 0,
-              "cc": 11,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 1,
-              "ava": 1,
-              "str": false,
-              "bs": 9,
-              "s": 2,
-              "equip": [],
-              "w": 1,
-              "ph": 11,
-              "name": "WARCORS, WAR CORRESPONDENTS",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/warcors-war-correspondents-1-1.svg",
-              "id": 1,
-              "arm": 0,
-              "weapons": [],
-              "chars": [
-                1,
-                4,
-                5
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 127,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 3,
-              "equip": [
-                {
-                  "id": 113,
-                  "order": 1
-                }
-              ],
-              "name": "WARCOR",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "IRREGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 72,
-                  "order": 1
-                },
-                {
-                  "id": 92,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 3,
-              "equip": [],
-              "name": "WARCOR",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "IRREGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "id": 72,
-                  "order": 1
-                },
-                {
-                  "id": 92,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "id": 67,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 11
-        }
-      ],
-      "options": [],
-      "slug": "warcors-war-correspondents",
-      "filters": {
-        "categories": [
-          11
-        ],
-        "skills": [
-          67,
-          127
-        ],
-        "equip": [
-          113
-        ],
-        "chars": [
-          1,
-          4,
-          5
-        ],
-        "types": [
-          1
-        ],
-        "weapons": [
-          71,
-          72,
-          92
-        ],
-        "ammunition": [
-          29,
-          37
-        ]
-      },
-      "factions": [
-        101,
-        102,
-        103,
-        104,
-        105,
-        106,
-        107,
-        201,
-        202,
-        204,
-        205,
-        301,
-        302,
-        303,
-        304,
-        305,
-        306,
-        401,
-        402,
-        403,
-        404,
-        501,
-        502,
-        503,
-        504,
-        701,
-        702,
-        703,
-        902,
-        903,
-        904,
-        905,
-        906,
-        907,
-        908,
-        909,
-        1001,
-        1002,
-        1003,
-        1101,
-        1102,
-        1103
-      ]
-    },
-    {
       "id": 239,
       "idArmy": 13,
       "canonical": 301,
@@ -12737,6 +12521,225 @@
       "factions": [
         301,
         303
+      ]
+    },
+    {
+      "id": 50,
+      "idArmy": 50,
+      "canonical": 1,
+      "isc": "Warcors, War Correspondents",
+      "iscAbbr": null,
+      "name": "WARCORS, WAR CORRESPONDENTS",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Warcors, War Correspondents",
+          "profiles": [
+            {
+              "bts": 0,
+              "cc": 11,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 1,
+              "ava": 1,
+              "str": false,
+              "bs": 9,
+              "s": 2,
+              "equip": [],
+              "w": 1,
+              "ph": 11,
+              "name": "WARCORS, WAR CORRESPONDENTS",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/warcors-war-correspondents-1-1.svg",
+              "id": 1,
+              "arm": 0,
+              "weapons": [],
+              "chars": [
+                1,
+                4,
+                5
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 127,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 3,
+              "equip": [
+                {
+                  "id": 113,
+                  "order": 1
+                }
+              ],
+              "name": "WARCOR",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "IRREGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 72,
+                  "order": 1
+                },
+                {
+                  "id": 92,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 3,
+              "equip": [],
+              "name": "WARCOR",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "IRREGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "id": 72,
+                  "order": 1
+                },
+                {
+                  "id": 92,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "id": 67,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 11
+        }
+      ],
+      "options": [],
+      "slug": "warcors-war-correspondents",
+      "filters": {
+        "categories": [
+          11
+        ],
+        "skills": [
+          67,
+          127
+        ],
+        "equip": [
+          113
+        ],
+        "chars": [
+          1,
+          4,
+          5
+        ],
+        "types": [
+          1
+        ],
+        "weapons": [
+          71,
+          72,
+          92
+        ],
+        "ammunition": [
+          29,
+          37
+        ]
+      },
+      "factions": [
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        201,
+        202,
+        204,
+        205,
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        401,
+        402,
+        403,
+        404,
+        501,
+        502,
+        503,
+        504,
+        601,
+        602,
+        604,
+        701,
+        702,
+        703,
+        902,
+        903,
+        904,
+        905,
+        906,
+        907,
+        908,
+        909,
+        1001,
+        1002,
+        1003,
+        1101,
+        1102,
+        1103
       ]
     },
     {
@@ -16166,180 +16169,6 @@
       "factions": []
     },
     {
-      "id": 10050,
-      "idArmy": 10050,
-      "canonical": 1,
-      "isc": "Warcors, War Correspondents",
-      "iscAbbr": null,
-      "notes": null,
-      "name": "WARCORS, WAR CORRESPONDENTS",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Warcors, War Correspondents",
-          "profiles": [
-            {
-              "bts": 0,
-              "cc": 11,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 1,
-              "ava": 2,
-              "str": false,
-              "bs": 9,
-              "s": 2,
-              "equip": [],
-              "w": 1,
-              "ph": 11,
-              "name": "WARCORS, WAR CORRESPONDENTS",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/warcors-war-correspondents-1-1.svg",
-              "id": 1,
-              "arm": 0,
-              "weapons": [],
-              "chars": [
-                1,
-                4,
-                5
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 127,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 3,
-              "equip": [
-                {
-                  "id": 113,
-                  "order": 1
-                }
-              ],
-              "name": "WARCOR",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "IRREGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 72,
-                  "order": 1
-                },
-                {
-                  "id": 92,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 3,
-              "equip": [],
-              "name": "WARCOR",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "IRREGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "id": 72,
-                  "order": 1
-                },
-                {
-                  "id": 92,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "id": 67,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 11
-        }
-      ],
-      "options": [],
-      "slug": "merc-warcors-war-correspondents",
-      "filters": {
-        "categories": [
-          11
-        ],
-        "skills": [
-          67,
-          127
-        ],
-        "equip": [
-          113
-        ],
-        "chars": [
-          1,
-          4,
-          5
-        ],
-        "types": [
-          1
-        ],
-        "weapons": [
-          71,
-          72,
-          92
-        ],
-        "ammunition": [
-          29,
-          37
-        ]
-      },
-      "factions": []
-    },
-    {
       "id": 11556,
       "idArmy": 21556,
       "canonical": 1,
@@ -16588,424 +16417,6 @@
           3,
           8,
           9
-        ]
-      },
-      "factions": []
-    },
-    {
-      "id": 11564,
-      "idArmy": 21564,
-      "canonical": 1,
-      "isc": "Fiddler, Aristeia!'s ex-toymaker",
-      "iscAbbr": null,
-      "notes": null,
-      "name": "Fiddler, Aristeia!'s ex-toymaker",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Fiddler, Aristeia!'s ex-toymaker",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 18,
-              "move": [
-                15,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 1,
-              "ava": 1,
-              "str": true,
-              "bs": 12,
-              "s": 2,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 237,
-                  "order": 1
-                }
-              ],
-              "w": 1,
-              "ph": 12,
-              "name": "Fiddler, Aristeia!'s ex-toymaker",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/fiddler-aristeia-s-ex-toymaker-1-1.svg",
-              "id": 1,
-              "arm": 1,
-              "weapons": [],
-              "chars": [
-                1,
-                3,
-                5
-              ],
-              "wip": 14,
-              "skills": [
-                {
-                  "q": 1,
-                  "extra": [
-                    8
-                  ],
-                  "id": 240,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    1
-                  ],
-                  "id": 40,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    11
-                  ],
-                  "id": 40,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "id": 49,
-                  "order": 4
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    49
-                  ],
-                  "id": 162,
-                  "order": 6
-                },
-                {
-                  "q": 1,
-                  "id": 86,
-                  "order": 7
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 29,
-              "equip": [],
-              "name": "Fiddler FTO",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "extra": [
-                    8
-                  ],
-                  "id": 19,
-                  "order": 1
-                },
-                {
-                  "id": 96,
-                  "order": 2
-                },
-                {
-                  "id": 17,
-                  "order": 3
-                },
-                {
-                  "id": 98,
-                  "order": 4
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 5
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 74,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [
-                {
-                  "q": 1,
-                  "group": 2,
-                  "option": 1
-                }
-              ],
-              "minis": 1,
-              "points": 36,
-              "equip": [],
-              "name": "FIDDLER",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "extra": [
-                    8
-                  ],
-                  "id": 19,
-                  "order": 1
-                },
-                {
-                  "id": 96,
-                  "order": 2
-                },
-                {
-                  "id": 17,
-                  "order": 3
-                },
-                {
-                  "id": 98,
-                  "order": 4
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 5
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 82,
-                  "order": 1
-                }
-              ],
-              "peripheral": [
-                {
-                  "id": 15
-                }
-              ]
-            },
-            {
-              "includes": [
-                {
-                  "q": 2,
-                  "group": 2,
-                  "option": 1
-                }
-              ],
-              "minis": 1,
-              "points": 43,
-              "equip": [],
-              "name": "FIDDLER",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 3,
-              "weapons": [
-                {
-                  "id": 98,
-                  "order": 4
-                },
-                {
-                  "extra": [
-                    8
-                  ],
-                  "id": 19,
-                  "order": 1
-                },
-                {
-                  "id": 96,
-                  "order": 6
-                },
-                {
-                  "id": 17,
-                  "order": 7
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 8
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 82,
-                  "order": 1
-                }
-              ],
-              "peripheral": [
-                {
-                  "id": 15,
-                  "q": 2
-                }
-              ]
-            }
-          ],
-          "id": 1,
-          "category": 10
-        },
-        {
-          "notes": null,
-          "isc": "Fiddler, Aristeia!'s ex-toymaker",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 16,
-              "move": [
-                15,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 5,
-              "ava": -1,
-              "str": true,
-              "bs": 11,
-              "s": 1,
-              "equip": [],
-              "w": 1,
-              "ph": 10,
-              "name": "JACKBOT",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/fiddler-aristeia-s-ex-toymaker-2-1.svg",
-              "id": 1,
-              "arm": 0,
-              "weapons": [],
-              "chars": [
-                21,
-                27
-              ],
-              "wip": 12,
-              "skills": [
-                {
-                  "q": 1,
-                  "extra": [
-                    40
-                  ],
-                  "id": 243,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "id": 84,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "id": 38,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "id": 82,
-                  "order": 5
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 7,
-              "equip": [],
-              "name": "JACKBOT",
-              "disabled": true,
-              "orders": [],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 81,
-                  "order": 1
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 2,
-          "category": 2
-        }
-      ],
-      "options": [],
-      "slug": "merc-fiddler-aristeia-s-ex-toymaker",
-      "filters": {
-        "categories": [
-          2,
-          10
-        ],
-        "skills": [
-          38,
-          40,
-          49,
-          74,
-          82,
-          84,
-          86,
-          162,
-          240,
-          243
-        ],
-        "equip": [
-          237
-        ],
-        "chars": [
-          1,
-          3,
-          5,
-          21,
-          27
-        ],
-        "types": [
-          1,
-          5
-        ],
-        "weapons": [
-          17,
-          19,
-          71,
-          81,
-          96,
-          98
-        ],
-        "ammunition": [
-          3,
-          8,
-          13,
-          18,
-          37
         ]
       },
       "factions": []
@@ -17502,6 +16913,598 @@
       "factions": []
     },
     {
+      "id": 11564,
+      "idArmy": 21564,
+      "canonical": 1,
+      "isc": "Fiddler, Aristeia!'s ex-toymaker",
+      "iscAbbr": null,
+      "notes": null,
+      "name": "Fiddler, Aristeia!'s ex-toymaker",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Fiddler, Aristeia!'s ex-toymaker",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 18,
+              "move": [
+                15,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 1,
+              "ava": 1,
+              "str": true,
+              "bs": 12,
+              "s": 2,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 237,
+                  "order": 1
+                }
+              ],
+              "w": 1,
+              "ph": 12,
+              "name": "Fiddler, Aristeia!'s ex-toymaker",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/fiddler-aristeia-s-ex-toymaker-1-1.svg",
+              "id": 1,
+              "arm": 1,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                5
+              ],
+              "wip": 14,
+              "skills": [
+                {
+                  "q": 1,
+                  "extra": [
+                    8
+                  ],
+                  "id": 240,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    1
+                  ],
+                  "id": 40,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    11
+                  ],
+                  "id": 40,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "id": 49,
+                  "order": 4
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    49
+                  ],
+                  "id": 162,
+                  "order": 6
+                },
+                {
+                  "q": 1,
+                  "id": 86,
+                  "order": 7
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 29,
+              "equip": [],
+              "name": "Fiddler FTO",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 19,
+                  "order": 1
+                },
+                {
+                  "id": 96,
+                  "order": 2
+                },
+                {
+                  "id": 17,
+                  "order": 3
+                },
+                {
+                  "id": 98,
+                  "order": 4
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 74,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [
+                {
+                  "q": 1,
+                  "group": 2,
+                  "option": 1
+                }
+              ],
+              "minis": 1,
+              "points": 36,
+              "equip": [],
+              "name": "FIDDLER",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 19,
+                  "order": 1
+                },
+                {
+                  "id": 96,
+                  "order": 2
+                },
+                {
+                  "id": 17,
+                  "order": 3
+                },
+                {
+                  "id": 98,
+                  "order": 4
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 82,
+                  "order": 1
+                }
+              ],
+              "peripheral": [
+                {
+                  "id": 23
+                }
+              ]
+            },
+            {
+              "includes": [
+                {
+                  "q": 2,
+                  "group": 2,
+                  "option": 1
+                }
+              ],
+              "minis": 1,
+              "points": 43,
+              "equip": [],
+              "name": "FIDDLER",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 3,
+              "weapons": [
+                {
+                  "id": 98,
+                  "order": 4
+                },
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 19,
+                  "order": 1
+                },
+                {
+                  "id": 96,
+                  "order": 6
+                },
+                {
+                  "id": 17,
+                  "order": 7
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 8
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 82,
+                  "order": 1
+                }
+              ],
+              "peripheral": [
+                {
+                  "id": 23,
+                  "q": 2
+                }
+              ]
+            }
+          ],
+          "id": 1,
+          "category": 10
+        },
+        {
+          "notes": null,
+          "isc": "Fiddler, Aristeia!'s ex-toymaker",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 16,
+              "move": [
+                15,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 5,
+              "ava": -1,
+              "str": true,
+              "bs": 11,
+              "s": 1,
+              "equip": [],
+              "w": 1,
+              "ph": 10,
+              "name": "JACKBOT",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/fiddler-aristeia-s-ex-toymaker-2-1.svg",
+              "id": 1,
+              "arm": 0,
+              "weapons": [],
+              "chars": [
+                21,
+                27
+              ],
+              "wip": 12,
+              "skills": [
+                {
+                  "q": 1,
+                  "extra": [
+                    40
+                  ],
+                  "id": 243,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 84,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "id": 38,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "id": 82,
+                  "order": 5
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 7,
+              "equip": [],
+              "name": "JACKBOT",
+              "disabled": true,
+              "orders": [],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 81,
+                  "order": 1
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 2,
+          "category": 2
+        }
+      ],
+      "options": [],
+      "slug": "merc-fiddler-aristeia-s-ex-toymaker",
+      "filters": {
+        "categories": [
+          2,
+          10
+        ],
+        "skills": [
+          38,
+          40,
+          49,
+          74,
+          82,
+          84,
+          86,
+          162,
+          240,
+          243
+        ],
+        "equip": [
+          237
+        ],
+        "chars": [
+          1,
+          3,
+          5,
+          21,
+          27
+        ],
+        "types": [
+          1,
+          5
+        ],
+        "weapons": [
+          17,
+          19,
+          71,
+          81,
+          96,
+          98
+        ],
+        "ammunition": [
+          3,
+          8,
+          13,
+          18,
+          37
+        ]
+      },
+      "factions": []
+    },
+    {
+      "id": 10050,
+      "idArmy": 10050,
+      "canonical": 1,
+      "isc": "Warcors, War Correspondents",
+      "iscAbbr": null,
+      "notes": null,
+      "name": "WARCORS, WAR CORRESPONDENTS",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Warcors, War Correspondents",
+          "profiles": [
+            {
+              "bts": 0,
+              "cc": 11,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 1,
+              "ava": 2,
+              "str": false,
+              "bs": 9,
+              "s": 2,
+              "equip": [],
+              "w": 1,
+              "ph": 11,
+              "name": "WARCORS, WAR CORRESPONDENTS",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/warcors-war-correspondents-1-1.svg",
+              "id": 1,
+              "arm": 0,
+              "weapons": [],
+              "chars": [
+                1,
+                4,
+                5
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 127,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 3,
+              "equip": [
+                {
+                  "id": 113,
+                  "order": 1
+                }
+              ],
+              "name": "WARCOR",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "IRREGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 72,
+                  "order": 1
+                },
+                {
+                  "id": 92,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 3,
+              "equip": [],
+              "name": "WARCOR",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "IRREGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "id": 72,
+                  "order": 1
+                },
+                {
+                  "id": 92,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "id": 67,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 11
+        }
+      ],
+      "options": [],
+      "slug": "merc-warcors-war-correspondents",
+      "filters": {
+        "categories": [
+          11
+        ],
+        "skills": [
+          67,
+          127
+        ],
+        "equip": [
+          113
+        ],
+        "chars": [
+          1,
+          4,
+          5
+        ],
+        "types": [
+          1
+        ],
+        "weapons": [
+          71,
+          72,
+          92
+        ],
+        "ammunition": [
+          29,
+          37
+        ]
+      },
+      "factions": []
+    },
+    {
       "id": 10283,
       "idArmy": 10015,
       "canonical": 1,
@@ -17683,204 +17686,6 @@
         "ammunition": [
           2,
           10,
-          21
-        ]
-      },
-      "factions": []
-    },
-    {
-      "id": 11834,
-      "idArmy": 21834,
-      "canonical": 1,
-      "isc": "Yojimbo, Sword for Hire",
-      "iscAbbr": null,
-      "notes": "NOTE: There can only be 1 Yojimbo in each Army List. ",
-      "name": "YOJIMBO, Sword for Hire",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Yojimbo, Sword for Hire",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 24,
-              "move": [
-                15,
-                5
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 7,
-              "ava": 1,
-              "str": false,
-              "bs": 12,
-              "s": 2,
-              "equip": [],
-              "w": 1,
-              "ph": 14,
-              "name": "YOJIMBO, Sword for Hire",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/yojimbo-sword-for-hire-1-1.svg",
-              "id": 1,
-              "arm": 1,
-              "weapons": [],
-              "chars": [
-                1,
-                4,
-                6
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 22,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "id": 84,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    11
-                  ],
-                  "id": 40,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    49
-                  ],
-                  "id": 162,
-                  "order": 4
-                },
-                {
-                  "q": 1,
-                  "id": 56,
-                  "order": 5
-                },
-                {
-                  "q": 1,
-                  "id": 164,
-                  "order": 6
-                },
-                {
-                  "q": 1,
-                  "id": 264,
-                  "order": 7
-                },
-                {
-                  "q": 1,
-                  "id": 86,
-                  "order": 8
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 19,
-              "equip": [],
-              "name": "YOJIMBO",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "IRREGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "IMPETUOUS",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "extra": [
-                    8
-                  ],
-                  "id": 19,
-                  "order": 1
-                },
-                {
-                  "id": 65,
-                  "order": 2
-                },
-                {
-                  "id": 45,
-                  "order": 3
-                },
-                {
-                  "id": 20,
-                  "order": 4
-                },
-                {
-                  "id": 69,
-                  "order": 5
-                },
-                {
-                  "extra": [
-                    316
-                  ],
-                  "id": 11,
-                  "order": 6
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 11
-        }
-      ],
-      "options": [],
-      "slug": "merc-yojimbo-sword-for-hire",
-      "filters": {
-        "categories": [
-          11
-        ],
-        "skills": [
-          22,
-          40,
-          56,
-          84,
-          86,
-          162,
-          164,
-          264
-        ],
-        "equip": [],
-        "chars": [
-          1,
-          4,
-          6
-        ],
-        "types": [
-          7
-        ],
-        "weapons": [
-          11,
-          19,
-          20,
-          45,
-          65,
-          69
-        ],
-        "ammunition": [
-          2,
-          8,
-          9,
-          18,
           21
         ]
       },
@@ -18861,7 +18666,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 16
+                  "id": 24
                 }
               ]
             },
@@ -18913,7 +18718,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 16
+                  "id": 24
                 }
               ]
             },
@@ -18969,7 +18774,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 16
+                  "id": 24
                 }
               ]
             }
@@ -19350,6 +19155,204 @@
           9,
           13,
           37
+        ]
+      },
+      "factions": []
+    },
+    {
+      "id": 11834,
+      "idArmy": 21834,
+      "canonical": 1,
+      "isc": "Yojimbo, Sword for Hire",
+      "iscAbbr": null,
+      "notes": "NOTE: There can only be 1 Yojimbo in each Army List. ",
+      "name": "YOJIMBO, Sword for Hire",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Yojimbo, Sword for Hire",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 24,
+              "move": [
+                15,
+                5
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 7,
+              "ava": 1,
+              "str": false,
+              "bs": 12,
+              "s": 2,
+              "equip": [],
+              "w": 1,
+              "ph": 14,
+              "name": "YOJIMBO, Sword for Hire",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/yojimbo-sword-for-hire-1-1.svg",
+              "id": 1,
+              "arm": 1,
+              "weapons": [],
+              "chars": [
+                1,
+                4,
+                6
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 22,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 84,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    11
+                  ],
+                  "id": 40,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    49
+                  ],
+                  "id": 162,
+                  "order": 4
+                },
+                {
+                  "q": 1,
+                  "id": 56,
+                  "order": 5
+                },
+                {
+                  "q": 1,
+                  "id": 164,
+                  "order": 6
+                },
+                {
+                  "q": 1,
+                  "id": 264,
+                  "order": 7
+                },
+                {
+                  "q": 1,
+                  "id": 86,
+                  "order": 8
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 19,
+              "equip": [],
+              "name": "YOJIMBO",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "IRREGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "IMPETUOUS",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 19,
+                  "order": 1
+                },
+                {
+                  "id": 65,
+                  "order": 2
+                },
+                {
+                  "id": 45,
+                  "order": 3
+                },
+                {
+                  "id": 20,
+                  "order": 4
+                },
+                {
+                  "id": 69,
+                  "order": 5
+                },
+                {
+                  "extra": [
+                    316
+                  ],
+                  "id": 11,
+                  "order": 6
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 10
+        }
+      ],
+      "options": [],
+      "slug": "merc-yojimbo-sword-for-hire",
+      "filters": {
+        "categories": [
+          10
+        ],
+        "skills": [
+          22,
+          40,
+          56,
+          84,
+          86,
+          162,
+          164,
+          264
+        ],
+        "equip": [],
+        "chars": [
+          1,
+          4,
+          6
+        ],
+        "types": [
+          7
+        ],
+        "weapons": [
+          11,
+          19,
+          20,
+          45,
+          65,
+          69
+        ],
+        "ammunition": [
+          2,
+          8,
+          9,
+          18,
+          21
         ]
       },
       "factions": []
@@ -21609,7 +21612,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 16
+                  "id": 24
                 }
               ]
             },
@@ -21664,7 +21667,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 16
+                  "id": 24
                 }
               ]
             },
@@ -21719,7 +21722,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 16
+                  "id": 24
                 }
               ]
             },
@@ -21778,7 +21781,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 16
+                  "id": 24
                 }
               ]
             }
@@ -27126,7 +27129,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 17
+                  "id": 25
                 }
               ]
             }
@@ -27561,29 +27564,29 @@
   "filters": {
     "peripheral": [
       {
-        "id": 12,
+        "id": 20,
         "name": "ANTIPODE"
       },
       {
-        "id": 17,
+        "id": 25,
         "name": "BÂTARD",
         "mercs": true
       },
       {
-        "id": 15,
+        "id": 23,
         "name": "JACKBOT",
         "mercs": true
       },
       {
-        "id": 13,
+        "id": 21,
         "name": "K-9 ANTIPODE"
       },
       {
-        "id": 14,
+        "id": 22,
         "name": "RB-235 SAMODELKIN"
       },
       {
-        "id": 16,
+        "id": 24,
         "name": "TURTLEMEK",
         "mercs": true
       }
@@ -29836,16 +29839,6 @@
       "category": 8
     },
     {
-      "id": 50,
-      "isc": "Warcors, War Correspondents",
-      "idArmy": 50,
-      "name": "WARCORS, WAR CORRESPONDENTS",
-      "slug": "warcors-war-correspondents",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/warcors-war-correspondents-1-1.svg",
-      "type": 1,
-      "category": 11
-    },
-    {
       "id": 239,
       "isc": "45th Highlanders Rifles",
       "idArmy": 13,
@@ -29884,6 +29877,16 @@
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/chasseurs-1-1.svg",
       "type": 6,
       "category": 3
+    },
+    {
+      "id": 50,
+      "isc": "Warcors, War Correspondents",
+      "idArmy": 50,
+      "name": "WARCORS, WAR CORRESPONDENTS",
+      "slug": "warcors-war-correspondents",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/warcors-war-correspondents-1-1.svg",
+      "type": 1,
+      "category": 11
     },
     {
       "id": 1519,
@@ -30006,16 +30009,6 @@
       "category": 10
     },
     {
-      "id": 10050,
-      "isc": "Warcors, War Correspondents",
-      "idArmy": 10050,
-      "name": "WARCORS, WAR CORRESPONDENTS",
-      "slug": "merc-warcors-war-correspondents",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/warcors-war-correspondents-1-1.svg",
-      "type": 1,
-      "category": 11
-    },
-    {
       "id": 11556,
       "isc": "John Hawkwood, Mercenary Officer",
       "idArmy": 21556,
@@ -30023,16 +30016,6 @@
       "slug": "merc-john-hawkwood-mercenary-officer",
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/john-hawkwood-1-1.svg",
       "type": 2,
-      "category": 10
-    },
-    {
-      "id": 11564,
-      "isc": "Fiddler, Aristeia!'s ex-toymaker",
-      "idArmy": 21564,
-      "name": "Fiddler, Aristeia!'s ex-toymaker",
-      "slug": "merc-fiddler-aristeia-s-ex-toymaker",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/fiddler-aristeia-s-ex-toymaker-1-1.svg",
-      "type": 1,
       "category": 10
     },
     {
@@ -30056,6 +30039,26 @@
       "category": 10
     },
     {
+      "id": 11564,
+      "isc": "Fiddler, Aristeia!'s ex-toymaker",
+      "idArmy": 21564,
+      "name": "Fiddler, Aristeia!'s ex-toymaker",
+      "slug": "merc-fiddler-aristeia-s-ex-toymaker",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/fiddler-aristeia-s-ex-toymaker-1-1.svg",
+      "type": 1,
+      "category": 10
+    },
+    {
+      "id": 10050,
+      "isc": "Warcors, War Correspondents",
+      "idArmy": 10050,
+      "name": "WARCORS, WAR CORRESPONDENTS",
+      "slug": "merc-warcors-war-correspondents",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/warcors-war-correspondents-1-1.svg",
+      "type": 1,
+      "category": 11
+    },
+    {
       "id": 10283,
       "isc": "McMurrough, Merc. Dog-Warrior",
       "idArmy": 10015,
@@ -30064,16 +30067,6 @@
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/mcmurrough-merc-dog-warrior-1-1.svg",
       "type": 7,
       "category": 10
-    },
-    {
-      "id": 11834,
-      "isc": "Yojimbo, Sword for Hire",
-      "idArmy": 21834,
-      "name": "YOJIMBO, Sword for Hire",
-      "slug": "merc-yojimbo-sword-for-hire",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/yojimbo-sword-for-hire-1-1.svg",
-      "type": 7,
-      "category": 11
     },
     {
       "id": 10122,
@@ -30113,6 +30106,16 @@
       "slug": "merc-scarface-and-cordelia",
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/scarface-and-cordelia-1-1.svg",
       "type": 4,
+      "category": 10
+    },
+    {
+      "id": 11834,
+      "isc": "Yojimbo, Sword for Hire",
+      "idArmy": 21834,
+      "name": "YOJIMBO, Sword for Hire",
+      "slug": "merc-yojimbo-sword-for-hire",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/yojimbo-sword-for-hire-1-1.svg",
+      "type": 7,
       "category": 10
     },
     {

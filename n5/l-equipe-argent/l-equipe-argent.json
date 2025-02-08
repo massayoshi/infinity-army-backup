@@ -1,709 +1,6 @@
 {
-  "version": "7.24352.499",
+  "version": "7.2534.208",
   "units": [
-    {
-      "id": 1635,
-      "idArmy": 1635,
-      "canonical": 399,
-      "isc": "Reinf. Wardrivers, Mercenary Hackers",
-      "iscAbbr": null,
-      "name": "REINF: WARDRIVERS, Mercenary Hackers",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Reinf. Wardrivers, Mercenary Hackers",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 13,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 1,
-              "ava": 1,
-              "str": false,
-              "bs": 11,
-              "s": 2,
-              "equip": [],
-              "w": 1,
-              "ph": 10,
-              "name": "REINF: WARDRIVERS, Mercenary Hackers",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-wardrivers-mercenary-hackers-1-1.svg",
-              "id": 1,
-              "arm": 0,
-              "weapons": [],
-              "chars": [
-                1,
-                3,
-                5
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 67,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 11,
-              "equip": [],
-              "name": "WARDRIVER REINF",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 26,
-                  "order": 1
-                },
-                {
-                  "id": 72,
-                  "order": 2
-                },
-                {
-                  "id": 69,
-                  "order": 3
-                },
-                {
-                  "id": 5,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "q": 1,
-                  "extra": [
-                    265
-                  ],
-                  "id": 1000,
-                  "order": 2
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 13,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 100,
-                  "order": 1
-                }
-              ],
-              "name": "WARDRIVER REINF",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "id": 26,
-                  "order": 1
-                },
-                {
-                  "id": 69,
-                  "order": 2
-                },
-                {
-                  "id": 5,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "1",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 1000,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 11
-        }
-      ],
-      "options": [],
-      "slug": "reinf-wardrivers-mercenary-hackers",
-      "filters": {
-        "categories": [
-          11
-        ],
-        "skills": [
-          67,
-          1000
-        ],
-        "equip": [
-          100
-        ],
-        "chars": [
-          1,
-          3,
-          5
-        ],
-        "types": [
-          1
-        ],
-        "weapons": [
-          5,
-          26,
-          69,
-          72
-        ],
-        "ammunition": [
-          2,
-          3,
-          29
-        ]
-      },
-      "factions": [
-        399
-      ]
-    },
-    {
-      "id": 1627,
-      "idArmy": 1627,
-      "canonical": 399,
-      "isc": "Reinf. Briscards",
-      "iscAbbr": null,
-      "name": "REINF: BRISCARDS, 8éme Régiment d'Infanterie de Montagne",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Reinf. Briscards",
-          "profiles": [
-            {
-              "bts": 0,
-              "cc": 16,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 2,
-              "ava": 4,
-              "str": false,
-              "bs": 12,
-              "s": 2,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 114,
-                  "order": 1
-                }
-              ],
-              "w": 1,
-              "ph": 11,
-              "name": "REINF: BRISCARDS, 8éme Régiment d'Infanterie de Montagne",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-briscards-1-1.svg",
-              "id": 1,
-              "arm": 2,
-              "weapons": [],
-              "chars": [
-                2,
-                3,
-                5
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 84,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    38
-                  ],
-                  "id": 58,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    324
-                  ],
-                  "id": 271,
-                  "order": 3
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 18,
-              "equip": [],
-              "name": "BRISCARD REINF",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "id": 89,
-                  "order": 1
-                },
-                {
-                  "id": 70,
-                  "order": 2
-                },
-                {
-                  "id": 5,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "1.5",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 25,
-              "equip": [],
-              "name": "BRISCARD REINF",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 3,
-              "weapons": [
-                {
-                  "id": 5,
-                  "order": 3
-                },
-                {
-                  "id": 35,
-                  "order": 1
-                },
-                {
-                  "extra": null,
-                  "id": 70,
-                  "order": 2
-                }
-              ],
-              "chars": [],
-              "swc": "0.5",
-              "skills": [
-                {
-                  "q": 1,
-                  "extra": [
-                    30
-                  ],
-                  "id": 201,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 21,
-              "equip": [],
-              "name": "BRISCARD REINF",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 4,
-              "weapons": [
-                {
-                  "id": 84,
-                  "order": 1
-                },
-                {
-                  "id": 72,
-                  "order": 2
-                },
-                {
-                  "id": 70,
-                  "order": 3
-                },
-                {
-                  "id": 5,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 59,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 22,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 106,
-                  "order": 1
-                }
-              ],
-              "name": "BRISCARD REINF",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 5,
-              "weapons": [
-                {
-                  "id": 84,
-                  "order": 1
-                },
-                {
-                  "id": 70,
-                  "order": 2
-                },
-                {
-                  "id": 5,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 64,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 4
-        }
-      ],
-      "options": [],
-      "slug": "reinf-briscards",
-      "filters": {
-        "categories": [
-          4
-        ],
-        "skills": [
-          58,
-          59,
-          64,
-          84,
-          201,
-          271
-        ],
-        "equip": [
-          106,
-          114
-        ],
-        "chars": [
-          2,
-          3,
-          5
-        ],
-        "types": [
-          2
-        ],
-        "weapons": [
-          5,
-          35,
-          70,
-          72,
-          84,
-          89
-        ],
-        "ammunition": [
-          2,
-          3,
-          29
-        ]
-      },
-      "factions": [
-        399
-      ]
-    },
-    {
-      "id": 1636,
-      "idArmy": 1636,
-      "canonical": 399,
-      "isc": "Reinf. Beasthunters Free Guild",
-      "iscAbbr": null,
-      "name": "REINF: BEASTHUNTERS Free Guild",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Reinf. Beasthunters Free Guild",
-          "profiles": [
-            {
-              "bts": 0,
-              "cc": 21,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 1,
-              "ava": 1,
-              "str": false,
-              "bs": 11,
-              "s": 2,
-              "equip": [],
-              "w": 1,
-              "ph": 13,
-              "name": "REINF: BEASTHUNTERS Free Guild",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-beasthunters-free-guild-1-1.svg",
-              "id": 1,
-              "arm": 0,
-              "weapons": [],
-              "chars": [
-                1,
-                4,
-                5
-              ],
-              "wip": 12,
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 268,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    6
-                  ],
-                  "id": 28,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "id": 164,
-                  "order": 4
-                },
-                {
-                  "q": 1,
-                  "id": 74,
-                  "order": 5
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    33
-                  ],
-                  "id": 58,
-                  "order": 6
-                },
-                {
-                  "q": 1,
-                  "id": 83,
-                  "order": 7
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 9,
-              "equip": [],
-              "name": "BEASTHUNTER REINF",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "IRREGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 57,
-                  "order": 1
-                },
-                {
-                  "id": 193,
-                  "order": 2
-                },
-                {
-                  "id": 199,
-                  "order": 3
-                },
-                {
-                  "id": 69,
-                  "order": 4
-                },
-                {
-                  "extra": [
-                    302
-                  ],
-                  "id": 11,
-                  "order": 5
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 11,
-              "equip": [],
-              "name": "BEASTHUNTER REINF",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "IRREGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "id": 57,
-                  "order": 1
-                },
-                {
-                  "id": 68,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    8
-                  ],
-                  "id": 107,
-                  "order": 4
-                },
-                {
-                  "extra": [
-                    302
-                  ],
-                  "id": 11,
-                  "order": 5
-                },
-                {
-                  "extra": [
-                    303
-                  ],
-                  "id": 199,
-                  "order": 6
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 11
-        }
-      ],
-      "options": [],
-      "slug": "reinf-beasthunters-free-guild",
-      "filters": {
-        "categories": [
-          11
-        ],
-        "skills": [
-          28,
-          58,
-          74,
-          83,
-          164,
-          268
-        ],
-        "equip": [],
-        "chars": [
-          1,
-          4,
-          5
-        ],
-        "types": [
-          1
-        ],
-        "weapons": [
-          11,
-          57,
-          68,
-          69,
-          107,
-          193,
-          199
-        ],
-        "ammunition": [
-          2,
-          3,
-          8,
-          9,
-          13
-        ]
-      },
-      "factions": [
-        399
-      ]
-    },
     {
       "id": 1637,
       "idArmy": 1637,
@@ -2267,20 +1564,20 @@
       ]
     },
     {
-      "id": 1626,
-      "idArmy": 1626,
+      "id": 1635,
+      "idArmy": 1635,
       "canonical": 399,
-      "isc": "Reinf. Loup-Garous ",
+      "isc": "Reinf. Wardrivers, Mercenary Hackers",
       "iscAbbr": null,
-      "name": "REINF: LOUP-GAROUS, Groupe Mobile d´Action Spéciale",
+      "name": "REINF: WARDRIVERS, Mercenary Hackers",
       "profileGroups": [
         {
           "notes": null,
-          "isc": "Reinf. Loup-Garous ",
+          "isc": "Reinf. Wardrivers, Mercenary Hackers",
           "profiles": [
             {
-              "bts": 0,
-              "cc": 16,
+              "bts": 3,
+              "cc": 13,
               "move": [
                 10,
                 10
@@ -2288,31 +1585,31 @@
               "notes": null,
               "includes": [],
               "type": 1,
-              "ava": 5,
+              "ava": 1,
               "str": false,
-              "bs": 12,
+              "bs": 11,
               "s": 2,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 117,
-                  "order": 1
-                }
-              ],
+              "equip": [],
               "w": 1,
-              "ph": 11,
-              "name": "REINF: LOUP-GAROUS, Groupe Mobile d´Action Spéciale",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-loup-garous-1-1.svg",
+              "ph": 10,
+              "name": "REINF: WARDRIVERS, Mercenary Hackers",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-wardrivers-mercenary-hackers-1-1.svg",
               "id": 1,
-              "arm": 2,
+              "arm": 0,
               "weapons": [],
               "chars": [
-                2,
+                1,
                 3,
                 5
               ],
               "wip": 13,
-              "skills": [],
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 67,
+                  "order": 1
+                }
+              ],
               "peripheral": []
             }
           ],
@@ -2320,9 +1617,9 @@
             {
               "includes": [],
               "minis": 1,
-              "points": 21,
+              "points": 11,
               "equip": [],
-              "name": "LOUP-GAROU REINF",
+              "name": "WARDRIVER REINF",
               "disabled": false,
               "orders": [
                 {
@@ -2334,29 +1631,48 @@
               "id": 1,
               "weapons": [
                 {
-                  "id": 43,
+                  "id": 26,
                   "order": 1
                 },
                 {
-                  "id": 69,
+                  "id": 72,
                   "order": 2
                 },
                 {
-                  "id": 5,
+                  "id": 69,
                   "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
                 }
               ],
               "chars": [],
               "swc": "0",
-              "skills": [],
+              "skills": [
+                {
+                  "q": 1,
+                  "extra": [
+                    265
+                  ],
+                  "id": 1000,
+                  "order": 2
+                }
+              ],
               "peripheral": []
             },
             {
               "includes": [],
               "minis": 1,
-              "points": 17,
-              "equip": [],
-              "name": "LOUP-GAROU REINF",
+              "points": 13,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 100,
+                  "order": 1
+                }
+              ],
+              "name": "WARDRIVER REINF",
               "disabled": false,
               "orders": [
                 {
@@ -2373,29 +1689,273 @@
                 },
                 {
                   "id": 69,
-                  "order": 3
+                  "order": 2
                 },
                 {
                   "id": 5,
-                  "order": 4
-                },
-                {
-                  "extra": null,
-                  "id": 216,
-                  "order": 2
+                  "order": 3
                 }
               ],
               "chars": [],
-              "swc": "0",
+              "swc": "1",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 1000,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 11
+        }
+      ],
+      "options": [],
+      "slug": "reinf-wardrivers-mercenary-hackers",
+      "filters": {
+        "categories": [
+          11
+        ],
+        "skills": [
+          67,
+          1000
+        ],
+        "equip": [
+          100
+        ],
+        "chars": [
+          1,
+          3,
+          5
+        ],
+        "types": [
+          1
+        ],
+        "weapons": [
+          5,
+          26,
+          69,
+          72
+        ],
+        "ammunition": [
+          2,
+          3,
+          29
+        ]
+      },
+      "factions": [
+        399
+      ]
+    },
+    {
+      "id": 1627,
+      "idArmy": 1627,
+      "canonical": 399,
+      "isc": "Reinf. Briscards",
+      "iscAbbr": null,
+      "name": "REINF: BRISCARDS, 8éme Régiment d'Infanterie de Montagne",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Reinf. Briscards",
+          "profiles": [
+            {
+              "bts": 0,
+              "cc": 16,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 2,
+              "ava": 4,
+              "str": false,
+              "bs": 12,
+              "s": 2,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 114,
+                  "order": 1
+                }
+              ],
+              "w": 1,
+              "ph": 11,
+              "name": "REINF: BRISCARDS, 8éme Régiment d'Infanterie de Montagne",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-briscards-1-1.svg",
+              "id": 1,
+              "arm": 2,
+              "weapons": [],
+              "chars": [
+                2,
+                3,
+                5
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 84,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    38
+                  ],
+                  "id": 58,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    324
+                  ],
+                  "id": 271,
+                  "order": 3
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 18,
+              "equip": [],
+              "name": "BRISCARD REINF",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "id": 89,
+                  "order": 1
+                },
+                {
+                  "id": 70,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "1.5",
               "skills": [],
               "peripheral": []
             },
             {
               "includes": [],
               "minis": 1,
-              "points": 24,
+              "points": 25,
               "equip": [],
-              "name": "LOUP-GAROU REINF",
+              "name": "BRISCARD REINF",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 3,
+              "weapons": [
+                {
+                  "id": 5,
+                  "order": 3
+                },
+                {
+                  "id": 35,
+                  "order": 1
+                },
+                {
+                  "extra": null,
+                  "id": 70,
+                  "order": 2
+                }
+              ],
+              "chars": [],
+              "swc": "0.5",
+              "skills": [
+                {
+                  "q": 1,
+                  "extra": [
+                    30
+                  ],
+                  "id": 201,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 21,
+              "equip": [],
+              "name": "BRISCARD REINF",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 4,
+              "weapons": [
+                {
+                  "id": 84,
+                  "order": 1
+                },
+                {
+                  "id": 72,
+                  "order": 2
+                },
+                {
+                  "id": 70,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 59,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 22,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 106,
+                  "order": 1
+                }
+              ],
+              "name": "BRISCARD REINF",
               "disabled": false,
               "orders": [
                 {
@@ -2407,11 +1967,11 @@
               "id": 5,
               "weapons": [
                 {
-                  "id": 206,
+                  "id": 84,
                   "order": 1
                 },
                 {
-                  "id": 69,
+                  "id": 70,
                   "order": 2
                 },
                 {
@@ -2420,24 +1980,38 @@
                 }
               ],
               "chars": [],
-              "swc": "1",
-              "skills": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 64,
+                  "order": 1
+                }
+              ],
               "peripheral": []
             }
           ],
           "id": 1,
-          "category": 3
+          "category": 4
         }
       ],
       "options": [],
-      "slug": "reinf-loup-garous",
+      "slug": "reinf-briscards",
       "filters": {
         "categories": [
-          3
+          4
         ],
-        "skills": [],
+        "skills": [
+          58,
+          59,
+          64,
+          84,
+          201,
+          271
+        ],
         "equip": [
-          117
+          106,
+          114
         ],
         "chars": [
           2,
@@ -2445,20 +2019,247 @@
           5
         ],
         "types": [
-          1
+          2
         ],
         "weapons": [
           5,
-          26,
-          43,
-          69,
-          206,
-          216
+          35,
+          70,
+          72,
+          84,
+          89
         ],
         "ammunition": [
           2,
           3,
-          37
+          29
+        ]
+      },
+      "factions": [
+        399
+      ]
+    },
+    {
+      "id": 1636,
+      "idArmy": 1636,
+      "canonical": 399,
+      "isc": "Reinf. Beasthunters Free Guild",
+      "iscAbbr": null,
+      "name": "REINF: BEASTHUNTERS Free Guild",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Reinf. Beasthunters Free Guild",
+          "profiles": [
+            {
+              "bts": 0,
+              "cc": 21,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 1,
+              "ava": 1,
+              "str": false,
+              "bs": 11,
+              "s": 2,
+              "equip": [],
+              "w": 1,
+              "ph": 13,
+              "name": "REINF: BEASTHUNTERS Free Guild",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-beasthunters-free-guild-1-1.svg",
+              "id": 1,
+              "arm": 0,
+              "weapons": [],
+              "chars": [
+                1,
+                4,
+                5
+              ],
+              "wip": 12,
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 268,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    6
+                  ],
+                  "id": 28,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "id": 164,
+                  "order": 4
+                },
+                {
+                  "q": 1,
+                  "id": 74,
+                  "order": 5
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    33
+                  ],
+                  "id": 58,
+                  "order": 6
+                },
+                {
+                  "q": 1,
+                  "id": 83,
+                  "order": 7
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 9,
+              "equip": [],
+              "name": "BEASTHUNTER REINF",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "IRREGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 57,
+                  "order": 1
+                },
+                {
+                  "id": 193,
+                  "order": 2
+                },
+                {
+                  "id": 199,
+                  "order": 3
+                },
+                {
+                  "id": 69,
+                  "order": 4
+                },
+                {
+                  "extra": [
+                    302
+                  ],
+                  "id": 11,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 11,
+              "equip": [],
+              "name": "BEASTHUNTER REINF",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "IRREGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "id": 57,
+                  "order": 1
+                },
+                {
+                  "id": 68,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 107,
+                  "order": 4
+                },
+                {
+                  "extra": [
+                    302
+                  ],
+                  "id": 11,
+                  "order": 5
+                },
+                {
+                  "extra": [
+                    303
+                  ],
+                  "id": 199,
+                  "order": 6
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 11
+        }
+      ],
+      "options": [],
+      "slug": "reinf-beasthunters-free-guild",
+      "filters": {
+        "categories": [
+          11
+        ],
+        "skills": [
+          28,
+          58,
+          74,
+          83,
+          164,
+          268
+        ],
+        "equip": [],
+        "chars": [
+          1,
+          4,
+          5
+        ],
+        "types": [
+          1
+        ],
+        "weapons": [
+          11,
+          57,
+          68,
+          69,
+          107,
+          193,
+          199
+        ],
+        "ammunition": [
+          2,
+          3,
+          8,
+          9,
+          13
         ]
       },
       "factions": [
@@ -2662,6 +2463,212 @@
           3,
           8,
           9,
+          37
+        ]
+      },
+      "factions": [
+        399
+      ]
+    },
+    {
+      "id": 1626,
+      "idArmy": 1626,
+      "canonical": 399,
+      "isc": "Reinf. Loup-Garous ",
+      "iscAbbr": null,
+      "name": "REINF: LOUP-GAROUS, Groupe Mobile d´Action Spéciale",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Reinf. Loup-Garous ",
+          "profiles": [
+            {
+              "bts": 0,
+              "cc": 16,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 1,
+              "ava": 5,
+              "str": false,
+              "bs": 12,
+              "s": 2,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 117,
+                  "order": 1
+                }
+              ],
+              "w": 1,
+              "ph": 11,
+              "name": "REINF: LOUP-GAROUS, Groupe Mobile d´Action Spéciale",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-loup-garous-1-1.svg",
+              "id": 1,
+              "arm": 2,
+              "weapons": [],
+              "chars": [
+                2,
+                3,
+                5
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 84,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 21,
+              "equip": [],
+              "name": "LOUP-GAROU REINF",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 43,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 17,
+              "equip": [],
+              "name": "LOUP-GAROU REINF",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "id": 26,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                },
+                {
+                  "id": 216,
+                  "order": 2
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 24,
+              "equip": [],
+              "name": "LOUP-GAROU REINF",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 5,
+              "weapons": [
+                {
+                  "id": 206,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "1",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 3
+        }
+      ],
+      "options": [],
+      "slug": "reinf-loup-garous",
+      "filters": {
+        "categories": [
+          3
+        ],
+        "skills": [
+          84
+        ],
+        "equip": [
+          117
+        ],
+        "chars": [
+          2,
+          3,
+          5
+        ],
+        "types": [
+          1
+        ],
+        "weapons": [
+          5,
+          26,
+          43,
+          69,
+          206,
+          216
+        ],
+        "ammunition": [
+          2,
+          3,
           37
         ]
       },
@@ -3688,36 +3695,6 @@
   },
   "resume": [
     {
-      "id": 1635,
-      "isc": "Reinf. Wardrivers, Mercenary Hackers",
-      "idArmy": 1635,
-      "name": "REINF: WARDRIVERS, Mercenary Hackers",
-      "slug": "reinf-wardrivers-mercenary-hackers",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-wardrivers-mercenary-hackers-1-1.svg",
-      "type": 1,
-      "category": 11
-    },
-    {
-      "id": 1627,
-      "isc": "Reinf. Briscards",
-      "idArmy": 1627,
-      "name": "REINF: BRISCARDS, 8éme Régiment d'Infanterie de Montagne",
-      "slug": "reinf-briscards",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-briscards-1-1.svg",
-      "type": 2,
-      "category": 4
-    },
-    {
-      "id": 1636,
-      "isc": "Reinf. Beasthunters Free Guild",
-      "idArmy": 1636,
-      "name": "REINF: BEASTHUNTERS Free Guild",
-      "slug": "reinf-beasthunters-free-guild",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-beasthunters-free-guild-1-1.svg",
-      "type": 1,
-      "category": 11
-    },
-    {
       "id": 1637,
       "isc": "Reinf. Brigadier Jacques Bruant",
       "idArmy": 1637,
@@ -3778,14 +3755,34 @@
       "category": 4
     },
     {
-      "id": 1626,
-      "isc": "Reinf. Loup-Garous ",
-      "idArmy": 1626,
-      "name": "REINF: LOUP-GAROUS, Groupe Mobile d´Action Spéciale",
-      "slug": "reinf-loup-garous",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-loup-garous-1-1.svg",
+      "id": 1635,
+      "isc": "Reinf. Wardrivers, Mercenary Hackers",
+      "idArmy": 1635,
+      "name": "REINF: WARDRIVERS, Mercenary Hackers",
+      "slug": "reinf-wardrivers-mercenary-hackers",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-wardrivers-mercenary-hackers-1-1.svg",
       "type": 1,
-      "category": 3
+      "category": 11
+    },
+    {
+      "id": 1627,
+      "isc": "Reinf. Briscards",
+      "idArmy": 1627,
+      "name": "REINF: BRISCARDS, 8éme Régiment d'Infanterie de Montagne",
+      "slug": "reinf-briscards",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-briscards-1-1.svg",
+      "type": 2,
+      "category": 4
+    },
+    {
+      "id": 1636,
+      "isc": "Reinf. Beasthunters Free Guild",
+      "idArmy": 1636,
+      "name": "REINF: BEASTHUNTERS Free Guild",
+      "slug": "reinf-beasthunters-free-guild",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-beasthunters-free-guild-1-1.svg",
+      "type": 1,
+      "category": 11
     },
     {
       "id": 1634,
@@ -3796,6 +3793,16 @@
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-wolfgang-amadeus-wolff-wulver-bounty-hunter-1-1.svg",
       "type": 7,
       "category": 10
+    },
+    {
+      "id": 1626,
+      "isc": "Reinf. Loup-Garous ",
+      "idArmy": 1626,
+      "name": "REINF: LOUP-GAROUS, Groupe Mobile d´Action Spéciale",
+      "slug": "reinf-loup-garous",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-loup-garous-1-1.svg",
+      "type": 1,
+      "category": 3
     },
     {
       "id": 1629,

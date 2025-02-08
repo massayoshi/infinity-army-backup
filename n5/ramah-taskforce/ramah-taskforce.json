@@ -1,5 +1,5 @@
 {
-  "version": "7.2521.496",
+  "version": "7.2534.201",
   "units": [
     {
       "id": 1313,
@@ -384,222 +384,6 @@
       ]
     },
     {
-      "id": 50,
-      "idArmy": 50,
-      "canonical": 1,
-      "isc": "Warcors, War Correspondents",
-      "iscAbbr": null,
-      "name": "WARCORS, WAR CORRESPONDENTS",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Warcors, War Correspondents",
-          "profiles": [
-            {
-              "bts": 0,
-              "cc": 11,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 1,
-              "ava": 1,
-              "str": false,
-              "bs": 9,
-              "s": 2,
-              "equip": [],
-              "w": 1,
-              "ph": 11,
-              "name": "WARCORS, WAR CORRESPONDENTS",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/warcors-war-correspondents-1-1.svg",
-              "id": 1,
-              "arm": 0,
-              "weapons": [],
-              "chars": [
-                1,
-                4,
-                5
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 127,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 3,
-              "equip": [
-                {
-                  "id": 113,
-                  "order": 1
-                }
-              ],
-              "name": "WARCOR",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "IRREGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 72,
-                  "order": 1
-                },
-                {
-                  "id": 92,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 3,
-              "equip": [],
-              "name": "WARCOR",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "IRREGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "id": 72,
-                  "order": 1
-                },
-                {
-                  "id": 92,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "id": 67,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 11
-        }
-      ],
-      "options": [],
-      "slug": "warcors-war-correspondents",
-      "filters": {
-        "categories": [
-          11
-        ],
-        "skills": [
-          67,
-          127
-        ],
-        "equip": [
-          113
-        ],
-        "chars": [
-          1,
-          4,
-          5
-        ],
-        "types": [
-          1
-        ],
-        "weapons": [
-          71,
-          72,
-          92
-        ],
-        "ammunition": [
-          29,
-          37
-        ]
-      },
-      "factions": [
-        101,
-        102,
-        103,
-        104,
-        105,
-        106,
-        107,
-        201,
-        202,
-        204,
-        205,
-        301,
-        302,
-        303,
-        304,
-        305,
-        306,
-        401,
-        402,
-        403,
-        404,
-        501,
-        502,
-        503,
-        504,
-        701,
-        702,
-        703,
-        902,
-        903,
-        904,
-        905,
-        906,
-        907,
-        908,
-        909,
-        1001,
-        1002,
-        1003,
-        1101,
-        1102,
-        1103
-      ]
-    },
-    {
       "id": 309,
       "idArmy": 9,
       "canonical": 401,
@@ -765,7 +549,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 18
+                  "id": 1
                 }
               ]
             },
@@ -828,7 +612,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 18
+                  "id": 1
                 }
               ]
             },
@@ -894,7 +678,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 18
+                  "id": 1
                 }
               ]
             }
@@ -2446,6 +2230,225 @@
       ]
     },
     {
+      "id": 50,
+      "idArmy": 50,
+      "canonical": 1,
+      "isc": "Warcors, War Correspondents",
+      "iscAbbr": null,
+      "name": "WARCORS, WAR CORRESPONDENTS",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Warcors, War Correspondents",
+          "profiles": [
+            {
+              "bts": 0,
+              "cc": 11,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 1,
+              "ava": 1,
+              "str": false,
+              "bs": 9,
+              "s": 2,
+              "equip": [],
+              "w": 1,
+              "ph": 11,
+              "name": "WARCORS, WAR CORRESPONDENTS",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/warcors-war-correspondents-1-1.svg",
+              "id": 1,
+              "arm": 0,
+              "weapons": [],
+              "chars": [
+                1,
+                4,
+                5
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 127,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 3,
+              "equip": [
+                {
+                  "id": 113,
+                  "order": 1
+                }
+              ],
+              "name": "WARCOR",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "IRREGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 72,
+                  "order": 1
+                },
+                {
+                  "id": 92,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 3,
+              "equip": [],
+              "name": "WARCOR",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "IRREGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "id": 72,
+                  "order": 1
+                },
+                {
+                  "id": 92,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "id": 67,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 11
+        }
+      ],
+      "options": [],
+      "slug": "warcors-war-correspondents",
+      "filters": {
+        "categories": [
+          11
+        ],
+        "skills": [
+          67,
+          127
+        ],
+        "equip": [
+          113
+        ],
+        "chars": [
+          1,
+          4,
+          5
+        ],
+        "types": [
+          1
+        ],
+        "weapons": [
+          71,
+          72,
+          92
+        ],
+        "ammunition": [
+          29,
+          37
+        ]
+      },
+      "factions": [
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        201,
+        202,
+        204,
+        205,
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        401,
+        402,
+        403,
+        404,
+        501,
+        502,
+        503,
+        504,
+        601,
+        602,
+        604,
+        701,
+        702,
+        703,
+        902,
+        903,
+        904,
+        905,
+        906,
+        907,
+        908,
+        909,
+        1001,
+        1002,
+        1003,
+        1101,
+        1102,
+        1103
+      ]
+    },
+    {
       "id": 1549,
       "idArmy": 1549,
       "canonical": 401,
@@ -2807,7 +2810,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 19
+                  "id": 2
                 }
               ]
             },
@@ -2854,7 +2857,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 19
+                  "id": 2
                 }
               ]
             }
@@ -4364,7 +4367,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 20
+                  "id": 3
                 }
               ]
             }
@@ -6714,7 +6717,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 18
+                  "id": 1
                 }
               ]
             },
@@ -6766,7 +6769,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 18
+                  "id": 1
                 }
               ]
             }
@@ -6914,7 +6917,7 @@
           "isc": "Valerya Gromoz, Mercenary Hacker",
           "profiles": [
             {
-              "bts": 0,
+              "bts": 3,
               "cc": 15,
               "move": [
                 10,
@@ -10784,7 +10787,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 21
+                  "id": 4
                 }
               ]
             },
@@ -10848,7 +10851,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 21,
+                  "id": 4,
                   "q": 2
                 }
               ]
@@ -12284,180 +12287,6 @@
       "factions": []
     },
     {
-      "id": 10050,
-      "idArmy": 10050,
-      "canonical": 1,
-      "isc": "Warcors, War Correspondents",
-      "iscAbbr": null,
-      "notes": null,
-      "name": "WARCORS, WAR CORRESPONDENTS",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Warcors, War Correspondents",
-          "profiles": [
-            {
-              "bts": 0,
-              "cc": 11,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 1,
-              "ava": 2,
-              "str": false,
-              "bs": 9,
-              "s": 2,
-              "equip": [],
-              "w": 1,
-              "ph": 11,
-              "name": "WARCORS, WAR CORRESPONDENTS",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/warcors-war-correspondents-1-1.svg",
-              "id": 1,
-              "arm": 0,
-              "weapons": [],
-              "chars": [
-                1,
-                4,
-                5
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 127,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 3,
-              "equip": [
-                {
-                  "id": 113,
-                  "order": 1
-                }
-              ],
-              "name": "WARCOR",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "IRREGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 72,
-                  "order": 1
-                },
-                {
-                  "id": 92,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 3,
-              "equip": [],
-              "name": "WARCOR",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "IRREGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "id": 72,
-                  "order": 1
-                },
-                {
-                  "id": 92,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "id": 67,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 11
-        }
-      ],
-      "options": [],
-      "slug": "merc-warcors-war-correspondents",
-      "filters": {
-        "categories": [
-          11
-        ],
-        "skills": [
-          67,
-          127
-        ],
-        "equip": [
-          113
-        ],
-        "chars": [
-          1,
-          4,
-          5
-        ],
-        "types": [
-          1
-        ],
-        "weapons": [
-          71,
-          72,
-          92
-        ],
-        "ammunition": [
-          29,
-          37
-        ]
-      },
-      "factions": []
-    },
-    {
       "id": 11556,
       "idArmy": 21556,
       "canonical": 1,
@@ -13202,6 +13031,180 @@
       "factions": []
     },
     {
+      "id": 10050,
+      "idArmy": 10050,
+      "canonical": 1,
+      "isc": "Warcors, War Correspondents",
+      "iscAbbr": null,
+      "notes": null,
+      "name": "WARCORS, WAR CORRESPONDENTS",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Warcors, War Correspondents",
+          "profiles": [
+            {
+              "bts": 0,
+              "cc": 11,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 1,
+              "ava": 2,
+              "str": false,
+              "bs": 9,
+              "s": 2,
+              "equip": [],
+              "w": 1,
+              "ph": 11,
+              "name": "WARCORS, WAR CORRESPONDENTS",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/warcors-war-correspondents-1-1.svg",
+              "id": 1,
+              "arm": 0,
+              "weapons": [],
+              "chars": [
+                1,
+                4,
+                5
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 127,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 3,
+              "equip": [
+                {
+                  "id": 113,
+                  "order": 1
+                }
+              ],
+              "name": "WARCOR",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "IRREGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 72,
+                  "order": 1
+                },
+                {
+                  "id": 92,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 3,
+              "equip": [],
+              "name": "WARCOR",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "IRREGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "id": 72,
+                  "order": 1
+                },
+                {
+                  "id": 92,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "id": 67,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 11
+        }
+      ],
+      "options": [],
+      "slug": "merc-warcors-war-correspondents",
+      "filters": {
+        "categories": [
+          11
+        ],
+        "skills": [
+          67,
+          127
+        ],
+        "equip": [
+          113
+        ],
+        "chars": [
+          1,
+          4,
+          5
+        ],
+        "types": [
+          1
+        ],
+        "weapons": [
+          71,
+          72,
+          92
+        ],
+        "ammunition": [
+          29,
+          37
+        ]
+      },
+      "factions": []
+    },
+    {
       "id": 10283,
       "idArmy": 10015,
       "canonical": 1,
@@ -13383,204 +13386,6 @@
         "ammunition": [
           2,
           10,
-          21
-        ]
-      },
-      "factions": []
-    },
-    {
-      "id": 11834,
-      "idArmy": 21834,
-      "canonical": 1,
-      "isc": "Yojimbo, Sword for Hire",
-      "iscAbbr": null,
-      "notes": "NOTE: There can only be 1 Yojimbo in each Army List. ",
-      "name": "YOJIMBO, Sword for Hire",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Yojimbo, Sword for Hire",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 24,
-              "move": [
-                15,
-                5
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 7,
-              "ava": 1,
-              "str": false,
-              "bs": 12,
-              "s": 2,
-              "equip": [],
-              "w": 1,
-              "ph": 14,
-              "name": "YOJIMBO, Sword for Hire",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/yojimbo-sword-for-hire-1-1.svg",
-              "id": 1,
-              "arm": 1,
-              "weapons": [],
-              "chars": [
-                1,
-                4,
-                6
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 22,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "id": 84,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    11
-                  ],
-                  "id": 40,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    49
-                  ],
-                  "id": 162,
-                  "order": 4
-                },
-                {
-                  "q": 1,
-                  "id": 56,
-                  "order": 5
-                },
-                {
-                  "q": 1,
-                  "id": 164,
-                  "order": 6
-                },
-                {
-                  "q": 1,
-                  "id": 264,
-                  "order": 7
-                },
-                {
-                  "q": 1,
-                  "id": 86,
-                  "order": 8
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 19,
-              "equip": [],
-              "name": "YOJIMBO",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "IRREGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "IMPETUOUS",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "extra": [
-                    8
-                  ],
-                  "id": 19,
-                  "order": 1
-                },
-                {
-                  "id": 65,
-                  "order": 2
-                },
-                {
-                  "id": 45,
-                  "order": 3
-                },
-                {
-                  "id": 20,
-                  "order": 4
-                },
-                {
-                  "id": 69,
-                  "order": 5
-                },
-                {
-                  "extra": [
-                    316
-                  ],
-                  "id": 11,
-                  "order": 6
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 11
-        }
-      ],
-      "options": [],
-      "slug": "merc-yojimbo-sword-for-hire",
-      "filters": {
-        "categories": [
-          11
-        ],
-        "skills": [
-          22,
-          40,
-          56,
-          84,
-          86,
-          162,
-          164,
-          264
-        ],
-        "equip": [],
-        "chars": [
-          1,
-          4,
-          6
-        ],
-        "types": [
-          7
-        ],
-        "weapons": [
-          11,
-          19,
-          20,
-          45,
-          65,
-          69
-        ],
-        "ammunition": [
-          2,
-          8,
-          9,
-          18,
           21
         ]
       },
@@ -14561,7 +14366,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 22
+                  "id": 5
                 }
               ]
             },
@@ -14613,7 +14418,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 22
+                  "id": 5
                 }
               ]
             },
@@ -14669,7 +14474,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 22
+                  "id": 5
                 }
               ]
             }
@@ -15050,6 +14855,204 @@
           9,
           13,
           37
+        ]
+      },
+      "factions": []
+    },
+    {
+      "id": 11834,
+      "idArmy": 21834,
+      "canonical": 1,
+      "isc": "Yojimbo, Sword for Hire",
+      "iscAbbr": null,
+      "notes": "NOTE: There can only be 1 Yojimbo in each Army List. ",
+      "name": "YOJIMBO, Sword for Hire",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Yojimbo, Sword for Hire",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 24,
+              "move": [
+                15,
+                5
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 7,
+              "ava": 1,
+              "str": false,
+              "bs": 12,
+              "s": 2,
+              "equip": [],
+              "w": 1,
+              "ph": 14,
+              "name": "YOJIMBO, Sword for Hire",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/yojimbo-sword-for-hire-1-1.svg",
+              "id": 1,
+              "arm": 1,
+              "weapons": [],
+              "chars": [
+                1,
+                4,
+                6
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 22,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 84,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    11
+                  ],
+                  "id": 40,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    49
+                  ],
+                  "id": 162,
+                  "order": 4
+                },
+                {
+                  "q": 1,
+                  "id": 56,
+                  "order": 5
+                },
+                {
+                  "q": 1,
+                  "id": 164,
+                  "order": 6
+                },
+                {
+                  "q": 1,
+                  "id": 264,
+                  "order": 7
+                },
+                {
+                  "q": 1,
+                  "id": 86,
+                  "order": 8
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 19,
+              "equip": [],
+              "name": "YOJIMBO",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "IRREGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "IMPETUOUS",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 19,
+                  "order": 1
+                },
+                {
+                  "id": 65,
+                  "order": 2
+                },
+                {
+                  "id": 45,
+                  "order": 3
+                },
+                {
+                  "id": 20,
+                  "order": 4
+                },
+                {
+                  "id": 69,
+                  "order": 5
+                },
+                {
+                  "extra": [
+                    316
+                  ],
+                  "id": 11,
+                  "order": 6
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 10
+        }
+      ],
+      "options": [],
+      "slug": "merc-yojimbo-sword-for-hire",
+      "filters": {
+        "categories": [
+          10
+        ],
+        "skills": [
+          22,
+          40,
+          56,
+          84,
+          86,
+          162,
+          164,
+          264
+        ],
+        "equip": [],
+        "chars": [
+          1,
+          4,
+          6
+        ],
+        "types": [
+          7
+        ],
+        "weapons": [
+          11,
+          19,
+          20,
+          45,
+          65,
+          69
+        ],
+        "ammunition": [
+          2,
+          8,
+          9,
+          18,
+          21
         ]
       },
       "factions": []
@@ -17309,7 +17312,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 22
+                  "id": 5
                 }
               ]
             },
@@ -17364,7 +17367,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 22
+                  "id": 5
                 }
               ]
             },
@@ -17419,7 +17422,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 22
+                  "id": 5
                 }
               ]
             },
@@ -17478,7 +17481,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 22
+                  "id": 5
                 }
               ]
             }
@@ -22758,23 +22761,23 @@
   "filters": {
     "peripheral": [
       {
-        "id": 20,
+        "id": 3,
         "name": "BÂTARD"
       },
       {
-        "id": 21,
+        "id": 4,
         "name": "JACKBOT"
       },
       {
-        "id": 18,
+        "id": 1,
         "name": "JANDAB"
       },
       {
-        "id": 19,
+        "id": 2,
         "name": "NASMAT A2"
       },
       {
-        "id": 22,
+        "id": 5,
         "name": "TURTLEMEK",
         "mercs": true
       }
@@ -24624,16 +24627,6 @@
       "category": 4
     },
     {
-      "id": 50,
-      "isc": "Warcors, War Correspondents",
-      "idArmy": 50,
-      "name": "WARCORS, WAR CORRESPONDENTS",
-      "slug": "warcors-war-correspondents",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/warcors-war-correspondents-1-1.svg",
-      "type": 1,
-      "category": 11
-    },
-    {
       "id": 309,
       "isc": "Maghariba Guard",
       "idArmy": 9,
@@ -24680,6 +24673,16 @@
       "name": "MONSTRUCKERS",
       "slug": "monstruckers",
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/monstruckers-1-1.svg",
+      "type": 1,
+      "category": 11
+    },
+    {
+      "id": 50,
+      "isc": "Warcors, War Correspondents",
+      "idArmy": 50,
+      "name": "WARCORS, WAR CORRESPONDENTS",
+      "slug": "warcors-war-correspondents",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/warcors-war-correspondents-1-1.svg",
       "type": 1,
       "category": 11
     },
@@ -25024,16 +25027,6 @@
       "category": 10
     },
     {
-      "id": 10050,
-      "isc": "Warcors, War Correspondents",
-      "idArmy": 10050,
-      "name": "WARCORS, WAR CORRESPONDENTS",
-      "slug": "merc-warcors-war-correspondents",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/warcors-war-correspondents-1-1.svg",
-      "type": 1,
-      "category": 11
-    },
-    {
       "id": 11556,
       "isc": "John Hawkwood, Mercenary Officer",
       "idArmy": 21556,
@@ -25064,6 +25057,16 @@
       "category": 10
     },
     {
+      "id": 10050,
+      "isc": "Warcors, War Correspondents",
+      "idArmy": 10050,
+      "name": "WARCORS, WAR CORRESPONDENTS",
+      "slug": "merc-warcors-war-correspondents",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/warcors-war-correspondents-1-1.svg",
+      "type": 1,
+      "category": 11
+    },
+    {
       "id": 10283,
       "isc": "McMurrough, Merc. Dog-Warrior",
       "idArmy": 10015,
@@ -25072,16 +25075,6 @@
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/mcmurrough-merc-dog-warrior-1-1.svg",
       "type": 7,
       "category": 10
-    },
-    {
-      "id": 11834,
-      "isc": "Yojimbo, Sword for Hire",
-      "idArmy": 21834,
-      "name": "YOJIMBO, Sword for Hire",
-      "slug": "merc-yojimbo-sword-for-hire",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/yojimbo-sword-for-hire-1-1.svg",
-      "type": 7,
-      "category": 11
     },
     {
       "id": 10122,
@@ -25121,6 +25114,16 @@
       "slug": "merc-scarface-and-cordelia",
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/scarface-and-cordelia-1-1.svg",
       "type": 4,
+      "category": 10
+    },
+    {
+      "id": 11834,
+      "isc": "Yojimbo, Sword for Hire",
+      "idArmy": 21834,
+      "name": "YOJIMBO, Sword for Hire",
+      "slug": "merc-yojimbo-sword-for-hire",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/yojimbo-sword-for-hire-1-1.svg",
+      "type": 7,
       "category": 10
     },
     {
