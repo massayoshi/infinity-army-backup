@@ -279,7 +279,7 @@
           ],
           "includes": [],
           "points": 49,
-          "swc": "1.5",
+          "swc": "1",
           "weapons": [
             {
               "id": 2,
@@ -309,6 +309,67 @@
         },
         {
           "id": 701,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "extra": [
+                7
+              ],
+              "id": 169,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "LIEUTENANT",
+              "list": 0,
+              "total": 2
+            }
+          ],
+          "includes": [],
+          "points": 51,
+          "swc": "+1",
+          "weapons": [
+            {
+              "id": 169,
+              "order": 1
+            },
+            {
+              "id": 65,
+              "order": 2
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 11,
+              "order": 4
+            }
+          ],
+          "name": "HSIEN",
+          "skills": [
+            {
+              "extra": [
+                246
+              ],
+              "id": 119,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 702,
           "chars": [],
           "disabled": false,
           "equip": [],

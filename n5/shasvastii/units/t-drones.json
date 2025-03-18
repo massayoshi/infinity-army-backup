@@ -47,13 +47,6 @@
               "order": 1
             },
             {
-              "id": 201,
-              "order": 2,
-              "extra": [
-                31
-              ]
-            },
-            {
               "id": 84,
               "order": 3,
               "q": 1
@@ -90,7 +83,16 @@
             }
           ],
           "name": "T-DRONE",
-          "skills": [],
+          "skills": [
+            {
+              "extra": [
+                31
+              ],
+              "id": 201,
+              "order": 1,
+              "q": 1
+            }
+          ],
           "peripheral": []
         },
         {
@@ -107,7 +109,7 @@
             }
           ],
           "includes": [],
-          "points": 17,
+          "points": 15,
           "swc": "1.5",
           "weapons": [
             {

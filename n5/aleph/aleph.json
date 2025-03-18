@@ -1,5 +1,5 @@
 {
-  "version": "7.2534.312",
+  "version": "7.2577.250",
   "units": [
     {
       "id": 1128,
@@ -1553,7 +1553,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 6
+                  "id": 52
                 }
               ]
             },
@@ -1624,7 +1624,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 6
+                  "id": 52
                 }
               ]
             }
@@ -3079,7 +3079,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 7
+                  "id": 53
                 }
               ]
             },
@@ -3452,7 +3452,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 7
+                  "id": 53
                 }
               ]
             },
@@ -3975,7 +3975,6 @@
         ]
       },
       "factions": [
-        202,
         701,
         702,
         703,
@@ -7871,250 +7870,6 @@
       ]
     },
     {
-      "id": 110,
-      "idArmy": 10,
-      "canonical": 104,
-      "isc": "Garuda Tacbots",
-      "iscAbbr": null,
-      "name": "GARUDA Tacbots",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Garuda Tacbots",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 13,
-              "move": [
-                20,
-                5
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 5,
-              "ava": 2,
-              "str": true,
-              "bs": 12,
-              "s": 2,
-              "equip": [],
-              "w": 1,
-              "ph": 11,
-              "name": "GARUDA Tacbots",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/garuda-tacbots-1-1.svg",
-              "id": 1,
-              "arm": 0,
-              "weapons": [],
-              "chars": [
-                3,
-                5,
-                21
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "id": 235,
-                  "order": 1
-                },
-                {
-                  "id": 84,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 28,
-                  "order": 4
-                },
-                {
-                  "extra": [],
-                  "id": 33,
-                  "order": 5
-                },
-                {
-                  "id": 35,
-                  "order": 6
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    304
-                  ],
-                  "id": 74,
-                  "order": 7
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 18,
-              "equip": [],
-              "name": "GARUDA",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 3,
-              "weapons": [
-                {
-                  "id": 26,
-                  "order": 1
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    303
-                  ],
-                  "id": 80,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 25,
-              "equip": [],
-              "name": "GARUDA",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 4,
-              "weapons": [
-                {
-                  "id": 74,
-                  "order": 1
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 2
-                }
-              ],
-              "chars": [],
-              "swc": "1.5",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 20,
-              "equip": [],
-              "name": "GARUDA",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 5,
-              "weapons": [
-                {
-                  "id": 33,
-                  "order": 1
-                },
-                {
-                  "id": 72,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "id": 59,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 3
-        }
-      ],
-      "options": [],
-      "slug": "garuda-tacbots",
-      "filters": {
-        "categories": [
-          3
-        ],
-        "skills": [
-          28,
-          33,
-          35,
-          59,
-          74,
-          84,
-          235
-        ],
-        "equip": [],
-        "chars": [
-          3,
-          5,
-          21
-        ],
-        "types": [
-          5
-        ],
-        "weapons": [
-          26,
-          33,
-          71,
-          72,
-          74,
-          80
-        ],
-        "ammunition": [
-          2,
-          3,
-          29,
-          37
-        ]
-      },
-      "factions": [
-        104,
-        202,
-        701,
-        703
-      ]
-    },
-    {
       "id": 588,
       "idArmy": 8,
       "canonical": 701,
@@ -9283,6 +9038,249 @@
       ]
     },
     {
+      "id": 110,
+      "idArmy": 10,
+      "canonical": 104,
+      "isc": "Garuda Tacbots",
+      "iscAbbr": null,
+      "name": "GARUDA Tacbots",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Garuda Tacbots",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 13,
+              "move": [
+                20,
+                5
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 5,
+              "ava": 2,
+              "str": true,
+              "bs": 12,
+              "s": 2,
+              "equip": [],
+              "w": 1,
+              "ph": 11,
+              "name": "GARUDA Tacbots",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/garuda-tacbots-1-1.svg",
+              "id": 1,
+              "arm": 0,
+              "weapons": [],
+              "chars": [
+                3,
+                5,
+                21
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "id": 235,
+                  "order": 1
+                },
+                {
+                  "id": 84,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 28,
+                  "order": 4
+                },
+                {
+                  "extra": [],
+                  "id": 33,
+                  "order": 5
+                },
+                {
+                  "id": 35,
+                  "order": 6
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    304
+                  ],
+                  "id": 74,
+                  "order": 7
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 18,
+              "equip": [],
+              "name": "GARUDA",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 3,
+              "weapons": [
+                {
+                  "id": 26,
+                  "order": 1
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    303
+                  ],
+                  "id": 80,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 25,
+              "equip": [],
+              "name": "GARUDA",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 4,
+              "weapons": [
+                {
+                  "id": 74,
+                  "order": 1
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 2
+                }
+              ],
+              "chars": [],
+              "swc": "1.5",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 20,
+              "equip": [],
+              "name": "GARUDA",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 5,
+              "weapons": [
+                {
+                  "id": 33,
+                  "order": 1
+                },
+                {
+                  "id": 72,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "id": 59,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 3
+        }
+      ],
+      "options": [],
+      "slug": "garuda-tacbots",
+      "filters": {
+        "categories": [
+          3
+        ],
+        "skills": [
+          28,
+          33,
+          35,
+          59,
+          74,
+          84,
+          235
+        ],
+        "equip": [],
+        "chars": [
+          3,
+          5,
+          21
+        ],
+        "types": [
+          5
+        ],
+        "weapons": [
+          26,
+          33,
+          71,
+          72,
+          74,
+          80
+        ],
+        "ammunition": [
+          2,
+          3,
+          29,
+          37
+        ]
+      },
+      "factions": [
+        104,
+        701,
+        703
+      ]
+    },
+    {
       "id": 185,
       "idArmy": 13,
       "canonical": 202,
@@ -9581,7 +9579,6 @@
         ]
       },
       "factions": [
-        202,
         701,
         703
       ]
@@ -10434,142 +10431,6 @@
       ]
     },
     {
-      "id": 592,
-      "idArmy": 12,
-      "canonical": 701,
-      "isc": "Samekh Rebots",
-      "iscAbbr": null,
-      "name": "SAMEKH Rebots",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Samekh Rebots",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 13,
-              "move": [
-                15,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 5,
-              "ava": 2,
-              "str": true,
-              "bs": 12,
-              "s": 3,
-              "equip": [],
-              "w": 1,
-              "ph": 10,
-              "name": "SAMEKH Rebots",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/samekh-rebots-1-1.svg",
-              "id": 1,
-              "arm": 0,
-              "weapons": [],
-              "chars": [
-                3,
-                5,
-                21
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "id": 235,
-                  "order": 1
-                },
-                {
-                  "id": 84,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    31
-                  ],
-                  "id": 201,
-                  "order": 4
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 16,
-              "equip": [],
-              "name": "SAMEKH Rebot",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 2
-                },
-                {
-                  "id": 58,
-                  "order": 1
-                }
-              ],
-              "chars": [],
-              "swc": "1.5",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 8
-        }
-      ],
-      "options": [],
-      "slug": "samekh-rebots",
-      "filters": {
-        "categories": [
-          8
-        ],
-        "skills": [
-          84,
-          201,
-          235
-        ],
-        "equip": [],
-        "chars": [
-          3,
-          5,
-          21
-        ],
-        "types": [
-          5
-        ],
-        "weapons": [
-          58,
-          71
-        ],
-        "ammunition": [
-          6,
-          13,
-          37
-        ]
-      },
-      "factions": [
-        701,
-        702,
-        703
-      ]
-    },
-    {
       "id": 1556,
       "idArmy": 1556,
       "canonical": 1,
@@ -11306,6 +11167,143 @@
         702,
         1001,
         1003
+      ]
+    },
+    {
+      "id": 592,
+      "idArmy": 12,
+      "canonical": 701,
+      "isc": "Samekh Rebots",
+      "iscAbbr": null,
+      "name": "SAMEKH Rebots",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Samekh Rebots",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 13,
+              "move": [
+                15,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 5,
+              "ava": 2,
+              "str": true,
+              "bs": 12,
+              "s": 3,
+              "equip": [],
+              "w": 1,
+              "ph": 10,
+              "name": "SAMEKH Rebots",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/samekh-rebots-1-1.svg",
+              "id": 1,
+              "arm": 0,
+              "weapons": [],
+              "chars": [
+                3,
+                5,
+                21
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "id": 235,
+                  "order": 1
+                },
+                {
+                  "id": 84,
+                  "order": 2
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 16,
+              "equip": [],
+              "name": "SAMEKH Rebot",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 2
+                },
+                {
+                  "id": 58,
+                  "order": 1
+                }
+              ],
+              "chars": [],
+              "swc": "1.5",
+              "skills": [
+                {
+                  "q": 1,
+                  "extra": [
+                    31
+                  ],
+                  "id": 201,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 8
+        }
+      ],
+      "options": [],
+      "slug": "samekh-rebots",
+      "filters": {
+        "categories": [
+          8
+        ],
+        "skills": [
+          84,
+          201,
+          235
+        ],
+        "equip": [],
+        "chars": [
+          3,
+          5,
+          21
+        ],
+        "types": [
+          5
+        ],
+        "weapons": [
+          58,
+          71
+        ],
+        "ammunition": [
+          6,
+          13,
+          37
+        ]
+      },
+      "factions": [
+        701,
+        702,
+        703
       ]
     },
     {
@@ -13563,7 +13561,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 8
+                  "id": 54
                 }
               ]
             },
@@ -13618,7 +13616,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 8
+                  "id": 54
                 }
               ]
             },
@@ -13673,7 +13671,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 8
+                  "id": 54
                 }
               ]
             },
@@ -13732,7 +13730,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 8
+                  "id": 54
                 }
               ]
             }
@@ -16259,7 +16257,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 9
+                  "id": 55
                 }
               ]
             },
@@ -16323,7 +16321,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 9,
+                  "id": 55,
                   "q": 2
                 }
               ]
@@ -17630,7 +17628,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 8
+                  "id": 54
                 }
               ]
             },
@@ -17682,7 +17680,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 8
+                  "id": 54
                 }
               ]
             },
@@ -17738,7 +17736,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 8
+                  "id": 54
                 }
               ]
             }
@@ -23116,7 +23114,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 10
+                  "id": 56
                 }
               ]
             }
@@ -23551,25 +23549,25 @@
   "filters": {
     "peripheral": [
       {
-        "id": 10,
+        "id": 56,
         "name": "BÂTARD",
         "mercs": true
       },
       {
-        "id": 7,
+        "id": 53,
         "name": "DEVABOT"
       },
       {
-        "id": 9,
+        "id": 55,
         "name": "JACKBOT",
         "mercs": true
       },
       {
-        "id": 6,
+        "id": 52,
         "name": "KARKATA"
       },
       {
-        "id": 8,
+        "id": 54,
         "name": "TURTLEMEK",
         "mercs": true
       }
@@ -25695,16 +25693,6 @@
       "category": 2
     },
     {
-      "id": 110,
-      "isc": "Garuda Tacbots",
-      "idArmy": 10,
-      "name": "GARUDA Tacbots",
-      "slug": "garuda-tacbots",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/garuda-tacbots-1-1.svg",
-      "type": 5,
-      "category": 3
-    },
-    {
       "id": 588,
       "isc": "Myrmidons",
       "idArmy": 8,
@@ -25743,6 +25731,16 @@
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/probots-1-1.svg",
       "type": 5,
       "category": 8
+    },
+    {
+      "id": 110,
+      "isc": "Garuda Tacbots",
+      "idArmy": 10,
+      "name": "GARUDA Tacbots",
+      "slug": "garuda-tacbots",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/garuda-tacbots-1-1.svg",
+      "type": 5,
+      "category": 3
     },
     {
       "id": 185,
@@ -25795,16 +25793,6 @@
       "category": 8
     },
     {
-      "id": 592,
-      "isc": "Samekh Rebots",
-      "idArmy": 12,
-      "name": "SAMEKH Rebots",
-      "slug": "samekh-rebots",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/samekh-rebots-1-1.svg",
-      "type": 5,
-      "category": 8
-    },
-    {
       "id": 1556,
       "isc": "John Hawkwood, Mercenary Officer",
       "idArmy": 1556,
@@ -25833,6 +25821,16 @@
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/hippolyta-amazon-officer-1-1.svg",
       "type": 7,
       "category": 10
+    },
+    {
+      "id": 592,
+      "isc": "Samekh Rebots",
+      "idArmy": 12,
+      "name": "SAMEKH Rebots",
+      "slug": "samekh-rebots",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/samekh-rebots-1-1.svg",
+      "type": 5,
+      "category": 8
     },
     {
       "id": 11344,

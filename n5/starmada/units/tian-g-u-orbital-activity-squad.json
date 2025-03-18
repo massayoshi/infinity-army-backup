@@ -26,10 +26,6 @@
           ],
           "equip": [
             {
-              "id": 24,
-              "order": 1
-            },
-            {
               "id": 113,
               "order": 2
             }
@@ -72,7 +68,13 @@
           "id": 1,
           "chars": [],
           "disabled": false,
-          "equip": [],
+          "equip": [
+            {
+              "id": 24,
+              "order": 1,
+              "q": 1
+            }
+          ],
           "minis": 1,
           "orders": [
             {
@@ -110,7 +112,13 @@
           "id": 3,
           "chars": [],
           "disabled": false,
-          "equip": [],
+          "equip": [
+            {
+              "id": 24,
+              "order": 1,
+              "q": 1
+            }
+          ],
           "minis": 1,
           "orders": [
             {
@@ -154,49 +162,11 @@
           "disabled": false,
           "equip": [
             {
-              "id": 145,
-              "order": 1
+              "id": 24,
+              "order": 1,
+              "q": 1
             }
           ],
-          "minis": 1,
-          "orders": [
-            {
-              "type": "REGULAR",
-              "list": 1,
-              "total": 1
-            }
-          ],
-          "includes": [],
-          "points": 23,
-          "swc": "0",
-          "weapons": [
-            {
-              "id": 33,
-              "order": 1
-            },
-            {
-              "id": 212,
-              "order": 2
-            },
-            {
-              "id": 5,
-              "order": 3
-            }
-          ],
-          "name": "TIAN GǑU FTO",
-          "skills": [
-            {
-              "id": 1000,
-              "order": 1
-            }
-          ],
-          "peripheral": []
-        },
-        {
-          "id": 6,
-          "chars": [],
-          "disabled": false,
-          "equip": [],
           "minis": 1,
           "orders": [
             {
@@ -240,17 +210,13 @@
           "peripheral": []
         },
         {
-          "id": 8,
+          "id": 6,
           "chars": [],
           "disabled": false,
           "equip": [
             {
               "id": 145,
               "order": 1
-            },
-            {
-              "id": 104,
-              "order": 2
             }
           ],
           "minis": 1,
@@ -262,7 +228,7 @@
             }
           ],
           "includes": [],
-          "points": 28,
+          "points": 22,
           "swc": "0",
           "weapons": [
             {
@@ -270,47 +236,36 @@
               "order": 1
             },
             {
-              "id": 150,
-              "order": 3
-            },
-            {
               "id": 212,
-              "order": 4
-            },
-            {
-              "id": 5,
-              "order": 5
-            }
-          ],
-          "name": "TIAN GǑU",
-          "skills": [
-            {
-              "extra": [
-                6
-              ],
-              "id": 191,
-              "order": 1
-            },
-            {
-              "id": 56,
               "order": 2
             },
             {
-              "extra": [],
-              "id": 1000,
+              "id": 5,
               "order": 3
+            }
+          ],
+          "name": "TIAN GǑU FTO",
+          "skills": [
+            {
+              "id": 1000,
+              "order": 1
             }
           ],
           "peripheral": []
         },
         {
-          "id": 9,
+          "id": 8,
           "chars": [],
           "disabled": false,
           "equip": [
             {
               "id": 104,
               "order": 1,
+              "q": 1
+            },
+            {
+              "id": 24,
+              "order": 2,
               "q": 1
             }
           ],
@@ -360,6 +315,70 @@
               "id": 191,
               "order": 2,
               "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 9,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 145,
+              "order": 1
+            },
+            {
+              "id": 104,
+              "order": 2
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 27,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 33,
+              "order": 1
+            },
+            {
+              "id": 150,
+              "order": 3
+            },
+            {
+              "id": 212,
+              "order": 4
+            },
+            {
+              "id": 5,
+              "order": 5
+            }
+          ],
+          "name": "TIAN GǑU",
+          "skills": [
+            {
+              "extra": [
+                6
+              ],
+              "id": 191,
+              "order": 1
+            },
+            {
+              "id": 56,
+              "order": 2
+            },
+            {
+              "extra": [],
+              "id": 1000,
+              "order": 3
             }
           ],
           "peripheral": []

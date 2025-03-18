@@ -48,14 +48,6 @@
             {
               "id": 84,
               "order": 2
-            },
-            {
-              "id": 201,
-              "order": 4,
-              "extra": [
-                31
-              ],
-              "q": 1
             }
           ],
           "peripheral": []
@@ -89,7 +81,16 @@
             }
           ],
           "name": "SAMEKH Rebot",
-          "skills": [],
+          "skills": [
+            {
+              "extra": [
+                31
+              ],
+              "id": 201,
+              "order": 1,
+              "q": 1
+            }
+          ],
           "peripheral": []
         },
         {
@@ -106,7 +107,7 @@
             }
           ],
           "includes": [],
-          "points": 17,
+          "points": 15,
           "swc": "1.5",
           "weapons": [
             {

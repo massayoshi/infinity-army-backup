@@ -62,20 +62,12 @@
               ]
             },
             {
-              "id": 25,
-              "order": 3
-            },
-            {
               "id": 29,
               "order": 4
             },
             {
               "id": 84,
               "order": 5
-            },
-            {
-              "id": 47,
-              "order": 6
             },
             {
               "id": 28,
@@ -102,6 +94,14 @@
                 8
               ],
               "q": 1
+            },
+            {
+              "id": 47,
+              "order": 11,
+              "extra": [
+                277
+              ],
+              "q": 1
             }
           ],
           "peripheral": []
@@ -122,7 +122,7 @@
             }
           ],
           "includes": [],
-          "points": 25,
+          "points": 24,
           "swc": "0",
           "weapons": [
             {
@@ -147,55 +147,6 @@
           "peripheral": []
         },
         {
-          "id": 4,
-          "chars": [],
-          "disabled": false,
-          "equip": [
-            {
-              "id": 111,
-              "order": 1
-            }
-          ],
-          "minis": 1,
-          "orders": [
-            {
-              "type": "IRREGULAR",
-              "list": 1,
-              "total": 1
-            }
-          ],
-          "includes": [],
-          "points": 28,
-          "swc": "0.5",
-          "weapons": [
-            {
-              "id": 212,
-              "order": 6
-            },
-            {
-              "id": 11,
-              "order": 7
-            },
-            {
-              "id": 77,
-              "order": 1
-            },
-            {
-              "id": 196,
-              "order": 8
-            }
-          ],
-          "name": "BANDIT",
-          "skills": [
-            {
-              "id": 56,
-              "order": 1,
-              "q": 1
-            }
-          ],
-          "peripheral": []
-        },
-        {
           "id": 5,
           "chars": [],
           "disabled": false,
@@ -214,7 +165,7 @@
             }
           ],
           "includes": [],
-          "points": 31,
+          "points": 30,
           "swc": "0.5",
           "weapons": [
             {
@@ -262,7 +213,7 @@
             }
           ],
           "includes": [],
-          "points": 29,
+          "points": 28,
           "swc": "0",
           "weapons": [
             {
@@ -295,6 +246,55 @@
           "id": 7,
           "chars": [],
           "disabled": false,
+          "equip": [
+            {
+              "id": 111,
+              "order": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "IRREGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 27,
+          "swc": "0.5",
+          "weapons": [
+            {
+              "id": 212,
+              "order": 6
+            },
+            {
+              "id": 11,
+              "order": 7
+            },
+            {
+              "id": 77,
+              "order": 1
+            },
+            {
+              "id": 196,
+              "order": 8
+            }
+          ],
+          "name": "BANDIT",
+          "skills": [
+            {
+              "id": 56,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 8,
+          "chars": [],
+          "disabled": false,
           "equip": [],
           "minis": 1,
           "orders": [
@@ -305,7 +305,7 @@
             }
           ],
           "includes": [],
-          "points": 26,
+          "points": 25,
           "swc": "0",
           "weapons": [
             {
@@ -349,7 +349,6 @@
     ],
     "skills": [
       20,
-      25,
       28,
       29,
       47,

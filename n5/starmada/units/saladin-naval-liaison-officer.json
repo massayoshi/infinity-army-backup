@@ -26,8 +26,9 @@
           ],
           "equip": [
             {
-              "id": 63,
-              "order": 1
+              "id": 111,
+              "order": 1,
+              "q": 1
             }
           ],
           "logo": "https://assets.corvusbelli.net/army/img/logo/units/saladin-naval-liaison-officer-1-1.svg",
@@ -73,6 +74,14 @@
                 267
               ],
               "q": 1
+            },
+            {
+              "id": 56,
+              "order": 7,
+              "extra": [
+                267
+              ],
+              "q": 1
             }
           ],
           "peripheral": []
@@ -93,7 +102,7 @@
             }
           ],
           "includes": [],
-          "points": 34,
+          "points": 33,
           "swc": "0",
           "weapons": [
             {
@@ -146,7 +155,7 @@
             }
           ],
           "includes": [],
-          "points": 35,
+          "points": 34,
           "swc": "0",
           "weapons": [
             {
@@ -198,6 +207,7 @@
     ],
     "skills": [
       26,
+      56,
       69,
       84,
       86,
@@ -207,7 +217,7 @@
       215
     ],
     "equip": [
-      63
+      111
     ],
     "chars": [
       1,

@@ -115,7 +115,7 @@
           "peripheral": []
         },
         {
-          "id": 2,
+          "id": 3,
           "chars": [],
           "disabled": false,
           "equip": [],
@@ -166,7 +166,7 @@
           "peripheral": []
         },
         {
-          "id": 3,
+          "id": 4,
           "chars": [],
           "disabled": false,
           "equip": [],
@@ -221,7 +221,7 @@
           "peripheral": []
         },
         {
-          "id": 4,
+          "id": 5,
           "chars": [],
           "disabled": false,
           "equip": [],
@@ -270,6 +270,60 @@
             }
           ],
           "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 145,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 24,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 26,
+              "order": 1
+            },
+            {
+              "id": 17,
+              "order": 2
+            },
+            {
+              "id": 196,
+              "order": 3
+            },
+            {
+              "id": 69,
+              "order": 4
+            },
+            {
+              "id": 5,
+              "order": 5
+            }
+          ],
+          "name": "TRINITARIAN",
+          "skills": [
+            {
+              "id": 1000,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
         }
       ]
     }
@@ -289,9 +343,12 @@
       83,
       164,
       191,
-      238
+      238,
+      1000
     ],
-    "equip": [],
+    "equip": [
+      145
+    ],
     "chars": [
       1,
       3,

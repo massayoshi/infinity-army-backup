@@ -46,11 +46,6 @@
               "order": 1
             },
             {
-              "id": 20,
-              "order": 2,
-              "q": 1
-            },
-            {
               "id": 191,
               "order": 3,
               "extra": [
@@ -86,6 +81,11 @@
             {
               "id": 249,
               "order": 9
+            },
+            {
+              "id": 21,
+              "order": 10,
+              "q": 1
             }
           ],
           "peripheral": []
@@ -106,7 +106,7 @@
             }
           ],
           "includes": [],
-          "points": 31,
+          "points": 29,
           "swc": "1",
           "weapons": [
             {
@@ -114,16 +114,20 @@
               "order": 1
             },
             {
-              "id": 45,
+              "id": 65,
               "order": 2
             },
             {
-              "id": 69,
+              "id": 45,
               "order": 3
             },
             {
-              "id": 9,
+              "id": 211,
               "order": 4
+            },
+            {
+              "id": 9,
+              "order": 5
             }
           ],
           "name": "SPECULO KILLER",
@@ -144,7 +148,7 @@
             }
           ],
           "includes": [],
-          "points": 28,
+          "points": 26,
           "swc": "1",
           "weapons": [
             {
@@ -152,16 +156,20 @@
               "order": 1
             },
             {
-              "id": 45,
+              "id": 65,
               "order": 2
             },
             {
-              "id": 69,
+              "id": 45,
               "order": 3
             },
             {
-              "id": 9,
+              "id": 211,
               "order": 4
+            },
+            {
+              "id": 9,
+              "order": 5
             }
           ],
           "name": "SPECULO KILLER",
@@ -182,7 +190,7 @@
             }
           ],
           "includes": [],
-          "points": 33,
+          "points": 31,
           "swc": "1.5",
           "weapons": [
             {
@@ -190,20 +198,24 @@
               "order": 1
             },
             {
-              "id": 45,
-              "order": 3
-            },
-            {
-              "id": 69,
-              "order": 4
-            },
-            {
-              "id": 9,
-              "order": 5
+              "id": 65,
+              "order": 2
             },
             {
               "id": 196,
-              "order": 2
+              "order": 3
+            },
+            {
+              "id": 45,
+              "order": 4
+            },
+            {
+              "id": 211,
+              "order": 5
+            },
+            {
+              "id": 9,
+              "order": 6
             }
           ],
           "name": "SPECULO KILLER",
@@ -225,7 +237,7 @@
       5
     ],
     "skills": [
-      20,
+      21,
       40,
       56,
       58,
@@ -250,14 +262,16 @@
       26,
       33,
       45,
-      69,
-      196
+      65,
+      196,
+      211
     ],
     "ammunition": [
       2,
       3,
       8,
-      21
+      21,
+      30
     ]
   },
   "factions": [
