@@ -37,13 +37,7 @@
           ],
           "logo": "https://assets.corvusbelli.net/army/img/logo/units/maximus-optimate-and-hexadome-legend-null-1.svg",
           "weapons": [],
-          "includes": [
-            {
-              "group": 2,
-              "option": 1,
-              "q": 1
-            }
-          ],
+          "includes": [],
           "move": [
             15,
             10
@@ -143,7 +137,13 @@
               "total": 1
             }
           ],
-          "includes": [],
+          "includes": [
+            {
+              "group": 2,
+              "option": 1,
+              "q": 1
+            }
+          ],
           "points": 76,
           "swc": "0.5",
           "weapons": [
@@ -191,7 +191,13 @@
               "total": 1
             }
           ],
-          "includes": [],
+          "includes": [
+            {
+              "group": 2,
+              "option": 2,
+              "q": 1
+            }
+          ],
           "points": 76,
           "swc": "0",
           "weapons": [
@@ -320,8 +326,8 @@
             }
           ],
           "includes": [],
-          "points": 0,
-          "swc": "0",
+          "points": 76,
+          "swc": "-",
           "weapons": [
             {
               "id": 207,
@@ -342,6 +348,55 @@
           ],
           "name": "OPERATOR MAXIMUS",
           "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": true,
+          "equip": [],
+          "minis": 0,
+          "orders": [
+            {
+              "type": "TACTICAL",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "LIEUTENANT",
+              "list": 0,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 76,
+          "swc": "-",
+          "weapons": [
+            {
+              "id": 207,
+              "order": 1
+            },
+            {
+              "id": 213,
+              "order": 2
+            },
+            {
+              "id": 107,
+              "order": 3
+            },
+            {
+              "id": 78,
+              "order": 4
+            }
+          ],
+          "name": "OPERATOR MAXIMUS",
+          "skills": [
+            {
+              "id": 119,
+              "order": 1,
+              "q": 1
+            }
+          ],
           "peripheral": []
         }
       ]

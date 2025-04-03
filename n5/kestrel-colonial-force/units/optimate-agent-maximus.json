@@ -137,6 +137,60 @@
           "name": "MAXIMUS AGENT",
           "skills": [],
           "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "TACTICAL",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "LIEUTENANT",
+              "list": 0,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 40,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 207,
+              "order": 1
+            },
+            {
+              "id": 213,
+              "order": 2
+            },
+            {
+              "id": 107,
+              "order": 3
+            },
+            {
+              "id": 78,
+              "order": 4
+            }
+          ],
+          "name": "MAXIMUS AGENT",
+          "skills": [
+            {
+              "id": 119,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
         }
       ]
     }
@@ -152,6 +206,7 @@
       40,
       84,
       86,
+      119,
       162,
       189,
       213,
