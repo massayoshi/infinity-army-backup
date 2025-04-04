@@ -244,7 +244,9 @@
           "bts": 3,
           "cc": 23,
           "chars": [
-            1
+            1,
+            3,
+            5
           ],
           "equip": [],
           "logo": "https://assets.corvusbelli.net/army/img/logo/units/maximus-optimate-and-hexadome-legend-2-1.svg",
@@ -317,8 +319,13 @@
           "chars": [],
           "disabled": true,
           "equip": [],
-          "minis": 0,
+          "minis": 1,
           "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
             {
               "type": "TACTICAL",
               "list": 1,
@@ -355,8 +362,13 @@
           "chars": [],
           "disabled": true,
           "equip": [],
-          "minis": 0,
+          "minis": 1,
           "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
             {
               "type": "TACTICAL",
               "list": 1,

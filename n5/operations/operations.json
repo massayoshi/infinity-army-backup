@@ -1,5 +1,5 @@
 {
-  "version": "7.2593.394",
+  "version": "7.2594.424",
   "units": [
     {
       "id": 1130,
@@ -606,7 +606,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 19
+                  "id": 80
                 }
               ]
             },
@@ -677,7 +677,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 19
+                  "id": 80
                 }
               ]
             }
@@ -2506,7 +2506,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 20
+                  "id": 81
                 }
               ]
             },
@@ -2602,7 +2602,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 20
+                  "id": 81
                 }
               ]
             },
@@ -2698,7 +2698,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 20
+                  "id": 81
                 }
               ]
             }
@@ -5683,7 +5683,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 21
+                  "id": 82
                 }
               ]
             },
@@ -6056,7 +6056,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 21
+                  "id": 82
                 }
               ]
             },
@@ -7556,7 +7556,9 @@
               "arm": 3,
               "weapons": [],
               "chars": [
-                1
+                1,
+                3,
+                5
               ],
               "wip": 13,
               "skills": [
@@ -7611,12 +7613,17 @@
           "options": [
             {
               "includes": [],
-              "minis": 0,
+              "minis": 1,
               "points": 76,
               "equip": [],
               "name": "OPERATOR MAXIMUS",
               "disabled": true,
               "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
                 {
                   "type": "TACTICAL",
                   "list": 1,
@@ -7655,12 +7662,17 @@
             },
             {
               "includes": [],
-              "minis": 0,
+              "minis": 1,
               "points": 76,
               "equip": [],
               "name": "OPERATOR MAXIMUS",
               "disabled": true,
               "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
                 {
                   "type": "TACTICAL",
                   "list": 1,
@@ -12113,18 +12125,18 @@
                 {
                   "q": 1,
                   "extra": [
-                    324
-                  ],
-                  "id": 263,
-                  "order": 6
-                },
-                {
-                  "q": 1,
-                  "extra": [
                     11
                   ],
                   "id": 40,
                   "order": 7
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    372
+                  ],
+                  "id": 263,
+                  "order": 8
                 }
               ],
               "peripheral": []
@@ -13982,7 +13994,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 22
+                  "id": 83
                 }
               ]
             },
@@ -14037,7 +14049,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 22
+                  "id": 83
                 }
               ]
             },
@@ -14092,7 +14104,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 22
+                  "id": 83
                 }
               ]
             },
@@ -14151,7 +14163,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 22
+                  "id": 83
                 }
               ]
             }
@@ -14835,6 +14847,11 @@
               "disabled": true,
               "orders": [
                 {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
                   "type": "TACTICAL",
                   "list": 1,
                   "total": 1
@@ -14843,17 +14860,14 @@
               "id": 2,
               "weapons": [
                 {
-                  "extra": null,
                   "id": 74,
                   "order": 1
                 },
                 {
-                  "extra": null,
                   "id": 212,
                   "order": 2
                 },
                 {
-                  "extra": null,
                   "id": 5,
                   "order": 3
                 }
@@ -16765,7 +16779,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 23
+                  "id": 84
                 }
               ]
             },
@@ -16829,7 +16843,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 23,
+                  "id": 84,
                   "q": 2
                 }
               ]
@@ -18136,7 +18150,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 22
+                  "id": 83
                 }
               ]
             },
@@ -18188,7 +18202,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 22
+                  "id": 83
                 }
               ]
             },
@@ -18244,7 +18258,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 22
+                  "id": 83
                 }
               ]
             }
@@ -23723,7 +23737,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 24
+                  "id": 85
                 }
               ]
             }
@@ -24158,29 +24172,29 @@
   "filters": {
     "peripheral": [
       {
-        "id": 24,
+        "id": 85,
         "name": "BÂTARD",
         "mercs": true
       },
       {
-        "id": 21,
+        "id": 82,
         "name": "DEVABOT"
       },
       {
-        "id": 23,
+        "id": 84,
         "name": "JACKBOT",
         "mercs": true
       },
       {
-        "id": 19,
+        "id": 80,
         "name": "KARKATA"
       },
       {
-        "id": 20,
+        "id": 81,
         "name": "KIRANBOT"
       },
       {
-        "id": 22,
+        "id": 83,
         "name": "TURTLEMEK",
         "mercs": true
       }
@@ -25821,14 +25835,14 @@
         "mercs": true
       },
       {
-        "id": 324,
-        "name": "20",
-        "type": "DISTANCE"
-      },
-      {
         "id": 253,
         "name": "2W",
         "type": "TEXT"
+      },
+      {
+        "id": 372,
+        "name": "7.5",
+        "type": "DISTANCE"
       },
       {
         "id": 322,

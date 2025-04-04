@@ -1,5 +1,5 @@
 {
-  "version": "7.2534.182",
+  "version": "7.2594.423",
   "units": [
     {
       "id": 1800,
@@ -263,637 +263,6 @@
       },
       "factions": [
         299,
-        1199
-      ]
-    },
-    {
-      "id": 1835,
-      "idArmy": 1835,
-      "canonical": 1199,
-      "isc": "Reinf. Atom Aibōt",
-      "iscAbbr": null,
-      "name": "REINFORCEMENTS: ATOM Aibōt",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Reinf. Atom Aibōt",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 13,
-              "move": [
-                15,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 5,
-              "ava": 1,
-              "str": true,
-              "bs": 11,
-              "s": 3,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 238,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "id": 63,
-                  "order": 2
-                }
-              ],
-              "w": 1,
-              "ph": 10,
-              "name": "REINFORCEMENTS: ATOM Aibōt",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/none.svg",
-              "id": 1,
-              "arm": 0,
-              "weapons": [],
-              "chars": [
-                3,
-                5,
-                21
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 242,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "id": 84,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "id": 59,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "id": 235,
-                  "order": 4
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 15,
-              "equip": [],
-              "name": "REINF. ATOM",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "extra": null,
-                  "id": 33,
-                  "order": 1
-                },
-                {
-                  "extra": null,
-                  "id": 72,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 65,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 17,
-              "equip": [],
-              "name": "REINF. ATOM",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "extra": [
-                    303
-                  ],
-                  "id": 33,
-                  "order": 1
-                },
-                {
-                  "extra": [
-                    8
-                  ],
-                  "id": 72,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 8
-        }
-      ],
-      "options": [],
-      "slug": "reinf-atom-aib-t",
-      "filters": {
-        "categories": [
-          8
-        ],
-        "skills": [
-          59,
-          65,
-          84,
-          235,
-          242
-        ],
-        "equip": [
-          63,
-          238
-        ],
-        "chars": [
-          3,
-          5,
-          21
-        ],
-        "types": [
-          5
-        ],
-        "weapons": [
-          33,
-          71,
-          72
-        ],
-        "ammunition": [
-          2,
-          29,
-          37
-        ]
-      },
-      "factions": [
-        1199
-      ]
-    },
-    {
-      "id": 1795,
-      "idArmy": 1795,
-      "canonical": 1199,
-      "isc": "Reinf. Shikami",
-      "iscAbbr": null,
-      "name": "REINF: SHIKAMI",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Reinf. Shikami",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 23,
-              "move": [
-                15,
-                5
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 3,
-              "ava": 2,
-              "str": false,
-              "bs": 13,
-              "s": 2,
-              "equip": [],
-              "w": 2,
-              "ph": 14,
-              "name": "REINF: SHIKAMI",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-shikami-1-1.svg",
-              "id": 1,
-              "arm": 3,
-              "weapons": [],
-              "chars": [
-                1,
-                3,
-                5,
-                21
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 21,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "id": 84,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    23
-                  ],
-                  "id": 40,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    30
-                  ],
-                  "id": 162,
-                  "order": 4
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    7
-                  ],
-                  "id": 28,
-                  "order": 5
-                },
-                {
-                  "q": 1,
-                  "id": 189,
-                  "order": 6
-                },
-                {
-                  "q": 1,
-                  "id": 164,
-                  "order": 7
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    324
-                  ],
-                  "id": 74,
-                  "order": 8
-                },
-                {
-                  "q": 1,
-                  "id": 82,
-                  "order": 9
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 39,
-              "equip": [],
-              "name": "SHIKAMI REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 19,
-                  "order": 1
-                },
-                {
-                  "extra": [
-                    8
-                  ],
-                  "id": 72,
-                  "order": 2
-                },
-                {
-                  "id": 70,
-                  "order": 3
-                },
-                {
-                  "extra": [
-                    311
-                  ],
-                  "id": 78,
-                  "order": 4
-                },
-                {
-                  "id": 46,
-                  "order": 5
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 41,
-              "equip": [],
-              "name": "SHIKAMI REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "id": 26,
-                  "order": 1
-                },
-                {
-                  "id": 17,
-                  "order": 2
-                },
-                {
-                  "id": 69,
-                  "order": 3
-                },
-                {
-                  "extra": [
-                    311
-                  ],
-                  "id": 78,
-                  "order": 4
-                },
-                {
-                  "id": 46,
-                  "order": 5
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 5
-        }
-      ],
-      "options": [],
-      "slug": "reinf-shikami",
-      "filters": {
-        "categories": [
-          5
-        ],
-        "skills": [
-          21,
-          28,
-          40,
-          74,
-          82,
-          84,
-          162,
-          164,
-          189
-        ],
-        "equip": [],
-        "chars": [
-          1,
-          3,
-          5,
-          21
-        ],
-        "types": [
-          3
-        ],
-        "weapons": [
-          17,
-          19,
-          26,
-          46,
-          69,
-          70,
-          72,
-          78
-        ],
-        "ammunition": [
-          2,
-          3,
-          10,
-          13,
-          18,
-          22,
-          29
-        ]
-      },
-      "factions": [
-        1199
-      ]
-    },
-    {
-      "id": 1836,
-      "idArmy": 1836,
-      "canonical": 1199,
-      "isc": "Reinf. Garon Aibōt",
-      "iscAbbr": null,
-      "name": "REINFORCEMENTS: GARON Aibōt",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Reinf. Garon Aibōt",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 13,
-              "move": [
-                15,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 5,
-              "ava": 1,
-              "str": true,
-              "bs": 11,
-              "s": 3,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 113,
-                  "order": 1
-                }
-              ],
-              "w": 1,
-              "ph": 10,
-              "name": "REINFORCEMENTS: GARON Aibōt",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/none.svg",
-              "id": 1,
-              "arm": 0,
-              "weapons": [],
-              "chars": [
-                3,
-                5,
-                21
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 84,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "id": 235,
-                  "order": 2
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 19,
-              "equip": [],
-              "name": "REINF. GARON",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 2,
-                  "order": 1
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 2
-                }
-              ],
-              "chars": [],
-              "swc": "1",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 16,
-              "equip": [],
-              "name": "REINF. GARON",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "id": 64,
-                  "order": 1
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 2
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 8
-        }
-      ],
-      "options": [],
-      "slug": "reinf-garon-aib-t",
-      "filters": {
-        "categories": [
-          8
-        ],
-        "skills": [
-          84,
-          235
-        ],
-        "equip": [
-          113
-        ],
-        "chars": [
-          3,
-          5,
-          21
-        ],
-        "types": [
-          5
-        ],
-        "weapons": [
-          2,
-          64,
-          71
-        ],
-        "ammunition": [
-          2,
-          37
-        ]
-      },
-      "factions": [
         1199
       ]
     },
@@ -1271,6 +640,635 @@
           9,
           13,
           37
+        ]
+      },
+      "factions": [
+        1199
+      ]
+    },
+    {
+      "id": 1835,
+      "idArmy": 1835,
+      "canonical": 1199,
+      "isc": "Reinf. Atom Aibōt",
+      "iscAbbr": null,
+      "name": "REINFORCEMENTS: ATOM Aibōt",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Reinf. Atom Aibōt",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 13,
+              "move": [
+                15,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 5,
+              "ava": 1,
+              "str": true,
+              "bs": 11,
+              "s": 3,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 238,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 63,
+                  "order": 2
+                }
+              ],
+              "w": 1,
+              "ph": 10,
+              "name": "REINFORCEMENTS: ATOM Aibōt",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-atom-aib-t-1-1.svg",
+              "id": 1,
+              "arm": 0,
+              "weapons": [],
+              "chars": [
+                3,
+                5,
+                21
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 242,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 84,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "id": 59,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "id": 235,
+                  "order": 4
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 15,
+              "equip": [],
+              "name": "REINF. ATOM AIBŌT",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 33,
+                  "order": 1
+                },
+                {
+                  "id": 72,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 65,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 17,
+              "equip": [],
+              "name": "REINF. ATOM AIBŌT",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "extra": [
+                    303
+                  ],
+                  "id": 33,
+                  "order": 1
+                },
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 72,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 8
+        }
+      ],
+      "options": [],
+      "slug": "reinf-atom-aib-t",
+      "filters": {
+        "categories": [
+          8
+        ],
+        "skills": [
+          59,
+          65,
+          84,
+          235,
+          242
+        ],
+        "equip": [
+          63,
+          238
+        ],
+        "chars": [
+          3,
+          5,
+          21
+        ],
+        "types": [
+          5
+        ],
+        "weapons": [
+          33,
+          71,
+          72
+        ],
+        "ammunition": [
+          2,
+          29,
+          37
+        ]
+      },
+      "factions": [
+        1199
+      ]
+    },
+    {
+      "id": 1836,
+      "idArmy": 1836,
+      "canonical": 1199,
+      "isc": "Reinf. Garon Aibōt",
+      "iscAbbr": null,
+      "name": "REINFORCEMENTS: GARON Aibōt",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Reinf. Garon Aibōt",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 13,
+              "move": [
+                15,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 5,
+              "ava": 1,
+              "str": true,
+              "bs": 11,
+              "s": 3,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 113,
+                  "order": 1
+                }
+              ],
+              "w": 1,
+              "ph": 10,
+              "name": "REINFORCEMENTS: GARON Aibōt",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-garon-aib-t-1-1.svg",
+              "id": 1,
+              "arm": 0,
+              "weapons": [],
+              "chars": [
+                3,
+                5,
+                21
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 84,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 235,
+                  "order": 2
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 19,
+              "equip": [],
+              "name": "REINF. GARON AIBŌT",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 2,
+                  "order": 1
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 2
+                }
+              ],
+              "chars": [],
+              "swc": "1",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 16,
+              "equip": [],
+              "name": "REINF. GARON AIBŌT",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "id": 64,
+                  "order": 1
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 2
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 8
+        }
+      ],
+      "options": [],
+      "slug": "reinf-garon-aib-t",
+      "filters": {
+        "categories": [
+          8
+        ],
+        "skills": [
+          84,
+          235
+        ],
+        "equip": [
+          113
+        ],
+        "chars": [
+          3,
+          5,
+          21
+        ],
+        "types": [
+          5
+        ],
+        "weapons": [
+          2,
+          64,
+          71
+        ],
+        "ammunition": [
+          2,
+          37
+        ]
+      },
+      "factions": [
+        1199
+      ]
+    },
+    {
+      "id": 1795,
+      "idArmy": 1795,
+      "canonical": 1199,
+      "isc": "Reinf. Shikami",
+      "iscAbbr": null,
+      "name": "REINF: SHIKAMI",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Reinf. Shikami",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 23,
+              "move": [
+                15,
+                5
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 3,
+              "ava": 2,
+              "str": false,
+              "bs": 13,
+              "s": 2,
+              "equip": [],
+              "w": 2,
+              "ph": 14,
+              "name": "REINF: SHIKAMI",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-shikami-1-1.svg",
+              "id": 1,
+              "arm": 3,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                5,
+                21
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 21,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 84,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    23
+                  ],
+                  "id": 40,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    30
+                  ],
+                  "id": 162,
+                  "order": 4
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    7
+                  ],
+                  "id": 28,
+                  "order": 5
+                },
+                {
+                  "q": 1,
+                  "id": 189,
+                  "order": 6
+                },
+                {
+                  "q": 1,
+                  "id": 164,
+                  "order": 7
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    372
+                  ],
+                  "id": 74,
+                  "order": 8
+                },
+                {
+                  "q": 1,
+                  "id": 82,
+                  "order": 9
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 39,
+              "equip": [],
+              "name": "SHIKAMI REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 19,
+                  "order": 1
+                },
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 72,
+                  "order": 2
+                },
+                {
+                  "id": 70,
+                  "order": 3
+                },
+                {
+                  "extra": [
+                    311
+                  ],
+                  "id": 78,
+                  "order": 4
+                },
+                {
+                  "id": 46,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 41,
+              "equip": [],
+              "name": "SHIKAMI REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "id": 26,
+                  "order": 1
+                },
+                {
+                  "id": 17,
+                  "order": 2
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "extra": [
+                    311
+                  ],
+                  "id": 78,
+                  "order": 4
+                },
+                {
+                  "id": 46,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 5
+        }
+      ],
+      "options": [],
+      "slug": "reinf-shikami",
+      "filters": {
+        "categories": [
+          5
+        ],
+        "skills": [
+          21,
+          28,
+          40,
+          74,
+          82,
+          84,
+          162,
+          164,
+          189
+        ],
+        "equip": [],
+        "chars": [
+          1,
+          3,
+          5,
+          21
+        ],
+        "types": [
+          3
+        ],
+        "weapons": [
+          17,
+          19,
+          26,
+          46,
+          69,
+          70,
+          72,
+          78
+        ],
+        "ammunition": [
+          2,
+          3,
+          10,
+          13,
+          18,
+          22,
+          29
         ]
       },
       "factions": [
@@ -3396,8 +3394,8 @@
         "type": "DISTANCE"
       },
       {
-        "id": 324,
-        "name": "20",
+        "id": 372,
+        "name": "7.5",
         "type": "DISTANCE"
       },
       {
@@ -3469,12 +3467,32 @@
       "category": 8
     },
     {
+      "id": 1792,
+      "isc": "Reinf. Genbutai",
+      "idArmy": 1792,
+      "name": "REINF: GENBUTAI",
+      "slug": "reinf-genbutai",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-genbutai-1-1.svg",
+      "type": 2,
+      "category": 4
+    },
+    {
       "id": 1835,
       "isc": "Reinf. Atom Aibōt",
       "idArmy": 1835,
       "name": "REINFORCEMENTS: ATOM Aibōt",
       "slug": "reinf-atom-aib-t",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/none.svg",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-atom-aib-t-1-1.svg",
+      "type": 5,
+      "category": 8
+    },
+    {
+      "id": 1836,
+      "isc": "Reinf. Garon Aibōt",
+      "idArmy": 1836,
+      "name": "REINFORCEMENTS: GARON Aibōt",
+      "slug": "reinf-garon-aib-t",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-garon-aib-t-1-1.svg",
       "type": 5,
       "category": 8
     },
@@ -3487,26 +3505,6 @@
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-shikami-1-1.svg",
       "type": 3,
       "category": 5
-    },
-    {
-      "id": 1836,
-      "isc": "Reinf. Garon Aibōt",
-      "idArmy": 1836,
-      "name": "REINFORCEMENTS: GARON Aibōt",
-      "slug": "reinf-garon-aib-t",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/none.svg",
-      "type": 5,
-      "category": 8
-    },
-    {
-      "id": 1792,
-      "isc": "Reinf. Genbutai",
-      "idArmy": 1792,
-      "name": "REINF: GENBUTAI",
-      "slug": "reinf-genbutai",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-genbutai-1-1.svg",
-      "type": 2,
-      "category": 4
     },
     {
       "id": 1798,
@@ -3660,7 +3658,7 @@
           {
             "min": 0,
             "max": 1,
-            "name": "REINF. ATOM",
+            "name": "REINF. ATOM AIBŌT",
             "comment": "",
             "required": false,
             "slug": "reinf-atom-aib-t"

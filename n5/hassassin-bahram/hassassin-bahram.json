@@ -1,5 +1,5 @@
 {
-  "version": "7.2593.393",
+  "version": "7.2594.424",
   "units": [
     {
       "id": 341,
@@ -9394,7 +9394,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 59
+                  "id": 34
                 }
               ]
             },
@@ -9446,7 +9446,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 59
+                  "id": 34
                 }
               ]
             }
@@ -11481,7 +11481,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 60
+                  "id": 35
                 }
               ]
             },
@@ -11536,7 +11536,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 60
+                  "id": 35
                 }
               ]
             },
@@ -11591,7 +11591,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 60
+                  "id": 35
                 }
               ]
             },
@@ -11650,7 +11650,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 60
+                  "id": 35
                 }
               ]
             }
@@ -12334,6 +12334,11 @@
               "disabled": true,
               "orders": [
                 {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
                   "type": "TACTICAL",
                   "list": 1,
                   "total": 1
@@ -12342,17 +12347,14 @@
               "id": 2,
               "weapons": [
                 {
-                  "extra": null,
                   "id": 74,
                   "order": 1
                 },
                 {
-                  "extra": null,
                   "id": 212,
                   "order": 2
                 },
                 {
-                  "extra": null,
                   "id": 5,
                   "order": 3
                 }
@@ -14822,7 +14824,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 61
+                  "id": 36
                 }
               ]
             },
@@ -14886,7 +14888,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 61,
+                  "id": 36,
                   "q": 2
                 }
               ]
@@ -15844,7 +15846,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 60
+                  "id": 35
                 }
               ]
             },
@@ -15896,7 +15898,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 60
+                  "id": 35
                 }
               ]
             },
@@ -15952,7 +15954,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 60
+                  "id": 35
                 }
               ]
             }
@@ -21688,7 +21690,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 62
+                  "id": 37
                 }
               ]
             }
@@ -22123,21 +22125,21 @@
   "filters": {
     "peripheral": [
       {
-        "id": 62,
+        "id": 37,
         "name": "BÂTARD",
         "mercs": true
       },
       {
-        "id": 61,
+        "id": 36,
         "name": "JACKBOT",
         "mercs": true
       },
       {
-        "id": 59,
+        "id": 34,
         "name": "JANDAB"
       },
       {
-        "id": 60,
+        "id": 35,
         "name": "TURTLEMEK",
         "mercs": true
       }

@@ -1,5 +1,5 @@
 {
-  "version": "7.2593.394",
+  "version": "7.2594.424",
   "units": [
     {
       "id": 395,
@@ -2831,7 +2831,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 1
+                  "id": 175
                 }
               ]
             },
@@ -2937,7 +2937,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 1
+                  "id": 175
                 }
               ]
             }
@@ -3556,7 +3556,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 2
+                  "id": 176
                 }
               ]
             },
@@ -3612,7 +3612,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 2
+                  "id": 176
                 }
               ]
             }
@@ -7772,6 +7772,219 @@
       ]
     },
     {
+      "id": 1853,
+      "idArmy": 1853,
+      "canonical": 501,
+      "isc": "TAG-Treiber, NMF TAG Squadrons Support Pilots",
+      "iscAbbr": null,
+      "name": "TAG-TREIBER, NMF TAG Squadrons Support Pilots",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "TAG-Treiber, NMF TAG Squadrons Support Pilots",
+          "profiles": [
+            {
+              "bts": 0,
+              "cc": 13,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 1,
+              "ava": 1,
+              "str": false,
+              "bs": 11,
+              "s": 2,
+              "equip": [],
+              "w": 1,
+              "ph": 10,
+              "name": "TAG-TREIBER, NMF TAG Squadrons Support Pilots",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/tag-treiber-nmf-tag-squadrons-pilots-1-1.svg",
+              "id": 1,
+              "arm": 1,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                5
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 189,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    369
+                  ],
+                  "id": 270,
+                  "order": 2
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 12,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 237,
+                  "order": 1
+                }
+              ],
+              "name": "GECKO PILOT",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 33,
+                  "order": 1
+                },
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 70,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "extra": [
+                    34
+                  ],
+                  "id": 58,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 11,
+              "equip": [],
+              "name": "GATOR PILOT",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 4,
+              "weapons": [
+                {
+                  "id": 26,
+                  "order": 1
+                },
+                {
+                  "id": 17,
+                  "order": 2
+                },
+                {
+                  "id": 221,
+                  "order": 3
+                },
+                {
+                  "extra": [
+                    7
+                  ],
+                  "id": 71,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "extra": [
+                    3
+                  ],
+                  "id": 240,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 8
+        }
+      ],
+      "options": [],
+      "slug": "tag-treiber-nmf-tag-squadrons-support-pilots",
+      "filters": {
+        "categories": [
+          8
+        ],
+        "skills": [
+          58,
+          189,
+          240,
+          270
+        ],
+        "equip": [
+          237
+        ],
+        "chars": [
+          1,
+          3,
+          5
+        ],
+        "types": [
+          1
+        ],
+        "weapons": [
+          5,
+          17,
+          26,
+          33,
+          70,
+          71,
+          221
+        ],
+        "ammunition": [
+          2,
+          3,
+          8,
+          13,
+          37
+        ]
+      },
+      "factions": [
+        501,
+        502,
+        503,
+        504
+      ]
+    },
+    {
       "id": 382,
       "idArmy": 15,
       "canonical": 403,
@@ -7834,7 +8047,7 @@
                 {
                   "q": 1,
                   "extra": [
-                    324
+                    372
                   ],
                   "id": 263,
                   "order": 3
@@ -8264,219 +8477,6 @@
         501,
         502,
         905
-      ]
-    },
-    {
-      "id": 1853,
-      "idArmy": 1853,
-      "canonical": 501,
-      "isc": "TAG-Treiber, NMF TAG Squadrons Support Pilots",
-      "iscAbbr": null,
-      "name": "TAG-TREIBER, NMF TAG Squadrons Support Pilots",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "TAG-Treiber, NMF TAG Squadrons Support Pilots",
-          "profiles": [
-            {
-              "bts": 0,
-              "cc": 13,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 1,
-              "ava": 1,
-              "str": false,
-              "bs": 11,
-              "s": 2,
-              "equip": [],
-              "w": 1,
-              "ph": 10,
-              "name": "TAG-TREIBER, NMF TAG Squadrons Support Pilots",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/tag-treiber-nmf-tag-squadrons-pilots-1-1.svg",
-              "id": 1,
-              "arm": 1,
-              "weapons": [],
-              "chars": [
-                1,
-                3,
-                5
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 189,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    369
-                  ],
-                  "id": 270,
-                  "order": 2
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 12,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 237,
-                  "order": 1
-                }
-              ],
-              "name": "GECKO PILOT",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 33,
-                  "order": 1
-                },
-                {
-                  "extra": [
-                    8
-                  ],
-                  "id": 70,
-                  "order": 2
-                },
-                {
-                  "id": 5,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "q": 1,
-                  "extra": [
-                    34
-                  ],
-                  "id": 58,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 11,
-              "equip": [],
-              "name": "GATOR PILOT",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 4,
-              "weapons": [
-                {
-                  "id": 26,
-                  "order": 1
-                },
-                {
-                  "id": 17,
-                  "order": 2
-                },
-                {
-                  "id": 221,
-                  "order": 3
-                },
-                {
-                  "extra": [
-                    7
-                  ],
-                  "id": 71,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "q": 1,
-                  "extra": [
-                    3
-                  ],
-                  "id": 240,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 8
-        }
-      ],
-      "options": [],
-      "slug": "tag-treiber-nmf-tag-squadrons-support-pilots",
-      "filters": {
-        "categories": [
-          8
-        ],
-        "skills": [
-          58,
-          189,
-          240,
-          270
-        ],
-        "equip": [
-          237
-        ],
-        "chars": [
-          1,
-          3,
-          5
-        ],
-        "types": [
-          1
-        ],
-        "weapons": [
-          5,
-          17,
-          26,
-          33,
-          70,
-          71,
-          221
-        ],
-        "ammunition": [
-          2,
-          3,
-          8,
-          13,
-          37
-        ]
-      },
-      "factions": [
-        501,
-        502,
-        503,
-        504
       ]
     },
     {
@@ -9470,7 +9470,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 3
+                  "id": 177
                 }
               ]
             }
@@ -9963,7 +9963,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 2
+                  "id": 176
                 }
               ]
             }
@@ -12083,7 +12083,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 4
+                  "id": 178
                 }
               ]
             },
@@ -12138,7 +12138,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 4
+                  "id": 178
                 }
               ]
             },
@@ -12193,7 +12193,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 4
+                  "id": 178
                 }
               ]
             },
@@ -12252,7 +12252,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 4
+                  "id": 178
                 }
               ]
             }
@@ -12936,6 +12936,11 @@
               "disabled": true,
               "orders": [
                 {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
                   "type": "TACTICAL",
                   "list": 1,
                   "total": 1
@@ -12944,17 +12949,14 @@
               "id": 2,
               "weapons": [
                 {
-                  "extra": null,
                   "id": 74,
                   "order": 1
                 },
                 {
-                  "extra": null,
                   "id": 212,
                   "order": 2
                 },
                 {
-                  "extra": null,
                   "id": 5,
                   "order": 3
                 }
@@ -15424,7 +15426,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 5
+                  "id": 179
                 }
               ]
             },
@@ -15488,7 +15490,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 5,
+                  "id": 179,
                   "q": 2
                 }
               ]
@@ -16608,7 +16610,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 4
+                  "id": 178
                 }
               ]
             },
@@ -16660,7 +16662,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 4
+                  "id": 178
                 }
               ]
             },
@@ -16716,7 +16718,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 4
+                  "id": 178
                 }
               ]
             }
@@ -22312,7 +22314,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 6
+                  "id": 180
                 }
               ]
             }
@@ -22747,30 +22749,30 @@
   "filters": {
     "peripheral": [
       {
-        "id": 6,
+        "id": 180,
         "name": "BÂTARD",
         "mercs": true
       },
       {
-        "id": 5,
+        "id": 179,
         "name": "JACKBOT",
         "mercs": true
       },
       {
-        "id": 3,
+        "id": 177,
         "name": "MORIARTY"
       },
       {
-        "id": 2,
+        "id": 176,
         "name": "ROBBYBOT"
       },
       {
-        "id": 4,
+        "id": 178,
         "name": "TURTLEMEK",
         "mercs": true
       },
       {
-        "id": 1,
+        "id": 175,
         "name": "ZONDCAT"
       }
     ],
@@ -24343,8 +24345,8 @@
         "mercs": true
       },
       {
-        "id": 324,
-        "name": "20",
+        "id": 372,
+        "name": "7.5",
         "type": "DISTANCE"
       },
       {
@@ -24803,16 +24805,6 @@
       "category": 4
     },
     {
-      "id": 382,
-      "isc": "Mobile Brigada",
-      "idArmy": 15,
-      "name": "MOBILE BRIGADA",
-      "slug": "mobile-brigada",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/mobile-brigada-1-1.svg",
-      "type": 3,
-      "category": 4
-    },
-    {
       "id": 1853,
       "isc": "TAG-Treiber, NMF TAG Squadrons Support Pilots",
       "idArmy": 1853,
@@ -24821,6 +24813,16 @@
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/tag-treiber-nmf-tag-squadrons-pilots-1-1.svg",
       "type": 1,
       "category": 8
+    },
+    {
+      "id": 382,
+      "isc": "Mobile Brigada",
+      "idArmy": 15,
+      "name": "MOBILE BRIGADA",
+      "slug": "mobile-brigada",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/mobile-brigada-1-1.svg",
+      "type": 3,
+      "category": 4
     },
     {
       "id": 283,

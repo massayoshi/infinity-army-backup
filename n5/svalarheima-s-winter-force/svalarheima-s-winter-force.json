@@ -1,5 +1,5 @@
 {
-  "version": "7.2593.393",
+  "version": "7.2594.423",
   "units": [
     {
       "id": 17,
@@ -3065,7 +3065,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 149
+                  "id": 1
                 }
               ]
             },
@@ -3112,7 +3112,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 150
+                  "id": 2
                 }
               ]
             },
@@ -3214,7 +3214,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 149
+                  "id": 1
                 }
               ]
             }
@@ -4294,7 +4294,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 151
+                  "id": 3
                 }
               ]
             },
@@ -4360,7 +4360,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 151
+                  "id": 3
                 }
               ]
             }
@@ -12165,7 +12165,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 152
+                  "id": 4
                 }
               ]
             },
@@ -12220,7 +12220,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 152
+                  "id": 4
                 }
               ]
             },
@@ -12275,7 +12275,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 152
+                  "id": 4
                 }
               ]
             },
@@ -12334,7 +12334,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 152
+                  "id": 4
                 }
               ]
             }
@@ -13018,6 +13018,11 @@
               "disabled": true,
               "orders": [
                 {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
                   "type": "TACTICAL",
                   "list": 1,
                   "total": 1
@@ -13026,17 +13031,14 @@
               "id": 2,
               "weapons": [
                 {
-                  "extra": null,
                   "id": 74,
                   "order": 1
                 },
                 {
-                  "extra": null,
                   "id": 212,
                   "order": 2
                 },
                 {
-                  "extra": null,
                   "id": 5,
                   "order": 3
                 }
@@ -15050,7 +15052,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 153
+                  "id": 5
                 }
               ]
             },
@@ -15114,7 +15116,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 153,
+                  "id": 5,
                   "q": 2
                 }
               ]
@@ -16421,7 +16423,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 152
+                  "id": 4
                 }
               ]
             },
@@ -16473,7 +16475,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 152
+                  "id": 4
                 }
               ]
             },
@@ -16529,7 +16531,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 152
+                  "id": 4
                 }
               ]
             }
@@ -21902,7 +21904,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 154
+                  "id": 6
                 }
               ]
             }
@@ -22337,29 +22339,29 @@
   "filters": {
     "peripheral": [
       {
-        "id": 149,
+        "id": 1,
         "name": "AUXBOT_3"
       },
       {
-        "id": 150,
+        "id": 2,
         "name": "AUXBOT_3B"
       },
       {
-        "id": 154,
+        "id": 6,
         "name": "BÂTARD",
         "mercs": true
       },
       {
-        "id": 151,
+        "id": 3,
         "name": "CRABBOT"
       },
       {
-        "id": 153,
+        "id": 5,
         "name": "JACKBOT",
         "mercs": true
       },
       {
-        "id": 152,
+        "id": 4,
         "name": "TURTLEMEK",
         "mercs": true
       }

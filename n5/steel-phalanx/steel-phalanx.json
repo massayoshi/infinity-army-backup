@@ -1,5 +1,5 @@
 {
-  "version": "7.2593.394",
+  "version": "7.2594.424",
   "units": [
     {
       "id": 593,
@@ -4514,7 +4514,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 78
+                  "id": 145
                 }
               ]
             },
@@ -4583,7 +4583,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 78
+                  "id": 145
                 }
               ]
             },
@@ -8851,7 +8851,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 79
+                  "id": 146
                 }
               ]
             },
@@ -8906,7 +8906,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 79
+                  "id": 146
                 }
               ]
             },
@@ -8972,7 +8972,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 79
+                  "id": 146
                 }
               ]
             }
@@ -11384,7 +11384,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 80
+                  "id": 147
                 }
               ]
             },
@@ -11439,7 +11439,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 80
+                  "id": 147
                 }
               ]
             },
@@ -11494,7 +11494,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 80
+                  "id": 147
                 }
               ]
             },
@@ -11553,7 +11553,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 80
+                  "id": 147
                 }
               ]
             }
@@ -12237,6 +12237,11 @@
               "disabled": true,
               "orders": [
                 {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
                   "type": "TACTICAL",
                   "list": 1,
                   "total": 1
@@ -12245,17 +12250,14 @@
               "id": 2,
               "weapons": [
                 {
-                  "extra": null,
                   "id": 74,
                   "order": 1
                 },
                 {
-                  "extra": null,
                   "id": 212,
                   "order": 2
                 },
                 {
-                  "extra": null,
                   "id": 5,
                   "order": 3
                 }
@@ -14725,7 +14727,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 81
+                  "id": 148
                 }
               ]
             },
@@ -14789,7 +14791,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 81,
+                  "id": 148,
                   "q": 2
                 }
               ]
@@ -16096,7 +16098,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 80
+                  "id": 147
                 }
               ]
             },
@@ -16148,7 +16150,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 80
+                  "id": 147
                 }
               ]
             },
@@ -16204,7 +16206,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 80
+                  "id": 147
                 }
               ]
             }
@@ -21940,7 +21942,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 82
+                  "id": 149
                 }
               ]
             }
@@ -22375,25 +22377,25 @@
   "filters": {
     "peripheral": [
       {
-        "id": 82,
+        "id": 149,
         "name": "BÂTARD",
         "mercs": true
       },
       {
-        "id": 78,
+        "id": 145,
         "name": "DEVABOT CHARYBDIS"
       },
       {
-        "id": 81,
+        "id": 148,
         "name": "JACKBOT",
         "mercs": true
       },
       {
-        "id": 79,
+        "id": 146,
         "name": "KARKATA"
       },
       {
-        "id": 80,
+        "id": 147,
         "name": "TURTLEMEK",
         "mercs": true
       }

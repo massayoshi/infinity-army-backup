@@ -1,5 +1,5 @@
 {
-  "version": "7.2593.393",
+  "version": "7.2594.423",
   "units": [
     {
       "id": 16,
@@ -4160,7 +4160,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 84
+                  "id": 248
                 }
               ]
             },
@@ -4207,7 +4207,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 85
+                  "id": 249
                 }
               ]
             },
@@ -4309,7 +4309,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 84
+                  "id": 248
                 }
               ]
             }
@@ -6865,7 +6865,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 86
+                  "id": 250
                 }
               ]
             },
@@ -6935,7 +6935,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 86
+                  "id": 250
                 }
               ]
             }
@@ -8185,303 +8185,6 @@
       ]
     },
     {
-      "id": 1810,
-      "idArmy": 1810,
-      "canonical": 101,
-      "isc": "Griffin Troops",
-      "iscAbbr": null,
-      "name": "GRIFFIN Troops",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Griffin Troops",
-          "profiles": [
-            {
-              "bts": 6,
-              "cc": 16,
-              "move": [
-                15,
-                5
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 3,
-              "ava": 3,
-              "str": false,
-              "bs": 14,
-              "s": 2,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 114,
-                  "order": 1
-                }
-              ],
-              "w": 2,
-              "ph": 12,
-              "name": "GRIFFIN Troops, Heavy Tactical Regiment",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/griffin-troops-1-1.svg",
-              "id": 1,
-              "arm": 4,
-              "weapons": [],
-              "chars": [
-                1,
-                3,
-                5,
-                21
-              ],
-              "wip": 12,
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 84,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    30
-                  ],
-                  "id": 162,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    324
-                  ],
-                  "id": 263,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    36
-                  ],
-                  "id": 58,
-                  "order": 4
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 31,
-              "equip": [],
-              "name": "GRIFFIN",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 41,
-                  "order": 1
-                },
-                {
-                  "id": 145,
-                  "order": 2
-                },
-                {
-                  "id": 69,
-                  "order": 3
-                },
-                {
-                  "id": 5,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 37,
-              "equip": [],
-              "name": "GRIFFIN",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "id": 2,
-                  "order": 1
-                },
-                {
-                  "id": 145,
-                  "order": 2
-                },
-                {
-                  "id": 69,
-                  "order": 3
-                },
-                {
-                  "id": 5,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "1.5",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 38,
-              "equip": [],
-              "name": "GRIFFIN",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 3,
-              "weapons": [
-                {
-                  "id": 30,
-                  "order": 1
-                },
-                {
-                  "id": 145,
-                  "order": 2
-                },
-                {
-                  "id": 69,
-                  "order": 3
-                },
-                {
-                  "id": 5,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "1.5",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 37,
-              "equip": [],
-              "name": "GRIFFIN",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "LIEUTENANT",
-                  "list": 0,
-                  "total": 1
-                }
-              ],
-              "id": 4,
-              "weapons": [
-                {
-                  "id": 2,
-                  "order": 1
-                },
-                {
-                  "id": 145,
-                  "order": 2
-                },
-                {
-                  "id": 69,
-                  "order": 3
-                },
-                {
-                  "id": 5,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "1",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 119,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 4
-        }
-      ],
-      "options": [],
-      "slug": "griffin-troops",
-      "filters": {
-        "categories": [
-          4
-        ],
-        "skills": [
-          58,
-          84,
-          119,
-          162,
-          263
-        ],
-        "equip": [
-          114
-        ],
-        "chars": [
-          1,
-          3,
-          5,
-          21
-        ],
-        "types": [
-          3
-        ],
-        "weapons": [
-          2,
-          5,
-          30,
-          41,
-          69,
-          145
-        ],
-        "ammunition": [
-          2,
-          3,
-          6,
-          8,
-          9,
-          10
-        ]
-      },
-      "factions": [
-        101,
-        107
-      ]
-    },
-    {
       "id": 1806,
       "idArmy": 1806,
       "canonical": 101,
@@ -8572,7 +8275,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 87
+                  "id": 251
                 }
               ]
             },
@@ -8616,7 +8319,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 88
+                  "id": 252
                 }
               ]
             },
@@ -8660,7 +8363,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 89
+                  "id": 253
                 }
               ]
             },
@@ -8713,7 +8416,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 90
+                  "id": 254
                 }
               ]
             },
@@ -8763,7 +8466,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 91
+                  "id": 255
                 }
               ]
             }
@@ -9472,6 +9175,303 @@
       ]
     },
     {
+      "id": 1810,
+      "idArmy": 1810,
+      "canonical": 101,
+      "isc": "Griffin Troops",
+      "iscAbbr": null,
+      "name": "GRIFFIN Troops",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Griffin Troops",
+          "profiles": [
+            {
+              "bts": 6,
+              "cc": 16,
+              "move": [
+                15,
+                5
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 3,
+              "ava": 3,
+              "str": false,
+              "bs": 14,
+              "s": 2,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 114,
+                  "order": 1
+                }
+              ],
+              "w": 2,
+              "ph": 12,
+              "name": "GRIFFIN Troops, Heavy Tactical Regiment",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/griffin-troops-1-1.svg",
+              "id": 1,
+              "arm": 4,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                5,
+                21
+              ],
+              "wip": 12,
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 84,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    30
+                  ],
+                  "id": 162,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    36
+                  ],
+                  "id": 58,
+                  "order": 4
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    372
+                  ],
+                  "id": 263,
+                  "order": 5
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 31,
+              "equip": [],
+              "name": "GRIFFIN",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 41,
+                  "order": 1
+                },
+                {
+                  "id": 145,
+                  "order": 2
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 37,
+              "equip": [],
+              "name": "GRIFFIN",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "id": 2,
+                  "order": 1
+                },
+                {
+                  "id": 145,
+                  "order": 2
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "1.5",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 38,
+              "equip": [],
+              "name": "GRIFFIN",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 3,
+              "weapons": [
+                {
+                  "id": 30,
+                  "order": 1
+                },
+                {
+                  "id": 145,
+                  "order": 2
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "1.5",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 37,
+              "equip": [],
+              "name": "GRIFFIN",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "LIEUTENANT",
+                  "list": 0,
+                  "total": 1
+                }
+              ],
+              "id": 4,
+              "weapons": [
+                {
+                  "id": 2,
+                  "order": 1
+                },
+                {
+                  "id": 145,
+                  "order": 2
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "1",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 119,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 4
+        }
+      ],
+      "options": [],
+      "slug": "griffin-troops",
+      "filters": {
+        "categories": [
+          4
+        ],
+        "skills": [
+          58,
+          84,
+          119,
+          162,
+          263
+        ],
+        "equip": [
+          114
+        ],
+        "chars": [
+          1,
+          3,
+          5,
+          21
+        ],
+        "types": [
+          3
+        ],
+        "weapons": [
+          2,
+          5,
+          30,
+          41,
+          69,
+          145
+        ],
+        "ammunition": [
+          2,
+          3,
+          6,
+          8,
+          9,
+          10
+        ]
+      },
+      "factions": [
+        101,
+        107
+      ]
+    },
+    {
       "id": 1130,
       "idArmy": 61,
       "canonical": 102,
@@ -9890,7 +9890,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 86
+                  "id": 250
                 }
               ]
             },
@@ -9952,7 +9952,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 86
+                  "id": 250
                 }
               ]
             },
@@ -10013,7 +10013,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 86
+                  "id": 250
                 }
               ]
             }
@@ -11434,7 +11434,9 @@
               "arm": 3,
               "weapons": [],
               "chars": [
-                1
+                1,
+                3,
+                5
               ],
               "wip": 13,
               "skills": [
@@ -11489,12 +11491,17 @@
           "options": [
             {
               "includes": [],
-              "minis": 0,
+              "minis": 1,
               "points": 76,
               "equip": [],
               "name": "OPERATOR MAXIMUS",
               "disabled": true,
               "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
                 {
                   "type": "TACTICAL",
                   "list": 1,
@@ -11533,12 +11540,17 @@
             },
             {
               "includes": [],
-              "minis": 0,
+              "minis": 1,
               "points": 76,
               "equip": [],
               "name": "OPERATOR MAXIMUS",
               "disabled": true,
               "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
                 {
                   "type": "TACTICAL",
                   "list": 1,
@@ -13544,7 +13556,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 92
+                  "id": 256
                 }
               ]
             },
@@ -13599,7 +13611,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 92
+                  "id": 256
                 }
               ]
             },
@@ -13654,7 +13666,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 92
+                  "id": 256
                 }
               ]
             },
@@ -13713,7 +13725,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 92
+                  "id": 256
                 }
               ]
             }
@@ -14397,6 +14409,11 @@
               "disabled": true,
               "orders": [
                 {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
                   "type": "TACTICAL",
                   "list": 1,
                   "total": 1
@@ -14405,17 +14422,14 @@
               "id": 2,
               "weapons": [
                 {
-                  "extra": null,
                   "id": 74,
                   "order": 1
                 },
                 {
-                  "extra": null,
                   "id": 212,
                   "order": 2
                 },
                 {
-                  "extra": null,
                   "id": 5,
                   "order": 3
                 }
@@ -16654,7 +16668,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 93
+                  "id": 257
                 }
               ]
             },
@@ -16718,7 +16732,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 93,
+                  "id": 257,
                   "q": 2
                 }
               ]
@@ -18025,7 +18039,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 92
+                  "id": 256
                 }
               ]
             },
@@ -18077,7 +18091,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 92
+                  "id": 256
                 }
               ]
             },
@@ -18133,7 +18147,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 92
+                  "id": 256
                 }
               ]
             }
@@ -23434,7 +23448,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 94
+                  "id": 258
                 }
               ]
             }
@@ -23869,49 +23883,49 @@
   "filters": {
     "peripheral": [
       {
-        "id": 84,
+        "id": 248,
         "name": "AUXBOT_3"
       },
       {
-        "id": 85,
+        "id": 249,
         "name": "AUXBOT_3B"
       },
       {
-        "id": 94,
+        "id": 258,
         "name": "BÂTARD",
         "mercs": true
       },
       {
-        "id": 86,
+        "id": 250,
         "name": "CRABBOT"
       },
       {
-        "id": 87,
+        "id": 251,
         "name": "DRUMBOT_1"
       },
       {
-        "id": 88,
+        "id": 252,
         "name": "DRUMBOT_2"
       },
       {
-        "id": 89,
+        "id": 253,
         "name": "DRUMBOT_3"
       },
       {
-        "id": 90,
+        "id": 254,
         "name": "DRUMBOT_4"
       },
       {
-        "id": 91,
+        "id": 255,
         "name": "DRUMBOT_5"
       },
       {
-        "id": 93,
+        "id": 257,
         "name": "JACKBOT",
         "mercs": true
       },
       {
-        "id": 92,
+        "id": 256,
         "name": "TURTLEMEK",
         "mercs": true
       }
@@ -25618,11 +25632,6 @@
         "mercs": true
       },
       {
-        "id": 324,
-        "name": "20",
-        "type": "DISTANCE"
-      },
-      {
         "id": 372,
         "name": "7.5",
         "type": "DISTANCE"
@@ -26124,16 +26133,6 @@
       "category": 3
     },
     {
-      "id": 1810,
-      "isc": "Griffin Troops",
-      "idArmy": 1810,
-      "name": "GRIFFIN Troops",
-      "slug": "griffin-troops",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/griffin-troops-1-1.svg",
-      "type": 3,
-      "category": 4
-    },
-    {
       "id": 1806,
       "isc": "Drummers, Mobile Support Section",
       "idArmy": 1806,
@@ -26162,6 +26161,16 @@
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/armbots-bulleteer-1-1.svg",
       "type": 5,
       "category": 8
+    },
+    {
+      "id": 1810,
+      "isc": "Griffin Troops",
+      "idArmy": 1810,
+      "name": "GRIFFIN Troops",
+      "slug": "griffin-troops",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/griffin-troops-1-1.svg",
+      "type": 3,
+      "category": 4
     },
     {
       "id": 1130,
