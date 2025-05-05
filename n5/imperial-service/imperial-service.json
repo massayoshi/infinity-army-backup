@@ -1,5 +1,5 @@
 {
-  "version": "7.2594.423",
+  "version": "7.25125.349",
   "units": [
     {
       "id": 166,
@@ -3627,7 +3627,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 97
+                  "id": 92
                 }
               ]
             },
@@ -3692,7 +3692,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 97
+                  "id": 92
                 }
               ]
             },
@@ -3757,7 +3757,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 97
+                  "id": 92
                 }
               ]
             }
@@ -4053,7 +4053,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 98
+                  "id": 93
                 }
               ]
             },
@@ -4426,7 +4426,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 98
+                  "id": 93
                 }
               ]
             },
@@ -4633,146 +4633,6 @@
         202,
         701,
         703
-      ]
-    },
-    {
-      "id": 1868,
-      "idArmy": 1868,
-      "canonical": 202,
-      "isc": "Dragon Lords, Imperial Service Judges",
-      "iscAbbr": null,
-      "name": "DRAGON LORDS, Imperial Service Judges",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Dragon Lords, Imperial Service Judges",
-          "profiles": [
-            {
-              "bts": 0,
-              "cc": 18,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 1,
-              "ava": 1,
-              "str": false,
-              "bs": 10,
-              "s": 2,
-              "equip": [],
-              "w": 1,
-              "ph": 10,
-              "name": "DRAGON LORDS, Imperial Service Judges",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/dragon-lords-imperial-service-judges-1-1.svg",
-              "id": 1,
-              "arm": 0,
-              "weapons": [],
-              "chars": [
-                1,
-                4,
-                5
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 19,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "id": 189,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "id": 164,
-                  "order": 3
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 5,
-              "equip": [],
-              "name": "DRAGON LORD",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "IRREGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 65,
-                  "order": 1
-                },
-                {
-                  "id": 72,
-                  "order": 2
-                },
-                {
-                  "id": 211,
-                  "order": 3
-                },
-                {
-                  "id": 9,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 6
-        }
-      ],
-      "options": [],
-      "slug": "dragon-lords-imperial-service-judges",
-      "filters": {
-        "categories": [
-          6
-        ],
-        "skills": [
-          19,
-          164,
-          189
-        ],
-        "equip": [],
-        "chars": [
-          1,
-          4,
-          5
-        ],
-        "types": [
-          1
-        ],
-        "weapons": [
-          9,
-          65,
-          72,
-          211
-        ],
-        "ammunition": [
-          2,
-          29,
-          30
-        ]
-      },
-      "factions": [
-        202
       ]
     },
     {
@@ -5099,6 +4959,146 @@
       },
       "factions": [
         201,
+        202
+      ]
+    },
+    {
+      "id": 1868,
+      "idArmy": 1868,
+      "canonical": 202,
+      "isc": "Dragon Lords, Imperial Service Judges",
+      "iscAbbr": null,
+      "name": "DRAGON LORDS, Imperial Service Judges",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Dragon Lords, Imperial Service Judges",
+          "profiles": [
+            {
+              "bts": 0,
+              "cc": 18,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 1,
+              "ava": 1,
+              "str": false,
+              "bs": 10,
+              "s": 2,
+              "equip": [],
+              "w": 1,
+              "ph": 10,
+              "name": "DRAGON LORDS, Imperial Service Judges",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/dragon-lords-imperial-service-judges-1-1.svg",
+              "id": 1,
+              "arm": 0,
+              "weapons": [],
+              "chars": [
+                1,
+                4,
+                5
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 19,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 189,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "id": 164,
+                  "order": 3
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 5,
+              "equip": [],
+              "name": "DRAGON LORD",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "IRREGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 65,
+                  "order": 1
+                },
+                {
+                  "id": 72,
+                  "order": 2
+                },
+                {
+                  "id": 211,
+                  "order": 3
+                },
+                {
+                  "id": 9,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 6
+        }
+      ],
+      "options": [],
+      "slug": "dragon-lords-imperial-service-judges",
+      "filters": {
+        "categories": [
+          6
+        ],
+        "skills": [
+          19,
+          164,
+          189
+        ],
+        "equip": [],
+        "chars": [
+          1,
+          4,
+          5
+        ],
+        "types": [
+          1
+        ],
+        "weapons": [
+          9,
+          65,
+          72,
+          211
+        ],
+        "ammunition": [
+          2,
+          29,
+          30
+        ]
+      },
+      "factions": [
         202
       ]
     },
@@ -10738,12 +10738,12 @@
           226
         ],
         "ammunition": [
+          null,
           2,
           3,
           13,
           14,
-          37,
-          null
+          37
         ]
       },
       "factions": [
@@ -15064,7 +15064,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 99
+                  "id": 94
                 }
               ]
             },
@@ -15119,7 +15119,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 99
+                  "id": 94
                 }
               ]
             },
@@ -15174,7 +15174,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 99
+                  "id": 94
                 }
               ]
             },
@@ -15233,7 +15233,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 99
+                  "id": 94
                 }
               ]
             }
@@ -18407,7 +18407,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 100
+                  "id": 95
                 }
               ]
             },
@@ -18471,7 +18471,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 100,
+                  "id": 95,
                   "q": 2
                 }
               ]
@@ -19778,7 +19778,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 99
+                  "id": 94
                 }
               ]
             },
@@ -19830,7 +19830,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 99
+                  "id": 94
                 }
               ]
             },
@@ -19886,7 +19886,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 99
+                  "id": 94
                 }
               ]
             }
@@ -25174,7 +25174,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 101
+                  "id": 96
                 }
               ]
             }
@@ -25609,25 +25609,25 @@
   "filters": {
     "peripheral": [
       {
-        "id": 101,
+        "id": 96,
         "name": "BÂTARD",
         "mercs": true
       },
       {
-        "id": 98,
+        "id": 93,
         "name": "DEVABOT"
       },
       {
-        "id": 100,
+        "id": 95,
         "name": "JACKBOT",
         "mercs": true
       },
       {
-        "id": 97,
+        "id": 92,
         "name": "SHÀNGDIÀO"
       },
       {
-        "id": 99,
+        "id": 94,
         "name": "TURTLEMEK",
         "mercs": true
       }
@@ -26166,7 +26166,8 @@
       {
         "id": 246,
         "name": "Bangbomb",
-        "type": "WEAPON"
+        "type": "WEAPON",
+        "wiki": "https://infinitythewiki.com/Bangbomb?version=n4"
       },
       {
         "id": 184,
@@ -26639,7 +26640,8 @@
       },
       {
         "id": 261,
-        "name": "FT Master"
+        "name": "FT Master",
+        "wiki": "https://infinitythewiki.com/FT_Master?version=n4"
       },
       {
         "id": 262,
@@ -26647,23 +26649,28 @@
       },
       {
         "id": 264,
-        "name": "No Cover"
+        "name": "No Cover",
+        "wiki": "https://infinitythewiki.com/No_Cover?version=n4"
       },
       {
         "id": 265,
-        "name": "Aerial"
+        "name": "Aerial",
+        "wiki": "https://infinitythewiki.com/Aerial?version=n4"
       },
       {
         "id": 267,
-        "name": "Warhorse"
+        "name": "Warhorse",
+        "wiki": "https://infinitythewiki.com/Warhorse?version=n4"
       },
       {
         "id": 268,
-        "name": "Limited Cover"
+        "name": "Limited Cover",
+        "wiki": "https://infinitythewiki.com/Limited_Cover?version=n4"
       },
       {
         "id": 270,
-        "name": "TAGCom"
+        "name": "TAGCom",
+        "wiki": "https://infinitythewiki.com/TAGCom?version=n4"
       },
       {
         "id": 1000,
@@ -26736,12 +26743,14 @@
       {
         "id": 226,
         "name": "Armed Turret",
-        "type": "BS"
+        "type": "BS",
+        "wiki": "https://infinitythewiki.com/Armed_Turret?version=n4"
       },
       {
         "id": 219,
         "name": "Armed Turret (AP Rifle)",
         "type": "BS",
+        "wiki": "https://infinitythewiki.com/Armed_Turret?version=n4",
         "mercs": true
       },
       {
@@ -27669,16 +27678,6 @@
       "category": 4
     },
     {
-      "id": 1868,
-      "isc": "Dragon Lords, Imperial Service Judges",
-      "idArmy": 1868,
-      "name": "DRAGON LORDS, Imperial Service Judges",
-      "slug": "dragon-lords-imperial-service-judges",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/dragon-lords-imperial-service-judges-1-1.svg",
-      "type": 1,
-      "category": 6
-    },
-    {
       "id": 143,
       "isc": "Sun Tze",
       "idArmy": 20,
@@ -27687,6 +27686,16 @@
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/sun-tze-1-1.svg",
       "type": 3,
       "category": 10
+    },
+    {
+      "id": 1868,
+      "isc": "Dragon Lords, Imperial Service Judges",
+      "idArmy": 1868,
+      "name": "DRAGON LORDS, Imperial Service Judges",
+      "slug": "dragon-lords-imperial-service-judges",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/dragon-lords-imperial-service-judges-1-1.svg",
+      "type": 1,
+      "category": 6
     },
     {
       "id": 1871,

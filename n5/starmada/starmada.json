@@ -1,5 +1,5 @@
 {
-  "version": "7.2594.423",
+  "version": "7.25125.348",
   "units": [
     {
       "id": 1462,
@@ -2330,7 +2330,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 106
+                  "id": 46
                 }
               ]
             },
@@ -2511,7 +2511,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 106
+                  "id": 46
                 }
               ]
             }
@@ -5289,7 +5289,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 106
+                  "id": 46
                 }
               ]
             },
@@ -5391,7 +5391,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 106
+                  "id": 46
                 }
               ]
             },
@@ -5447,7 +5447,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 106,
+                  "id": 46,
                   "q": 2
                 }
               ]
@@ -5504,7 +5504,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 106,
+                  "id": 46,
                   "q": 2
                 }
               ]
@@ -5773,7 +5773,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 107
+                  "id": 47
                 }
               ]
             },
@@ -5830,7 +5830,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 107
+                  "id": 47
                 }
               ]
             },
@@ -5889,7 +5889,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 107
+                  "id": 47
                 }
               ]
             },
@@ -5934,7 +5934,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 107
+                  "id": 47
                 }
               ]
             }
@@ -6913,7 +6913,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 108
+                  "id": 48
                 }
               ]
             },
@@ -6970,7 +6970,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 108
+                  "id": 48
                 }
               ]
             }
@@ -7824,12 +7824,12 @@
           226
         ],
         "ammunition": [
+          null,
           2,
           3,
           13,
           14,
-          37,
-          null
+          37
         ]
       },
       "factions": [
@@ -8360,13 +8360,13 @@
           226
         ],
         "ammunition": [
+          null,
           2,
           3,
           8,
           9,
           14,
-          37,
-          null
+          37
         ]
       },
       "factions": [
@@ -11958,13 +11958,13 @@
           226
         ],
         "ammunition": [
+          null,
           2,
           3,
           13,
           14,
           29,
-          37,
-          null
+          37
         ]
       },
       "factions": [
@@ -14274,7 +14274,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 109
+                  "id": 49
                 }
               ]
             },
@@ -14329,7 +14329,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 109
+                  "id": 49
                 }
               ]
             },
@@ -14384,7 +14384,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 109
+                  "id": 49
                 }
               ]
             },
@@ -14443,7 +14443,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 109
+                  "id": 49
                 }
               ]
             }
@@ -17425,7 +17425,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 110
+                  "id": 50
                 }
               ]
             },
@@ -17489,7 +17489,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 110,
+                  "id": 50,
                   "q": 2
                 }
               ]
@@ -18796,7 +18796,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 109
+                  "id": 49
                 }
               ]
             },
@@ -18848,7 +18848,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 109
+                  "id": 49
                 }
               ]
             },
@@ -18904,7 +18904,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 109
+                  "id": 49
                 }
               ]
             }
@@ -24640,7 +24640,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 111
+                  "id": 51
                 }
               ]
             }
@@ -25075,30 +25075,30 @@
   "filters": {
     "peripheral": [
       {
-        "id": 111,
+        "id": 51,
         "name": "BÂTARD",
         "mercs": true
       },
       {
-        "id": 107,
+        "id": 47,
         "name": "DEVABOT"
       },
       {
-        "id": 110,
+        "id": 50,
         "name": "JACKBOT",
         "mercs": true
       },
       {
-        "id": 106,
+        "id": 46,
         "name": "SIDEBOT"
       },
       {
-        "id": 109,
+        "id": 49,
         "name": "TURTLEMEK",
         "mercs": true
       },
       {
-        "id": 108,
+        "id": 48,
         "name": "ZETBOT"
       }
     ],
@@ -25610,7 +25610,8 @@
       {
         "id": 246,
         "name": "Bangbomb",
-        "type": "WEAPON"
+        "type": "WEAPON",
+        "wiki": "https://infinitythewiki.com/Bangbomb?version=n4"
       },
       {
         "id": 184,
@@ -26080,6 +26081,7 @@
       {
         "id": 261,
         "name": "FT Master",
+        "wiki": "https://infinitythewiki.com/FT_Master?version=n4",
         "mercs": true
       },
       {
@@ -26088,15 +26090,18 @@
       },
       {
         "id": 264,
-        "name": "No Cover"
+        "name": "No Cover",
+        "wiki": "https://infinitythewiki.com/No_Cover?version=n4"
       },
       {
         "id": 267,
-        "name": "Warhorse"
+        "name": "Warhorse",
+        "wiki": "https://infinitythewiki.com/Warhorse?version=n4"
       },
       {
         "id": 268,
-        "name": "Limited Cover"
+        "name": "Limited Cover",
+        "wiki": "https://infinitythewiki.com/Limited_Cover?version=n4"
       },
       {
         "id": 1000,
@@ -26169,12 +26174,14 @@
       {
         "id": 226,
         "name": "Armed Turret",
-        "type": "BS"
+        "type": "BS",
+        "wiki": "https://infinitythewiki.com/Armed_Turret?version=n4"
       },
       {
         "id": 219,
         "name": "Armed Turret (AP Rifle)",
         "type": "BS",
+        "wiki": "https://infinitythewiki.com/Armed_Turret?version=n4",
         "mercs": true
       },
       {

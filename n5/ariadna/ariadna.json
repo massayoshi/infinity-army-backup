@@ -1,5 +1,5 @@
 {
-  "version": "7.2593.393",
+  "version": "7.25125.349",
   "units": [
     {
       "id": 263,
@@ -5136,7 +5136,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 1,
+                  "id": 96,
                   "q": 3
                 }
               ]
@@ -6361,7 +6361,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 2
+                  "id": 97
                 }
               ]
             },
@@ -6836,7 +6836,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 3
+                  "id": 98
                 }
               ]
             },
@@ -6892,7 +6892,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 3
+                  "id": 98
                 }
               ]
             }
@@ -16805,7 +16805,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 4
+                  "id": 99
                 }
               ]
             },
@@ -16860,7 +16860,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 4
+                  "id": 99
                 }
               ]
             },
@@ -16915,7 +16915,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 4
+                  "id": 99
                 }
               ]
             },
@@ -16974,7 +16974,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 4
+                  "id": 99
                 }
               ]
             }
@@ -17658,6 +17658,11 @@
               "disabled": true,
               "orders": [
                 {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
                   "type": "TACTICAL",
                   "list": 1,
                   "total": 1
@@ -17666,17 +17671,14 @@
               "id": 2,
               "weapons": [
                 {
-                  "extra": null,
                   "id": 74,
                   "order": 1
                 },
                 {
-                  "extra": null,
                   "id": 212,
                   "order": 2
                 },
                 {
-                  "extra": null,
                   "id": 5,
                   "order": 3
                 }
@@ -20146,7 +20148,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 5
+                  "id": 100
                 }
               ]
             },
@@ -20210,7 +20212,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 5,
+                  "id": 100,
                   "q": 2
                 }
               ]
@@ -21517,7 +21519,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 4
+                  "id": 99
                 }
               ]
             },
@@ -21569,7 +21571,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 4
+                  "id": 99
                 }
               ]
             },
@@ -21625,7 +21627,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 4
+                  "id": 99
                 }
               ]
             }
@@ -27183,7 +27185,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 6
+                  "id": 101
                 }
               ]
             }
@@ -27618,29 +27620,29 @@
   "filters": {
     "peripheral": [
       {
-        "id": 1,
+        "id": 96,
         "name": "ANTIPODE"
       },
       {
-        "id": 6,
+        "id": 101,
         "name": "BÂTARD",
         "mercs": true
       },
       {
-        "id": 5,
+        "id": 100,
         "name": "JACKBOT",
         "mercs": true
       },
       {
-        "id": 2,
+        "id": 97,
         "name": "K-9 ANTIPODE"
       },
       {
-        "id": 3,
+        "id": 98,
         "name": "RB-235 SAMODELKIN"
       },
       {
-        "id": 4,
+        "id": 99,
         "name": "TURTLEMEK",
         "mercs": true
       }
@@ -28161,6 +28163,7 @@
         "id": 246,
         "name": "Bangbomb",
         "type": "WEAPON",
+        "wiki": "https://infinitythewiki.com/Bangbomb?version=n4",
         "mercs": true
       },
       {
@@ -28617,6 +28620,7 @@
       {
         "id": 261,
         "name": "FT Master",
+        "wiki": "https://infinitythewiki.com/FT_Master?version=n4",
         "mercs": true
       },
       {
@@ -28625,23 +28629,28 @@
       },
       {
         "id": 264,
-        "name": "No Cover"
+        "name": "No Cover",
+        "wiki": "https://infinitythewiki.com/No_Cover?version=n4"
       },
       {
         "id": 267,
-        "name": "Warhorse"
+        "name": "Warhorse",
+        "wiki": "https://infinitythewiki.com/Warhorse?version=n4"
       },
       {
         "id": 268,
-        "name": "Limited Cover"
+        "name": "Limited Cover",
+        "wiki": "https://infinitythewiki.com/Limited_Cover?version=n4"
       },
       {
         "id": 270,
-        "name": "TAGCom"
+        "name": "TAGCom",
+        "wiki": "https://infinitythewiki.com/TAGCom?version=n4"
       },
       {
         "id": 271,
-        "name": "Climb"
+        "name": "Climb",
+        "wiki": "https://infinitythewiki.com/Climb?version=n4"
       },
       {
         "id": 1000,
@@ -28730,7 +28739,8 @@
       {
         "id": 222,
         "name": "Armed Turret (Rifle)",
-        "type": "BS"
+        "type": "BS",
+        "wiki": "https://infinitythewiki.com/Armed_Turret?version=n4"
       },
       {
         "id": 70,

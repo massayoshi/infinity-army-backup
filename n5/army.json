@@ -956,11 +956,12 @@
       "id": 226,
       "type": "WEAPON",
       "name": "Armed Turret",
+      "wiki": "https://infinitythewiki.com/Armed_Turret?version=n4",
+      "ammunition": null,
       "burst": "-",
       "damage": "-",
-      "profile": "CC=5, BS=10, ARM=2, BTS=3, STR=1, S=2, Equip: 360 Visor, Skills: Total Reaction, CCW: PARA CC Weapon (-3)",
       "saving": "-",
-      "savingNum": "-",
+      "savingNum": "1",
       "properties": [],
       "distance": null
     },
@@ -969,6 +970,7 @@
       "type": "WEAPON",
       "name": "Armed Turret",
       "mode": "Adhesive Launcher Rifle",
+      "wiki": "https://infinitythewiki.com/Armed_Turret?version=n4",
       "ammunition": 37,
       "burst": "2",
       "damage": "-",
@@ -1001,6 +1003,7 @@
       "type": "WEAPON",
       "name": "Armed Turret",
       "mode": "AP Rifle",
+      "wiki": "https://infinitythewiki.com/Armed_Turret?version=n4",
       "ammunition": 3,
       "burst": "3",
       "damage": "7",
@@ -1033,6 +1036,7 @@
       "type": "WEAPON",
       "name": "Armed Turret",
       "mode": "Combi Rifle",
+      "wiki": "https://infinitythewiki.com/Armed_Turret?version=n4",
       "ammunition": 2,
       "burst": "3",
       "damage": "7",
@@ -1042,13 +1046,14 @@
         "Suppressive Fire"
       ],
       "distance": {
-        "med": {
-          "max": 80,
-          "mod": "-3"
-        },
         "short": {
           "max": 40,
           "mod": "+3"
+        },
+        "max": null,
+        "med": {
+          "max": 80,
+          "mod": "-3"
         },
         "long": {
           "max": 120,
@@ -1061,11 +1066,12 @@
       "type": "WEAPON",
       "name": "Armed Turret",
       "mode": "E/Mitter",
+      "wiki": "https://infinitythewiki.com/Armed_Turret?version=n4",
       "ammunition": 14,
       "burst": "2",
       "damage": "7",
       "saving": "BTS/2",
-      "savingNum": "2",
+      "savingNum": "1",
       "properties": [
         "Non-lethal",
         "[**]"
@@ -1094,6 +1100,7 @@
       "type": "WEAPON",
       "name": "Armed Turret",
       "mode": "Marksman Rifle",
+      "wiki": "https://infinitythewiki.com/Armed_Turret?version=n4",
       "ammunition": 2,
       "burst": "3",
       "damage": "7",
@@ -1126,6 +1133,7 @@
       "type": "WEAPON",
       "name": "Armed Turret",
       "mode": "Mk12",
+      "wiki": "https://infinitythewiki.com/Armed_Turret?version=n4",
       "ammunition": 2,
       "burst": "3",
       "damage": "5",
@@ -1158,6 +1166,7 @@
       "type": "WEAPON",
       "name": "Armed Turret",
       "mode": "PARA CC Weapon",
+      "wiki": "https://infinitythewiki.com/Armed_Turret?version=n4",
       "ammunition": 37,
       "burst": "1",
       "damage": "-",
@@ -1174,6 +1183,7 @@
       "type": "WEAPON",
       "name": "Armed Turret",
       "mode": "Rifle",
+      "wiki": "https://infinitythewiki.com/Armed_Turret?version=n4",
       "ammunition": 2,
       "burst": "3",
       "damage": "7",
@@ -1206,6 +1216,7 @@
       "type": "WEAPON",
       "name": "Armed Turret",
       "mode": "Thunderbolt",
+      "wiki": "https://infinitythewiki.com/Armed_Turret?version=n4",
       "ammunition": 2,
       "burst": "2",
       "damage": "6",
@@ -5814,7 +5825,8 @@
     },
     {
       "id": 261,
-      "name": "FT Master"
+      "name": "FT Master",
+      "wiki": "https://infinitythewiki.com/FT_Master?version=n4"
     },
     {
       "id": 262,
@@ -5822,27 +5834,33 @@
     },
     {
       "id": 263,
-      "name": "Jump"
+      "name": "Jump",
+      "wiki": "https://infinitythewiki.com/Jump?version=n4"
     },
     {
       "id": 264,
-      "name": "No Cover"
+      "name": "No Cover",
+      "wiki": "https://infinitythewiki.com/No_Cover?version=n4"
     },
     {
       "id": 265,
-      "name": "Aerial"
+      "name": "Aerial",
+      "wiki": "https://infinitythewiki.com/Aerial?version=n4"
     },
     {
       "id": 266,
-      "name": "Bangbomb"
+      "name": "Bangbomb",
+      "wiki": "https://infinitythewiki.com/Bangbomb?version=n4"
     },
     {
       "id": 267,
-      "name": "Warhorse"
+      "name": "Warhorse",
+      "wiki": "https://infinitythewiki.com/Warhorse?version=n4"
     },
     {
       "id": 268,
-      "name": "Limited Cover"
+      "name": "Limited Cover",
+      "wiki": "https://infinitythewiki.com/Limited_Cover?version=n4"
     },
     {
       "id": 269,
@@ -5850,11 +5868,13 @@
     },
     {
       "id": 270,
-      "name": "TAGCom"
+      "name": "TAGCom",
+      "wiki": "https://infinitythewiki.com/TAGCom?version=n4"
     },
     {
       "id": 271,
-      "name": "Climb"
+      "name": "Climb",
+      "wiki": "https://infinitythewiki.com/Climb?version=n4"
     },
     {
       "id": 1000,
@@ -6044,7 +6064,8 @@
     },
     {
       "id": 246,
-      "name": "Bangbomb"
+      "name": "Bangbomb",
+      "wiki": "https://infinitythewiki.com/Bangbomb?version=n4"
     },
     {
       "id": 247,
