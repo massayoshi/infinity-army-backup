@@ -1,0 +1,73 @@
+{{n5-section-special-skills}}
+
+
+Troopers with this Special Skill have an extraordinary innate or artificial capacity to withstand specific types of damage. There are several Immunities categories.
+
+{{css_skillbox |black| IMMUNITY | AUTOMATIC SKILL }}
+{{skill-label | Obligatory }}
+{{requirements}}
+This Special Skill is activated when one of the following Requirements is met:
+* The Trooper must make a [[Saving Roll]].
+* The Trooper is affected by the [[State]] indicated in their Immunity.
+
+{{effects}}
+This Special Skill has different categories shown between brackets in the [[Unit Profile | Unit's Profile]], which indicates to which type of [[Ammunition]] or Effect it is applied. The most common are:
+* '''Immunity (Trait):''' The Trooper ignores the special effects of the listed [[Traits | Trait]].
+* '''Immunity (Ammunition):''' The [[Ammunition]] listed between brackets is treated as [[Normal (N) Ammunition]]. Its special effects, and any MODs to the Attribute and number of the [[Saving Roll]]s are ignored.
+* '''Immunity (ARM):''' Any Ammunition that requires a Saving Roll using the ARM Attribute is treated as Normal (N) Ammunition. Its special effects, and any MODs to the Attribute and number of the Saving Rolls are ignored. <br>If the Weapon, Skill, or piece of Equipment used in the Attack has Traits, the Trooper is completely immune to any of those Traits that cause States, refer to inflicting [[Wounds]], or reduce the [[Attribute]]s of the target. For example, [[State Trait | State:]] [[Dead]], [[Continuous Damage]], or ARM=0.
+* '''Immunity (BTS):''' Any Ammunition that requires a Saving Roll using the BTS Attribute is treated as Normal (N) Ammunition. Its special effects, and any MODs to the Attribute and number of the Saving Rolls are ignored. <br>If the Weapon, Skill, or piece of Equipment used in the Attack has Traits, the Trooper is completely immune to any of those Traits that cause States, refer to inflicting Wounds, or reduce the Attributes of the target. For example, State: Dead, Continuous Damage, or BTS=0.
+* '''Immunity (Enhanced):''' A Trooper with this Special Skill has both Immunity (ARM) and Immunity (BTS).
+* '''Immunity (State):''' the Trooper is completely immune to any [[Comms Attack]] effect or special rule effect that causes the listed [[State]], for example [[Possessed]] (POS). The Trooper cannot enter that State.
+* '''Immunity (Critical):''' The Trooper will not make the additional Saving Roll caused by [[Critical]] hits.
+{{css_skillbox-end}}
+
+
+{{important-start}}
+This Special Skill does not apply against [[Comms Attacks]], with the sole exception of Immunity (State).
+
+Also, Immunity does not apply against the [[Non-Lethal]] and [[State Trait | State:]] [[Stunned]] Traits, which are always applied. 
+{{important-end}}
+
+
+== Immunity and Critical Hits ==
+If a Trooper suffers a [[Critical]] hit with the [[Ammunition]], effect, [[Attribute]], [[State]], etc. which it is immune to, unless they have Immunity (Critical), they will have to make the additional [[Saving Roll]], but ignoring any Special Effects of the Ammunition, since it is treated as [[Normal (N) Ammunition]].
+
+
+{{see-also}}
+'''[[Vulnerability]]'''
+A Trooper with [[Immunity]] (Enhanced) and Vulnerability (Viral) cannot apply the effects of Immunity (Enhanced) (treating all Ammunition types as Normal Ammunition and ignoring their special effects) to any weapon with "Viral" in its name.
+{{see-also-end}}
+
+
+{{greybox-start | Immunity Examples}}
+'''Example 1'''<br>
+A Trooper with Immunity (ARM) is hit by a Missile Launcher. Thanks to their Immunity (ARM), instead of making three [[Saving Roll]]s due to the [[EXP]] Ammunition, they only have to make one Saving Roll using their [[ARM]] Attribute, since the hit is treated as being made with Normal Ammunition.
+
+'''Example 2'''<br>
+A Trooper with Immunity (ARM) is hit with a Monofilament CC Weapon.  Thanks to their Immunity (ARM), they only make one Saving Roll, ignoring the Weapon's ARM=0 and [[State Trait | State:]] [[Dead]] Traits, so they do not reduce their ARM to 0 and the Dead State is not applied if the Saving Roll is failed.
+
+If the impact is a [[Critical]], the Trooper makes two Saving Rolls, ignoring the Weapon's ARM=0 and State: Dead Traits.
+
+'''Example 3'''<br>
+A Trooper with Immunity (Enhanced) suffers an impact from a Plasma Rifle. We must remember that Immunity (Enhanced) avoids the special effects of any ammunition, treating it as Normal Ammunition.
+
+Plasma weapons use Normal Ammunition, but their Saving Roll is [[ARM]]+[[BTS]], so the Trooper with Immunity (Enhanced) must make a Saving Roll against ARM and also a Saving Roll against BTS.
+
+{{see-also-start}}
+'''[[Combined Saving Roll]]'''
+{{see-also-end}}
+
+
+'''Example 4'''<br>
+A Trooper with Immunity (BTS) is hit by a Flash Pulse. Thanks to their Immunity (BTS), the hit is treated as being made with Normal Ammunition. However, the [[Non-Lethal]] Trait of the Weapon, indicating that it does '''not''' inflict [[Wounds]], is applied. In addition, the [[State Trait | State:]] [[Stunned]] Trait is applied if the Trooper fails their Saving Roll.  
+{{greybox-end}}
+
+
+
+{{n5-section-special-skills}}
+
+
+[[Category:Special Skills]]
+
+<!-- Label and Trait categories. -->
+[[Category: Obligatory ]]

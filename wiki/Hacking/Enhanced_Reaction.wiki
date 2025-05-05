@@ -1,49 +1,38 @@
-{{section-hacking}}
+{{n5-section-hacking}}
 
-
-{{n4only}}
-{{n4list}}
 
 {{image | name=sup-enhanced_reaction0.jpg | style=128 }} 
 
-{{skillbox |red| ENHANCED REACTION | ENTIRE ORDER }}
-{{skill-label | Supportware, No Roll. }}
+{{css_skillbox |red| ENHANCED REACTION | LONG SKILL }}
+{{skill-label | Supportware, No Roll.  }}
+
 {{requirements}}
-* The target must be a [[REM]] from the same Army List as the user, and must be inside the user's [[Hacking Area]] .
+* The target must be a [[REM]] from the same [[Army List]] as the user and must be inside the user's [[Hacking Area]].
 {{effects}}
-* Enhanced Reaction grants the target REM a [[Burst]] value of 2 in ARO.
+* Enhanced Reaction grants the target REM a [[Burst]] value of 2 in [[ARO]].
 * When the user activates this Program, which does not require a Roll, place a Supportware Enhanced Reaction Token (Sup: Enhanced Reaction) beside the user, and beside the REM.
 * Once activated, this Program's range covers the entire game table.
+{{css_skillbox-end}}
 
 
-{{n4-hacking-header}}
-{{hackingrow | [[Enhanced Reaction]] | -- | -- | -- | -- | REM | Entire Order | Target gains B2 in ARO.}}
+{| class="n5table-dark
+|-
+! Name !! Attack MOD !! Opp. MOD !! PS !! Burst !! Target !! Skill Type !! Special
+|- 
+| [[Enhanced Reaction]] || -- || -- || -- || -- || REM || Long Skill || Target gains [[B]]2 in [[ARO]].
 |}
 
 
-{{remember-start}}
-{{update | PDF 2.1, July 2023}}
-* {{erratahighlight}}A Supportware Program is automatically cancelled if the target of the Supportware is targeted by a new Supportware Program, or if the Hacker running the Program enters [[Isolated]] State or any [[Null]] States.{{erratahighlight-end}}
-{{update-end}}
-{{original}}
-* {{originalhighlight}}[[Labels|Supportware]] is automatically cancelled if the [[Trooper]] or [[Troop Type]] that benefits from the Supportware becomes targeted by a new Supportware Program, or the Hacker that is running it becomes [[Isolated]] or enters a [[Null]] State.{{originalhighlight-end}}
-{{original-end}}
-{{remember-end}}
+{{supportware}}
 
 
-== FAQs & Errata ==
 
-{{faqbox |
-type = faq |
-title = N4 FAQ |
-version = 1.3, Nov 2022 |
-q = Q: Can a Fireteam's Burst Support Bonus be combined with other Burst MODs and bonuses? For example with Enhanced Reaction in ARO? |
-a = A: Yes. For example a Remote can add the Burst Support Bonus to its Burst 2 ARO from Enhanced Reaction, giving it Burst 3 in ARO. |
-related = [[Enhanced Reaction]], [[Fireteam Bonuses]] }}
-
-{{n4end}}
-
+{{n5-section-hacking}}
 
 
 
 [[Category: Hacking]]
+
+<!-- Label and Trait categories. -->
+[[Category: Supportware ]]
+[[Category: No Roll ]]

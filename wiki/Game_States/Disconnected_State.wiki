@@ -1,55 +1,33 @@
-{{section-game-states}}
+{{n5-section-game-states}}
+
 
 {{image | name=eng-disconnected.jpg | style=128 }}
 
-{{skillbox |red| Disconnected State | NULL}}
+{{css_skillbox |red| DISCONNECTED }}
+{{skill-label | Null }}
 {{activation}}
-* The Controller of this Trooper is in a Null state. {{seefaq}}
-{{n4list}}
-* The Peripheral fails a [[Coherency]] Check.
-{{n4end}}
-* The [[Peripheral]] is subject to a successful Attack or Effect of an Ammunition, Hacking Program, condition, or Scenario Special Rule that specifies that it causes this state. 
-{{update | PDF 2.1, July 2023}}
-* {{erratahighlight}}The Peripheral is in Isolated State.{{erratahighlight-end}}
-{{update-end}}
+* The Controller of this Trooper is in [[Isolated State]] or any [[Null]] State.
+* The [[Peripheral]] fails a [[Coherency]] Check.
+* The Peripheral is subject to a successful Attack or Effect of an [[Ammunition]], [[Hacking Program]], condition, or Scenario Special Rule that specifies that it causes this state.
+* The Peripheral is in [[Isolated State]].
+
 {{effects}}
-{{update | PDF 2.1, July 2023}}
-* A Peripheral in this state '''cannot {{erratahighlight}}be activated, or declare{{erratahighlight-end}} Orders or AROs'''.
-* A Peripheral in this State does '''not''' count towards the Player's [[Victory Points]]. 
-{{update-end}}
-{{original}}
-* A Peripheral in this state '''cannot {{originalhighlight}}execute{{originalhighlight-end}} Orders or AROs'''.
-* A Peripheral in this State does '''not''' count towards the Player's [[Victory Points]]. 
-{{original-end}}
+* '''Restriction:''' The Peripheral cannot be activated or declare [[Trooper Activation | Orders]] or [[ARO]]s.
+* Automatic Special Skills and Automatic Equipment have no effect while in this state, with the exception of the Peripheral Special Skill. 
+* '''Restriction:''' The Peripheral does not count towards the Player's [[Victory Points]].
+
 {{cancellation}}
-* This state is automatically cancelled if the Controller of this Peripheral recovers from the [[Null]] state which caused the activation of the Disconnected State.
-* If this State was caused by an Attack, a piece of scenery, or a Scenario Special Rule applied to this Trooper, then  a Trooper with the '''[[Engineer]]''' Special Skill (or an equivalent Skill) may cancel this State by spending one Short Skill of an Order while in [[Silhouette contact]] with the affected Trooper, and passing a Normal '''[[WIP]]''' Roll (or the Roll specified by the Special Skill or Scenario).
-{{n4list}}
-* If this State was caused by failing a [[Coherency]] Check, it is automatically cancelled by passing a Coherency Check at the end of an Order or ARO.
-{{n4end}}
+* This state is automatically canceled if the Controller of this Peripheral recovers from the [[Isolated State]] or [[Null]] State which activated the Disconnected State.
+* If this state was caused by an Attack, a piece of scenery, or a Scenario Special Rule applied to this Trooper, then a Trooper with the [[Engineer]] Special Skill (or an equivalent Skill) may cancel this state by spending one Short Skill of an Order while in [[Silhouette contact]] with the affected Trooper, and passing a [[Normal]] [[WIP]] Roll (or the Roll specified by the Special Skill or Scenario).
+* If this state was caused by failing a [[Coherency]] Check, it is automatically canceled by passing a Coherency Check at the end of an [[Trooper Activation | Order]] or [[ARO]].
+{{css_skillbox-end}}
 
 
-== FAQs & Errata ==
 
-{{n4}}
-{{faqbox |
-type = faq |
-title = N4 FAQ |
-version = 1.3, Nov 2022 |
-q = Q: What happens if a Peripheral or their Controller enters Isolated State? |
-a = A: The Peripheral will enter Disconnected State at the end of that Order. If the Peripheral's or Controller's Isolated State is cancelled, this will also cancel the Peripheral's Disconnected State. |
-related = [[Disconnected State]], [[Isolated State]], [[Peripheral]] }}
-{{n4end}}
-
-
-{{faqbox |
-type = faq |
-title = N4 FAQ |
-version = 1.3, Nov 2022 |
-q = Q: Do Peripherals in Disconnected State still activate with their Controller? |
-a = A: No. A Peripheral in this State cannot be activated, or declare Orders or AROs. |
-related = [[Disconnected State]], [[Peripheral]] }}
-
+{{n5-section-game-states}}
 
 
 [[Category: Game States]]
+
+<!-- Label and Trait categories. -->
+[[Category: Null ]]

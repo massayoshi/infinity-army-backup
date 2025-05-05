@@ -1,71 +1,57 @@
 {{section-main-sections}}
-{{Section-basic-rules}}
+{{n5-section-basic-rules}}
 
 
-The basic rules are one of the pillars of the general game mechanics; these are the rules all players must know in order to play. This chapter creates the game engine that establishes Infinity as an excellent modern tactical combat simulator.
+These basic rules are one of the pillars of the general game mechanics; these are the rules all players must know in order to play. This chapter creates the game engine that establishes Infinity as an excellent modern tactical combat simulator.
 
-Basic Rules establish the characteristics of Infinity Troopers and the way in which they behave inside the game environment. They also determine how to create combat forces and the rules needed to begin playing, as well as the game structure. The fundamental section of this chapter is the explanation of the Orders system, the central core of the game model that players will be using constantly. It is the system that enables players to participate during the entire game, without having to stop playing at any point. 
+Basic rules establish the characteristics of Infinity Troopers and the way in which they behave inside the game environment. They also determine how to create combat forces and the rules needed to begin playing, as well as the game structure. The fundamental section of this chapter is the explanation of the Orders system, the central core of the game model that players will be using constantly. It is the system that enables players to participate during the entire game, without having to stop playing at any point.
 
 
-{{Greybox_Start | WHAT YOU NEED}}
+{{Greybox-start | WHAT YOU NEED}}
 To play Infinity you will need the following things:
 * A measuring tape of at least 48 inches.
 * Some 20-sided dice (d20).
 * Corvus Belli miniatures to represent the Troopers of both players.
-*  Scenery. At least 4 big elements and 10 small items. As it will be soon become apparent, scenery and terrain are a very important part of Infinity. 
-{{c1}}
-*  A 24 x 32 inches gaming table. Although the game can be played on surfaces of other sizes, this is the ideal gaming table size to start playing Infinity CodeOne. 
-{{c1end}}
-{{n4list}}
-* A 48 x 48-inch gaming table. Although the game can be played on smaller surfaces, this is the ideal gaming table size to player larger games of Infinity N4. 
-{{n4end}}
-* Markers, Tokens and templates. All of them are included in the Infinity CodeOne Battle Packs and are also all available for free on the Download section of the official Infinity website at [https://www.infinitytheuniverse.com www.infinitytheuniverse.com].
-{{Greybox_End}}
+* Scenery. At least 4 big elements and 10 small items. As it will be soon become apparent, scenery and terrain are a very important part of Infinity.
+* A 48 x 48-inch gaming table. Although the game can be played on smaller surfaces, this is the ideal gaming table size to player larger games of Infinity.
+* Markers, Tokens and templates. All of them available for free on the Download section of the official Infinity website at [https://www.infinitytheuniverse.com www.infinitytheuniverse.com].
+{{Greybox-end}}
 
 
 == Game Modes==
-{{c1}}During a game of Infinity CodeOne, each player will have a maximum of 10 Troopers. Depending on how familiar are you with the game, we recommend the following game modes:
+During a game of Infinity N4, depending on how familiar you are with the game, we recommend the following Game Modes:
 
-{| class="wikitable-dark"
+{| class="n5table-dark
 |-
 ! Type of Game !! Table Size !! Deployment Zone !! Army Points !! SWC !! Game Duration
-|-
-| Initial Matches || 24 x 32 inches || 8 x 24 inches || 15 || 3 || 40 min
-|-
-| Intermediate Matches || 32 x 48 inches || 8 x 32 inches || 25 || 5 || 60 min
-|-
-| Standard Matches || 48 x 48 inches || 12 x 48 inches || 30 || 6 || 90 min
+|- 
+| Beginner games || 24 x 32 inches || 8 x 24 inches || 150 || 3 || 40 min
+|- 
+| Raid games || 32 x 48 inches || 8 x 32 inches || 200 || 4 || 50 min
+|- 
+| Intermediate games || 32 x 48 inches || 8 x 32 inches || 250 || 5 || 60 min
+|- 
+| Standard games || 48 x 48 inches || 12 x 48 inches || 300 || 6 || 90 min
+|- 
+| Magnum games, and games with Reinforcements || 48 x 48 inches || 12 x 48 inches || 350 || 7 || 100 min
+|- 
+| Large-scale games || 48 x 48 inches || 12 x 48 inches || 400 || 8 || 120 min
 |}
-{{c1end}}
-
-{{n4}}During a game of Infinity N4, depending on how familiar you are with the game, we recommend the following Game Modes:
-
-{| class="wikitable-dark"
-|-
-! Type of Game !! Table Size !! Deployment Zone !! Army Points !! SWC !! Game Duration
-|-
-| Initial Matches || 24 x 32 inches || 8 x 24 inches || 150 || 3 || 40 min
-|-
-| Raid Matches || 32 x 48 inches || 8 x 32 inches || 200 || 4 || 50 min
-|-
-| Intermediate Matches || 32 x 48 inches || 8 x 32 inches || 250 || 5 || 60 min
-|-
-| Standard Matches || 48 x 48 inches || 12 x 48 inches || 300 || 6 || 90 min
-|-
-| Large Matches || 48 x 48 inches || 12 x 48 inches || 400 || 8 || 120 min
-|}
-{{n4end}}
 
 
 == Game Elements: Terminology and Alignment ==
 
-This rules set uses precise terminology throughout to refer to key elements of the game that players have at their disposal. 
+This rules set uses precise terminology throughout to refer to key elements of the game that players have at their disposal.
 
 You can find all Infinity [[Terminology]] and [[Alignment]] in the [[Glossary]].
 
+{{advice-start}}
+I'll give you the definitions of Troopers and Peripherals, because they are the main terms that you will find mentioned in the rules.
 
-== [[Open and Private Information]] ==
-Information in an Infinity game can be either Open or Private. [[Open and Private Information | [read more...] ]]
+'''Trooper.''' Game element with Attributes which belongs to the Army List of any player, '''able to contribute and spend Orders''', as well as declaring and receiving Attacks.
+
+{{image | name=eng-peripheral-256.png | style= 2eminline }} '''Peripheral. Special''' category of Trooper that is '''unable to contribute or spend Orders by itself''' and, therefore, takes no space in the Army List. It is activated when its Controller, the Trooper on which it depends, spends an Order, replicating their actions. 
+{{advice-end}}
 
 
 == Labels and Traits in Infinity ==
@@ -76,99 +62,40 @@ The function of Labels and Traits is to quickly indicate details and to group co
 
 === [[Traits]] ===
 Most weapons and Equipment have special features, called [[Traits]]. 
+
 Traits usually relate to Common Skills or Special Skills, or to specific effects that make these items special. Some of them are self-explanatory. You can find all Infinity Traits in the [[Glossary]].
 
 
-== Basic Concepts in Infinity ==
-=== [[Armies]] ===
+== Armies ==
 In Infinity there are several Factions that represent the different Armies of the Human Sphere and the alien forces of the Combined Army.
 
-{{c1}}
-{{image | name=eng-army-diagram-1024.jpg | style=512 }}
+{{image-caption | name=n5/factions/aleph.png | style= 128inline | caption=ALEPH }}
+{{image-caption | name=n5/factions/ariadna.png | style= 128inline | caption=Ariadna }}
+{{image-caption | name=n5/factions/combined-army.png | style= 128inline | caption=Combined Army }}
+{{image-caption | name=n5/factions/haqqislam.png | style= 128inline | caption=Haqqislam }}
+{{image-caption | name=n5/factions/nomads.png | style= 128inline | caption=Nomads }}
+{{image-caption | name=n5/factions/o-12.png | style= 128inline | caption=O-12 }}
+{{image-caption | name=n5/factions/panoceania.png | style= 128inline | caption=PanOceania }}
+{{image-caption | name=n5/factions/yu-jing.png | style= 128inline | caption=Yu Jing }}
+{{image-caption | name=n5/factions/jsa.png | style= 128inline | caption=Japanese Secessionist Army/JSA }}
+{{image-caption | name=n5/factions/tohaa.png | style= 128inline | caption=Tohaa }}
+{{image-caption | name=n5/factions/non-aligned-armies.png | style= 128inline | caption=Non-Aligned Armies/NA2 }}
 
-'''The Armies: Yu Jing | PanOceania | Combined Army | O-12'''
-{{c1end}}
-{{n4}}
-{{image | name=eng-army-diagram-n4-1024.jpg | style=512 }}
-{{n4end}}
 
-=== [[Unit Profile]] ===
-“Soldiers” in Infinity are called Troopers and are grouped into Units belonging to each Army. [[Unit Profile | [read more...] ]]
+== Game States ==
 
-
-== [[Game States]] ==
 ‘State’ is a game term for each of the altered conditions, beneficial or not, that a Trooper or game element might find itself in.
-Each state has a specific game effect, as well as individual methods of activation and cancellation. States in Infinity are cumulative, and are indicated by placing State Tokens next to an affected Trooper.
 
+Each State has a specific game effect, as well as individual methods of activation and cancellation. States in Infinity are cumulative, and are indicated by placing State Tokens next to an affected Trooper.
 
-== [[Army List]] ==
-The Army List is the list of troops that make up the combat forces the player will be using during the game. [[Army List | [read more...] ]]
+{{see-also-start}}
+The full list of [[Game States List | Game States]].
+{{see-also-end}}
 
-{{Greybox_Start | INFINITY ARMY }}
-Infinity Army is the '''free and official''' tool to create Army Lists for Infinity. This tool offers:
-* An easy and intuitive interface. The software of this application assesses the legality of each Army List the player creates, keeping in consideration the guidelines for the creation of Army Lists, both for standard games and for participating in Infinity events.
-* Infinity Army has all the updated Unit Profiles available for Infinity.
-Infinity Army is the quickest and easiest way to create Army Lists, and it is available for free on the official Infinity website: http://www.infinitytheuniverse.com
-{{Greybox_End}}
-
-
-== [[Orders and the Order Pool]] ==
-In Infinity, the capacity of an army to maneuver and take actions is measured in '''Orders'''. An Order is a game concept, a sort of currency spent '''to activate a Trooper''' so that it can take part in the battle. The higher the number of Orders at its disposal, the more an army can do. [[Orders and the Order Pool | [read more...] ]]
-
-=== [[Trooper Activation]] ===
-Players use Orders to activate Troopers and have them perform actions in the form of Skills (Move, Jump, CC Attack…). [[Trooper Activation | [read more...] ]]
-
-
-== [[Initiative and Deployment]] ==
-Before the game begins, players make a [[Face to Face]] Roll using their respective [[Lieutenant]]'''s WIP Attributes. [[Initiative and Deployment | [read more...] ]]
-
-
-== [[Game Sequence]] ==
-Infinity games are divided into Game Rounds, or Rounds, during which both players have the chance to take an active role. This means each Round is divided into two Player Turns, or Turns, one for each player. [[Game Sequence | [read more...] ]]
-
-
-{{n4}}
-== [[Loss of Lieutenant]] ==
-Despite their training and their constant connection with Mission Control, losing a team leader to enemy fire or system failure can wreak havoc on the discipline of soldiers, creating a moment of confusion in which everyone is left to their own devices, without a coordinated tactical approach. [[Loss of Lieutenant | [read more...] ]]
-{{n4end}}
-
-
-== Silhouette Templates, Line of Fire And Zone Of Control ==
-=== [[Silhouettes]] ===
-In game terms, all Troopers occupy an unvarying volume on the table. This volume is cylinder-shaped, with its width determined by the base size and its height by the type of Trooper. [[Silhouette | [read more...] ]]
-
-=== [[Line of Fire (LoF)]] ===
-In Infinity, Troopers have a Line of Fire (LoF) angle of 180º, that is, they can see with the front half of their base, as shown on the base of the miniatures. [[Line of Fire (LoF) | [read more...] ]]
-
-=== [[Zone of Control (ZoC)]] ===
-Troopers have an awareness of their surroundings. Zone of Control (ZoC) is defined as an imaginary cylinder with a radius of 8 inches from the outer edge of the Trooper's Silhouette, extending 8 inches up from the top of the Silhouette and 8 inches down from the bottom of the Silhouette.[[Zone of Control (ZoC) | [read more...] ]]
-
-=== [[Interaction Between Zones, Bases and Silhouettes]] ===
-This ruleset frequently uses terms that define the interaction between Troopers and other game elements. [[Interaction Between Zones, Bases and Silhouettes | [read more...] ]]
-
-
-{{n4}}
-== [[Coherency]] ==
-Coherency is the game mechanic which allows management of several linked troopers acting together and simultaneously in the same Order while applying a rule, Special Skill, piece of Equipment, Game State... that requires those troopers to stay in close proximity. [[Coherency | [read more...] ]]
-{{n4end}}
-
-
-== [[Distances and Measurements]] ==
-Distances in the game table are measured in inches, using a tape measure or ruler. [[Distances and Measurements | [read more...] ]]
-
-
-{{n4}}
-== [[Replacing Models and Markers]] ==
-Occasionally, during a game, it is necessary to replace a Game Element like a Trooper, or a piece of Equipment, with another Model or Marker due to a Special Skill, piece of Equipment, game condition, or scenario condition. For simplicity, these definitions always refer to the term Trooper. [[Replacing Models and Markers | [read more...] ]]
-{{n4end}}
-
-
-== [[Rolls]] ==
-Infinity uses 20-sided dice (commonly known as d20) to determine whether specific actions are successful. For example, players roll dice to find out whether their Troopers succeed in hitting their target in ranged combat, hacking into enemy systems, discovering a hidden enemy, etc. [[Rolls | [read more...] ]]
 
 
 {{section-main-sections}}
-{{Section-basic-rules}}
+{{n5-section-basic-rules}}
 
 
 

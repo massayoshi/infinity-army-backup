@@ -1,0 +1,110 @@
+{{n5-section-special-skills}}
+
+
+Game elements with this Special Skill are Models or Tokens representing pieces of Equipment or Weapons operated by telepresence or given certain autonomy by a control AI.
+
+{{css_skillbox |black| PERIPHERAL | AUTOMATIC SKILL }}
+{{skill-label | Obligatory }}
+{{effects}}
+* When creating an [[Army List]] or determining how many Troopers each Combat Group can contain, a Controller and all its Peripherals are counted as a single Trooper.
+* Peripherals are deployed on the game table at the same time as their Controller, unless a rule for that type of Peripheral says otherwise.
+* If the Controller has a Deployment Skill that allows them to deploy after the [[Deployment Phase]], but their Peripherals do not, these Peripherals are deployed during the Deployment Phase and remain in [[Disconnected State]] until their Controller is deployed on the game table and moves within the operating distance for that type of Peripheral.  
+* Peripherals are always activated with the '''same Order''' as their Controller, executing the same [[Short Skill]]s of the Order, or [[Long Skill]], although they are '''not required to have the same target'''.
+* If any of the game elements (Controller or Peripheral) does not meet the Requirements of a Skill of the Order declared by the Controller and Peripherals, then they perform an [[Idle]] instead of such Skill, while the other may act normally.
+* Each reactive Trooper must choose only one of the Troopers (be it the Controller or one of their Peripherals) activated by the Order as their target, but they are not obliged to choose the same target.
+* '''During the Reactive Turn''', both the Controller and the Peripherals gain their own separate [[ARO]]s. However, unless a specific rule says otherwise, any declared AROs must be the same for both the Controller and the Peripherals.
+* '''In Close Combat''', the rules described in [[Close Combat with Multiple Troopers]] must be applied.
+* If the Controller enters any [[Null]] State or [[Isolated State]], the Peripheral will enter '''[[Disconnected]]''' State at the end of that Order.
+* If the Peripheral enters '''[[Isolated]]''' State, it will also enter Disconnected State at the end of that Order.
+* Peripherals with a point cost in their profile count towards [[Victory Points]], Zone of Operations control, etc. Remember that the total cost of the Unit includes Peripherals and, therefore, the value of the Peripherals must be deducted to determine the itemized points of the Units.
+* If the Controller has or gains—due any scenario condition or Skill—the [[Impetuous]] Special Skill, the Controller's Peripherals are also affected.
+* '''Restriction''': Peripherals and their Controller cannot be part of a [[Coordinated Order]] nor be a member of any type of [[Fireteam]].
+* A Controller and their Peripherals always belong to the same [[Combat Group]]. If the player moves the Controller into a different Combat Group, all their Peripherals are moved as well.
+* If the player activates a [[Hacking Program]] that grants a MOD or [[State]] to the Controller (e.g. [[Cybermask]]), that MOD or State will also be applied to their Peripherals.
+* The Peripheral Special Skill remains active even when its owner is in a [[Null]] State.
+* There are different types of Peripherals, each with their own features:
+
+=== Peripheral (Servant) ===
+* Only Troopers with the [[Doctor]] or [[Engineer]] Special Skills may have Peripherals (Servant).
+* There is no limit to the operating distance between the Trooper with Peripheral (Servant) and their Controller.
+* '''Restriction''': The Controller may have a maximum of two Peripherals (Servant) under their control. In this case, they may only activate them '''one at a time''', applying the previous conditions. Meanwhile, the other Peripheral (Servant) will be inactive.
+* Peripheral (Servant) and Doctor/Engineer:
+** This Special Skill allows the Controllers, if they are Doctors or Engineers, to use their Special Skill even if they are not in [[Silhouette contact]] with the target.
+** If a Peripheral is in Silhouette contact with an allied Model, their Controller can perform the Doctor/Engineer Skill, targeting that Model.
+** In this case, by using the Doctor/Engineer Skill, the Doctor/Engineer will be the one performing the Roll, even if the Trooper in Silhouette contact with the target is the Peripheral (Servant).
+** The Doctor/Engineer Skill can only be performed on one target per Order.
+
+=== Peripheral (Synchronized) ===
+* Each Peripheral (Synchronized) must observe the [[Coherency]] rule in regard to its Controller. The player must perform a Coherency Check at the start and end of each [[Trooper Activation | Order]] or [[ARO]].
+* If a Peripheral (Synchronized) Trooper fails a Coherency Check, breaking Coherency with its Controller, it will enter [[Disconnected State]] immediately, before measuring any declared movement.
+* If the Disconnected Trooper passes a Coherency Check with its Controller, its Disconnected State is immediately cancelled.
+* If the Controller has more than one Peripheral (Synchronized) this Special Skill works the same way. In this situation, with a single Order, '''both''' '''the Controller and all their Peripherals (Synchronized) are activated'''.
+
+=== Peripheral (Control) ===
+* There is no limit to the operating distance between the Trooper with Peripheral (Control) and their Controller.
+* '''Restriction''': The Controller may have a maximum of three Peripherals (Control) under their control. These Peripherals form a Control Unit.
+* The player must designate one member of the Control Unit as the Spearhead, placing a Spearhead Token (SPEARHEAD) beside it.
+* Each Peripheral (Control) must observe the [[Coherency]] rule in regard to the Spearhead of their Control Unit. The player must perform a Coherency Check at the start and end of each [[Trooper Activation | Order]] or [[ARO]].
+* If a Peripheral (Control) Trooper fails a Coherency Check, breaking Coherency with the Spearhead of its Control Unit, it will enter [[Disconnected State]] immediately, before measuring any declared movement.
+* If the Disconnected Trooper passes a Coherency Check with the Spearhead of its Control Unit at the end of an Order or ARO, its Disconnected State is immediately cancelled.
+* Each time the Controller and Peripherals are activated with an Order, the player must designate one member of the Control Unit as that Order's Spearhead, placing a Spearhead Token (SPEARHEAD) beside it.
+* If the Spearhead enters any [[Null]] State, the player must designate a new Spearhead immediately.
+* In the Active Turn, if a Skill is declared that requires a target, only the Controller and the Spearhead perform the Skill, and the other members of the Control Unit perform an [[Idle]] instead.
+
+=== Peripheral (Ancillary) ===
+* There is no limit to the operating distance between the Trooper with Peripheral (Ancillary) and their Controller.
+* A Peripheral (Ancillary) does '''not''' deploy on the game table with their Controller. Instead, the Controller may deploy their Peripheral (Ancillary) by performing the [[Place Deployable]] Common Skill.
+* If a Peripheral (Ancillary) is on the game table and is not in [[Disconnected State]] or any [[Null]] State, their Controller '''cannot''' be part of [[Coordinated Order]]s or [[Fireteam]]s. If the Controller deploys their Peripheral (Ancillary), or its Disconnected or Null States are canceled, the Controller automatically stops being part of the Fireteam.
+{{css_skillbox-end}}
+
+
+{{important-start}}
+* When included in an [[Army List]], Peripherals must always be associated with a Controller.
+* Both the Controller and the Peripherals must respect the selected Army’s general availability limit ([[AVA]]).
+{{important-end}}
+
+
+{{advice-start}}
+Normally, for a Peripheral (Servant) to move towards their target, the [[Doctor]]/[[Engineer]] will usually remain still in a safe spot on the battlefield. Meanwhile, the Peripheral performs the Order, moving until it reaches contact with the target.
+{{advice-end}}
+
+
+{{greybox-start | Peripheral (Synchronized) Example }}
+{{image | name=n5/eng-peripheral-example-1.jpg | style=fullborder }}
+
+In the Active Turn, a Trooper and their Peripheral (Synchronized) are hidden behind a wall, and are planning to move to different ends of it. The player activates them both with the same single Order and declares [[Move]] as the first Basic Short Skill of the Order. Before making any measurements or moving the Models, a [[Coherency]] Check is made, and is passed. The Controller sends their Peripheral (Synchronized) to one end of the wall while he moves to the other end.
+
+An enemy can see the Controller and declares a [[BS Attack]] [[ARO]] against him. Meanwhile, a second enemy can see the Peripheral, so he reacts with a BS Attack ARO. With the second Short Skill of the Order, the Controller and their Peripheral declare BS Attacks. The Controller fires the entire [[Burst]] (B) of his weapon at the first enemy, while the Peripheral (Synchronized) uses its Heavy Flamethrower, placing the Large Teardrop Template over the second enemy. Then, another Coherency Check is made to verify that the Peripheral (Synchronized) is still inside the Controller's [[ZoC]].
+
+Thanks to Peripheral (Synchronized), the Controller and their Peripheral have attacked two different enemies, using a single Order from the Order Pool.
+{{greybox-end}}
+
+
+{{greybox-start | Peripheral (Ancillary) Example }}
+In the Active Turn, a Trooper with an undeployed Peripheral (Ancillary), declares his first Basic Short Skill and is not targeted by any enemy [[ARO]]s. He decides to use the [[Place Deployable]] Common Skill to deploy his Peripheral (Ancillary) on the game table. The Trooper places their Peripheral (Ancillary) in Silhouette contact. 
+
+From this moment on, each time the Trooper activates, his Peripheral (Ancillary) activates as well following the Peripheral rules, with no limit to the operating distance between the Controller and the Peripheral (Ancillary).
+{{greybox-end}}
+
+
+{{see-also}}
+'''[[Super-Jump]]'''
+
+{{greybox-start | Super-Jump and Multiple Troopers Example}}
+In the Active Turn, several Troopers have been activated with the same Order ([[Fireteams in the Active Turn | Fireteams]], [[Peripheral]]s, [[Coordinated Orders]]) and need to clear an obstacle. They declare [[Jump]] as the first Skill of the Order. Any of the Troopers who have the Super-Jump Special Skill can declare Jump as a [[Basic Short Skill]], while the other Troopers each have a choice of declaring Jump as a [[Long Skill]], or declaring an [[Idle]].
+
+For the second Skill of the Order, any of the Troopers who declared an Idle, or Jump as a Basic Short Skill, can declare a second Basic Short Skill or Short Skill as normal. While the Troopers who declared Jump as a Long Skill have already declared their entire Order and cannot declare a second Skill.
+{{greybox-end}}
+{{see-also-end}}
+
+
+
+{{n5-section-special-skills}}
+
+
+
+
+[[Category:Special Skills]]
+
+<!-- Label and Trait categories. -->
+[[Category: Obligatory ]]

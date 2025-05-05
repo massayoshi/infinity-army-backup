@@ -1,60 +1,54 @@
-{{section-equipment}}
+{{n5-section-equipment}}
 
 
-This piece of Equipment was designed to combat the effects of different military concealment and camouflage technologies. 
+This piece of Equipment was designed to combat the effects of different military concealment and camouflage technologies.
 
-{{skillbox |black| MULTISPECTRAL VISOR LEVEL 1 | AUTOMATIC EQUIPMENT }}
+{{css_skillbox |black| MULTISPECTRAL VISOR LEVEL 1 | AUTOMATIC EQUIPMENT }}
 {{skill-label | Obligatory }}
 {{effects}}
-{{c1}}
-* This Visor reduces the [[MOD]] of [[Mimetism]] (-3) from -3 to 0.
-* It also reduces the [[MOD]] of [[Mimetism]] (-6) from -6 to -3.
-{{c1end}}{{n4list}}
-* This Visor reduces the MODs of [[Mimetism]] (-3), and of [[Low Visibility Zone]]s, to 0. 
-* This Visor reduces the MODs of [[Mimetism]] (-6), and of [[Poor Visibility Zone]]s, to -3.
-* Additionally, it allows the user to draw [[LoF]] through [[Zero Visibility Zone]]s, applying a -6 MOD to any Skill that requires LoF. {{seefaq | Sixth Sense and Multispectral Visor L1.}}
-* Troopers equipped with this piece of Equipment do not make Face to Face Rolls against weapons using [[Smoke Ammunition]].
-{{n4end}}
+* This Visor reduces the MODs of [[Mimetism]] (-3), and of [[Low Visibility Zone]]s, to 0.
+* This Visor reduces the MODs of Mimetism (-6), and of [[Poor Visibility Zone]]s, to -3.
+* Additionally, it allows the user to draw LoF through [[Zero Visibility Zone]]s, applying a -6 MOD to any Skill that requires [[LoF]].
+* Troopers equipped with this piece of Equipment do not make [[Face to Face Roll]]s against weapons using [[Smoke Ammunition]].
+{{css_skillbox-end}}
 
 
-{{skillbox |black| MULTISPECTRAL VISOR LEVEL 2 | AUTOMATIC EQUIPMENT }}
+{{css_skillbox |black| MULTISPECTRAL VISOR LEVEL 2 | AUTOMATIC EQUIPMENT }}
+{{skill-label | Obligatory }}
+
+{{effects}}
+* This Visor reduces MODs from [[Mimetism]] and from [[Visibility Zone]]s to 0.
+* In addition, it allows its user to draw [[LoF]] through Visibility Zones without having to apply that Zone's MODs '''to any Skill that requires [[LoF]]'''.
+* Troopers equipped with this piece of Equipment do not make [[Face to Face Roll]]s against weapons that use [[Smoke Ammunition]].
+{{css_skillbox-end}}
+
+
+{{css_skillbox |black| MULTISPECTRAL VISOR LEVEL 3 | AUTOMATIC EQUIPMENT }}
 {{skill-label | Obligatory }}
 {{effects}}
-{{c1}}
-* Reduces [[Mimetism]]-imposed [[MODs]] to 0.
-{{c1end}}{{n4list}}
-* Reduces MODs from [[Mimetism]], and from [[Visibility Zone]]s, to 0.
-* Additionally, it allows the user to draw [[LoF]] through [[Zero Visibility Zone]]s.
-* Troopers equipped with this piece of Equipment do not make Face to Face Rolls against weapons using [[Smoke Ammunition]].
-{{n4end}}
+* This Visor reduces MODs from [[Mimetism]], and from [[Visibility Zone]]s, to 0.
+* In addition, it allows its user to draw [[LoF]] through Visibility Zones without having to apply that Zone's MODs '''to any Skill that requires [[LoF]]'''.
+* Troopers equipped with this piece of Equipment do not make [[Face to Face Roll]]s against weapons that use [[Smoke Ammunition]].
+* When performing [[Discover]] against a target in [[Camouflaged State]], the user's [[WIP]] Roll is automatically a success.
+* Users of a Multispectral Visor L3 ignore [[Surprise Attack]] MODs if they have [[LoF]] to the attacker. In addition, they also ignore Surprise Attack MODs from [[CC Attack]]s even if they don't have LoF to the attacker.
+* Additionally, in the [[Active Turn]] the user may perform a [[BS Attack]] on a Camouflage Marker (CAMO) in LoF without making a previous Discover Roll, but they must apply the Mimetism MOD indicated on the Marker. However, the Cancellation clauses for Camouflaged State are applied as usual.
+{{css_skillbox-end}}
 
 
-{{skillbox |black| MULTISPECTRAL VISOR LEVEL 3 | AUTOMATIC EQUIPMENT }}
-{{skill-label | Obligatory }}
-{{effects}}
-{{c1}}
-* Reduces [[Mimetism]]-imposed [[MODs]] to 0.
-{{c1end}}{{n4list}}
-* Reduces MODs from [[Mimetism]], and from [[Visibility Zone]]s, to 0.
-* Additionally, it allows the user to draw [[LoF]] through [[Zero Visibility Zone]]s.
-* Troopers equipped with this piece of Equipment do not make Face to Face Rolls against weapons using [[Smoke Ammunition]].
-{{n4end}}
-* When declaring [[Discover]] against a target in the Camouflaged State, the user of this piece of Equipment automatically passes, without need for a Roll, any necessary [[WIP]] Rolls against that target. 
-* Users of a Multispectral Visor L3 ignore [[Surprise Attack]] [[MODs]] if they have [[LoF]] to the attacker. In addition, they also ignore [[Surprise Attack]] [[MODs]] from [[CC Attacks]] even if they don't have [[LoF]] to the attacker. 
+{{see-also-start}}
+Troopers with Multispectral Visors are affected by:
+* '''[[Albedo]]'''.
+* Any item with the '''[[Reflective]]''' Trait.
+* '''[[White Noise Zone]]s'''.
+{{see-also-end}}
 
 
-== FAQs & Errata ==
 
-{{faqbox |
-type = faq |
-title = N4 FAQ |
-version = 1.0, Jan 2021 |
-q = Q: How do Sixth Sense, Zero Visibility Zones and Multipectral Visor Level 1 interact? |
-a = A: If the Trooper with Multispectral Visor Level 1 and Sixth Sense is the target of a BS Attack through a Zero Visibility Zone, they ignore the -6 MOD for drawing LoF through the Zero Visibility Zone. |
-related = [[Multispectral Visor]], [[Sixth Sense]], [[Visibility Conditions]] }}
-
-{{section-equipment}}
+{{n5-section-equipment}}
 
 
 
 [[Category:Equipment]]
+
+<!-- Label and Trait categories. -->
+[[Category: Obligatory ]]

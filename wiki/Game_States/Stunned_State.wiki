@@ -1,27 +1,37 @@
-{{section-game-states}}
-{{section-ammo-and-weaponry}}
+{{n5-section-game-states}}
 
 
-{{n4only}}
-{{n4list}}
 {{image | name=stunned0.jpg | style=128 }}
 
-{{skillbox |black| STUNNED | }}
+{{css_skillbox |black| STUNNED STATE }}
 {{activation}}
-* The Trooper suffered a successful Attack or Effect using an Ammunition, Hacking Program or a game condition or Scenario Special Rule, capable of causing this state.
+* The Trooper or game element ("Trooper" from now on) suffers a successful [[Attack]] or Effect using an [[Ammunition]], [[Hacking Program]], or a game condition or Scenario Special Rule, capable of causing this state.
 {{effects}}
-* Troopers in this state cannot declare Attacks.
+* '''Restriction:''' Troopers in this state cannot declare [[Attack]]s.
 * Moreover, Troopers in Stunned State must apply a MOD of -3 to any Roll they perform, except [[Saving Rolls]].
 * Automatic Special Skills and Equipment continue to work, but the Trooper must still respect all declaration restrictions.
+
 {{cancellation}}
-* To cancel this State, Troopers with the '''[[Wounds]]''' Attribute require a '''[[Doctor]]''', while Troopers with the '''[[Structure]] (STR)''' Attribute require an '''[[Engineer]]'''.
-* A Trooper with the '''[[Doctor]]/[[Engineer]]''' Special Skill (or an equivalent Skill) may cancel this State by spending one Short Skill of an Order while in [[Silhouette contact]] with the affected Trooper, and passing a Normal '''WIP''' Roll (or the Roll specified by the Special Skill or Scenario).
-* The Stunned State is automatically cancelled at the start of the [[States Phase]] of the Player Turn in which it was caused.
+* To cancel this state, Troopers with the '''[[Vitality]] (VITA)''' Attribute require a [[Doctor]] while Troopers with the '''[[Structure]] (STR)''' Attribute require an [[Engineer]].
+* A Trooper with the '''Doctor/Engineer''' Special Skill (or an equivalent Skill) may cancel this state by spending one [[Short Skill]] of an [[Trooper Activation | Order]] while in [[Silhouette contact]] with the affected Trooper and passing a [[Normal]] [[WIP]] Roll (or the Roll specified by the Special Skill or Scenario). 
+* The Stunned State is automatically canceled at the start of the [[States Phase]] of the [[Player Turn]] in which it was caused.
+{{css_skillbox-end}}
 
 
-{{n4end}}
+{{see-also}}
+'''[[Stun Ammunition]]'''
+* A failed Saving Roll against Stun Ammunition causes the target to enter [[Stunned State]]. Place a Stunned State Token (STUNNED) next to it.
 
 
+'''[[Mines#Cybermines | Cybermines]]'''
+* Troopers who are hit by a Cybermine must make '''two''' [[Saving Rolls]] against [[BTS]], with PS 5. If the target fails either [[Saving Roll]], it enters '''[[Stunned]]''' State. 
+* However, any Troopers with the '''[[Hackable]] Characteristic ([[HI]], [[REM]], [[TAG]], [[VH]]...)''' and '''[[Hackers]]''' who fail either Saving Roll enter '''[[Immobilized-B]]''' State instead of Stunned State.
+{{see-also-end}}
+
+
+
+
+{{n5-section-game-states}}
 
 
 [[Category: Game States]]

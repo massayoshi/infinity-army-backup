@@ -1,59 +1,59 @@
 {{section-fireteams}}
 
 
-{{n4annex}}
-{{n4list}}
-{{update | March 2022}}
 During the Active Turn, Fireteams behave differently from other Infinity Troopers, as explained below:
 
-{{skillbox |black| FIRETEAM ORDER | ATTACK / MOVEMENT }}
-{{Requirements}}
-* During the [[Order Phase]] of the Active Turn, the Fireteam Order requires spending 1 [[Regular Order]] from the [[Order Pool]] of the Fireteam members’ [[Combat Group]].
+{{css_skillbox |black| FIRETEAM ORDER | ATTACK / MOVEMENT }}
+{{requirements}}
+* During the [[Orders Phase]] of the Active Turn, the Fireteam Order requires spending 1 [[Regular Order]] from the [[Order Pool]] of the Fireteam members' [[Combat Group]].
 * The player must nominate one member of the Fireteam as the Fireteam Leader, placing a Fireteam Leader Token (FIRETEAM LEADER) beside them.
+{{image | name=n4-fireteam-type-duo-450.png | style=128inline }}{{image | name=n4-fireteam-type-haris-450.png | style= 128inline }}{{image | name=n4-fireteam-type-core-450.png | style= 128inline }}
 * Members of a Fireteam must observe the [[Coherency]] rule regarding the Fireteam Leader. If they do not, see [[Fireteam Integrity]].
-{{Effects}}
-{{update | 1.3, Nov 2022}}
+
+{{effects}}
 * All Fireteam members are activated with the Fireteam Order.
-* {{erratahighlight}}If the Fireteam declares{{erratahighlight-end}} [[Reset]] or any Skill with the [[Movement]] Label (except [[Berserk]]), both the Fireteam Leader and the other Fireteam members perform that Skill. <br>If any other Skill is {{erratahighlight}}chosen{{erratahighlight-end}}, only the Fireteam Leader {{erratahighlight}}declares and performs such Skill{{erratahighlight-end}} and the other Fireteam members {{erratahighlight}}declare and perform{{erratahighlight-end}} an [[Idle]] while '''granting the Fireteam Leader''' a set of Bonuses determined by the size and composition of the Fireteam. <br>If any of the Fireteam members does not meet the Requirements of a Skill declared during the Order or does not have the Skill, then they perform an Idle instead of that Skill, while the others may act normally.
-* Each Reactive Trooper can choose only one of the Troopers (whether the Fireteam Leader or one of the other Fireteam members) as their target, but they are not obliged to choose the same target. 
-{{update-end}}
-{{original}}
-* All Fireteam members are activated with the Fireteam Order.
-* {{originalhighlight}}By declaring{{originalhighlight-end}} [[Reset]] or any Skill with the [[Movement]] Label (except [[Berserk]]), both the Fireteam Leader and the other Fireteam members perform that Skill. <br>If any other Skill is {{originalhighlight}}declared{{originalhighlight-end}}, only the Fireteam Leader {{originalhighlight}}performs the declared{{originalhighlight-end}} Skill and the other Fireteam members {{originalhighlight}}perform{{originalhighlight-end}} an [[Idle]] while '''granting the Fireteam Leader a set of Bonuses''' determined by the size and composition of the Fireteam.<br>If any of the Fireteam members does not meet the Requirements of a Skill declared during the Order or does not have the Skill, then they perform an Idle instead of that Skill, while the others may act normally.
-* Each Reactive Trooper can choose only one of the Troopers (whether the Fireteam Leader or one of the other Fireteam members) as their target, but they are not obliged to choose the same target. 
-{{original-end}}
+* If the Fireteam declares [[Reset]] or any Skill with the [[Movement Label]], both the Fireteam Leader and the other Fireteam members declare and perform that Skill. If a different Skill is chosen, only the Fireteam Leader declares and performs it, while the rest of the members of the Fireteam declare and perform an [[Idle]], while granting the Fireteam Leader a set of [[Fireteam Bonuses | Bonuses]] determined by the Fireteam Level.
+* If any of the Fireteam members does not meet the Requirements of a Skill declared during the Order or does not have the Skill, then they perform an Idle instead of that Skill, while the others may act normally.
+* Each Reactive Trooper can choose only one of the Troopers (whether the Fireteam Leader or one of the other Fireteam members) as their target, but they are not obliged to choose the same target.
+{{css_skillbox-end}}
+
+
+== Fireteams, NCO and Tactical Sense ==
+If a Fireteam member has the [[NCO]] or [[Tactical Awareness]] Special Skill and spends a [[Tactical Order]], they are automatically designated as the new Fireteam Leader, and the Fireteam is activated as if a [[Regular Order]] had been spent.
 
 
 {{remember-start}}
-Any member that breaks Coherency is no longer part of the Fireteam (see [[Fireteam Integrity]]).
+Any member that breaks [[Coherency]] is no longer part of the Fireteam (see [[Fireteam Integrity]]).
 {{remember-end}}
 
 
-==Fireteams, NCO and Tactical Sense==
-If a Fireteam member has the [[NCO]] or [[Tactical Sense]] Special Skill and spends the [[Lieutenant Special Order]] or their extra Order, they are automatically nominated as the Fireteam Leader and the Fireteam is activated as if a Regular Order had been spent.
+{{remember}}
+During a Fireteam Order, the Skills that are performed by both the Fireteam Leader and the rest of the members are:
+* [[Reset]]
+* Skills with the [[Movement Label]] (except [[Berserk]])
+* [[Dodge]]
+* [[Move]]
+* [[Jump]]
+* [[Climb]]
+{{remember-end}}
 
 
-{{update-end}}
-
-== FAQs & Errata ==
-
-{{faqbox |
-type = faq |
-title = N4 FAQ |
-version = 1.0, Jan 2021 |
-q = Q: Can Berserk be used while in a Fireteam? |
-a = A: Yes. Only the Troops with Berserk will perform the Skill, the rest will perform an Idle and the Team Leader will be the only one performing the CC Attack. |
-related = [[Berserk]], [[Fireteams in the Active Turn]] }}
+== Fireteams and Berserk ==
+{{advice}}
+If the Fireteam Leader declares the [[Berserk]] Skill, only the Fireteam members who have that Skill will be able to declare and perform it, the rest of the Troopers will declare and perform an [[Idle]].
+{{advice-end}}
 
 
-{{faqbox |
-type = faq |
-title = N4 FAQ |
-version = Updated 1.1.1, Dec 2021 |
-q = Q: If several Troopers are activated at once (for example a Coordinated Order or a Fireteam) and one of them uses Stealth while outside a reactive Trooper's ZoC or Hacking Area, can the Trooper that used Stealth be chosen as the target of AROs? |
-a = <s>A: Yes, but the ARO will only be considered valid if the Stealth user performs a Skill that allows AROs.</s>
-{{erratahighlight}}A: Yes, but the ARO will become an Idle if the Stealth user does not declare a Skill that allows AROs.{{erratahighlight-end}} |
-related = [[Coordinated Orders]], [[Fireteams in the Active Turn]], [[Stealth]] }}
+{{see-also}}
+'''[[Super-Jump]]'''
+
+{{greybox-start | Super-Jump and Multiple Troopers Example}}
+In the Active Turn, several Troopers have been activated with the same Order ([[Fireteams in the Active Turn | Fireteams]], [[Peripheral]]s, [[Coordinated Orders]]) and need to clear an obstacle. They declare [[Jump]] as the first Skill of the Order. Any of the Troopers who have the Super-Jump Special Skill can declare Jump as a [[Basic Short Skill]], while the other Troopers each have a choice of declaring Jump as a [[Long Skill]], or declaring an [[Idle]].
+
+For the second Skill of the Order, any of the Troopers who declared an Idle, or Jump as a Basic Short Skill, can declare a second Basic Short Skill or Short Skill as normal. While the Troopers who declared Jump as a Long Skill have already declared their entire Order and cannot declare a second Skill.
+{{greybox-end}}
+{{see-also-end}}
+
 
 
 {{section-fireteams}}

@@ -1,19 +1,26 @@
-{{section-equipment}}
+{{n5-section-equipment}}
 
 
-This is a device that generates a thick cloud of nanobots, providing its user with mobile Partial Cover. 
+This is a device that generates a thick cloud of nanobots that protects its user against ranged Attacks.
 
-{{image | name=nanoscreen0.jpg | style=128 }}
-
-{{skillbox |black| NANOSCREEN | AUTOMATIC EQUIPMENT }}
+{{css_skillbox |black| NANOSCREEN  | AUTOMATIC EQUIPMENT }}
 {{skill-label | Obligatory }}
+{{requirements}}
+* The user is the target of a '''[[BS Attack]]'''. 
 {{effects}}
-* In game terms, a Nanoscreen provides its user with 360&deg; Partial Cover, providing the Trooper with the corresponding [[MODs]] for [[Partial Cover]], which '''cannot''' be added to other Cover MODs. 
-* To represent the Nanoscreen, the player must place a Nanoscreen Token in [[Silhouette]] contact with the user. 
-* This device cannot be used against [[CC Attacks]].
+* A -3 BS MOD is imposed on BS Attack Rolls against the user, and a +3 MOD applies to the user's [[Saving Roll]]s against BS Attacks.
+* '''Restriction:''' These MODs do not apply to BS Attacks with the [[Comms Attack]] Trait.
+{{css_skillbox-end}}
 
+
+{{remember-start}}
+This device cannot be used against '''[[CC Attack]]s'''.
+{{remember-end}}
 
 
 
 
 [[Category:Equipment]]
+
+<!-- Label and Trait categories. -->
+[[Category: Obligatory ]]

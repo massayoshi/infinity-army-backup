@@ -1,65 +1,56 @@
-{{section-ammo-and-weaponry}}
-{{section-reference-charts}}
+{{n5-section-ammo-and-weaponry}}
+{{n5-section-reference-charts}}
 
 
-{{c1}}
-{| class="wikitable-dark"
+{| class="n5table-dark"
 |-
-! Ammunition !! Saving Roll !! No. of Rolls !! Critical No. of Rolls !! Special Effect
+! Ammunition !! Saving Roll Attribute !! No. Save Rolls !! Critical No. Save Rolls !! Special Effect
 |-
-| [[N]] || ARM/BTS* || 1 || 2 || 
+| '''[[N]]''' || ARM/BTS* || 1 || 2 ||
 |-
-| [[AP]] || ARM/BTS* || 1 || 2 || Reduces the ARM or BTS value of its target to half of its original value.
+| '''[[AP]]''' || ARM/BTS* || 1 || 2 || Halves the target’s ARM or BTS
 |-
-| [[DA]] || ARM/BTS* || 2 || 3 || 
+| '''[[DA]]''' || ARM/BTS* || 2 || 3 || 
 |-
-| [[EXP]] || ARM/BTS* || 3 || 4 || 
+| '''[[E/M]]''' || BTS || 2 || 3 || Halves the target’s BTS, State: [[Isolated]], State: [[IMM-B]] against [[HI]], [[REM]], [[TAG]], or [[VH]]
 |-
-| [[PARA]] || PH-6 || 1 || 2 || [[IMM-A]]
+| '''[[ECLIPSE]]''' || - || - || - || Blocks [[LoF]], [[Non-Lethal]], [[Reflective]]
+|-
+| '''[[EXP]]''' || ARM/BTS* || 3 || 4 || 
+|-
+| '''[[PARA]]''' || PH-6 || 1 || 2 || State: [[IMM-A]]
+|-
+| '''[[SHOCK]]''' || ARM/BTS* || 1 || 2 || Cancels [[Unconscious]]
+|-
+| '''[[SMOKE]]''' || - || - || - || Blocks [[LoF]], [[Non-Lethal]]
+|-
+| '''[[STUN]]''' || ARM/BTS* || 1 || 2 || [[Non-Lethal]], State: [[Stunned]]
+|-
+| '''[[T2]]''' || ARM/BTS* || 1 || 2** || Inflicts 2 [[Wound]]s
 |}
-NOTE* As stated on the weapon.
-{{c1end}}
-{{n4}}
-{| class="wikitable-dark"
-|-
-! Ammunition !! Saving Roll !! No. of Rolls !! Critical No. of Rolls !! Special Effect
-|-
-| [[N]] || ARM/BTS* || 1 || 2 ||
-|-
-| [[AP]] || ARM/BTS* || 1 || 2 || Halves the target’s ARM or BTS
-|-
-| [[DA]] || ARM/BTS* || 2 || 3 || 
-|-
-| [[E/M]] || BTS || 2 || 3 || Halves the target’s BTS, State: [[Isolated]], State: [[IMM-B]] against [[HI]], [[TAG]] or [[REM]]
-|-
-| [[ECLIPSE]] || - || - || - || Blocks [[LoF]], [[Non-Lethal]], [[Reflective]]
-|-
-| [[EXP]] || ARM/BTS* || 3 || 4 || 
-|-
-| [[PARA]] || PH-6 || 1 || 2 || State: [[IMM-A]]
-|-
-| [[SHOCK]] || ARM/BTS* || 1 || 2 || Cancels [[Unconscious]]
-|-
-| [[SMOKE]] || - || - || - || Blocks [[LoF]], [[Non-Lethal]]
-|-
-| [[STUN]] || ARM/BTS* || 2 || 3 || [[Non-Lethal]], State: [[Stunned]]
-|-
-| [[T2]] || ARM/BTS* || 1 || 2** || Lose 2 points of [[Wounds]]/[[STR]]
-|}
-NOTE* The Weapon indicates whether the target must use their ARM or BTS Attribute in the [[Saving Rolls]].
-
-NOTE** The additional Saving Roll for T2 Ammunition works differently, see [[T2 Ammunition]].
-{{n4end}}
+'''NOTE: *''' The Attribute for the [[Saving Roll]] can be either ARM or BTS depending on the Weapon.
+<br>
+'''NOTE: **''' The additional Saving Roll for T2 Ammunition works differently, see [[T2 Ammunition]].
 
 
-{{remember-start}}
-'''Criticals and Weapon Traits'''
+{{see-also-start}}
+===Critical Exceptions===
 
-The additional roll gained by scoring a critical hit will retain both the Attribute used to make a Saving Roll and the Traits of the weapon used in the attack, unless otherwise stated.
-{{remember-end}}
+'''[[Continuous Damage]] Trait'''
+: After failing a [[Saving Roll]], the target receives a [[Wound]] and will have to keep making Saving Rolls until it passes a Saving Roll or until it enters [[Dead State]]. A [[Critical]] hit with a weapon with this Trait forces the target to make an additional Saving Roll. This extra Saving Roll doesn't apply the Continuous Damage Trait.
+
+'''[[T2 Ammunition]]'''
+* [[Critical]] hits with T2 Ammunition cause the target to make an additional Saving Roll. Failing this additional Saving Roll inflicts '''only 1''' additional Wound on the target. It is important to indicate, before performing the Saving Rolls, which die corresponds to the Saving Roll from the hit and which die to the additional Saving Roll from the Critical effect.
+{{see-also-end}}
 
 
-{{section-ammo-and-weaponry}}
-{{section-reference-charts}}
 
+{{n5-section-ammo-and-weaponry}}
+{{n5-section-reference-charts}}
+
+
+
+
+
+[[Category: Reference Charts]]
 [[Category: Ammunition and Weaponry]]

@@ -1,75 +1,44 @@
-{{section-hacking}}
+{{n5-section-hacking}}
 
-
-{{n4only}}
-{{n4list}}
 
 {{image | name=sup-controlled_jump0.jpg | style=128 }} 
 
-{{skillbox |greenyellow| CONTROLLED JUMP | SHORT SKILL / ARO }}
+{{css_skillbox |greenyellow| CONTROLLED JUMP | SHORT SKILL / ARO }}
 {{skill-label | Supportware, No Roll. }}
 {{effects}}
-{{update | PDF 2.1, July 2023}}
-* When the user declares the use of this Program, which does not require a Roll, {{erratahighlight}}the Program’s Effects are applied immediately, instead of in the Resolution step{{erratahighlight-end}}, and a Controlled Jump Supportware Token (Sup: Controlled Jump) is placed beside the user. 
-* {{erratahighlight}}If declared as an ARO to an enemy Trooper declaring [[Combat Jump]], this means that the -3 MOD will affect the enemy Trooper’s PH Roll.{{erratahighlight-end}}
-* {{erratahighlight}}It is not mandatory to declare Controlled Jump as an ARO to an enemy Trooper declaring Combat Jump, instead the Hacker can choose to wait and declare an ARO in the normal way.{{erratahighlight-end}}
-* As long as Controlled Jump is active, when performing the [[Combat Jump]] Skill every Allied Trooper applies a +3 MOD while every Enemy Trooper must apply a -3 MOD. {{erratahighlight}}If both players have Controlled Jump active, the effects of both Programs are cancelled.{{erratahighlight-end}}
-* {{erratahighlight}}A player cannot have more than one active Controlled Jump Program.{{erratahighlight-end}}
+* When the user declares the use of this Program, which does not require a Roll, the Program's Effects are applied immediately, instead of in the [[Resolution]] step, and a Controlled Jump Supportware Token (Sup: Controlled Jump) is placed beside the user.
+* If declared as an [[ARO]] to an enemy Trooper declaring [[Combat Jump]], this means that the -3 MOD will affect the enemy Trooper's [[PH]] Roll.
+* It is not mandatory to declare Controlled Jump as an ARO to an enemy Trooper declaring Combat Jump, instead the Hacker can choose to wait and declare an ARO in the normal way.
+* As long as Controlled Jump is active, when performing the Combat Jump Skill every Allied Trooper applies a +3 MOD while every Enemy Trooper must apply a -3 MOD. If both players have Controlled Jump active, the effects of both Programs are cancelled.
+* A player cannot have more than one active Controlled Jump Program.
 * This Program's range covers the entire game table.
-{{update-end}}
-{{original}}
-* When the user declares the use of this Program, which does not require a Roll,{{originalhighlight}} the Program is activated immediately and is applied during the current Order{{originalhighlight-end}}, and a Controlled Jump Supportware Token (Sup: Controlled Jump) is placed beside the user. 
-* As long as Controlled Jump is active, when performing the [[Combat Jump]] Skill every Allied Trooper applies a +3 MOD while every Enemy Trooper must apply a -3 MOD.
-* This Program's range covers the entire game table.
-{{original-end}}
+{{css_skillbox-end}}
 
 
 {{important-start}} 
-This Program affects Troopers even if they don't have the [[Hackable]] Characteristic.
-{{update | PDF 2.1, July 2023}}
-{{erratahighlight}}Controlled Jump can be declared as an ARO against a Combat Jump Entire Order anywhere on the table.{{erratahighlight-end}}
-{{update-end}}
-{{important-end}}
+* This Program affects Troopers even if they don’t have the [[Hackable]] Characteristic.
+* Controlled Jump can be declared as an [[ARO]] against a [[Combat Jump]] Long Skill anywhere on the table.
+{{important-end}} 
 
 
-{{n4-hacking-header}}
-{{hackingrow | [[Controlled Jump]] | -- | -- | -- | -- | -- | Short Skill/ARO | +3/-3 MOD to the PH of every Trooper that performs [[Combat Jump]]. }}
+{| class="n5table-dark
+|-
+! Name !! Attack MOD !! Opp. MOD !! PS !! Burst !! Target !! Skill Type !! Special
+|- 
+| [[Controlled Jump]] || -- || -- || -- || -- || -- || Short Skill / ARO || +3/-3 MOD to the PH of every Trooper that performs [[Combat Jump]]. 
 |}
 
 
-{{remember-start}}
-{{update | PDF 2.1, July 2023}}
-* {{erratahighlight}}A Supportware Program is automatically cancelled if the target of the Supportware is targeted by a new Supportware Program, or if the Hacker running the Program enters [[Isolated]] State or any [[Null]] States.{{erratahighlight-end}}
-{{update-end}}
-{{original}}
-* {{originalhighlight}}[[Labels|Supportware]] is automatically cancelled if the [[Trooper]] or [[Troop Type]] that benefits from the Supportware becomes targeted by a new Supportware Program, or the Hacker that is running it becomes [[Isolated]] or enters a [[Null]] State.{{originalhighlight-end}}
-{{original-end}}
-{{remember-end}}
+{{supportware}}
 
 
-== FAQs & Errata ==
-
-{{faqbox |
-type = faq |
-title = N4 FAQ |
-version = Updated 1.1.1, Dec 2021 |
-q = Q: How does Controlled Jump work in ARO? |
-a = <s>A: A Controlled Jump ARO is considered valid against a Combat Jump Entire Order anywhere on the table, or against any Skill in the Hacker’s Hacking Area.</s><br>
-{{erratahighlight}}A: A Controlled Jump ARO can be declared against a Combat Jump Entire Order anywhere on the table, or against any Skill in the Hacker’s Hacking Area.{{erratahighlight-end}}<br>
-As an ARO to a Combat Jump Entire Order, Controlled Jump is resolved before the Combat Jump PH Roll is resolved, and will affect that PH Roll. Alternatively, the Hacker can wait until the PH Roll has been resolved, and declare a non-Controlled Jump ARO, if applicable. |
-related = [[Combat Jump]], [[Controlled Jump]] }}
-
-
-{{faqbox |
-type = faq |
-title = N4 FAQ |
-version = 1.1.1, Dec 2021 |
-q = Q: How do multiple uses and opposed uses of Controlled Jump work? |
-a = A: A Trooper using Combat Jump can be affected by a maximum of one Controlled Jump Program per side. If both sides have Controlled Jump running, the effects of both Programs are cancelled. |
-related = [[Combat Jump]], [[Controlled Jump]] }}
-{{n4end}}
+{{n5-section-hacking}}
 
 
 
 
 [[Category: Hacking]]
+
+<!-- Label and Trait categories. -->
+[[Category: Supportware ]]
+[[Category: No Roll ]]

@@ -1,202 +1,139 @@
-{{section-glossary}}
+{{n5-section-glossary}}
 
 
 Traits are the special features of certain weapons and pieces of Equipment.
 
 Traits are commonly given to Common and Special Skills, or to specific effects that make these rules more unique. Some are pretty obvious, and their names describe what their effects are, nevertheless, a list of the different Traits is provided to make them easier to identify:
 
-{{n4}}
-=== Anti-Materiel ===
-This weapon's Special Ammunition can affect structures and pieces of scenery.
-{{n4end}}
 
-=== ARM = 0 ===
-This weapon or piece of Equipment reduces the '''[[ARM]]''' Attribute of the Target to 0 when a [[Saving Roll]] is required. {{seefaq | Ammunition and Traits that target one Attribute will not work if the other Attribute is chosen.}}
+{{greybox | Wiki Note}}
+Click on the Trait name to see a list of all items with that Trait.
+{{greybox-end}}
 
-=== ARO ===
-This weapon or piece of Equipment is only usable in ARO.
+{{see-also}}
+Most Traits are found in the '''[[Weapon Chart]]'''.
+{{see-also-end}}
 
-{{n4}}
-=== BioWeapon===
-{{n4annex}}
-This weapon only affects those targets possessing the Wounds (W) Attribute.
 
-=== Boost ===
-A weapon possessing this Trait applies the [[Boost]] rule, activating when an enemy Model declares or executes an Order or ARO in its ZoC.
-{{n4end}}
+=== [[:Category:Anti-materiel | Anti-materiel ]] ===
+This weapon's Special [[Ammunition]] can affect structures and pieces of scenery.
 
-=== BTS = 0 ===
-This weapon or piece of Equipment reduces the '''[[BTS]]''' Attribute of the Target to 0 when a [[Saving Roll]] is required. {{seefaq | Ammunition and Traits that target one Attribute will not work if the other Attribute is chosen.}}
+=== [[:Category:ARM = 0 | ARM = 0 ]] ===
+This weapon or piece of Equipment reduces the [[ARM]] Attribute of the Target to 0 when a [[Saving Roll]] is required.
 
-=== [[Burst]] (B) ===
-This indicates the number of dice the player must roll when using the weapon or piece of Equipment. 
+=== [[:Category:ARO | ARO ]] ===
+This weapon or piece of Equipment is only usable in [[ARO]].
 
-{{n4}}
-=== Burst: Single Target ===
-This weapon can only choose a single target for all shots of the Burst.
-{{n4end}}
+=== [[:Category:BioWeapon | BioWeapon ]] ===
+This weapon applies the combination of [[DA]]+[[Shock]] Special Ammunition to targets with the [[Vitality]] (VITA) Attribute. 
 
-=== CC ===
-This weapon can be used when making [[CC Attacks]].
+=== [[:Category:Boost | Boost ]] ===
+A weapon possessing this Trait applies the [[Boost]] rule, activating when an enemy Model declares or executes an [[Trooper Activation | Order]] or [[ARO]] in its [[ZoC]].
 
-=== Concealed ===
-This weapon or piece of Equipment uses the effects of the [[Camouflage]] Special Skill. Refer to the description of the weapon or Equipment for more details. Camouflage Markers concealing a weapon or a piece of Equipment have a Silhouette (S) value of 2.
+=== [[:Category:BS Weapon (PH) | BS Weapon (PH) ]] ===
+This weapon can make [[BS Attack]]s, but uses the [[PH]] Attribute in place of [[BS]]. When using this weapon, all rules and MODs that affect the Trooper's BS affect their PH Attribute instead.
 
-=== Continuous Damage ===
-After failing a [[Saving Roll]], the target will lose 1 point from its [[Wounds]]/[[STR]] Attribute and it will have to keep making [[Saving Rolls]] '''until it passes''' a Saving Roll or until it ends up in [[Dead]] State.
+=== [[:Category:BS Weapon (WIP) | BS Weapon (WIP) ]] ===
+This weapon can make [[BS Attack]]s, but uses the [[WIP]] Attribute in place of [[BS]]. When using this weapon, all rules and MODs that affect the Trooper's BS affect their WIP Attribute instead. The [[Skills_and_Equipment_Module#Modifiers_Explained_.28MODs.29 | BS Attack (Shock)]] Skill cannot be used with weapons with this Trait.
 
-A '''Critical''' hit with a weapon with this Trait forces the target to make an additional Saving Roll. This extra Saving Roll doesn’t apply the Continuous Damage Trait.  
+=== [[:Category:BTS = 0 | BTS = 0 ]] ===
+This weapon or piece of Equipment reduces the [[BTS]] Attribute of the Target to 0 when a [[Saving Roll]] is required.
 
-=== Deployable ===
-This weapon or piece of Equipment may be deployed on the battlefield, thus becoming an element independent of its carrier. Deployable weapons and pieces of Equipment have their own profiles and their own Attributes, and they may be chosen as a target during the game.
+=== [[:Category:Burst (B) | Burst (B) ]] ===
+This indicates the number of dice the player must roll when using the weapon or piece of Equipment.
 
-=== Direct Template ===
-This weapon or piece of Equipment uses the [[Direct Template]] rules, firing the Template indicated in brackets.
+=== [[:Category:Burst: Single Target | Burst: Single Target ]] ===
+This weapon can only choose a single target for all shots of the [[Burst]].
 
-=== Disposable ===
-{{update | PDF 2.1, July 2023}}
-This weapon or Equipment has a limited amount of ammunition or uses, and one is expended every time you declare its use, regardless of the success or failure of the Roll involved, or if a Skill has been declared illegally. The profile indicates, by means of a figure in brackets after the Disposable trait, the number of uses for that weapon or Equipment. Once all the uses available are expended, the Trooper, or the item if the Trooper has several Disposable weapons or Equipment, will be in [[Unloaded]] State.
+=== [[:Category:CC | CC ]] ===
+This weapon can be used when making [[CC Attack]]s.
 
-{{erratahighblock}}
-Each increment in the [[Burst]] (B) value applied to weapons with this Trait due any MOD uses up a Disposable use. For example, a Trooper with a Panzerfaust (a two-use weapon with B 1) and BS Attack (+1B) must make a BS Attack with B 2, consuming in a single Order the two uses available in the Panzerfaust, so this weapon will be unloaded and the player must place an Unloaded Token next to the Trooper.
+=== [[:Category:Concealed | Concealed ]] ===
+This weapon or piece of Equipment uses the effects of [[Camouflaged State]]. Refer to the description of the weapon or Equipment for more details. Camouflage Markers concealing a weapon, or a piece of Equipment have a [[Silhouette]] (S) value of 2.
 
-In this case, if due any MOD the Burst (B) value is higher than the remaining number of uses available thanks to this Trait, players cannot exceed the remaining number of uses.
+=== [[:Category:Continuous Damage | Continuous Damage ]] ===
+After failing a [[Saving Roll]], the target receives a [[Wound]] and will have to keep making Saving Rolls until it passes a Saving Roll or until it enters [[Dead State]]. A [[Critical]] hit with a weapon with this Trait forces the target to make an additional Saving Roll. This extra Saving Roll doesn't apply the Continuous Damage Trait.
 
-In addition, those weapons possessing the Disposable Trait and different Modes (such as [[Mixed Weapons]], [[D-Charges]]…) share the number of uses provided by Disposable between all Modes.
-{{erratahighblock-end}}
-{{update-end}}
+=== [[:Category:Deployable | Deployable ]] ===
+This weapon or piece of Equipment may be deployed on the battlefield, thus becoming an element independent of its carrier. Deployable weapons and pieces of Equipment have their own profiles and their own Attributes, and they may be chosen as a target during the game. If a Deployable item enters [[Unconscious State]], it automatically passes directly to [[Dead State]], without receiving an extra [[Wound]], and must be removed from the game table. Weapons and pieces of Equipment with this Trait do not activate other Deployable Weapons or Equipment.
 
-{{n4}}
+=== [[:Category:Direct Template | Direct Template ]] ===
+This weapon or piece of Equipment uses the [[Direct Template Weapons | Direct Template]] rules, firing the Template indicated in brackets.
 
-=== Double Shot ===
-{{update | PDF 2.1, July 2023}}
-{{erratahighlight}}In Active Turn, t{{erratahighlight-end}}his weapon or piece of Equipment can apply a +1 MOD to its [[Burst]] value. If it also possesses the [[#Disposable|Disposable]] (2) Trait, this Burst MOD can only be applied if both uses remain unspent. Applying this MOD will expend both uses, putting the Trooper in Unloaded State.
-{{update-end}}
+=== [[:Category:Disposable | Disposable (X) ]] ===
+This weapon or Equipment has a limited amount of ammunition or uses, and one is expended every time you declare its use, regardless of the success or failure of the Roll involved, or if a Skill has been declared illegally. The profile indicates, through a figure in brackets after the Disposable trait, the number of uses for that weapon or Equipment. Once all the available uses are expended, the Trooper, or the item if the Trooper has several Disposable weapons or Equipment, will be in [[Unloaded State]]. 
 
-=== Impact Template ===
-This weapon or piece of Equipment places a [[Template]] on the point of impact, firing the Template indicated in brackets.
+Each increment in the [[Burst]] (B) value applied to weapons with this Trait due to any MOD uses up a Disposable use. For example, a Trooper with a Panzerfaust (a two-use weapon with B 1) and [[BS Attack]] (+1B) must make a BS Attack with B 2, consuming in a single Order the two available uses in the Panzerfaust, so the weapon is unloaded, and the player must place an Unloaded Token next to the Trooper. 
 
-=== Indiscriminate ===
-This weapon or piece of Equipment is usable or deployable even if there is a [[Camouflaged|Camouflage]] Marker in its Area of Effect, and even if there is no valid target nearby.
+Burst (B) MODs cannot raise the B value higher than the remaining available uses. 
 
-=== Intuitive Attack ===
+In addition, those weapons possessing the Disposable Trait and different Modes (such as [[Mixed Weapons]], [[D-Charges]]...) share the number of uses provided by Disposable between all Modes.
+
+{{see-also}}
+'''[[Idle]]'''
+* In the [[Resolution]] Step of the Order, if a Trooper is found to have not met the Requirements of a declared Skill, they instead perform an Idle. In this situation:
+** The ammunition of [[Disposable]] weapons or pieces of Equipment is spent.
+{{see-also-end}}
+
+
+=== [[:Category:Double Shot | Double Shot ]] ===
+In the [[Active Turn]], this weapon or piece of Equipment can apply a +1 MOD to its [[Burst]] value. If it also possesses the Disposable (2) Trait, this Burst MOD can only be applied if both uses remain unspent. Applying this MOD will expend both uses, putting the Trooper in [[Unloaded State]].
+
+=== [[:Category:Impact Template | Impact Template ]] ===
+This weapon or piece of Equipment places a [[Impact Template Weapons | Template]] on the point of impact, firing the Template indicated in brackets.
+
+=== [[:Category:Improvised | Improvised ]] ===
+This weapon or piece of Equipment is being used in a manner it was not designed for, making it difficult to use. Therefore, the Improvised Trait imposes a '''MOD of -6''' to the corresponding [[Attribute]] '''of the user'''.
+
+=== [[:Category:Indiscriminate | Indiscriminate ]] ===
+This weapon or piece of Equipment is usable or deployable even if there is a [[Camouflaged State | Camouflage and Hiding Marker]] in its [[Area of Effect]], and even if there is no valid target nearby.
+
+=== [[:Category:Intuitive Attack | Intuitive Attack ]] ===
 This weapon can be used to make [[Intuitive Attack]]s.
-{{n4end}}
 
-=== Non-Lethal ===
-{{update | PDF 2.1, July 2023}}
-{{erratahighlight}}No matter the ammunition type this weapon, piece of Equipment or Hacking Program uses, it{{erratahighlight-end}} doesn’t cause the target to lose points of its [[Wounds]]/[[STR]] Attribute, or doesn’t require the target to make a [[Saving Roll]] when hit. {{erratahighlight}}Even if a Skill, rule or MOD adds or combines other ammunition types, the Non-Lethal Trait always take precedence, so this weapon, piece of Equipment or Hacking Program never causes the target to lose points of its Wounds/STR Attribute.{{erratahighlight-end}}
-{{update-end}}
-{{original}}
-{{originalhighlight}}This weapon, piece of Equipment or Hacking Program loads an ammunition type that{{originalhighlight-end}} doesn’t cause the target to lose points of its [[Wounds]]/[[STR]] Attribute, or doesn’t require the target to make a [[Saving Roll]] when hit. {{originalhighlight}}{{seefaq}}{{originalhighlight-end}}
-{{original-end}}
+=== [[:Category:Non-Lethal | Non-Lethal ]] ===
+No matter the [[ammunition]] type, this weapon, piece of Equipment or [[Hacking Program]] uses, it doesn't inflict [[Wounds]] on the target, or doesn't require the target to make a [[Saving Roll]] when hit.
 
-{{n4}}
-=== Perimeter ===
-When declaring [[Place Deployable]], the player will apply the [[Place_Deployable#Deployable_and_Perimeter|Deployable and Perimeter]] rule, placing the weapon or piece of Equipment '''completely''' inside the [[ZoC]] of the Trooper, instead of in [[Silhouette contact]].
-{{n4end}}
+Even if a Skill, rule or MOD adds or combines other ammunition types, the Non-Lethal Trait always take precedence, so this weapon, piece of Equipment or Hacking Program never inflicts Wounds on the target.
 
-=== Prior Deployment ===
+=== [[:Category:Non-Reloadable | Non-Reloadable ]] ===
+[[Unloaded State]] cannot be cancelled for [[Disposable]] weapons or pieces of Equipment with this Trait, and their expended uses cannot be regained.
+
+=== [[:Category:Perimeter | Perimeter ]] ===
+When declaring [[Place Deployable]], the player applies the [[Place_Deployable#Deployable and Perimeter | Deployable and Perimeter]] rule, placing the weapon or piece of Equipment completely inside the [[ZoC]] of the Trooper, instead of in [[Silhouette contact]].
+
+=== [[:Category:Prior Deployment | Prior Deployment ]] ===
 You must place this weapon or piece of Equipment on the game table during the [[Deployment Phase]].
 
-{{n4}}
-=== Reflective ===
-The effects of this weapon or piece of Equipment will be also applied to troopers equipped with a [[Multispectral Visor]] of any Level, or any other piece of Equipment that specifies the same.
+=== [[:Category:Reflective | Reflective ]] ===
+The effects of this weapon or piece of Equipment are also applied to Troopers who have the '''[[Marksmanship]]''' Special Skill or are equipped with a '''[[Multispectral Visor]]''' of any Level, or with any other piece of Equipment that specifies the same.
 
-=== Silent ===
-If you use this weapon or piece of Equipment to make an Attack while outside the target's [[LoF]], that target cannot react with a [[Dodge]] or apply the [[Alert]] rule unless he survives the Attack (that is, isn't in a [[Null]] state after the Attack is resolved).
-Additionally, enemies without LoF in whose [[Zone of Control]] the Attack took place or was declared cannot declare AROs or apply the Alert rule unless the target survives the Attack. This means that these enemies must delay their ARO declaration until after the Attack is resolved.
+=== [[:Category:Silent | Silent (X) ]] ===
+If you use this weapon or piece of Equipment to make an Attack while inside the target's [[ZoC]] and outside their [[LoF]], the target must apply the MOD between brackets to any [[Face to Face Roll | Face to Face]] [[Dodge]] Roll they make against the Attack. This MOD is cumulative with other Dodge MODs.
 
-=== Speculative Attack ===
-This weapon can be used to make [[Speculative Attack]]s. {{seefaq | Cannot be combined with BS Attack (Guided).}}
-{{n4end}}
+=== [[:Category:Speculative Attack | Speculative Attack ]] ===
+This weapon can be used to make [[Speculative Attack]]s.
 
-=== State ===
-This weapon or piece of Equipment causes its target to enter a specific Game [[State]]. The Game State it causes will be indicated in the profile of the weapon, Program, or piece of Equipment. {{seefaq}}
+=== [[:Category:State | State ]] ===
+This weapon or piece of Equipment causes its target to enter a specific [[Game State]]. The Game State it causes will be indicated in the profile of the weapon, Program, or piece of Equipment.
 
-{{n4}}
-=== Suppressive Fire (SF) ===
-This weapon allows the user to engage in [[Suppressive Fire]], substituting its usual profile with the SF Mode profile.
-{{n4end}}
+=== [[:Category:Suppressive Fire | Suppressive Fire (SF) ]] ===
+This weapon allows the user to enter [[Suppressive Fire State]], substituting its usual profile with the SF Mode profile.
 
-=== Targetless ===
-{{update | PDF 2.1, July 2023}}
-This weapon utilizes a Special Ammunition capable of firing without designating an enemy as a target. {{erratahighlight}}In the Reactive Turn, LoF to the Active Trooper is required when using a Targetless weapon.{{erratahighlight-end}}
-{{update-end}}
+=== [[:Category:Target (Attribute) | Target (Attribute) ]] ===
+This weapon or piece of Equipment is only effective against targets with the [[Attribute]] indicated between brackets, either [[VITA]] or [[STR]]. If the target does not have the indicated Attribute, they do not need to make the [[Saving Roll]], as this weapon or piece of Equipment has no effect on them. 
 
-{{n4}}
-=== Technical Weapon ===
-This weapon can make [[BS Attack]]s, but uses the [[WIP]] Attribute in place of [[BS]]. When using this weapon, consider all rules and MODs that would affect the trooper's BS as affecting his WIP Attribute instead. However, the BS Attack (Shock) Skill and [[Fireteam]] Bonuses cannot be applied when using a Technical Weapon.
+=== [[:Category:Targetless | Targetless ]] ===
+This weapon utilizes a Special [[Ammunition]] capable of firing without designating an enemy as a target. In the [[Reactive Turn]], [[LoF]] to the Active Trooper is required when using a Targetless weapon.
 
-=== Throwing Weapon ===
-This weapon can make [[BS Attack]]s, but uses the [[PH]] Attribute in place of [[BS]]. When using this weapon, consider all rules and MODs that would affect the trooper's BS as affecting his PH Attribute instead.
-{{n4end}}
-
-=== Zone of Control (ZC) ===
+=== [[:Category:Zone of Control | Zone of Control (ZoC) ]] ===
 The range of this weapon or piece of Equipment is equivalent to the user's [[Zone of Control]] (8 inches).
 
 
-== FAQs & Errata ==
-
-{{faqbox |
-type = faq |
-title = N4 FAQ |
-version = 1.0, Jan 2021 |
-q = Q: How does Bioimmunity interact with Ammunition and Traits that reduce the Saving Roll Attribute, for example AP or E/M Ammunition, or ARM=0? |
-a = A: AP Ammunition is tied to the Saving Roll Attribute listed in a weapon’s profile. If Bioimmunity is used to make the Saving Roll against a different Attribute, that Attribute will not be halved.
-In the same way, if Bioimmunity is used against a hit by E/M Ammunition to make the Saving Rolls against ARM, the ARM value will not be halved.
-The ARM=0 Trait only applies if the Saving Roll is made against the ARM Attribute, and vice-versa for the BTS=0 Trait. |
-related = [[Armor Piercing (AP) Ammunition]], [[Bioimmunity]], [[Electromagnetic (E/M) Ammunition]], [[Traits]] }}
 
 
-{{faqbox |
-type = faq |
-title = N4 FAQ |
-version = 1.2, Jan 2022 |
-q = Q: Is it possible to use the Speculative Attack Trait while making a BS Attack (Guided)? |
-a = A: No. |
-related = [[BS Attack]], [[Traits]] }}
-
-
-{{faqbox |
-type = faq |
-title = N4 FAQ |
-version = 1.1.1, Dec 2021 |
-q = Q: How does the Disposable Trait interact with Burst values higher than 1? |
-a = A: Each additional Burst uses up a Disposable use. For example, a Trooper with a Panzerfaust (a two- use weapon with B 1) and BS Attack (+1B) must make an attack with B 2, consuming in a single Order the two projectiles available in the Panzerfaust, so the Panzerfaust will be unloaded and the player must place an Unloaded Token next to the Trooper. |
-related = [[Skills and Equipment in Infinity]], [[Traits]] }}
-
-
-{{faqbox |
-type = faq |
-title = N4 FAQ |
-version = 1.1.1, Dec 2021 |
-q = Q: How does Protheion interact with Coup de Grâce, and with the State: Dead Trait? |
-a = A: In both situations, the target passes to Dead State and the Protheion user counts as inflicting a single Wound. |
-related = [[CC Attack]], [[Melee Weapon Profile]], [[Protheion]], [[Traits]] }}
-
-
-{{faqbox |
-type = faq |
-title = N4 FAQ |
-version = 1.1.1, Dec 2021 |
-q = Q: Can a Non-Lethal Attack against a target with Immunity (Total) be a Face to Face Roll? For example if using a Flash Pulse against a Dog Warrior. |
-a = A: Yes. It is a Face to Face Roll - Immunity (Total) doesn't take effect until you've been hit, which is after you've made the Face to Face Roll. |
-related = [[Immunity]], [[Traits]] }}
-
-
-{{faqbox |
-type = faq |
-title = N4 FAQ |
-version = 1.3, Nov 2022 |
-q = Q: Does Double Shot work in ARO? |
-a = A: No. |
-related = [[Traits]] }}
-
-
-{{section-glossary}}
+{{n5-section-glossary}}
 
 
 
 [[Category: Glossary]]
-[[Category: N4 Annex]]

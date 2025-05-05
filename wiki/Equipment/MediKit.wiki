@@ -1,46 +1,42 @@
-{{section-equipment}}
+{{n5-section-equipment}}
 
 
 Special piece of Equipment that allows other Models to regain consciousness.
 
-{{skillbox |green| MEDIKIT | SHORT SKILL }}
+{{css_skillbox |black| MEDIKIT | SHORT SKILL }}
 {{skill-label | Non-Lethal }}
 {{requirements}}
-* A MediKit's '''target''' must be an '''Allied Model''' in '''Unconscious '''State, unless certain scenario rules say otherwise. 
+* A MediKit's target must be an [[Allied]] Model with the [[VITA]] Attribute and in [[Unconscious State]], unless certain scenario rules say otherwise.
 * A MediKit can be used in one of two ways, each one with their own Requirements:
-** To use it '''remotely''', the user must have [[LoF]] to the target. 
-** To use it as a piece of contact equipment, the user must be in '''[[Silhouette]] contact''' with the target. 
+** To use it remotely, the user must have [[LoF]] to the target.
+** To use it as a piece of contact equipment, the user must be in [[Silhouette contact]] with the target.
+
 {{effects}}
-* Used remotely, a MediKit is considered a Non-Lethal [[BS Weapon]]. If the user passes a [[BS Attack]] Roll, applying the corresponding [[MODs]] (for [[Range]], [[Cover]], etc.), the target will perform a single '''PH''' Roll.
-* A MediKit can also be used in [[Silhouette]] contact. To do so, the user must spend one Short Skill, without the need for a Roll, and their target will perform a '''[[PH]]''' Roll.
-* In both cases, '''by passing the [[PH]] Roll''', the target's [[Unconscious]] State is cancelled, by recovering a single point of their Wounds Attribute. If '''the PH Roll is failed''', the target automatically enters the [[Dead]] State and is removed from the game table. 
-* A MediKit's target does not perform a [[Saving Roll]]. 
-* By using a MediKit, a Trooper may be recovered from the Unconscious State as many times as necessary, as long as they pass the corresponding '''[[PH]]''' Roll. 
-{{c1}}
-* If, due a Special Skill or rule, a Trooper receives more than one successful hit or use of MediKit during the same Order, if any of the corresponding '''[[PH]]''' Rolls is failed, the Trooper automatically enters the [[Dead]] State. Even if the Trooper passes every '''[[PH]]''' Roll, they will only recover a single point of their [[Wounds]] Attribute. 
-{{c1end}}{{n4list}}
-* If, due a Special Skill or rule, a Trooper receives more than one successful hit or use of MediKit during the same Order, if any of the corresponding '''[[PH]]''' Rolls is successful, the Trooper automatically cancel [[Unconscious State]]. Even if the Trooper passes every '''[[PH]]''' Roll, they will only recover a single point of their [[Wounds]] Attribute. 
-{{n4end}}
+* Used remotely, a MediKit is a Non-Lethal BS Weapon. If the user passes a [[BS Attack]] Roll, applying the corresponding MODs (for [[Range]], [[Cover]], etc.), the target performs a single [[PH]] Roll.
+* A MediKit can also be used in [[Silhouette contact]]. To do so, the user must spend one Short Skill without needing a Roll, and their target performs a PH Roll.
+* In both cases, by passing the PH Roll, the target may remove one [[Wound]] and cancel their [[Unconscious State]]. If the PH Roll is failed, the target automatically enters [[Dead State]] and is removed from the game table.
+* The target of a MediKit does not perform a [[Saving Roll]].
+* A MediKit can be used as many times as necessary to cancel a Trooper's Unconscious State, as long as they pass the corresponding PH Roll.
+* If, due to a Special Skill or rule, a Trooper receives more than one successful hit or use of MediKit during the same Order, if any of the corresponding PH Rolls is successful, the Trooper removes a Wound and cancels their Unconscious State. In this case, even if the Trooper passes every PH Roll, they only remove one single Wound.
+{{css_skillbox-end}}
 
 
-{{weapon}}
-{{weaponrow|MediKit|+3|0|-6|--|--|--|--|-|1|-|-|[[Non-Lethal]], [*see above]}}
+{{n5_weapon_single}}
+{{n5_weaponrow|MediKit|+3|0|-6|--|--|--|--|--|1|--|--|--|[[Non-Lethal]], [***]}}
 |}
 
 
-== FAQs & Errata ==
-
-{{faqbox |
-type = faq |
-title = N4 FAQ |
-version = 1.3, Nov 2022 |
-q = Q: What happens if a Trooper loses and gains points of W/STR or has States inflicted and cancelled simultaneously? For example, if an Engineer cancels a Trooper's IMM-A State at the same time as the Trooper is hit by a Riotstopper. |
-a = A: Apply the positive effect to the Trooper first. Then apply the negative effect. For example, make the Engineer's WIP Roll to cancel the Trooper's IMM-A State, then make the PH-6 Saving Roll against the Riotstopper's PARA ammunition. This can result in the original IMM-A State being cancelled and a new State being inflicted. |
-related = [[Doctor]], [[Dodge]], [[Engineer]], [[GizmoKit]], [[MediKit]], [[Protheion]], [[Reset]] }}
+{{see-also-start}}
+'''[[GizmoKit]]s''' work on Models with the [[STR]] Attribrute.
+{{see-also-end}}
 
 
-{{section-equipment}}
+
+{{n5-section-equipment}}
 
 
 
 [[Category:Equipment]]
+
+<!-- Label and Trait categories. -->
+[[Category: Non-Lethal ]]

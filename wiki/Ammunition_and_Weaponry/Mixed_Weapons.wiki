@@ -1,25 +1,38 @@
-{{section-ammo-and-weaponry}}
+{{n5-section-ammo-and-weaponry}}
 
 
-{{n4only}}
-{{n4}}
-These are ranged weapons with Range MODS, while also having the CC Trait and, therefore, have a Melee Weapon Mode as well as a BS Weapon Mode.
+These weapons can be used as both BS Weapons and CC Weapons, so they have two different Modes.
 
-== CC Throwing Weapon ==
+* In CC Weapon Mode it:
+** Uses the Trooper's CC Attribute. 
+** Has the [[CC Trait]]. 
+** Is a CC Weapon for all purposes.
+* In BS Weapon Mode it:
+** Uses the Trooper's BS Attribute. 
+** Has Range MODs.
+** Is a BS Weapon for all purposes. If the weapon uses an Attribute other than BS to make BS Attacks, this will be listed in its Traits.
 
-The various types of CC Throwing Weapon are CC Weapons with two usage modes.
 
-Throwing Mode uses the [[PH]] Attribute to make [[BS Attack]]s. Weapons used in this Mode are considered BS Weapons for all intents and purposes. On the other hand, CC Mode uses the [[CC]] Attribute to make [[CC Attack]]s in Close Combat.
-
-== Trench-Hammer ==
-{{weapon}}
-{{weaponrow|Trench-Hammer (Thrown Mode)|0|--|--|--|--|--|--|13|1|DA|ARM|[[Anti-materiel]], [[Throwing Weapon]], [[Disposable (3)]], [*see above]}}
-{{weaponrow|Trench-Hammer (CC Mode)|--|--|--|--|--|--|--|PH|1|DA|ARM|[[Anti-materiel]], [[CC]], [[Disposable (3)]], [*see above]}}
+{{n5_weapon_single}}
+{{n5_weaponrow|[[Trench-Hammer]] (BS Mode)|0|--|--|--|--|--|--|6|1|DA|ARM|2|[[Anti-materiel]], [[BS Weapon (PH)]], [[Disposable (3)]], [*]}}
+{{n5_weaponrow|[[Trench-Hammer]] (CC Mode)| | | | | | | |6|1|DA|ARM|2|[[Anti-materiel]], [[CC]], [[Disposable (3)]], [*]}}
+{{n5_weaponrow|[[Mixed Weapons | Kobra Pistol]] (BS Mode)|+3|0|-6|--|--|--|--|7|2|N|ARM|1|[*]}}
+{{n5_weaponrow|[[Mixed Weapons | Kobra Pistol]] (CC Mode)| | | | | | | |7|1|SHOCK|ARM|1|[[CC]], [*]}}
 |}
 
 
-{{n4end}}
-
+{{see-also-start}}
+* '''[[Ranged Weapon Profile]]'''
+* '''[[Melee Weapon Profile]]'''
+* '''[[Weapon Chart]]'''
+* '''[[Alternative Weapon Chart]]'''
+{{see-also-end}}
 
 
 [[Category: Ammunition and Weaponry]]
+
+<!-- Manually added categories. -->
+[[Category:Anti-materiel]]
+[[Category:BS Weapon (PH)]]
+[[Category:CC]]
+[[Category:Disposable]]

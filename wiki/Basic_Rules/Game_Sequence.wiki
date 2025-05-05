@@ -1,24 +1,17 @@
-{{Section-basic-rules}}
+{{n5-section-basic-rules}}
 
 
 == Game Round ==
-Infinity games are divided into Game Rounds, or 'Rounds', during which both players have the chance to take an active role. This means each Round is divided into two Player Turns, or 'Turns', one for each player. 
+Infinity games are divided into Game Rounds, or '''Rounds''', during which both players have the chance to take an active role. This means each Round is divided into two Player Turns, or '''Turns''', one for each player.
 
-At the start of a Round, a new Player Turn begins, following the turn order determined during the [[Initiative_and_Deployment#Initiative_Roll | Initiative Phase]]. 
+At the start of a Round, a new Player Turn begins, following the turn order determined during the [[Initiative_and_Deployment | Initiative Phase]].
 
-{{image | name=eng-game-sequence-1024.jpg | style=512 }}
+{{image | name=eng-game-sequence-1024.jpg | style=full }}
+
 
 == Player Turn ==
-During each Turn there is an '''Active Player''' and a '''Reactive Player'''. The Active Player can activate his Troopers and execute actions, while the Reactive Player can react to the activation of the Active Player's Troopers (see [[Orders_and_the_Order_Pool#ARO:_Automatic_Reaction_Order|ARO: Automatic Reaction Order]]).
-Each Player Turn is divided into these steps:
-{{c1}}
-# Start of the Turn: Tactical Phase 
-## Order Count 
-# Orders Phase 
-# States Phase 
-# End of the Turn
-{{c1end}}
-{{n4}}
+During each Turn there is an Active Player and a Reactive Player. The Active Player can activate his Troopers and execute actions, while the Reactive Player can react to the activation of the Active Player’s Troopers (see [[ARO: Automatic Reaction Order]]).
+
 # Start of the Turn: Tactical Phase
 ## Executive Use of Command Tokens
 ## Retreat! Check
@@ -28,85 +21,86 @@ Each Player Turn is divided into these steps:
 # Orders Phase
 # States Phase
 # End of the Turn 
-{{n4end}}
 
 
 == Start of the Turn: Tactical Phase ==
 The Tactical Phase is the step when the Active Player makes a series of quick checks before they start activating their Troopers.
 
-{{n4}}
 ===Executive Use of Command Tokens===
-
 The Active Player may make Executive Use of their [[Command Token]]s.
 
 ===Retreat! Check===
-
-The Active Player counts his [[Victory Points]] to see if he enters a [[Retreat! situation]].
+The Active Player counts his [[Victory Points]] to see if he enters a [[Retreat Situation | Retreat! situation]] (see [[Triumph and Defeat Module | End-Game Conditions]]).
 
 ===Loss of Lieutenant Check===
-
 The Active Player checks whether he is in [[Loss of Lieutenant]].
-{{n4end}}
 
 === Order Count ===
-The Active Player counts how many Orders he has at his disposal for this Turn, by counting the number, type and States of his Troopers. 
+The Active Player counts how many [[Orders]] he has at his disposal for this Turn, by counting the number, type and [[States]] of his Troopers. 
 
 ==== Regular Orders ====
 {{image | name=eng-regular-order-512.jpg | style=128 }}
 
-For each [[Regular]] Trooper deployed on the table, as a Model or Marker, that is not in a Null State ([[Unconscious]], [[Dead]]…), the Active Player adds one Regular Order to his [[Order Pool]].
+For each [[Regular]] Trooper deployed on the table, as a Model or Marker, that is not in a [[Null]] State ([[Unconscious]], [[Dead]]…), the Active Player adds one Regular Order to the corresponding [[Order Pool]].
 
-{{n4}}
 ==== Irregular Orders ====
 {{image | name=eng-irregular-512.jpg | style=128 }}
 
-Then, for each Irregular Trooper deployed on the table, as a Model or Marker, that is not in a Null State, the Active Player places an Irregular Order Token on the table, making it clear which [[Combat Group]] the Irregular Order belongs to.
-{{n4end}}
+For each [[Irregular]] Trooper deployed on the table, as a Model or Marker, that is not in a [[Null]] State, the Active Player places an Irregular Order Token on the table, making it clear which [[Combat Group]] it belongs to.
 
 ==== Lieutenant Special Order ====
 {{image | name=eng-lieutenant-order-512.jpg | style=128 }}
 
-If the Active Player has a [[Lieutenant]] deployed on the table in a non-[[Null]] state, the player places the Special Lieutenant Order in a visible place.
+If the Active Player has a [[Lieutenant]] deployed on the table, as a Model or Marker, that is not in a [[Null]] State, the Active Player places the Special Lieutenant Order in a visible place.
 
-{{n4}}
+==== Tactical Order ====
+{{image | name=tactical-order-512.png | style=128 }} 
+
+For each Trooper with [[Tactical Awareness]] deployed on the table, as a Model or Marker, that is not in a [[Null]] State, the Active Player places a Tactical Order on the table, next to the Trooper.
+
+
 {{remember-start}}
-Each Combat Group has its own independent Order Pool and Irregular Orders.
+Each [[Combat Group]] has its own independent [[Order Pool]], [[Irregular Order]]s, and [[Tactical Order]]s.
 {{remember-end}}
-{{n4end}}
 
 
 {{remember-start}}
-Orders of Troopers that have yet to deploy on the table as Models or Markers (for example, due to the [[Combat Jump]] Special Skill) do not contribute to their Order Pool. Undeployed Troopers' Orders are [[Open and Private Information|Private Information]], so their player can keep their Orders secret and out of sight of the opponent.
-{{remember-end}}
- 
+'''Troopers that have yet to be deployed''' on the table as Models or Markers (for example, due to the [[Combat Jump]] Special Skill) '''do not contribute their [[Order]] to the [[Order Pool]]'''. Undeployed Troopers' Orders are [[Private Information]], so their player can keep their Orders secret and out of sight of the opponent.
 
-{{n4}}
+{{see-also-start}}
+* [[Hidden Deployment]]
+* [[Parachutist]]
+{{see-also-end}}
+{{remember-end}}
+
+
 == Impetuous Phase ==
 {{image | name=dual-impetuous-512.png | style=128 }}
 
 During this phase, the Active Player may activate each Trooper with the [[Impetuous]] Special Skill once, without spending an Order.
-{{n4end}}
 
 
 == Orders Phase ==
-This is the main phase of the Player Turn, when the Active Player gets to use her Order Pool{{n4inline}}, Irregular Orders,{{n4inline-end}} and the Lieutenant Special Order to activate her Troopers. The Active Player has no obligation to expend all Orders. However, unused Orders 'cannot' be reserved for subsequent Turns, and are lost.
+This is the main phase of the Player Turn, when the Active Player gets to use their [[Order Pool]], [[Irregular Order]]s, [[Tactical Order]]s, and the [[Lieutenant Special Order]] to activate their Troopers. The Active Player has no obligation to expend all Orders. However, unused Orders cannot be reserved for subsequent Turns and are lost.
 
 
 == States Phase ==
-Once the Active Player runs out of Orders, or decides not to use the remaining ones, both players will carry out any checks for those States or Skills that require it. These rolls do not generate AROs. 
+Once the Active Player runs out of Orders, or decides not to use the remaining ones, both players will carry out any checks for those [[States]] or [[Skills]] that require it. These rolls do not generate AROs.
 
-All Order Tokens still on the table are removed. 
+{{see-also}}
+Items with the '''[[:Category:States_Phase | States Phase Label]]'''.
+{{see-also-end}}
+
+
+All Order Tokens still on the table are removed.
 
 
 == End of the Turn ==
 Once all checks are made, the Active Player Turn ends.
 
 
-{{Section-basic-rules}}
 
-
-
-
+{{n5-section-basic-rules}}
 
 
 

@@ -1,119 +1,89 @@
 {{section-main-sections}}
-{{section-combat-module}}
+{{n5-section-combat-module}}
 
-
-== [[Combat Module Intro]] ==
 
 In Infinity, combat allows Troopers to perform Attacks. There are three kinds of [[Attacks]]: Ballistic Skills (BS), Close Combat (CC) and Quantronic Combat (Hacking). This section details every rule necessary to resolve Attacks.
 
-[[Ballistic Skills|BS]], [[Close Combat|CC]], or [[Hacking]] combat takes place within the normal [[Order Expenditure Sequence]] and it is based on the different Rolls in Infinity. [[Combat Module Intro| [read more...] ]]
+[[Ballistic Skills|BS]], [[Close Combat|CC]], or [[Hacking]] combat takes place within the normal [[Order Expenditure Sequence]] and it is based on the different Rolls in Infinity.
 
 
-== [[Damage]] ==
-In Infinity, Damage is the capacity of a weapon, Attack, Special Skill, piece of Equipment, Hacking Program, etc. to harm or impair its target. The Damage value, represented by a number, is indicated on the weapon's profile or in the rules for the specific Special Skill, Equipment, etc. [[Damage| [read more...] ]]
+== Types of Weapon ==
+Each weapon in Infinity has its own game profile, and some of them have special rules that are explained in the [[Ammunition and Weaponry]] chapter. This rulebook also contains a [[Weapons Chart]] for you to refer to during games.
+
+Weapons in Infinity are divided as follows:
+
+* '''[[BS Weapon]]s''': Those weapons having Ranges and Range MODs or using a Template to affect an area of the game table.
+* '''[[Melee Weapon]]s''': Close-quarters weapons and those that can only be used in CC and possess the [[CC Trait]].
+* '''[[Mixed Weapons]]''': Those weapons having Ranges and Range MODs but also the CC Trait. So, they have a Use Mode as a Melee Weapons and another Use Mode as a BS Weapon
+* '''[[Deployable Weapon]]s''': Those weapons that can be placed on the game table whereupon they become an independent element. They possess the [[Deployable]] Weapon Trait.
+* '''[[BS Weapon (PH) | BS Weapons (PH)]]''': These weapons are BS Weapons but are used with the PH [[Attribute]] instead of BS. When using these weapons, any rules or MODs that apply to BS Attacks or to the BS Attribute are applied to the PH Attribute instead. These weapons have the BS Weapons (PH) Trait.
+* '''[[BS Weapon (WIP) | BS Weapons (WIP)]]''': These weapons are BS Weapons but are used with the WIP Attribute instead of BS. When using these weapons, any rules or MODs that apply to BS Attacks or to the BS Attribute are applied to the WIP Attribute instead. These weapons have the BS Weapons (WIP) Trait. The BS Attack ([[Shock]]) Skill cannot be combined with these weapons.
+
+== Burst (B) ==
+In Infinity, when a Trooper performs an Attack during their Active Turn they must roll as many dice as indicated by their Weapon, Skill or piece of Equipment.
+
+During their Active Turn, Troopers must use their '''full Burst (B) value''' including all Modifiers (MODs). However, MODs from Skills and Equipment with the [[Optional]] Label, such as the [[Fireteam Bonuses | Fireteam Burst Bonus]], do not have to be applied during the Active or Reactive Turn.
+
+When declaring the Attack, the player must specify:
+* The [[Weapon]], [[Equipment]], or [[Special Skill]] that they will use.
+* The way they will divide the Burst (B) of the Weapon, Equipment, or Special Skill between one or more targets. In this situation, all the Attacks must be declared from the same point.
+* Additionally, if the Weapon, Equipment, or Special Skill has different types of [[ammunition]] or options, the player must then declare which one they will use.
+
+If, during the [[Resolution]] of the Order, it is verified that some of the dice of the Burst (B) assigned to a target do not meet the necessary Requirements, then those dice will be lost. The rest of the dice of the B that do meet the Requirements will be resolved normally.
 
 
-=== [[Saving Rolls]] ===
-Saving Rolls work like any other Roll in the Infinity game mechanics. 
-
-Impacts generally cause the target to lose one [[Wound]]/[[STR]] Attribute point when the '''result of the Saving Roll is equal or less than the Attack Damage'''. In these cases, the Trooper suffers Damage, and their Attribute profile and States may be affected. [[Saving Rolls| [read more...] ]]
+== Burst During the Reactive Turn (ARO) ==
+In [[ARO]], the B value is always reduced to 1; however, some rules or Special Skills can modify this value. If the target declared [[Move]] plus any Short Skill or Basic Short Skill, the Reactive Player may declare the ARO at any point along the Active Trooper’s movement.
 
 
-=== [[Wounds and Structure]] ===
-
-Unless otherwise specified, each successful hit reduces the [[Wounds]]/[[STR]] Attribute of the target of the [[Attack]] by 1 point. When this happens, place a Wound Token (WOUND) next to the Trooper. Use the numbers on the Tokens to indicate the number of [[Wounds]]/[[STR]] points the Trooper has lost so far. If the Trooper has lost enough [[Wounds]]/[[STR]] points to fall [[Unconscious]], use an [[Unconscious]] State Token (UNCONSCIOUS) instead. [[Wounds and Structure| [read more...] ]]
-
-
-=== [[Unconscious]]ness and [[Dead|Death]] ===
-
-If the value of the [[Wounds]]/[[STR]] Attribute of a Trooper reaches 0, then that Trooper enters the [[Unconscious]] state.
-
-However, if the [[Wounds]]/[[STR]] Attribute falls below 0, the Trooper enters the [[Dead]] state.
+== Modifiers (MOD) ==
+Both during the Active and Reactive Turns, there may be Modifiers ([[MODs]]) that affect the Burst (B). They are applied when declaring the Attack. There are also MODs to the Attack Rolls, which are applied in the [[Resolution]] step of the Order. These MODs are explained in the sections for their respective Types of Combat ([[Ballistic Skills|BS]], [[Close Combat|CC]], or [[Hacking]]).
 
 
-{{n4}}
-=== [[Guts Rolls]] ===
-When Troopers survive a successful Attack, it means their body armor took the brunt of the impact, keeping them from serious injury. This triggers a primal fear of death, and survival instincts kick in. The Troopers' survival instincts can force them to recoil from danger and dive for cover.  [[Guts Rolls | [read more...]]]
-{{n4end}}
+{{see-also}}
+'''[[Modifiers Explained]]'''
+
+{{Modifiers-explained}}
+{{see-also-end}}
 
 
-== [[Ballistic Skills]] (BS) ==
-Ranged combat and firefights are the foundation of modern warfare and play an equally pivotal role in Infinity. [[Ballistic Skills| [read more...] ]] 
+== Attack Roll ==
+Once all MODs have been established, players perform the [[BS Attack]], [[CC Attack]], or [[Hacking]] Rolls using the corresponding [[Attribute]] which, as a general—but not exclusive—rule, is [[BS]], [[CC]], [[PH]], or [[WIP]]. The order in which the Attack Rolls are performed is irrelevant.
 
 
-=== [[BS Attack]] ===
-Common Skill employed to attack in ranged combat using a BS Weapon or another suitable weapon or piece of Equipment. [[BS Attack| [read more...] ]]
+== Normal Roll ==
+If the Skill declared by the target does not affect the outcome of the Attack, the attacker can make a [[Normal Roll]] (see [[Rolls]]).
+
+The player performs as many Rolls as indicated by the Burst (B) value assigned to each target.
 
 
-=== [[Template Weapons and Equipment]] ===
+== Face to Face Roll ==
+If the Skill declared by the target does affect the outcome of the Attack (for example declaring a [[BS Attack]]), then a [[Face to Face Roll]] is made (see [[Face to Face Rolls]]).
 
-[[BS Weapons]] and Equipment that use a Template have an [[Area of Effect]] that affects not only the main target, but also an area of the game table determined by the size of the Template. [[Template Weapons and Equipment| [read more...] ]]
-
-
-{{n4}}
-=== [[Speculative Attack]] ===
-This Common Skill allows the user to execute a BS Attack against a target outside LoF or, if he has a suitable weapon, to choose a location other than the target as the center of the attack. [[Speculative Attack | [read more...] ]]
+Both players make one Roll for each point of Burst they assigned to that target.
 
 
-=== [[Intuitive Attack]] ===
-Intuitive Attack represents those times when a soldier perceives movement through the corner of his eye and instinctively sprays the area with his weapon in the hopes of unearthing a hidden enemy. {{Intuitive Attack | [read more...] ]]
-{{n4end}}
+== Criticals ==
+A [[Critical]] is an automatic success. Unless otherwise specified, each Critical rolled in an Attack causes the target to make an additional [[Saving Roll]].
+
+If the Attack does not cause the target to make Saving Rolls, the effect of the Critical will be specified in the rules for that Attack, [[Ammunition]] etc.
 
 
-=== [[Ranged Weapon Profile]] (BS Weapons and Template Weapons) ===
-In Infinity, every Weapon has its own game profile and some of them even have special usage rules. This chapter describes how to read such a profile, and each Weapon is detailed individually in the [[Weapons Chart]]. The MULTI Rifle will be used as an example to explain how to read a BS Weapon profile. [[Ranged Weapon Profile| [read more...] ]]
+{{greybox-start}}
+Some weapons use certain Types of [[Ammunition]] capable of altering the effects of an Attack, causing more than one [[Saving Roll]] for each success, reducing the [[ARM]] or [[BTS]] of the target, etc. This can also alter the way Criticals work.
+
+The additional roll gained by scoring a [[Critical]] Hit will retain both the [[Attribute]] used to make the Saving Roll and the [[Traits]] of the weapon used in the attack.
+{{greybox-end}}
 
 
-== [[Close Combat]] (CC) ==
-Urban combat, attempting to take a building, or ship to ship space-boarding often occur in reduced spaces, which favors close combat with bladed weapons (knives, machetes, sabers, swords, claws, etc.) which we generically call Melee Weapons. [[Close Combat| [read more...] ]]
+{{remember-start}}
+In a [[Face to Face Roll]], [[Critical]]s always win, trumping any non-critical result rolled by the opponent. If both players roll one or more Criticals, the Face to Face Roll is a tie and both Troopers fail.
+{{remember-end}}
 
-
-=== [[CC Attack]] ===
-Skill that allows [[Close Combat]] fighting, striking an adversary in [[Silhouette]] contact. [[CC Attack| [read more...] ]]
-
-
-=== [[Engaged State]] ===
-The Trooper is in [[Silhouette]] contact with an Enemy Trooper, and neither are in a [[Null]] or [[Immobilized]] State. [[Engaged State| [read more...] ]]
-
-
-=== [[Melee Weapon Profile]] ===
-In Infinity, every Weapon has its own game profile and some of them even have special usage rules. This chapter describes how to read such a profile and details each Weapon individually. The CC Weapon will be used as an example to explain how to read a Melee Weapon profile. [[Melee Weapon Profile| [read more...] ]]
-
-
-== [[Quantronic Combat (Hacking)]] ==
-In Infinity, infowar and cyberwarfare tasks, defined as Hacking, falls upon the Hackers’ shoulders, those Troopers equipped with Hacking Devices. [[Quantronic Combat (Hacking)| [read more...] ]]
-
-
-{{c1}}
-=== [[Hacker]] ===
-Hackers are equipped with a Hacking Device that allows them to use Hacking Programs, according to the type of Hacking Device they carry. [[Hacker| [read more...] ]]
-
-
-=== [[Carbonite]] ===
-The target may only be an enemy Trooper with the [[Hackable]] Characteristic (HI, TAG, REM... or an enemy [[Hacker]]).
-In the [[Active Turn]], this Program's [[Burst]] of 2 allows the user to perform two WIP Rolls, which can be distributed among one or more targets as usual. [[Carbonite| [read more...] ]]
-
-
-=== [[Immobilized-B State]] ===
-The Trooper suffered a successful Attack or Effect using an [[Ammunition]], [[Hacking Program]] or a game condition or Scenario Special Rule, capable of causing this state. 
-Troopers in Immobilized-B State cannot declare any Skill, Attack or ARO, except [[Reset]] applying a -3 [[WIP]] [[MOD]]. [[Immobilized-B State| [read more...] ]]
-
-
-=== [[Spotlight]] ===
-The target of this Hacking Program does not need to have the [[Hackable]] Characteristic.
-This Program has a Burst of 1, allowing the user to perform one [[WIP]] Roll against the target, in the Active and Reactive Turns. [[Spotlight| [read more...] ]]
-
-
-=== [[Targeted State]] ===
-The Trooper suffered a successful Attack or Effect using an [[Ammunition]], or a game condition or Scenario Special Rule, capable of causing this state.
-Any Trooper declaring a [[BS Attack]], [[Hacking Program]] or [[Comms Attack]] against a Trooper in the Targeted State gains a '''+3 [[MOD]]''' to the Attribute used to perform that [[Attack]].  [[Targeted State| [read more...] ]]
-{{c1end}}{{n4}}
-See the [[Quantronic Combat (Hacking)]] subsection for full details.
-{{n4end}}
 
 
 {{section-main-sections}}
-{{section-combat-module}}
+{{n5-section-combat-module}}
 
 
 

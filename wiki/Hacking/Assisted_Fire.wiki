@@ -1,39 +1,39 @@
-{{section-hacking}}
+{{n5-section-hacking}}
 
-
-{{n4only}}
-{{n4list}}
 
 {{image | name=sup-assited_fire0.jpg | style=128 }} 
 
-{{skillbox |red| ASSISTED FIRE | ENTIRE ORDER }}
-{{skill-label | Supportware, No Roll. }}
-{{Requirements}}
-* The target must be a [[REM]] from the same Army List as the user, and must be inside the user's [[Hacking Area]].
+{{css_skillbox |red| ASSISTED FIRE  | LONG SKILL }}
+{{skill-label | Supportware, No Roll.  }}
+{{requirements}}
+* The target must be a [[REM]] from the same [[Army List]] as the user, and must be inside the user's [[Hacking Area]].
 {{effects}}
-
-* Assisted Fire grants the target REM the [[Marksmanship]] Special Skill.
+* Assisted Fire grants the target [[REM]] the [[Marksmanship]] Special Skill.
 * When the user activates this Program, which does not require a Roll, place an Assisted Fire Token (SUP: ASSISTED FIRE) beside the user and beside the REM.
-* Once activated, this Program's range covers the entire game table
+* Once activated, this Program's range covers the entire game table.
+{{css_skillbox-end}}
 
 
-{{n4-hacking-header}}
-{{hackingrow | [[Assisted Fire]] | -- | -- | -- | -- | REM | Entire Order | Target gains [[Marksmanship]].}}
+{| class="n5table-dark
+|-
+! Name !! Attack MOD !! Opp. MOD !! PS !! Burst !! Target !! Skill Type !! Special
+|- 
+| [[Assisted Fire]] || -- || -- || -- || -- || REM || Long Skill || Target Model gains [[Marksmanship]].
 |}
 
 
-{{remember-start}}
-{{update | PDF 2.1, July 2023}}
-* {{erratahighlight}}A Supportware Program is automatically cancelled if the target of the Supportware is targeted by a new Supportware Program, or if the Hacker running the Program enters [[Isolated]] State or any [[Null]] States.{{erratahighlight-end}}
-{{update-end}}
-{{original}}
-* {{originalhighlight}}[[Labels|Supportware]] is automatically cancelled if the [[Trooper]] or [[Troop Type]] that benefits from the Supportware becomes targeted by a new Supportware Program, or the Hacker that is running it becomes [[Isolated]] or enters a [[Null]] State.{{originalhighlight-end}}
-{{original-end}}
-{{remember-end}}
+{{supportware}}
 
-{{n4end}}
+
+
+{{n5-section-hacking}}
+
 
 
 
 
 [[Category: Hacking]]
+
+<!-- Label and Trait categories. -->
+[[Category: Supportware ]]
+[[Category: No Roll ]]

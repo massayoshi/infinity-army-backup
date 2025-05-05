@@ -1,0 +1,42 @@
+{{n5-section-combat-module}}
+{{n5-section-common-skills}}
+
+
+Skill that allows [[Close Combat]] fighting, striking an adversary in [[Silhouette contact]].
+
+{{css_skillbox |greenyellow| CC ATTACK | SHORT SKILL / ARO }}
+{{skill-label | Attack }}
+{{requirements}}
+* Be using a [[Melee Weapon Profile | Melee Weapon]], a [[Skill]], or piece of [[Equipment]] that allows for a CC Attack.
+* Be in [[Silhouette contact]] with an [[enemy]] [[Model]] or [[Target]].
+
+{{effects}}
+* Allows use of the [[CC]] [[Attribute]] to fight in Close Combat (CC).
+* By declaring a CC Attack, Troopers may only use those Weapons with the [[CC Trait|CC Trait]].
+* If a Trooper has several targets and a '''[[Burst]]''' value that is higher than 1, the player must clarify how they are dividing the Burst when declaring the CC Attack.
+* In the [[Resolution]] step, check which MODs to apply, and make the CC Attack Rolls using the corresponding Attribute.
+* For each success obtained in CC Attack Rolls, the target must perform a [[Saving Roll]] (see [[Possibility of Survival (PS)]]).
+
+=== Coup de Gr&acirc;ce ===
+* '''Coup de Gr&acirc;ce''': When declaring the CC Attack, if the [[Enemy]] [[Target]] is in [[Unconscious State]] (including if it is represented by a Shasvastii-Embryo Token), then, without needing to perform a roll, the target automatically goes from Unconscious to [[Dead State]] without the possibility of making a [[Saving Roll]].<br>Coup de Gr&acirc;ce cannot be used against a Trooper who has activated the '''[[Dogged]]''' or '''[[No Wound Incapacitation]]''' Special Skill. Therefore, the CC Attack is resolved normally.
+{{css_skillbox-end}}
+
+
+{{see-also-start}}
+'''[[Modifiers Explained]] Examples'''
+* '''CC Attack (-3)''' means that, when the user declares CC Attack, their targets apply a -3 MOD to any [[Face to Face Rolls]].
+* '''CC Attack (SR-1)''' means that, when the user declares CC Attack, their targets apply a -1 MOD to their [[Saving Rolls]] against the user's hits.
+* '''CC Attack (Shock)''' means that the user adds [[Shock Ammunition]] to all their CC Attacks.
+* '''CC Attack (Continuous Damage)''' means that the user applies the [[Continuous Damage]] Trait to all their CC Attacks.
+{{see-also-end}}
+
+
+{{n5-section-combat-module}}
+{{n5-section-common-skills}}
+
+
+[[Category: Combat Module]]
+
+
+<!-- Label and Trait categories. -->
+[[Category: Attack ]]

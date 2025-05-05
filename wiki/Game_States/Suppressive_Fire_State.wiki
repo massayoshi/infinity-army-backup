@@ -1,49 +1,38 @@
-{{section-game-states}}
-{{section-common-skills}}
+{{n5-section-game-states}}
 
-
-{{n4only}}
-{{n4list}}
 
 {{image | name=suppression_fire0.jpg | style=128 }}
 
-{{skillbox |black| SUPPRESSIVE FIRE | }}
+{{css_skillbox |black| SUPPRESSIVE FIRE STATE }}
 {{activation}}
-* The Trooper declared a [[Suppressive Fire]] Entire Order. 
+* The Trooper declared the [[Suppressive Fire]] [[Long Skill]].
 {{effects}}
-* Enemy Troopers within Suppressive Fire Range (0-24 inches) apply a -3 MOD to their Attribute in all Face to Face Rolls against a Trooper in Suppressive Fire State.
+* Enemy Troopers within Suppressive Fire Range (0-24 inches) apply a -3 MOD to their Attribute in all [[Face to Face Roll]]s against a Trooper in Suppressive Fire State.
 * While in Suppressive Fire State, the SF Mode profile replaces the selected weapon's usual BS Weapon profile. The SF Mode profile is the one that will be used while in Suppressive Fire State.
-* Suppressive Fire allows the affected Trooper to react in ARO with the full B3 value of the Suppressive Fire Mode. The full Burst must always be directed against a single target and cannot be divided between several active enemies (when reacting against a Coordinated Order, for example).
-* The SF Mode profile only alters the Range and B values of the weapon being used. The weapon's Damage, Ammunition etc. remains unchanged.
-* This State does not interfere with Automatic Special Skills or Automatic Equipment, which will remain functioning normally.
+* Suppressive Fire allows the affected Trooper to react in [[ARO]] with the full B3 value of the SF Mode. The full [[Burst]] must always be directed against a single target and cannot be divided between several active enemies (when reacting against a [[Coordinated Order]], for example).
+* The SF Mode profile only alters the [[Range]] and [[B]] values of the weapon being used. The weapon's PS, Ammunition, etc. remain unchanged.
+* This state does not interfere with Automatic Special Skills or Automatic Equipment, which will remain functioning normally.
+
 {{cancellation}}
-The Suppressive Fire state is automatically cancelled in any of these cases:
-* The Trooper declares an Order.
-* The Trooper declares any ARO other than a [[BS Attack]] using the SF Mode profile.
-* The Trooper uses a weapon that cannot be used for Suppressive Fire.
+Suppressive Fire State is automatically canceled in any of these cases:
+* The Trooper declares an [[Trooper Activation | Order]].
+* The Trooper declares any [[ARO]] other than a [[BS Attack]] using the SF Mode profile.
+* The Trooper uses a weapon that does not have the Suppressive Fire Trait.
 * The Trooper fails a [[Guts Roll]].
-* The Trooper enters [[Engaged]], [[Isolated]] or [[Retreat! State]], any [[Null]] or [[Immobilized]] State, or any other State which specifies that it cancels Suppressive Fire.
+* The Trooper enters [[Engaged]], [[Isolated]] or [[Retreat! State]], any [[Null]] or [[Immobilized State]], or any other State which specifies that it cancels Suppressive Fire.
 * The Trooper's army enters a [[Loss of Lieutenant]] situation.
-* The Trooper joins any kind of Infinity [[Fireteam]].
+* The Trooper joins any [[Fireteam]].
+{{css_skillbox-end}}
 
 
-{{weapon}}
-{{weaponrow|Suppressive Fire Mode|0|0|-3|--|--|--|--|*|3|*|*|}}
+{{n5_weapon_single}}
+{{n5_weaponrow|Suppressive Fire Mode|0|0|-3|--|--|--|--|*|3|*|*|*|[***]}}
 |}
 Note* Use original Weapon values. 
 
 
-== FAQs & Errata ==
 
-{{faqbox |
-type = faq |
-title = N4 FAQ |
-version = 1.0, Jan 2021 |
-q = Q: When making Strategic Use of a Command Token to place a Trooper in Suppressive Fire State, how does this interact with Marker States, nearby enemy Mines etc? |
-a = A: The Trooper has not declared an Order, and will not trigger enemy Deployable Weapons etc. However, any States, Fireteam membership etc. that would be cancelled by declaring a Suppressive Fire Entire Order will be cancelled. |
-related = [[Command Tokens]], [[Suppressive Fire State]] }}
-
-{{n4end}}
+{{n5-section-game-states}}
 
 
 

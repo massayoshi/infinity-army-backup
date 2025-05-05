@@ -1,4 +1,4 @@
-{{Section-basic-rules}}
+{{n5-section-basic-rules}}
 
 
 “Soldiers” in Infinity are called '''[[Trooper]]s''' and are grouped into Units belonging to each Army.
@@ -8,54 +8,64 @@ All members of a Unit have received the same training and have the same Attribut
 
 Example Of Different Units Belonging to O-12:
 
-{{image | name=eng-armyunits-o12-1024.jpg | style=512 }}
+{{image | name=n5/eng-unit-profile-army-units-1024.jpg | style=full }}
 
 
 Included below is the format for Unit Profiles, to help you become familiar with the terms, Attributes, and all the Profiles’ information. 
 
-{{c1}}
-{{image | name=eng-armyentry-1024.jpg | style=512 }}
-{{c1end}}
-{{n4}}
-{{image | name=eng-armyentry-n4-1024.jpg | style=512 }}
-{{n4end}}
+{{image | name=n5/eng-unit-profile-army-profile-orig.jpg | style=full }}
+
+# Common [[#Trooper Characteristics | Characteristics]] of the Unit.
+# International Standard Code.
+# [[#Attributes  | Attribute]]s.
+# Common [[Equipment]] and [[Special Skills]] for the Unit.
+# Name and different combinations of Special Skill, Equipment, and Weapons and the [[Cost]] for each Trooper.
+# [[Peripheral]].
 
 
-{{Greybox_Start}}
-In this Trooper Profile example we can see the Delta Unit has different options, each of them possessing different weapons and pieces of Equipment, and one that also includes a Yudbot-B, which is a Peripheral, a special category of Trooper, with the Delta as its Controller. 
-{{Greybox_End}}
+{{Greybox-start}}
+In this Trooper Profile example, we can see the Delta Unit has different options, each of them possessing different weapons and pieces of Equipment, and one that also includes a Yudbot-B, which is a [[Peripheral]], a special category of Trooper, with the Delta as its Controller.{{Greybox-end}}
 
 
 All this makes each Unit unique and sets them apart from the rest.
 
 The contents and features specific to each Trooper are shown in different ways:
-* Under the [[Attributes]], [[Equipment]] and [[Special Skills]] common to all Unit options are shown. 
-* When one of the options of a profile has a Special Skill, it will be shown next to the Trooper’s name.
-* If one of the options has Equipment, it will be shown in round brackets next to the name or Special Skill. For example: (Multispectral Visor L2) or Hacker (Hacking Device).
-* Equipment is separated from BS Weapons by a vertical bar (“|”) in the Weaponry and Equipment column.
-* Peripherals are separated from Weapons and Equipment by a double vertical bar (“||”) in the Weaponry and Equipment column.
-* CC Weapons, or special weapons that may be used as BS or CC Weapons, are in the Melee Weapons column.
-
+* Under the [[Attributes]], [[Equipment]] and [[Special Skills]] common to all Unit options are shown.
+* When one of the options of a profile has a Special Skill, it will be shown next to the Trooper's name.
+* If one of the options has Equipment, it will be shown in round brackets next to the name or Special Skill. For example: ([[Multispectral Visor]] L2) or [[Hacker]] ([[Hacking Device]]).
+* Equipment is separated from [[BS Weapon]]s by a vertical bar ("|") in the Weaponry and Equipment column.
+* [[Peripheral]]s are separated from Weapons and Equipment by a double vertical bar ("||") in the Weaponry and Equipment column.
+* [[CC Weapon]]s, or special weapons that may be used as BS or CC Weapons, are in the Melee Weapons column.
 
 
 == Trooper Characteristics ==
 
 The following terms are important for playing: 
-{{c1}}
-* {{image | name=eng-regular-order-256.jpg | style= 2eminline }} '''Training:''' Order contributed by the Trooper to the [[Order Pool]].
-{{c1end}}{{n4list}}
-* {{image | name=eng-regular-order-256.jpg | style= 2eminline }}{{image | name=eng-irregular-512.jpg | style= 2eminline }} '''Training:''' Order contributed by the Trooper to the [[Order Pool]].
-{{n4end}}
+* {{image | name=eng-regular-order-256.jpg | style= 2eminline }}{{image | name=eng-irregular-512.jpg | style= 2eminline }} '''Training:''' Order contributed by the Trooper to the [[Orders and the Order Pool | Order Pool]].
 * '''Troop Type:'''
 **LI – Light Infantry
 **MI – Medium Infantry 
 **HI – Heavy Infantry
-**REM - Remote 
-**TAG - Tactical Armored Gear. ([[Restrictions Chart]] - TAGs cannot be Prone.)
-**WB - Warband
+**REM – Remote
+**TAG – Tactical Armored Gear
+**WB – Warband
 **SK – Skirmisher
-** {{image | name=eng-peripheral-256.png | style= 2eminline }} - Peripheral
-{{n4list}}
+**VH – Vehicle
+** {{image | name=eng-peripheral-256.png | style= 2eminline }} – [[Peripheral]]
+
+{{see-also}}
+{| class="n5table-dark"
+|-
+! Restrictions Chart
+|-
+| [[TAG]]s cannot go [[Prone]] or declare [[Cautious Movement]]. 
+|- 
+| Vehicles ([[VH]]) cannot go [[Prone]] or declare [[Cautious Movement]].
+|- 
+| Remotes ([[REM]]) may not declare [[Cautious Movement]] or be chosen as [[Lieutenant]].
+|}
+{{see-also-end}}
+
 * '''Trooper Classification:''' Trooper classification identifies the unit's function within the army and its most salient operational features. It can determine army compositions in missions and scenarios.
 ** Garrison Troopers 
 ** Line Troopers 
@@ -67,22 +77,32 @@ The following terms are important for playing:
 ** Support Troopers 
 ** Mercenary Troopers 
 ** Character
-{{n4end}}
 *'''ISC (International Standard Code):''' To avoid confusion, O-12 has created an international nomenclature, for its intelligence reports and analysis, which stays constant across different languages.
-* {{image | name=eng-hackable-256.png | style= 2eminline }} '''Hackable:''' This Characteristic identifies those Troopers technologically advanced enough to suffer attacks from or be aided by infowar and hacking systems. A Trooper with the Hackable Characteristic can be targeted by both allies and enemies using certain Hacking Programs. HI, REM, and TAG Troopers are Hackable unless otherwise stated. [[Hackers]], regardless of Troop Type, are also Hackable. 
+* {{image | name=eng-hackable-256.png | style= 2eminline }} '''Hackable:''' This Characteristic identifies those Troopers technologically advanced enough to suffer attacks from or be aided by infowar and hacking systems. A Trooper with the Hackable Characteristic can be targeted by both allies and enemies using certain Hacking Programs. HI, REM, TAG and, VH Troopers are Hackable unless otherwise stated. [[Hackers]], regardless of Troop Type, are also Hackable. 
 
 
-{{Advice_Start}}
-Want to know more? You can find all the additional info to further explore the Infinity Universe in fluff books, articles and appendices!
-{{Advice_End}}
+{{see-also-start}}
+Other icons that can appear in Unit Profiles:
+* {{image | name=cube.png | style= 2eminline }}{{image | name=cube-2.png | style= 2eminline }} [[Cube | Cube / Cube 2.0]]
+* {{image | name=tactical-order-512.png | style= 2eminline }} [[Orders and the Order Pool | Tactical Order]]
+* {{image | name=dual-impetuous-512.png | style= 2eminline }} [[Impetuous]]
+{{see-also-end}}
+
+
+{{Advice-start}}
+Want to know more? You may find all the additional info to further explore the Infinity Universe in fluff books, articles and appendices!
+
+Moreover, I am at your service as an AI interface at www.infinityuniverse.ai. You can ask me everything you want to know about the lore and backstory of the Infinity Universe.
+{{Advice-end}}
 
 == Attributes ==
 
 Attributes are a series of numeric values that describe the basic capabilities of Troopers and game elements. In game terms, these are used to make Rolls and calculate the success or failure of attempted actions made by [[Troopers]] and game elements. For simplicity, Attribute definitions always refer to the term Trooper. 
 
-The Attributes are as follows:
 === Movement (MOV) ===
-The number of inches this Trooper can move with an Order. The MOV Attribute usually has two values: the first time the Trooper moves in an Order, and the second.
+The number of inches this Trooper can move with an Order. The MOV Attribute usually has two values, the first one being for the first time the Trooper moves in an Order, and the other one for the second time he moves.
+
+If the Trooper's Unit Profile does not have a number for the MOV Attribute and instead has "-", the Trooper is  stationary and immobile, so cannot move under any circumstances.
 
 === Close Combat (CC) ===
 This conveys the Trooper's prowess in hand-to-hand combat.
@@ -102,11 +122,11 @@ This is a numeric value for the Trooper's overall armor. The higher the value, t
 === Bio-Technological Shield (BTS) ===
 This is a numeric value for the Trooper's NBC (Nuclear, Biological, Chemical), Nanotechnological, Electromagnetic, and Anti-Hacking protections. 
 
-=== Wounds (W) ===
+=== Vitality (VITA) ===
 This represents the physical endurance of the Trooper, and how much punishment it can withstand before losing consciousness or dying.
 
 === Structure (STR) ===
-This alternative to the Wounds Attribute represents the capacity of mechanical Troopers (TAGs, REMs...) or scenery structures to soak up damage before ceasing to function.
+This alternative to the Vitality Attribute represents the capacity of mechanical Troopers (TAGs, REMs...) or scenery structures to soak up damage before ceasing to function.
 
 === Availability (AVA) ===
 This indicates the number of Troopers from this Unit allowed in a single Army List.
@@ -120,19 +140,23 @@ The cost in Support Weapon Points paid for adding a Support Weapon to a Trooper 
 === Cost (C) ===
 This is the value in Army Points of the Trooper with all its Special Skills, Weapons, and Equipment. This value is pivotal when constructing your Army Lists.
 
+{{important-start}}
+Some Unit Profiles might not have a numerical value for one of their Attributes and instead have a "-" symbol. In this the case, they cannot declare or use any Skill that requires that Attribute.
+{{important-end}}
+
+
 
 == Skills and Equipment ==
 In the corresponding sections of this rulebook you will find each [[Common Skill]], [[Special Skill]], and piece of [[Equipment]] in Infinity explained in detail. 
 
 
 == Weaponry ==
-In the Combat Module section you will find all the information needed to use [[Weapon Charts]] in Infinity, and in the [[Weaponry]] section you will find those weapons that require further explanation.
+In the Combat Module section, you will find all the information needed to use [[Weapon Charts]] in Infinity, and in the [[Weaponry]] section you will find those weapons that require further explanation.
 
 
-{{Section-basic-rules}}
+{{n5-section-basic-rules}}
 
 
 
 
 [[Category:Basic Rules]]
-[[Category:Placeholder]]

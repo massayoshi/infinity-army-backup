@@ -1,0 +1,67 @@
+{{n5-section-combat-module}}
+{{n5-section-common-skills}}
+
+
+This Common Skill allows the user to execute a BS Attack against a target outside LoF or, if he has a suitable weapon, to choose a location other than the target as the center of the attack.
+
+{{css_skillbox |red| SPECULATIVE ATTACK | LONG SKILL }}
+{{skill-label | BS Attack }}
+{{requirements}}
+* The user must employ a [[BS Weapon]] with the [[Speculative Attack Trait]].
+* It must be possible to draw a trajectory between the Trooper and the impact point.
+{{effects}}
+* The user may make '''a single [[BS Attack]]''' against a target outside their [[LoF]]. <br>The '''[[Burst]] (B) of this BS Attack is always 1''', regardless of the actual B value of the Weapon or any MODs applied to the B.
+* If the user employs a [[BS Weapon]] with the '''[[Impact Template (Circular)]]''' Trait, this Skill allows them to place the center of the Circular Template somewhere other than centered on the Main Target of the attack. However, the Main Target '''must be''' inside the [[Area of Effect]] of the Circular Template. <br>In this case, both the target of the attack and the impact point may be chosen without needing LoF.
+* Place the Template directly on the game table or horizontally over a piece of terrain, and never on a vertical surface or in the air.
+* The user must apply a -6 MOD to [[BS]], or the corresponding [[Attribute]], for Speculative Attack, and also any [[Range]] MODs. Other negative MODs (for example [[Mimetism]], [[Partial Cover]], [[Visibility Zone]]s...) are not applied.
+{{css_skillbox-end}}
+
+
+{{advice-start}}
+This is the procedure to perform a Speculative Attack: 
+# Designate the Main Target of the Attack. 
+# Place the Circular Template to designate the impact point of the Attack (it may be a target outside [[LoF]], or a point on the table as long as the Circular Template affects the target). 
+# Then, a check is made to ascertain which other Troopers are affected to determine all [[ARO]]s.  
+# Measure the distance between the Trooper and the impact point, all relevant MODs are applied, and the Rolls are made. 
+{{advice-end}}
+
+
+{{see-also}}
+'''[[Visibility_Conditions#Visibility_Zones_and_Speculative_Attack | Visibility Zones and Speculative Attack]]'''
+: Speculative Attacks do not require [[LoF]], so do not apply any negative MODs for [[Visibility Zone]]s, only the -6 MOD for Speculative Attack.
+{{see-also-end}}
+
+
+== Example ==
+{{greybox-start | Example of Speculative Attack }}
+{{image | name=n5/eng-speculative-attack.jpg | style=fullborder }}
+{{n5_weapon_single}}
+{{n5_weaponrow|Grenades|+3|-3|--|--|--|--|--|7|1|N|ARM|1|[[Speculative Attack]], [[BS Weapon (PH)]], [[Impact Template (Circular)]]}}
+|}
+
+During his Active Turn, a D&#257;turazi intends to attack the Blink located behind a wall. To prevent the Blink from shooting him during his advance, the D&#257;turazi decides to throw a Grenade at him. Since Grenades have the [[Speculative Attack Trait]], the D&#257;turazi declares a Speculative Attack without requiring [[LoF]]. To do so, the Morat player follows these steps:
+# They remove one [[Order]] from their [[Order Pool]] and declare a Speculative Attack [[Long Skill]], designating the Blink as their Main Target.
+# They place the Circular Template on the gaming table so that it affects the Blink, and designate the impact point.
+# Once the Circular Template is placed and centered on that point, a check is made to ascertain which other Troopers are affected. <br>The Blink declares his [[ARO]]. In this case, as he is being affected by a [[Template Weapon]], he may declare [[Dodge]].
+# The distance between the D&#257;turazi and the designated impact point is measured. A [[Face to Face Roll]] ensues between the D&#257;turazi and the Blink.
+
+The following MODs will be applied to the Blink’s [[Dodge]] Roll:
+* -3 to Dodge a Template without [[LoF]] to the attacker
+
+The following MODs will be applied to the D&#257;turazi Speculative Attack Roll:
+* +3 for [[Range]].
+* -6 for Speculative Attack.
+Given that it is a Speculative Attack, the D&#257;turazi does not need to apply the [[Mimetism]] MOD (-6) of the Blink, or any MOD due to [[Cover]].
+{{greybox-end}}
+
+
+
+{{n5-section-combat-module}}
+{{n5-section-common-skills}}
+
+
+
+[[Category: Combat Module]]
+
+<!-- Label and Trait categories. -->
+[[Category: BS Attack ]]

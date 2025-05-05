@@ -1,0 +1,101 @@
+{{n5-section-combat-module}}
+{{n5-section-common-skills}}
+
+
+Common Skill employed to attack in ranged combat using a BS Weapon or another suitable weapon or piece of Equipment.
+
+{{css_skillbox |greenyellow| BS ATTACK | SHORT SKILL /ARO }}
+{{skill-label | Attack. }}
+{{requirements}}
+* Be using a [[BS Weapon]], or a [[Skill]] or piece of [[Equipment]] capable of making a BS Attack.
+* Be able to draw [[Line of Fire]] ([[LoF]]) from the position of your Attack to the position of the target, unless the BS Weapon, Skill or piece of Equipment used doesn't require LoF.
+
+{{effects}}
+* The user employs his [[BS]] [[Attribute]] (or Attribute specified by the weapon) to fire upon one or more enemies.
+* When declaring a BS Attack, the user must choose which of his BS Weapons, Special Skills or pieces of Equipment to use, from those available in his [[Unit Profile]].
+* If the attacker has more than one target and a BS Weapon, Special Skill or piece of Equipment with a [[Burst]] value higher than 1, they must distribute their attacks as part of the BS Attack declaration.
+* All shots must be declared '''from the same point'''.
+* If the chosen weapon has more than one Type of [[Ammunition]] available, you must choose one for the entire Burst, as part of the BS Attack declaration.
+
+=== BS Attack (Guided) ===
+* Troopers with the '''BS Attack (Guided)''' Skill listed on their [[Unit Profile]]:
+** During the Active Turn, they may perform a BS Attack against a target in [[Targeted State]], without requiring [[LoF]].
+** BS Attacks (Guided) must be carried out with the weapon's Blast Mode if it has one, or a Mode with the [[Traits#Impact_Template | Impact Template (Circular) Trait]]. If the weapon does not have a Mode with the Impact Template (Circular) Trait, the player may choose any of the weapon's Modes and apply the Trait to that Mode.
+** A Trooper can avoid a BS Attack (Guided) with a successful [[Dodge]] or [[Reset]] [[Face to Face Roll]]. If a Reset Roll is successful, in addition to avoiding the Attack, the Trooper's Targeted State is cancelled.  
+** '''Restriction:''' Unless the Skill itself indicates otherwise, the B will always be 1 regardless of the actual B value of the Weapon or any MODs applied to the B.
+** '''Restriction:''' The distance to the target cannot exceed the weapon's maximum [[Range]].
+** '''Restriction:''' The target cannot be in an enclosed room; a possible trajectory for the Attack must always exist.
+** '''Restriction:''' BS Attack (Guided) has a limit of 5 Attacks per Turn for the Active Player.
+** '''Restriction:''' Weapons with the [[BS Weapon (PH)]] or [[BS Weapon (WIP)]] Traits cannot be used with the BS Attack (Guided) Skill.
+** The user must apply any [[Range]] MODs. Other negative MODs (for example [[Mimetism]], [[Partial Cover]], [[Visibility Zone]]s...) are not applied unless they specify that they work against BS Attack (Guided).
+{{css_skillbox-end}}
+
+
+{{see-also-start}}
+'''[[Modifiers Explained]] Examples'''
+
+* '''BS Attack (-3)''' means that, when the user declares BS Attack, their targets apply a -3 MOD to any [[Face to Face Rolls]]. BS Attack (-X) has no effect against Troopers with the [[Warhorse]] Special Skill. 
+* '''BS Attack (SR-1)''' means that, when the user declares BS Attack, their targets apply a -1 MOD to their [[Saving Rolls]] against the user's hits.
+* '''BS Attack (Shock)''' means that the user adds [[Shock Ammunition]] to all their BS Attacks.
+* '''BS Attack (Continuous Damage)''' means that the user applies the [[Continuous Damage]] Trait to all their BS Attacks.
+{{see-also-end}}
+
+
+{{remember-start}}
+The target must apply a -3 MOD to [[Dodge]] if they have no [[LoF]] towards the Attacker. 
+
+The [[Targeted State]] gives the target a -3 MOD to [[Reset]] Rolls, also any BS Attack against them gets a +3 MOD.
+{{remember-end}}
+
+
+{{greybox-start | Move + BS Attack}}
+Since the Skills used in an Order are simultaneous, a BS Attack can be declared at any point during the route followed by the [[Move]] Skill. If the [[Burst]] is divided among several targets, all shots must be made from a single point. Usually, the attack is made from the position that offers the biggest advantage: a clear [[LoF]], targets out of [[Cover], optimal range, etc.
+{{greybox-end}}
+
+
+{{advice-start}}
+To determine the Range MOD when performing a BS Attack (Guided), measure the distance from the Attacker to the target in a straight line. Any other possible trajectories of this attack are not taken into account. 
+{{advice-end}}
+
+
+{{greybox-start | Example of BS Attack (Guided)}}
+{{image | name=n5/eng-guided-example-v1.jpg | style=fullborder }}
+
+{{n5_weapon_single}}
+{{n5_weaponrow|Missile Launcher (Blast Mode)|-3|0|0|+3|+3|-3|-3|6|1|EXP|ARM|3|[[Anti-materiel]], [[Impact Template (Circular)]]}}
+{{n5_weaponrow|Missile Launcher (Hit Mode)|-3|0|0|+3|+3|-3|-3|6|1|AP+EXP|ARM/2|3|[[Anti-materiel]]}}
+|}
+
+The Missile Launcher Remote declares a BS Attack (Guided) against a Trooper with the [[Mimetism]] (-6) Special Skill, who is in [[Targeted State]]. 
+
+The following MODs apply to the Remote's BS Attack (Guided) Roll:
+* +3 for [[Range]].
+* +3 for the target's Targeted State. 
+
+As the Remote is using BS Attack (Guided), they do not have to apply the target's Mimetism (-6) MOD, nor any MODs for [[Cover]]. In addition, of the two firing modes available to the Missile Launcher, the Attack must be made with Blast Mode (EXP ammunition).
+
+The target of the Attack has two ARO options:
+* [[Dodge]] with a -3 MOD due to Dodging a Template Weapon without [[LoF]] to the Attacker. 
+* [[Reset]] with a -3 MOD due to being in Targeted State. 
+ 
+Therefore, the REM makes a Face-to-Face BS Attack Roll (BS +6) against the target's Dodge Roll (PH -3) or Reset Roll (WIP -3) Roll.
+{{greybox-end}}
+
+
+== BS Attack Into a Close Combat ==
+If a [[BS Attack]] is declared against an enemy Trooper that is engaged in CC Combat a -6 MOD must be applied for each Allied Trooper engaged in the [[Close Combat|CC]] (in addition to any MODs for [[Range]], [[Cover]], [[Mimetism]]... for the target). 
+
+Every failed BS Attack Roll will hit the Allied Trooper, forcing them to perform a [[Saving Roll]]. If there are several Allied Troopers locked in that Close Combat, then the Trooper’s player chooses which one of them receives each hit.
+
+
+
+{{n5-section-combat-module}}
+{{n5-section-common-skills}}
+
+
+[[Category: Combat Module]]
+[[Category: Common Skills]]
+
+
+<!-- Label and Trait categories. -->
+[[Category: Attack ]]

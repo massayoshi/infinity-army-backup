@@ -1,0 +1,59 @@
+{{n5-section-common-skills}}
+
+
+This Common Skill allows players to call for tactical support on the ground and send airborne supplies to the Troopers on the battlefield by means of the so-called Speedballs.
+
+{{css_skillbox |black| REQUEST A SPEEDBALL | AUTOMATIC SKILL }}
+{{skill-label | Optional }}
+{{requirements}}
+* Have two Speedball Tokens (see [[Command Tokens#Command Tokens: Strategic Use | Command Tokens: Strategic Use]]). 
+{{effects}}
+* When Requesting a Speedball during their Active Turn, players must place two 55 mm Speedball Tokens on the game table applying the [[Combat Jump]] Skill rules, and then make a PH Roll for each of them with a PH value of 14. This cannot be done partway through the [[Order Expenditure Sequence]].
+* Before making each of the Combat Jump Rolls, the player needs to choose what support equipment this suborbital drop contains. The player '''choosing an item''' from the Speedball Chart '''for the first Token''' and '''making a roll''' on the Chart '''for the second Token'''.
+* Speedball Tokens cannot be placed in [[Silhouette contact]] with Models, Markers, Tokens, or scenario objectives.
+* Any [[allied]] Trooper in a non-Null state who enters Silhouette contact with a Speedball Token automatically picks up the item it contains. The Speedball Item Token is placed in Silhouette contact with the Trooper and the Speedball Token is removed. This action automatically cancels any Marker State the Trooper is in. 
+* The items found inside a Speedball are '''single-use and non-transferable''', and the Speedball Item Token must be removed from the table after use. Speedball items may be used in both Active and Reactive Turns at will, unless specified otherwise.
+* '''Restriction:''' A Trooper cannot have more than one Speedball Item Token at any given time. 
+* Speedball Tokens are State Tokens. They do not block enemy movement and cannot be targeted by [[Deactivator]]s.
+* The Speedball items available are the following: 
+** '''VitaPack''': Allows cancellation of the [[Unconscious State]] of an [[Allied]] Trooper with the [[Vitality]] Attribute, by removing one single [[Wound]] from those they have received.<br>VitaPack is applied by spending a Short Skill of an Order while in [[Silhouette contact]] with the Unconscious Allied Trooper.
+** '''AutoRepairS(uite)''': Allows cancellation of the Unconscious State of an Allied Trooper with the [[STR]] Attribute, by removing one or two (if applicable) Wounds from those they have received.<br>AutoRepairS(uite) is applied by spending a Short Skill of an Order while in Silhouette contact with the Unconscious Allied Trooper.
+** '''Switch On''': Allows cancellation of the [[Immobilized]] A and B, [[Isolated]], and [[Stunned]] States of an Allied Trooper. <br>Switch On is applied by spending a Short Skill of an Order while in Silhouette contact with the Allied Trooper.
+** '''Jetpack''': The bearer can use the [[Super-Jump#Super-Jump (Jet Propulsion) | Super-Jump (Jet Propulsion)]] Special Skill during one Order only. This use of the item is restricted to Troopers with '''Silhouette 2'''. 
+** '''Overkill''': The bearer of this Speedball item may choose between two use modes. The first mode allows its user to cancel their [[Unloaded State]] and regain all expended uses of their [[Disposable]] weapons or pieces of Equipment, in the [[Conclusion]] Step 5.2 of the Order. Alternatively, the second mode grants the user the [[BS Attack]] (SR-1) Skill during one Order only. 
+** '''NanoShield''': If a Trooper has to make any [[Saving Roll]]s, they must automatically apply a +2 MOD to all their Saving Rolls in the [[Resolution]] Step 5 of that Order.
+{{css_skillbox-end}}
+
+
+{| class="n5table-dark
+|-
+! colspan="4"|Speedball Chart
+|-
+! ROLL !! ITEM !! ROLL !! ITEM
+|- 
+| 1-3 || VitaPack || 11-13 || Jetpack (S:2)
+|- 
+| 4-6 || AutoRepairS || 14-16 || Overkill
+|- 
+| 7-10 || Switch On || 17-20 || NanoShield
+|}
+
+
+{{Greybox-start | Example Of Speedball (AutoRepairS)}}
+A player has a [[TAG]] with [[Remote Presence]] that has received four [[Wound]]s, and is therefore in [[Unconscious State]].
+
+In the player's Active Turn, another Trooper declares [[Move]] as their first Basic Short Skill, entering [[Silhouette contact]] with an allied Speedball Token and then with the TAG. The player removes the Speedball Token and places an AutoRepairS Token, the item inside the Speedball, next to the Trooper.
+
+That Trooper uses the second Short Skill of their Order to apply AutoRepairS to the TAG. Two Wounds are removed from the TAG, cancelling its Unconscious State and leaving it with two Wound Tokens. The AutoRepairS Token is removed from the table.
+{{greybox-end}}
+
+
+
+{{n5-section-common-skills}}
+
+
+
+[[Category:Common Skills]]
+
+<!-- Label and Trait categories. -->
+[[Category: Optional ]]

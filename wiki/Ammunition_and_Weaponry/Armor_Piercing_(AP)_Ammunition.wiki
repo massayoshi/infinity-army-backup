@@ -1,27 +1,19 @@
-{{section-ammo-and-weaponry}}
+{{n5-section-ammo-and-weaponry}}
 
 
-A type of ammunition designed to penetrate even the toughest armor plating. 
+A type of ammunition designed to penetrate even the toughest armor plating.
 
-{{skillbox |black| ARMOR PIERCING (AP) AMMUNITION | }}
-{{Roll}}
-*After a successful attack using AP Ammunition, the target must make a [[Saving Roll]] per impact suffered, using half his [[ARM]] or [[BTS]] value ([[ARM]]/2 or [[BTS]]/2) as specified by the weapon being used. 
+{{css_skillbox |black| ARMOR-PIERCING (AP) AMMUNITION }}
+{{roll}}
+* After a successful attack using AP Ammunition, the target must make a [[Saving Roll]] per hit suffered, using half his [[ARM]] or [[BTS]] value (ARM/2 or BTS/2) as specified by the weapon being used.
 {{effects}}
-*AP Ammunition reduces the [[ARM]] or [[BTS]] value of its target to half of its original value, rounding up. Consequently, any [[ARM]] or [[BTS]] above 0 cannot be reduced below 1. 
-*Each [[Saving Roll]] failed against AP Ammunition causes the target to lose one point from his [[Wounds]]/[[STR]] Attribute.
-*[[Critical]] hits with AP Ammunition cause the targets to make an additional [[Saving Roll]], applying their halved [[ARM]] or [[BTS]] value.
+* AP Ammunition reduces the ARM or BTS value of its target to half of its original value, rounding up. Consequently, any ARM or BTS above 0 cannot be reduced below 1.
+* Each [[Saving Roll]] failed against AP Ammunition inflicts 1 [[Wound]] on the target.
+* [[Critical]] hits with AP Ammunition cause the targets to make an additional Saving Roll, applying their halved ARM or BTS value.
+{{css_skillbox-end}}
 
 
-== FAQs & Errata ==
 
-{{faqbox |
-type = faq |
-title = N4 FAQ |
-version = 1.0, Jan 2021 |
-q = Q: How does Bioimmunity interact with Ammunition and Traits that reduce the Saving Roll Attribute, for example AP or E/M Ammunition, or ARM=0? |
-a = A: AP Ammunition is tied to the Saving Roll Attribute listed in a weapon’s profile. If Bioimmunity is used to make the Saving Roll against a different Attribute, that Attribute will not be halved.
-In the same way, if Bioimmunity is used against a hit by E/M Ammunition to make the Saving Rolls against ARM, the ARM value will not be halved.
-The ARM=0 Trait only applies if the Saving Roll is made against the ARM Attribute, and vice-versa for the BTS=0 Trait. |
-related = [[Armor Piercing (AP) Ammunition]], [[Bioimmunity]], [[Electromagnetic (E/M) Ammunition]], [[Traits]] }}
+
 
 [[Category: Ammunition and Weaponry]]

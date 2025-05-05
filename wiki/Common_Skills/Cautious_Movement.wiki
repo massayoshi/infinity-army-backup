@@ -1,59 +1,53 @@
-{{section-movement-module}}
-{{section-common-skills}}
+{{n5-section-movement-module}}
+{{n5-section-common-skills}}
 
 
-{{n4only}}
-{{n4}}
 Under certain circumstances, Troopers can declare this Common Skill to move about the battlefield without attracting enemy AROs.
 
-{{skillbox |red| CAUTIOUS MOVEMENT | ENTIRE ORDER}}
-{{skill-label | Movement, No LoF, No Roll.}}{{Requirements}}
-* At the moment of declaration, the Trooper must be outside the [[LoF]] and [[ZoC]] of all enemy [[Models]] and [[Markers]].
+{{css_skillbox |red| CAUTIOUS MOVEMENT | LONG SKILL}}
+{{skill-label | Movement, No Roll.}}
 {{Effects}}
-* Allows the Trooper to move up to the first value of his [[MOV]] Attribute, generating no enemy [[ARO]]s in the process. For this Cautious Movement to generate no AROs, it must begin and end outside the LoF and ZoC of all enemy Models and Markers. 
-* If the Cautious Movement begins or ends within the LoF or ZoC of any enemy Models or Markers, the Trooper will generate AROs as usual.
+* Allows the Trooper to move up to the first value of his [[MOV]] [[Attribute]], generating no enemy [[ARO]]s in the process.
+* '''Restriction.''' For this Cautious Movement to generate no [[ARO]]s, it must begin and end at two points on the game table that lie outside the [[LoF]] and [[ZoC]] of all enemy Models and Markers.
+* If the Cautious Movement begins or ends within the LoF or ZoC of any enemy Trooper (in Model form) or Marker, the Trooper generates AROs as usual.
+* '''Restriction. '''For the Cautious Movement of a '''[[Hackable]] Trooper in [[Model]] form''' to generate no AROs, it must also begin and end at two points on the game table that lie outside the [[Hacking Area]] of any [[enemy]] [[Hacker]]s.
+* If a '''Hackable Trooper is in Model form''' and its Cautious Movement begins or ends inside the Hacking Area of any enemy Hackers, the Trooper generates AROs as usual. <br>If a '''non'''-Hackable Trooper is in Model form and its Cautious Movement begins or ends inside the Hacking Area of any enemy Hackers, this does '''not''' cause the Trooper to generate AROs.
 * Cautious Movement must follow the [[General Movement Rules]] as well as the [[Moving and Measuring]] rules.
+{{css_skillbox-end}}
 
 
 {{important-start}}
-TAGs, Remotes, Vehicles, and Troopers on Motorcycles can never declare Cautious Movement.
+This Common Skill cannot be declared by [[Unit_Profile#Trooper_Characteristics | TAGs, Remotes, Vehicles]], Troopers with [[Motorcycle]]s, Troopers with the [[Aerial]] Special Skill, or Troopers in [[Targeted State]].
 {{important-end}}
 
 
 {{remember-start}}
-Troopers in Hidden Deployment are neither Models nor Markers, so they cannot react to a Cautious Movement even if they have LoF.
+Troopers in [[Hidden Deployment]] are neither Models nor Markers, so they cannot react to a Cautious Movement by having [[LoF]] or being in [[ZoC]].
 {{remember-end}}
 
 
+{{see-also}}
+'''[[Stealth]]'''
+* If the user declares [[Cautious Movement]], [[Idle]], or a Basic Short Skill with the [[Movement Label]], they only grant [[ARO]]s to enemies that have [[LoF]] to them.
+{{see-also-end}}
+
+
 {{greybox-start | Cautious Movement Example }}
-{{update | 1.1.1, Dec 2021}}
-A Fusilier wants to sneak up on an Alguacil. Since he is in Total Cover behind a tall building, The Fusilier is outside LoF the Alguacil and the other Nomads, including a Camouflage Marker. He estimates that he can reach Total Cover behind a bin with the first value of his MOV where he would be safely hidden, so he declares Cautious Movement.
+A PanOceanian Trooper in Model form intends to close in on a Nomad Trooper. Since the Trooper is in [[Total Cover]] behind a tall building, outside the [[LoF]] and [[ZoC]] of the Nomad Troopers and an enemy [[Camouflaged | Camouflage Marker]], the PanOceanian Trooper uses part of their first [[MOV]] value to move behind a container where they will also be outside the LoF and ZoC of the Nomad Troopers and the Camouflage Marker.
 
-The Alguacil and all other Nomad Troopers, including the Camouflage Marker, cannot declare AROs because the Fusilier's Cautious Movement began and ended outside their LoF and ZoC.
-{{update-end}}
-{{original}}
-A Fusilier wants to sneak up on an Alguacil. Since he is in Total Cover behind a tall building, The Fusilier is outside LoF of the Alguacil and the other Nomads, including a Camouflage Marker. He estimates that he can reach Total Cover behind a bin with the first value of his MOV where he would be safely hidden, so he declares Cautious Movement.
-
-The Alguacil and all other Nomad Troopers, including the Camouflage Marker, cannot declare {{originalhighlight}}valid{{originalhighlight-end}} AROs because the Fusilier's Cautious Movement began and ended outside their LoF and ZoC.
-{{original-end}}
+No Nomad Troopers, including the Camouflage Marker, can declare [[ARO]]s, since the PanOceanian Trooper's Movement begins and ends outside their LoF and ZoC.
 {{greybox-end}}
 
 
-== FAQs & Errata ==
 
-{{faqbox |
-type = faq |
-title = N4 FAQ |
-version = Updated 1.3, Nov 2022 |
-q = Q: Does {{erratahighlight}}a Trooper in Disconnected State or Unconscious State (including those in Shasvastii-Embryo State){{erratahighlight-end}} prevent an enemy from re-entering Marker State, or cancel their Cautious Movement? |
-a = A: No. |
-related = [[Camouflaged State]], [[Cautious Movement]], [[Impersonation State]], [[Unconscious]] }}
-
-{{n4end}}
+{{n5-section-movement-module}}
+{{n5-section-common-skills}}
 
 
-{{section-movement-module}}
-{{section-common-skills}}
-
+<!-- Main categories. -->
 [[Category: Common Skills]]
 [[Category: Movement Module]]
+
+<!-- Label and Trait categories. -->
+[[Category: Movement]]
+[[Category: No Roll]]

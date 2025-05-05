@@ -1,152 +1,121 @@
-{{section-combat-module}}
+{{n5-section-combat-module}}
 
 
-[[BS Weapons]] and Equipment that use a Template have an [[Area of Effect]] that affects not only the main target, but also an area of the game table '''determined by the size of the Template'''.
+[[BS Weapon]]s and [[Equipment]] that use a Template have an Area of Effect that affects not only the main target, but also an area of the game table determined '''by the size of the Template'''.
 
-{{n4}}
-{{update | PDF 2.1, July 2023}}
-The '''Main Target''' of a Template Weapon or Equipment is a Game Element that {{erratahighlight}}must be able designated{{erratahighlight-end}} as a valid target for the [[BS Attack]], from which the MODs applied to the Roll are determined, if a Roll is required. This Roll will be opposed separately, one by one, by the rest of the Enemies affected by the template.
-{{update-end}}
-{{original}}
-The '''Main Target''' of a Template Weapon or Equipment is a Game Element that {{originalhighlight}}can be designated{{originalhighlight-end}} as a valid target for the [[BS Attack]], from which the MODs applied to the Roll are determined, if a Roll is required. This Roll will be opposed separately, one by one, by the rest of the Enemies affected by the template.
-{{original-end}}
+The '''Main Target''' of a Template Weapon or Equipment is a Game Element that must be able designated as a valid target for the [[BS Attack]], from which the MODs applied to the Roll are determined, if a Roll is required. This Roll will be opposed separately, one by one, by the rest of the Enemies affected by the template.
 
-There are two types of Weapon and Equipment Templates:
+There are two types of Weapons and Equipment Templates:
 * [[Direct Template Weapons | Direct Template]].
 * [[Impact Template Weapons | Impact Template]]. 
 
 
 {{important-start}}
-If the Main Target is outside the Area of Effect of the Template Weapon or Equipment, the [[BS Attack]] is automatically considered a failure and no Game Element will be affected by the Template.
+If the Main Target is outside the [[Area of Effect]] of the Template Weapon or Equipment, the [[BS Attack]] is automatically considered a failure and no Game Element will be affected by the Template.
 {{important-end}}
-{{n4end}}
 
 
 == Types of Templates ==
-
-In this rulebook, there are three kinds of Templates used by Weapons and pieces of Equipment: the Circular Template, the Large Teardrop Template and the Small Teardrop Template.
+In this rulebook, there are three kinds of Templates used by [[Weapons]] and pieces of [[Equipment]]: the Circular Template, the Large Teardrop Template and the Small Teardrop Template.
 
 The height of the Templates used by Template Weapons and Equipment is equal to their radius, or half their width (except for those Ammunitions whose [[Traits]] otherwise specify it).
 
-{{image | name=dual-types-of-templates-1024.jpg | style=512border }}
+{{image | name=dual-types-of-templates-1024.jpg | style=fullborder }}
 
 
 == Area of Effect ==
+The Area of Effect of a Template is the area it covers with a single declaration of use. For example, if you declare an Attack using a Template Weapon, all Troopers or targets in [[Silhouette contact]] or inside the Area of Effect of the Template are affected by the Attack.
 
-The Area of Effect of a Template is the area it covers with a single declaration of use. For example, if you declare an [[Attack]] using a Template Weapon, all Troopers or targets in [[Silhouette]] contact or inside the Area of Effect of the Template are affected by the [[Attack]]. 
+{{image | name=n5/dual-templates-area-1.jpg | style=fullborder }}
 
-{{image | name=eng-3d-templates-2.jpg | style=512border }}
+{{image | name=n5/dual-templates-area-2.jpg | style=fullborder }}
 
-{{image | name=eng-3d-templates-1.jpg | style=512border }}
-
-{{image | name=dual-circular-template-pillar-1024.jpg | style=512border }}
+{{image | name=n5/dual-templates-area-3v2.jpg | style=fullborder }}
 
 
 ===Area of Effect of Template Weapons and Equipment===
+
+{{css_skillbox |black| Area of Effect of Template Weapons and Equipment }}
 {{effects}}
-*When using a Template Weapon or Equipment, any Trooper whose base or [[Silhouette]] Template is in contact with the Template, or is partially or fully inside it, is affected by the Weapon or Equipment.
-*Any Trooper affected by a Template Weapon or Equipment can declare '''[[Dodge]]''' as their second Short Skill or ARO, '''even if they do not have LoF''' to the Trooper declaring the Attack. 
-*As a general rule, '''[[Dodging]]''' an Attack with a Template requires a successful '''PH Roll'''. 
-*As an exception to this, in the following cases the '''[[Dodge]]''' requires a '''PH-3 Roll''' to avoid an Attack with a Template Weapon: {{n4inline}}{{seefaq | This MOD is applied once, no matter how many cases apply.}}{{n4inline-end}}
-**If the Trooper affected by the Template Weapon Attack '''has no LoF''' to the attacker.
-**If the Template Weapon Attack is from a '''Deployable Weapon''' (a Mine, for example). 
-{{update | 1.3, Nov 2022}}
-* {{erratahighlight}}Once placed, the Template remains on the game table until the Resolution step of the Order.{{erratahighlight-end}}
-{{update-end}}
-*The Area of Effect of a Template can affect [[Allied]] [[Troopers]] as long as the Template has no Damage Attribute and does not inflict any State. 
-{{n4list}}
-* When several Troopers are activated at the same time (a [[Coordinated Order]] or [[Fireteam]], for example), the Template affects every Trooper that was in [[Silhouette contact]] with its Area of Effect at any time during that Order, since everything happens simultaneously during the Order.
-* '''Critical Hits with Template Weapons:'''
-** When a [[Critical]] is rolled when using a Template Weapon, it counts as a Critical against the Main Target of the attack, and '''only''' the Main Target. Against other targets affected by the Template, it is a successful Roll instead of a Critical.
-* '''Responding to a Template Weapon Roll:'''
-** Against an Attack with a Template Weapon that required a Roll to hit–whether it was an Impact Template Weapon or an [[Intuitive Attack]], etc., each affected enemy may make a separate [[Face to Face Roll]] against the attacker.
-{{n4end}}
+* When using a Template Weapon or Equipment, any Trooper whose base or [[Silhouette]] Template is in contact with the Template, or is partially or fully inside it, is affected by the Weapon or Equipment.
+* Any Trooper affected by a Template Weapon or Equipment can declare '''[[Dodge]]''' as their second Short Skill or ARO, '''even if they do not have [[LoF]]''' to the Trooper declaring the Attack.
+* As a general rule, '''Dodging''' an Attack with a Template requires a successful '''[[PH]] Roll'''.
+* As an exception to this, in the following cases the Dodge requires '''a PH -3 Roll''' to avoid an Attack with a Template Weapon:
+** If the Trooper affected by the Template Weapon Attack has no [[LoF]] to the attacker.
+** If the Template Weapon Attack is from a '''[[Deployable Weapon]]''' (a [[Mines | Mine]], for example).
+* Once placed, the Template remains on the game table until the [[Resolution]] step of the Order.
+* The Area of Effect of a Template can affect [[Allied]] Troopers as long as the Template has no [[[[Possibility of Survival (PS) | PS value]] and does not inflict any [[State]].
+* When several Troopers are activated at the same time (a [[Coordinated Order]] or [[Fireteams Module | Fireteam]], for example), the Template affects every Trooper that was in [[Silhouette contact]] with its Area of Effect at any time during that Order, since everything happens simultaneously during the Order.
+* [[Critical]] Hits with Template Weapons:
+** When a Critical is rolled when using a Template Weapon, it counts as a Critical against the Main Target of the attack, and only the Main Target. Against any Secondary Targets affected by the Template, it is a successful Roll instead of a Critical.
+* Responding to a Template Weapon Roll:
+** Against an Attack with a Template Weapon that required a Roll to hit whether it was an Impact Template Weapon or an [[Intuitive Attack]], etc., each affected enemy may make a separate [[Face to Face Roll]] against the attacker.
+{{css_skillbox-end}}
 
 
 {{important-start}}
-Troopers affected by a Template Weapon do not benefit from the -3 Attack Damage [[MOD]] for [[Partial Cover]].
+Troopers affected by a Template Weapon do not benefit from the +3 MOD to the [[Saving Roll (SR)]] for [[Partial Cover]].
 {{important-end}}
 
-== Template Weapons, Scenery Elements and Total Cover ==
 
-A Template's Area of Effect may be determined by the presence of scenery elements on the game board, as seen in the graphics.
+{{see-also}}
+'''[[Terrain and Scenery Structures#Special Terrain | Area of Effect of Special Terrain Zones]]'''<br>
+: In Infinity, the Area of Effect of a Special Terrain zone is the area in where its special effects are applied. Any Trooper in [[Silhouette contact]] with a Special Terrain zone, or whose base or [[Silhouette Template]] is covered at least partially by a Special Terrain zone, is equally affected by the Effects of the zone.
+{{see-also-end}}
 
-In Infinity, different Templates have a '''Blast Focus''', which is used to determine if a Trooper is affected by the Template, or if the Template's Area of Effect has been blocked by Total Cover from intervening scenery elements. For a Trooper to be affected by the Template, it must be possible to trace a [[LoF]] from the Template's Blast Focus to the Trooper, without being blocked by Total Cover. 
-
-The Blast Focus is the center of the Circular Template and the narrow end of the Teardrop Templates. 
-
-[[LoF]] from the Blast Focus to a Trooper may only be drawn within the Area of Effect of the Template itself.
-
-
-=== Templates and Cover Examples ===
-
-{{greybox-start |Area of Effect, Blast Focus, and Scenery}}
-{{image | name=eng-dtw-example-3.jpg | style=512border }}
-
-The Scenery element completely covers the enemy Trooper. Therefore, LoF cannot be traced from the Blast Focus so the Trooper is not affected by the Area of Effect.
-{{greybox-end}}
-
-
-{{greybox-start | Area of Effect, Placement and Total Cover}}
-{{image | name=eng-dtw-example-4.jpg | style=512border }}
-
-The enemy Trooper is unaffected by the Template given that, being Prone, their Silhouette is X, and therefore has their base’s height. If the Trooper was not Prone they would be affected by the Template.
-{{greybox-end}}
-
-
-{{n4}}{{greybox-start | Circular Impact Template and Cover}}
-{{image | name=eng-circular-impact-cover-1024.jpg | style=512border }}
-
-By performing an Attack with an Impact Template, the Circular Template is centered on the underside of the Main Target’s Base, regardless of the impact point on the target. Any Game Element in contact or within the Area of Effect of the Circular Template will also be affected by the Attack. 
-
-As we see in the picture, thanks to the scenery element, it is not possible to draw a LoF from the Blast Focus to Trooper 3, who is therefore unaffected. 
-{{greybox-end}}
-
-{{n4end}}
 
 == Template Weapons, and Allied and Neutral Troopers ==
-
-Declaring [[Attacks]] against [[Allied]] or [[Neutral]] Troopers is '''not allowed''', nor is it allowed to perform [[Attacks]] that may affect them, unless the Template lacks a [[Damage Attribute]] value and does not inflict States. Therefore, if when declaring an [[Attack]] with a Template Weapon, an Allied or [[Neutral]] Trooper would be affected by the Template, that shot is cancelled (but not other shots of that same [[Burst]] that have no Allies or [[Neutrals]] within their Area of Effect). Any reactive Troopers within the Area of Effect of the cancelled shot can still declare AROs. 
+Declaring Attacks against [[Allied]] or [[Neutral]] Troopers is not allowed, nor is it allowed to perform Attacks that may affect them, unless the Template lacks a [[Possibility of Survival (PS) | PS Attribute]] value and does not inflict [[States]]. Therefore, if when declaring an Attack with a Template Weapon, an Allied or Neutral Trooper would be affected by the Template, that shot is cancelled (but not other shots of that same [[Burst]] that have no Allies or Neutrals within their Area of Effect). Any reactive Troopers within the Area of Effect of the cancelled shot can still declare [[ARO]]s.
 
 In this case of a cancelled shot, if a Weapon with the [[Disposable]] Trait was used, the initially declared use is still consumed.
 
+=== Template Weapons, and Allied and Neutral Troopers Example ===
+{{greybox-start | Template Weapons, and Allied and Neutral Troopers}}
+{{image | name=n5/dual-templates-allied-example.jpg | style=fullborder }}
 
-=== Allied and Neutral Troopers Example ===
-{{greybox-start | Direct Template Weapons, Allied and Neutral Troopers}}
-{{image | name=eng-dtw-allies.jpg | style=512border }}
+Trooper 1 has [[B]]2 with their Pulzar. When declaring a [[BS Attack]] against Troopers 2 and 3 it is found that Template B affects Trooper 4 ([[Allied]] or [[Neutral]]). Template B is therefore cancelled. 
 
-Trooper 1 has B2 with their Chain-colt, when declaring BS Attack against Troopers 2 and 3 it is checked that the B Template affects Trooper 4 (Allied or Neutral). Template B is therefore cancelled. 
-
-Troopers 2 and 3 may declare ARO normally.
+Troopers 2 and 3 may declare [[ARO]]s normally.
 {{greybox-end}}
 
 
 == Template Weapons Into Close Combat ==
-{{update | 1.3, Nov 2022}}
-Template Weapons placed on a group of Troopers {{erratahighlight}}who were engaged in Close Combat during the Activation phase of the current Order{{erratahighlight-end}} will always affect '''every''' Trooper involved, even if, due to the Template’s placement, it contacts only some of them. Players must take this into account, since [[Attacks]] cannot be performed against Allied Troopers.
-{{update-end}}
-{{original}}
-Template Weapons placed on a group of Troopers {{originalhighlight}}engaged in Close Combat{{originalhighlight-end}} will always affect '''every''' Trooper involved, even if, due to the Template’s placement, it contacts only some of them. Players must take this into account, since [[Attacks]] cannot be performed against Allied Troopers.
-{{original-end}}
+Template Weapons placed on a group of Troopers engaged in [[Close Combat]] will always affect every Trooper involved, even if, due to the Template’s placement, it contacts only some of them. Players must take this into account, since Attacks cannot be performed against [[Allied]] Troopers.
+
+{{see-also-start}}
+'''[[BS Attack Into a Close Combat]]'''
+{{see-also-end}}
 
 
-==  See Also ==
-[[BS Attack Into a Close Combat]] 
+== Template Weapons, Scenery Elements and Total Cover ==
+
+A Template’s Area of Effect may be determined by the presence of scenery elements on the game board, as seen in the graphics.
+
+In Infinity, different Templates have a Blast Focus, which is used to determine if a Trooper is affected by the Template, or if the Template’s Area of Effect has been blocked by [[Total Cover]] from intervening scenery elements. For a Trooper to be affected by the Template, it must be possible to trace a [[LoF]] from the Template’s Blast Focus to the Trooper, without being blocked by [[Total Cover]].
+
+The Blast Focus is the center of the Circular Template and the narrow end of the Teardrop Templates.
+
+LoF from the Blast Focus to a Trooper may only be drawn within the Area of Effect of the Template itself.
 
 
-== FAQs & Errata ==
+{{greybox-start | Direct Template: Area of Effect, Blast Focus, and Scenery}}
+{{image | name=n5/dual-templates-direct-scenery.jpg | style=fullborder }}
 
-{{faqbox |
-type = errata |
-title = N4 Errata |
-version = 1.0, Jan 2021 |
-q = [Errata] How do Dodge MODs stack for Deployable Weapons, Templates from outside LoF and AROs to Troopers inside ZoC but outside LoF? |
-a = The rules text in the Important box on p83 takes priority over the examples.
-In the Dodge and Deployable Weapon example, the Zhanshi is suffering a single -3 MOD, not -6. |
-related = [[Dodge]], [[Template Weapons and Equipment]] }}
+The Scenery element completely covers the enemy Trooper. Therefore, [[LoF]] cannot be traced from the Blast Focus so the Trooper is not affected by the Area of Effect.
+{{greybox-end}}
+
+{{greybox-start | Impact Template: Area of Effect, Blast Focus, and Scenery}}
+{{image | name=n5/eng-templates-impact-scenery.jpg | style=fullborder }}
+{{n5_weapon_single}}
+{{n5_weaponrow|Grenades|+3|-3|--|--|--|--|--|7|1|N|ARM|1|[[Speculative Attack]], [[BS Weapon (PH)]], [[Impact Template (Circular)]]}}
+|}
+
+By performing an Attack with an Impact Template, the Circular Template is centered on the underside of the Main Target’s Base, regardless of the impact point on the target. Any Game Element in contact or within the Area of Effect of the Circular Template will also be affected by the Attack. As we see in the picture, thanks to the scenery element, it is not possible to draw a LoF from the Blast Focus to Trooper 3, who is therefore unaffected.
+{{greybox-end}}
 
 
-{{section-combat-module}}
+
+{{n5-section-combat-module}}
 
 
 

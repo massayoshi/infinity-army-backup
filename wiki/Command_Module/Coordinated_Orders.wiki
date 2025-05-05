@@ -1,34 +1,33 @@
 {{section-command-section}}
 
 
-{{n4only}}
-{{n4}}
 A Coordinated Order is an organized combat action or maneuver carried out by several Troopers at once. By acting in unison, they can minimize the enemy's capacity for hostile reaction and use their superior numbers to safely neutralize a target.
 
 {{image | name=spearhead0.jpg | style=128 }}
 
-{{skillbox |black| COORDINATED ORDER | }}
-{{skill-label | Attack/Movement }}
+{{css_skillbox |black| COORDINATED ORDER | ATTACK / MOVEMENT }}
 {{requirements}}
-* To declare a Coordinated Order, players must spend 1 [[Command Token]], and 1 [[Regular Order]] from the [[Order Pool]] of the participating [[Trooper]]s' [[Combat Group]].
+* To declare a Coordinated Order, players must spend 1 [[Command Token]], and 1 [[Regular Order]] from the [[Order Pool]] of the participating Troopers' [[Combat Group]].
 * Up to 4 Troopers can participate in a Coordinated Order.
 * When players declare a Coordinated Order, they must name one of the participating Troopers as that Order's Spearhead and place a Spearhead Token (SPEARHEAD) beside them.
 * All participating Troopers must declare and execute the exact same sequence of Skills.
 * If one of the Skills of the Coordinated Order demands a Trooper, a Marker, or a mission objective as a target, all Troopers must act against the same single target.
-* Only Troopers with the same [[Training]] (Regular/Irregular) and in the same Combat Group can participate in a Coordinated Order.
+* Only Troopers with the same Training ([[Regular]]/[[Irregular]]) and in the same Combat Group can participate in a Coordinated Order.
 * You can only declare a Coordinated Order during the [[Orders Phase]] of your [[Active Turn]].
+
 {{effects}}
 * In a Coordinated Order, the Spearhead Trooper uses half the indicated [[Burst]] (B) of their weapon, Equipment or Special Skill, including any bonuses, rounded up.
 * All other Troopers participating in the Coordinated Order have their B reduced to 1, regardless of their weapon, Equipment or Special Skill.
-* Each reactive Trooper must '''choose only one''' of the Troopers activated by the Coordinated Order as their target, but they are not obliged to choose the same target.
-* If any of the Troopers does not meet the [[Requirements]] of a Skill declared during the Coordinated Order, then they perform an [[Idle]] instead of that Skill, while the others may act normally.
-* When declaring a [[CC Attack]], only the Spearhead Trooper will perform the CC Attack. They apply a MOD of +1 to their B for each allied Trooper that is in [[Silhouette contact]] with the target.
+* Each [[ARO | reactive Trooper]] must choose only one of the Troopers activated by the Coordinated Order as their target, but they are not obliged to choose the same target.
+* If any of the Troopers does not meet the Requirements of a Skill declared during the Coordinated Order, they perform an [[Idle]] instead, while the others may act normally.
+* When declaring a [[CC Attack]], only the Spearhead Trooper will perform the CC Attack. They apply a MOD of +1 to their [[B]] for each allied Trooper that is in [[Silhouette contact]] with the target.
 * When the Coordinated Order is finished, the player must remove the Spearhead Token (SPEARHEAD) from the table.
+{{css_skillbox-end}}
 
 
-{{important-start}}
+{{remember-start}}
 [[Peripheral]]s and their Controllers cannot be part of Coordinated Orders. 
-{{important-end}}
+{{remember-end}}
 
 
 ===Coordinating Skills===
@@ -38,15 +37,7 @@ However, in a BS Attack part of a Coordinated Order, none of the participants co
 
 
 ===Coordinated Order: Dodge and Reset===
-If the target of a Coordinated Order chooses to [[Dodge]] or [[Reset]] as his ARO, then his Roll is Face to Face against attacking Rolls as appropriate.
-
-
-===Coordinated Order: Success + Failure===
-If the participants of a Coordinated Order declare the use of a Skill or Equipment such as [[Doctor]], [[MediKit]] or [[Engineer]] on a common target, any successful Roll means that the Skill was successful.
-
-
-===Coordinated Order: Targetless or Deployable Traits===
-Weapons or pieces of Equipment with the [[Targetless]] or [[Deployable]] Traits do not have to target the same point on the gaming table. 
+If the target of a Coordinated Order chooses to [[Dodge]] or [[Reset]] as his [[ARO]], then his Roll is [[Face to Face Roll | Face to Face]] against attacking Rolls as appropriate.
 
 
 ===Coordinated Order: States===
@@ -54,114 +45,84 @@ If the player declares a Coordinated Order to activate Game States, each partici
 
 
 ===Coordinated Order and Hacking Programs===
-If the player declares a Coordinated Order to use [[Hacking Program]]s, the usual restrictions apply - each participating Trooper must use the same Hacking Program and choose the same single target, if a target is required. 
+If the player declares a Coordinated Order to use [[Hacking Program]]s, the usual restrictions apply - each participating Trooper must use the same Hacking Program and choose the same single target, if a target is required.
 
-{{update | PDF 2.1, July 2023}}
-=== Coordinated Order: Hidden Deployment and Airborne Deployment ===
 
+===Coordinated Order: Success + Failure===
+If the participants of a Coordinated Order declare the use of a Skill or Equipment such as [[Doctor]], [[MediKit]] or [[Engineer]] on a common target, any successful Roll means that the Skill was successful.
+
+{{see-also-start}}
+'''[[GizmoKit]]'''
+{{see-also-end}}
+
+
+===Coordinated Order: Targetless or Deployable Traits===
+Weapons or pieces of Equipment with the [[Targetless]] or [[Deployable]] Traits do not have to target the same point on the gaming table.
+
+
+===Coordinated Order: Hidden Deployment, and Airborne Deployment ===
 {{remember-start}}
-{{erratahighblock}}
-Troopers in [[Hidden Deployment State]] can be selected to be part of a Coordinated Order. However, in this situation they will lose their own Order.
+Troopers in [[Hidden Deployment State]] can be selected to be part of a Coordinated Order. However, in this situation they will lose their own Order for this Turn.
 
-While off-table, Troopers with [[Airborne Deployment]]-labelled Skills can be selected to deploy as part of a Coordinated Order. However, in this situation they will lose their own Order.
-{{erratahighblock-end}}
+While off-table, Troopers with [[Airborne Deployment]]-labelled Skills can be selected to deploy as part of a Coordinated Order. However, in this situation they will lose their own Order for this Turn.
 {{remember-end}}
-{{update-end}}
+
 
 == Examples ==
 
 {{greybox-start | Coordinated Order Example: Movement + BS Attack}}
-In her Active Turn, a PanOceanian player coordinates a group of 3 Fusiliers and 1 Orc Trooper to mount an attack against a Raicho, a Morat TAG of the Combined Army. The PanOceanian player spends a Command Token and a Regular Order, and assigns the Spearhead role to the Orc Trooper by placing a Spearhead Token beside it. Then, she declares the first Short Skill of her Coordinated Order: Move.
+In their Active Turn, a PanOceanian player coordinates a group of 3 Fennec Fusiliers and 1 Griffin Trooper to mount an attack against a Mechazoid, a TAG of the JSA. The PanOceanian player spends a [[Command Token]] and a [[Regular Order]] and assigns the Spearhead role to the Griffin by placing a Spearhead Token beside him. Then, they declare the first Basic Short Skill of their Coordinated Order: [[Move]].
 
+The JSA TAG can only declare an [[ARO]] against one of the four PanOceanian Troopers in its [[LoF]], so it declares a [[BS Attack]] against the Spearheading Griffin. The Griffin’s BS is higher and his [[B]], even halved, is better than that of the coordinated Fennecs, so he is more likely to inflict serious damage.
 
-The Morat TAG can only declare an ARO against one of the four PanOceanian Troopers in its LoF, so it declares a BS Attack against the Spearheading Orc Trooper. The Orc's BS is higher and his B, even halved, is better than that of the coordinated Fusiliers, so he is more likely to inflict serious damage.
-
-
-The PanOceanian player declares the second Short Skill of her Coordinated Order: BS Attack against the Morat TAG.
-
-
-The exchange is resolved with a Face to Face BS Roll between the Orc Trooper, whose MULTI Rifle has its Burst reduced to 2, and the Raicho. The three Fusiliers, meanwhile, make one Normal BS Roll each, as their B is 1.
+The PanOceanian player declares the second Short Skill of their Coordinated Order: [[BS Attack]] against the JSA TAG.
+The exchange is resolved with a [[Face to Face Roll | Face to Face BS Roll]] between the Griffin, whose HMG has its [[Burst]] reduced to 2, and the Mechazoid. The three Fennecs, meanwhile, make one [[Normal]] BS Roll each, as their B is 1.
 {{greybox-end}}
 
 
 {{greybox-start | Coordinated Order Example: Movement + CC Attack}}
-During his Active Turn, a Combined Army player decides to coordinate a group of 4 Morat Vanguard Infantry and sic them into Close Combat against a Jotum. He spends a Command Token and a Regular Order, places a Spearhead Token beside one of the Morats, and declares the first Short Skill of his Coordinated Order: Move.
+During his Active Turn, a PanOceanian player decides to coordinate a group of 4 Fennecs and sic them into Close Combat against a Mechazoid. They spend a [[Command Token]] and a [[Regular Order]], place a Spearhead Token beside one of the PanOceanians, and declare the first Basic Short Skill of their Coordinated Order: [[Move]].
 
+The Mechazoid can only react against one of the oncoming Fennecs, so it declares [[BS Attack]] against the Spearhead Fennec.
 
-The Jotum can only react against one of the oncoming Vanguards, so it declares BS Attack against the Spearhead Morat.
+The PanOceanian player declares the second Short Skill of their Coordinated Order: [[CC Attack]] against the JSA TAG.
 
-
-The Combined Army player declares the second Short Skill of his Coordinated Order: CC Attack against the PanOceanian TAG.
-
-
-There is a Face to Face Roll between the Spearhead Morat's CC and the Jotum's BS. The Morat has the +1 MOD to his Burst provided by each one of his comrades engaged in that CC, so the Morat has a Burst value of 4 (1+3).
+There is a [[Face to Face Roll]] between the Spearhead Fennec’s [[CC]] and the Mechazoid’s [[BS]]. The Fennec has the +1 MOD to their [[Burst]] provided by each one of their comrades engaged in that CC, so the Fennec has a Burst value of 4 (1+3).
 {{greybox-end}}
 
 
 {{greybox-start | Coordinated Order Example: Failed Activation}}
-To see what happens when one of the coordinated Troopers is unable to fulfil the Requirements of one of the declared Skills, we will go back to the previous example of 3 Fusiliers and 1 Orc Trooper against a Raicho.
+To see what happens when one of the coordinated Troopers is unable to fulfill the Requirements of one of the declared Skills, we will go back to the previous example of 3 Fennecs and 1 Griffin Trooper against a Mechazoid.
 
-
-After selecting the Orc Trooper as Spearhead and declaring the first Short Skill of the Order, Movement, the player measures and moves her four Troopers. The Raicho declares its ARO, and it becomes apparent that there is no LoF between the TAG and one of the Fusiliers. In spite of this, the PanOceanian player declares a BS Attack against the Raicho with the second Short Skill of the Coordinated Order. The Fusilier without LoF will simply be unable to open fire. Specifically, the Fusilier does not perform the declared BS Attack, and performs an Idle instead, as they have not met the Requirements of a declared Skill.
+After selecting the Griffin as Spearhead and declaring the first Basic Short Skill of the Order, [[Move]], the player measures and moves her four Troopers. The Mechazoid declares its [[ARO]], and it becomes apparent that there is no [[LoF]] between the TAG and one of the Fennecs. Despite this, the PanOceanian player declares a [[BS Attack]] against the Mechazoid with the second Short Skill of the Coordinated Order. The Fusilier without LoF will simply be unable to open fire. Specifically, the Fennec will not perform the BS Attack, and performs an [[Idle]] instead.
 {{greybox-end}}
 
 
 {{greybox-start | Coordinated Order Example: Coordinating Troopers in Marker States }}
-In her Active Turn, the PanOceanian player wants to coordinate 2 Camouflage Markers and 1 Orc Trooper against the fearsome Raicho. The PanOceanian player spends a Command Token and a Regular Order, selects the Orc Trooper as Spearhead, and declares the first Short Skill of her Coordinated Order: Move.
+In her Active Turn, the PanOceanian player wants to coordinate 2 [[Camouflaged | Camouflage Markers]] and 1 Griffin against the fearsome Mechazoid. The PanOceanian player spends a [[Command Token]] and a [[Regular Order]], selects the Griffin as Spearhead, and declares the first Basic Short Skill of their Coordinated Order: [[Move]].
 
+The JSA TAG can only declare its [[ARO]] against one of the three looming PanOceanian Troopers and chooses to react to one of the Camouflage Markers. Since he is reacting to a Camouflage Marker, the Mechazoid may delay its ARO, so it waits until the PanOceanian player declares the second Short Skill of their Order to see if the chosen Camouflage Marker reveals itself before declaring an ARO.
 
-The Morat TAG can only declare its ARO against one of the three looming PanOceanian Troopers, and chooses to react to one of the Camouflage Markers. Since he is reacting to a Camouflage Marker, the Raicho may delay its ARO, so it waits until the PanOceanian player declares the second Short Skill of her Order to see if the chosen Camouflage Marker reveals itself before declaring an ARO.
+If the PanOceanian player declares a second Short Skill that will reveal the Camouflage Markers ([[BS Attack]], for example), the Mechazoid will be able to declare an ARO against the revealed Trooper.
 
-
-If the PanOceanian player declares a second Short Skill that will reveal the Camouflage Markers (BS Attack, for example), the Raicho will be able to declare an ARO against  the revealed Trooper. 
-  
-
-If the PanOceanian player declares a second Short Skill that doesn’t reveal the Camouflage Markers (another Move, for example), the Raicho will lose their right to declare an ARO.
+If the PanOceanian player declares a second Short Skill that doesn’t reveal the Camouflage Markers (another [[Move]], for example), the Mechazoid will lose their right to declare an ARO.
 {{greybox-end}}
 
 
-== FAQs & Errata ==
+{{see-also}}
+'''[[Super-Jump]]'''
 
-{{faqbox |
-type = faq |
-title = N4 FAQ |
-version = Updated 1.1.1, Dec 2021 |
-q = Q: If several Troopers are activated at once (for example a Coordinated Order or a Fireteam) and one of them uses Stealth while outside a reactive Trooper's ZoC or Hacking Area, can the Trooper that used Stealth be chosen as the target of AROs? |
-a = <s>A: Yes, but the ARO will only be considered valid if the Stealth user performs a Skill that allows AROs.</s>
-{{erratahighlight}}A: Yes, but the ARO will become an Idle if the Stealth user does not declare a Skill that allows AROs.{{erratahighlight-end}} |
-related = [[Coordinated Orders]], [[Fireteams in the Active Turn]], [[Stealth]] }}
+{{greybox-start | Super-Jump and Multiple Troopers Example}}
+In the Active Turn, several Troopers have been activated with the same Order ([[Fireteams in the Active Turn | Fireteams]], [[Peripheral]]s, [[Coordinated Orders]]) and need to clear an obstacle. They declare [[Jump]] as the first Skill of the Order. Any of the Troopers who have the Super-Jump Special Skill can declare Jump as a [[Basic Short Skill]], while the other Troopers each have a choice of declaring Jump as a [[Long Skill]], or declaring an [[Idle]].
 
+For the second Skill of the Order, any of the Troopers who declared an Idle, or Jump as a Basic Short Skill, can declare a second Basic Short Skill or Short Skill as normal. While the Troopers who declared Jump as a Long Skill have already declared their entire Order and cannot declare a second Skill.
+{{greybox-end}}
+{{see-also-end}}
 
-{{faqbox |
-type = faq |
-title = N4 FAQ |
-version = 1.0, Jan 2021 |
-q = Q: If a Trooper uses an Airborne Deployment Skill to deploy onto the table via a Coordinated Order or an Impetuous activation, what happens to their own Order? |
-a = A: In this situation they will lose their own Order. |
-related = [[Combat Jump]], [[Coordinated Orders]], [[Impetuous]], [[Parachutist]] }}
-
-
-{{faqbox |
-type = faq |
-title = N4 FAQ |
-version = 1.2, Jan 2022 |
-q = Q: If multiple Troopers use Surprise Attack against the same target, for example via a Coordinated Order, or a Controller and Peripheral, do the Surprise Attack MODs stack with each other? |
-a = A: No. Each Trooper's Surprise Attack MOD will be applied separately. For example if a Trooper is the target of two attackers using Surprise Attack, they will only suffer one Surprise Attack MOD if they Dodge, or Attack one of the Active Troopers. |
-related = [[Coordinated Orders]], [[Peripheral]], [[Surprise Attack]] }}
-
-
-{{faqbox |
-type = faq |
-title = N4 FAQ |
-version = 1.3, Nov 2022 |
-q = Q: Can a Controller be part of a Fireteam or Coordinated Order if its Peripheral is Isolated, Disconnected, Dead, etc? |
-a = A: No. |
-related = [[Coordinated Orders]], [[Fireteams: Basic Rules]], [[Peripheral]] }}
 
 
 {{section-command-section}}
 
-{{n4end}}
 
 
 

@@ -1,118 +1,99 @@
-{{section-movement-module}}
-{{section-common-skills}}
+{{n5-section-movement-module}}
+{{n5-section-common-skills}}
 
 
-This Common Skill allows the user to scale heights and move up and down vertical surfaces.
+This Common Skill allows the user to climb and move on vertical surfaces.
 
-{{skillbox |red| CLIMB | ENTIRE ORDER}}
+{{css_skillbox |red| CLIMB | LONG SKILL}}
 {{skill-label | Movement, No LoF, No Roll.}}
 {{Requirements}}
-Players will check the Requirements of this Skill when declaring it.
-* The user's base must be in contact with a vertical surface.  
-* The Trooper’s base must always be in contact with the surface on which they intend to move. Any surface they move on must be at least half as wide as their base.  {{seefaq  | You must use the full width if available.}}
-* At the end of their movement, the Trooper must be able to place themself on a surface that is equal or larger than their base.
+Players must check the Requirements of this Skill when declaring it.
+* The Trooper’s base must be in contact with a vertical surface.
+* At least half the Trooper’s base must stay in contact with the surface on which they are moving.
+* The Trooper must be able to finish their movement on a surface that is equal to or larger than their base.
+
 {{Effects}}
-* The user may climb vertically up to the first value of his ''[[MOV]]'' Attribute in inches, measuring from the base’s outer edge and underside. {{seefaq}}
-* Climbing does not require a Roll.
-* For visualization purposes, Troopers using the Climb Skill move with at least half of their base’s underside in contact with the vertical surface.
-{{update | PDF 2.1, July 2023}}
-* Climb only allows moving on vertical surfaces{{erratahighlight}}. Therefore, the Troop will end its Climbing movement the moment the whole of its base is in contact with a horizontal surface (see example).<br>When measuring Climb movement, you can measure from any point of the Trooper’s Silhouette at the start of the movement, but you must measure to the base’s outer edge and underside at the end of the movement (see example).{{erratahighlight-end}}
-{{update-end}}
-{{original}}
-* Climb only allows movement on vertical surfaces{{originalhighlight}}; this means Troopers cannot use their excess Climbing movement to keep moving on a horizontal surface once they are done climbing. Once the Trooper reaches a level surface, his movement ends for that Order, placing the Trooper on the horizontal surface (see diagram). 
-{{original-end}}
-* Climbing movement must follow the ''[[General Movement Rules]]'' as well as the ''[[Moving and Measuring]]'' rules.
+* Allows the Trooper to move on a vertical surface. The user can Climb up to the first value of their [[MOV]] [[Attribute]], plus 2 inches.
+* Climbing is a Common Skill that does not require a Roll.
+* When Climbing, players must measure the distance from the starting point to the destination, measuring from the base's outer edge and underside.
+* For visualization purposes, Troopers using the Climb Skill move with at least half of their base's underside in contact with the vertical surface.
+* Climb only allows movement on vertical surfaces. The Climb Skill does not allow the user to move on a horizontal surface, even if their modified [[MOV]] value exceeds the distance that needs to be Climbed. Therefore, a Trooper '''will finish their Climbing movement''' the moment the whole of their base in contact with a horizontal surface (see Example 1). 
+* Climbing movement must follow the [[General Movement Rules]] as well as the [[Moving and Measuring]] rules.
+* Some Troopers have the Climb Skill listed in their [[Unit Profile]] with a distance shown in round brackets. When Climbing, the Trooper can add this distance to their Climb, instead of 2 inches.
+{{css_skillbox-end}}
 
 
 {{important-start}}
-* Troopers cannot be deployed on a vertical surface, neither during the Deployment Phase nor during the game. 
-* As long as the user is holding on to a vertical surface, he cannot declare any Skills other than Climb.
-* Troopers who are Climbing or holding on to a vertical surface cannot benefit from ''[[Partial Cover]] '''[[MODs]]'''''.
-{{update | PDF 2.1, July 2023}}
-* A Trooper that is on a vertical surface and becomes ''[[Unconscious]]'' will place the corresponding {{erratahighlight}}State Token{{erratahighlight-end}} beside them as usual. Even while climbing, ''[[Unconscious]]'' Troopers are still in ''[[Prone]]'' state, except for those Unit Types that cannot enter Prone state.
-{{update-end}}
-{{original}}
-* A Trooper that is on a vertical surface and becomes ''[[Unconscious]]'' will place the corresponding {{originalhighlight}}Marker{{originalhighlight-end}} beside them as usual. Even while climbing, ''[[Unconscious]]'' Troopers are still in ''[[Prone]]'' state, except for those Unit Types that cannot enter Prone state.
-{{original-end}}
+* Troopers cannot be deployed on a vertical surface, neither during the [[Deployment Phase]] nor during the game.
+* As long as a Trooper is holding on to a vertical surface, they cannot declare any Skills other than Climb.
+* A Trooper who is Climbing or holding onto a vertical surface and becomes [[Unconscious]] will place the corresponding State Token beside them as usual. Even while climbing, Unconscious Troopers are still in [[Prone State]], except for those Unit Types that cannot enter Prone State.
+* A Trooper who is Climbing or holding onto a vertical surface cannot benefit from [[Partial Cover]] MODs.
 {{important-end}}
 
 
 {{remember-start}}
-A Trooper in the ''[[Reactive Turn]]'' who is holding onto a vertical surface cannot ARO. The reason for this is that, while on a vertical surface, the only available Skill is ''[[Climb]]'', and ''[[Climb]]'' is an Entire Order that cannot be used in the ''[[Reactive Turn]]''.
+A Trooper in the [[Reactive Turn]] who is holding onto a vertical surface '''cannot declare an [[ARO]]'''. The reason for this is that, while on a vertical surface, the only available Skill is Climb, and Climb is a [[Long Skill]] that cannot be used in the Reactive Turn.
 {{remember-end}}
 
 
 {{remember-start}}
-Any height on the game table that is higher than the height of a Trooper’s ''[[Silhouette Template]]''—determined by the Trooper’s Silhouette Attribute—requires declaring the ''[[Jump]]'' or ''[[Climb]]'' Common Skills to pass it.
+Any height on the game table that is '''higher''' than the height of a Trooper's '''[[Silhouette Template]]''' determined by the Trooper's Silhouette Attribute requires declaring the [[Jump]] or [[Climb]] Common Skills to pass it.
 {{remember-end}}
 
 
+{{advice-start}}
+Before the game begins, it is a good idea for both players to agree on which surfaces on the game table will require the use of the Climb Skill, taking into account potentially dubious cases, such as buildings with slightly angled walls.
+{{advice-end}}
+
+
+{{see-also}}
+'''[[Climbing Plus]]'''
+* With this Special Skill, the [[Climb]] Long Skill is turned into a [[Basic Short Skill]], if declared as the first Basic Short Skill of the Order.
+* Climbing Plus also allows the user to move on vertical surfaces as if performing normal Movement on a horizontal surface when declaring [[Move]] or [[Dodge]], or during movement due to a failed [[Guts Roll]]. The [[General Movement Rules]] and [[Moving and Measuring]] chapter must be applied. 
+* The Climbing Plus Special Skill allows its user to perform other Basic Short Skills or Short Skills (e.g. Move + [[BS Attack]]) while moving on a vertical surface, or if hanging from a height (see [[Trooper Activation]]).
+{{see-also-end}}
+
+
+{{see-also}}
+'''[[Restrictions Chart]]'''
+{| class="n5table-dark"
+|-
+! Restrictions Chart
+|- 
+| Troopers mounted on [[Motorcycle]]s cannot go [[Prone]], declare [[Cautious Movement]], [[Climb]], use [[ladders]], or perform an upwards [[Jump]].
+|}
+{{see-also-end}}
+
+
 == Examples ==
-{{greybox-start | Example 1}}
-{{update | PDF 2.1, July 2023}}
-{{image | name=eng-climb-1-pdf2.jpg | style=512border }}
+{{greybox-start | Climb Example 1}}
+{{image | name=n5/eng-climb-example-1v2.jpg | style=fullborder }}
 
-A Trooper that is in {{erratahighlight}}Silhouette{{erratahighlight-end}} contact with an obstacle declares the Climb Skill. {{erratahighlight}}When measuring, the first MOV value of the Trooper (4,5 inches) is enough to climb the 3 inch tall obstacle and move onto the upper surface.{{erratahighlight-end}}
-{{update-end}}
-{{original}}
-{{image | name=eng-climb-1.jpg | style=512border }}
-
-A Trooper that is in contact with an obstacle declares the Climb Skill. {{originalhighlight}}The obstacle is measured and is 4 inches tall, the same as the Trooper’s first MOV Attribute value, therefore they climb up and are placed on the upper surface. {{originalhighlight-end}}
-{{original-end}}
+A Trooper that is in [[Silhouette contact]] with an obstacle declares the Climb Skill. When measuring, the player finds that the distance the Trooper needs to Climb is shorter than the maximum distance for this Skill (6 inches= their first [[MOV]] value of 4, + 2 inches = 6 inches). Hence, it is enough to Climb the obstacle and move onto its upper surface. Even though the 6 inches granted by the Climb Skill exceeds the distance that needs to be Climbed, the Trooper must finish their movement as soon as the whole of their base is in contact with the upper surface of the obstacle. 
 {{greybox-end}}
 
 
-{{greybox-start | Example 2}}
-{{update | PDF 2.1, July 2023}}
-{{image | name=eng-climb-2-pdf2.jpg | style=512border }}
-{{update-end}}
-{{original}}
-{{image | name=eng-climb-2-1024.jpg | style=512border }}
-{{original-end}}
+{{greybox-start | Climb Example 2}}
+{{image | name=n5/eng-climb-example-2v2.jpg | style= fullborder }}
 
-A Trooper uses one Order to declare the Move Skill until being in contact with an obstacle. With a second Order, they declare the Climb Skill, checks that the 4 inches are enough to reach the top part, placing the Trooper on the horizontal surface.
+A Trooper spends an [[Order]] and declares the [[Move]] Skill until they reach [[Silhouette contact | base contact]] with an obstacle. With a second Order, they declare the Climb Skill, check that the 6 inches granted by this Skill (their first [[MOV]] value of 4, + 2 inches) are enough to move onto the upper surface of the obstacle, and then finish their movement on the horizontal surface.
 
-Since they see no enemies and there is no ARO, their Order’s second Skill will be an Idle. By consuming a fourth Order, the player declares Climb and descends 4 inches. Finally, with a fifth Order, the Trooper finishes their movement on the other side, on the obstacle’s base.
+Next, the player spends a third Order to Move to the edge of the obstacle. Since they see no enemies and there is no [[ARO]] to their Move, their Order's second Skill will be an [[Idle]]. To descend on the other side, they declare the Climb Skill again, measure the height of the obstacle, and find that the height of this side of the obstacle is greater than the 6 inches granted by Climb. Therefore, the player needs to spend another Order to finish the Climb and reach the bottom.
 
-Remember that a Trooper will end their Climb movement the moment they reach a horizontal surface.
-
-If at some point the player had decided not to consume more Orders for said Trooper, they would have remained in the horizontal or vertical position in which they were until they consume more Orders, or they end up Dead.
+Remember that a Trooper '''will end their Climb movement''' the moment the whole of their base is in contact with a horizontal surface. If the player decides at some point not to spend any more Orders on a climbing Trooper, they will remain in the position they are in until more Orders are spent on them, or until they enter [[Dead State]].   
 {{greybox-end}}
 
 
-== FAQs & Errata ==
 
-{{faqbox |
-type = faq |
-title = N4 FAQ |
-version = Updated 1.1.1, Dec 2021 |
-q = Q: While using Move or Climb, can you move 'through' a corner {{erratahighlight}}or overhang the edge of the surface{{erratahighlight-end}}, in the same way that you can move through a space that's half the width of the Trooper's base? |
-a = A: No. If the space is wide enough for the Trooper's full base, you must use the full base.
-
-Examples: 
-
-{{image | name=dual-faq10-1.jpg | style= 256border }}
-{{image | name=dual-faq10-2.jpg | style= 256border }}
-{{image | name=dual-faq10-3.jpg | style= 256border }} |
-related = [[Climb]], [[Climbing Plus]], [[Move]] }}
+{{n5-section-movement-module}}
+{{n5-section-common-skills}}
 
 
-{{faqbox |
-type = faq |
-title = N4 FAQ |
-version = 1.3, Nov 2022 |
-q = Q: How are Jump and Climb movement measured? |
-a = A: When measuring Jump or Climb movement, you can measure from any point of the Trooper's Silhouette at the start of the movement, but you must measure to the base's outer edge and underside at the end of the movement. The Trooper can vault over obstacles (parapets etc.) that are equal to or lower than the height of their Silhouette as normal.
-
-{{image | name=faq_jump_climb_measurement_v01.png | style=512border }}
-
-''Development team note: By gaining distance from the Silhouette and allowing the Trooper to ignore parapets (as long as they are equal to or lower than the Silhouette height), movement while Jumping or Climbing is facilitated. This makes these movements easier and gives extra value to Troopers with Super-Jump and Climbing Plus. As we can see in the image, the Jump path is the same even without the parapet.'' |
-related = [[Climb]], [[Climbing Plus]], [[Jump]], [[Super-Jump]] }}
-
-
-{{section-movement-module}}
-{{section-common-skills}}
-
-
+<!-- Main categories. -->
 [[Category: Common Skills]]
 [[Category: Movement Module]]
+
+<!-- Label and Trait categories. -->
+[[Category: Movement]]
+[[Category: No LoF]]
+[[Category: No Roll]]

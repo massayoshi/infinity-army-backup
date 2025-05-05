@@ -1,47 +1,33 @@
-{{section-hacking}}
+{{n5-section-hacking}}
 
 
-{{n4only}}
-{{n4list}}
-{{skillbox |red| CYBERMASK | ENTIRE ORDER }}
+{{css_skillbox |red| CYBERMASK | LONG SKILL }}
 {{skill-label | NFB, No Roll. }}
 {{requirements}}
-* The user must be outside the [[LoF]] of enemy [[Markers]] or [[Troopers]].
+* The user must be outside the [[LoF]] of enemy Markers or Troopers.
 {{effects}}
-* The user enters the [[Impersonation-2]] state, which does not require a Roll, replacing the user's model with an Impersonation-2 Marker (IMP-2).
+* The user enters the [[Impersonation State | Impersonation-2 state]], which does not require a Roll, replacing the user's model with an Impersonation-2 Marker (IMP-2).
 * The effects of this Program persist until the user reveals themselves as per the Impersonation-2 state rules.
-* This Program affects only the Hacker himself and therefore has no range.
+* This Program affects only the [[Hacker]] himself and therefore has no range.
+{{css_skillbox-end}}
 
 
 {{remember-start}}
-'''NFB:'''
-{{update | PDF 2.1, July 2023}}
-{{erratahighlight}}While the Hacker is in IMP-2 State, the Program’s NFB Label applies, so they cannot use or apply any other Skill, piece of Equipment, or Hacking Program that has the NFB Label, for example [[Mimetism]], [[Albedo]], [[Holoprojector]] etc.{{erratahighlight-end}}
-{{update-end}}
-{{original}}
-{{originalhighlight}}The Hacker cannot be in IMP-2 state while being in Camouflaged state or other similar state.{{originalhighlight-end}}
-{{original-end}}
+While the [[Hacker]] is in [[Impersonation State | IMP-2 State]], the Program’s [[NFB]] Label applies, so they cannot use or apply any other Skill, piece of Equipment, or Hacking Program that has the NFB Label, for example [[Mimetism]], [[Albedo]], [[Holoprojector]] etc.
 {{remember-end}}
 
 
-{{n4-hacking-header}}
-{{hackingrow | [[Cybermask]] | -- | -- | -- | -- | -- | Entire Order | Replace user with [[IMP-2]] Marker.}}
+{| class="n5table-dark
+|-
+! Name !! Attack MOD !! Opp. MOD !! PS !! Burst !! Target !! Skill Type !! Special
+|- 
+| [[Cybermask]] || -- || -- || -- || -- || -- || Long Skill || Replace user with [[IMP-2]] Marker.
 |}
-
-
-== FAQs & Errata ==
-
-{{faqbox |
-type = faq |
-title = N4 FAQ |
-version = 1.1.1, Dec 2021 |
-q = Q: Can a Hacker in IMP-2 State (via Cybermask) use the Surprise Attack Special Skill if they don't have Surprise Attack listed on their Unit Profile? |
-a = A: No. If the Trooper doesn't have the Surprise Attack Special Skill, the Trooper cannot use it. |
-related = [[Cybermask]], [[Impersonation State]], [[Surprise Attack]] }}
-
-{{n4end}}
-
 
 
 
 [[Category: Hacking]]
+
+<!-- Label and Trait categories. -->
+[[Category: NFB ]]
+[[Category: No Roll ]]

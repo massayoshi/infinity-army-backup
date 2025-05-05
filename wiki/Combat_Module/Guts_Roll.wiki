@@ -1,35 +1,36 @@
-{{section-combat-module}}
+{{n5-section-combat-module}}
 
 
-{{n4only}}
-{{n4list}}
 When Troopers survive a successful Attack, it means their body armor took the brunt of the impact, keeping them from serious injury. This triggers a primal fear of death, and survival instincts kick in. The Troopers' survival instincts can force them to recoil from danger and dive for cover.
 
-{{skillbox |black| GUTS ROLL |}}
+{{css_skillbox |black| GUTS ROLL}}
 {{Requirements}}
-{{update | PDF 2.1, July 2023}}
 * The Trooper is not in an [[Engaged]], [[Null]] or [[IMM]] State.
-* The Trooper had suffered one or more successful Attacks{{erratahighlight}} that cause the Trooper to enter any States or to perform any [[Saving Roll]]s.{{erratahighlight-end}}
-* {{erratahighlight}}The Guts Roll is performed even if all the attackers are in a Null State at the end of the Order.{{erratahighlight-end}}
-{{update-end}}
-{{original}}
-* The Trooper is not in an [[Engaged]], [[Null]] or [[IMM]] State.
-* The Trooper had suffered one or more successful Attacks{{originalhighlight}}–even if all the attackers are in a [[Null]] State. {{seefaq | Attacks with no Damage value that do not inflict States do not cause Guts Rolls.}}{{originalhighlight-end}}
-{{original-end}}
-{{Effects}}
-* A Guts Roll consists in a single Normal [[WIP]] Roll, always performed at the very end of the Order, after performing any [[Saving Rolls]].
+* The Trooper had suffered one or more successful Attacks that cause the Trooper to enter any [[State]]s or to perform any [[Saving Rolls]].
+* The Guts Roll is performed even if all the attackers are in a [[Null]] State at the end of the Order.
+
+{{effects}}
+* A Guts Roll consists in a single [[Normal Roll | Normal]] [[WIP]] Roll, always performed at the very end of the Order, after performing any [[Saving Roll]]s.
 * If the Guts Roll is successful, the Trooper must stand its ground and must do nothing else.
 * If a Trooper would have to make a Guts Roll, its owner can instead choose to fail it automatically.
-* '''If the WIP Roll is failed,''' it is compulsory to perform the first of these options that the Trooper can complete:
-** 1. The Trooper must move up to 2 inches to '''completely leave''':
-*** The LoF of the Enemy or Enemies (for example, in the case of a Coordinated Order, or multiple AROs) that have performed Attacks against the Trooper.  
-*** The danger zone or Area of Effect of Attacks that did not require LoF. 
-** 2. If this is not possible, the Trooper must move up to 2 inches to gain Total or Partial Cover from all attackers.
-** 3. If the two previous options are not possible, the Trooper must go Prone, facing in any direction its player chooses.
+* '''If the WIP Roll is failed''', it is compulsory to perform the first of these options that the Trooper can complete:
+** The Trooper must move up to 2 inches to '''completely leave''':
+*** The [[LoF]] of the Enemy or Enemies (for example, in the case of a [[Coordinated Order]], or multiple [[ARO]]s) that have performed Attacks against the Trooper.
+*** The danger zone or Area of Effect of Attacks that did not require LoF.
+** If this is not possible, the Trooper must move up to 2 inches to gain [[Cover | Total or Partial Cover]] from all attackers.
+** If the two previous options are not possible, the Trooper must go [[Prone]], facing in any direction its player chooses
+* Check the enemy LoF or Area of Effect from the Trooper's final position at the end of the Order, when the Guts Roll is made.
+* When checking the enemy's LoF or Area of Effect, if the Trooper is already outside them and the Guts Roll is failed, the Trooper enters Prone State, facing in a direction of the player's choice.
 * This movement of a failed Guts Roll:
-** Does not generate AROs or activate Deployable Weapons or Equipment.
+** Does '''not''' generate [[ARO]]s or activate [[Deployable]] Weapons or Equipment.
 ** Must follow the [[General Movement Rules]] as well as the [[Moving and Measuring]] rules.
-** Does '''not''' allow the Trooper to enter Silhouette contact with enemy Troopers, or with Mission Objectives.
+** Does '''not''' allow the Trooper to enter [[Silhouette contact]] with enemy Troopers, or with Scenario Objectives.
+{{css_skillbox-end}}
+
+
+{{important-start}}
+Attacks that have no PS value and do not cause any State do not require a Guts Roll. 
+{{important-end}}
 
 
 {{remember-start}}
@@ -37,20 +38,27 @@ Troopers in [[Engaged State]] do not make Guts Rolls.
 {{remember-end}}
 
 
-== FAQs & Errata ==
-
-{{faqbox |
-type = faq |
-title = N4 FAQ |
-version = 1.0, Jan 2021 |
-q = Q: Do Smoke Grenades etc. cause Guts Rolls? |
-a = A: No. Attacks with no Damage value that do not inflict States do not cause Guts Rolls. |
-related = [[Eclipse Ammunition]], [[Guts Roll]], [[Smoke Ammunition]] }}
-
-{{n4end}}
+{{see-also}}
+'''[[Stun Ammunition]]'''
+* Additionally, failing the [[Saving Roll]] causes the target to automatically fail the subsequent [[Guts Roll]] for having survived an Attack, unless he has the [[Courage]] Special Skill or an equivalent.
 
 
-{{section-combat-module}}
+'''[[Climbing Plus]]'''
+* Climbing Plus also allows the user to move on vertical surfaces as if performing normal Movement on a horizontal surface when declaring [[Move]] or [[Dodge]], or during movement due to a failed [[Guts Roll]]. The [[General Movement Rules]] and [[Moving and Measuring]] chapter must be applied. 
+
+
+'''[[Courage]]'''
+* Courage allows its user to choose to automatically pass any [[Guts Roll]]s.
+
+
+'''[[Religious Troop]]'''
+* The user automatically passes all their [[Guts Roll]]s without requiring a Roll. This means that the user is forced to hold their position and cannot withdraw or seek cover after surviving an Attack.
+* However, if the player wants the user to withdraw or gain [[Cover]] after surviving an Attack, then they may make a [[WIP]] Roll. If the Roll is a success, the user can apply the Effects of failing the Guts Roll.
+{{see-also-end}}
+
+
+
+{{n5-section-combat-module}}
 
 
 

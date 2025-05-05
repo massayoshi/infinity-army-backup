@@ -1,0 +1,40 @@
+{{n5-section-equipment}}
+
+
+A TinBot is a semi-autonomous piece of Equipment that remains near its owner and provides him with some bonus or benefit.
+
+{{css_skillbox |black| TINBOT | AUTOMATIC EQUIPMENT }}
+{{skill-label | Comms Equipment, Prior Deployment. }}
+{{requirements}}
+* A TinBot grants its MODs or additional advantages as long as its owner is not in any [[Null]] State ([[Unconscious]], [[Dead]], [[Sepsitorized]], etc.) or Isolated State.
+{{effects}}
+* TinBot Models and Tokens are State Tokens, so they cannot block movement or [[LoF]], or be targeted by any Skill.
+* If the owner of a TinBot enters [[Dead State]], remove the TinBot from the game alongside its owner.
+* A TinBot grants its owner with different MODs, Special Skills, or pieces of Equipment. The player will apply the one specified next to the TinBot, in the [[Unit Profile]].
+* If the owner of a TinBot is part of a [[Fireteam]], every member of the Fireteam benefits from the TinBot.
+* If the members of a Fireteam have more than one TinBot between them that grants the same advantages, they can only use one of them per declared [[Trooper Activation | Order]] or [[ARO]]. If the TinBots grant different MODs for the same advantage, only the most advantageous MOD may be used.
+{{css_skillbox-end}}
+
+
+{{greybox-start | Examples of Tinbot Types }}
+'''TinBot: [[Firewall]] (-3)''' <br>
+Indicates that, when the owner of the TinBot is targeted by a [[Comms Attack]], the Enemy applies a -3 Firewall MOD.
+
+'''TinBot: [[Guided]] (-6)'''<br>
+Indicates that, when the owner of the TinBot is targeted by a Guided Attack, the Enemy applies a -6 MOD.
+
+'''TinBot: [[Discover]] (+3)'''<br>
+Indicates that, when the owner of the TinBot declares the Discover Skill, they apply a +3 WIP MOD.
+{{greybox-end}}
+
+
+
+{{n5-section-equipment}}
+
+
+
+[[Category:Equipment]]
+
+<!-- Label and Trait categories. -->
+[[Category: Comms Equipment ]]
+[[Category: Prior Deployment ]]

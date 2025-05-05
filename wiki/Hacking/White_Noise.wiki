@@ -1,47 +1,45 @@
-{{section-hacking}}
+{{n5-section-hacking}}
 
 
-{{n4only}}
-{{n4list}}
-{{skillbox |green| WHITE NOISE | SHORT SKILL }}
+{{css_skillbox |green| WHITE NOISE | SHORT SKILL }}
 {{skill-label | NFB }}
 {{requirements}}
-* To use this this Hacking Program, the Hacker must be the Active Trooper.
+* To use this this Hacking Program, the [[Hacker]] must be the Active Trooper.
 {{effects}}
 * The White Noise Hacking Program generates a [[White Noise Zone]] the size of a Circular Template and with infinite height.
-* On a successful Normal WIP Roll, the Hacker may place the Circular Template representing the White Noise Zone inside their [[Hacking Area]] at the end of the Order. {{seefaq | The position must be chosen when declaring White Noise.}}
-* The Circular Template must be totally inside the Hacking Area.
+* On a successful Normal [[WIP]] Roll, the [[Hacker]] may place the Circular Template representing the '''White Noise Zone''' inside their [[Hacking Area]] at the end of the Order.
+* The Circular Template must be [[totally inside]] the Hacking Area.
 * The effects of this Program persist until the start of the [[States Phase]], at which point you must remove the Circular Template.
-* The range of this Program is the Hacker's [[Hacking Area]].
-{{update | PDF 2.1, July 2023}}
-* {{erratahighlight}}While the Circular Template is on the game table, the Program’s NFB Label applies to the Hacker, so they cannot use or apply any other Skill, piece of Equipment, or Hacking Program that has the NFB Label, for example [[Mimetism]], [[Albedo]], [[Holoprojector]] etc.{{erratahighlight-end}}
-{{update-end}}
+* While the Circular Template is on the game table, the Program's [[NFB]] Label applies to the Hacker, so they cannot use or apply any other Skill, piece of Equipment, or Hacking Program that has the NFB Label, for example [[Mimetism]], [[Albedo]], [[Holoprojector]] etc.
+* The range of this Program is the Hacker's Hacking Area.
+{{css_skillbox-end}}
 
 
 {{Important-start}}
-Troopers possessing a [[Multispectral Visor]] cannot draw [[LoF]] through a White Noise Zone.
+Troopers possessing a [[Multispectral Visor]] or [[Marksmanship]] cannot draw [[LoF]] through a [[White Noise Zone]].
 {{important-end}}
 
 
-{{n4-hacking-header}}
-{{hackingrow | [[White Noise]] | -- | -- | -- | 1 | -- | Short Skill | [[NFB]], [[Reflective]]: Circular Template blocking LoF for [[Multispectral Visor]]s. }}
+{| class="n5table-dark
+|-
+! Name !! Attack MOD !! Opp. MOD !! PS !! Burst !! Target !! Skill Type !! Special
+|- 
+| [[White Noise]] || -- || -- || -- || 1 || -- || Short Skill || [[NFB]], [[Reflective]], [[Circular Template]].
 |}
 
 
-== FAQs & Errata ==
-
-{{faqbox |
-type = faq |
-title = N4 FAQ |
-version = 1.0, Jan 2021 |
-q = Q: Do you need to specify all details of a Skill when declaring it? For example where the target is for a BS Attack, or where the template is being placed for White Noise? |
-a = A: Yes, with the exception of the target’s position, which is chosen in the Resolution step, before measuring Ranges. If the order of declaration is important, the active player chooses who declares first. |
-related = [[BS Attack]], [[Trooper Activation]], [[White Noise]] }}
+{{see-also}}
+'''[[Terrain and Scenery Structures#Special Terrain | Area of Effect of Special Terrain Zones]]'''<br>
+: In Infinity, the [[Area of Effect]] of a Special Terrain zone is the area in where its special effects are applied. Any Trooper in [[Silhouette contact]] with a Special Terrain zone, or whose base or [[Silhouette Template]] is covered at least partially by a Special Terrain zone, is equally affected by the Effects of the zone.
+{{see-also-end}}
 
 
-{{n4end}}
 
-
+{{n5-section-hacking}}
 
 
 [[Category: Hacking]]
+
+<!-- Label and Trait categories. -->
+[[Category: NFB ]]
+[[Category: Reflective ]]

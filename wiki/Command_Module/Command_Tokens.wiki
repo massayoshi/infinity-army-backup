@@ -1,102 +1,83 @@
 {{section-command-section}}
 
 
-{{n4only}}
-{{n4}}
-Command Tokens represent the command and control resources at your disposal to support your combat force.
+Command Tokens represent the command and control resources at your disposal to support your combat force. 
 
 {{image | name=command_token0.jpg | style=128 }}
 
-Each player has '''four Command Tokens''' per game.
+Each player has four Command Tokens per game.
 
-Command Tokens have three different gaming use modes: 
+{{see-also}}
+'''[[Lieutenant]]'''
+* In the Unit Profile, this Special Skill may have additional abilities listed. Some examples are:
+** '''+1 Command Token'''. The player that takes this Trooper as their Lieutenant will have one extra [[Command Tokens | Command Token]] for the match.
+{{see-also-end}}
 
+
+Command Tokens have three different gaming use modes:
 * [[#Command Tokens: Strategic Use|Strategic Use]].
 * [[#Command Tokens: Executive Use|Executive Use]].
-* [[#Command Tokens: Tactical Use|Tactical Use]].
+* [[#Command Tokens: Operational Use|Operational Use]].
 
 
 == Command Tokens: Strategic Use ==
-The Strategic Use of Command Tokens has a special and unique nature, reflecting defensive intel actions deployed by Mission Control.
+The Strategic Use of Command Tokens has a special and unique nature, reflecting defensive intel actions deployed by Mission Control. Those actions are divided into Procedural and Logistical: 
+* '''Procedural:''' The player who has the '''first [[Player Turn]]''' may spend 1 single Command Token during their Deployment in order to set aside one extra Trooper and their Peripherals, which they will be able to deploy after their opponent, in step 3 of the [[Deployment Phase]].
+* '''Procedural: '''The player who has '''the second Player Turn''' may make Strategic Use of their Command Tokens during the Tactical Phase of their opponent's first Turn to perform one of the following actions:
+** Remove '''two''' [[Regular Order]]s for this Turn from their opponent's [[Order Pool]]. The player may choose which [[Combat Group]]s these Orders correspond to. This option '''may only be performed''' during the opponent's [[Tactical Phase]], '''right after the [[Order Count]]''', but only if the number of Orders ([[Regular Order | Regular]] + [[Irregular Order | Irregular]] + [[Tactical Order | Tactical]]) '''is higher than ten'''. The Orders of Troopers in [[Hidden Deployment State]], or off table via [[Airborne Deployment]] Skills, are not counted for this limit.
+** Prevent the adversary from using more than one single Command Token during that first Turn.
+** One Trooper from that player's [[Army List]] can activate the [[Suppressive Fire State]] (along with their [[Peripheral]]s, if they are a Controller), following the Activation rules of the Skill.
+* '''Logistical: '''After both players have completed their Deployment, and following the established Initiative order, each player may spend 1 Command Token to gain 2 Speedball Tokens (see [[Request Speedball]]).
 
-The player who has the '''first Player Turn''' can make Strategic Use of Command Tokens during his Deployment. By spending one single Command Token during his Deployment he can:
-* [[Deployment Phase|Set aside]] one extra Trooper to deploy after their opponent.
-
-
-
-The player who has the '''second Player Turn''' can make Strategic Use of Command Tokens in the Tactical Phase of the adversary's first Player Turn. By spending one single Command Token at the end of the adversary's Order Count, they can choose one of the following options:
-* Remove two [[Regular Order]]s from the adversary's [[Order Pool]], for this Turn only. The player using the Command Token will decide from which [[Combat Group]] or Groups the Orders will be removed from. 
-* Prevent the adversary from using more than one single Command Token during that first Turn.
-* One [[Trooper]] from that player's [[Army List]] can activate the [[Suppressive Fire State]] (along with their [[Peripheral]]s, if they are a Controller), following the Activation rules of the State. {{seefaq | Marker States etc. will be cancelled.}}
+Each player may spend '''a maximum of two''' Command Tokens for Strategic Use, one on a Procedural option and one on a Logistical option.
 
 
 == Command Tokens: Executive Use ==
-Executive Use of Command Tokens is made during the player’s Executive Use of Command Tokens step of the [[Tactical Phase]], which represents executive actions performed by Mission Control. 
-For each Command Token expended, the player may do one of the following:
-* Permanently move an [[allied]] [[Trooper]] to a different [[Combat Group]], but respecting the 10 members limit.  {{seefaq}}
-* Cancel the [[Possessed State]] of an allied Trooper. 
-Players may expend as many Command Tokens during a single Tactical Phase as they desire, assuming they have enough. Players may also use more than one Command Token for the same effect.
-
-
-== Command Tokens: Tactical Use ==
-
-Players can make Tactical Use of Command Tokens during their [[Active Turn]]. This reflects the tactical usage of intel resources by Mission Control.
+Executive Use of Command Tokens is made during the player's Executive Use of Command Tokens step of their [[Tactical Phase]], which represents executive actions performed by Mission Control.
 
 For each Command Token expended, the player may do one of the following:
+* Permanently move an [[Allied]] Trooper and all their [[Peripheral]]s to a different [[Combat Group]], keeping in mind the 10-member limit.
+* Cancel the [[Possessed State]] of an Allied Trooper.
+
+
+{{see-also-start}}
+When a player moves a '''[[G: Jumper]]''' Trooper into a different [[Combat Group]], he will move all the Proxies, as they are considered to be a single Trooper in each Combat Group.
+{{see-also-end}}
+
+
+== Command Tokens: Operational Use ==
+Players may make Operational Use of their Command Tokens in their Active Turn. This represents the tactical use of intel resources by Mission Control. For each Command Token expended, the player may perform one of the following actions:
 * Declare a [[Coordinated Order]], spending a [[Regular Order]] from the [[Order Pool]] of the participating Troopers' [[Combat Group]].
-* Have an allied Trooper automatically pass or fail a [[Guts Roll]], as desired, ignoring the result on the die and any Special Skills the Trooper might have.
-{{update | PDF 2.1, July 2023}}
-* Transform{{erratahighlight}}s{{erratahighlight-end}} the [[Irregular Order]] provided by an Irregular Trooper into a single [[Regular Order]], substituting the corresponding Order Token for that Player Turn {{erratahighlight}}and adding it to the Order Pool of the Trooper’s Combat Group.{{erratahighlight-end}} {{seefaq | This does not apply to Isolated Troopers.}}
-{{update-end}}
-{{original}}
-* Transform the [[Irregular Order]] provided by an Irregular Trooper into a single [[Regular Order]], substituting the corresponding Order Token for that Player Turn. {{seefaq | This does not apply to Isolated Troopers.}}
-{{original-end}}
-* Have one Trooper be unaffected by [[Retreat!]] This Trooper ignores the effects of the [[Retreat! situation]] until the end of the game.
-* Reroll a failed [[WIP]] Roll when trying to use the [[Doctor]] Special Skill on a Trooper with a [[Cube]]. This reroll does not provide a new ARO to the enemy.
-* Reroll a failed [[WIP]] Roll when trying to use the [[Engineer]] Special Skill on a Trooper with the [[Remote Presence]] Special Skill. This reroll does not provide a new ARO to the enemy.
-Players may expend as many Command Tokens during a single Active Turn as they desire, assuming they have enough. Players may also use more than one Command Token for the same effect.
+* Have an [[Allied]] Trooper automatically pass or fail a [[Guts Roll]], as desired, ignoring the result on the die and any Special Skills the Trooper might have.
+* Transforms the [[Irregular Order]] provided by an [[Irregular]] Trooper into a single [[Regular Order]], substituting the corresponding Order Token for that Player Turn and adding it to the Order Pool of the Trooper's Combat Group.
+* Have one Trooper be unaffected by Retreat! This Trooper ignores the effects of the [[Retreat Situation | Retreat! situation]] until the end of the game.
+* Reroll a failed [[WIP]] Roll when trying to use the Special Skill [[Doctor]] on a Trooper with a [[Cube]]. This reroll does not provide a new [[ARO]] to the enemy.
+* Reroll a failed WIP Roll when trying to use the Special Skill [[Engineer]] on a Trooper with the [[Remote Presence]] Special Skill. This reroll does not provide a new ARO to the enemy.
+* Create a new [[Fireteam]] by placing a Fireteam Leader Token (FIRETEAM LEADER) next to a Trooper that meets the army's Fireteam Chart Requirements.
+
+Players may expend as many Command Tokens during a single [[Active Turn]] as they desire, assuming they have enough. Players may also use more than one Command Token for the same effect.
 
 
-{{important-start}} 
-Players cannot expend Command Tokens during their Reactive Turn.
+{{important-start}}
+Players cannot expend Command Tokens during their [[Reactive Turn]].
 {{important-end}}
+
+
+{{see-also}}
+'''[[Isolated State]]'''
+* '''Restriction:''' The [[Irregular Order]] of an [[Isolated]] Trooper cannot be transformed in a [[Regular Order]].
+{{see-also-end}}
+
 
 == Example ==
 
 {{greybox-start | Example of use of Command Tokens: Rerolling }}
-During her Active Turn, a Trauma Doc tries to use her Special Skill Doctor to heal a Fusilier, who is currently Unconscious. She expends one Short Skill of her Order, but fails her WIP Roll. However, her player uses a Command Token to reroll the WIP Roll. Without expending or declaring a new Order, the Trauma Doc rolls her WIP again. Sadly, luck is not on her side and she fails again. Still her player wants to spend a new Command Token and give the Trauma Doc one further opportunity to pass her WIP Roll and heal the Fusilier. This will be her last chance, but only because her player has no more Command Tokens left to spend.
+During her Active Turn, a [[Doctor]] tries to use her Special Skill Doctor to heal an [[Allied]] Trooper, who is currently [[Unconscious]]. She expends one Short Skill of her Order, but fails her [[WIP]] Roll. However, her player uses a Command Token to reroll the WIP Roll. Without expending or declaring a new Order, the Doctor rolls her WIP again. Sadly, luck is not on her side, and she fails again. Still her player wants to spend a new Command Token and give the Doctor one further opportunity to pass her WIP Roll and heal the Allied Trooper. This will be her last chance, but only because her player has no more Command Tokens left to spend.
 {{greybox-end}}
 
 
-== FAQs & Errata ==
 
-{{faqbox |
-type = faq |
-title = N4 FAQ |
-version = 1.0, Jan 2021 |
-q = Q: When making Strategic Use of a Command Token to place a Trooper in Suppressive Fire State, how does this interact with Marker States, nearby enemy Mines etc? |
-a = A: The Trooper has not declared an Order, and will not trigger enemy Deployable Weapons etc. However, any States, Fireteam membership etc. that would be cancelled by declaring a Suppressive Fire Entire Order will be cancelled. |
-related = [[Command Tokens]], [[Suppressive Fire State]] }}
-
-
-{{faqbox |
-type = faq |
-title = N4 FAQ |
-version = 1.0, Jan 2021 |
-q = Q: Can the Order provided by an Isolated Trooper be transformed into a Regular Order with a Command Token? |
-a = A: No. |
-related = [[Command Tokens]], [[Isolated State]] }}
-
-
-{{faqbox |
-type = faq |
-title = N4 FAQ |
-version = 1.3, Nov 2022 |
-q = Q: When do Unconscious, Dead or Sepsitorized Troopers leave a Combat Group? |
-a = A: Unconscious Troopers are still part of their Combat Group. Dead or Sepsitorized Troopers are not part of any Combat Group. |
-related = [[Combat Groups]], [[Command Tokens]], [[Dead]], [[Sepsitorized]], [[Unconscious]] }}
-
-{{n4end}}
+{{section-command-section}}
 
 
 

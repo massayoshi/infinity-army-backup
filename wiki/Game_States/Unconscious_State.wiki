@@ -1,0 +1,80 @@
+{{n5-section-game-states}}
+
+
+If a target receives '''as many [[Wounds]]''' as the value of its [[VITA]]/[[STR]] Attribute, it enters [[Unconscious State]].
+
+On the other hand, if the target receives '''more Wounds''' than the value of its VITA/STR Attribute, it enters [[Dead State]].
+
+{{image | name=eng-unconscious.jpg | style=128 }}
+
+{{css_skillbox |red| UNCONSCIOUS STATE }}
+{{skill-label | Null }}
+{{activation}}
+* A Trooper or game element ("Trooper" from now on) receives as many [[Wounds]] as their [[VITA]]/[[STR]] Attribute value.
+
+{{effects}}
+* '''Restriction:''' Troopers in this state cannot declare [[Trooper Activation | Orders]] or [[ARO]]s.
+* Unconscious Troopers automatically enter '''[[Prone State]]''' unless they are a Troop Type unable to do so.
+* Troopers in this state do not contribute [[Orders]] during the [[Tactical Phase]].
+* Automatic Special Skills and Automatic Equipment have no effect while in this state.
+* The Trooper does not count towards the Player's [[Victory Points]].
+
+{{cancellation}}
+* A [[Wound]] is removed from the Trooper, leaving them with less Wounds than their [[VITA]]/[[STR]] Attribute value.
+* [[Doctors]] can remove Wounds from Troopers with the VITA Attribute, while [[Engineers]] can remove Wounds from Troopers with the STR Attribute. In both cases, the Wound is removed by performing the Doctor/Engineer Special Skill while in [[Silhouette contact]] with the affected Trooper, and passing a [[Normal]] [[WIP]] Roll (or the Roll specified by the Special Skill or Scenario).
+* Other Special Skills and pieces of Equipment allow the removal of Wounds as indicated in their rules.
+* Canceling '''Unconscious''' State automatically cancels '''[[Prone]]''' State as well.
+{{css_skillbox-end}}
+
+
+{{see-also}}
+'''[[Dogged]]'''
+* The Unconscious State of Troopers using the Dogged Special Skill has the following special rules: <br>[...]
+* Allows the Trooper to ignore the effects and [[Null]] Label of Unconscious State, treating it as [[Normal State]] instead, but only for the rest of that Player Turn.
+
+
+'''[[No Wound Incapacitation]]'''
+* The Unconscious State of Troopers using the No Wound Incapacitation Special Skill has the following special rules: <br>[...]
+* Allows the Trooper to ignore the effects and [[Null]] Label of Unconscious State, treating it as [[Normal State]] instead.
+
+
+'''[[Shasvastii]]'''
+* The Unconscious State of Troopers using the Shasvastii Special Skill (usually referred to as 'Shasvastii-Embryo') has the following special rules: <br>[...]
+* '''During the game''', the Trooper is counted when calculating [[Victory Points]] for the [[Retreat Situation | Retreat! situation]], and for any other rules or conditions required by the scenario.
+
+
+'''[[Remote Presence]]'''
+* Troopers with Remote Presence and the [[STR]] Attribute have two distinct levels of [[Unconscious State]].
+* When the Trooper receives as many [[Wounds]] as their STR Attribute value, they enter Unconscious State like any other Trooper. However, if the Trooper receives one Wound more than its STR value, they do not enter [[Dead State]] as usual, but instead enter a second level of Unconscious State, signified by a second Unconscious Token (UNCONSCIOUS)...
+
+
+'''[[MediKit]]'''
+* The target of a MediKit must be an [[Allied]] Model with the [[VITA]] Attribute. <br>[...]
+* In both cases, by passing the PH Roll, the target may remove one [[Wound]] and cancel their [[Unconscious State]]. If the PH Roll is failed, the target automatically enters [[Dead State]] and is removed from the game table.
+
+
+'''[[GizmoKit]]'''
+* The target of a GizmoKit must be an [[Allied]] Model with the [[STR]] Attribute. <br>[...]
+* In both cases, by passing the PH Roll, the target removes a [[Wound]]. This cancels [[Unconscious State]] if applicable. If the PH Roll is failed, the target receives a Wound instead of removing it, entering Unconscious or [[Dead State]] if applicable.
+
+
+'''[[Regeneration]]'''
+* During the States Phase, the user makes a [[Normal]] [[PH]] Roll:
+** If the Roll is a success, the Trooper removes 1 [[Wound]], cancelling the [[Unconscious State]] if applicable.
+** If the Roll fails, the Trooper receives 1 additional [[Wound]].
+
+
+'''[[Shock Ammunition]]'''
+* If the target has the '''[[VITA]] Attribute, with a value of 1''', any failed Saving Rolls against Shock Ammunition will also cancel any type of [[Unconscious State]] the target is in, or has entered during this Order, and the target passes directly to [[Dead State]].
+{{see-also-end}}
+
+
+
+{{n5-section-game-states}}
+
+
+
+[[Category: Game States]]
+
+<!-- Label and Trait categories. -->
+[[Category: Null ]]

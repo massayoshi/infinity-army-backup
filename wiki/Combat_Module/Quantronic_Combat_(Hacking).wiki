@@ -1,146 +1,72 @@
-{{section-combat-module}}
-{{section-hacking}}
+{{n5-section-combat-module}}
+{{n5-section-hacking}}
 
 
-In Infinity, infowar and cyberwarfare tasks, defined as Hacking, are shouldered by the Hackers, specialized Troopers who can use the different Hacking Programs which define quantronic combat. 
+In Infinity, infowar and cyberwarfare tasks, defined as Hacking, are shouldered by the [[Hacker]]s, specialized Troopers who can use the different Hacking Programs which define quantronic combat.
 
 {{greybox-start | Getting Started with Hacking}}
-According to their nature, Hacking Programs allow the Hacker to act in an aggressive or defensive manner, support other Troopers, interact with scenery, etc.
+According to their nature, [[Hacking Program]]s allow the Hacker to act in an aggressive or defensive manner, support other Troopers, interact with scenery, etc.
 {{greybox-end}}
 
 
 {{remember-start}}
-When making your Army Lists in [https://www.infinitytheuniverse.com/ Infinity Army], a summary of the Hacking Programs will be included, in the same way that a summary of your Troopers’ weapons is included.
+When making your [[Army List]]s in [https://infinityuniverse.com/army/infinity Infinity Army], a summary of the [[Hacking Program]]s will be included, in the same way that a summary of your Troopers’ weapons is included.
 {{remember-end}}
 
 
-== [[Hacker]] ==
-'''See [[Hacker]] Special Skill'''
-
-
-{{n4}}
-
 == Upgrade Programs (UPGRADE) ==
+Custom-made software tailored to the style and preference of specific infowar operatives. If available, they will be listed in the [[Unit Profile]], in round brackets next to the name of the [[Hacker]] or the [[Hacking Device | Device]].
 
-Custom-made software tailored to the style and preference of specific infowar operatives. If available, they will be listed in the Unit Profile, in round brackets next to the name of the Hacker or the Device. 
 
 == Supportware Programs ==
+These are programs of extended duration which are mainly designed to support [[allied]] Troopers on the battlefield by granting them bonuses to improve their combat capabilities. Likewise, they may also be designed to hinder [[enemy]] Troopers, applying negative MODs to them.
 
-These are programs of extended duration which are mainly designed to support allied Troopers on the battlefield by granting them bonuses to improve their combat capabilities. Likewise, they may also be designed to hinder enemy Troopers, applying negative MODs to them. 
-
-{{important-start}}
-* A Trooper can benefit from the effects of only one Program with the Supportware Label at a time. 
-* Each Hacker can only sustain one active Supportware Program at a time. 
-* A Hacker can cancel an active Supportware Program by declaring another Program and expending the corresponding Order or ARO. 
-{{update | PDF 2.1, July 2023}}
-* {{erratahighlight}}A Supportware Program is automatically cancelled if the target of the Supportware is targeted by a new Supportware Program, or if the Hacker running the Program enters Isolated State or any Null States.{{erratahighlight-end}}
-{{update-end}}
-{{original}}
-* {{originalhighlight}}Supportware is automatically cancelled if the Trooper or Troop Type that benefits from the Supportware becomes targeted by a new Supportware Program, or the Hacker that is running it becomes Isolated or enters a Null State.{{originalhighlight-end}}
-{{original-end}}
-{{important-end}}
+{{supportware}}
 
 
-{{greybox-start | Example of Supportware Use and Cancellation }}
-During their Active Turn, a Player that has two Troopers with EVO Hacking Devices on the table, declares Fairy Dust with one of them and chooses REMs as the Troop Type that will benefit from this Supportware.
-
-For tactical reasons, they decide to spend the last Order on the other Trooper with an EVO Hacking Device to declare Enhanced Reaction on a REM located in the vanguard. 
-
-By designating a REM that was already benefitting from Fairy Dust, the new Supportware Program deactivates the Fairy Dust Program and the corresponding Token is removed from the table. 
-{{greybox-end}}
-
-== [[Firewall]] ==
-'''See [[Firewall]]'''
-
-
-
-{{n4end}}
 == Hacking Devices and Hacking Programs: Characteristics ==
 
-Hacking Devices and Hacking Programs have the following characteristics:
-
-*They act in the user's Hacking Area.
-*They do not require LoF to act, unless the Hacking Program's own description states otherwise. 
-{{n4list}}
-{{update | PDF 2.1, July 2023}}
-* Only Troopers in Model form may be targeted by Hacking Programs.
-{{update-end}}
-{{original}}
-* Only Troopers {{originalhighlight}}or Peripherals{{originalhighlight-end}} in Model form may be targeted by Hacking Programs.
-{{original-end}}
-{{n4end}}
+[[Hacking Device]]s and [[Hacking Program]]s have the following characteristics:
+*They act in the user's [[Hacking Area]].
+*They do not require [[LoF]] to act, unless the Hacking Program's own description states otherwise. 
+* Only Troopers in [[Model]] form may be targeted by Hacking Programs.
 * They benefit, if applicable, from the target's [[Targeted]] State.
 
-== [[Hacking Area]] ==
 
-This term refers to the Area of Effect of Hacking Programs. [[Hacking Area | [continued...] ]]
-
-
-== [[Hacking Programs Chart]] ==
-
-'''See [[Hacking Programs Chart]]'''
-
-
-== [[Hacking Device]]s ==
-
-'''See [[Hacking Device]]s'''
-
-
-== Example ==
+== Example of Quantronic Combat ==
 {{greybox-start | Example of Quantronic Combat (Hacking)}}
-'''Step 1:'''
+'''Step 1:'''<br>
+The Active Trooper declares a [[Move]] from point A to point B.
 
-The Active Player declares Move with their Jujak from point A to B. 
+The Reactive Trooper declares a [[Carbonite]] Hacking Program [[ARO]].
 
-The Reactive Player declares the use of the Carbonite Hacking Program with their Shrouded Hacker.
+The Active Trooper declares [[Reset]] for their second Skill of the Order. They do not declare a [[BS Attack]] against the Hacker because it is clear that they lack [[LoF]] to the Hacker along their entire movement path.
 
-Facing the possibility that the Jujak had passed within the Hacker’s ZoC, the Active Player declares Reset. They do not declare BS Attack to face the Hacker because it is clear that during their entire path they lack LoF to the Shrouded Hacker. 
+'''Step 2:'''<br>
+The [[Face to Face Roll]]s are performed.
 
-{{image | name=eng-hacking-example-1.jpg | style=512border }}
+Active Trooper, Reset ([[WIP]] Roll, in this case there are no MODs to apply): 1 d20 with Success Value (SV) = 13.
 
+Reactive Trooper, Carbonite (WIP Roll, in this case there are no MODs to apply): 1 d20 with SV = 13.
 
-'''Step 2:'''
+They both succeed, but the Reactive Trooper's 7 cancels the Active Trooper's 3.
 
-It is determined that, during their Movement, the Jujak indeed entered the Hacker’s ZoC and the Face to Face Rolls are performed. 
+{{image | name=n5/eng-hacking-example-1.jpg | style=fullborder }}
 
-Face to Face Roll:
+'''Step 3:'''<br>
+Therefore, as the Hacker wins the Face to Face Roll, the Active Trooper must perform 2 [[Saving Roll]]s due to [[DA]] Ammunition, against PS 7.
+Saving Roll = 13 (PS 7 + BTS 6).
 
-Active Player, Reset (WIP Roll, in this case there are no MODs to be applied): 1 d20 with Success Value (SV) = 13.
+Due to the 14, the Active Trooper enters [[Immobilized-B State]], placing an Immobilized-B Token next to them.
 
-Reactive Player, Carbonite (WIP Roll, in this case there are no MODs to be applied): 1 d20 with SV = 13.
+{{image | name=n5/eng-hacking-example-2.jpg | style=fullborder }}
 
-They both succeed, but the 7 cancels the 3. 
-
-{{image | name=eng-hacking-example-2.jpg | style=512border }}
-
-
-'''Step 3:'''
-
-Therefore, after the Shrouded Hacker won the Face to Face Roll, the Jujak must perform 2 Saving Rolls due to the DA Ammunition against Damage 13. 
-
-Attack Damage = 10 (13 - 3 for BTS).
-
-Due to the 6, the Jujak places an Immobilized-B Token next to him.
-
-{{image | name=eng-hacking-example-3.jpg | style=512border }}
 {{greybox-end}}
 
 
-== FAQs & Errata ==
 
-{{faqbox |
-type = faq |
-title = N4 FAQ |
-version = Updated 1.1.1, Dec 2021 |
-q = Q: How does Isolated State interact with Hacking Programs that are not granted by a Hacking Device? |
-a = <s>A: While in Isolated State all the Trooper’s Hacking Programs, Skills and pieces of Equipment with the Comms Attack or Comms Equipment Labels or Traits (Hacking Device, Repeater...) are disabled.</s> 
-
-{{erratahighlight}}A: While in Isolated State all the Trooper's Skills and pieces of Equipment with the Comms Attack or Comms Equipment Labels or Traits (Hacking Device, Repeater...) are disabled. In addition, all their Hacking Programs are disabled.{{erratahighlight-end}} |
-related = [[Hacker]], [[Isolated State]], [[Quantronic Combat (Hacking)]] }}
-
-
-{{section-combat-module}}
-{{section-hacking}}
+{{n5-section-combat-module}}
+{{n5-section-hacking}}
 
 
 

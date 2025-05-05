@@ -1,107 +1,78 @@
-{{section-hacking}}
+{{n5-section-hacking}}
 
 
-{{c1}}
-This term refers to the Area of Effect of Hacking Programs. In Infinity CodeOne a Hacker's Hacking Area matches their [[Zone of Control]]. 
-{{c1end}}
-{{n4}}
-This term refers to the Area of Effect of Hacking Programs. In Infinity N4 a Hacker’s Hacking Area matches their [[Zone of Control]], and the Zone of Control of [[Repeater]]s and [[Deployable Repeater]]s of either the Player or their Allies.
+This term refers to the Area of Effect of [[Hacking Program]]s. In Infinity a [[Hacker]]’s Hacking Area matches their [[Zone of Control]], and the Zone of Control of [[Repeater]]s and [[Deployable Repeater]]s of either the Player or their Allies.
 
-{{update | 1.3, Nov 2022}}
-In addition, if a Hacker is within the Zone of Control of an Enemy Repeater or Deployable Repeater, their Hacking Area includes all Enemy {{erratahighlight}}Troopers on the game table. However, if the Enemy Trooper is not a [[Hacker]], any ARO or Hacking Program using the Enemy Repeater will fail its Requirements, and instead an [[Idle]] will be performed.{{erratahighlight-end}}
-{{update-end}}
-{{original}}
-In addition, if a Hacker is within the Zone of Control of an Enemy Repeater or Deployable Repeater, their Hacking Area includes all Enemy {{originalhighlight}}Hackers on the game table.{{originalhighlight-end}}
-{{original-end}}
+In addition, if a Hacker is within the Zone of Control of an [[Enemy]] Repeater or Deployable Repeater, their Hacking Area includes all Enemy Troopers on the game table. However, if the Enemy Trooper is not a Hacker, any [[ARO]] or [[Hacking Program]] using the Enemy Repeater will fail its Requirements, and instead an [[Idle]] will be performed.
 
 
-==Hacking Area in ARO==
+==Hacking Area in [[ARO]]==
+Enemies entering or acting inside the Hacking Area of a [[Hacker]] while remaining outside that Hacker’s [[LoF]] and [[ZoC]] can be reacted to.
 
-{{update | PDF 2.1, July 2023}}
-Enemies entering or acting inside the Hacking Area of a Hacker while remaining outside that Hacker’s [[LoF]] and ZoC can be reacted to.
+In the ARO Check steps of the [[Order Expenditure Sequence]], players can check if the Active Trooper is inside any Reactive Troopers’ Hacking Areas. Measurements must always be made from the Active Trooper, checking a maximum of 8 inches from any point along their path, and from the Active Trooper’s [[Repeater]]s. If the measurements show that the Active Trooper is within the Hacking Area of the Reactive Trooper, they can declare an ARO.
 
-{{erratahighblock}}
-In the ARO Check steps of the [[Order Expenditure Sequence]], players can check if the Active Trooper is inside any Reactive Troopers' Hacking Areas. Measurements must always be made from the Active Trooper, checking a maximum of 8 inches from any point along their path, and from the Active Trooper’s Repeaters. If the measurements show that the Active Trooper is within the Hacking Area of the Reactive Trooper, they can declare an ARO.
 
 ==[[HoloMask]] and Hacking Area==
-When using an Enemy Repeater to include an Enemy Trooper in the Hacking Area, any ARO or Hacking Program against a Trooper who does not have the Hacker Special Skill on their real Unit Profile will fail its Requirements in the Resolution step of the Order, and instead an Idle will be performed. This will reveal that the Enemy Trooper is not a Hacker.
+When using an [[Enemy]] [[Repeater]] to include an Enemy Trooper in the Hacking Area, any [[ARO]] or [[Hacking Program]] against a Trooper who does not have the [[Hacker]] Special Skill on their real [[Unit Profile]] will fail its Requirements in the [[Resolution]] step of the Order, and instead an [[Idle]] will be performed. This will reveal that the Enemy Trooper is not a Hacker.
 
-==HoloMask and Repeater==
-Similarly, when using an Enemy Trooper's Repeater, if that Trooper is in HoloMask State and does not have a Repeater on their real Unit Profile then any ARO or Hacking Program using their fake Repeater will fail its Requirements in the Resolution step of the Order, and instead an Idle will be performed. This will reveal that the Enemy Trooper does not have a Repeater.{{erratahighblock-end}}
 
-{{update-end}}
-
-{{original | 1.2, Jan 2022}}
-Enemies entering or acting inside the Hacking Area of a Hacker while remaining outside that Hacker’s [[LoF]] and ZoC can be reacted to {{originalhighlight}}with Hacking Programs or with Reset{{originalhighlight-end}}.
-
-{{originalhighblock}}Players can check the Hacking Area. Measurements must always be made from the [[Active Trooper]] and their Repeaters, checking a maximum of 8 inches from any point along their path. If the Active Trooper is within the Hacking Area of the Reactive Trooper, they can declare an ARO (See [[Order Expenditure Sequence]]).{{originalhighblock-end}}
-{{original-end}}
+==[[HoloMask]] and Repeater==
+Similarly, when using an [[Enemy]] Trooper’s [[Repeater]], if that Trooper is in [[HoloMask State]] and does not have a Repeater on their real [[Unit Profile]] then any [[ARO]] or [[Hacking Program]] using their fake Repeater will fail its Requirements in the [[Resolution]] step of the Order, and instead an [[Idle]] will be performed. This will reveal that the Enemy Trooper does not have a Repeater.
 
 
 == Examples ==
 {{greybox-start | Example of Hacking Area }}
-{{image | name=eng-hacking-area-1024.jpg | style=512border }}
+{{image | name=n5/eng-hacking-area-example.jpg | style=fullborder }}
 
-The Hacker may use their Hacking Programs in the area that includes the Zone of Control of the Repeater, the Deployable Repeater and their own Zone of Control. 
+The [[Hacker]] may use their [[Hacking Program]]s in the area that includes the [[Zone of Control]] of the [[Repeater]], the [[Deployable Repeater]] and their own [[Zone of Control]].
 {{greybox-end}}
 
 
-{{n4end}}{{n4list}}
-{{greybox-start | Example of Hacking Area and ARO Through a Repeater }}
-{{image | name=eng-hacking-area-aro-1024.jpg | style=512border }}
+{{greybox-start | Example of Hacking Area and AROs Through Repeaters }}
+{{important-start}}
+This example is currently '''out of date'''.
+{{important-end}}
 
-{{update | PDF 2.1, July 2023}}
-{{erratahighlight}}For the sake of simplicity, in this example, the [[Stealth]] Special Skill is not being used.{{erratahighlight-end}}
+{{image | name=n5/eng-hacking-area-example-aros.jpg | style=fullborder }}
 
-During his Active Turn, the Shrouded Hacker decides to declare Idle as the first Short Skill of the Order. As shown in the picture, he is outside his enemies LoF {{erratahighlight}}and ZoC{{erratahighlight-end}}, but since he is a Hacker, he can use the Deployable Repeater, and the M-Drone Trooper (who carries the Repeater piece of Equipment), to increase his Hacking Area, allowing him to act from his current position.
+For the sake of simplicity, in this example, the Stealth Special Skill is not being used.
 
-{{erratahighlight}}Therefore, since the Shrouded Hacker is within the Hacking Area of the Orc Trooper Hacker, this declares his ARO: Oblivion.{{erratahighlight-end}}
+During his Active Turn, a Hacker decides to declare Idle as the first Basic Short Skill of the Order. As shown in the picture, he is outside his enemies' LoF and ZoC, but since he is a Hacker, he can use the Deployable Repeater and a Trooper with the Repeater piece of Equipment to increase his Hacking Area, allowing him to act from his current position.
 
-{{erratahighlight}}The Orc Hacker declares Oblivion.{{erratahighlight-end}}
+Therefore, since the Hacker is within the Hacking Area of the Enemy Hacker, the enemy declares his ARO: Oblivion.
 
-The second Skill of the Shrouded Hacker is Carbonite, dividing his B2 between the Knight of Justice and the Orc Hacker.
+As the Enemy Heavy Infantry is in the Active Trooper's Hacking Area, they can declare an ARO, choosing to declare a Reset.
 
-{{erratahighlight}}As the Knight of Justice has been targeted by a Hacking Program, she can declare ARO, choosing to declare a Reset.{{erratahighlight-end}}
-{{update-end}}
-
-{{original}}
-During his Active Turn, the Shrouded Hacker decides to declare Idle as the first Short Skill of the Order. As shown in the picture, he is outside his enemies LoF, but since he is a Hacker, he can use the Deployable Repeater, and the M-Drone Trooper (who carries the Repeater piece of Equipment), to increase his Hacking Area, allowing him to act from his current position. 
-
-{{originalhighlight}}Therefore, since both the Knight of Justice and the Orc Trooper Hacker are clearly within the Hacking Area of the Shrouded Hacker, they each declare their AROs.{{originalhighlight-end}}
-
-{{originalhighlight}}The Knight of Justice declares Reset as their ARO and the Orc Hacker declares Oblivion.{{originalhighlight-end}}
-
-The second Skill of the Shrouded Hacker is Carbonite, dividing his B2 between the Knight of Justice and the Orc Hacker. 
-
-{{originalhighlight}}During the Resolution of the Order, it is verified that both the Knight of Justice and the Orc Hacker are within the Hacking Area of the Shrouded Hacker.{{originalhighlight-end}}
-{{original-end}}
+The second Skill of the Hacker is Carbonite, dividing his B2 between the Enemy Heavy Infantry and the enemy Hacker.
 
 The following Face to Face Rolls occur:
-*Reset by the Knight of Justice vs Carbonite from the Shrouded.
+
+Reset by the Enemy Heavy Infantry vs Carbonite from the Hacker.
+
+* No Modifiers (MOD).
+
+Oblivion from the Enemy Hacker vs Carbonite from the Hacker.
+
+* Enemy Hacker MODs:
+** -3 Firewall MOD for using an Enemy Repeater.
+* Hacker MODs:
 ** No Modifiers (MOD).
-*Oblivion from the Orc Hacker vs  Carbonite from the Shrouded.
-** Orc Hacker MODs:
-*** -3 Firewall MOD for using an Enemy Repeater.
-**Shrouded MODs:
-*** If a Saving Roll is required, the Attack Damage of Oblivion will suffer a -3 MOD from the Firewall.
+
+If a Saving Roll is required, the Possibility of Survival (PS) of Oblivion will suffer a +3 MOD from the Firewall.
 {{greybox-end}}
 
 
-{{update | 1.3, Nov 2022}}
 {{greybox-start | Example of Camouflaged State and ARO Through a Repeater }}
-{{erratahighblock}}
-This time, the Shrouded Hacker is in Camouflaged State and declares Idle.
+This time, the [[Hacker]] is in [[Camouflaged State]] and declares [[Idle]].
 
-As the Camouflaged Marker is inside the Orc Hacker's Hacking Area, the Orc Hacker can delay their ARO in case the Camouflaged Marker is a Hacker.
+As the Camouflaged Marker is inside the [[Enemy]] Hacker's [[Hacking Area]], the Enemy Hacker can delay their [[ARO]] in case the Camouflaged Marker is a Hacker.
 
-The Orc Hacker may declare an ARO only if the Camouflaged Marker reveals themselves with the second Short Skill of the Order.{{erratahighblock-end}}
+The Enemy Hacker may declare an ARO only if the Camouflaged Marker reveals themselves with the second Short Skill of the Order.
 {{greybox-end}}
-{{update-end}}
-
-{{n4end}}
 
 
-{{section-hacking}}
+
+{{n5-section-hacking}}
 
 
 

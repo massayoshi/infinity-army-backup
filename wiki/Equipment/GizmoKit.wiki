@@ -1,53 +1,45 @@
-{{section-equipment}}
+{{n5-section-equipment}}
 
 
-{{n4only}}
-{{n4list}}
-Special piece of Equipment that allows other Models with Structure Attribute to regain consciousness.
+Special piece of Equipment that allows other Models with the Structure Attribute to remove Wounds.
 
-{{skillbox |green| GIZMOKIT | SHORT SKILL }}
+{{css_skillbox |green| GIZMOKIT | SHORT SKILL }}
 {{skill-label | Non-Lethal }}
 {{requirements}}
-* A GizmoKit's target must be an [[Allied]] [[Model]].
+* The target of a GizmoKit must be an [[Allied]] Model with the [[STR]] Attribute. 
 * A GizmoKit can be used in one of two ways, each one with their own Requirements:
-** To use it '''remotely''', the user must have [[LoF]] to the target. 
-** To use it as a piece of contact equipment, the user must be in '''[[Silhouette contact]]''' with the target. 
+** To use it remotely, the user must have LoF to the target.
+** To use it as a piece of contact equipment, the user must be in Silhouette contact with the target.
 {{effects}}
-* Used remotely, a GizmoKit is considered a [[Non-Lethal]] [[BS Weapon]]. If the user passes a [[BS Attack]] Roll, applying the corresponding MODs (for [[Range]], [[Cover]], etc.), the target will perform a single '''[[PH]]''' Roll.
-* A GizmoKit can also be used in Silhouette contact. To do so, the user must spend one Short Skill, without the need for a Roll, and their target will perform a '''PH''' Roll.
-* In both cases, '''by passing the PH Roll''', the target recovers a single point of their [[Structure]] Attribute. If '''the PH Roll is failed''', the target loses 1 STR point instead of regaining it, entering [[Unconscious]] or [[Dead State]], if applicable. {{seefaq | If recovered to 1 STR, Unconscious State is cancelled.}}
-* A GizmoKit's target does not perform a [[Saving Roll]]. 
-* This piece of Equipment can be used as many times as necessary to recover as many STR points as the target has lost. 
-* If, due a Special Skill or rule, a Trooper receives more than one successful hit or use of GizmoKit during the same Order, if any of the corresponding '''PH''' Rolls is successful, the Trooper recovers a single point of their Structure Attribute. Even if the Trooper passes every '''PH '''Roll, they will only recover a single point of their STR Attribute. 
+* Used remotely, a GizmoKit is a Non-Lethal BS Weapon. If the user passes a [[BS Attack]] Roll, applying the corresponding MODs (for [[Range]], [[Cover]], etc.), the target performs a single [[PH]] Roll.
+* A GizmoKit can also be used in [[Silhouette contact]]. To do so, the user must spend one Short Skill, without the need for a Roll, and their target performs a PH Roll.
+* In both cases, by passing the PH Roll, the target removes a [[Wound]]. This cancels [[Unconscious State]] if applicable. If the PH Roll is failed, the target receives a Wound instead of removing it, entering Unconscious or [[Dead State]] if applicable.
+* The target of a GizmoKit does not perform a [[Saving Roll]].
+* A GizmoKit can be used as many times as necessary to remove all the Wounds that the target has.
+* If, due to a Special Skill or rule, a Trooper receives more than one successful hit or use of GizmoKit during the same Order, if any of the corresponding PH Rolls is successful, the Trooper removes a Wound. Even if the Trooper passes every PH Roll, they only remove one single Wound.
 * If a Trooper lists GizmoKit in their [[Unit Profile]] with a PH value between brackets, the Trooper will use this PH value when a GizmoKit is used on them.
 
+=== GizmoKit and Remote Presence ===
+* '''GizmoKit and Remote Presence:'''
+** Regardless of which level of Unconscious State the target is in, with a single successful PH Roll, they remove all the Wounds necessary to cancel their Unconscious State.
+{{css_skillbox-end}}
 
-{{weapon}}
-{{weaponrow|GizmoKit|+3|0|-6|--|--|--|--|--|1|--|--|[[Non-Lethal]], [***see above]}}
+
+{{n5_weapon_single}}
+{{n5_weaponrow|[[GizmoKit]]|+3|0|-6|--|--|--|--|--|1|--|--|--|[[Non-Lethal]], [***]}}
 |}
 
 
-== FAQs & Errata ==
-
-{{faqbox |
-type = faq |
-title = N4 FAQ |
-version = 1.0, Jan 2021 |
-q = Q: How do Engineer, GizmoKits, and Unconscious State interact? |
-a = A: If a Trooper with STR is in Unconscious State, successful use of a GizmoKit or the Engineer Special Skill on them will restore the Trooper to 1 STR and cancel their Unconscious State. But the Unconscious State would be the only State cancelled by the Engineer, to cancel other States must use another Order. |
-related = [[Engineer]], [[GizmoKit]], [[Unconscious State]] }}
+{{see-also-start}}
+'''[[MediKit]]s''' work on Models with the [[VITA]] Attribrute.
+{{see-also-end}}
 
 
-{{faqbox |
-type = faq |
-title = N4 FAQ |
-version = 1.3, Nov 2022 |
-q = Q: What happens if a Trooper loses and gains points of W/STR or has States inflicted and cancelled simultaneously? For example, if an Engineer cancels a Trooper's IMM-A State at the same time as the Trooper is hit by a Riotstopper. |
-a = A: Apply the positive effect to the Trooper first. Then apply the negative effect. For example, make the Engineer's WIP Roll to cancel the Trooper's IMM-A State, then make the PH-6 Saving Roll against the Riotstopper's PARA ammunition. This can result in the original IMM-A State being cancelled and a new State being inflicted. |
-related = [[Doctor]], [[Dodge]], [[Engineer]], [[GizmoKit]], [[MediKit]], [[Protheion]], [[Reset]] }}
 
-{{n4end}}
-
+{{n5-section-equipment}}
 
 
 [[Category:Equipment]]
+
+<!-- Label and Trait categories. -->
+[[Category: Non-Lethal ]]

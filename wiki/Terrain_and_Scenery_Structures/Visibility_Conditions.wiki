@@ -1,63 +1,37 @@
-{{section-terrain-and-scenery-section}}
+{{n5-section-terrain-and-scenery-section}}
 
 
-{{n4only}}
-{{n4list}}
-Due to thick vegetation, jagged rocks, snow, sandstorms and any number of other reasons, some areas obscure a soldier's vision and his ability to aim accurately. This is represented by the following game rules. Vision-obscuring areas are divided into four categories:
+{{css_skillbox |black| VISIBILITY CONDITIONS | }}
+Due to thick vegetation, jagged rocks, snow, sandstorms and any number of other reasons, some areas obscure a soldier’s vision and his ability to aim accurately. This is represented by the following game rules. Vision-obscuring areas are divided into four categories:
 * Low Visibility Zone
 * Poor Visibility Zone
 * Zero Visibility Zone
 * White Noise Zone
 
-
-{{skillbox |black| VISIBILITY CONDITIONS | }}
 {{effects}}
-{{update | 1.2, Jan 2022}}
-* Any Skill, Special Skill or piece of Equipment that '''requires [[LoF]]''', except [[Dodge]], and is {{erratahighlight}}performed{{erratahighlight-end}} from, into, or through a Visibility Zone suffers a MOD to the relevant Attribute in the required Roll.
-* This MOD for Visibility stacks with other MODs for [[Special Skills]], [[Equipment]], [[Partial Cover]], [[Range]]... '''but never''' with other '''Zone of Visibility''' MODs.
-{{update-end}}
-{{original}}
-* Any Skill, Special Skill or piece of Equipment that '''requires [[LoF]]''', except [[Dodge]], and is {{originalhighlight}}declared{{originalhighlight-end}} from, into, or through a Visibility Zone suffers a MOD to the relevant Attribute in the required Roll.
-* This MOD for Visibility stacks with other MODs for [[Special Skills]], [[Equipment]], [[Partial Cover]], [[Range]]... '''but never''' with other '''Zone of Visibility''' MODs.
-{{original-end}}
+* Any Skill, Special Skill or piece of Equipment that requires [[LoF]], except [[Dodge]], and is performed from, into, or through a Visibility Zone suffers a MOD to the relevant Attribute in the required Roll.
+* This MOD for Visibility stacks with other MODs for Special Skills, Equipment, [[Partial Cover]], [[Range]]... but never with other Zone of Visibility MODs.
 
-===Low Visibility Zone===
+=== Low Visibility Zone ===
 * Low Visibility Zones apply a MOD of -3.
 
-===Poor Visibility Zone===
+=== Poor Visibility Zone ===
 * Poor Visibility Zones apply a MOD of -6.
 
-===Zero Visibility Zone===
-{{update | 1.2, Jan 2022}}
-* Troopers cannot draw LoF {{erratahighlight}}into, through, or out of{{erratahighlight-end}} a Zero Visibility Zone.
-* Any Trooper who is the target of a BS Attack into, through, or out of a Zero Visibility Zone {{erratahighlight}}treats the Zero Visibility Zone as a Poor Visibility Zone when drawing LoF to the attacker.{{erratahighlight-end}}
-{{seefaq | Sixth Sense and Multispectral Visor L1.}}
-{{update-end}}
-{{original}}
-* Troopers cannot draw LoF {{originalhighlight}}through{{originalhighlight-end}} a Zero Visibility Zone.
-* {{originalhighlight}}Inside a Zero Visibility Zone, Troopers can only declare Skills that do not require LoF or that require them to be in base to base contact with their target.{{originalhighlight-end}}
-* Any Trooper who is the target of a [[BS Attack]] into, through, or out of a Zero Visibility Zone {{originalhighlight}}may respond to the attacker, provided the Trooper is facing the attacker.
-** {{originalhighlight}}However, in this situation, the Skills the target can declare in ARO, or as the second Short Skill of their Order, are limited to '''BS Attack with a -6 MOD, [[Dodge]]''' without the MOD, or any '''Skill that doesn't require LoF'''. {{seefaq | Sixth Sense and Multispectral Visor L1.}}
-{{original-end}}
+=== Zero Visibility Zone ===
+* [[LoF]] cannot be drawn into, through, or out of a Zero Visibility Zone.
+* Any Trooper who is the target of a [[BS Attack]] into, through, or out of a Zero Visibility Zone treats the Zero Visibility Zone as a Poor Visibility Zone when drawing LoF to the attacker.
 
-===White Noise Zone===
-* A White Noise Zone acts as a Zero Visibility Zone, but '''only for Troopers equipped with a [[Multispectral Visor]]''' of any Level, or any other piece of Equipment that specifies the same.
-{{update | 1.3, Nov 2022}}
-* {{erratahighlight}}If a Trooper with a Multispectral Visor is the target of a BS Attack into, through, or out of a White Noise Zone, their Multispectral Visor cannot reduce the MODs of the resulting Poor Visibility Zone.{{erratahighlight-end}}
-{{update-end}}
+=== White Noise Zone ===
+* A White Noise Zone acts as a Zero Visibility Zone, but only for Troopers with the [[Marksmanship]] Special Skill or equipped with a [[Multispectral Visor]] of any Level, or any other piece of Equipment that specifies the same.
+* If a Trooper with a Multispectral Visor is the target of a [[BS Attack]] into, through, or out of a White Noise Zone, their Multispectral Visor cannot reduce the MODs of the resulting Poor Visibility Zone.
+{{css_skillbox-end}}
 
 
-{{important-start}}
-{{update | PDF 2.1, July 2023}}
-Visibility Zone MODs never stack with other Visibility Zone MODs. If any Roll would be affected by two or more Visibility Zones of whatever type, {{erratahighlight}}players will apply only one MOD, that must be always the most restrictive one{{erratahighlight-end}}.
+{{important}}
+Visibility Zone MODs never stack with other Visibility Zone MODs. If any Roll would be affected by two or more Visibility Zones of whatever type, players will apply only one MOD, that must be always the most restrictive one.
 
-For example, if a BS Attack's LoF passes through a Low Visibility Zone (-3 MOD) and a Poor Visibility Zone (-6 MOD), apply only one single -6 MOD.
-{{update-end}}
-{{original}}
-Visibility Zone MODs never stack with other Visibility Zone MODs. If any Roll would be affected by two or more Visibility Zones of whatever type, {{originalhighlight}}apply only the most obscuring{{originalhighlight-end}}.
-
-For example, if a BS Attack's LoF passes through a Low Visibility Zone (-3 MOD) and a Poor Visibility Zone (-6 MOD), apply only one single -6 MOD.
-{{original-end}}
+For example, if a [[BS Attack]]’s [[LoF]] passes through a Low Visibility Zone (-3 MOD) and a Poor Visibility Zone (-6 MOD), apply only one single -6 MOD.
 {{important-end}}
 
 
@@ -68,18 +42,7 @@ For example, if a BS Attack's LoF passes through a Low Visibility Zone (-3 MOD) 
 You cannot use [[Combat Jump]] inside of, or in contact with, an area with Low, Poor, or Zero Visibility Conditions.
 
 
-== FAQs & Errata ==
-
-{{faqbox |
-type = faq |
-title = N4 FAQ |
-version = 1.0, Jan 2021 |
-q = Q: How do Sixth Sense, Zero Visibility Zones and Multipectral Visor Level 1 interact? |
-a = A: If the Trooper with Multispectral Visor Level 1 and Sixth Sense is the target of a BS Attack through a Zero Visibility Zone, they ignore the -6 MOD for drawing LoF through the Zero Visibility Zone. |
-related = [[Multispectral Visor]], [[Sixth Sense]], [[Visibility Conditions]] }}
-
-{{n4end}}
-
+{{n5-section-terrain-and-scenery-section}}
 
 
 [[Category: Terrain and Scenery Structures]]

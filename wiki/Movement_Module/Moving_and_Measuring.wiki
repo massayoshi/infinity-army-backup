@@ -1,26 +1,65 @@
-{{section-movement-module}}
+{{n5-section-movement-module}}
 
 
-You can measure Movement distances immediately after declaring any Skill with the [[Movement Label | Movement]] Label and before determining where the Trooper ends his Movement, always measuring from the same point on the base’s outer edge and underside.
+You can measure Movement distances immediately after declaring any Skill with the [[Movement Label]] and before determining where the Trooper ends his Movement, '''always measuring from the same point on the base's outer edge and underside'''.
+
 
 The sequence of events is: 
-# The player declares a Skill with the [[Movement Label | Movement]] Label. 
+# The player declares a Skill with the [[Movement Label]]. 
 # Measure to find out which locations the Trooper could reach with that Skill. 
 # Declare the final location, and the exact route that the Trooper is taking to reach it. 
 # Move the Trooper to the final location.
 
 
 {{important-start}}
-When performing a Movement, measurement must always be made from the same point of the base’s outer edge.
-{{important-end}}
+When performing a Movement, measurement must always be made from the same point of the base’s outer edge and underside.{{important-end}}
 
 
 ===Horizontal Measurement===
-{{image | name=eng-horizontal-measurement.jpg | style=fullborder }}
+{{image | name=n5/eng-move-measure-horizontal.jpg | style=fullborder }}
+
+
+===Horizontal Measurement (Complex Paths)===
+The player measures to see how far the Trooper can reach and establishes the route they will take. After determining the end point of the route, the player places the Model or Marker there. If necessary, the player can mark the exact location of the end point and use the Model or Marker at other points along the route to check [[LoF]] and [[ARO]]s. When everything is decided, the Model or Marker must be placed at the end of the route.
+
+{{image | name=n5/eng-move-measure-horizontal-complex-1v2.jpg | style=fullborder }}
+Route and final position of the Model/Marker
+
+{{image | name=n5/eng-move-measure-horizontal-complex-2v2_crop.jpg | style=fullborder }}
+The Model/Marker is placed along the route to check [[LoF]] and [[ARO]]s.
+
+
+{{advice-start}}
+Some players, instead of establishing the full route of the Trooper from the get-go, prefer to make several measurements from one point on the game board to the next, placing the Trooper each time at each of these points in their route. For example, they would move the Trooper up to a corner, make a new measurement, and then move around it and go to the next corner and place the Model there. This is not the standard way of measuring Movement for Infinity, but it is acceptable as long as the player places the Trooper right behind the point where they are pausing the movement, so they do not gain extra Movement distance.
+{{advice-end}}
+
 
 ===Vertical Measurement (Ladders and Vertical Surfaces)===
-{{image | name=eng-vertical-measurement.jpg | style= fullborder }}
+{{image | name=n5/eng-move-measure-vertical.jpg | style= full }}
 
+{{image | name=n5/eng-move-measure-vertical-ladder.jpg | style= fullborder }}
+
+{{image | name=n5/eng-move-measure-vertical-ramp.jpg | style= fullborder }}
+
+
+{{see-also}}
+'''[[Restrictions Chart]]'''
+{| class="n5table-dark"
+|-
+! Restrictions Chart
+|- 
+| Troopers mounted on [[Motorcycle]]s cannot go [[Prone]], declare [[Cautious Movement]], [[Climb]], use '''[[ladders]]''', or perform an upwards [[Jump]].
+|}
+{{see-also-end}}
+
+
+{{greybox-start}}
+Scenery elements featuring stairs or ladders allow Troopers to move along those vertical or diagonal surfaces as if they were horizontal surfaces. Therefore, a Trooper may use any [[Skill]] or [[ARO]] with the [[Movement Label]] without declaring [[Jump]] or [[Climb]], and without the restrictions of Jump or Climb. The distance travelled must be measured on the surface the Trooper is moving along, as shown in the diagram.
+{{greybox-end}}
+
+
+
+{{n5-section-movement-module}}
 
 
 [[Category: Movement Module]]

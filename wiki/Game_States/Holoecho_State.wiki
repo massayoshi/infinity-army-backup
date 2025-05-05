@@ -1,0 +1,92 @@
+{{n5-section-game-states}}
+
+
+{{image | name=holoecho1-550.jpg | style=128inline }}{{image | name=holoecho2_550.jpg | style= 128inline }}
+
+{{css_skillbox |black| HOLOECHO STATE  }}
+{{activation}}
+* Automatic when deployed, placing up to three Holoechoes on the game table, within [[Coherency]] of at least one of the other Holoechoes, respecting the general conditions of the [[Deployment Rules]].
+* If the Holoprojector bearer is outside the [[LoF]] of [[enemy]] Markers or Troopers, then the bearer may automatically activate this state during the [[States Phase]], placing up to two Holoechoes in [[Silhouette contact]] with it.
+* During the Active Turn, Troopers may only return to this state by spending a [[Long Skill]], while outside the LoF of enemy Markers or Troopers. The player will place up to two Holoechoes in Silhouette contact with the Holoprojector bearer.
+
+{{effects}}
+* While in Holoecho State, the Trooper is represented by three Holoechoes: the Holoecho 1 Marker, the Holoecho 2 Marker and the actual Model.
+* The player must note in secret which of these Holoechoes represents the real Holoprojector bearer, while the others are just holographic decoys.
+* The Holoprojector bearer and their holographic decoys act at the same time, performing exactly the same declared [[Trooper Activation | Order]]. However, the holographic decoys cannot interact with scenery and consider any [[Look Out]]! declaration as an [[Idle]].
+* '''Coherency'''. Each Holoecho must be in [[Coherency]] with another Holoecho, regardless of who is the real Holoprojector bearer. For example, one of the Holoechoes must have at least one of the other two Holoechoes in its [[ZoC]].
+** In the [[Deployment Phase]], the player can perform a Coherency Check after having deployed the Holoechoes.
+** In the Active or Reactive Turn, when activating the Holoechoes with an [[Trooper Activation | Order]] or [[ARO]], the player must perform Coherency Checks at the start and end of the Order.
+* Holoechoes are considered real Troopers in terms of providing AROs, checking LoF, and activating Enemy weapons or pieces of Equipment (Mines, CrazyKoalas, etc.). Each Reactive Trooper must choose only one of the Holoechoes activated by the Order as their target, but they are not obliged to choose the same target. A Reactive Trooper may delay the declaration of his ARO until the Active Trooper in Holoecho State has declared the second Short Skill of their Order. However, if the Reactive Trooper delays his ARO, then he may only declare the ARO if the Active Trooper reveals themselves with the second Short Skill of their Order, reacting against the Holoprojector bearer. If the Active Trooper does not reveal themself, the delaying Trooper loses his right to declare an ARO.
+* Holoechoes have a 180˚ [[LoF]], matching the front half of their base.
+* In order to know if a Holoecho is the bearer or just a holographic decoy, the Enemy must pass a [[Discover]] Roll against that Holoecho.
+* '''Restriction:''' A Trooper in Holoecho State cannot replicate those [[Deployable]] weapons or pieces of Equipment represented by Tokens or Models ([[FastPanda]]s, [[CrazyKoala]]s, [[Mines]] deployed with the [[Minelayer]] Special Skill...) that the Holoprojector bearer may have.
+* However, Holoecho State replicates the [[State Token]]s ([[Prone]], [[Unloaded]], etc.) or pieces of Equipment ([[TinBot]]s, for instance) that the Holoprojector bearer may have.
+* The effects of Holoecho State can be combined with the effects of [[HoloMask State]]. 
+** This combo allows the bearer to replace their Model with that of another Trooper, following the restrictions listed in HoloMask State, and also to replace the Holoecho Markers with Models. However, these must represent the same type of imitated Trooper as the Model, possessing the same weapons and equipment, like the Holoecho Markers do.
+** If the player is using Models instead of Holoecho Markers, then the first time he activates the Trooper in his Active Turn, the player must place a Holoecho Marker next to one of the three Models, but it does not need to be the Model of the real Holoprojector bearer. In this way, the opponent will know he is facing a Trooper in Holoecho State and may to choose to delay his AROs.
+* If a Trooper deploys in [[Hidden Deployment State]] and in Holoecho State, the player must write down the positions of the three Holoechoes on the game table, their facing, and which of them is the real Trooper. <br> When the Trooper's Hidden Deployment State is canceled the player must perform a [[Coherency]] Check. Any Holoechoes that are out of Coherency have their Holoecho State cancelled.
+* This state does not affect Automatic Special Skills or Automatic Equipment, which will remain functioning normally.
+* '''Restriction:''' A Trooper in Holoecho State cannot be part of a [[Fireteam]]. If a member of a Fireteam enters Holoecho State, they automatically stop being part of the Fireteam.
+
+{{cancellation}}
+The Holoecho State of the real Holoprojector bearer is canceled, removing all the holographic decoys and placing the Holoprojector bearer in its real position, whenever:
+* The Holoprojector bearer declares an '''[[Attack]], [[Look Out]]!''' or any Skill that requires a Roll.
+* The Holoprojector bearer declares a '''[[Long Skill]]''' other than [[Cautious Movement]].
+* The Holoprojector bearer enters '''[[Silhouette contact]]''' with an [[enemy]] Model, or vice-versa.
+* The Holoprojector bearer is forced to make a '''[[Saving Roll]]'''.
+* The Holoprojector bearer is '''[[Discover]]ed'''.
+* The Holoprojector bearer is or becomes '''[[Impetuous]]''' (due to the [[Frenzy]] Special Skill or any other effect) or enters '''[[Retreat State | Retreat! State]]'''.
+* The Holoprojector bearer '''breaks [[Coherency]]''' with the other Holoechoes. 
+* All the Holoprojector bearer's holographic decoys have been Discovered.
+
+In addition:
+* Whenever Holoecho State of the Holoprojector bearer is canceled, remove all the holographic decoys at the end of the Order that happened. If the bearer was hidden as a Holoecho Marker or as a different Model, replace it with the bearer's Model, facing the same direction, at the end of the Order that happened.
+*  An exception to this rule is made when Holoprojector bearer fails a [[Coherency]] Check at the start of an Order, then the player must remove all the holographic decoys immediately, before measuring any declared movement.
+
+The Holoecho State of a holographic decoy is canceled, whenever:
+* It is [[Discover]]ed.
+* It enters [[Silhouette contact]] with an [[enemy]] Model, or vice-versa.
+* It is hit by a successful [[Attack]]. In this case, the decoy does not make the [[Saving Roll]] and is simply removed.
+* It breaks [[Coherency]] with the other Holoechoes.
+* The real Holoprojector bearer's Holoecho State is canceled for any reason.
+{{css_skillbox-end}}
+
+
+{{see-also}}
+'''[[Holoprojector]]'''
+* This piece of Equipment allows its bearers to deploy in [[Holoecho State]] when they are placed on the table.
+* In game, it allows the user to enter Holoecho State.
+{{see-also-end}}
+
+
+{{important}}
+Cancellation of Holoecho State is applied to the entirety of the declared [[Order Expenditure Sequence | Order]], even if the Skill revealing the Holoecho bearer is performed at the end of the Order.
+{{important-end}}
+
+
+{{important}}
+The presence of Troopers in [[HoloMask State | HoloMask]] or Holoecho State is [[Private Information]]. This includes any Special Skills, weapons, and pieces of Equipment they have.
+{{important-end}}
+
+
+== Examples ==
+
+{{greybox-start | Example of Holoecho State and Models }}
+A player, who has the second Player Turn, decides to intimidate their rival by deploying three Troopers armed with Sniper Rifles on different rooftops, when in reality they only deploy one [[Holoprojector]] and [[HoloMask]] bearer and their two holographic decoys in the form of Sniper Models. This maneuver is possible because the HoloMask effect can be combined with the Holoecho effect. 
+
+The player does not need to place a Holoecho Token next to one of the Sniper Models until the start of their [[Active Turn]], indicating to their rival that they have a Trooper with Holoprojector.
+{{greybox-end}}
+
+
+{{see-also}}
+'''[[Biometric Visor]]'''
+* Users of a Biometric Visor ignore [[Surprise Attack]] MODs from attackers benefitting from [[Impersonation State | Impersonation]] or [[Holoecho State]]s, if they have [[LoF]] to the attacker. In addition, they also ignore Surprise Attack MODs from [[CC Attack]]s from those attackers even if they don't have LoF to the attacker.
+{{see-also-end}}
+
+
+
+{{n5-section-game-states}}
+
+
+
+[[Category: Game States ]]

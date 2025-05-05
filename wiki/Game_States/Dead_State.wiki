@@ -1,0 +1,28 @@
+{{n5-section-game-states}}
+
+
+If a target receives '''as many [[Wounds]]''' as the value of its [[VITA]]/[[STR]] Attribute, it enters [[Unconscious State]].
+
+On the other hand, if the target receives '''more Wounds''' than the value of its VITA/STR Attribute, it enters [[Dead State]].
+
+{{css_skillbox |red| DEAD }}
+{{skill-label | Null }}
+{{activation}}
+* A Trooper or a game element ("Trooper" from now on) receives more [[Wounds]] than their [[VITA]]/[[STR]] Attribute value.
+* A Trooper in the [[Unconscious State]] receives more Wounds.
+
+{{effects}}
+* The Trooper is removed from the game table and their [[Combat Group]].
+* The Trooper ceases to generate [[Orders]] in successive [[Player Turn]]s.
+* The Trooper does not count towards the Player's [[Victory Points]].
+
+{{cancellation}}
+* Dead State is irreversible and cannot be cancelled, unless the rules specific to the mission or scenario being played indicate otherwise. In that case, follow the procedure stated in the rules.
+{{css_skillbox-end}}
+
+
+
+[[Category: Game States]]
+
+<!-- Label and Trait categories. -->
+[[Category: Null ]]

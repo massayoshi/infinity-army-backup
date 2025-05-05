@@ -1,121 +1,88 @@
-{{section-movement-module}}
+{{n5-section-movement-module}}
 
 
-* When moving Troopers around the battlefield, players must measure the complete route (including, for example, any detour to avoid obstacles) and must '''always use the same part of the base''' for their measurements.
+* When moving Troopers around the battlefield, players must measure the complete route (including, for example, any detour to avoid obstacles) and must always use the same part of the base for their measurements.
 * [[MOV]] values indicate the maximum distance the unit can move, but there is no minimum. Troopers do not have to exhaust their movement when they declare [[Move]].
-* A Trooper can move over any scenery item whose height is equal to or lower than the height of the Trooper’s [[Silhouette Template]], with no need to declare [[Climb]] or [[Jump]]. <br> This vertical movement is not taken into account when measuring how far the Trooper moves, but the Trooper counts as moving up and over the obstacle for the purposes of [[LoF]].
-* A Trooper can move through allied Models, Markers, and Tokens, whose [[Silhouette Template]] height is equal to or lower than the height of the Trooper’s [[Silhouette Template]]. The Trooper cannot end their movement within the allied Model, Marker, or Token.
-* Troopers have a [[LoF]] arc of 360º while they are moving.
+* A Trooper can vault over, onto, or off any scenery item whose height is equal to or lower than the height of the Trooper's [[Silhouette Template]], with no need to declare [[Climb]] or [[Jump]] (see [[#Moving and Obstacles | vaulting example]]).
+* This vertical movement is not taken into account when measuring how far the Trooper moves, but the Trooper counts as moving up and over the obstacle for the purposes of [[LoF]].
+* Likewise, while they Move, a Trooper may peek over the edge of a roof or other surface with up to half of its Silhouette, notably to have LoF to Targets located on the same level or on a different level (see the example and Sibylla explains).
+* A Trooper can move through [[Allied]] or [[Neutral]] Models, Markers, and Tokens, but they cannot end their movement in the space occupied by another Model, Marker, or Token.
+* Troopers have a [[LoF]] arc of 360˚ while they are moving.
 * After Moving one of your models, you can leave it facing any direction.
-* A Trooper's Movement ends automatically whenever he enters [[Silhouette]] contact with an enemy, even if the specified movement route is cut short as a result.
-{{c1}}
-* By performing any Skill or ARO with the [[Movement Label]], a Trooper may enter or leave '''[[Prone]]''' State '''at the start of his Movement''' at no cost. Remember that Troopers have reduced mobility while Prone. 
-{{c1end}}
-{{n4list}}
-* By performing any Skill or ARO with the [[Movement Label]], or moving as the result of a failed [[Guts Roll]], a Trooper may enter or leave '''[[Prone]]''' State '''at the start of his Movement''' at no cost. Remember that Troopers have reduced mobility while Prone. 
-{{n4end}}
-* Independently of the type of movement performed ([[Move]], [[Jump]], [[Climb]], etc.), the movement cannot, in any way, cause the [[Trooper]] to fall. If the Trooper cannot reach a new location with their [[Move]], [[Jump]], [[Climb]]…  they do not perform the movement and perform an [[Idle]] instead.
-* Once declared, Troopers always reach the end of their Movement, even if they enter a [[Null]] or [[Immobilized]] state due to successful enemy Attacks along the way.
-{{n4list}}
-{{update | PDF 2.1, July 2023}}
-* Mounting and dismounting: By {{erratahighlight}}declaring the Move Skill as the first Skill of the Order{{erratahighlight-end}}, a Trooper may mount or dismount a Motorcycle, TAG, Vehicle, etc.
-** The Trooper must mount or dismount at the start of the Order, after having declared {{erratahighlight}}Move as the first Short Skill of the Order{{erratahighlight-end}}, but before measuring any movement.
-** The new Troop Profile (Mounted/Dismounted) is applied for the entire Order Sequence, while the original profile will not be considered.
-** {{erratahighlight}}The Trooper’s original profile must be able to declare the Move Skill. For example if the Trooper is in [[Engaged]] State or an IMM State at the start of the Order, they cannot declare Move to mount or dismount.{{erratahighlight-end}}
-** Mounting or dismounting will cancel the [[Hidden Deployment]] State, and any Marker State, of both profiles.
-** {{erratahighlight}}When a TAG is in [[Possessed]] State, its [[Pilot]] cannot Dismount. If a TAG’s [[Escape System]] takes effect while the TAG is in Possessed State, the Operator profile will not be in such State.{{erratahighlight-end}}
-{{update-end}}
-{{original}}
-* Mounting and dismounting: By {{originalhighlight}}performing any Skill with the Movement Label{{originalhighlight-end}}, a Trooper may mount or dismount a Motorcycle, TAG, Vehicle, etc.
-** The Trooper must mount or dismount at the start of the Order, after having declared {{originalhighlight}}the first Short Skill of the Order, or the Entire Order{{originalhighlight-end}}, but before measuring any movement.
-** The new Troop Profile (Mounted/Dismounted) is applied for the entire Order Sequence, while the original profile will not be considered.
-** {{originalhighlight}}The Skill with the Movement Label must be one that can be declared by the original profile. For example if the Trooper is in [[Engaged]] State or an IMM State at the start of the Order, they cannot declare a Movement Skill to mount or dismount, and a TAG, Vehicle, or a Trooper mounted on a Motorcycle cannot declare [[Cautious Movement]], which allows other Troopers to mount or dismount.{{originalhighlight-end}}
-** Mounting or dismounting will cancel the [[Hidden Deployment]] State, and any Marker State, of both profiles.
-{{original-end}}
-{{n4end}}
+* A Trooper's Movement ends automatically whenever he enters [[Silhouette contact]] with an enemy, even if the specified movement route is cut short as a result.
+* In order to pass between an Enemy Trooper and an obstacle without entering Silhouette contact, the space in between must be wider than your Trooper's base.
+* When performing a Short Skill or ARO '''with the [[Movement Label]]''' (except for [[Jump]]), or when moving after failing a [[Guts Roll]], a Trooper may enter or leave [[Prone State]] at '''either''' the start of their Movement '''or''' the end of their Movement, at no cost.<br>However, if they move in Prone State, this will reduce the distance they can move.
+* Independently of the type of movement performed (Move, Jump, Climb, etc.), the movement cannot, in any way, cause the Trooper to fall. If the Trooper cannot reach a new location with their Move, Jump, Climb... they do not perform the movement and they perform an [[Idle]] instead.
+* Once declared, Troopers always reach the end of their Movement, even if they enter a [[Null]] or [[Immobilized]] State due to successful enemy Attacks along the way.
+
+{{see-also-start}}
+'''[[Prone State]]'''
+{{see-also-end}}
 
 
-== Move: Ladders and Stairs ==
-{{greybox-start | Move: Ladders and Stairs}}
-{{image | name=eng-ladders.jpg | style=512border }}
+== Movement and Obstacles ==
+{{greybox-start | Movement and Obstacles}}
+Example of vaulting over obstacles lower than [[Silhouette]] height.
 
-{{image | name=eng-stairs.jpg | style=512border }}
+{{image | name=n5/eng-vault-1.jpg | style=fullborder }}
+The Trooper may move over the obstacle without declaring [[Jump]] or [[Climb]], since the obstacle’s height is equal to or lower than the height of the Trooper’s [[Silhouette Template]], on both sides.
 
-Those pieces of scenery representing stairs and ladders allow Troopers to treat those vertical or diagonal surfaces as a horizontal surface. Therefore, the Trooper can use any Skill or [[ARO]] with the [[Movement Label]] without needing to declare [[Jump]] or [[Climb]], and without applying restrictions for [[Jump]] or [[Climb]]. Movement distances are measured along the surface the Trooper moves along, as seen in the diagram.
+{{image | name=n5/eng-vault-2.jpg | style=fullborder }}
+Conversely, in the second picture, the Trooper may not pass over the obstacle without declaring [[Jump]] or [[Climb]], since the obstacle is higher than the height of the Trooper’s [[Silhouette Template]] on one side.
+
+{{image | name=n5/eng-vault-3.jpg | style=fullborder }}
+Distance is measured on the surface the Trooper is moving along. The player must keep in mind the Trooper's position all along the Trooper's route, as shown in the diagram.
 {{greybox-end}}
 
 
-== Move and Obstacles ==
-{{greybox-start | Move and Obstacles}}
-Example of Movement over an obstacle lower than the height of the [[Silhouette]]. 
+{{greybox-start | Movement Sequence and Final Facing}}
+{{image | name=n5/eng-general-movement-facing-v2.jpg | style=fullborder }}
+After making their movement, the Trooper can face in any direct the player chooses.
 
-{{image | name=eng-vault-pass.jpg | style=512border }}
+Therefore, at the end of the movement in the first image, the player turns the Model to face in any direction, without moving it from its final position.
+{{greybox-end}}
 
-The Trooper may bypass the obstacle without declaring [[Jump]] or [[Climb]], since the obstacle’s height is equal to or lower than the height of the Trooper’s [[Silhouette]] Template, on both sides.
 
-{{image | name=eng-vault-fail.jpg | style=512border }}
+{{advice-start}}
+When moving, only half of the Trooper's base is required to be in contact with the surface they are moving on. Therefore, when moving, a Trooper can move part of its base over the edge of the surface, for instance to gain [[LoF]] to Targets located on the same level or on a different level. To make movement and interactions during the game easier, scenery elements such as parapets and railings must be considered when drawing LoF (see example).
+{{advice-end}}
 
-Conversely, in the second picture, the Trooper may not pass over the obstacle without declaring [[Jump]] or [[Climb]], since the obstacle is higher than the height of the Trooper’s [[Silhouette]] Template on one side.
+
+{{greybox-start | Moving and Peeking Around a Corner}}
+{{image | name=n5/eng-general-movement-peeking.jpg | style=fullborder }}
 {{greybox-end}}
 
 
 {{remember-start}}
-Once declared, Troopers always reach the end of their Movement, even if they enter a [[Null]] or [[Immobilized]] state due to successful enemy [[Attack]]s along the way.
+Once they declare movement, Troopers always reach the end of their Movement, even if they enter a [[Null]] or [[Immobilized]] State due to successful enemy Attacks along the way.
 {{remember-end}}
 
 
 == Example ==
 {{greybox-start | Example of Movement }}
-{{image | name=eng-move-example-1-1024.jpg | style=512border }}
+{{image | name=n5/eng-general-movement-example-1.jpg | style=fullborder }}
+In his Active Turn, the Fennec is leaning against a wall in [[Total Cover]]. He does not have [[LoF]] to the Senku, on the other side of the building. The Fennec declares his first Short Skill: [[Move]].
 
-In his Active Turn, the Fusilier is leaning against a wall in Total Cover. He does not have LoF to the Zhanshi, on the other side of the building. The Fusilier declares his first Short Skill: Move.
+Therefore, the Player will measure the trajectory’s distance, determine his direction and path, then move the Fennec’s base so that his base peeks around the corner to gain LoF to his target while still in [[Partial Cover]].
 
-Therefore, the Player will measure the trajectory’s distance, determine his direction and path, then move the Fusilier’s base so that his base peeks around the corner to gain LoF to his target while still in Partial Cover.
+Once he has seen the Senku, the Fennec’s model returns to his original position in Total Cover. His Move declaration will take him to the corner and back.
 
-{{image | name=eng-move-example-2-1024.jpg | style=512border }}
+Since the Senku also gains LoF to the Fennec, he declares his [[ARO]]: [[BS Attack]]. <br>
+The Fennec then declares the second Short Skill of his Order, another BS Attack. <br>In the subsequent [[Face to Face Roll]], the Senku must apply the Partial Cover MODs.
 
-Once he has seen the Zhanshi, the Fusiliers’ model returns to his original position in Total Cover. His Move declaration will take him to the corner and back.
-
-{{image | name=eng-move-example-3-1024.jpg | style=512border }}
-
-Since the Zhanshi also gains LoF to the Fusilier, he declares his ARO: BS Attack.
-
-The Fusilier then declares the second Short Skill of his Order, another BS Attack.
-
-In the subsequent Face to Face Roll, the Zhanshi suffers the Partial Cover MODs, however he wins the Face to Face Roll, while the Fusilier fails his Saving Roll. Then, the Fusilier would end his Order in Unconscious state behind Total Cover, where he finished his movement.
-
-{{image | name=eng-move-example-4-1024.jpg | style=512border }}
+{{image | name=n5/eng-general-movement-example-2.jpg | style=fullborder }}
+However, he wins the Face to Face Roll, while the Fennec fails his [[Saving Roll]]. Then, the Fennec would end his Order in [[Unconscious State]] behind Total Cover, where he finished his movement.
 {{greybox-end}}
 
 
-== Examples from Move ==
-{{greybox-start | Move over catwalks and narrow corridors }}
-{{image | name=eng-move-narrow-1-1024.jpg | style=512border }}
-
-{{image | name=eng-move-narrow-2-1024.jpg | style=512border }}
-
-{{image | name=eng-move-narrow-3-1024.jpg | style=512border }}
-{{greybox-end}}
+{{see-also-start}}
+* '''[[Move]]'''
+* '''[[Ladders | Ladders and ramps]]'''.
+{{see-also-end}}
 
 
-{{greybox-start | Order (Move + Move) on surfaces that are smaller than the base}}
-{{image | name=eng-move-smaller-than-base.jpg | style=512border }}
 
-Although in both cases the Distance covered is 8 inches, in case B, it is not possible to carry out the movement because there is no valid surface at the end of the first Movement value.
-{{greybox-end}}
-
-
-== FAQs & Errata ==
-
-{{faqbox |
-type = faq |
-title = N4 FAQ |
-version = 1.0, Jan 2021 |
-q = Q: How does the Possessed State interact with Pilots, Dismounting, and Escape Systems? |
-a = A: When a TAG is in Possessed State, its Pilot cannot Mount or Dismount. If a TAG's Escape System takes effect while the TAG is in Possessed State, the operator profile will not be in Possessed State. |
-related = [[Escape System]], [[General Movement Rules]], [[Pilot]], [[Possessed State]] }}
-
-{{section-movement-module}}
+{{n5-section-movement-module}}
 
 
 

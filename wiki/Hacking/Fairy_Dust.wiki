@@ -1,49 +1,39 @@
-{{section-hacking}}
+{{n5-section-hacking}}
 
-
-{{n4only}}
-{{n4list}}
 
 {{image | name=sup-fairy_dust_ip0.jpg | style= 128inline }}
 {{image | name=sup-fairy_dust_rem0.jpg | style= 128inline }}
 {{image | name=sup-fairy_dust_tag0.jpg | style= 128inline }}
 
-{{skillbox |red| FAIRY DUST | ENTIRE ORDER }}
-{{skill-label | Supportware, No roll. }}
+{{css_skillbox |red| FAIRY DUST | LONG SKILL }}
+{{skill-label | Supportware, No Roll. }}
 {{requirements}}
-* Only [[HI]]s, [[REM]]s or [[TAG]]s from the same Army List as the user may be chosen as targets.
+* Only [[HI]]s, [[REM]]s, [[TAG]]s, or [[VH]]s from the same [[Army List]] as the user may be chosen as targets.
+
 {{effects}}
-* Fairy Dust allows the Player to choose a single [[Troop Type]] (HI, TAG, or REM) that will benefit from [[Firewall]] (-3). Every Trooper of the Hacker's Army List that belong to the chosen Troop Type will apply the corresponding MODs every time they suffer a [[Comms Attack]].
+* Fairy Dust allows the Player to choose a single [[Troop Type]] (HI, REM, TAG, or VH) that will benefit from '''[[Firewall]] (-3)'''. Every Trooper of the [[Hacker]]'s Army List that belongs to the chosen Troop Type applies the corresponding MODs every time they suffer a [[Comms Attack]].
 * When the user activates this Program, which does not require a Roll, place a Fairy Dust Token (SUP: FAIRYDUST) beside them.
 * This Program's range covers the entire game table.
+{{css_skillbox-end}}
 
 
-{{n4-hacking-header}}
-{{hackingrow | [[Fairy Dust]] | -- | -- | -- | -- | TAG, HI, REM | Entire Order | The targets gain [[Firewall]] MODs.}}
+{| class="n5table-dark
+|-
+! Name !! Attack MOD !! Opp. MOD !! PS !! Burst !! Target !! Skill Type !! Special
+|- 
+| [[Fairy Dust]] || -- || -- || -- || -- || TAG, REM, HI, VH || Long Skill || The targets gain [[Firewall]] MODs.
 |}
 
 
-{{remember-start}}
-{{update | PDF 2.1, July 2023}}
-* {{erratahighlight}}A Supportware Program is automatically cancelled if the target of the Supportware is targeted by a new Supportware Program, or if the Hacker running the Program enters [[Isolated]] State or any [[Null]] States.{{erratahighlight-end}}
-{{update-end}}
-{{original}}
-* {{originalhighlight}}[[Labels|Supportware]] is automatically cancelled if the [[Trooper]] or [[Troop Type]] that benefits from the Supportware becomes targeted by a new Supportware Program, or the Hacker that is running it becomes [[Isolated]] or enters a [[Null]] State.{{originalhighlight-end}}
-{{original-end}}
-{{remember-end}}
+{{supportware}}
 
 
-{{greybox-start | Example of Supportware Use and Cancellation }}
-During their Active Turn, a Player that has two Troopers with EVO Hacking Devices on the table, declares Fairy Dust with one of them and chooses REMs as the Troop Type that will benefit from this Supportware.
 
-For tactical reasons, they decide to spend the last Order on the other Trooper with an EVO Hacking Device to declare Enhanced Reaction on a REM located in the vanguard. 
-
-By designating a REM that was already benefitting from Fairy Dust, the new Supportware Program deactivates the Fairy Dust Program and the corresponding Token is removed from the table. 
-{{greybox-end}}
-{{n4end}}
-
-
-{{section-hacking}}
+{{n5-section-hacking}}
 
 
 [[Category: Hacking]]
+
+<!-- Label and Trait categories. -->
+[[Category: Supportware ]]
+[[Category: No Roll ]]

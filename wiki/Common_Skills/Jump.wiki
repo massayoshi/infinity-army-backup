@@ -1,81 +1,93 @@
-{{section-movement-module}}
-{{section-common-skills}}
+{{n5-section-movement-module}}
+{{n5-section-common-skills}}
 
 
 This Common Skill allows the user to clear obstacles and leap over small distances.
 
-{{skillbox |red| JUMP | ENTIRE ORDER}}
-{{skill-label | Movement, No LoF, No Roll.}}
-{{Requirements}}
-Players will check the Requirements of this Skill when declaring it.
-* The Trooper’s MOV value must be sufficient to reach a landing spot, and the landing spot must be equal or larger than the Trooper's base. 
-{{Effects}}
-{{update | PDF 2.1, July 2023}}
-* Allows the user to move horizontally (to clear a gap), vertically (to reach a higher or lower surface), diagonally or tracing a parabola, up to his '''first [[MOV]] Attribute''' value in inches.
+{{css_skillbox |red| JUMP | LONG SKILL }}
+{{skill-label | Movement, No LoF, No Roll. }}
+{{requirements}}
+Players must check the Requirements of this Skill when declaring it.
+* The Trooper must be able to reach a horizontal landing spot, which must be equal to or larger than the Trooper's base.
+
+{{effects}}
+* Allows the user to move horizontally, vertically, diagonally or tracing a parabola, without changing their heading. The user can Jump up to the first value of their [[MOV]] [[Attribute]], plus 2 inches.
 * Jump is a Common Skill that does not require a Roll.
-* When Jumping, measure the horizontal, vertical, diagonal or parabolic distance between the starting location and '''the landing spot''', measuring from {{erratahighlight}}any point of the Trooper’s Silhouette at the start of the movement, but you must measure to the base’s outer edge and underside at the end of the movement (see example).{{erratahighlight-end}}
-* Troopers cannot benefit from '''[[Partial Cover]]''' MODs during an Order in which they declared Jump.
-* Jumping movement must follow the [[General Movement Rules]] as well as the [[Moving and Measuring]] rules.{{update-end}}
-{{original}}
-* Allows the user to move horizontally (to clear a gap), vertically (to reach a higher or lower surface), diagonally or tracing a parabola, up to his '''first ''[[MOV]]'' Attribute''' value in inches.
-* Jump is a Common Skill that does not require a Roll.
-* When Jumping, measure the horizontal, vertical, diagonal or parabolic distance between the starting location and '''the landing spot''', measuring from {{originalhighlight}}the base’s outer edge and underside.{{originalhighlight-end}}
-* Troopers cannot benefit from '''''[[Partial Cover]]''' MODs'' during an Order in which they declared Jump.
-* Jumping movement must follow the ''[[General Movement Rules]]'' as well as the ''[[Moving and Measuring]]'' rules.{{original-end}}
+* When Jumping, measure the horizontal, vertical, diagonal or parabolic distance between the starting location '''and the landing spot''', measuring from the base's outer edge and underside.
+* A jump ends when the Trooper touches a surface, which will be the landing spot. 
+* Troopers cannot benefit from [[Partial Cover]] MODs during an Order in which they declared Jump.
+* Jumping movement must follow the [[General Movement Rules]] as well as the [[Moving and Measuring]] rules.
+* Some Troopers have the Jump Skill listed in their [[Unit Profile]] with a distance shown in round brackets. When Jumping, the Trooper can add this distance to their Jump, instead of 2 inches.
+* Declaring Jump automatically cancels [[Prone State]].
+{{css_skillbox-end}}
 
 
-{{explain-start}}
-Measuring parabolas: the easiest way to measure a parabolic route is using a flexible tape measure, bending it for convenience. {{seefaq}}
-{{explain-end}}
+{{advice-start}}
+Measuring parabolas: The easiest way to measure a parabolic route is using a flexible measuring tape, bending it for convenience.
+
+Before the game begins, it is a good idea for both players to agree on which surfaces on the game table will require the use of the Jump Skill, taking into account potentially dubious cases.
+{{advice-end}}
+
+
+{{see-also}}
+'''[[Super-Jump]]'''
+* With this Special Skill, the [[Jump]] [[Long Skill]] is turned into a [[Basic Short Skill]], '''if declared as the first Basic Short Skill of the Order'''.
+* The Super-Jump Special Skill allows its user to perform other Basic Short Skills or Short Skills while performing a Jump (for example: Jump + [[BS Attack]]) (see [[Trooper Activation]]).
+{{see-also-end}}
+
+
+{{see-also}}
+'''[[Restrictions Chart]]'''
+{| class="n5table-dark"
+|-
+! Restrictions Chart
+|- 
+| Troopers mounted on [[Motorcycle]]s cannot go [[Prone]], declare [[Cautious Movement]], [[Climb]], use [[ladders]], or perform an upwards [[Jump]].
+|}
+{{see-also-end}}
 
 
 == Examples ==
 {{greybox-start | Example 1 }}
-{{update | PDF 2.1, July 2023}}
-{{image | name=eng-jump-wall-pdf2.jpg | style=512border }}
-{{update-end}}
-{{original}}
-{{image | name=eng-jump-wall.jpg | style=512border }}
-{{original-end}}
+{{image | name=n5/eng-jump-example-1.jpg | style=fullborder }}
 
-During his Active Turn, the Fusilier has to clear a 1.75 inch high obstacle. As this is a height greater than his Silhouette template, the Fusilier has to declare Jump to be able to clear it. 
+In their Active Turn, a Trooper has to clear a 1.75-inch-high obstacle. As this is higher than their [[Silhouette Template]], the Trooper must declare Jump to be able to clear it.
 {{greybox-end}}
 
 
 {{greybox-start | Example 2 }}
-{{image | name=eng-jump-column-1024.jpg | style=512border }}
+{{image | name=n5/eng-jump-example-2v2.jpg | style=fullborder }}
 
-During his Active Turn, the Fusilier decides to get down from the roof of a building as fast as possible, by jumping down. He declares Jump and measures the height of the building, which is 6 inches. However,  the Fusilier's first ''[[MOV]]'' value is 4 inches and he must choose a landing spot that he can reach. As he cannot Jump to a new location safely, he performs an Idle instead. 
+In his Active Turn, the Trooper decides to get down from the roof of a building as fast as possible, by jumping down. He declares Jump and measures the height of the building, which is 10 inches. However, the Trooper can only Jump up to 6 inches. As the distance is more than 6 inches, he cannot make this Jump and, as there is no safe alternative landing spot, he performs an [[Idle]] instead.
 {{greybox-end}}
 
 
 {{greybox-start | Example 3 }}
-During his Active Turn, the Fusilier declares he is going to Jump from one roof to another. The player measures the distance and checks that it corresponds with the Fusilier's first ''[[MOV]]'' value, and that the landing spot is larger than his base, so he can choose the spot as the final location of his movement. 
+{{image | name=n5/eng-jump-example-3v2.jpg | style=fullborder }}
 
-{{image | name=eng-jump-gap.jpg | style=512border }}
+In his Active Turn, the Trooper declares he is going to Jump from one roof to another. The player measures the distance and checks that it falls within the Jump distance of 6 inches, and that the landing spot is at least as large as his base, so he can choose the spot as the final location of his movement.
 
-If the distance is bigger than his first ''[[MOV]]'' value, or if his base cannot be placed on the landing spot, then the Fusilier cannot Jump to that spot. He must choose a new landing spot he can reach and safely land on, or he performs an Idle instead.{{greybox-end}}
-
-
-== FAQs & Errata ==
-
-{{faqbox |
-type = faq |
-title = N4 FAQ |
-version = 1.3, Nov 2022 |
-q = Q: How are Jump and Climb movement measured? |
-a = A: When measuring Jump or Climb movement, you can measure from any point of the Trooper's Silhouette at the start of the movement, but you must measure to the base's outer edge and underside at the end of the movement. The Trooper can vault over obstacles (parapets etc.) that are equal to or lower than the height of their Silhouette as normal.
-
-{{image | name=faq_jump_climb_measurement_v01.png | style=512border }}
-
-''Development team note: By gaining distance from the Silhouette and allowing the Trooper to ignore parapets (as long as they are equal to or lower than the Silhouette height), movement while Jumping or Climbing is facilitated. This makes these movements easier and gives extra value to Troopers with Super-Jump and Climbing Plus. As we can see in the image, the Jump path is the same even without the parapet.'' |
-related = [[Climb]], [[Climbing Plus]], [[Jump]], [[Super-Jump]] }}
+If the distance is too far, or the Model’s base cannot be placed on the landing spot, then the Trooper cannot Jump to that spot. He must choose a new landing spot he can reach safely and land on, or he performs an [[Idle]] instead and remains in place.
+{{greybox-end}}
 
 
-{{section-movement-module}}
-{{section-common-skills}}
+{{greybox-start | Example 4 }}
+{{image | name=n5/eng-jump-example-4v2.jpg | style=fullborder }}
+
+When jumping, the Trooper must follow a trajectory without changing heading. Therefore, they cannot change their trajectory in mid-air, and can only return to their starting point if they jumped directly up and down.
+{{greybox-end}}
 
 
 
+{{n5-section-movement-module}}
+{{n5-section-common-skills}}
+
+
+<!-- Main categories. -->
 [[Category: Common Skills]]
 [[Category: Movement Module]]
+
+<!-- Label and Trait categories. -->
+[[Category: Movement ]]
+[[Category: No LoF ]]
+[[Category: No Roll ]]

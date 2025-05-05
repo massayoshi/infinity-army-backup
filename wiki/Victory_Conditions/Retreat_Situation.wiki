@@ -1,20 +1,22 @@
-{{Section-victory}}
+{{n5-section-victory}}
 
 
-{{n4only}}
-{{n4}}
-== Retreat! ==
 Retreat! allows Infinity players to continue to play as long as there are survivors on the table, fighting to their last man to turn the game around at the last minute.
 
-In game terms, each player, at the beginning of their [[Active Turn]], during the [[Tactical Phase]], must make a count of their [[Victory Points]]. For this purpose, consider any Troopers that have not yet been placed on the table ([[Airborne Deployment]], [[Hidden Deployment]]…) as survivors. If the sum of the Victory Points is equal to or less than 25% of the points available for building the Army List, then that army enters a state of Retreat!.
+In game terms, each player, at the beginning of their [[Active Turn]], during the [[Tactical Phase]], must make a count of their [[Victory Points]]. For this purpose, consider any Troopers that have not yet been placed on the table ([[Airborne Deployment]], [[Hidden Deployment]]…) as survivors. If the sum of the Victory Points is equal to or less than 25% of the points available for building the [[Army List]], then that army enters a Retreat! situation.
 
 
 == End-Game: Retreat! ==
-{| class="wikitable-dark"
+
+{| class="n5table-dark"
 |-
-! Army points !! Point value of survivors (25% Army Points)
+! colspan="2"| End-Game: Retreat!
+|-
+! Army Points !! Point Value of Survivors (25% Army Points)
 |- 
 | 400 || 100 Points or less
+|- 
+| 350 || 88 Points or less
 |- 
 | 300 || 75 Points or less
 |- 
@@ -26,24 +28,61 @@ In game terms, each player, at the beginning of their [[Active Turn]], during th
 |}
 
 
-{| class="wikitable-dark"
+== Characteristics of an Army in the Retreat! Situation ==
+
+* An army in a Retreat! situation is automatically in a [[Loss of Lieutenant]] situation.
+* As long as the army is in the Retreat! situation, the player cannot name a new [[Lieutenant]]. If the Retreat! situation is cancelled and the army has a Lieutenant, then the Loss of Lieutenant situation is also cancelled.
+* In a Retreat! situation the [[Impetuous Phase]] of the Player Turn is not applied. So, [[]Impetuous]] or [[Frenzy]] Troopers cannot be activated in the Impetuous Phase. 
+* In a Retreat! situation, all Troopers who exit the game table via the widest side of their [[Deployment Zone]] are considered to have survived the battle and can be counted as [[Victory Points]] by their owner.
+* When a player whose army is in a Retreat! situation has lost or evacuated all Troopers in their [[Army List]], the game ends, unless the specific end-game conditions of the scenario being played indicate otherwise.
+* At the beginning of each of their Active Turns, players make a count of their surviving troops. If the point cost of the survivors is more than the 25% threshold—because an Unconscious troop was restored to combat readiness, for example—then the player's Retreat! situation is cancelled, the Retreat! Tokens (RETREAT!) are removed from their Troopers, and the Troopers' [[Retreat State | Retreat! States]] are cancelled.
+
+
+{{see-also}}
+'''[[Retreat State]]''' activation:
+* At the beginning of the Player Turn, the Trooper's army enters the Retreat! situation.
+{{see-also-end}}
+
+
+{| class="n5table-dark"
 |-
 ! Retreat Quick Reference Chart
 |- 
-| If a player’s surviving troops add up to 25% or less of the [[Army List]] points, that player is declared in Retreat!.
+| If a player's surviving Troopers account for only 25% or less of the [[Army List]], then that player declares a Retreat!
 |- 
-| The army is in [[Loss of Lieutenant]].
+| The Army is in [[Loss of Lieutenant]] situation.
 |- 
-| All troops (save Special Skill exceptions) become Irregular as per the Loss of Lieutenant rules. Place an [[Irregular Order]] Token beside each of them.
+| As a result of the Loss of Lieutenant situation, all Troopers become [[Irregular]] (there may be exceptions due to Special Skills or other circumstances) and the corresponding Irregular Order Marker is placed next to each one of them.
 |- 
-| Place a Retreat! Token beside each affected troop on the battlefield.
+| A [[Retreat State | Retreat! Marker]] is placed next to each one of the Troopers on the gaming table.
 |- 
-| Troops with a Retreat! Token can only declare Short Movement Skills, [[Cautious Movement]], [[Dodge]] and [[Reset]].
+| Troopers with a Retreat! Marker may only perform [[Basic Short Skill]]s, [[Dodge]], [[Reset]], and [[Cautious Movement]].  
 |- 
-| Troops with a Retreat! Token who exit the table through the broad side of their Deployment Zone will be counted as Victory Points.
+| Troopers with a Retreat! Marker that exit the table through the broader side of their [[Deployment Zone]] are counted as [[Victory Points]].
 |- 
-| At the start of each turn, count the surviving troops again. If they add up to more than 25% of the Army List, cancel Retreat!.
+| At the beginning of each Turn, Victory Points must be counted, and should the surviving Troopers account for more than 25% of the Army List, then the Retreat! is cancelled.
 |}
+
+
+{{see-also}}
+'''[[Religious Troop]]s'''
+* The user is not affected by the [[Retreat Situation | Retreat! situation]] and does not enter the [[Retreat State | Retreat! State]], acting normally until the end of the game.
+* '''Restriction:''' In a Retreat! situation, the user cannot voluntarily abandon the game table unless the scenario rules indicate otherwise.
+* The user is affected by the [[Loss of Lieutenant]] situation, including in a Retreat! situation.
+
+
+'''[[Courage]]'''
+* Troopers with the Courage Special Skill are unaffected by [[Retreat Situation | Retreat! situations]], so they cannot enter [[Retreat State | Retreat! State]] and act normally until the end of the game.
+* However, even in a Retreat! situation, Troops possessing Courage are affected by [[Loss of Lieutenant]].
+
+
+'''[[Warhorse]]'''
+* The user is not affected by the [[Retreat Situation | Retreat! situation]], remains [[Regular]], and does not enter [[Retreat State | Retreat! State]], acting normally until the end of the game.
+{{see-also-end}}
+
+
+{{n5-section-victory}}
+
 
 
 [[Category: Victory Conditions]]

@@ -1,29 +1,40 @@
-{{section-game-states}}
-{{section-hacking}}
+{{n5-section-game-states}}
+
+
 {{image | name=eng-imm-b.jpg | style=128 }}
 
-{{skillbox |black| IMMOBILIZED-B | }}
-{{Activation}}
-*The Trooper suffered a successful Attack or Effect using an [[Ammunition]], [[Hacking Program]] or a game condition or Scenario Special Rule, capable of causing this state. 
-{{Effects}}
-*Troopers in Immobilized-B State cannot declare any Skill, Attack or ARO, except [[Reset]] applying a -3 [[WIP]] [[MOD]]. {{seefaq | State MODs are cumulative.}}
-*Automatic [[Special Skills]] and [[Equipment]] continue to work, but the Trooper must still respect all declaration restrictions. 
-*Troopers in the Immobilized-B state continue to provide Orders for their [[Order Pool]].
-{{Cancellation}}
-* The affected Trooper may cancel this state via a successful Normal or Face to Face [[Reset]] Roll, applying the -3 [[WIP]] [[MOD]] provided by this state.
-* A Trooper with the '''[[Engineer]]''' Special Skill (or an equivalent Skill) may cancel the Immobilized-B state by spending one Short Skill of an Order while in [[Silhouette contact]] with the affected Trooper, and passing a Normal '''[[WIP]]''' Roll (or the Roll specified by the Special Skill or Scenario).
+
+{{css_skillbox |black| IMMOBILIZED-B }}
+{{activation}}
+* The Trooper or game element ("Trooper" from now on) suffers a successful [[Attack]] or Effect using an [[Ammunition]], [[Hacking Program]] or a game condition or Scenario Special Rule, capable of causing this state.
+
+{{effects}}
+* Troopers in Immobilized-B State cannot declare any Skill, [[Attack]] or [[ARO]], except [[Reset]] applying a -3 [[WIP]] MOD.
+* Automatic Special Skills and Equipment continue to work, but the Trooper must still respect all declaration restrictions.
+* Troopers in the Immobilized-B state continue to provide [[Orders]] for their [[Order Pool]].
+
+{{cancellation}}
+* The affected Trooper may cancel this state via a successful [[Normal]] or [[Face to Face Roll | Face to Face]] [[Reset]] Roll, applying the -3 [[WIP]] MOD provided by this state.
+* A Trooper with the '''[[Engineer]]''' Special Skill (or an equivalent Skill) may cancel the Immobilized-B state by spending one [[Short Skill]] of an [[Trooper Activation | Order]] while in [[Silhouette contact]] with the affected Trooper, and passing a [[Normal]] [[WIP]] Roll (or the Roll specified by the Special Skill or Scenario).
+{{css_skillbox-end}}
 
 
-== FAQs & Errata ==
+{{see-also}}
+'''[[Carbonite]]'''
+* Any failed Saving Roll causes the target to enter '''[[Immobilized-B State]]''', placing an Immobilized-B State Token (IMM-B) by them.
 
-{{faqbox |
-type = faq |
-title = N4 FAQ |
-version = 1.0, Jan 2021 |
-q = Q: Do State MODs all stack with each other? For example, if a Trooper is in IMM-B and Targeted State, do they apply a -6 MOD to all their Reset Rolls? |
-a = A: Yes. |
-related = [[Dodge]], [[Immobilized-A State]], [[Immobilized-B State]], [[Isolated State]], [[Reset]], [[Targeted State]] }}
 
+'''[[Electromagnetic (E/M) Ammunition]]'''
+* If the target fails a [[Saving Roll]] and is Heavy Infantry ([[HI]]), a [[TAG]], a Remote ([[REM]]), or a Vehicle ([[VH]]), then it also enters [[Immobilized-B State]]. Place an Immobilized-B Token (IMM-B) next to it in addition to the [[Isolated]] Token.
+
+
+'''[[Mines#Cybermines | Cybermines]]'''
+* However, any Troopers with the '''[[Hackable]] Characteristic ([[HI]], [[REM]], [[TAG]], [[VH]]...)''' and '''[[Hackers]]''' who fail either [[Saving Roll]] enter '''[[Immobilized-B State]]''' instead of [[Stunned State]].
+{{see-also-end}}
+
+
+
+{{n5-section-game-states}}
 
 
 [[Category: Game States]]

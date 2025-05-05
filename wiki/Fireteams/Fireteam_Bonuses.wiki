@@ -1,121 +1,140 @@
 {{section-fireteams}}
 
-{{section-reference-charts}}
+{{n5-section-reference-charts}}
 
 
-{{n4annex}}
-{{n4list}}
-{{update | March 2022}}
-In Infinity N4, being in a Fireteam grants a set of Bonuses to its members. They are classified into two types:
-* Fireteam Size Bonuses. 
-* Fireteam Composition Bonuses.
+In Infinity, being in a Fireteam grants a set of Bonuses to its members, which are divided into several levels. 
 
-Unlike other multi-Trooper activations, like [[Coordinated Orders]] and their Spearhead, during the Active Turn the Trooper designated as Fireteam Leader will have the full Burst (B) value of their weapon, piece of Equipment, or Skill, plus any applicable Bonus.
+The '''Fireteam Level''' is based on the '''number of Troopers '''in the Fireteam who belong to '''the same Unit'''. 
 
-{{important-start}}
-Unless otherwise specified, Fireteam Bonuses are cumulative with each other, and with other bonuses or Burst MODs provided by other rules, Special Skills, Equipment, or Hacking Programs.
-{{important-end}}
+When calculating the Fireteam level, Troopers belong to the same Unit if they have the same Unit name or are listed in the Fireteams Chart with the same term between brackets.
 
-Therefore, as a quick reference summary, here is the Fireteam Bonus Chart:
 
-==Fireteam Bonus Chart==
+== Fireteam Level Chart ==
 
-{| class="wikitable-dark"
+{| class="n5table-dark
 |-
-! Number of Members !! Fireteam Size Bonus !! Fireteam Composition Bonus <br>(same unit)
+! colspan="2" | Fireteam Level Chart
 |-
-| 2 Members || Activate the entire FT with 1 Order. || --
-|-
-| 3 Members || All get +1 [[Burst]] BS Attack. || All get +3 [[Discover]].
-|-
-| 4 Members || All get [[Sixth Sense]]. || All get +1 BS.
-|-
-| 5 Members || All get +1 BS. || All get +1 BS.
+! Fireteam Level !! Requirements
+|- 
+| Level 1 || The Troopers can all belong to different Units.  
+|- 
+| Level 2 || At least 2 Troopers belong to the same Unit. 
+|- 
+| Level 3 || At least 3 Troopers belong to the same Unit.
+|- 
+| Level 4 || At least 4 Troopers belong to the same Unit.
+|- 
+| Level 5 || All 5 Troopers belong to the same Unit.
 |}
 
 
-==Fireteam Size Bonuses==
-The number of Fireteam members determines the bonus that the player can apply.
+Unlike other multi-Trooper activations, like [[Coordinated Orders]] and their Spearhead, during the [[Active Turn]] the Fireteam Leader has the full [[Burst]] (B) value of their weapon, piece of Equipment, or Skill, plus any applicable Bonus.
 
 
-===Two Member Fireteam Bonus===
-This Level applies the basic rules of Fireteams, granting no additional bonus.
-* During the Active Turn, the Fireteam members activate with a single [[Regular Order]]. 
+{{important}}
+Unless otherwise specified, Fireteam Bonuses are cumulative with each other, and with other bonuses or MODs provided by other rules, [[Special Skills]], [[Equipment]], or [[Hacking Programs]].
+{{important-end}}
 
 
-===Three Member Fireteam Bonus===
+== Fireteam Bonuses Chart ==
+Therefore, as a quick reference summary, here is the Fireteam Bonuses Chart:
 
-{{skillbox |black| BURST SUPPORT BONUS | AUTOMATIC SKILL}}
-{{skill-label | Optional.}}
-{{Effects}}
-* During the Active Turn, the Fireteam Leader can apply a +1 Bonus to the [[Burst]] (B) value of their [[BS Weapon]]s. This Bonus is applied to [[Throwing Weapon]]s but not to [[Technical Weapon]]s. 
-* During the Reactive Turn, all the Fireteam members benefit from this bonus. However, all BS Attacks of the Burst must be performed against the same target.
-* The +1 B MOD does not apply to [[Entire Order]] Skills ([[Intuitive Attack]], [[Speculative Attack]]...).
-* If the Trooper uses this bonus with Disposable Weapons with limited ammunition (for example a Panzerfaust), then benefiting from the +1 B bonus means expending one additional use (see [[Disposable]]). 
-
-
-{{Greybox-start | Example }}
-For example, a Trooper with a Panzerfaust (a weapon with B 1 and two uses) using the +1 Burst bonus would make an Attack with B 2, expending both of the weapon’s uses in a single Order. The Panzerfaust will be unloaded, so the player would place an [[Unloaded State]] Token beside the Trooper.
-{{Greybox-end}}
-
-
-===Four Member Fireteam Bonus===
-All Fireteam members gain the [[Sixth Sense]] Special Skill. 
-
-
-===Five Member Fireteam Bonus===
-All the Fireteam members applies a +1 MOD to their [[BS Attack]] Rolls. This Bonus is applied to [[Throwing Weapon]]s but not to [[Technical Weapon]]s. 
+{| class="n5table-dark
+|-
+! colspan="2" | Fireteam Bonuses Chart
+|-
+! Fireteam Level !! Bonus
+|- 
+| Level 1 || Fireteam members  are activated with a single [[Regular Order]]
+|- 
+| Level 2 || [[BS Attack]] (+1 SD) Skill 
+|- 
+| Level 3 || +3 [[Discover]] and +1 [[Dodge]]
+|- 
+| Level 4 || +1 [[BS]]
+|- 
+| Level 5 || [[Sixth Sense]]
+|}
 
 
-==Fireteam Composition Bonuses==
-The new specialized and intensive models of tactical instruction allow Troopers from the same Unit to form more integrated Fireteams, thus optimizing their combat performance.
-
-Fireteams that only contain Troopers from the same Unit, and/or those identified as such, have additional Bonuses based on the number of members.
-
-{{skillbox |black| ADDITIONAL BONUSES | }}
-{{Requirements}}
-The Fireteam must '''only contain Troopers of the same Unit''' and/or those that the Fireteams Chart identifies as such in a note or in brackets.
-{{Effects}}
-* The additional Bonuses are cumulative with the Fireteam Size Bonuses.
-* During both the Active and the Reactive Turn, the additional Bonuses are:
-** Three-member Fireteams: All get a +3 MOD to their [[Discover]] Rolls. 
-** Four-member Fireteams: All get a +1 MOD to their BS Attack Rolls. This Bonus is applied to Throwing Weapons but not to Technical Weapons.
-** Five-member Fireteams: All get a +1 MOD to their BS Attack Rolls. This Bonus is applied to Throwing Weapons but not to Technical Weapons.
-* The composition of the Fireteam is checked the moment it is created and also after declaring any Order or ARO with the Fireteam. {{seefaq}}
+The Fireteam Level needs to be checked when the Fireteam is created as well as after it declares any [[Trooper Activation | Orders]] or [[ARO]]s.
 
 
-{{remember-start}}
-When the number of Fireteam members changes, the player must check both the Size and Composition Bonuses that the members can apply during the Order (see [[Fireteam Integrity]]).
+== Fireteam Bonus Levels ==
+
+=== Fireteam Bonus Level 1 ===
+* In the Active Turn, all the Fireteam members activate with a single [[Regular Order]].
+
+
+=== Fireteam Bonus Level 2 ===
+* '''[[BS Attack]] (+1 SD) Skill''': This Skill allows the player to roll one extra die, and then select and discard one die from the Roll. This extra die does not increase the [[Burst]] value of the Special Skill, Weapon, or Equipment, and does not expend additional [[Disposable]] uses. If distributing Burst between several targets, the extra die must be allocated to one of those targets, and a die discarded from the Roll against that target.
+* If used in a [[Face to Face Roll]], a die is selected and discarded after both players have rolled. If both players have to select and discard a die, the Active Player selects first.
+* In the [[Reactive Turn]], all the Fireteam members benefit from this Skill. 
+* This Skill cannot be applied when declaring '''[[Long Skill]]s'''. Also, it cannot be applied to Skills, Weapons, or Equipment that do '''not require a Roll''', for example, [[Direct Template Weapon]]s.
+* This Skill is cumulative with other BS Attack (+1 SD) Skills listed in the [[Unit Profile]], or from other rules or scenario conditions.
+
+
+{{remember}}
+This Fireteam Bonus applies to [[MediKit]]s and [[GizmoKit]]s when used as [[BS Weapon]]s. 
+{{remember-end}}
+
+{{see-also}}
+'''[[Modifiers Explained]]''' for the standard +1 SD MOD text.
+{{see-also-end}}
+
+
+=== Fireteam Bonus Level 3 ===
+In the Active and Reactive Turns, all Fireteam members:
+* Have a +3 MOD to their [[Discover]] Rolls.
+* Have a +1 MOD to their [[Dodge]] Rolls.
+
+
+=== Fireteam Bonus Level 4 ===
+* '''When declaring [[BS Attack]],''' all Fireteam members have a +1 MOD to their Attribute. This MOD also applies to weapons with the [[BS Weapon (PH)]] and [[BS Weapon (WIP)]] Traits.
+
+
+=== Fireteam Bonus Level 4 ===
+* All Fireteam members have the [[Sixth Sense]] Special Skill.
+
+
+== Miscellaneous ==
+
+{{remember}}
+When the number of Fireteam members changes, the player must recalculate the Bonuses that the members can apply during the Order (see [[Fireteam Integrity]]).
 {{remember-end}}
 
 
-{{update-end}}
+{{important}}
+A Fireteam's Bonuses are [[Private Information]] until the player declares a [[BS Attack]] or [[Discover]], or some other Skill that benefits from these Bonuses.
+{{important-end}}
 
 
-== FAQs & Errata ==
-
-{{faqbox |
-type = faq |
-title = N4 FAQ |
-version = 1.3, Nov 2022 |
-q = Q: When are a Fireteam’s Composition Bonuses checked? |
-a = A: A Fireteam’s Composition Bonuses are Private Information until the Resolution step of an Order in which their player declares BS Attack or Discover, when the MODs of the Rolls are determined. |
-related = [[Fireteam Bonuses]], [[HoloMask State]], [[Open and Private Information]] }}
+{{remember}}
+The maximum [[Burst]] (B) value of any Attack is 6, no matter how many MODs to B are applied. The extra dice for "+1SD" do not count towards this maximum, as they do not increase the Burst value.
+{{remember-end}}
 
 
-{{faqbox |
-type = faq |
-title = N4 FAQ |
-version = 1.3, Nov 2022 |
-q = Q: Can a Fireteam's Burst Support Bonus be combined with other Burst MODs and bonuses? For example with Enhanced Reaction in ARO? |
-a = A: Yes. For example a Remote can add the Burst Support Bonus to its Burst 2 ARO from Enhanced Reaction, giving it Burst 3 in ARO. |
-related = [[Enhanced Reaction]], [[Fireteam Bonuses]] }}
+{{advice}}
+During the game, a player decides to perform a [[BS Attack]] with a Fireteam made up of 4 Fennec and 1 Griffin. This is a Level 5 Fireteam because the Griffin has (Fennec) listed in the [[Fireteams Chart]]. The player designates the Griffin Trooper with the HMG as the Fireteam Leader, who will apply the following MODs and Bonuses to his BS Attack: 
+* [[Burst]] 4 (+1 SD) with the HMG, since he has B = 4 +1 extra die thanks to the Level 2 FT Bonus. Therefore, he will roll 5 dice for his BS Attack, and will have to choose and discard one of the dice.
+* He applies a +1 MOD to his [[BS]] Attribute to determine the Success Value of the Roll, thanks to the Level 4 FT Bonus. 
+
+After both players have made their Rolls, the PanOceanian player must discard 1 of the 5 dice he rolled to check the result of the [[Face to Face Roll]].  
+{{advice-end}}
+
+
+{{remember}}
+If a Trooper has [[B]]1 and (+1 SD), this MOD does not increase the [[Burst]] value and the extra die cannot be allocated to a different target. However, if he has (+1 SD) and the Burst value is greater than one and he distributes the Burst between several targets, the extra die must be allocated to one of those targets, and a die discarded from the Roll against that target.
+{{remember-end}}
+
 
 
 {{section-fireteams}}
 
+{{n5-section-reference-charts}}
 
-{{n4end}}
 
 
 

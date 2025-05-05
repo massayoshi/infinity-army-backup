@@ -1,207 +1,36 @@
-{{Section-basic-rules}}
+{{n5-section-basic-rules}}
 
 
-== Structure of an Order ==
-Players use [[Orders]] to '''activate''' [[Troopers]] and have them perform actions in the form of [[Skills]] ([[Move]], [[Jump]], [[CC Attack]]…). Depending on their complexity and the in-game time taken, Skills are divided into:
+Players use [[Orders]] to activate [[Troopers]] and have them perform actions in the form of [[Skills]] ([[Move]], [[Jump]], [[CC Attack]]...). Depending on their complexity and the in-game time taken, Skills are divided into:
+* '''Basic Short Skills''': These skills are '''[[Move]]''', '''[[Discover]]''', and '''[[Idle]]'''. They can be declared twice, or can be combined with a different Basic Short Skill in the same Order. For instance, you could use an Order to Move and Discover. They can also be combined with a Short Skill.
+* '''Short Skills''': Most of the Skills available in Infinity are Short Skills. They can '''only''' be combined in an Order with a Basic Short Skill. They '''cannot''' be declared twice or be combined with other Short Skills.
+* '''Long Skills''': These Skills employ one whole Order and cannot be combined in any way.
 
-'''Short Movement Skills:''' Can be declared twice, or be combined with a different Short Movement Skill in the same Order. For instance, you could use an Order to [[Move]] and [[Discover]]. They can also be combined with a Short Skill.
-
-'''Short Skills:''' Can only be combined within the same Order with a Short Movement Skill.  Cannot be declared twice or be combined with other Short Skills. 
-
-'''Entire Order Skills''' (or just '''Entire Order''' for short): These Skills employ one whole Order and cannot be combined in any way.
+You can check the [[Orders and AROs Reference Chart]].
 
 
-{{c1}}
-{{image | name=eng-composition-of-order-1024.jpg | style=512 }}
-{{c1end}}{{n4}}
-{{image | name=eng-composition-of-order-n4-1024.jpg | style=512 }}
-{{n4end}}
+{{image | name=n5/eng-composition-of-order-n5.jpg | style=full }}
 
 
-In other words, the expenditure of an Order allows the activated Trooper to declare one of the following combinations of Skills:
-* Any one Entire Order Skill.
-* Any one Short Movement Skill plus any one Short Movement Skill.
-* Any one Short Movement Skill plus any one Short Skill (and vice versa).
+Therefore, spending an Order allows the activated Trooper to declare a maximum of two Skills, choosing from one of the following combinations and always declared in the order shown:
+
+* 1 Basic Short Skill + 1 Basic Short Skill.
+* 1 Basic Short Skill + 1 Short Skill.
+* 1 Long Skill (which activates the Trooper and expends the whole Order).
 
 
 {{Important-start}}
-Even if declared one after the other, both Skills in a single Order are performed simultaneously. For example, if you declare Move plus [[BS Attack]], (the Short Skill that Troopers use to fire their weapons), you can make the BS Attack at any point during the declared movement route, and not necessarily at the end of that route.
+Even if declared one after the other, both Skills in a single Order are performed simultaneously. For example, if you declare [[Move]] plus [[BS Attack]], (the Short Skill that Troopers use to fire their weapons), you can make the BS Attack at any point during the declared movement route, and not necessarily at the beginning or end of that route.
 {{Important-end}}
 
 
 {{Important-start}}
-{{update | 1.3, Nov 2022}}
-{{erratahighblock}}
-Skills can only be declared from a position that the Trooper has already been in or moved through during the current Order. Therefore the Active Trooper cannot declare a Skill from a position they have not reached yet.
-
-''Development team note: By adding this important box, our intention is to end all the annoying situations that have been generated with the modification of the Order Sequence, but keeping the flexibility when declaring skills. So, you will still be able to declare "Shoot" as the first half of the Order. However, if you really want to shoot a Trooper behind a wall, you must move first and then shoot.''
-{{erratahighblock-end}}
-{{update-end}}
+The type, status, and expenditure of any Order ([[Orders_and_the_Order_Pool#Types_of_Orders | Regular, Irregular, Tactical, the Lieutenant Order]], which [[Combat Group]] it belongs to, whether it has been spent or not...) is [[Open Information]]. Players must place the Tokens for each and every one of their Orders in a visible place on the gaming table, and they must inform their opponent every time they spend an Order to activate a Trooper, even if it is the Lieutenant Order.
 {{Important-end}}
 
 
-== ARO: Automatic Reaction Order ==
-{{update | 1.1.1, Dec 2021}}
 
-In Infinity games, thanks to the Automatic Reaction Order (ARO) mechanic, the action and decision-making never stops. Even during their opponent's Active Turn, a player’s {{erratahighlight}}[[Troopers]],{{erratahighlight-end}} [[Models]] and [[Markers]] can react each time the opponent activates one of his [[Troopers]] with an [[Order]].
-
-{{erratahighlight}}A Reactive Trooper is allowed to declare ARO in the following situations:{{erratahighlight-end}}
-
-* An enemy Trooper activates within its [[Line of Fire]] (LoF).
-* An enemy Trooper activates within its [[Zone of Control]] (ZoC) {{erratahighlight}}or [[Hacking Area]]{{erratahighlight-end}}.
-* It has a [[Special Skill]], weapon, or piece of [[Equipment]] that specifies that the Trooper can react to enemy actions without LoF {{erratahighlight}}or ZoC{{erratahighlight-end}}.
-* It is affected by a [[Template Weapon]], or is the target of a [[Hacking Program]] or other [[Comms Attack]].
-
-The [[Game Sequence|Reactive Player]] must declare AROs for all eligible {{erratahighlight}}Troopers,{{erratahighlight-end}} Models or Markers '''immediately after''' the [[Game Sequence|Active Player]] declares his Entire Order or the first Short Skill of his Order. 
-Troopers that fail to do so lose their ARO against that Order. If, by declaring the second Short Skill of its Order, the active Trooper gives an ARO to enemy Troopers that did not have ARO against the first Short Skill, then those enemy Troopers can declare their AROs.
-{{update-end}}
-{{original}}
-
-In Infinity games, thanks to the Automatic Reaction Order (ARO) mechanic, the action and decision-making never stops. Even during their opponent's Active Turn, a player’s [[Models]] and [[Markers]] can react each time the opponent activates one of his [[Troopers]] with an [[Order]]. 
-
-{{originalhighlight}}The ARO declarations of the Reactive Player’s Troopers are considered valid in the following situations:{{originalhighlight-end}}
-* An enemy Trooper activates within its [[Line of Fire (LoF)]].
-* An enemy Trooper activates within its [[Zone of Control (ZoC)]]. 
-* It has a [[Special Skill]], weapon, or piece of [[Equipment]] allowing it to react to enemy actions without LoF.
-* It is affected by a [[Template Weapon]], or is the target of a [[Hacking Program]] or other [[Comms Attack]].
-
-The [[Game Sequence|Reactive Player]] must declare AROs for all eligible Models or Markers '''immediately after''' the [[Game Sequence|Active Player]] declares his Entire Order or the first Short Skill of his Order (see: [[Orders and the Order Pool#Order Expenditure Sequence|Order Expenditure Sequence]]). Troopers that fail to do so lose their ARO against that Order. If, by declaring the second Short Skill of its Order, the active Trooper gives an ARO to enemy Troopers that did not have ARO against the first Short Skill, then those enemy Troopers can declare their AROs.
-{{original-end}}
-
-Each time the Active Player activates a Trooper by spending an Order, each eligible enemy gets '''one single ARO''', regardless of the number of Skills the Active Player declares during that Order. 
-
-AROs must '''choose ''one'' of the Troopers activated by the Order as their target'''. 
-
-Troopers cannot react to AROs, since only the [[Game Sequence|Active Player]]'s Orders give AROs and only the [[Game Sequence|Reactive Player]] can declare AROs.
-
-There is no limit to the number of Troopers that can react to the activation of a single enemy Trooper.
-
-{{Important-start}}
-Using an ARO, the Reactive Player can only declare Skills that specifically state they are usable in ARO (check the [[Orders and AROs Reference Chart|Summary Chart]]).
-
-Unless a Special Skill, Equipment or scenario rule states otherwise, AROs always have [[Burst]] B1. In such a situation, if the Reactive Trooper has a [[Burst]] value higher than one in ARO, they cannot split it amongst different targets.
-{{Important-end}}
-
-== All at Once ==
-In Infinity, Orders and AROs are simultaneous regardless of the Skills declared. 
-
-For example, if an activated Trooper declares [[Move]] + [[BS Attack]] and chooses to shoot from its starting position (to take advantage of a favorable Range), and its target reacts with a BS Attack, choosing to shoot at the end of the Movement (again, for Range purposes), then both actions are still considered to be simultaneous for all game purposes.
-
-{{Important-start}}
-All AROs are also simultaneous. This means that, if a Camouflage Marker declares a Move, the opponent can declare Discover with Troopers that have LoF to it, but they cannot declare Discover with one of the Troopers and BS Attack with the rest, waiting for the Discover Roll to be successful (see: [[Camouflaged State]]).
-{{Important-end}}
-
-
-== Order Expenditure Sequence ==
-Each time the [[Game Sequence|Active Player]] decides to use an Order (of whatever type) to activate a Trooper, follow these steps:
-
-{{update | 1.1.1, Dec 2021}}
-
-1. '''Activation.''' The [[Game Sequence|Active Player]] declares which Trooper will activate.
-: 1.1. '''Order Expenditure.''' The Active Player removes from the table, or otherwise marks as spent, the Order he uses to activate the Trooper.
-: 1.2. '''Declaration of the First Skill.''' The Active Player '''declares the first Short Skill''' of the Order, or the Entire Order, he wants to use. If movements are declared, the player measures where the Trooper can move and places the Trooper at the final point of its movement.
-
-{{erratahighblock}}
-2. '''Reactive Player’s AROs'''
-: 2.1. '''ARO Check'''. The [[Game Sequence|Reactive Player]] checks if they are allowed to declare AROs with their Troopers. Players can check from the Active Trooper if any Trooper or Game Element is inside the [[Zone of Control]] (ZoC) of the Active Trooper.
-: 2.2. '''ARO Declaration.''' The Reactive Player '''declares the AROs''' of those Troopers that are allowed to declare one. Troopers are not forced to declare AROs, but if a Trooper can declare an ARO and fails to do so, the chance to declare an ARO is lost.
-
-3. '''Declaration of the Second Skill.''' The Active Player declares the second Short Skill of the Order, if applicable. If movements are declared, the player measures where the Trooper can move, chooses the route, and places the Trooper at the final point of its movement.
-
-4. '''Reactive Player’s AROs'''
-:4.1. '''ARO Check.''' The Reactive Player checks if they are allowed to declare AROs with those Troopers that couldn’t declare an ARO in the previous ARO Check step. Players can check from the Active Trooper if any Trooper or Game Element is inside the Zone of Control (ZoC) of the Active Trooper.
-:4.2 '''ARO Declaration.''' The Reactive Player '''declares the AROs''' of those Troopers that are allowed to declare one.
-
-5. '''Resolution:''' Check that the declared Skills and pieces of Equipment meet their respective Requirements, measure all distances, determine MODs, '''and both players make Rolls'''. If any Skill or piece of Equipment doesn’t meet its Requirements, the Trooper performs an [[Idle]].
-:5.1 '''Effects:''' Players '''apply all effects''' of successful Skills and Equipment including [[Saving Rolls]] and [[Dodge]] movement.
-:5.2 '''Conclusion:''' [[Guts Rolls]] are made. The effects of Guts Rolls and [[Alert]] are applied. End of the Order.
-{{erratahighblock-end}}
-{{update-end}}
-{{original}}
-
-1. '''Activation:''' The [[Game Sequence|Active Player]] declares which Trooper will activate. 
-:1.1 '''Order expenditure:''' The [[Game Sequence|Active Player]] removes from the table, or otherwise marks as spent, the Order he uses to activate the Trooper.  
-:1.2 '''Declaration of the First Skill:''' The [[Game Sequence|Active Player]] declares the first Short Skill of the Order, or the Entire Order he wants to use. 
-:If movements are declared, the player measures where the Trooper can move, chooses the route, and places the Trooper at the final point of its movement.
-{{originalhighblock}}
-2. '''Declaration of AROs:''' The [[Game Sequence|Reactive Player]] checks [[Lines of Fire]] to the Active Trooper, and declares AROs. Troopers are not forced to declare the AROs, but if a Trooper can declare an ARO and fails to do so, the chance to declare an ARO is lost.
-
-3. '''Declaration of the Second Skill:''' The [[Game Sequence|Active Player]]  declares the second Short Skill of the Order, if applicable.
-If movements are declared, the player measures where the Trooper can move, chooses the route, and places the Trooper at the final point of its movement.
-
-4. '''Declaration of AROs:''' The [[Game Sequence|Reactive Player]] checks [[Lines of Fire]] to the Active Trooper from those Troopers who didn’t declare an ARO before, and can declare any new AROs that are available. 
-
-{{c1}}
-5. '''Resolution:''' Check that the declared Skills, Special Skills, and pieces of Equipment meet their respective Requirements, measure all distances and [[Zones of Control]], determine MODs, and make Rolls. If any Skill, Special Skill, or piece of Equipment does not meet its Requirements, the Trooper is considered to have declared an [[Idle]].
-:5.1. '''Effects:''' Players apply all effects of successful Skills, Special Skills, and pieces of Equipment, and make [[Saving Rolls]], any [[Dodge]] movement or [[Alert]].
-:5.2. '''Conclusion:''' End of the Order.
-{{c1end}}
-{{n4}}
-5. '''ARO Check:''' Check that each Trooper that declared an ARO has been in one of the situations that makes their ARO declaration valid. If they have not, they are considered to have declared an Idle.
-
-6. '''Resolution:''' Check that the declared Skills, Special Skills, and pieces of Equipment meet their respective Requirements, measure all distances and [[Zones of Control]], determine MODs, '''and make Rolls'''. If any Skill, Special Skill, or piece of Equipment does not meet its Requirements, the Trooper is considered to have declared an [[Idle]]. {{seefaq | LoF Requirements are checked when declaring the Skill.}}
-:6.1. '''Effects:''' Players apply all effects of successful Skills, Special Skills, and pieces of Equipment, and make [[Saving Rolls]], any [[Dodge]] movement or [[Alert]].
-:6.2. '''Conclusion:''' If necessary, players make Guts Rolls and apply their effects. End of the Order.
-{{n4end}}
-{{originalhighblock-end}}
-{{original-end}}
-
-
-{{Important-start}}
-All details and choices related to the execution of a Short Skill, Short Movement Skill, Entire Order Skill or ARO must be specified when it is declared. {{seefaq}}
-
-For instance, if you declare a movement, specify the entire route; if you declare a BS Attack, specify which Weapon will be used, who the targets are, where the Trooper shoots from, how the [[Burst]] is divided, etc. 
-
-If the Player declares a Skill and, during the Resolution step, he realizes the Requirements are not met, then the Skill is cancelled and the Trooper is considered to have performed an [[Idle]], so they still generate AROs, and lose the ammunition or equipment used, if they declared the use of a Disposable weapon or piece of Equipment. {{seefaq | LoF Requirements are checked when declaring the Skill.}}
-{{Important-end}}
-
-
-{{Greybox-start | Infinity. Fair Play: }}
-Checking all the Requirements may sometimes seem like a long and difficult process. To accelerate the game, the opposing player can help the Active Player with measurements, LoF checks and the like, thus making the game more dynamic and fun. Since it is the base of a good gaming environment, both players stand to win with a clean game.
-{{Greybox-end}}
-
-
-== FAQs & Errata ==
-
-{{faqbox |
-type = faq |
-title = <s>N4 FAQ</s> |
-version = Removed in 1.1.1, Dec 2021 <s>1.0, Jan 2021</s> |
-q = <s>Q: How do LoF and ZoC Skill Requirements work?</s> |
-a = <s>A: LoF Requirements must be fulfilled when declaring Skills. ZoC Requirements must be fulfilled during the Resolution step.</s> |
-related = [[Trooper Activation]], [[Zone of Control]] }}
-
-
-{{faqbox |
-type = faq |
-title = N4 FAQ |
-version = 1.0, Jan 2021 |
-q = Q: Do you need to specify all details of a Skill when declaring it? For example where the target is for a BS Attack, or where the template is being placed for White Noise? |
-a = A: Yes, with the exception of the target’s position, which is chosen in the Resolution step, before measuring Ranges. If the order of declaration is important, the active player chooses who declares first. |
-related = [[BS Attack]], [[Trooper Activation]], [[White Noise]] }}
-
-
-{{faqbox |
-type = faq |
-title = N4 FAQ |
-version = Removed in 1.3, Nov 2022 <s>1.2, Jan 2022 </s> |
-q =  <s>Q: How are Direct Template Weapons placed during the Order Expenditure Sequence? </s> |
-a =  <s>A: All the placement rules must be fulfilled when declaring the Attack. For example, a Direct Teardrop Template must be placed so that it is in contact along the Trooper's movement path, and not from a point they haven't reached yet.</s> 
-
-Removed in 1.3, Nov 2022, replaced with errata for all Skills. |
-related = [[Direct Template Weapon]], [[Trooper Activation]] }}
-
-
-{{faqbox |
-type = faq |
-title = N4 FAQ |
-version = Removed in 1.3, Nov 2022, replaced with errata <s>1.2, Jan 2022<s> |
-q = <s>Q: How are Impact Template Weapons placed during the Order Expenditure Sequence?</s> |
-a = <s>A: The Main Target must be in LoF when declaring the Attack.</s> |
-related = [[Impact Template Weapons]], [[Trooper Activation]] }}
-
-
-{{Section-basic-rules}}
+{{n5-section-basic-rules}}
 
 
 

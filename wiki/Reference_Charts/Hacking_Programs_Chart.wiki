@@ -1,63 +1,70 @@
-{{section-hacking}}
-{{section-reference-charts}}
+{{n5-section-hacking}}
+{{n5-section-reference-charts}}
 
 
 == Hacking Programs Chart ==
 
-{{c1}}
-{{n4-hacking-header}}
-{{hackingrow | [[Carbonite]] | 0 | 0 | 13 | 2 | TAG, HI, REM, Hacker | Short Skill/ARO | [[DA Ammo]], [[Non-Lethal]], [[State Trait | State:]] [[Immobilized-B]].}}
-{{hackingrow | [[Spotlight]] | 0 | 0 | -- | 1 | -- | Short Skill/ARO | [[Non-Lethal]], [[State Trait | State:]] [[Targeted]].}}
+
+{| class="n5table-dark
+|-
+! Name !! Attack MOD !! Opp. MOD !! PS !! Burst !! Target !! Skill Type !! Special
+|- 
+| [[Assisted Fire]] || -- || -- || -- || -- || REM || Long Skill || Target Model gains [[Marksmanship]].
+|- 
+| [[Carbonite]] || 0 || 0 || 7 || 2 || TAG, HI, REM, VH, [[Hacker]] || Short Skill / ARO || [[DA]] Ammo, [[Non-Lethal]], [[State Trait | State:]] [[Immobilized-B]].
+|- 
+| [[Controlled Jump]] || -- || -- || -- || -- || -- || Short Skill / ARO || +3/-3 MOD to the PH of every Trooper that performs [[Combat Jump]]. 
+|- 
+| [[Cybermask]] || -- || -- || -- || -- || -- || Long Skill || Replace user with [[IMP-2]] Marker.
+|- 
+| [[Enhanced Reaction]] || -- || -- || -- || -- || REM || Long Skill || Target gains [[B]]2 in [[ARO]].
+|- 
+| [[Fairy Dust]] || -- || -- || -- || -- || TAG, REM, HI, VH || Long Skill || The targets gain [[Firewall]] MODs.
+|- 
+| [[Oblivion]] || 0 || 0 || 4 || 2 || TAG, HI, REM, VH, [[Hacker]] || Short Skill / ARO || [[AP]] Ammo, [[Non-Lethal]], [[State Trait | State:]] [[Isolated]].
+|- 
+| [[Spotlight]] || 0 || 0 || 5 || 2 || -- || Short Skill / ARO || [[AP]] Ammo, [[Non-Lethal]], [[State Trait | State:]] [[Targeted]].
+|- 
+| [[Total Control]] || 0 || 0 || 4 || 1 || TAG || Short Skill / ARO || [[DA]] Ammo, [[Non-Lethal]], [[State Trait | State:]] [[Possessed|POS]]/[[Normal State|Normal]].
+|- 
+| [[Trinity]] || +3 || 0 || 6 || 3 || [[Hacker]] || Short Skill / ARO || Target receives 1 [[Wound]] for each failed [[Saving Roll]].
+|- 
+| [[White Noise]] || -- || -- || -- || 1 || -- || Short Skill || [[NFB]], [[Reflective]], [[Circular Template]].
+|- 
+| [[Zero Pain]] || 0 || -3 || -- || 2 || -- || Short Skill / ARO || Nullifies [[Comms Attack]]. [[B]]2 in [[ARO]], [[Non-Lethal]].
 |}
-{{c1end}}
-{{n4}}
-{{n4-hacking-header}}
-{{hackingrow | [[Assisted Fire]] | -- | -- | -- | -- | REM | Entire Order | Target gains [[Marksmanship]].}}
-{{hackingrow | [[Carbonite]] | 0 | 0 | 13 | 2 | TAG, HI, REM, Hacker | Short Skill/ARO | [[DA Ammo]], [[Non-Lethal]], [[State Trait | State:]] [[Immobilized-B]].}}
-{{hackingrow | [[Controlled Jump]] | -- | -- | -- | -- | -- | Short Skill/ARO | +3/-3 MOD to the PH of every Trooper that performs [[Combat Jump]]. }}
-{{hackingrow | [[Cybermask]] | -- | -- | -- | -- | -- | Entire Order | Replace user with [[IMP-2]] Marker.}}
-{{hackingrow | [[Enhanced Reaction]] | -- | -- | -- | -- | REM | Entire Order | Target gains B2 in ARO.}}
-{{hackingrow | [[Fairy Dust]] | -- | -- | -- | -- | TAG, HI, REM | Entire Order | The targets gain [[Firewall]] MODs.}}
-{{hackingrow | [[Oblivion]] | 0 | 0 | 16 | 2 | TAG, HI, REM, Hacker | Short Skill/ARO | [[AP Ammo]], [[Non-Lethal]], [[State Trait | State:]] [[Isolated]]}}
-{{hackingrow | [[Total Control]] | 0 | 0 | 16 | 1 | TAG | Short Skill/ARO | [[DA Ammo]], [[Non-Lethal]], [[State Trait | State:]] [[Possessed|POS]]/[[Normal State|Normal]].}}
-{{hackingrow | [[Trinity]] | +3 | 0 | 14 | 3 | Hacker | Short Skill/ARO | Loss of 1 Wounds/STR.}}
-{{hackingrow | [[Spotlight]] | 0 | 0 | -- | 1 | -- | Short Skill/ARO | [[Non-Lethal]], [[State Trait | State:]] [[Targeted]].}}
-{{hackingrow | [[White Noise]] | -- | -- | -- | 1 | -- | Short Skill | [[NFB]], [[Reflective]]: Circular Template blocking LoF for [[Multispectral Visor]]s. }}
-{{hackingrow | [[Zero Pain]] | 0 | -3 | -- | 2 | -- | Short Skill/ARO | Nullifies [[Comms Attack]]. B2 in ARO, [[Non-Lethal]].}}
-|}
-{{n4end}}
 
 
 == Key to the Hacking Programs Quick Reference Chart ==
 
-Each Hacking Program grants a series of [[MODs]] and advantages when used, that are reflected in charts listing the following information:
+Each Hacking Program grants a series of MODs and advantages when used, that are reflected in charts listing the following information:
 
-*'''Attack MOD.''' A MOD that is applied to the user's WIP Attribute.
-* '''Opponent's MOD.''' A MOD that is applied to an enemy Trooper's Attribute when performing a Face to Face Roll.
-* '''Damage.''' The value used to determine the Damage when applying a successful Hacking Program Roll. Unless otherwise stated, the Attribute used in the Saving Roll to resist Damage from a Hacking Program is BTS. 
-* '''Burst.''' The number of dice the Active Player must roll when declaring the Hacking Program. When the [[B]] value is higher than 1, it may be concentrated on a single target or be divided among several targets.<br>Remember that in the Reactive Turn the [[B]] value is generally 1, unless modified by a rule or Skill.
-* '''Target.''' The Troop Type that can be targeted by the Hacking Program.
-* '''Type of Skill.''' Indicates the type of Skill (Entire Order, Short Skill, ARO, etc.) that must be spent to use the Hacking Program. 
-* '''Special.''' Indicates the special effects that the Hacking Program's user may apply. This section may also indicate a State that will be imposed on the target, or the type of '''[[Ammunition]]''' and [[Traits]] that may apply.
+* '''Attack MOD.''' A MOD that is applied to the user's [[WIP]] Attribute.
+* '''Opponent's MOD.''' A MOD that is applied to an [[enemy]] Trooper's [[Attribute]] when performing a [[Face to Face Roll]].
+* '''[[Possibility of Survival (PS)]].''' The value used to determine the destructive capability of a successful [[Hacking Program]] Roll. Unless otherwise stated, '''the [[Attribute]] used in the [[Saving Roll]] to resist the effects of a Hacking Program is [[BTS]]'''.
+* '''[[Burst]] (B).''' The number of dice the Active Player must roll when declaring the Hacking Program. When the B value is higher than 1, it may be concentrated on a single target or be divided among several targets. Remember that in the Reactive Turn the B value is generally 1, unless modified by a rule or Skill.
+* '''Target.''' The [[Troop Type]] that can be targeted by the [[Hacking Program]].
+* '''Type of Skill.''' Indicates the type of Skill ([[Skills_and_Equipment_Module#Common_and_Special_Skills_in_Infinity | Long Skill, Short Skill, ARO]], etc.) that must be spent to use the [[Hacking Program]].
+* '''Special.''' This indicates the special effects that the [[Hacking Program]]'s user may apply. This section may also indicate a [[State]] that will be imposed on the target, or the type of [[Ammunition]] and [[Traits]] that may apply.
 
 
 {{remember-start}}
-Unless otherwise stated, the range of every Program is always the Hacker's [[Hacking Area]].
+Unless otherwise stated, the range of every Program is always the [[Hacker]]'s [[Hacking Area]].
 {{remember-end}}
 
 
-== Hacking Devices and Hacking Programs: Characteristics ==
-
-Hacking Devices and Hacking Programs have the following characteristics:
-
-*They act in the user's Hacking Area.
-*They do not require LoF to act, unless the Hacking Program's own description states otherwise. 
-{{n4list}}
-* Only Troopers or Peripherals in Model form may be targeted by Hacking Programs.
-{{n4end}}
+{{see-also-start}}
+'''[[Quantronic_Combat_(Hacking)#Hacking_Devices_and_Hacking_Programs:_Characteristics | Quantronic Combat (Hacking)]]''' <br>
+[[Hacking Device]]s and [[Hacking Program]]s have the following characteristics:
+*They act in the user's [[Hacking Area]].
+*They do not require [[LoF]] to act, unless the Hacking Program's own description states otherwise. 
+* Only Troopers in [[Model]] form may be targeted by Hacking Programs.
 * They benefit, if applicable, from the target's [[Targeted]] State.
+{{see-also-end}}
 
 
-{{n4end}}
+
+{{n5-section-hacking}}
+{{n5-section-reference-charts}}
 
 [[Category: Reference Charts]]

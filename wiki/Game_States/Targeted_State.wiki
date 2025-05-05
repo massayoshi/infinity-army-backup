@@ -1,39 +1,36 @@
-{{section-game-states}}
-{{section-hacking}}
+{{n5-section-game-states}}
 
 
 {{image | name=eng-targeted.jpg | style=128 }}
 
-{{skillbox |black| TARGETED | }}
-{{Activation}}
-*The Trooper suffered a successful Attack or Effect using an [[Ammunition]], or a game condition or Scenario Special Rule, capable of causing this state.
+{{css_skillbox |black| TARGETED STATE }}
+{{activation}}
+* The Trooper or game element ("Trooper" from now on) suffers a successful [[Attack]] or Effect using an [[Ammunition]], [[Hacking Program]] or a game condition or Scenario Special Rule, capable of causing this state.
+
 {{effects}}
-*Any Trooper declaring a [[BS Attack]], [[Hacking Program]] or [[Comms Attack]] against a Trooper in the Targeted State gains a '''+3 [[MOD]]''' to the Attribute used to perform that [[Attack]]. 
-*Troopers in this state must apply a -3 [[WIP]] [[MOD]] to their '''[[Reset]]''' rolls. {{seefaq | State MODs are cumulative.}}
-*Automatic [[Special Skills]] and [[Equipment]] continue to work in this state. 
+* Any Trooper declaring a [[BS Attack]], [[Comms Attack]], or [[Discover]] against a Trooper in Targeted State gains a '''+3 MOD''' to the [[Attribute]] used to perform that Skill.
+* Troopers in this state must apply a -3 WIP MOD to their '''[[Reset]]''' rolls.
+* '''Restriction:''' While in this state, '''[[Cautious Movement]]''' may not be declared.
+* '''Restriction:''' A Trooper in this state may not use the '''[[Stealth]]''' Special Skill.
+* This state does not interfere with Automatic Special Skills or Automatic Equipment, which will function normally.
+
 {{cancellation}}
-*The affected Trooper successfully passes a Normal or Face to Face [[Reset]] Roll, applying a -3 WIP MOD.
-*A Trooper with the '''[[Engineer]]''' Special Skill (or an equivalent Skill) may cancel the  state by spending one Short Skill of an Order while in [[Silhouette]] contact with the affected Trooper, and passing a Normal '''[[WIP]]''' Roll (or the Roll specified by the Special Skill or Scenario).
+* The affected Trooper successfully passes a [[Normal]] or [[Face to Face Roll | Face to Face]] [[Reset]] Roll, applying a -3 [[WIP]] MOD.
+* A Trooper with the '''[[Engineer]]''' Special Skill (or an equivalent Skill) may cancel the state by spending one [[Short Skill]] of an [[Trooper Activation | Order]] while in [[Silhouette contact]] with the affected Trooper, and passing a [[Normal]] [[WIP]] Roll (or the Roll specified by the Special Skill or Scenario).
+{{css_skillbox-end}}
 
 
-== FAQs & Errata ==
-
-{{faqbox |
-type = faq |
-title = N4 FAQ |
-version = 1.0, Jan 2021 |
-q = Q: Do State MODs all stack with each other? For example, if a Trooper is in IMM-B and Targeted State, do they apply a -6 MOD to all their Reset Rolls? |
-a = A: Yes. |
-related = [[Dodge]], [[Immobilized-A State]], [[Immobilized-B State]], [[Isolated State]], [[Reset]], [[Targeted State]] }}
+{{see-also}}
+'''[[Spotlight]]'''
+* Any failed [[Saving Roll]] causes the target to enter [[Targeted State]], placing a Targeted State Token (TARGETED) by them.
 
 
-{{faqbox |
-type = faq |
-title = N4 FAQ |
-version = 1.2, Jan 2022 |
-q = Q: Does Discover benefit from the Targeted state? |
-a = A: Yes, it does. Discover says to apply the same MODs as in a BS Attack. |
-related = [[Discover]], [[Targeted]] }}
+'''[[Forward Observer]]'''
+* The use of Forward Observer is a form of Attack with a [[BS Weapon]] with the [[BS Weapon (WIP)]] Trait, and instead of forcing the target to make a [[Saving Roll]], causes them to enter [[Targeted State]].
+{{see-also-end}}
 
+
+
+{{n5-section-game-states}}
 
 [[Category: Game States]]

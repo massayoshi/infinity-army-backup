@@ -1,41 +1,33 @@
-{{section-hacking}}
-{{section-equipment}}
+{{n5-section-hacking}}
+{{n5-section-equipment}}
 
 
-{{n4only}}
-{{n4}}
-Some Troopers or Hacking Devices have pieces of Equipment which provide extra protection against [[Comms Attack]]s. These defenses are codified in the Firewall rule, which applies a series of MODs to hinder the Attack and enhance the target's protection.
+Some Troopers or Hacking Devices have pieces of Equipment which provide extra protection against Comms Attacks. These defenses are codified in the Firewall rule, which applies a series of MODs to hinder the Attack and enhance the target's protection.
 
-{{n4end}}
-{{n4list}}
-{{skillbox |black| FIREWALL |}}
-{{skill-label | Obligatory}}
-{{Effects}}
-* Any enemy that declares a [[Comms Attack]] against a Trooper benefitting from a Firewall will have to apply a negative MOD to his [[WIP]] Attribute, as indicated between brackets: Firewall (-3), Firewall (-6)... 
-* A Trooper benefitting from a Firewall will apply a MOD of -3 to the [[Attack Damage]] of Comms Attacks if they have to perform a [[Saving Roll]].
-* Troopers can only benefit from one Firewall at a time. If a Trooper can benefit from more than one Firewall, their player will decide which one to apply. 
+{{css_skillbox |black| FIREWALL | EQUIPMENT }}
+{{skill-label | Obligatory }}
+{{effects}}
+* Any enemy that declares a [[Comms Attack]] against a Trooper benefitting from a Firewall must apply a negative MOD to his [[WIP]] Attribute, as indicated between brackets: Firewall (-3), Firewall (-6)...
+* A Trooper benefiting from a Firewall also applies a MOD of +3 to their [[Saving Roll]]s (SR) against Comms Attacks.
+* Troopers can only benefit from one Firewall at a time. If a Trooper can benefit from more than one Firewall, their player will decide which one to apply.
+{{css_skillbox-end}}
 
 
-{{n4end}}{{n4}}
+{{advice-start}}
+The Firewall in a Comms Attack is the equivalent of [[Cover]] in a [[BS Attack]], it hinders the Attack and aids the target’s Saving Roll.
 
-{{explain-start}}
-The Firewall in a Comms Attack is the equivalent of Cover in a BS Attack, it hinders the Attack and aids the target's Saving Roll. 
-
-Although the MOD to the Attack varies (-3, -6...), the MOD to the Saving Roll is always fixed (-3), unless a specific rule indicates otherwise. 
-{{explain-end}}
+Although the MOD to the Attack varies (-3, -6…), the MOD to the Saving Roll is always fixed (+3), unless a specific rule indicates otherwise.
+{{advice-end}}
 
 
-== FAQs & Errata ==
-
-{{faqbox |
-type = faq |
-title = N4 FAQ |
-version = 1.0, Jan 2021 |
-q = Q: When do you apply the Firewall MODs for enemy Repeaters? |
-a = A: The Firewall MODs will only apply if using the enemy Repeater to use a Hacking Program against an enemy Hacker. If you are in the Zone of Control of an enemy Repeater, it is not mandatory to use the enemy Repeater. |
-related = [[Firewall]], [[Repeater]] }}
-
-{{n4end}}
+{{see-also}}
+'''Examples of [[Tinbot]] Types'''<br>
+'''TinBot: [[Firewall]] (-3)''' <br>
+Indicates that, when the owner of the TinBot is targeted by a [[Comms Attack]], the Enemy applies a -3 Firewall MOD.
+{{see-also-end}}
 
 
 [[Category: Hacking]]
+
+<!-- Label and Trait categories. -->
+[[Category: Obligatory ]]

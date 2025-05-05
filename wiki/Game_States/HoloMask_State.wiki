@@ -1,0 +1,65 @@
+{{n5-section-game-states}}
+
+
+{{css_skillbox |black| HOLOMASK STATE }}
+{{activation}}
+* Automatic when deployed.
+* During the [[Active Turn]], Troopers may only return to this state by spending a [[Long Skill]], while outside the [[LoF]] of [[enemy]] Markers or Troopers.
+
+{{effects}}
+* While in HoloMask State, players don't place the HoloMask bearer's Model but the Model of any other Trooper (known as the imitated Model), declaring which weapon option it is duplicating from the imitated Model's [[Unit Profile]].
+* '''Restriction:''' The imitated Model must be a Trooper from the bearer's faction or Sectorial Army and must have the same [[Silhouette]] value as the bearer. <br>However, the player will use the real Unit Profile of the HoloMask bearer, just as it appears on their [[Army List]].
+* '''Restriction:''' A Trooper in HoloMask State cannot replicate those [[Deployable]] weapons or pieces of Equipment represented by Tokens or Models ([[TinBot]]s, [[FastPanda]]s, [[SymbioMate]]s, [[Mines]] deployed with the [[Minelayer]] Special Skill...) that the imitated Model has.
+* In order to [[Discover]] a Trooper in the HoloMask State, the Enemy must pass a Discover Roll.
+* If the Discover is successful, replace the imitated Model with the real Trooper's Model, facing the same direction as the imitated Model.
+* This state does not interfere with Automatic Special Skills or Automatic Equipment, which will remain functioning normally.
+
+{{cancellation}}
+A Trooper's HoloMask State is canceled, replacing the imitated Model with the real Model, whenever:
+* The Trooper in HoloMask State declares an [[Attack]], [[Look Out]]!, or any Skill that requires a Roll.
+* The Trooper in HoloMask State declares a [[Long Skill]] of any kind, other than [[Cautious Movement]].
+* The Trooper in HoloMask State enters [[Silhouette contact]] with an enemy Model.
+* The Trooper in HoloMask State is forced to make a [[Saving Roll]].
+* The Trooper in HoloMask State is '''[[Discover]]ed'''.
+* A Trooper in HoloMask State is or becomes [[Impetuous]] (due to the [[Frenzy]] Special Skill or any other effect) or enters Retreat! State.
+In addition:
+* Whenever HoloMask State is canceled, replace the imitated Model with the real Model, facing the same direction as the imitated Model, at the end of the Order in which the state was cancelled.
+* When replacing the imitated Model with the real one, the player must provide their adversary with the Trooper's complete [[Open Information]].
+{{css_skillbox-end}}
+
+
+{{see-also}}
+'''[[HoloMask]]'''
+* During the [[Deployment Phase]], it allows the user to deploy in [[HoloMask State]].
+* In game, it allows the user to enter HoloMask State.
+{{see-also-end}}
+
+
+{{important}}
+Cancellation of HoloMask State is applied to the entirety of the declared [[Order Expenditure Sequence | Order]], even if the Skill revealing the Trooper is performed at the end of the Order.
+{{important-end}}
+
+
+{{important}}
+The presence of Troopers in HoloMask or Holoecho State is [[Private Information]]. This includes any Special Skills, weapons, and pieces of Equipment they have.
+{{important-end}}
+
+
+== Examples ==
+
+{{greybox-start | Holomask and Private Information Example }}
+A Trooper in HoloMask State who is imitating a different Trooper with [[Mimetism]] (-3) is the target of an [[Enemy]] [[BS Attack]]. Even though their Special Skills, weapons and pieces of Equipment are considered [[Private Information]], the HoloMasked Trooper cannot apply the Mimetism (-3) Special Skill of the other Trooper. This means that during the [[Resolution]] step of the Order, when MODs are applied, the HoloMasked Trooper's player must inform his opponent that there is no Mimetism MOD to apply.
+{{greybox-end}}
+
+
+{{greybox-start | Example of Holomask and a Fireteam }}
+A [[Fireteam]] Core includes a Trooper in HoloMask State who is imitating another Fireteam member. The Fireteam declares a [[Move]] + [[BS Attack]] Order. The HoloMasked Trooper, who is not the Team Leader, moves and provides support to the Team Leader. As they perform an [[Idle]], the HoloMasked Trooper is not revealed, and so remains in HoloMask State.
+
+However, in the following Order, the Team Leader declares [[Dodge]], so all the Fireteam members make a [[PH]] Roll. In this situation, the HoloMasked Trooper is revealed automatically.
+{{greybox-end}}
+
+
+
+{{n5-section-game-states}}
+
+[[Category: Game States]]

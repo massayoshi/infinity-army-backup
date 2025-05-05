@@ -1,33 +1,37 @@
-{{section-ammo-and-weaponry}}
+{{n5-section-ammo-and-weaponry}}
 
 
-{{n4only}}
-{{n4list}}
-Demolition (or simply D) Charges is the generic name for any number of remotely detonated explosive charges. As a weapon, they have been designed to demolish structures, objectives and terrain alike, but they can also be used in Close Combat.
+Demolition (or simply D) Charges is the generic name for any number of explosive charges. As a weapon, they have been designed to demolish structures, objectives and terrain alike, but they can also be used in Close Combat.
 
-{{skillbox |black| D-CHARGES | }}
-{{Requirements}}
-* To be able to deploy a D-Charge as a Deployable Weapon, the user must be in [[Silhouette contact]] with a Building or Scenery Structure, or with an Enemy Model in an [[Immobilized]] or [[Null]] (except [[Sepsitorized]] or [[Possessed]]) State.
-* To be able to use a D-Charge as a CC Weapon, the user must be in or enter Silhouette contact with an enemy Trooper.
+{{css_skillbox |black| D-CHARGES }}
+{{requirements}}
+* To use D-Charges in Demolition Mode, the user must be in [[Silhouette contact]] with a Building or Scenery Structure, or with an Enemy Model in an [[Immobilized]] or [[Null]] State (except [[Sepsitorized]] or [[Possessed]]).
+* To use D-Charges in CC Mode, the user must be in Silhouette contact with an enemy Trooper.
+
 {{effects}}
-* D-Charges (Deployable Weapon Mode):
-** Are placed using the [[Place Deployable]] Common Skill. 
-** Cannot be used in ARO.
-** They detonate during the [[Resolution]] of the Order, without requiring a Roll.
-* D-Charges (CC Weapon Mode):
-** In this Mode, D-Charges function as a CC Weapon.
-* The detonation of a D-Charge doesn't affect its user.
-* The [[Disposable]] (3) Trait is shared between both Modes. The bearer of this weapon has only three uses available, no matter which Modes are used.
+* D-Charges in Demolition Mode:
+** Are placed using the [[Place Deployable]] Short Skill.
+** '''Restriction:''' Cannot be used in [[ARO]].
+** Detonate during the [[Resolution]] Step of the Order, without requiring a Roll.
+* D-Charges in CC Mode:
+** Follow the [[Close Combat | CC Combat]] rules.
+* The detonation of D-Charges doesn't affect the user.
+* Both Modes of using this weapon share the [[Disposable]] (3) Trait. The user may use it just 3 times max, no matter which Mode they are using.
+* The '''[[Improvised]]''' Trait gives a '''CC-6 MOD''' to the user.
+{{css_skillbox-end}}
 
 
-{{weapon}}
-{{weaponrow|[[D-Charges]] (Deployable Mode)| | | | | | | |14|1|AP + EXP|ARM|[[Anti-materiel]], [[Disposable (3)]], [[Deployable]], [*]}}
-{{weaponrow|[[D-Charges]] (CC Mode)| | | | | | | |14|1|AP + EXP|ARM|[[Anti-materiel]], [[CC]], [[Disposable (3)]], [*]}}
+{{n5_weapon_single}}
+{{n5_weaponrow|[[D-Charges]] (Demolition Mode)| | | | | | | |6|1|AP+EXP|ARM/2|3|[[Anti-materiel]], [[Disposable (3)]], [*]}}
+{{n5_weaponrow|[[D-Charges]] (CC Mode)| | | | | | | |6|1|AP+EXP|ARM/2|3|[[Anti-materiel]], [[CC]], [[Disposable (3)]], [[Improvised]], [*]}}
 |}
-
-
-{{n4end}}
 
 
 
 [[Category: Ammunition and Weaponry]]
+
+<!-- Label and Trait categories. -->
+[[Category: Disposable ]]
+[[Category: Anti-materiel ]]
+[[Category: CC ]]
+[[Category: Improvised ]]
