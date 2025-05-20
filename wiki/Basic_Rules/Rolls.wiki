@@ -25,7 +25,7 @@ The most commonly used MODs are:
 * '''[[Range]]:''' can modify the [[BS]], [[PH]], and [[WIP]] Attributes.
 * '''[[Cover]]:''' can modify [[BS]], [[PH]], [[WIP]], and [[Saving Rolls]]. 
 * '''[[Skills]], [[Weapons]] and [[Equipment]]:''' can modify several different [[Attributes]].
-* '''[[States]]''' can also modify different [[Attributes]]. If a Trooper is in several States that affect the same Attribute, their effects are cumulative.
+
 
 Different Modifiers (MOD) may appear in the '''[[Unit Profiles]]'''. 
 
@@ -44,14 +44,16 @@ In Infinity, any time a number (a result on a die, an [[Attribute]], a MOD...) i
 {{image | name=n5/n5-eng-maximum-modifier.jpg | style=fullborder }}
 
 {{n5_weapon_single}}
-{{n5_weaponrow|Combi Rifle|+3|+3|-3|-3|-6|-6|--|7|3|N|ARM|1|[[Suppressive Fire]]}}
+{{n5_weaponrow|Combi Rifle|+3|+3|-3|-3|-6|-6|--|7|3|N|ARM|1|[[Suppressive Fire Trait | Suppressive Fire]]}}
 |}
 
 Trooper A declares: [[Move]] + [[BS Attack]] with his Combi Rifle. His BS Attack will apply the following MODs: 
 * -6 for Trooper B's [[Mimetism]].
 * -3 for [[Cover]]. 
 * -6 for [[Range]]. 
+
 The total sum of Modifiers is -15.
+
 Given that the maximum MOD is -12, the Success Value (SV) will be 13 - 12 = 1.
 {{greybox-end}}
 
