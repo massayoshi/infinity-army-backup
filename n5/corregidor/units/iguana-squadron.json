@@ -96,8 +96,13 @@
               "id": 246,
               "order": 6,
               "extra": [
-                321
+                323
               ],
+              "q": 1
+            },
+            {
+              "id": 86,
+              "order": 7,
               "q": 1
             }
           ],
@@ -130,7 +135,7 @@
               "q": 1
             }
           ],
-          "points": 63,
+          "points": 64,
           "swc": "1.5",
           "weapons": [
             {
@@ -144,6 +149,10 @@
             {
               "id": 5,
               "order": 3
+            },
+            {
+              "id": 176,
+              "order": 4
             }
           ],
           "name": "IGUANA",
@@ -160,9 +169,9 @@
       "profiles": [
         {
           "id": 1,
-          "arm": 3,
+          "arm": 4,
           "ava": -1,
-          "bs": 12,
+          "bs": 13,
           "bts": 3,
           "cc": 16,
           "chars": [
@@ -171,13 +180,27 @@
             5,
             21
           ],
-          "equip": [],
+          "equip": [
+            {
+              "extra": [
+                6
+              ],
+              "id": 241,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 63,
+              "order": 2,
+              "q": 1
+            }
+          ],
           "logo": "https://assets.corvusbelli.net/army/img/logo/units/iguana-squadron-2-1.svg",
           "weapons": [],
           "includes": [],
           "move": [
-            10,
-            10
+            15,
+            5
           ],
           "ph": 12,
           "s": 2,
@@ -198,6 +221,24 @@
             {
               "id": 213,
               "order": 2
+            },
+            {
+              "id": 40,
+              "order": 3,
+              "extra": [
+                1
+              ],
+              "q": 1
+            },
+            {
+              "id": 189,
+              "order": 4,
+              "q": 1
+            },
+            {
+              "id": 86,
+              "order": 5,
+              "q": 1
             }
           ],
           "peripheral": []
@@ -223,7 +264,7 @@
             }
           ],
           "includes": [],
-          "points": 63,
+          "points": 64,
           "swc": "0",
           "weapons": [
             {
@@ -241,6 +282,10 @@
             {
               "id": 5,
               "order": 4
+            },
+            {
+              "id": 196,
+              "order": 5
             }
           ],
           "name": "IGUANA OPERATOR",
@@ -258,7 +303,9 @@
     ],
     "skills": [
       40,
+      86,
       162,
+      189,
       201,
       213,
       246,
@@ -284,11 +331,14 @@
       5,
       56,
       57,
-      100
+      100,
+      176,
+      196
     ],
     "ammunition": [
       2,
-      3
+      3,
+      8
     ]
   },
   "factions": [

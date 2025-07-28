@@ -1,5 +1,5 @@
 {
-  "version": "7.25125.369",
+  "version": "7.25209.406",
   "units": [
     {
       "id": 4,
@@ -1282,7 +1282,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 143
+                  "id": 193
                 }
               ]
             },
@@ -1335,7 +1335,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 143
+                  "id": 193
                 }
               ]
             }
@@ -7009,7 +7009,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 143
+                  "id": 193
                 }
               ]
             },
@@ -7079,7 +7079,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 143
+                  "id": 193
                 }
               ]
             }
@@ -10108,7 +10108,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 143
+                  "id": 193
                 }
               ]
             },
@@ -10170,7 +10170,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 143
+                  "id": 193
                 }
               ]
             },
@@ -10231,7 +10231,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 143
+                  "id": 193
                 }
               ]
             }
@@ -12262,588 +12262,6 @@
       ]
     },
     {
-      "id": 1806,
-      "idArmy": 1806,
-      "canonical": 101,
-      "isc": "Drummers, Mobile Support Section",
-      "iscAbbr": null,
-      "name": "DRUMMERS, Mobile Support Section",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Drummers, Mobile Support Section",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 14,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 1,
-              "ava": 2,
-              "str": false,
-              "bs": 13,
-              "s": 2,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 113,
-                  "order": 1
-                }
-              ],
-              "w": 1,
-              "ph": 10,
-              "name": "DRUMMERS, Mobile Support Section",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/drummers-mobile-support-section-1-1.svg",
-              "id": 1,
-              "arm": 1,
-              "weapons": [],
-              "chars": [
-                1,
-                3,
-                5
-              ],
-              "wip": 12,
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [
-                {
-                  "q": 1,
-                  "group": 2,
-                  "option": 1
-                }
-              ],
-              "minis": 1,
-              "points": 40,
-              "equip": [],
-              "name": "DRUMMER",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 84,
-                  "order": 1
-                },
-                {
-                  "id": 69,
-                  "order": 2
-                },
-                {
-                  "id": 5,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "1",
-              "skills": [],
-              "peripheral": [
-                {
-                  "id": 144
-                }
-              ]
-            },
-            {
-              "includes": [
-                {
-                  "q": 1,
-                  "group": 2,
-                  "option": 2
-                }
-              ],
-              "minis": 1,
-              "points": 42,
-              "equip": [],
-              "name": "DRUMMER",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "id": 84,
-                  "order": 1
-                },
-                {
-                  "id": 69,
-                  "order": 2
-                },
-                {
-                  "id": 5,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "1.5",
-              "skills": [],
-              "peripheral": [
-                {
-                  "id": 145
-                }
-              ]
-            },
-            {
-              "includes": [
-                {
-                  "q": 1,
-                  "group": 2,
-                  "option": 3
-                }
-              ],
-              "minis": 1,
-              "points": 38,
-              "equip": [],
-              "name": "DRUMMER",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 3,
-              "weapons": [
-                {
-                  "id": 84,
-                  "order": 1
-                },
-                {
-                  "id": 69,
-                  "order": 2
-                },
-                {
-                  "id": 5,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "1",
-              "skills": [],
-              "peripheral": [
-                {
-                  "id": 146
-                }
-              ]
-            },
-            {
-              "includes": [
-                {
-                  "q": 1,
-                  "group": 2,
-                  "option": 4
-                }
-              ],
-              "minis": 1,
-              "points": 41,
-              "equip": [],
-              "name": "DRUMMER",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 4,
-              "weapons": [
-                {
-                  "id": 84,
-                  "order": 1
-                },
-                {
-                  "id": 69,
-                  "order": 2
-                },
-                {
-                  "id": 5,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "1",
-              "skills": [
-                {
-                  "q": 1,
-                  "extra": [
-                    26
-                  ],
-                  "id": 161,
-                  "order": 1
-                }
-              ],
-              "peripheral": [
-                {
-                  "id": 147
-                }
-              ]
-            },
-            {
-              "includes": [
-                {
-                  "q": 1,
-                  "group": 2,
-                  "option": 5
-                }
-              ],
-              "minis": 1,
-              "points": 21,
-              "equip": [],
-              "name": "DRUMMER",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 5,
-              "weapons": [
-                {
-                  "id": 84,
-                  "order": 1
-                },
-                {
-                  "id": 69,
-                  "order": 2
-                },
-                {
-                  "id": 5,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 59,
-                  "order": 1
-                }
-              ],
-              "peripheral": [
-                {
-                  "id": 148
-                }
-              ]
-            }
-          ],
-          "id": 1,
-          "category": 3
-        },
-        {
-          "notes": null,
-          "isc": "Drummers, Mobile Support Section",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 13,
-              "move": [
-                15,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 5,
-              "ava": -1,
-              "str": true,
-              "bs": 13,
-              "s": 2,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 113,
-                  "order": 1
-                }
-              ],
-              "w": 1,
-              "ph": 8,
-              "name": "DRUMBOT",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/drummers-mobile-support-section-2-1.svg",
-              "id": 1,
-              "arm": 1,
-              "weapons": [],
-              "chars": [
-                21,
-                27
-              ],
-              "wip": 11,
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 84,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    6
-                  ],
-                  "id": 28,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    40
-                  ],
-                  "id": 243,
-                  "order": 3
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 26,
-              "equip": [],
-              "name": "DRUMBOT_1",
-              "disabled": true,
-              "orders": [],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 4,
-                  "order": 1
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 2
-                }
-              ],
-              "chars": [],
-              "swc": "-",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 28,
-              "equip": [],
-              "name": "DRUMBOT_2",
-              "disabled": true,
-              "orders": [],
-              "id": 2,
-              "weapons": [
-                {
-                  "id": 15,
-                  "order": 1
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 2
-                }
-              ],
-              "chars": [],
-              "swc": "-",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 24,
-              "equip": [],
-              "name": "DRUMBOT_3",
-              "disabled": true,
-              "orders": [],
-              "id": 3,
-              "weapons": [
-                {
-                  "extra": [
-                    8
-                  ],
-                  "id": 30,
-                  "order": 1
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 2
-                }
-              ],
-              "chars": [],
-              "swc": "-",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 24,
-              "equip": [],
-              "name": "DRUMBOT_4",
-              "disabled": true,
-              "orders": [],
-              "id": 4,
-              "weapons": [
-                {
-                  "extra": [
-                    8
-                  ],
-                  "id": 64,
-                  "order": 1
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 3
-                },
-                {
-                  "extra": [
-                    303
-                  ],
-                  "id": 88,
-                  "order": 2
-                }
-              ],
-              "chars": [],
-              "swc": "-",
-              "skills": [
-                {
-                  "q": 1,
-                  "extra": [
-                    26
-                  ],
-                  "id": 161,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 6,
-              "equip": [],
-              "name": "DRUMBOT_5",
-              "disabled": true,
-              "orders": [],
-              "id": 5,
-              "weapons": [
-                {
-                  "id": 57,
-                  "order": 1
-                },
-                {
-                  "id": 72,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "-",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 59,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "id": 2,
-          "category": 0
-        }
-      ],
-      "options": [],
-      "slug": "drummers-mobile-support-section",
-      "filters": {
-        "categories": [
-          3
-        ],
-        "skills": [
-          28,
-          59,
-          84,
-          161,
-          243
-        ],
-        "equip": [
-          113
-        ],
-        "chars": [
-          1,
-          3,
-          5,
-          21,
-          27
-        ],
-        "types": [
-          1,
-          5
-        ],
-        "weapons": [
-          4,
-          5,
-          15,
-          30,
-          57,
-          64,
-          69,
-          71,
-          72,
-          84,
-          88
-        ],
-        "ammunition": [
-          2,
-          3,
-          6,
-          8,
-          9,
-          10,
-          29,
-          37
-        ]
-      },
-      "factions": [
-        101,
-        107
-      ]
-    },
-    {
       "id": 38,
       "idArmy": 38,
       "canonical": 101,
@@ -14122,6 +13540,722 @@
       "factions": [
         101,
         104
+      ]
+    },
+    {
+      "id": 1806,
+      "idArmy": 1806,
+      "canonical": 101,
+      "isc": "Drummers, Mobile Support Section",
+      "iscAbbr": null,
+      "notes": "A Drummer unit consists of one Drummer and one or two Drumbots.",
+      "name": "DRUMMERS, Mobile Support Section",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Drummers, Mobile Support Section",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 14,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 1,
+              "ava": 2,
+              "str": false,
+              "bs": 13,
+              "s": 2,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 113,
+                  "order": 1
+                }
+              ],
+              "w": 1,
+              "ph": 10,
+              "name": "DRUMMERS, Mobile Support Section",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/drummers-mobile-support-section-1-1.svg",
+              "id": 1,
+              "arm": 1,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                5
+              ],
+              "wip": 12,
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [
+                {
+                  "q": 1,
+                  "group": 2,
+                  "option": 1
+                }
+              ],
+              "minis": 1,
+              "points": 40,
+              "equip": [],
+              "name": "DRUMMER",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 84,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "1",
+              "skills": [],
+              "peripheral": [
+                {
+                  "id": 194
+                }
+              ]
+            },
+            {
+              "includes": [
+                {
+                  "q": 1,
+                  "group": 2,
+                  "option": 2
+                }
+              ],
+              "minis": 1,
+              "points": 42,
+              "equip": [],
+              "name": "DRUMMER",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "id": 84,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "1.5",
+              "skills": [],
+              "peripheral": [
+                {
+                  "id": 195
+                }
+              ]
+            },
+            {
+              "includes": [
+                {
+                  "q": 1,
+                  "group": 2,
+                  "option": 3
+                }
+              ],
+              "minis": 1,
+              "points": 40,
+              "equip": [],
+              "name": "DRUMMER",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 3,
+              "weapons": [
+                {
+                  "id": 84,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "1",
+              "skills": [],
+              "peripheral": [
+                {
+                  "id": 196
+                }
+              ]
+            },
+            {
+              "includes": [
+                {
+                  "q": 1,
+                  "group": 2,
+                  "option": 4
+                }
+              ],
+              "minis": 1,
+              "points": 42,
+              "equip": [],
+              "name": "DRUMMER",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 4,
+              "weapons": [
+                {
+                  "id": 84,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "1",
+              "skills": [
+                {
+                  "q": 1,
+                  "extra": [
+                    26
+                  ],
+                  "id": 161,
+                  "order": 1
+                }
+              ],
+              "peripheral": [
+                {
+                  "id": 197
+                }
+              ]
+            },
+            {
+              "includes": [
+                {
+                  "q": 1,
+                  "group": 2,
+                  "option": 5
+                }
+              ],
+              "minis": 1,
+              "points": 21,
+              "equip": [],
+              "name": "DRUMMER",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 5,
+              "weapons": [
+                {
+                  "id": 84,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                },
+                {
+                  "id": 72,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 59,
+                  "order": 1
+                }
+              ],
+              "peripheral": [
+                {
+                  "id": 198
+                }
+              ]
+            },
+            {
+              "includes": [
+                {
+                  "q": 1,
+                  "group": 2,
+                  "option": 1
+                },
+                {
+                  "q": 1,
+                  "group": 2,
+                  "option": 5
+                }
+              ],
+              "minis": 1,
+              "points": 47,
+              "equip": [],
+              "name": "DRUMMER",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 6,
+              "weapons": [
+                {
+                  "id": 84,
+                  "order": 1
+                },
+                {
+                  "id": 72,
+                  "order": 2
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "1",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 59,
+                  "order": 1
+                }
+              ],
+              "peripheral": [
+                {
+                  "id": 194
+                },
+                {
+                  "id": 198
+                }
+              ]
+            },
+            {
+              "includes": [
+                {
+                  "q": 1,
+                  "group": 2,
+                  "option": 3
+                },
+                {
+                  "q": 1,
+                  "group": 2,
+                  "option": 5
+                }
+              ],
+              "minis": 1,
+              "points": 47,
+              "equip": [],
+              "name": "DRUMMER",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 7,
+              "weapons": [
+                {
+                  "id": 84,
+                  "order": 1
+                },
+                {
+                  "id": 72,
+                  "order": 2
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "1",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 59,
+                  "order": 1
+                }
+              ],
+              "peripheral": [
+                {
+                  "id": 196
+                },
+                {
+                  "id": 198
+                }
+              ]
+            }
+          ],
+          "id": 1,
+          "category": 3
+        },
+        {
+          "notes": null,
+          "isc": "Drummers, Mobile Support Section",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 13,
+              "move": [
+                15,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 5,
+              "ava": -1,
+              "str": true,
+              "bs": 13,
+              "s": 2,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 113,
+                  "order": 1
+                }
+              ],
+              "w": 1,
+              "ph": 9,
+              "name": "DRUMBOT",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/drummers-mobile-support-section-2-1.svg",
+              "id": 1,
+              "arm": 1,
+              "weapons": [],
+              "chars": [
+                21,
+                27
+              ],
+              "wip": 11,
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 84,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    6
+                  ],
+                  "id": 28,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    40
+                  ],
+                  "id": 243,
+                  "order": 3
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 26,
+              "equip": [],
+              "name": "DRUMBOT_1",
+              "disabled": true,
+              "orders": [],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 4,
+                  "order": 1
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 2
+                }
+              ],
+              "chars": [],
+              "swc": "-",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 28,
+              "equip": [],
+              "name": "DRUMBOT_2",
+              "disabled": true,
+              "orders": [],
+              "id": 2,
+              "weapons": [
+                {
+                  "id": 15,
+                  "order": 1
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 2
+                }
+              ],
+              "chars": [],
+              "swc": "-",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 26,
+              "equip": [],
+              "name": "DRUMBOT_3",
+              "disabled": true,
+              "orders": [],
+              "id": 3,
+              "weapons": [
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 30,
+                  "order": 1
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 2
+                }
+              ],
+              "chars": [],
+              "swc": "-",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 109,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 25,
+              "equip": [],
+              "name": "DRUMBOT_4",
+              "disabled": true,
+              "orders": [],
+              "id": 4,
+              "weapons": [
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 64,
+                  "order": 1
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 3
+                },
+                {
+                  "extra": null,
+                  "id": 89,
+                  "order": 2
+                }
+              ],
+              "chars": [],
+              "swc": "-",
+              "skills": [
+                {
+                  "q": 1,
+                  "extra": [
+                    26
+                  ],
+                  "id": 161,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 6,
+              "equip": [],
+              "name": "DRUMBOT_5",
+              "disabled": true,
+              "orders": [],
+              "id": 5,
+              "weapons": [
+                {
+                  "id": 57,
+                  "order": 1
+                },
+                {
+                  "id": 72,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "-",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 59,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "id": 2,
+          "category": 0
+        }
+      ],
+      "options": [],
+      "slug": "drummers-mobile-support-section",
+      "filters": {
+        "categories": [
+          3
+        ],
+        "skills": [
+          28,
+          59,
+          84,
+          109,
+          161,
+          243
+        ],
+        "equip": [
+          113
+        ],
+        "chars": [
+          1,
+          3,
+          5,
+          21,
+          27
+        ],
+        "types": [
+          1,
+          5
+        ],
+        "weapons": [
+          4,
+          5,
+          15,
+          30,
+          57,
+          64,
+          69,
+          71,
+          72,
+          84,
+          89
+        ],
+        "ammunition": [
+          2,
+          3,
+          6,
+          8,
+          9,
+          10,
+          29,
+          37
+        ]
+      },
+      "factions": [
+        101,
+        107
       ]
     },
     {
@@ -15443,7 +15577,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 149
+                  "id": 199
                 }
               ]
             },
@@ -15490,7 +15624,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 150
+                  "id": 200
                 }
               ]
             },
@@ -15592,7 +15726,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 149
+                  "id": 199
                 }
               ]
             }
@@ -18663,7 +18797,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 151
+                  "id": 201
                 }
               ]
             },
@@ -18718,7 +18852,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 151
+                  "id": 201
                 }
               ]
             },
@@ -18773,7 +18907,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 151
+                  "id": 201
                 }
               ]
             },
@@ -18832,7 +18966,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 151
+                  "id": 201
                 }
               ]
             }
@@ -20054,237 +20188,6 @@
           3,
           8,
           9
-        ]
-      },
-      "factions": []
-    },
-    {
-      "id": 11072,
-      "idArmy": 10018,
-      "canonical": 1,
-      "isc": "Emily Handelman, Intel Agent",
-      "iscAbbr": null,
-      "notes": null,
-      "name": "EMILY HANDELMAN, Intel Agent",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Emily Handelman, Intel Agent",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 17,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 1,
-              "ava": 1,
-              "str": false,
-              "bs": 13,
-              "s": 2,
-              "equip": [
-                {
-                  "id": 117,
-                  "order": 1
-                }
-              ],
-              "w": 1,
-              "ph": 10,
-              "name": "EMILY HANDELMAN, Intel Agent",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/emily-handelman-intel-agent-1-1.svg",
-              "id": 1,
-              "arm": 1,
-              "weapons": [],
-              "chars": [
-                1,
-                3,
-                5
-              ],
-              "wip": 14,
-              "skills": [
-                {
-                  "id": 84,
-                  "order": 1
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 28,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "id": 122,
-                  "order": 4
-                },
-                {
-                  "q": 1,
-                  "id": 59,
-                  "order": 5
-                },
-                {
-                  "q": 1,
-                  "id": 85,
-                  "order": 6
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 25,
-              "equip": [],
-              "name": "EMILY",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "extra": [
-                    303
-                  ],
-                  "id": 103,
-                  "order": 1
-                },
-                {
-                  "extra": null,
-                  "id": 65,
-                  "order": 2
-                },
-                {
-                  "extra": null,
-                  "id": 72,
-                  "order": 3
-                },
-                {
-                  "extra": null,
-                  "id": 70,
-                  "order": 4
-                },
-                {
-                  "extra": null,
-                  "id": 5,
-                  "order": 5
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 28,
-              "equip": [],
-              "name": "EMILY",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "id": 33,
-                  "order": 1
-                },
-                {
-                  "id": 194,
-                  "order": 2
-                },
-                {
-                  "id": 201,
-                  "order": 3
-                },
-                {
-                  "id": 65,
-                  "order": 4
-                },
-                {
-                  "id": 72,
-                  "order": 5
-                },
-                {
-                  "id": 70,
-                  "order": 6
-                },
-                {
-                  "id": 5,
-                  "order": 7
-                }
-              ],
-              "chars": [],
-              "swc": "0.5",
-              "skills": [
-                {
-                  "id": 26,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 10
-        }
-      ],
-      "options": [],
-      "slug": "merc-emily-handelman-intel-agent",
-      "filters": {
-        "categories": [
-          10
-        ],
-        "skills": [
-          26,
-          28,
-          59,
-          84,
-          85,
-          122
-        ],
-        "equip": [
-          117
-        ],
-        "chars": [
-          1,
-          3,
-          5
-        ],
-        "types": [
-          1
-        ],
-        "weapons": [
-          5,
-          33,
-          65,
-          70,
-          72,
-          103,
-          194,
-          201
-        ],
-        "ammunition": [
-          2,
-          3,
-          14,
-          29
         ]
       },
       "factions": []
@@ -22006,7 +21909,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 152
+                  "id": 202
                 }
               ]
             },
@@ -22070,7 +21973,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 152,
+                  "id": 202,
                   "q": 2
                 }
               ]
@@ -22211,6 +22114,233 @@
           13,
           18,
           37
+        ]
+      },
+      "factions": []
+    },
+    {
+      "id": 11072,
+      "idArmy": 10018,
+      "canonical": 1,
+      "isc": "Emily Handelman, Intel Agent",
+      "iscAbbr": null,
+      "notes": null,
+      "name": "EMILY HANDELMAN, Intel Agent",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Emily Handelman, Intel Agent",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 17,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 1,
+              "ava": 1,
+              "str": false,
+              "bs": 13,
+              "s": 2,
+              "equip": [
+                {
+                  "id": 117,
+                  "order": 1
+                }
+              ],
+              "w": 1,
+              "ph": 10,
+              "name": "EMILY HANDELMAN, Intel Agent",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/emily-handelman-intel-agent-1-1.svg",
+              "id": 1,
+              "arm": 1,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                5
+              ],
+              "wip": 14,
+              "skills": [
+                {
+                  "id": 84,
+                  "order": 1
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 28,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "id": 122,
+                  "order": 4
+                },
+                {
+                  "q": 1,
+                  "id": 59,
+                  "order": 5
+                },
+                {
+                  "q": 1,
+                  "id": 85,
+                  "order": 6
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 23,
+              "equip": [],
+              "name": "EMILY",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "extra": [
+                    303
+                  ],
+                  "id": 103,
+                  "order": 1
+                },
+                {
+                  "id": 65,
+                  "order": 2
+                },
+                {
+                  "id": 72,
+                  "order": 3
+                },
+                {
+                  "id": 70,
+                  "order": 4
+                },
+                {
+                  "id": 5,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 28,
+              "equip": [],
+              "name": "EMILY",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "id": 33,
+                  "order": 1
+                },
+                {
+                  "id": 194,
+                  "order": 2
+                },
+                {
+                  "id": 201,
+                  "order": 3
+                },
+                {
+                  "id": 65,
+                  "order": 4
+                },
+                {
+                  "id": 72,
+                  "order": 5
+                },
+                {
+                  "id": 70,
+                  "order": 6
+                },
+                {
+                  "id": 5,
+                  "order": 7
+                }
+              ],
+              "chars": [],
+              "swc": "0.5",
+              "skills": [
+                {
+                  "id": 26,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 10
+        }
+      ],
+      "options": [],
+      "slug": "merc-emily-handelman-intel-agent",
+      "filters": {
+        "categories": [
+          10
+        ],
+        "skills": [
+          26,
+          28,
+          59,
+          84,
+          85,
+          122
+        ],
+        "equip": [
+          117
+        ],
+        "chars": [
+          1,
+          3,
+          5
+        ],
+        "types": [
+          1
+        ],
+        "weapons": [
+          5,
+          33,
+          65,
+          70,
+          72,
+          103,
+          194,
+          201
+        ],
+        "ammunition": [
+          2,
+          3,
+          14,
+          29
         ]
       },
       "factions": []
@@ -23377,7 +23507,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 151
+                  "id": 201
                 }
               ]
             },
@@ -23429,7 +23559,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 151
+                  "id": 201
                 }
               ]
             },
@@ -23485,7 +23615,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 151
+                  "id": 201
                 }
               ]
             }
@@ -29221,7 +29351,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 153
+                  "id": 203
                 }
               ]
             }
@@ -29656,49 +29786,49 @@
   "filters": {
     "peripheral": [
       {
-        "id": 149,
+        "id": 199,
         "name": "AUXBOT_3"
       },
       {
-        "id": 150,
+        "id": 200,
         "name": "AUXBOT_3B"
       },
       {
-        "id": 153,
+        "id": 203,
         "name": "BÂTARD",
         "mercs": true
       },
       {
-        "id": 143,
+        "id": 193,
         "name": "CRABBOT"
       },
       {
-        "id": 144,
+        "id": 194,
         "name": "DRUMBOT_1"
       },
       {
-        "id": 145,
+        "id": 195,
         "name": "DRUMBOT_2"
       },
       {
-        "id": 146,
+        "id": 196,
         "name": "DRUMBOT_3"
       },
       {
-        "id": 147,
+        "id": 197,
         "name": "DRUMBOT_4"
       },
       {
-        "id": 148,
+        "id": 198,
         "name": "DRUMBOT_5"
       },
       {
-        "id": 152,
+        "id": 202,
         "name": "JACKBOT",
         "mercs": true
       },
       {
-        "id": 151,
+        "id": 201,
         "name": "TURTLEMEK",
         "mercs": true
       }
@@ -29927,10 +30057,6 @@
       {
         "id": 40,
         "name": "40"
-      },
-      {
-        "id": 41,
-        "name": "41"
       },
       {
         "id": 42,
@@ -32042,16 +32168,6 @@
       "category": 3
     },
     {
-      "id": 1806,
-      "isc": "Drummers, Mobile Support Section",
-      "idArmy": 1806,
-      "name": "DRUMMERS, Mobile Support Section",
-      "slug": "drummers-mobile-support-section",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/drummers-mobile-support-section-1-1.svg",
-      "type": 1,
-      "category": 3
-    },
-    {
       "id": 38,
       "isc": "Mulebots",
       "idArmy": 38,
@@ -32100,6 +32216,16 @@
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/aquila-guard-1-1.svg",
       "type": 3,
       "category": 6
+    },
+    {
+      "id": 1806,
+      "isc": "Drummers, Mobile Support Section",
+      "idArmy": 1806,
+      "name": "DRUMMERS, Mobile Support Section",
+      "slug": "drummers-mobile-support-section",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/drummers-mobile-support-section-1-1.svg",
+      "type": 1,
+      "category": 3
     },
     {
       "id": 15,
@@ -32312,16 +32438,6 @@
       "category": 10
     },
     {
-      "id": 11072,
-      "isc": "Emily Handelman, Intel Agent",
-      "idArmy": 10018,
-      "name": "EMILY HANDELMAN, Intel Agent",
-      "slug": "merc-emily-handelman-intel-agent",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/emily-handelman-intel-agent-1-1.svg",
-      "type": 1,
-      "category": 10
-    },
-    {
       "id": 11502,
       "isc": "Kunai Solutions Ninjas",
       "idArmy": 21502,
@@ -32388,6 +32504,16 @@
       "name": "Fiddler, Aristeia!'s ex-toymaker",
       "slug": "merc-fiddler-aristeia-s-ex-toymaker",
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/fiddler-aristeia-s-ex-toymaker-1-1.svg",
+      "type": 1,
+      "category": 10
+    },
+    {
+      "id": 11072,
+      "isc": "Emily Handelman, Intel Agent",
+      "idArmy": 10018,
+      "name": "EMILY HANDELMAN, Intel Agent",
+      "slug": "merc-emily-handelman-intel-agent",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/emily-handelman-intel-agent-1-1.svg",
       "type": 1,
       "category": 10
     },
