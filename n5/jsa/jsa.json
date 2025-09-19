@@ -1,5 +1,5 @@
 {
-  "version": "7.25209.406",
+  "version": "7.25261.381",
   "units": [
     {
       "id": 1791,
@@ -6837,7 +6837,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 90
+                  "id": 13
                 }
               ]
             },
@@ -6893,7 +6893,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 90
+                  "id": 13
                 }
               ]
             },
@@ -6960,7 +6960,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 90
+                  "id": 13
                 }
               ]
             }
@@ -8413,7 +8413,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 90
+                  "id": 13
                 }
               ]
             },
@@ -8479,7 +8479,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 90
+                  "id": 13
                 }
               ]
             }
@@ -9013,6 +9013,206 @@
         ]
       },
       "factions": [
+        1101,
+        1102,
+        1103
+      ]
+    },
+    {
+      "id": 1874,
+      "idArmy": 1874,
+      "canonical": 101,
+      "isc": "Sāchā, Xenotech Hunters",
+      "iscAbbr": null,
+      "name": "SĀCHĀ, Xenotech Hunters",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Sāchā, Xenotech Hunters",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 17,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 1,
+              "ava": 1,
+              "str": false,
+              "bs": 11,
+              "s": 2,
+              "equip": [],
+              "w": 1,
+              "ph": 12,
+              "name": "SĀCHĀ, Xenotech Hunters",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/sacha-xenotech-hunters-1-1.svg",
+              "id": 1,
+              "arm": 0,
+              "weapons": [],
+              "chars": [
+                1,
+                4,
+                5
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "q": 1,
+                  "extra": [
+                    26
+                  ],
+                  "id": 161,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 25,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    33
+                  ],
+                  "id": 58,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "id": 82,
+                  "order": 4
+                },
+                {
+                  "q": 1,
+                  "id": 189,
+                  "order": 5
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 6,
+              "equip": [],
+              "name": "SĀCHĀ",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "IRREGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 72,
+                  "order": 1
+                },
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 47,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 92,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 11
+        }
+      ],
+      "options": [],
+      "slug": "sacha-xenotech-hunters",
+      "filters": {
+        "categories": [
+          11
+        ],
+        "skills": [
+          25,
+          58,
+          82,
+          161,
+          189
+        ],
+        "equip": [],
+        "chars": [
+          1,
+          4,
+          5
+        ],
+        "types": [
+          1
+        ],
+        "weapons": [
+          5,
+          47,
+          72,
+          92
+        ],
+        "ammunition": [
+          2,
+          14,
+          29
+        ]
+      },
+      "factions": [
+        101,
+        103,
+        106,
+        107,
+        201,
+        202,
+        204,
+        205,
+        301,
+        304,
+        305,
+        306,
+        401,
+        402,
+        403,
+        404,
+        501,
+        502,
+        503,
+        504,
+        601,
+        602,
+        603,
+        604,
+        701,
+        702,
+        703,
+        801,
+        902,
+        908,
+        909,
+        1001,
+        1002,
+        1003,
         1101,
         1102,
         1103
@@ -13826,7 +14026,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 91
+                  "id": 14
                 }
               ]
             },
@@ -13881,7 +14081,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 91
+                  "id": 14
                 }
               ]
             },
@@ -13936,7 +14136,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 91
+                  "id": 14
                 }
               ]
             },
@@ -13995,7 +14195,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 91
+                  "id": 14
                 }
               ]
             }
@@ -16938,7 +17138,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 92
+                  "id": 15
                 }
               ]
             },
@@ -17002,7 +17202,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 92,
+                  "id": 15,
                   "q": 2
                 }
               ]
@@ -18536,7 +18736,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 91
+                  "id": 14
                 }
               ]
             },
@@ -18588,7 +18788,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 91
+                  "id": 14
                 }
               ]
             },
@@ -18644,7 +18844,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 91
+                  "id": 14
                 }
               ]
             }
@@ -23991,7 +24191,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 93
+                  "id": 16
                 }
               ]
             }
@@ -24426,21 +24626,21 @@
   "filters": {
     "peripheral": [
       {
-        "id": 93,
+        "id": 16,
         "name": "BÂTARD",
         "mercs": true
       },
       {
-        "id": 92,
+        "id": 15,
         "name": "JACKBOT",
         "mercs": true
       },
       {
-        "id": 90,
+        "id": 13,
         "name": "KOBARUTO"
       },
       {
-        "id": 91,
+        "id": 14,
         "name": "TURTLEMEK",
         "mercs": true
       }
@@ -25110,8 +25310,7 @@
       {
         "id": 25,
         "name": "Booty",
-        "wiki": "https://infinitythewiki.com/Booty?version=n4",
-        "mercs": true
+        "wiki": "https://infinitythewiki.com/Booty?version=n4"
       },
       {
         "id": 26,
@@ -26561,6 +26760,16 @@
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/robio-aib-t-1-1.svg",
       "type": 5,
       "category": 8
+    },
+    {
+      "id": 1874,
+      "isc": "Sāchā, Xenotech Hunters",
+      "idArmy": 1874,
+      "name": "SĀCHĀ, Xenotech Hunters",
+      "slug": "sacha-xenotech-hunters",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/sacha-xenotech-hunters-1-1.svg",
+      "type": 1,
+      "category": 11
     },
     {
       "id": 1019,

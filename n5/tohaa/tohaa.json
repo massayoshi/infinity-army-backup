@@ -1,5 +1,5 @@
 {
-  "version": "7.25125.370",
+  "version": "7.25261.379",
   "units": [
     {
       "id": 790,
@@ -1931,7 +1931,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 81
+                  "id": 17
                 }
               ]
             },
@@ -1975,7 +1975,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 81
+                  "id": 17
                 }
               ]
             },
@@ -2023,7 +2023,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 81
+                  "id": 17
                 }
               ]
             },
@@ -2071,7 +2071,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 81
+                  "id": 17
                 }
               ]
             },
@@ -2115,7 +2115,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 81
+                  "id": 17
                 }
               ]
             },
@@ -2173,7 +2173,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 81
+                  "id": 17
                 }
               ]
             },
@@ -2227,7 +2227,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 81
+                  "id": 17
                 }
               ]
             },
@@ -2281,7 +2281,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 81
+                  "id": 17
                 }
               ]
             }
@@ -2695,7 +2695,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 82
+                  "id": 18
                 }
               ]
             },
@@ -2755,7 +2755,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 83
+                  "id": 19
                 }
               ]
             }
@@ -5161,6 +5161,206 @@
       ]
     },
     {
+      "id": 1874,
+      "idArmy": 1874,
+      "canonical": 101,
+      "isc": "Sāchā, Xenotech Hunters",
+      "iscAbbr": null,
+      "name": "SĀCHĀ, Xenotech Hunters",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Sāchā, Xenotech Hunters",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 17,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 1,
+              "ava": 1,
+              "str": false,
+              "bs": 11,
+              "s": 2,
+              "equip": [],
+              "w": 1,
+              "ph": 12,
+              "name": "SĀCHĀ, Xenotech Hunters",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/sacha-xenotech-hunters-1-1.svg",
+              "id": 1,
+              "arm": 0,
+              "weapons": [],
+              "chars": [
+                1,
+                4,
+                5
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "q": 1,
+                  "extra": [
+                    26
+                  ],
+                  "id": 161,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 25,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    33
+                  ],
+                  "id": 58,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "id": 82,
+                  "order": 4
+                },
+                {
+                  "q": 1,
+                  "id": 189,
+                  "order": 5
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 6,
+              "equip": [],
+              "name": "SĀCHĀ",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "IRREGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 72,
+                  "order": 1
+                },
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 47,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 92,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 11
+        }
+      ],
+      "options": [],
+      "slug": "sacha-xenotech-hunters",
+      "filters": {
+        "categories": [
+          11
+        ],
+        "skills": [
+          25,
+          58,
+          82,
+          161,
+          189
+        ],
+        "equip": [],
+        "chars": [
+          1,
+          4,
+          5
+        ],
+        "types": [
+          1
+        ],
+        "weapons": [
+          5,
+          47,
+          72,
+          92
+        ],
+        "ammunition": [
+          2,
+          14,
+          29
+        ]
+      },
+      "factions": [
+        101,
+        103,
+        106,
+        107,
+        201,
+        202,
+        204,
+        205,
+        301,
+        304,
+        305,
+        306,
+        401,
+        402,
+        403,
+        404,
+        501,
+        502,
+        503,
+        504,
+        601,
+        602,
+        603,
+        604,
+        701,
+        702,
+        703,
+        801,
+        902,
+        908,
+        909,
+        1001,
+        1002,
+        1003,
+        1101,
+        1102,
+        1103
+      ]
+    },
+    {
       "id": 656,
       "idArmy": 11,
       "canonical": 801,
@@ -6562,7 +6762,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 84
+                  "id": 20
                 }
               ]
             },
@@ -6610,7 +6810,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 84,
+                  "id": 20,
                   "q": 2
                 }
               ]
@@ -6659,7 +6859,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 85
+                  "id": 21
                 }
               ]
             }
@@ -13718,7 +13918,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 86
+                  "id": 22
                 }
               ]
             },
@@ -13773,7 +13973,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 86
+                  "id": 22
                 }
               ]
             },
@@ -13828,7 +14028,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 86
+                  "id": 22
                 }
               ]
             },
@@ -13887,7 +14087,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 86
+                  "id": 22
                 }
               ]
             }
@@ -15109,237 +15309,6 @@
           3,
           8,
           9
-        ]
-      },
-      "factions": []
-    },
-    {
-      "id": 11072,
-      "idArmy": 10018,
-      "canonical": 1,
-      "isc": "Emily Handelman, Intel Agent",
-      "iscAbbr": null,
-      "notes": null,
-      "name": "EMILY HANDELMAN, Intel Agent",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Emily Handelman, Intel Agent",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 17,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 1,
-              "ava": 1,
-              "str": false,
-              "bs": 13,
-              "s": 2,
-              "equip": [
-                {
-                  "id": 117,
-                  "order": 1
-                }
-              ],
-              "w": 1,
-              "ph": 10,
-              "name": "EMILY HANDELMAN, Intel Agent",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/emily-handelman-intel-agent-1-1.svg",
-              "id": 1,
-              "arm": 1,
-              "weapons": [],
-              "chars": [
-                1,
-                3,
-                5
-              ],
-              "wip": 14,
-              "skills": [
-                {
-                  "id": 84,
-                  "order": 1
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 28,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "id": 122,
-                  "order": 4
-                },
-                {
-                  "q": 1,
-                  "id": 59,
-                  "order": 5
-                },
-                {
-                  "q": 1,
-                  "id": 85,
-                  "order": 6
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 25,
-              "equip": [],
-              "name": "EMILY",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "extra": [
-                    303
-                  ],
-                  "id": 103,
-                  "order": 1
-                },
-                {
-                  "extra": null,
-                  "id": 65,
-                  "order": 2
-                },
-                {
-                  "extra": null,
-                  "id": 72,
-                  "order": 3
-                },
-                {
-                  "extra": null,
-                  "id": 70,
-                  "order": 4
-                },
-                {
-                  "extra": null,
-                  "id": 5,
-                  "order": 5
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 28,
-              "equip": [],
-              "name": "EMILY",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "id": 33,
-                  "order": 1
-                },
-                {
-                  "id": 194,
-                  "order": 2
-                },
-                {
-                  "id": 201,
-                  "order": 3
-                },
-                {
-                  "id": 65,
-                  "order": 4
-                },
-                {
-                  "id": 72,
-                  "order": 5
-                },
-                {
-                  "id": 70,
-                  "order": 6
-                },
-                {
-                  "id": 5,
-                  "order": 7
-                }
-              ],
-              "chars": [],
-              "swc": "0.5",
-              "skills": [
-                {
-                  "id": 26,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 10
-        }
-      ],
-      "options": [],
-      "slug": "merc-emily-handelman-intel-agent",
-      "filters": {
-        "categories": [
-          10
-        ],
-        "skills": [
-          26,
-          28,
-          59,
-          84,
-          85,
-          122
-        ],
-        "equip": [
-          117
-        ],
-        "chars": [
-          1,
-          3,
-          5
-        ],
-        "types": [
-          1
-        ],
-        "weapons": [
-          5,
-          33,
-          65,
-          70,
-          72,
-          103,
-          194,
-          201
-        ],
-        "ammunition": [
-          2,
-          3,
-          14,
-          29
         ]
       },
       "factions": []
@@ -16756,7 +16725,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 87
+                  "id": 23
                 }
               ]
             },
@@ -16820,7 +16789,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 87,
+                  "id": 23,
                   "q": 2
                 }
               ]
@@ -16961,6 +16930,233 @@
           13,
           18,
           37
+        ]
+      },
+      "factions": []
+    },
+    {
+      "id": 11072,
+      "idArmy": 10018,
+      "canonical": 1,
+      "isc": "Emily Handelman, Intel Agent",
+      "iscAbbr": null,
+      "notes": null,
+      "name": "EMILY HANDELMAN, Intel Agent",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Emily Handelman, Intel Agent",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 17,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 1,
+              "ava": 1,
+              "str": false,
+              "bs": 13,
+              "s": 2,
+              "equip": [
+                {
+                  "id": 117,
+                  "order": 1
+                }
+              ],
+              "w": 1,
+              "ph": 10,
+              "name": "EMILY HANDELMAN, Intel Agent",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/emily-handelman-intel-agent-1-1.svg",
+              "id": 1,
+              "arm": 1,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                5
+              ],
+              "wip": 14,
+              "skills": [
+                {
+                  "id": 84,
+                  "order": 1
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 28,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "id": 122,
+                  "order": 4
+                },
+                {
+                  "q": 1,
+                  "id": 59,
+                  "order": 5
+                },
+                {
+                  "q": 1,
+                  "id": 85,
+                  "order": 6
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 23,
+              "equip": [],
+              "name": "EMILY",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "extra": [
+                    303
+                  ],
+                  "id": 103,
+                  "order": 1
+                },
+                {
+                  "id": 65,
+                  "order": 2
+                },
+                {
+                  "id": 72,
+                  "order": 3
+                },
+                {
+                  "id": 70,
+                  "order": 4
+                },
+                {
+                  "id": 5,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 28,
+              "equip": [],
+              "name": "EMILY",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "id": 33,
+                  "order": 1
+                },
+                {
+                  "id": 194,
+                  "order": 2
+                },
+                {
+                  "id": 201,
+                  "order": 3
+                },
+                {
+                  "id": 65,
+                  "order": 4
+                },
+                {
+                  "id": 72,
+                  "order": 5
+                },
+                {
+                  "id": 70,
+                  "order": 6
+                },
+                {
+                  "id": 5,
+                  "order": 7
+                }
+              ],
+              "chars": [],
+              "swc": "0.5",
+              "skills": [
+                {
+                  "id": 26,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 10
+        }
+      ],
+      "options": [],
+      "slug": "merc-emily-handelman-intel-agent",
+      "filters": {
+        "categories": [
+          10
+        ],
+        "skills": [
+          26,
+          28,
+          59,
+          84,
+          85,
+          122
+        ],
+        "equip": [
+          117
+        ],
+        "chars": [
+          1,
+          3,
+          5
+        ],
+        "types": [
+          1
+        ],
+        "weapons": [
+          5,
+          33,
+          65,
+          70,
+          72,
+          103,
+          194,
+          201
+        ],
+        "ammunition": [
+          2,
+          3,
+          14,
+          29
         ]
       },
       "factions": []
@@ -18127,7 +18323,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 86
+                  "id": 22
                 }
               ]
             },
@@ -18179,7 +18375,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 86
+                  "id": 22
                 }
               ]
             },
@@ -18235,7 +18431,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 86
+                  "id": 22
                 }
               ]
             }
@@ -23791,7 +23987,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 88
+                  "id": 24
                 }
               ]
             }
@@ -24226,37 +24422,37 @@
   "filters": {
     "peripheral": [
       {
-        "id": 88,
+        "id": 24,
         "name": "BÂTARD",
         "mercs": true
       },
       {
-        "id": 81,
+        "id": 17,
         "name": "CHAKSA PERIPHERAL"
       },
       {
-        "id": 82,
+        "id": 18,
         "name": "CHAKSA PERIPHERAL A"
       },
       {
-        "id": 83,
+        "id": 19,
         "name": "CHAKSA PERIPHERAL B"
       },
       {
-        "id": 87,
+        "id": 23,
         "name": "JACKBOT",
         "mercs": true
       },
       {
-        "id": 85,
+        "id": 21,
         "name": "MUTAN SYMBIOBEAST"
       },
       {
-        "id": 84,
+        "id": 20,
         "name": "SURDA SYMBIOBEAST"
       },
       {
-        "id": 86,
+        "id": 22,
         "name": "TURTLEMEK",
         "mercs": true
       }
@@ -25027,8 +25223,7 @@
       {
         "id": 82,
         "name": "Climbing Plus",
-        "wiki": "https://infinitythewiki.com/Climbing_Plus?version=n4",
-        "mercs": true
+        "wiki": "https://infinitythewiki.com/Climbing_Plus?version=n4"
       },
       {
         "id": 83,
@@ -25726,8 +25921,7 @@
       {
         "id": 92,
         "name": "Stun Pistol",
-        "type": "CC",
-        "mercs": true
+        "type": "CC"
       },
       {
         "id": 77,
@@ -26267,6 +26461,16 @@
       "category": 8
     },
     {
+      "id": 1874,
+      "isc": "Sāchā, Xenotech Hunters",
+      "idArmy": 1874,
+      "name": "SĀCHĀ, Xenotech Hunters",
+      "slug": "sacha-xenotech-hunters",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/sacha-xenotech-hunters-1-1.svg",
+      "type": 1,
+      "category": 11
+    },
+    {
       "id": 656,
       "isc": "Chaksa Servants",
       "idArmy": 11,
@@ -26617,16 +26821,6 @@
       "category": 10
     },
     {
-      "id": 11072,
-      "isc": "Emily Handelman, Intel Agent",
-      "idArmy": 10018,
-      "name": "EMILY HANDELMAN, Intel Agent",
-      "slug": "merc-emily-handelman-intel-agent",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/emily-handelman-intel-agent-1-1.svg",
-      "type": 1,
-      "category": 10
-    },
-    {
       "id": 11502,
       "isc": "Kunai Solutions Ninjas",
       "idArmy": 21502,
@@ -26683,6 +26877,16 @@
       "name": "Fiddler, Aristeia!'s ex-toymaker",
       "slug": "merc-fiddler-aristeia-s-ex-toymaker",
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/fiddler-aristeia-s-ex-toymaker-1-1.svg",
+      "type": 1,
+      "category": 10
+    },
+    {
+      "id": 11072,
+      "isc": "Emily Handelman, Intel Agent",
+      "idArmy": 10018,
+      "name": "EMILY HANDELMAN, Intel Agent",
+      "slug": "merc-emily-handelman-intel-agent",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/emily-handelman-intel-agent-1-1.svg",
       "type": 1,
       "category": 10
     },
