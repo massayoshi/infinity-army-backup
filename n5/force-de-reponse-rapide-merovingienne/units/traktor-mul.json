@@ -1,0 +1,231 @@
+{
+  "id": 257,
+  "idArmy": 31,
+  "canonical": 301,
+  "isc": "Traktor Mul Unit",
+  "iscAbbr": "Traktor Mul",
+  "name": "TRAKTOR MUL UNIT",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 8,
+      "isc": "Traktor Mul, Artillery and Support Regiment",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 2,
+          "arm": 2,
+          "ava": 2,
+          "bs": 10,
+          "bts": 0,
+          "cc": 13,
+          "chars": [
+            3,
+            5,
+            21
+          ],
+          "equip": [
+            {
+              "id": 91,
+              "order": 1
+            },
+            {
+              "extra": [
+                7
+              ],
+              "id": 239,
+              "order": 2
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/traktor-mul-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 9,
+          "s": 4,
+          "str": true,
+          "type": 5,
+          "w": 1,
+          "wip": 12,
+          "name": "TRAKTOR MUL, Artillery and Support Regiment",
+          "notes": null,
+          "skills": [
+            {
+              "id": 235,
+              "order": 1
+            },
+            {
+              "id": 84,
+              "order": 2
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 238,
+              "order": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 5,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 71,
+              "order": 1
+            }
+          ],
+          "name": "TRAKTOR MUL",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 9,
+          "swc": "1",
+          "weapons": [
+            {
+              "id": 49,
+              "order": 1
+            },
+            {
+              "id": 71,
+              "order": 2
+            }
+          ],
+          "name": "TRAKTOR MUL",
+          "skills": [
+            {
+              "extra": [
+                31
+              ],
+              "id": 201,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 3,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 14,
+          "swc": "1",
+          "weapons": [
+            {
+              "id": 75,
+              "order": 1
+            },
+            {
+              "id": 71,
+              "order": 2
+            }
+          ],
+          "name": "TRAKTOR MUL",
+          "skills": [
+            {
+              "extra": [
+                31
+              ],
+              "id": 201,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 61,
+              "order": 2,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "traktor-mul",
+  "filters": {
+    "categories": [
+      8
+    ],
+    "skills": [
+      61,
+      84,
+      201,
+      235
+    ],
+    "equip": [
+      91,
+      238,
+      239
+    ],
+    "chars": [
+      3,
+      5,
+      21
+    ],
+    "types": [
+      5
+    ],
+    "weapons": [
+      49,
+      71,
+      75
+    ],
+    "ammunition": [
+      9,
+      30,
+      37
+    ]
+  },
+  "factions": [
+    301,
+    302,
+    303,
+    304,
+    305,
+    306,
+    908
+  ]
+}

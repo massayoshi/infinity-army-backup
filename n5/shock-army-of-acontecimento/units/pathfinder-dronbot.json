@@ -1,0 +1,210 @@
+{
+  "id": 16,
+  "idArmy": 16,
+  "canonical": 101,
+  "isc": "Pathfinder Dronbot",
+  "iscAbbr": null,
+  "name": "PATHFINDER DRONBOTS",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 8,
+      "isc": "Pathfinder Dronbot",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 0,
+          "ava": 1,
+          "bs": 11,
+          "bts": 3,
+          "cc": 13,
+          "chars": [
+            3,
+            5,
+            21
+          ],
+          "equip": [
+            {
+              "id": 238,
+              "order": 1
+            },
+            {
+              "id": 63,
+              "order": 2
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/pathfinder-dronbot-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            10
+          ],
+          "ph": 10,
+          "s": 3,
+          "str": true,
+          "type": 5,
+          "w": 1,
+          "wip": 13,
+          "name": "PATHFINDER DRONBOTS",
+          "notes": null,
+          "skills": [
+            {
+              "id": 235,
+              "order": 1
+            },
+            {
+              "id": 84,
+              "order": 2
+            },
+            {
+              "id": 242,
+              "order": 3
+            },
+            {
+              "id": 59,
+              "order": 4
+            },
+            {
+              "id": 65,
+              "order": 5
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 14,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 33,
+              "order": 1
+            },
+            {
+              "id": 72,
+              "order": 2
+            },
+            {
+              "id": 71,
+              "order": 3
+            }
+          ],
+          "name": "PATHFINDER DRONBOT",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "TACTICAL",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 17,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 33,
+              "order": 1
+            },
+            {
+              "id": 72,
+              "order": 2
+            },
+            {
+              "id": 71,
+              "order": 3
+            }
+          ],
+          "name": "PATHFINDER DRONBOT",
+          "skills": [
+            {
+              "id": 213,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "pathfinder-dronbot",
+  "filters": {
+    "categories": [
+      8
+    ],
+    "skills": [
+      59,
+      65,
+      84,
+      213,
+      235,
+      242
+    ],
+    "equip": [
+      63,
+      238
+    ],
+    "chars": [
+      3,
+      5,
+      21
+    ],
+    "types": [
+      5
+    ],
+    "weapons": [
+      33,
+      71,
+      72
+    ],
+    "ammunition": [
+      2,
+      29,
+      37
+    ]
+  },
+  "factions": [
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    902,
+    904,
+    907,
+    909
+  ]
+}

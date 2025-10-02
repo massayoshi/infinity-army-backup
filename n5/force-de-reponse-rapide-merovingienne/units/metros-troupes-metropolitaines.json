@@ -1,0 +1,560 @@
+{
+  "id": 246,
+  "idArmy": 20,
+  "canonical": 301,
+  "isc": "Métros, Troupes Métropolitaines",
+  "iscAbbr": null,
+  "name": "TROUPES MÉTROPOLITAINES",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 1,
+      "isc": "Métros, Troupes Métropolitaines",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 1,
+          "ava": 255,
+          "bs": 11,
+          "bts": 0,
+          "cc": 13,
+          "chars": [
+            2,
+            3,
+            5
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/metros-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 11,
+          "s": 2,
+          "str": false,
+          "type": 1,
+          "w": 1,
+          "wip": 12,
+          "name": "TROUPES MÉTROPOLITAINES",
+          "notes": null,
+          "skills": [
+            {
+              "id": 58,
+              "order": 1,
+              "extra": [
+                33
+              ],
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 8,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 31,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 2
+            },
+            {
+              "id": 5,
+              "order": 3
+            },
+            {
+              "id": 80,
+              "order": 4
+            }
+          ],
+          "name": "MÉTRO",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 18,
+          "swc": "1",
+          "weapons": [
+            {
+              "id": 2,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 2
+            },
+            {
+              "id": 5,
+              "order": 3
+            }
+          ],
+          "name": "MÉTRO",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 3,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 10,
+          "swc": "0.5",
+          "weapons": [
+            {
+              "id": 31,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            },
+            {
+              "id": 80,
+              "order": 2
+            },
+            {
+              "id": 194,
+              "order": 5
+            }
+          ],
+          "name": "MÉTRO",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 4,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 12,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 31,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            },
+            {
+              "id": 18,
+              "order": 2
+            },
+            {
+              "id": 17,
+              "order": 5
+            }
+          ],
+          "name": "MÉTRO",
+          "skills": [
+            {
+              "extra": [
+                6
+              ],
+              "id": 191,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "extra": [
+                43
+              ],
+              "id": 29,
+              "order": 2,
+              "q": 1
+            },
+            {
+              "id": 47,
+              "order": 3,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 5,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 13,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 31,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            },
+            {
+              "id": 80,
+              "order": 2
+            },
+            {
+              "id": 68,
+              "order": 5
+            }
+          ],
+          "name": "MÉTRO",
+          "skills": [
+            {
+              "extra": [
+                6
+              ],
+              "id": 191,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "extra": [
+                43
+              ],
+              "id": 29,
+              "order": 2,
+              "q": 1
+            },
+            {
+              "id": 47,
+              "order": 3,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 6,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 14,
+          "swc": "0.5",
+          "weapons": [
+            {
+              "id": 31,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            },
+            {
+              "id": 80,
+              "order": 2
+            },
+            {
+              "id": 194,
+              "order": 5
+            }
+          ],
+          "name": "MÉTRO",
+          "skills": [
+            {
+              "extra": [
+                6
+              ],
+              "id": 191,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "extra": [
+                43
+              ],
+              "id": 29,
+              "order": 2,
+              "q": 1
+            },
+            {
+              "id": 47,
+              "order": 3,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 7,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 106,
+              "order": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 10,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 31,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 2
+            },
+            {
+              "id": 5,
+              "order": 3
+            },
+            {
+              "id": 80,
+              "order": 4
+            }
+          ],
+          "name": "MÉTRO",
+          "skills": [
+            {
+              "id": 64,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 8,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "LIEUTENANT",
+              "list": 0,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 8,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 31,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 2
+            },
+            {
+              "id": 5,
+              "order": 3
+            },
+            {
+              "id": 80,
+              "order": 4
+            }
+          ],
+          "name": "MÉTRO",
+          "skills": [
+            {
+              "id": 119,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 10,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 10,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 31,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 2
+            },
+            {
+              "id": 5,
+              "order": 3
+            },
+            {
+              "id": 80,
+              "order": 4
+            }
+          ],
+          "name": "MÉTRO",
+          "skills": [
+            {
+              "extra": [
+                298
+              ],
+              "id": 260,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 189,
+              "order": 2,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "metros-troupes-metropolitaines",
+  "filters": {
+    "categories": [
+      1
+    ],
+    "skills": [
+      29,
+      47,
+      58,
+      64,
+      119,
+      189,
+      191,
+      260
+    ],
+    "equip": [
+      106
+    ],
+    "chars": [
+      2,
+      3,
+      5
+    ],
+    "types": [
+      1
+    ],
+    "weapons": [
+      2,
+      5,
+      17,
+      18,
+      31,
+      68,
+      69,
+      80,
+      194
+    ],
+    "ammunition": [
+      2,
+      13
+    ]
+  },
+  "factions": [
+    303
+  ]
+}

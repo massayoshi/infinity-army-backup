@@ -1,0 +1,313 @@
+{
+  "id": 11,
+  "idArmy": 11,
+  "canonical": 101,
+  "isc": "Dragões, Acontecimento Dragoons",
+  "iscAbbr": "Dragões",
+  "name": "DRAGÕES, Acontecimento Dragoons",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 7,
+      "isc": "Dragões, Acontecimento Dragoons",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 8,
+          "ava": 1,
+          "bs": 15,
+          "bts": 6,
+          "cc": 18,
+          "chars": [
+            2,
+            3,
+            5,
+            21
+          ],
+          "equip": [
+            {
+              "extra": [
+                7
+              ],
+              "id": 239,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/dragoes-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            10
+          ],
+          "ph": 15,
+          "s": 7,
+          "str": true,
+          "type": 4,
+          "w": 3,
+          "wip": 13,
+          "name": "DRAGÕES, Acontecimento Dragoons",
+          "notes": null,
+          "skills": [
+            {
+              "id": 201,
+              "order": 1,
+              "extra": [
+                305
+              ],
+              "q": 1
+            },
+            {
+              "id": 84,
+              "order": 2,
+              "q": 1
+            },
+            {
+              "id": 40,
+              "order": 3,
+              "extra": [
+                27
+              ],
+              "q": 1
+            },
+            {
+              "id": 254,
+              "order": 4,
+              "extra": [
+                52
+              ],
+              "q": 1
+            },
+            {
+              "id": 162,
+              "order": 5,
+              "extra": [
+                292
+              ],
+              "q": 1
+            },
+            {
+              "id": 235,
+              "order": 6,
+              "q": 1
+            },
+            {
+              "id": 213,
+              "order": 7,
+              "q": 1
+            },
+            {
+              "id": 58,
+              "order": 8,
+              "extra": [
+                37
+              ],
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "TACTICAL",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [
+            {
+              "group": 2,
+              "option": 1,
+              "q": 1
+            }
+          ],
+          "points": 76,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 15,
+              "order": 1
+            },
+            {
+              "id": 57,
+              "order": 2
+            },
+            {
+              "id": 6,
+              "order": 3
+            }
+          ],
+          "name": "DRÃGAO",
+          "skills": [],
+          "peripheral": [
+            {
+              "id": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": 0,
+      "isc": "Crabbot Ancillary Remote Unit",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 0,
+          "ava": -1,
+          "bs": -1,
+          "bts": 3,
+          "cc": -1,
+          "chars": [
+            2,
+            21,
+            27
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/dragoes-2-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            10
+          ],
+          "ph": 10,
+          "s": 1,
+          "str": true,
+          "type": 5,
+          "w": 1,
+          "wip": 12,
+          "name": "Crabbot Ancillary Remote Unit",
+          "notes": null,
+          "skills": [
+            {
+              "id": 84,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 28,
+              "order": 3,
+              "extra": [
+                6
+              ],
+              "q": 1
+            },
+            {
+              "id": 189,
+              "order": 4,
+              "q": 1
+            },
+            {
+              "id": 243,
+              "order": 5,
+              "extra": [
+                322
+              ],
+              "q": 1
+            },
+            {
+              "id": 58,
+              "order": 6,
+              "extra": [
+                37
+              ],
+              "q": 1
+            },
+            {
+              "id": 40,
+              "order": 7,
+              "extra": [
+                1
+              ],
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": true,
+          "equip": [],
+          "minis": 1,
+          "orders": [],
+          "includes": [],
+          "points": 3,
+          "swc": "0",
+          "weapons": [],
+          "name": "CRABBOT",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "dragoes",
+  "filters": {
+    "categories": [
+      7
+    ],
+    "skills": [
+      28,
+      40,
+      58,
+      84,
+      162,
+      189,
+      201,
+      213,
+      235,
+      243,
+      254
+    ],
+    "equip": [
+      239
+    ],
+    "chars": [
+      2,
+      3,
+      5,
+      21,
+      27
+    ],
+    "types": [
+      4,
+      5
+    ],
+    "weapons": [
+      6,
+      15,
+      57
+    ],
+    "ammunition": [
+      2,
+      3,
+      8,
+      9
+    ]
+  },
+  "factions": [
+    102
+  ]
+}

@@ -16,7 +16,7 @@
           "id": 1,
           "arm": 2,
           "ava": 1,
-          "bs": 12,
+          "bs": 13,
           "bts": 0,
           "cc": 15,
           "chars": [
@@ -47,14 +47,6 @@
           "notes": null,
           "skills": [
             {
-              "id": 29,
-              "order": 1,
-              "extra": [
-                43
-              ],
-              "q": 1
-            },
-            {
               "id": 28,
               "order": 2,
               "extra": [
@@ -79,14 +71,6 @@
                 33
               ],
               "q": 1
-            },
-            {
-              "id": 191,
-              "order": 6,
-              "extra": [
-                6
-              ],
-              "q": 1
             }
           ],
           "peripheral": []
@@ -107,7 +91,7 @@
             }
           ],
           "includes": [],
-          "points": 29,
+          "points": 28,
           "swc": "1",
           "weapons": [
             {
@@ -123,7 +107,7 @@
               "order": 3
             },
             {
-              "id": 69,
+              "id": 107,
               "order": 4
             },
             {
@@ -131,7 +115,7 @@
               "order": 5
             }
           ],
-          "name": "BRIGADIER BRUANT",
+          "name": "BRIGADIER BRUANT FTO",
           "skills": [],
           "peripheral": []
         },
@@ -165,7 +149,7 @@
               "order": 3
             },
             {
-              "id": 69,
+              "id": 107,
               "order": 4
             },
             {
@@ -176,8 +160,24 @@
           "name": "BRIGADIER BRUANT",
           "skills": [
             {
-              "id": 47,
+              "extra": [
+                6
+              ],
+              "id": 191,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "extra": [
+                43
+              ],
+              "id": 29,
               "order": 2,
+              "q": 1
+            },
+            {
+              "id": 47,
+              "order": 3,
               "q": 1
             }
           ],
@@ -202,7 +202,7 @@
             }
           ],
           "includes": [],
-          "points": 29,
+          "points": 28,
           "swc": "1",
           "weapons": [
             {
@@ -218,7 +218,7 @@
               "order": 3
             },
             {
-              "id": 69,
+              "id": 107,
               "order": 4
             },
             {
@@ -226,7 +226,7 @@
               "order": 5
             }
           ],
-          "name": "BRIGADIER BRUANT",
+          "name": "BRIGADIER BRUANT FTO",
           "skills": [
             {
               "id": 119,
@@ -268,13 +268,14 @@
     "weapons": [
       5,
       17,
-      69,
       80,
+      107,
       157
     ],
     "ammunition": [
       2,
       3,
+      8,
       13
     ]
   },

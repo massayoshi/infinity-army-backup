@@ -30,14 +30,27 @@
               "id": 116,
               "order": 1,
               "q": 1
+            },
+            {
+              "id": 238,
+              "order": 2,
+              "q": 1
+            },
+            {
+              "extra": [
+                6
+              ],
+              "id": 241,
+              "order": 3,
+              "q": 1
             }
           ],
           "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-aquila-guard-1-1.svg",
           "weapons": [],
           "includes": [],
           "move": [
-            10,
-            10
+            15,
+            5
           ],
           "ph": 14,
           "s": 2,
@@ -49,10 +62,15 @@
           "notes": null,
           "skills": [
             {
-              "id": 162,
+              "id": 84,
               "order": 1,
+              "q": 1
+            },
+            {
+              "id": 263,
+              "order": 2,
               "extra": [
-                30
+                372
               ],
               "q": 1
             }
@@ -75,7 +93,7 @@
             }
           ],
           "includes": [],
-          "points": 50,
+          "points": 52,
           "swc": "1.5",
           "weapons": [
             {
@@ -83,12 +101,12 @@
               "order": 1
             },
             {
-              "id": 69,
-              "order": 2
-            },
-            {
               "id": 10,
               "order": 3
+            },
+            {
+              "id": 189,
+              "order": 2
             }
           ],
           "name": "AQUILA REINF",
@@ -109,17 +127,9 @@
             }
           ],
           "includes": [],
-          "points": 47,
+          "points": 49,
           "swc": "0",
           "weapons": [
-            {
-              "id": 169,
-              "order": 1
-            },
-            {
-              "id": 69,
-              "order": 2
-            },
             {
               "id": 10,
               "order": 3
@@ -127,6 +137,14 @@
             {
               "id": 208,
               "order": 4
+            },
+            {
+              "id": 169,
+              "order": 1
+            },
+            {
+              "id": 189,
+              "order": 2
             }
           ],
           "name": "AQUILA REINF FTO",
@@ -149,11 +167,14 @@
       6
     ],
     "skills": [
-      162,
-      189
+      84,
+      189,
+      263
     ],
     "equip": [
-      116
+      116,
+      238,
+      241
     ],
     "chars": [
       1,
@@ -167,8 +188,8 @@
     "weapons": [
       2,
       10,
-      69,
       169,
+      189,
       208
     ],
     "ammunition": [

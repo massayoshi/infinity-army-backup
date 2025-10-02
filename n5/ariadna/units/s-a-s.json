@@ -120,12 +120,16 @@
               "order": 2
             },
             {
-              "id": 211,
+              "id": 17,
               "order": 3
             },
             {
-              "id": 172,
+              "id": 211,
               "order": 4
+            },
+            {
+              "id": 172,
+              "order": 5
             }
           ],
           "name": "S.A.S.",
@@ -158,12 +162,16 @@
               "order": 2
             },
             {
-              "id": 70,
+              "id": 17,
               "order": 3
             },
             {
-              "id": 172,
+              "id": 70,
               "order": 4
+            },
+            {
+              "id": 172,
+              "order": 5
             }
           ],
           "name": "S.A.S.",
@@ -235,26 +243,86 @@
             }
           ],
           "includes": [],
-          "points": 23,
+          "points": 25,
           "swc": "0",
           "weapons": [
             {
-              "id": 26,
-              "order": 1
-            },
-            {
-              "id": 211,
+              "id": 17,
               "order": 2
             },
             {
-              "id": 172,
+              "id": 197,
               "order": 3
+            },
+            {
+              "id": 211,
+              "order": 4
+            },
+            {
+              "id": 172,
+              "order": 5
+            },
+            {
+              "id": 26,
+              "order": 1
             }
           ],
           "name": "S.A.S.",
           "skills": [
             {
               "id": 189,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 6,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 22,
+          "swc": "0.5",
+          "weapons": [
+            {
+              "id": 18,
+              "order": 1
+            },
+            {
+              "id": 28,
+              "order": 2
+            },
+            {
+              "id": 17,
+              "order": 3
+            },
+            {
+              "id": 199,
+              "order": 4
+            },
+            {
+              "id": 211,
+              "order": 5
+            },
+            {
+              "id": 172,
+              "order": 6
+            }
+          ],
+          "name": "S.A.S.",
+          "skills": [
+            {
+              "id": 56,
               "order": 1,
               "q": 1
             }
@@ -276,6 +344,7 @@
       29,
       40,
       47,
+      56,
       58,
       59,
       84,
@@ -301,12 +370,15 @@
       70,
       72,
       172,
+      197,
+      199,
       211
     ],
     "ammunition": [
       2,
       3,
       13,
+      14,
       29,
       30
     ]

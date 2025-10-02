@@ -59,11 +59,8 @@
               "q": 1
             },
             {
-              "id": 29,
+              "id": 238,
               "order": 3,
-              "extra": [
-                43
-              ],
               "q": 1
             },
             {
@@ -119,7 +116,7 @@
             }
           ],
           "includes": [],
-          "points": 25,
+          "points": 26,
           "swc": "0",
           "weapons": [
             {
@@ -144,7 +141,13 @@
             }
           ],
           "name": "LOCUST",
-          "skills": [],
+          "skills": [
+            {
+              "id": 189,
+              "order": 1,
+              "q": 1
+            }
+          ],
           "peripheral": []
         },
         {
@@ -161,7 +164,7 @@
             }
           ],
           "includes": [],
-          "points": 26,
+          "points": 29,
           "swc": "0",
           "weapons": [
             {
@@ -195,7 +198,7 @@
             }
           ],
           "includes": [],
-          "points": 24,
+          "points": 23,
           "swc": "0",
           "weapons": [
             {
@@ -229,8 +232,12 @@
           "disabled": false,
           "equip": [
             {
+              "extra": [
+                334
+              ],
               "id": 100,
-              "order": 1
+              "order": 1,
+              "q": 1
             }
           ],
           "minis": 1,
@@ -242,7 +249,7 @@
             }
           ],
           "includes": [],
-          "points": 33,
+          "points": 32,
           "swc": "0.5",
           "weapons": [
             {
@@ -260,6 +267,10 @@
             {
               "id": 5,
               "order": 4
+            },
+            {
+              "id": 154,
+              "order": 5
             }
           ],
           "name": "LOCUST",
@@ -277,8 +288,12 @@
           "disabled": false,
           "equip": [
             {
+              "extra": [
+                334
+              ],
               "id": 145,
-              "order": 1
+              "order": 1,
+              "q": 1
             }
           ],
           "minis": 1,
@@ -290,7 +305,7 @@
             }
           ],
           "includes": [],
-          "points": 31,
+          "points": 30,
           "swc": "0",
           "weapons": [
             {
@@ -308,6 +323,10 @@
             {
               "id": 5,
               "order": 4
+            },
+            {
+              "id": 154,
+              "order": 5
             }
           ],
           "name": "LOCUST",
@@ -315,6 +334,71 @@
             {
               "id": 1000,
               "order": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 8,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "extra": [
+                334
+              ],
+              "id": 100,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 34,
+          "swc": "0.5",
+          "weapons": [
+            {
+              "id": 103,
+              "order": 1
+            },
+            {
+              "id": 72,
+              "order": 2
+            },
+            {
+              "id": 17,
+              "order": 3
+            },
+            {
+              "id": 212,
+              "order": 4
+            },
+            {
+              "id": 5,
+              "order": 5
+            }
+          ],
+          "name": "LOCUST",
+          "skills": [
+            {
+              "id": 1000,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "extra": [
+                43
+              ],
+              "id": 29,
+              "order": 2,
+              "q": 1
             }
           ],
           "peripheral": []
@@ -334,7 +418,9 @@
       47,
       58,
       164,
+      189,
       191,
+      238,
       271,
       1000
     ],
@@ -356,9 +442,11 @@
       17,
       26,
       44,
+      72,
       77,
       96,
       103,
+      154,
       169,
       182,
       212
@@ -369,7 +457,8 @@
       8,
       9,
       13,
-      14
+      14,
+      29
     ]
   },
   "factions": [

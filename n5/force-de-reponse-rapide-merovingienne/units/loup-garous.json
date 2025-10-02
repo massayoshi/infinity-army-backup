@@ -1,0 +1,275 @@
+{
+  "id": 247,
+  "idArmy": 21,
+  "canonical": 301,
+  "isc": "Loup-Garous",
+  "iscAbbr": null,
+  "name": "LOUP-GAROU, Groupe Mobile d'Action Spéciale",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 3,
+      "isc": "Loup-Garous",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 2,
+          "ava": 5,
+          "bs": 12,
+          "bts": 0,
+          "cc": 16,
+          "chars": [
+            2,
+            3,
+            5
+          ],
+          "equip": [
+            {
+              "id": 117,
+              "order": 1
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/loup-garous-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 11,
+          "s": 2,
+          "str": false,
+          "type": 1,
+          "w": 1,
+          "wip": 13,
+          "name": "LOUP-GAROU, Groupe Mobile d'Action Spéciale",
+          "notes": null,
+          "skills": [
+            {
+              "id": 201,
+              "order": 1,
+              "extra": [
+                305
+              ],
+              "q": 1
+            },
+            {
+              "id": 83,
+              "order": 2,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 20,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 43,
+              "order": 1
+            },
+            {
+              "id": 187,
+              "order": 2
+            },
+            {
+              "id": 195,
+              "order": 3
+            },
+            {
+              "id": 107,
+              "order": 4
+            },
+            {
+              "id": 71,
+              "order": 5
+            }
+          ],
+          "name": "LOUP-GAROU",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 15,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 26,
+              "order": 1
+            },
+            {
+              "id": 216,
+              "order": 2
+            },
+            {
+              "id": 107,
+              "order": 3
+            },
+            {
+              "id": 71,
+              "order": 4
+            }
+          ],
+          "name": "LOUP-GAROU",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 6,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 26,
+          "swc": "1",
+          "weapons": [
+            {
+              "id": 39,
+              "order": 1
+            },
+            {
+              "id": 107,
+              "order": 2
+            },
+            {
+              "id": 71,
+              "order": 3
+            }
+          ],
+          "name": "LOUP-GAROU",
+          "skills": [
+            {
+              "id": 156,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 7,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 26,
+          "swc": "0.5",
+          "weapons": [
+            {
+              "id": 206,
+              "order": 1
+            },
+            {
+              "id": 107,
+              "order": 2
+            },
+            {
+              "id": 71,
+              "order": 3
+            }
+          ],
+          "name": "LOUP-GAROU",
+          "skills": [
+            {
+              "id": 156,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "loup-garous",
+  "filters": {
+    "categories": [
+      3
+    ],
+    "skills": [
+      83,
+      156,
+      201
+    ],
+    "equip": [
+      117
+    ],
+    "chars": [
+      2,
+      3,
+      5
+    ],
+    "types": [
+      1
+    ],
+    "weapons": [
+      26,
+      39,
+      43,
+      71,
+      107,
+      187,
+      195,
+      206,
+      216
+    ],
+    "ammunition": [
+      2,
+      3,
+      8,
+      21,
+      37
+    ]
+  },
+  "factions": [
+    301,
+    303
+  ]
+}

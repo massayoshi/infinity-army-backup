@@ -1,0 +1,330 @@
+{
+  "id": 23,
+  "idArmy": 23,
+  "canonical": 101,
+  "isc": "Hexas, Strategic Security Division",
+  "iscAbbr": null,
+  "name": "HEXAS, Strategic Security Division",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 6,
+      "isc": "Hexas, Strategic Security Division",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 1,
+          "ava": 3,
+          "bs": 13,
+          "bts": 3,
+          "cc": 17,
+          "chars": [
+            1,
+            3,
+            5
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/hexas-strategic-security-division-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 10,
+          "s": 2,
+          "str": false,
+          "type": 1,
+          "w": 1,
+          "wip": 13,
+          "name": "HEXAS, Strategic Security Division",
+          "notes": null,
+          "skills": [
+            {
+              "id": 191,
+              "order": 1,
+              "extra": [
+                6
+              ]
+            },
+            {
+              "id": 29,
+              "order": 2
+            },
+            {
+              "id": 84,
+              "order": 3
+            },
+            {
+              "id": 238,
+              "order": 4
+            },
+            {
+              "id": 28,
+              "order": 5,
+              "extra": [
+                7
+              ]
+            },
+            {
+              "id": 164,
+              "order": 6
+            },
+            {
+              "id": 162,
+              "order": 7,
+              "extra": [
+                30
+              ]
+            },
+            {
+              "id": 207,
+              "order": 8,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 117,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 31,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 74,
+              "order": 1
+            },
+            {
+              "id": 23,
+              "order": 2
+            },
+            {
+              "id": 71,
+              "order": 4
+            },
+            {
+              "id": 211,
+              "order": 3
+            }
+          ],
+          "name": "HEXA",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 3,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 30,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 36,
+              "order": 1
+            },
+            {
+              "id": 71,
+              "order": 3
+            },
+            {
+              "id": 211,
+              "order": 2
+            }
+          ],
+          "name": "HEXA",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 4,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 100,
+              "order": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 30,
+          "swc": "0.5",
+          "weapons": [
+            {
+              "id": 33,
+              "order": 1
+            },
+            {
+              "id": 68,
+              "order": 2
+            },
+            {
+              "id": 17,
+              "order": 3
+            },
+            {
+              "id": 71,
+              "order": 5
+            },
+            {
+              "id": 211,
+              "order": 6
+            }
+          ],
+          "name": "HEXA",
+          "skills": [
+            {
+              "id": 1000,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 5,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 145,
+              "order": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 27,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 33,
+              "order": 1
+            },
+            {
+              "id": 23,
+              "order": 2
+            },
+            {
+              "id": 17,
+              "order": 3
+            },
+            {
+              "id": 71,
+              "order": 5
+            },
+            {
+              "id": 211,
+              "order": 4
+            }
+          ],
+          "name": "HEXA",
+          "skills": [
+            {
+              "id": 1000,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "hexas-strategic-security-division",
+  "filters": {
+    "categories": [
+      6
+    ],
+    "skills": [
+      28,
+      29,
+      84,
+      162,
+      164,
+      191,
+      207,
+      238,
+      1000
+    ],
+    "equip": [
+      100,
+      117,
+      145
+    ],
+    "chars": [
+      1,
+      3,
+      5
+    ],
+    "types": [
+      1
+    ],
+    "weapons": [
+      17,
+      23,
+      33,
+      36,
+      68,
+      71,
+      74,
+      211
+    ],
+    "ammunition": [
+      2,
+      3,
+      8,
+      9,
+      13,
+      14,
+      30,
+      37
+    ]
+  },
+  "factions": [
+    104
+  ]
+}

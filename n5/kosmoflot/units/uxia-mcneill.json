@@ -23,7 +23,13 @@
             2,
             3
           ],
-          "equip": [],
+          "equip": [
+            {
+              "id": 114,
+              "order": 1,
+              "q": 1
+            }
+          ],
           "logo": "https://assets.corvusbelli.net/army/img/logo/units/uxia-mcneill-1-1.svg",
           "weapons": [],
           "includes": [],
@@ -96,6 +102,19 @@
                 318
               ],
               "q": 1
+            },
+            {
+              "id": 201,
+              "order": 12,
+              "extra": [
+                8
+              ],
+              "q": 1
+            },
+            {
+              "id": 189,
+              "order": 13,
+              "q": 1
             }
           ],
           "peripheral": []
@@ -106,12 +125,7 @@
           "id": 1,
           "chars": [],
           "disabled": false,
-          "equip": [
-            {
-              "id": 114,
-              "order": 1
-            }
-          ],
+          "equip": [],
           "minis": 1,
           "orders": [
             {
@@ -141,7 +155,7 @@
               "order": 4
             },
             {
-              "id": 6,
+              "id": 172,
               "order": 5
             }
           ],
@@ -183,17 +197,12 @@
               "order": 4
             },
             {
-              "id": 6,
+              "id": 172,
               "order": 5
             }
           ],
           "name": "UXÍA McNEILL",
-          "skills": [
-            {
-              "id": 189,
-              "order": 1
-            }
-          ],
+          "skills": [],
           "peripheral": []
         }
       ]
@@ -216,6 +225,7 @@
       164,
       189,
       191,
+      201,
       250
     ],
     "equip": [
@@ -229,19 +239,20 @@
       6
     ],
     "weapons": [
-      6,
       17,
       26,
       44,
       45,
       70,
+      172,
       212
     ],
     "ammunition": [
       2,
       3,
       13,
-      21
+      21,
+      30
     ]
   },
   "factions": [

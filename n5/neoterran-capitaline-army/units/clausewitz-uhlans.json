@@ -1,0 +1,403 @@
+{
+  "id": 32,
+  "idArmy": 32,
+  "canonical": 101,
+  "isc": "Clausewitz Uhlans",
+  "iscAbbr": null,
+  "name": "CLAUSEWITZ UHLANS",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 7,
+      "isc": "Clausewitz Uhlans",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 6,
+          "ava": 2,
+          "bs": 15,
+          "bts": 6,
+          "cc": 15,
+          "chars": [
+            2,
+            3,
+            5,
+            21
+          ],
+          "equip": [
+            {
+              "extra": [
+                7
+              ],
+              "id": 239,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/clausewitz-uhlans-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            10
+          ],
+          "ph": 15,
+          "s": 6,
+          "str": true,
+          "type": 4,
+          "w": 3,
+          "wip": 12,
+          "name": "CLAUSEWITZ UHLANS",
+          "notes": null,
+          "skills": [
+            {
+              "id": 201,
+              "order": 1,
+              "extra": [
+                305
+              ],
+              "q": 1
+            },
+            {
+              "id": 191,
+              "order": 2,
+              "extra": [
+                6
+              ],
+              "q": 1
+            },
+            {
+              "id": 29,
+              "order": 3,
+              "q": 1
+            },
+            {
+              "id": 84,
+              "order": 4,
+              "q": 1
+            },
+            {
+              "id": 40,
+              "order": 5,
+              "extra": [
+                27
+              ],
+              "q": 1
+            },
+            {
+              "id": 254,
+              "order": 6,
+              "extra": [
+                52
+              ],
+              "q": 1
+            },
+            {
+              "id": 28,
+              "order": 8,
+              "extra": [
+                6
+              ],
+              "q": 1
+            },
+            {
+              "id": 235,
+              "order": 9,
+              "q": 1
+            },
+            {
+              "id": 213,
+              "order": 10,
+              "q": 1
+            },
+            {
+              "id": 267,
+              "order": 12,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "TACTICAL",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [
+            {
+              "group": 2,
+              "option": 1,
+              "q": 1
+            }
+          ],
+          "points": 80,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 74,
+              "order": 1
+            },
+            {
+              "id": 89,
+              "order": 2
+            },
+            {
+              "id": 6,
+              "order": 3
+            }
+          ],
+          "name": "UHLAN",
+          "skills": [
+            {
+              "extra": [
+                249
+              ],
+              "id": 201,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": [
+            {
+              "id": 45
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "TACTICAL",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [
+            {
+              "group": 2,
+              "option": 1,
+              "q": 1
+            }
+          ],
+          "points": 70,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 30,
+              "order": 1
+            },
+            {
+              "id": 68,
+              "order": 2
+            },
+            {
+              "id": 14,
+              "order": 3
+            },
+            {
+              "id": 189,
+              "order": 4
+            },
+            {
+              "id": 6,
+              "order": 5
+            }
+          ],
+          "name": "UHLAN",
+          "skills": [
+            {
+              "extra": [
+                8
+              ],
+              "id": 201,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": [
+            {
+              "id": 45
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": 0,
+      "isc": "Crabbot Ancillary Remote Unit",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 0,
+          "ava": -1,
+          "bs": -1,
+          "bts": 3,
+          "cc": -1,
+          "chars": [
+            21,
+            27
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/clausewitz-uhlans-2-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            10
+          ],
+          "ph": 10,
+          "s": 1,
+          "str": true,
+          "type": 5,
+          "w": 1,
+          "wip": 12,
+          "name": "Crabbot Ancillary Remote Unit",
+          "notes": null,
+          "skills": [
+            {
+              "id": 84,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 40,
+              "order": 2,
+              "extra": [
+                1
+              ],
+              "q": 1
+            },
+            {
+              "id": 189,
+              "order": 3,
+              "q": 1
+            },
+            {
+              "id": 28,
+              "order": 4,
+              "extra": [
+                6
+              ],
+              "q": 1
+            },
+            {
+              "id": 243,
+              "order": 5,
+              "extra": [
+                322
+              ],
+              "q": 1
+            },
+            {
+              "id": 235,
+              "order": 6,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": true,
+          "equip": [],
+          "minis": 1,
+          "orders": [],
+          "includes": [],
+          "points": 3,
+          "swc": "0",
+          "weapons": [],
+          "name": "CRABBOT",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "clausewitz-uhlans",
+  "filters": {
+    "categories": [
+      7
+    ],
+    "skills": [
+      28,
+      29,
+      40,
+      84,
+      189,
+      191,
+      201,
+      213,
+      235,
+      243,
+      254,
+      267
+    ],
+    "equip": [
+      239
+    ],
+    "chars": [
+      2,
+      3,
+      5,
+      21,
+      27
+    ],
+    "types": [
+      4,
+      5
+    ],
+    "weapons": [
+      6,
+      14,
+      30,
+      68,
+      74,
+      89,
+      189
+    ],
+    "ammunition": [
+      2,
+      3,
+      6,
+      8,
+      9,
+      10,
+      13,
+      14
+    ]
+  },
+  "factions": [
+    104
+  ]
+}

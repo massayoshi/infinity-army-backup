@@ -142,6 +142,49 @@
           "name": "CATERAN",
           "skills": [],
           "peripheral": []
+        },
+        {
+          "id": 3,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "IRREGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 23,
+          "swc": "1",
+          "weapons": [
+            {
+              "id": 38,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 2
+            },
+            {
+              "id": 6,
+              "order": 3
+            }
+          ],
+          "name": "CATERAN",
+          "skills": [
+            {
+              "extra": [
+                26
+              ],
+              "id": 161,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
         }
       ]
     }
@@ -156,6 +199,7 @@
       28,
       29,
       82,
+      161,
       164,
       191
     ],

@@ -1,0 +1,218 @@
+{
+  "id": 426,
+  "idArmy": 35,
+  "canonical": 501,
+  "isc": "Salyut Zonds",
+  "iscAbbr": null,
+  "name": "SALYUT Zonds",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 8,
+      "isc": "Salyut Zonds",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 2,
+          "ava": 1,
+          "bs": 11,
+          "bts": 3,
+          "cc": 13,
+          "chars": [
+            3,
+            5,
+            21
+          ],
+          "equip": [
+            {
+              "id": 91,
+              "order": 1
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/salyut-zonds-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 10,
+          "s": 4,
+          "str": true,
+          "type": 5,
+          "w": 1,
+          "wip": 13,
+          "name": "SALYUT Zonds",
+          "notes": null,
+          "skills": [
+            {
+              "id": 235,
+              "order": 1
+            },
+            {
+              "id": 84,
+              "order": 2
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 238,
+              "order": 1
+            },
+            {
+              "id": 63,
+              "order": 2
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 8,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 71,
+              "order": 1
+            }
+          ],
+          "name": "SALYUT",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 182,
+              "order": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 14,
+          "swc": "0.5",
+          "weapons": [
+            {
+              "id": 71,
+              "order": 1
+            }
+          ],
+          "name": "SALYUT",
+          "skills": [
+            {
+              "id": 1000,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 3,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 63,
+              "order": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 17,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 33,
+              "order": 1
+            },
+            {
+              "id": 71,
+              "order": 2
+            }
+          ],
+          "name": "SALYUT",
+          "skills": [
+            {
+              "id": 61,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "salyut-zonds",
+  "filters": {
+    "categories": [
+      8
+    ],
+    "skills": [
+      61,
+      84,
+      235,
+      1000
+    ],
+    "equip": [
+      63,
+      91,
+      182,
+      238
+    ],
+    "chars": [
+      3,
+      5,
+      21
+    ],
+    "types": [
+      5
+    ],
+    "weapons": [
+      33,
+      71
+    ],
+    "ammunition": [
+      2,
+      37
+    ]
+  },
+  "factions": [
+    501,
+    502,
+    503,
+    504,
+    905
+  ]
+}

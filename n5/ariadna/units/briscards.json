@@ -37,7 +37,7 @@
             10,
             10
           ],
-          "ph": 11,
+          "ph": 12,
           "s": 2,
           "str": false,
           "type": 2,
@@ -52,6 +52,11 @@
               "q": 1
             },
             {
+              "id": 267,
+              "order": 2,
+              "q": 1
+            },
+            {
               "id": 58,
               "order": 3,
               "extra": [
@@ -60,11 +65,16 @@
               "q": 1
             },
             {
-              "id": 271,
+              "id": 273,
               "order": 4,
               "extra": [
-                372
+                244
               ],
+              "q": 1
+            },
+            {
+              "id": 82,
+              "order": 5,
               "q": 1
             }
           ],
@@ -86,7 +96,7 @@
             }
           ],
           "includes": [],
-          "points": 25,
+          "points": 26,
           "swc": "0.5",
           "weapons": [
             {
@@ -129,7 +139,7 @@
             }
           ],
           "includes": [],
-          "points": 18,
+          "points": 20,
           "swc": "1.5",
           "weapons": [
             {
@@ -163,11 +173,11 @@
             }
           ],
           "includes": [],
-          "points": 21,
+          "points": 22,
           "swc": "0",
           "weapons": [
             {
-              "id": 84,
+              "id": 85,
               "order": 1
             },
             {
@@ -211,11 +221,11 @@
             }
           ],
           "includes": [],
-          "points": 22,
+          "points": 23,
           "swc": "0",
           "weapons": [
             {
-              "id": 84,
+              "id": 85,
               "order": 1
             },
             {
@@ -235,6 +245,58 @@
             }
           ],
           "peripheral": []
+        },
+        {
+          "id": 6,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "LIEUTENANT",
+              "list": 0,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 26,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 85,
+              "order": 1
+            },
+            {
+              "id": 72,
+              "order": 2
+            },
+            {
+              "id": 70,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            }
+          ],
+          "name": "BRISCARD",
+          "skills": [
+            {
+              "extra": [
+                245
+              ],
+              "id": 119,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
         }
       ]
     }
@@ -249,9 +311,12 @@
       58,
       59,
       64,
+      82,
       84,
+      119,
       201,
-      271
+      267,
+      273
     ],
     "equip": [
       106,
@@ -270,7 +335,7 @@
       35,
       70,
       72,
-      84,
+      85,
       89
     ],
     "ammunition": [

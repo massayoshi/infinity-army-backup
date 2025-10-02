@@ -78,13 +78,26 @@
               "q": 1
             },
             {
-              "id": 211,
-              "order": 6,
+              "id": 189,
+              "order": 7,
               "q": 1
             },
             {
-              "id": 189,
-              "order": 7,
+              "id": 162,
+              "order": 8,
+              "extra": [
+                327
+              ],
+              "q": 1
+            },
+            {
+              "id": 262,
+              "order": 9,
+              "q": 1
+            },
+            {
+              "id": 213,
+              "order": 10,
               "q": 1
             }
           ],
@@ -103,10 +116,15 @@
               "type": "REGULAR",
               "list": 1,
               "total": 1
+            },
+            {
+              "type": "TACTICAL",
+              "list": 1,
+              "total": 1
             }
           ],
           "includes": [],
-          "points": 33,
+          "points": 35,
           "swc": "0",
           "weapons": [
             {
@@ -244,7 +262,7 @@
             }
           ],
           "includes": [],
-          "points": 25,
+          "points": 24,
           "swc": "0",
           "weapons": [
             {
@@ -307,11 +325,16 @@
         {
           "list": 1,
           "total": 1,
+          "type": "TACTICAL"
+        },
+        {
+          "list": 1,
+          "total": 1,
           "type": "IMPETUOUS"
         }
       ],
       "peripheral": [],
-      "points": 58,
+      "points": 59,
       "skills": [],
       "swc": "2",
       "weapons": []
@@ -333,8 +356,9 @@
       162,
       189,
       201,
-      211,
+      213,
       256,
+      262,
       264
     ],
     "equip": [],

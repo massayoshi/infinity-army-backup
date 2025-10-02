@@ -38,7 +38,7 @@
           "str": false,
           "type": 3,
           "w": 1,
-          "wip": 13,
+          "wip": 14,
           "name": "13éme MOBLOTS",
           "notes": null,
           "skills": [
@@ -47,6 +47,14 @@
               "order": 1,
               "extra": [
                 30
+              ],
+              "q": 1
+            },
+            {
+              "id": 40,
+              "order": 2,
+              "extra": [
+                308
               ],
               "q": 1
             },
@@ -71,6 +79,37 @@
               "order": 5,
               "extra": [
                 6
+              ],
+              "q": 1
+            },
+            {
+              "id": 262,
+              "order": 6,
+              "q": 1
+            },
+            {
+              "id": 262,
+              "order": 6,
+              "q": 1
+            },
+            {
+              "id": 273,
+              "order": 7,
+              "extra": [
+                244
+              ],
+              "q": 1
+            },
+            {
+              "id": 213,
+              "order": 8,
+              "q": 1
+            },
+            {
+              "id": 162,
+              "order": 9,
+              "extra": [
+                327
               ],
               "q": 1
             }
@@ -98,7 +137,7 @@
             }
           ],
           "includes": [],
-          "points": 35,
+          "points": 32,
           "swc": "1.5",
           "weapons": [
             {
@@ -106,22 +145,16 @@
               "order": 1
             },
             {
-              "id": 69,
-              "order": 2
+              "id": 212,
+              "order": 1
             },
             {
               "id": 5,
-              "order": 3
+              "order": 2
             }
           ],
-          "name": "MOBLOT FTO",
-          "skills": [
-            {
-              "id": 213,
-              "order": 2,
-              "q": 1
-            }
-          ],
+          "name": "MOBLOT",
+          "skills": [],
           "peripheral": []
         },
         {
@@ -135,10 +168,15 @@
               "type": "REGULAR",
               "list": 1,
               "total": 1
+            },
+            {
+              "type": "TACTICAL",
+              "list": 1,
+              "total": 1
             }
           ],
           "includes": [],
-          "points": 25,
+          "points": 27,
           "swc": "0",
           "weapons": [
             {
@@ -150,15 +188,19 @@
               "order": 2
             },
             {
-              "id": 69,
+              "id": 82,
               "order": 3
             },
             {
-              "id": 5,
+              "id": 212,
               "order": 4
+            },
+            {
+              "id": 5,
+              "order": 5
             }
           ],
-          "name": "MOBLOT FTO",
+          "name": "MOBLOT",
           "skills": [],
           "peripheral": []
         },
@@ -171,6 +213,11 @@
               "id": 238,
               "order": 1,
               "q": 1
+            },
+            {
+              "id": 237,
+              "order": 2,
+              "q": 1
             }
           ],
           "minis": 1,
@@ -179,10 +226,15 @@
               "type": "REGULAR",
               "list": 1,
               "total": 1
+            },
+            {
+              "type": "TACTICAL",
+              "list": 1,
+              "total": 1
             }
           ],
           "includes": [],
-          "points": 30,
+          "points": 31,
           "swc": "0",
           "weapons": [
             {
@@ -194,7 +246,7 @@
               "order": 2
             },
             {
-              "id": 17,
+              "id": 82,
               "order": 3
             },
             {
@@ -202,15 +254,19 @@
               "order": 4
             },
             {
-              "id": 69,
+              "id": 17,
               "order": 5
             },
             {
-              "id": 5,
+              "id": 212,
               "order": 6
+            },
+            {
+              "id": 5,
+              "order": 7
             }
           ],
-          "name": "MOBLOT FTO",
+          "name": "MOBLOT",
           "skills": [
             {
               "id": 49,
@@ -243,7 +299,7 @@
             }
           ],
           "includes": [],
-          "points": 30,
+          "points": 29,
           "swc": "0",
           "weapons": [
             {
@@ -255,64 +311,24 @@
               "order": 2
             },
             {
-              "id": 69,
+              "id": 82,
               "order": 3
             },
             {
-              "id": 5,
+              "id": 212,
               "order": 4
-            }
-          ],
-          "name": "MOBLOT FTO",
-          "skills": [
-            {
-              "id": 64,
-              "order": 1,
-              "q": 1
-            },
-            {
-              "id": 213,
-              "order": 2,
-              "q": 1
-            }
-          ],
-          "peripheral": []
-        },
-        {
-          "id": 12,
-          "chars": [],
-          "disabled": false,
-          "equip": [],
-          "minis": 1,
-          "orders": [
-            {
-              "type": "REGULAR",
-              "list": 1,
-              "total": 1
-            }
-          ],
-          "includes": [],
-          "points": 32,
-          "swc": "1.5",
-          "weapons": [
-            {
-              "id": 2,
-              "order": 1
-            },
-            {
-              "id": 69,
-              "order": 2
             },
             {
               "id": 5,
-              "order": 3
+              "order": 5
             }
           ],
           "name": "MOBLOT",
           "skills": [
             {
-              "id": 89,
-              "order": 1
+              "id": 64,
+              "order": 1,
+              "q": 1
             }
           ],
           "peripheral": []
@@ -330,13 +346,18 @@
               "total": 1
             },
             {
+              "type": "TACTICAL",
+              "list": 1,
+              "total": 1
+            },
+            {
               "type": "LIEUTENANT",
               "list": 0,
               "total": 1
             }
           ],
           "includes": [],
-          "points": 25,
+          "points": 27,
           "swc": "0",
           "weapons": [
             {
@@ -348,15 +369,68 @@
               "order": 2
             },
             {
-              "id": 69,
+              "id": 82,
               "order": 3
             },
             {
-              "id": 5,
+              "id": 212,
               "order": 4
+            },
+            {
+              "id": 5,
+              "order": 5
             }
           ],
-          "name": "MOBLOT FTO",
+          "name": "MOBLOT",
+          "skills": [
+            {
+              "id": 119,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 14,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "TACTICAL",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "LIEUTENANT",
+              "list": 0,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 32,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 2,
+              "order": 1
+            },
+            {
+              "id": 212,
+              "order": 2
+            },
+            {
+              "id": 5,
+              "order": 3
+            }
+          ],
+          "name": "MOBLOT",
           "skills": [
             {
               "id": 119,
@@ -384,30 +458,24 @@
             }
           ],
           "includes": [],
-          "points": 35,
+          "points": 32,
           "swc": "1.5",
           "weapons": [
             {
-              "id": 69,
+              "id": 157,
+              "order": 1
+            },
+            {
+              "id": 212,
               "order": 2
             },
             {
               "id": 5,
               "order": 3
-            },
-            {
-              "id": 157,
-              "order": 1
             }
           ],
-          "name": "MOBLOT FTO",
-          "skills": [
-            {
-              "id": 213,
-              "order": 2,
-              "q": 1
-            }
-          ],
+          "name": "MOBLOT",
+          "skills": [],
           "peripheral": []
         }
       ]
@@ -421,17 +489,20 @@
     ],
     "skills": [
       28,
+      40,
       49,
       58,
       64,
-      89,
       119,
       162,
       201,
-      213
+      213,
+      262,
+      273
     ],
     "equip": [
       106,
+      237,
       238
     ],
     "chars": [
@@ -449,9 +520,10 @@
       17,
       28,
       32,
-      69,
+      82,
       157,
-      197
+      197,
+      212
     ],
     "ammunition": [
       2,

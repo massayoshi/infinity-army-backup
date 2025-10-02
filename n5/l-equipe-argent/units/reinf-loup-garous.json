@@ -48,8 +48,16 @@
           "notes": null,
           "skills": [
             {
-              "id": 84,
+              "id": 201,
               "order": 1,
+              "extra": [
+                305
+              ],
+              "q": 1
+            },
+            {
+              "id": 83,
+              "order": 2,
               "q": 1
             }
           ],
@@ -71,7 +79,7 @@
             }
           ],
           "includes": [],
-          "points": 21,
+          "points": 20,
           "swc": "0",
           "weapons": [
             {
@@ -79,12 +87,20 @@
               "order": 1
             },
             {
-              "id": 69,
+              "id": 187,
               "order": 2
             },
             {
-              "id": 5,
+              "id": 195,
               "order": 3
+            },
+            {
+              "id": 107,
+              "order": 4
+            },
+            {
+              "id": 71,
+              "order": 5
             }
           ],
           "name": "LOUP-GAROU REINF",
@@ -105,7 +121,7 @@
             }
           ],
           "includes": [],
-          "points": 17,
+          "points": 15,
           "swc": "0",
           "weapons": [
             {
@@ -113,16 +129,16 @@
               "order": 1
             },
             {
-              "id": 69,
+              "id": 216,
+              "order": 2
+            },
+            {
+              "id": 107,
               "order": 3
             },
             {
-              "id": 5,
+              "id": 71,
               "order": 4
-            },
-            {
-              "id": 216,
-              "order": 2
             }
           ],
           "name": "LOUP-GAROU REINF",
@@ -143,24 +159,30 @@
             }
           ],
           "includes": [],
-          "points": 24,
-          "swc": "1",
+          "points": 26,
+          "swc": "0.5",
           "weapons": [
             {
               "id": 206,
               "order": 1
             },
             {
-              "id": 69,
+              "id": 107,
               "order": 2
             },
             {
-              "id": 5,
+              "id": 71,
               "order": 3
             }
           ],
           "name": "LOUP-GAROU REINF",
-          "skills": [],
+          "skills": [
+            {
+              "id": 156,
+              "order": 1,
+              "q": 1
+            }
+          ],
           "peripheral": []
         }
       ]
@@ -173,7 +195,9 @@
       3
     ],
     "skills": [
-      84
+      83,
+      156,
+      201
     ],
     "equip": [
       117
@@ -187,16 +211,20 @@
       1
     ],
     "weapons": [
-      5,
       26,
       43,
-      69,
+      71,
+      107,
+      187,
+      195,
       206,
       216
     ],
     "ammunition": [
       2,
       3,
+      8,
+      21,
       37
     ]
   },

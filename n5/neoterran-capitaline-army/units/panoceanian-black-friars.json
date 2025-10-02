@@ -1,0 +1,251 @@
+{
+  "id": 771,
+  "idArmy": 55,
+  "canonical": 101,
+  "isc": "PanOceanian Black Friars",
+  "iscAbbr": null,
+  "name": "PanOceanian BLACK FRIARS",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 3,
+      "isc": "PanOceanian Black Friars",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 2,
+          "ava": 1,
+          "bs": 13,
+          "bts": 3,
+          "cc": 19,
+          "chars": [
+            1,
+            3,
+            5
+          ],
+          "equip": [
+            {
+              "extra": [
+                7
+              ],
+              "id": 183,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 115,
+              "order": 2,
+              "q": 1
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/panoceanian-black-friars-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 11,
+          "s": 2,
+          "str": false,
+          "type": 2,
+          "w": 1,
+          "wip": 13,
+          "name": "PanOceanian BLACK FRIARS",
+          "notes": null,
+          "skills": [
+            {
+              "id": 83,
+              "order": 1
+            },
+            {
+              "id": 262,
+              "order": 2,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 24,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 207,
+              "order": 1
+            },
+            {
+              "id": 65,
+              "order": 2
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            }
+          ],
+          "name": "BLACK FRIAR",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 3,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 184,
+              "order": 2
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 27,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 41,
+              "order": 1
+            },
+            {
+              "id": 65,
+              "order": 2
+            },
+            {
+              "id": 96,
+              "order": 3
+            },
+            {
+              "id": 69,
+              "order": 4
+            },
+            {
+              "id": 5,
+              "order": 5
+            }
+          ],
+          "name": "BLACK FRIAR",
+          "skills": [
+            {
+              "extra": [
+                1
+              ],
+              "id": 131,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 4,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 22,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 89,
+              "order": 1
+            },
+            {
+              "id": 65,
+              "order": 2
+            },
+            {
+              "id": 189,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            }
+          ],
+          "name": "BLACK FRIAR",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "panoceanian-black-friars",
+  "filters": {
+    "categories": [
+      3
+    ],
+    "skills": [
+      83,
+      131,
+      262
+    ],
+    "equip": [
+      115,
+      183,
+      184
+    ],
+    "chars": [
+      1,
+      3,
+      5
+    ],
+    "types": [
+      2
+    ],
+    "weapons": [
+      5,
+      41,
+      65,
+      69,
+      89,
+      96,
+      189,
+      207
+    ],
+    "ammunition": [
+      2,
+      3,
+      8,
+      9
+    ]
+  },
+  "factions": [
+    103,
+    104
+  ]
+}

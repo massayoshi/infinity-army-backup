@@ -1,0 +1,312 @@
+{
+  "id": 122,
+  "idArmy": 22,
+  "canonical": 1,
+  "isc": "CSU, Corporate Security Unit",
+  "iscAbbr": null,
+  "name": "CSU, Corporate Security Unit",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 11,
+      "isc": "CSU, Corporate Security Unit",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 0,
+          "ava": 3,
+          "bs": 12,
+          "bts": 3,
+          "cc": 16,
+          "chars": [
+            1,
+            3,
+            5
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/csu-corporate-security-unit-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 10,
+          "s": 2,
+          "str": false,
+          "type": 1,
+          "w": 1,
+          "wip": 12,
+          "name": "CSU, Corporate Security Unit",
+          "notes": null,
+          "skills": [
+            {
+              "id": 55,
+              "order": 2
+            },
+            {
+              "id": 67,
+              "order": 3
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 12,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 109,
+              "order": 1
+            },
+            {
+              "id": 65,
+              "order": 1
+            },
+            {
+              "id": 189,
+              "order": 2
+            },
+            {
+              "id": 71,
+              "order": 4
+            }
+          ],
+          "name": "CSU",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 11,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 33,
+              "order": 1
+            },
+            {
+              "id": 65,
+              "order": 2
+            },
+            {
+              "id": 189,
+              "order": 3
+            },
+            {
+              "id": 71,
+              "order": 4
+            }
+          ],
+          "name": "CSU",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 3,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 11,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 26,
+              "order": 1
+            },
+            {
+              "id": 189,
+              "order": 2
+            },
+            {
+              "id": 216,
+              "order": 4
+            },
+            {
+              "id": 71,
+              "order": 5
+            }
+          ],
+          "name": "CSU",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 4,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 11,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 31,
+              "order": 1
+            },
+            {
+              "id": 28,
+              "order": 2
+            },
+            {
+              "id": 189,
+              "order": 3
+            },
+            {
+              "id": 65,
+              "order": 5
+            },
+            {
+              "id": 71,
+              "order": 6
+            }
+          ],
+          "name": "CSU",
+          "skills": [
+            {
+              "id": 189,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 5,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 14,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 103,
+              "order": 4
+            },
+            {
+              "id": 65,
+              "order": 1
+            },
+            {
+              "id": 189,
+              "order": 2
+            },
+            {
+              "id": 71,
+              "order": 5
+            }
+          ],
+          "name": "CSU",
+          "skills": [
+            {
+              "id": 189,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "csu-corporate-security-unit",
+  "filters": {
+    "categories": [
+      11
+    ],
+    "skills": [
+      55,
+      67,
+      189
+    ],
+    "equip": [],
+    "chars": [
+      1,
+      3,
+      5
+    ],
+    "types": [
+      1
+    ],
+    "weapons": [
+      26,
+      28,
+      31,
+      33,
+      65,
+      71,
+      103,
+      109,
+      189,
+      216
+    ],
+    "ammunition": [
+      2,
+      3,
+      8,
+      9,
+      37
+    ]
+  },
+  "factions": [
+    104,
+    202,
+    703,
+    905,
+    907,
+    909
+  ]
+}

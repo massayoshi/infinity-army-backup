@@ -8,7 +8,7 @@
   "profileGroups": [
     {
       "id": 1,
-      "category": 3,
+      "category": 8,
       "isc": "Reinf. Apaches",
       "notes": null,
       "profiles": [
@@ -43,6 +43,14 @@
             {
               "id": 250,
               "order": 1,
+              "q": 1
+            },
+            {
+              "id": 201,
+              "order": 2,
+              "extra": [
+                8
+              ],
               "q": 1
             },
             {
@@ -127,7 +135,7 @@
               "order": 3
             },
             {
-              "id": 6,
+              "id": 172,
               "order": 4
             }
           ],
@@ -165,21 +173,12 @@
               "order": 3
             },
             {
-              "id": 6,
+              "id": 172,
               "order": 4
             }
           ],
           "name": "APACHE REINF.",
-          "skills": [
-            {
-              "extra": [
-                8
-              ],
-              "id": 201,
-              "order": 1,
-              "q": 1
-            }
-          ],
+          "skills": [],
           "peripheral": []
         },
         {
@@ -196,7 +195,7 @@
             }
           ],
           "includes": [],
-          "points": 17,
+          "points": 18,
           "swc": "0",
           "weapons": [
             {
@@ -204,25 +203,20 @@
               "order": 1
             },
             {
-              "id": 107,
+              "id": 44,
               "order": 2
             },
             {
-              "id": 6,
+              "id": 107,
               "order": 3
+            },
+            {
+              "id": 172,
+              "order": 4
             }
           ],
           "name": "APACHE REINF.",
-          "skills": [
-            {
-              "extra": [
-                8
-              ],
-              "id": 201,
-              "order": 1,
-              "q": 1
-            }
-          ],
+          "skills": [],
           "peripheral": []
         }
       ]
@@ -232,7 +226,7 @@
   "slug": "reinf-apaches",
   "filters": {
     "categories": [
-      3
+      8
     ],
     "skills": [
       40,
@@ -253,18 +247,18 @@
       7
     ],
     "weapons": [
-      6,
       18,
       28,
       31,
       44,
       80,
-      107
+      107,
+      172
     ],
     "ammunition": [
       2,
-      3,
-      8
+      8,
+      30
     ]
   },
   "factions": [

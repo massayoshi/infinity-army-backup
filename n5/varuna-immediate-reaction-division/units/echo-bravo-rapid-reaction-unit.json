@@ -1,0 +1,300 @@
+{
+  "id": 1214,
+  "idArmy": 66,
+  "canonical": 101,
+  "isc": "Echo-Bravo, Rapid Reaction Unit",
+  "iscAbbr": null,
+  "name": "ECHO-BRAVO, Rapid Reaction Unit",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 3,
+      "isc": "Echo-Bravo, Rapid Reaction Unit",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 1,
+          "ava": 3,
+          "bs": 13,
+          "bts": 3,
+          "cc": 15,
+          "chars": [
+            1,
+            3,
+            5
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/echo-bravo-rapid-reaction-unit-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 11,
+          "s": 2,
+          "str": false,
+          "type": 1,
+          "w": 1,
+          "wip": 12,
+          "name": "ECHO-BRAVO, Rapid Reaction Unit",
+          "notes": null,
+          "skills": [
+            {
+              "id": 33,
+              "order": 1
+            },
+            {
+              "id": 215,
+              "order": 2,
+              "extra": [
+                44
+              ],
+              "q": 1
+            },
+            {
+              "id": 58,
+              "order": 3,
+              "extra": [
+                35
+              ],
+              "q": 1
+            },
+            {
+              "id": 191,
+              "order": 4,
+              "extra": [
+                6
+              ],
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 26,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 69,
+              "order": 1
+            },
+            {
+              "id": 5,
+              "order": 2
+            },
+            {
+              "id": 88,
+              "order": 4
+            },
+            {
+              "id": 26,
+              "order": 3
+            }
+          ],
+          "name": "ECHO-BRAVO",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 25,
+          "swc": "1",
+          "weapons": [
+            {
+              "id": 69,
+              "order": 1
+            },
+            {
+              "id": 5,
+              "order": 2
+            },
+            {
+              "id": 152,
+              "order": 3
+            }
+          ],
+          "name": "ECHO-BRAVO",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 3,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 106,
+              "order": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 27,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 69,
+              "order": 1
+            },
+            {
+              "id": 5,
+              "order": 2
+            },
+            {
+              "id": 33,
+              "order": 3
+            },
+            {
+              "id": 28,
+              "order": 4
+            },
+            {
+              "id": 182,
+              "order": 5
+            }
+          ],
+          "name": "ECHO-BRAVO",
+          "skills": [
+            {
+              "id": 64,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 4,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 100,
+              "order": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 26,
+          "swc": "0.5",
+          "weapons": [
+            {
+              "id": 33,
+              "order": 1
+            },
+            {
+              "id": 68,
+              "order": 2
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            }
+          ],
+          "name": "ECHO-BRAVO",
+          "skills": [
+            {
+              "id": 1000,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "echo-bravo-rapid-reaction-unit",
+  "filters": {
+    "categories": [
+      3
+    ],
+    "skills": [
+      33,
+      58,
+      64,
+      191,
+      215,
+      1000
+    ],
+    "equip": [
+      100,
+      106
+    ],
+    "chars": [
+      1,
+      3,
+      5
+    ],
+    "types": [
+      1
+    ],
+    "weapons": [
+      5,
+      26,
+      28,
+      33,
+      68,
+      69,
+      88,
+      152,
+      182
+    ],
+    "ammunition": [
+      2,
+      3,
+      8,
+      13,
+      14
+    ]
+  },
+  "factions": [
+    105
+  ]
+}

@@ -53,18 +53,18 @@
               "q": 1
             },
             {
-              "id": 161,
+              "id": 58,
               "order": 3,
               "extra": [
-                22
+                50
               ],
               "q": 1
             },
             {
-              "id": 162,
+              "id": 201,
               "order": 4,
               "extra": [
-                30
+                308
               ],
               "q": 1
             },
@@ -92,45 +92,6 @@
       ],
       "options": [
         {
-          "id": 1,
-          "chars": [],
-          "disabled": false,
-          "equip": [],
-          "minis": 1,
-          "orders": [
-            {
-              "type": "REGULAR",
-              "list": 1,
-              "total": 1
-            },
-            {
-              "type": "IMPETUOUS",
-              "list": 1,
-              "total": 1
-            }
-          ],
-          "includes": [],
-          "points": 22,
-          "swc": "0",
-          "weapons": [
-            {
-              "id": 26,
-              "order": 1
-            },
-            {
-              "id": 212,
-              "order": 2
-            },
-            {
-              "id": 11,
-              "order": 3
-            }
-          ],
-          "name": "KNIGHT OF MONTESA",
-          "skills": [],
-          "peripheral": []
-        },
-        {
           "id": 2,
           "chars": [],
           "disabled": false,
@@ -149,8 +110,8 @@
             }
           ],
           "includes": [],
-          "points": 30,
-          "swc": "1",
+          "points": 32,
+          "swc": "1.5",
           "weapons": [
             {
               "id": 152,
@@ -166,7 +127,16 @@
             }
           ],
           "name": "KNIGHT OF MONTESA",
-          "skills": [],
+          "skills": [
+            {
+              "extra": [
+                22
+              ],
+              "id": 161,
+              "order": 1,
+              "q": 1
+            }
+          ],
           "peripheral": []
         },
         {
@@ -194,7 +164,7 @@
             }
           ],
           "includes": [],
-          "points": 24,
+          "points": 26,
           "swc": "0",
           "weapons": [
             {
@@ -216,6 +186,69 @@
               "id": 64,
               "order": 1,
               "q": 1
+            },
+            {
+              "extra": [
+                22
+              ],
+              "id": 161,
+              "order": 2,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 5,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 106,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "IMPETUOUS",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 20,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 212,
+              "order": 2
+            },
+            {
+              "id": 11,
+              "order": 3
+            },
+            {
+              "id": 26,
+              "order": 1
+            },
+            {
+              "id": 14,
+              "order": 4
+            }
+          ],
+          "name": "KNIGHTS OF MONTESA FTO",
+          "skills": [
+            {
+              "id": 64,
+              "order": 1,
+              "q": 1
             }
           ],
           "peripheral": []
@@ -232,10 +265,11 @@
     "skills": [
       20,
       28,
+      58,
       64,
       83,
       161,
-      162,
+      201,
       256,
       268
     ],
@@ -253,6 +287,7 @@
     ],
     "weapons": [
       11,
+      14,
       26,
       152,
       212
@@ -261,10 +296,13 @@
       2,
       3,
       8,
-      9
+      9,
+      14
     ]
   },
   "factions": [
-    103
+    102,
+    103,
+    105
   ]
 }
