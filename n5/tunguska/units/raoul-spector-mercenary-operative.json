@@ -45,14 +45,20 @@
           "s": 2,
           "str": false,
           "type": 1,
-          "w": 1,
+          "w": 2,
           "wip": 13,
           "name": "RAOUL SPECTOR, Mercenary Operative",
           "notes": null,
           "skills": [
             {
-              "id": 20,
-              "order": 1
+              "id": 21,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 21,
+              "order": 1,
+              "q": 1
             },
             {
               "id": 84,
@@ -78,11 +84,6 @@
               "q": 1
             },
             {
-              "id": 86,
-              "order": 7,
-              "q": 1
-            },
-            {
               "id": 74,
               "order": 8,
               "extra": [
@@ -93,6 +94,22 @@
             {
               "id": 39,
               "order": 9,
+              "q": 1
+            },
+            {
+              "id": 40,
+              "order": 10,
+              "extra": [
+                23
+              ],
+              "q": 1
+            },
+            {
+              "id": 266,
+              "order": 11,
+              "extra": [
+                310
+              ],
               "q": 1
             }
           ],
@@ -114,16 +131,12 @@
             }
           ],
           "includes": [],
-          "points": 32,
+          "points": 33,
           "swc": "0",
           "weapons": [
             {
               "id": 26,
               "order": 1
-            },
-            {
-              "id": 96,
-              "order": 2
             },
             {
               "id": 212,
@@ -132,6 +145,10 @@
             {
               "id": 7,
               "order": 4
+            },
+            {
+              "id": 96,
+              "order": 2
             }
           ],
           "name": "SPECTOR",
@@ -169,16 +186,16 @@
               "order": 1
             },
             {
-              "id": 96,
-              "order": 2
-            },
-            {
               "id": 212,
               "order": 3
             },
             {
               "id": 7,
               "order": 4
+            },
+            {
+              "id": 96,
+              "order": 2
             }
           ],
           "name": "SPECTOR FTO",
@@ -201,17 +218,18 @@
       10
     ],
     "skills": [
-      20,
+      21,
       28,
       33,
       35,
       39,
+      40,
       74,
       84,
-      86,
       164,
       189,
-      258
+      258,
+      266
     ],
     "equip": [
       246

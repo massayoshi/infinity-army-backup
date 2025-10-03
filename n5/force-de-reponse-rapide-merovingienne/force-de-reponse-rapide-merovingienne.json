@@ -1,5 +1,5 @@
 {
-  "version": "7.25275.395",
+  "version": "7.25275.437",
   "units": [
     {
       "id": 1524,
@@ -1224,7 +1224,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 7
+                  "id": 4
                 }
               ]
             }
@@ -1927,6 +1927,406 @@
       ]
     },
     {
+      "id": 300,
+      "idArmy": 15,
+      "canonical": 1,
+      "isc": "Anaconda, Mercenary TAG Squad",
+      "iscAbbr": "Anaconda, Merc. TAG Squad",
+      "name": "ANACONDA, Mercenary TAG Squad",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Anaconda, Mercenary TAG Squad",
+          "profiles": [
+            {
+              "bts": 6,
+              "cc": 21,
+              "move": [
+                15,
+                5
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 4,
+              "ava": 2,
+              "str": true,
+              "bs": 13,
+              "s": 7,
+              "equip": [
+                {
+                  "extra": [
+                    7
+                  ],
+                  "id": 239,
+                  "order": 1
+                }
+              ],
+              "w": 3,
+              "ph": 16,
+              "name": "ANACONDA, Mercenary TAG Squad",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/anaconda-merc-tag-squad-1-1.svg",
+              "id": 1,
+              "arm": 7,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                5,
+                21
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "q": 1,
+                  "extra": [
+                    305
+                  ],
+                  "id": 201,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 84,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    27
+                  ],
+                  "id": 40,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    27
+                  ],
+                  "id": 254,
+                  "order": 4
+                },
+                {
+                  "q": 1,
+                  "id": 213,
+                  "order": 5
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    321
+                  ],
+                  "id": 246,
+                  "order": 6
+                },
+                {
+                  "q": 1,
+                  "id": 267,
+                  "order": 7
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    249
+                  ],
+                  "id": 162,
+                  "order": 8
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [
+                {
+                  "q": 1,
+                  "group": 2,
+                  "option": 1
+                }
+              ],
+              "minis": 1,
+              "points": 59,
+              "equip": [],
+              "name": "ANACONDA",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "TACTICAL",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 157,
+                  "order": 1
+                },
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 57,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    249
+                  ],
+                  "id": 207,
+                  "order": 3
+                },
+                {
+                  "extra": [
+                    311
+                  ],
+                  "id": 11,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "1.5",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [
+                {
+                  "q": 1,
+                  "group": 2,
+                  "option": 1
+                }
+              ],
+              "minis": 1,
+              "points": 59,
+              "equip": [],
+              "name": "ANACONDA",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "TACTICAL",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "id": 2,
+                  "order": 1
+                },
+                {
+                  "extra": [
+                    256
+                  ],
+                  "id": 28,
+                  "order": 2
+                },
+                {
+                  "id": 68,
+                  "order": 3
+                },
+                {
+                  "extra": [
+                    311
+                  ],
+                  "id": 11,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "1.5",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 11
+        },
+        {
+          "notes": null,
+          "isc": null,
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 13,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 1,
+              "ava": -1,
+              "str": false,
+              "bs": 12,
+              "s": 2,
+              "equip": [],
+              "w": 3,
+              "ph": 10,
+              "name": "ANACONDA OPERATOR",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/anaconda-merc-tag-squad-2-1.svg",
+              "id": 1,
+              "arm": 1,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                5
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "id": 84,
+                  "order": 1
+                },
+                {
+                  "id": 189,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "id": 213,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "id": 267,
+                  "order": 4
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    6
+                  ],
+                  "id": 28,
+                  "order": 5
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 59,
+              "equip": [],
+              "name": "OPERATOR",
+              "disabled": true,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "TACTICAL",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 74,
+                  "order": 1
+                },
+                {
+                  "id": 195,
+                  "order": 2
+                },
+                {
+                  "id": 212,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "-",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 2,
+          "category": 11
+        }
+      ],
+      "options": [],
+      "slug": "anaconda-merc-tag-squad",
+      "filters": {
+        "categories": [
+          11
+        ],
+        "skills": [
+          28,
+          40,
+          84,
+          162,
+          189,
+          201,
+          213,
+          246,
+          254,
+          267
+        ],
+        "equip": [
+          239
+        ],
+        "chars": [
+          1,
+          3,
+          5,
+          21
+        ],
+        "types": [
+          1,
+          4
+        ],
+        "weapons": [
+          2,
+          5,
+          11,
+          28,
+          57,
+          68,
+          74,
+          157,
+          195,
+          207,
+          212
+        ],
+        "ammunition": [
+          2,
+          3,
+          9,
+          13,
+          21
+        ]
+      },
+      "factions": [
+        303,
+        504,
+        902,
+        905,
+        906,
+        909
+      ]
+    },
+    {
       "id": 265,
       "idArmy": 39,
       "canonical": 1,
@@ -2405,406 +2805,6 @@
         1101,
         1102,
         1103
-      ]
-    },
-    {
-      "id": 300,
-      "idArmy": 15,
-      "canonical": 1,
-      "isc": "Anaconda, Mercenary TAG Squad",
-      "iscAbbr": "Anaconda, Merc. TAG Squad",
-      "name": "ANACONDA, Mercenary TAG Squad",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Anaconda, Mercenary TAG Squad",
-          "profiles": [
-            {
-              "bts": 6,
-              "cc": 21,
-              "move": [
-                15,
-                5
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 4,
-              "ava": 2,
-              "str": true,
-              "bs": 13,
-              "s": 7,
-              "equip": [
-                {
-                  "extra": [
-                    7
-                  ],
-                  "id": 239,
-                  "order": 1
-                }
-              ],
-              "w": 3,
-              "ph": 16,
-              "name": "ANACONDA, Mercenary TAG Squad",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/anaconda-merc-tag-squad-1-1.svg",
-              "id": 1,
-              "arm": 7,
-              "weapons": [],
-              "chars": [
-                1,
-                3,
-                5,
-                21
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "q": 1,
-                  "extra": [
-                    305
-                  ],
-                  "id": 201,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "id": 84,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    27
-                  ],
-                  "id": 40,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    27
-                  ],
-                  "id": 254,
-                  "order": 4
-                },
-                {
-                  "q": 1,
-                  "id": 213,
-                  "order": 5
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    321
-                  ],
-                  "id": 246,
-                  "order": 6
-                },
-                {
-                  "q": 1,
-                  "id": 267,
-                  "order": 7
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    249
-                  ],
-                  "id": 162,
-                  "order": 8
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [
-                {
-                  "q": 1,
-                  "group": 2,
-                  "option": 1
-                }
-              ],
-              "minis": 1,
-              "points": 59,
-              "equip": [],
-              "name": "ANACONDA",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "TACTICAL",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 157,
-                  "order": 1
-                },
-                {
-                  "extra": [
-                    8
-                  ],
-                  "id": 57,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    249
-                  ],
-                  "id": 207,
-                  "order": 3
-                },
-                {
-                  "extra": [
-                    311
-                  ],
-                  "id": 11,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "1.5",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [
-                {
-                  "q": 1,
-                  "group": 2,
-                  "option": 1
-                }
-              ],
-              "minis": 1,
-              "points": 59,
-              "equip": [],
-              "name": "ANACONDA",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "TACTICAL",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "id": 2,
-                  "order": 1
-                },
-                {
-                  "extra": [
-                    256
-                  ],
-                  "id": 28,
-                  "order": 2
-                },
-                {
-                  "id": 68,
-                  "order": 3
-                },
-                {
-                  "extra": [
-                    311
-                  ],
-                  "id": 11,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "1.5",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 11
-        },
-        {
-          "notes": null,
-          "isc": null,
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 13,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 1,
-              "ava": -1,
-              "str": false,
-              "bs": 12,
-              "s": 2,
-              "equip": [],
-              "w": 3,
-              "ph": 10,
-              "name": "ANACONDA OPERATOR",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/anaconda-merc-tag-squad-2-1.svg",
-              "id": 1,
-              "arm": 1,
-              "weapons": [],
-              "chars": [
-                1,
-                3,
-                5
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "id": 84,
-                  "order": 1
-                },
-                {
-                  "id": 189,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "id": 213,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "id": 267,
-                  "order": 4
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    6
-                  ],
-                  "id": 28,
-                  "order": 5
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 59,
-              "equip": [],
-              "name": "OPERATOR",
-              "disabled": true,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "TACTICAL",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 74,
-                  "order": 1
-                },
-                {
-                  "id": 195,
-                  "order": 2
-                },
-                {
-                  "id": 212,
-                  "order": 3
-                },
-                {
-                  "id": 5,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "-",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 2,
-          "category": 11
-        }
-      ],
-      "options": [],
-      "slug": "anaconda-merc-tag-squad",
-      "filters": {
-        "categories": [
-          11
-        ],
-        "skills": [
-          28,
-          40,
-          84,
-          162,
-          189,
-          201,
-          213,
-          246,
-          254,
-          267
-        ],
-        "equip": [
-          239
-        ],
-        "chars": [
-          1,
-          3,
-          5,
-          21
-        ],
-        "types": [
-          1,
-          4
-        ],
-        "weapons": [
-          2,
-          5,
-          11,
-          28,
-          57,
-          68,
-          74,
-          157,
-          195,
-          207,
-          212
-        ],
-        "ammunition": [
-          2,
-          3,
-          9,
-          13,
-          21
-        ]
-      },
-      "factions": [
-        303,
-        504,
-        902,
-        905,
-        906,
-        909
       ]
     },
     {
@@ -3920,548 +3920,6 @@
       ]
     },
     {
-      "id": 233,
-      "idArmy": 7,
-      "canonical": 301,
-      "isc": "Moblots",
-      "iscAbbr": null,
-      "name": "13éme MOBLOTS",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Moblots",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 16,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 3,
-              "ava": 5,
-              "str": false,
-              "bs": 13,
-              "s": 2,
-              "equip": [],
-              "w": 1,
-              "ph": 12,
-              "name": "13éme MOBLOTS",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/moblots-1-1.svg",
-              "id": 1,
-              "arm": 3,
-              "weapons": [],
-              "chars": [
-                2,
-                3,
-                5,
-                24
-              ],
-              "wip": 14,
-              "skills": [
-                {
-                  "q": 1,
-                  "extra": [
-                    30
-                  ],
-                  "id": 201,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    308
-                  ],
-                  "id": 40,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    30
-                  ],
-                  "id": 162,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    37
-                  ],
-                  "id": 58,
-                  "order": 4
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    6
-                  ],
-                  "id": 28,
-                  "order": 5
-                },
-                {
-                  "q": 1,
-                  "id": 262,
-                  "order": 6
-                },
-                {
-                  "q": 1,
-                  "id": 262,
-                  "order": 6
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    244
-                  ],
-                  "id": 273,
-                  "order": 7
-                },
-                {
-                  "q": 1,
-                  "id": 213,
-                  "order": 8
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    327
-                  ],
-                  "id": 162,
-                  "order": 9
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 32,
-              "equip": [],
-              "name": "MOBLOT",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "TACTICAL",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "id": 2,
-                  "order": 1
-                },
-                {
-                  "id": 212,
-                  "order": 1
-                },
-                {
-                  "id": 5,
-                  "order": 2
-                }
-              ],
-              "chars": [],
-              "swc": "1.5",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 27,
-              "equip": [],
-              "name": "MOBLOT",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "TACTICAL",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 3,
-              "weapons": [
-                {
-                  "id": 32,
-                  "order": 1
-                },
-                {
-                  "id": 28,
-                  "order": 2
-                },
-                {
-                  "id": 82,
-                  "order": 3
-                },
-                {
-                  "id": 212,
-                  "order": 4
-                },
-                {
-                  "id": 5,
-                  "order": 5
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 31,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 238,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "id": 237,
-                  "order": 2
-                }
-              ],
-              "name": "MOBLOT",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "TACTICAL",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 7,
-              "weapons": [
-                {
-                  "id": 32,
-                  "order": 1
-                },
-                {
-                  "id": 28,
-                  "order": 2
-                },
-                {
-                  "id": 82,
-                  "order": 3
-                },
-                {
-                  "id": 197,
-                  "order": 4
-                },
-                {
-                  "id": 17,
-                  "order": 5
-                },
-                {
-                  "id": 212,
-                  "order": 6
-                },
-                {
-                  "id": 5,
-                  "order": 7
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "id": 49,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 29,
-              "equip": [
-                {
-                  "id": 106,
-                  "order": 1
-                }
-              ],
-              "name": "MOBLOT",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "TACTICAL",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 8,
-              "weapons": [
-                {
-                  "id": 32,
-                  "order": 1
-                },
-                {
-                  "id": 28,
-                  "order": 2
-                },
-                {
-                  "id": 82,
-                  "order": 3
-                },
-                {
-                  "id": 212,
-                  "order": 4
-                },
-                {
-                  "id": 5,
-                  "order": 5
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 64,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 27,
-              "equip": [],
-              "name": "MOBLOT",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "TACTICAL",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "LIEUTENANT",
-                  "list": 0,
-                  "total": 1
-                }
-              ],
-              "id": 13,
-              "weapons": [
-                {
-                  "id": 32,
-                  "order": 1
-                },
-                {
-                  "id": 28,
-                  "order": 2
-                },
-                {
-                  "id": 82,
-                  "order": 3
-                },
-                {
-                  "id": 212,
-                  "order": 4
-                },
-                {
-                  "id": 5,
-                  "order": 5
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "id": 119,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 32,
-              "equip": [],
-              "name": "MOBLOT",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "TACTICAL",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "LIEUTENANT",
-                  "list": 0,
-                  "total": 1
-                }
-              ],
-              "id": 14,
-              "weapons": [
-                {
-                  "id": 2,
-                  "order": 1
-                },
-                {
-                  "id": 212,
-                  "order": 2
-                },
-                {
-                  "id": 5,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "1.5",
-              "skills": [
-                {
-                  "id": 119,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 32,
-              "equip": [],
-              "name": "MOBLOT",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "TACTICAL",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 15,
-              "weapons": [
-                {
-                  "extra": [
-                    302
-                  ],
-                  "id": 157,
-                  "order": 1
-                },
-                {
-                  "id": 212,
-                  "order": 2
-                },
-                {
-                  "id": 5,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "1.5",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 4
-        }
-      ],
-      "options": [],
-      "slug": "moblots",
-      "filters": {
-        "categories": [
-          4
-        ],
-        "skills": [
-          28,
-          40,
-          49,
-          58,
-          64,
-          119,
-          162,
-          201,
-          213,
-          262,
-          273
-        ],
-        "equip": [
-          106,
-          237,
-          238
-        ],
-        "chars": [
-          2,
-          3,
-          5,
-          24
-        ],
-        "types": [
-          3
-        ],
-        "weapons": [
-          2,
-          5,
-          17,
-          28,
-          32,
-          82,
-          157,
-          197,
-          212
-        ],
-        "ammunition": [
-          2,
-          3,
-          13,
-          14
-        ]
-      },
-      "factions": [
-        301,
-        303
-      ]
-    },
-    {
       "id": 228,
       "idArmy": 2,
       "canonical": 301,
@@ -5144,6 +4602,543 @@
         301,
         303,
         305
+      ]
+    },
+    {
+      "id": 233,
+      "idArmy": 7,
+      "canonical": 301,
+      "isc": "Moblots",
+      "iscAbbr": null,
+      "name": "13éme MOBLOTS",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Moblots",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 16,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 3,
+              "ava": 5,
+              "str": false,
+              "bs": 13,
+              "s": 2,
+              "equip": [],
+              "w": 1,
+              "ph": 12,
+              "name": "13éme MOBLOTS",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/moblots-1-1.svg",
+              "id": 1,
+              "arm": 3,
+              "weapons": [],
+              "chars": [
+                2,
+                3,
+                5,
+                24
+              ],
+              "wip": 14,
+              "skills": [
+                {
+                  "q": 1,
+                  "extra": [
+                    30
+                  ],
+                  "id": 201,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    308
+                  ],
+                  "id": 40,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    30
+                  ],
+                  "id": 162,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    37
+                  ],
+                  "id": 58,
+                  "order": 4
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    6
+                  ],
+                  "id": 28,
+                  "order": 5
+                },
+                {
+                  "q": 1,
+                  "id": 262,
+                  "order": 6
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    244
+                  ],
+                  "id": 273,
+                  "order": 7
+                },
+                {
+                  "q": 1,
+                  "id": 213,
+                  "order": 8
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    327
+                  ],
+                  "id": 162,
+                  "order": 9
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 32,
+              "equip": [],
+              "name": "MOBLOT",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "TACTICAL",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "id": 2,
+                  "order": 1
+                },
+                {
+                  "id": 212,
+                  "order": 1
+                },
+                {
+                  "id": 5,
+                  "order": 2
+                }
+              ],
+              "chars": [],
+              "swc": "1.5",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 27,
+              "equip": [],
+              "name": "MOBLOT",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "TACTICAL",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 3,
+              "weapons": [
+                {
+                  "id": 32,
+                  "order": 1
+                },
+                {
+                  "id": 28,
+                  "order": 2
+                },
+                {
+                  "id": 82,
+                  "order": 3
+                },
+                {
+                  "id": 212,
+                  "order": 4
+                },
+                {
+                  "id": 5,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 31,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 238,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 237,
+                  "order": 2
+                }
+              ],
+              "name": "MOBLOT",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "TACTICAL",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 7,
+              "weapons": [
+                {
+                  "id": 32,
+                  "order": 1
+                },
+                {
+                  "id": 28,
+                  "order": 2
+                },
+                {
+                  "id": 82,
+                  "order": 3
+                },
+                {
+                  "id": 197,
+                  "order": 4
+                },
+                {
+                  "id": 17,
+                  "order": 5
+                },
+                {
+                  "id": 212,
+                  "order": 6
+                },
+                {
+                  "id": 5,
+                  "order": 7
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "id": 49,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 29,
+              "equip": [
+                {
+                  "id": 106,
+                  "order": 1
+                }
+              ],
+              "name": "MOBLOT",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "TACTICAL",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 8,
+              "weapons": [
+                {
+                  "id": 32,
+                  "order": 1
+                },
+                {
+                  "id": 28,
+                  "order": 2
+                },
+                {
+                  "id": 82,
+                  "order": 3
+                },
+                {
+                  "id": 212,
+                  "order": 4
+                },
+                {
+                  "id": 5,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 64,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 27,
+              "equip": [],
+              "name": "MOBLOT",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "TACTICAL",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "LIEUTENANT",
+                  "list": 0,
+                  "total": 1
+                }
+              ],
+              "id": 13,
+              "weapons": [
+                {
+                  "id": 32,
+                  "order": 1
+                },
+                {
+                  "id": 28,
+                  "order": 2
+                },
+                {
+                  "id": 82,
+                  "order": 3
+                },
+                {
+                  "id": 212,
+                  "order": 4
+                },
+                {
+                  "id": 5,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "id": 119,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 32,
+              "equip": [],
+              "name": "MOBLOT",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "TACTICAL",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "LIEUTENANT",
+                  "list": 0,
+                  "total": 1
+                }
+              ],
+              "id": 14,
+              "weapons": [
+                {
+                  "id": 2,
+                  "order": 1
+                },
+                {
+                  "id": 212,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "1.5",
+              "skills": [
+                {
+                  "id": 119,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 32,
+              "equip": [],
+              "name": "MOBLOT",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "TACTICAL",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 15,
+              "weapons": [
+                {
+                  "extra": [
+                    302
+                  ],
+                  "id": 157,
+                  "order": 1
+                },
+                {
+                  "id": 212,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "1.5",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 4
+        }
+      ],
+      "options": [],
+      "slug": "moblots",
+      "filters": {
+        "categories": [
+          4
+        ],
+        "skills": [
+          28,
+          40,
+          49,
+          58,
+          64,
+          119,
+          162,
+          201,
+          213,
+          262,
+          273
+        ],
+        "equip": [
+          106,
+          237,
+          238
+        ],
+        "chars": [
+          2,
+          3,
+          5,
+          24
+        ],
+        "types": [
+          3
+        ],
+        "weapons": [
+          2,
+          5,
+          17,
+          28,
+          32,
+          82,
+          157,
+          197,
+          212
+        ],
+        "ammunition": [
+          2,
+          3,
+          13,
+          14
+        ]
+      },
+      "factions": [
+        301,
+        303
       ]
     },
     {
@@ -6028,207 +6023,6 @@
         1101,
         1102,
         1103
-      ]
-    },
-    {
-      "id": 1555,
-      "idArmy": 1555,
-      "canonical": 1,
-      "isc": "Wolfgang Amadeus Wolff, Wulver Bounty Hunter",
-      "iscAbbr": "Wolfgang Amadeus Wolff",
-      "name": "WOLFGANG AMADEUS WOLFF, Wulver Bounty Hunter",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Wolfgang Amadeus Wolff, Wulver Bounty Hunter",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 22,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 7,
-              "ava": 1,
-              "str": false,
-              "bs": 12,
-              "s": 2,
-              "equip": [],
-              "w": 2,
-              "ph": 14,
-              "name": "WOLFGANG AMADEUS WOLFF, Wulver Bounty Hunter",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/wolfgang-amadeus-wolff-1-1.svg",
-              "id": 1,
-              "arm": 3,
-              "weapons": [],
-              "chars": [
-                2,
-                3
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "id": 21,
-                  "order": 1
-                },
-                {
-                  "extra": [
-                    1
-                  ],
-                  "id": 24,
-                  "order": 2
-                },
-                {
-                  "extra": [],
-                  "id": 84,
-                  "order": 3
-                },
-                {
-                  "extra": [
-                    23
-                  ],
-                  "id": 40,
-                  "order": 4
-                },
-                {
-                  "extra": [
-                    1
-                  ],
-                  "id": 40,
-                  "order": 5
-                },
-                {
-                  "extra": [],
-                  "id": 250,
-                  "order": 6
-                },
-                {
-                  "extra": [
-                    30
-                  ],
-                  "id": 162,
-                  "order": 7
-                },
-                {
-                  "extra": [],
-                  "id": 82,
-                  "order": 8
-                },
-                {
-                  "extra": [
-                    34
-                  ],
-                  "id": 58,
-                  "order": 9
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 35,
-              "equip": [],
-              "name": "WOLFGANG AMADEUS",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "extra": [
-                    8
-                  ],
-                  "id": 41,
-                  "order": 1
-                },
-                {
-                  "extra": [],
-                  "id": 80,
-                  "order": 2
-                },
-                {
-                  "id": 107,
-                  "order": 3
-                },
-                {
-                  "id": 11,
-                  "order": 4
-                },
-                {
-                  "extra": [
-                    7
-                  ],
-                  "id": 71,
-                  "order": 5
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 10
-        }
-      ],
-      "options": [],
-      "slug": "wolfgang-amadeus-wolff",
-      "filters": {
-        "categories": [
-          10
-        ],
-        "skills": [
-          21,
-          24,
-          40,
-          58,
-          82,
-          84,
-          162,
-          250
-        ],
-        "equip": [],
-        "chars": [
-          2,
-          3
-        ],
-        "types": [
-          7
-        ],
-        "weapons": [
-          11,
-          41,
-          71,
-          80,
-          107
-        ],
-        "ammunition": [
-          2,
-          3,
-          8,
-          9,
-          37
-        ]
-      },
-      "factions": [
-        303,
-        306,
-        501,
-        503,
-        504,
-        902
       ]
     },
     {
@@ -7148,6 +6942,241 @@
       "factions": [
         301,
         303
+      ]
+    },
+    {
+      "id": 1555,
+      "idArmy": 1555,
+      "canonical": 301,
+      "isc": "Wolfgang Amadeus Wolff, Wulver Bounty Hunter",
+      "iscAbbr": "Wolfgang Amadeus Wolff",
+      "name": "WOLFGANG AMADEUS WOLFF, Wulver Bounty Hunter",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Wolfgang Amadeus Wolff, Wulver Bounty Hunter",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 22,
+              "move": [
+                15,
+                5
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 7,
+              "ava": 1,
+              "str": false,
+              "bs": 12,
+              "s": 2,
+              "equip": [],
+              "w": 2,
+              "ph": 14,
+              "name": "WOLFGANG AMADEUS WOLFF, Wulver Bounty Hunter",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/wolfgang-amadeus-wolff-1-1.svg",
+              "id": 1,
+              "arm": 3,
+              "weapons": [],
+              "chars": [
+                2,
+                3
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "id": 21,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    292
+                  ],
+                  "id": 201,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    1
+                  ],
+                  "id": 24,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "id": 84,
+                  "order": 4
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    23
+                  ],
+                  "id": 40,
+                  "order": 5
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    1
+                  ],
+                  "id": 40,
+                  "order": 6
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    319
+                  ],
+                  "id": 162,
+                  "order": 7
+                },
+                {
+                  "q": 1,
+                  "id": 82,
+                  "order": 8
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    34
+                  ],
+                  "id": 58,
+                  "order": 9
+                },
+                {
+                  "q": 1,
+                  "id": 250,
+                  "order": 10
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    2
+                  ],
+                  "id": 131,
+                  "order": 11
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 34,
+              "equip": [],
+              "name": "WOLFGANG AMADEUS",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 107,
+                  "order": 3
+                },
+                {
+                  "extra": [
+                    7
+                  ],
+                  "id": 71,
+                  "order": 4
+                },
+                {
+                  "extra": [
+                    311
+                  ],
+                  "id": 11,
+                  "order": 5
+                },
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 41,
+                  "order": 1
+                },
+                {
+                  "id": 80,
+                  "order": 6
+                },
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 47,
+                  "order": 7
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 10
+        }
+      ],
+      "options": [],
+      "slug": "wolfgang-amadeus-wolff",
+      "filters": {
+        "categories": [
+          10
+        ],
+        "skills": [
+          21,
+          24,
+          40,
+          58,
+          82,
+          84,
+          131,
+          162,
+          201,
+          250
+        ],
+        "equip": [],
+        "chars": [
+          2,
+          3
+        ],
+        "types": [
+          7
+        ],
+        "weapons": [
+          11,
+          41,
+          47,
+          71,
+          80,
+          107
+        ],
+        "ammunition": [
+          2,
+          3,
+          8,
+          9,
+          14,
+          37
+        ]
+      },
+      "factions": [
+        303,
+        306,
+        501,
+        503,
+        504,
+        902
       ]
     },
     {
@@ -9361,7 +9390,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 8
+                  "id": 5
                 }
               ]
             },
@@ -9425,7 +9454,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 8,
+                  "id": 5,
                   "q": 2
                 }
               ]
@@ -11324,6 +11353,400 @@
       "factions": []
     },
     {
+      "id": 10300,
+      "idArmy": 10015,
+      "canonical": 1,
+      "isc": "Anaconda, Mercenary TAG Squad",
+      "iscAbbr": "Anaconda, Merc. TAG Squad",
+      "notes": null,
+      "name": "ANACONDA, Mercenary TAG Squad",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Anaconda, Mercenary TAG Squad",
+          "profiles": [
+            {
+              "bts": 6,
+              "cc": 21,
+              "move": [
+                15,
+                5
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 4,
+              "ava": 1,
+              "str": true,
+              "bs": 13,
+              "s": 7,
+              "equip": [
+                {
+                  "extra": [
+                    7
+                  ],
+                  "id": 239,
+                  "order": 1
+                }
+              ],
+              "w": 3,
+              "ph": 16,
+              "name": "ANACONDA, Mercenary TAG Squad",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/anaconda-merc-tag-squad-1-1.svg",
+              "id": 1,
+              "arm": 7,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                5,
+                21
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "q": 1,
+                  "extra": [
+                    305
+                  ],
+                  "id": 201,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 84,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    27
+                  ],
+                  "id": 40,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    27
+                  ],
+                  "id": 254,
+                  "order": 4
+                },
+                {
+                  "q": 1,
+                  "id": 213,
+                  "order": 5
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    321
+                  ],
+                  "id": 246,
+                  "order": 6
+                },
+                {
+                  "q": 1,
+                  "id": 267,
+                  "order": 7
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    249
+                  ],
+                  "id": 162,
+                  "order": 8
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [
+                {
+                  "q": 1,
+                  "group": 2,
+                  "option": 1
+                }
+              ],
+              "minis": 1,
+              "points": 59,
+              "equip": [],
+              "name": "ANACONDA",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "TACTICAL",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 157,
+                  "order": 1
+                },
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 57,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    249
+                  ],
+                  "id": 207,
+                  "order": 3
+                },
+                {
+                  "extra": [
+                    311
+                  ],
+                  "id": 11,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "1.5",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [
+                {
+                  "q": 1,
+                  "group": 2,
+                  "option": 1
+                }
+              ],
+              "minis": 1,
+              "points": 59,
+              "equip": [],
+              "name": "ANACONDA",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "TACTICAL",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "id": 2,
+                  "order": 1
+                },
+                {
+                  "extra": [
+                    256
+                  ],
+                  "id": 28,
+                  "order": 2
+                },
+                {
+                  "id": 68,
+                  "order": 3
+                },
+                {
+                  "extra": [
+                    311
+                  ],
+                  "id": 11,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "1.5",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 11
+        },
+        {
+          "notes": null,
+          "isc": null,
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 13,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 1,
+              "ava": -1,
+              "str": false,
+              "bs": 12,
+              "s": 2,
+              "equip": [],
+              "w": 3,
+              "ph": 10,
+              "name": "ANACONDA OPERATOR",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/anaconda-merc-tag-squad-2-1.svg",
+              "id": 1,
+              "arm": 1,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                5
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "id": 84,
+                  "order": 1
+                },
+                {
+                  "id": 189,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "id": 213,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "id": 267,
+                  "order": 4
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    6
+                  ],
+                  "id": 28,
+                  "order": 5
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 59,
+              "equip": [],
+              "name": "OPERATOR",
+              "disabled": true,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "TACTICAL",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 74,
+                  "order": 1
+                },
+                {
+                  "id": 195,
+                  "order": 2
+                },
+                {
+                  "id": 212,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "-",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 2,
+          "category": 11
+        }
+      ],
+      "options": [],
+      "slug": "merc-anaconda-merc-tag-squad",
+      "filters": {
+        "categories": [
+          11
+        ],
+        "skills": [
+          28,
+          40,
+          84,
+          162,
+          189,
+          201,
+          213,
+          246,
+          254,
+          267
+        ],
+        "equip": [
+          239
+        ],
+        "chars": [
+          1,
+          3,
+          5,
+          21
+        ],
+        "types": [
+          1,
+          4
+        ],
+        "weapons": [
+          2,
+          5,
+          11,
+          28,
+          57,
+          68,
+          74,
+          157,
+          195,
+          207,
+          212
+        ],
+        "ammunition": [
+          2,
+          3,
+          9,
+          13,
+          21
+        ]
+      },
+      "factions": []
+    },
+    {
       "id": 10265,
       "idArmy": 10039,
       "canonical": 1,
@@ -11800,7 +12223,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 9
+                  "id": 6
                 }
               ]
             },
@@ -11855,7 +12278,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 9
+                  "id": 6
                 }
               ]
             },
@@ -11910,7 +12333,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 9
+                  "id": 6
                 }
               ]
             },
@@ -11969,7 +12392,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 9
+                  "id": 6
                 }
               ]
             }
@@ -12113,400 +12536,6 @@
           2,
           3,
           13
-        ]
-      },
-      "factions": []
-    },
-    {
-      "id": 10300,
-      "idArmy": 10015,
-      "canonical": 1,
-      "isc": "Anaconda, Mercenary TAG Squad",
-      "iscAbbr": "Anaconda, Merc. TAG Squad",
-      "notes": null,
-      "name": "ANACONDA, Mercenary TAG Squad",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Anaconda, Mercenary TAG Squad",
-          "profiles": [
-            {
-              "bts": 6,
-              "cc": 21,
-              "move": [
-                15,
-                5
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 4,
-              "ava": 1,
-              "str": true,
-              "bs": 13,
-              "s": 7,
-              "equip": [
-                {
-                  "extra": [
-                    7
-                  ],
-                  "id": 239,
-                  "order": 1
-                }
-              ],
-              "w": 3,
-              "ph": 16,
-              "name": "ANACONDA, Mercenary TAG Squad",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/anaconda-merc-tag-squad-1-1.svg",
-              "id": 1,
-              "arm": 7,
-              "weapons": [],
-              "chars": [
-                1,
-                3,
-                5,
-                21
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "q": 1,
-                  "extra": [
-                    305
-                  ],
-                  "id": 201,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "id": 84,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    27
-                  ],
-                  "id": 40,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    27
-                  ],
-                  "id": 254,
-                  "order": 4
-                },
-                {
-                  "q": 1,
-                  "id": 213,
-                  "order": 5
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    321
-                  ],
-                  "id": 246,
-                  "order": 6
-                },
-                {
-                  "q": 1,
-                  "id": 267,
-                  "order": 7
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    249
-                  ],
-                  "id": 162,
-                  "order": 8
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [
-                {
-                  "q": 1,
-                  "group": 2,
-                  "option": 1
-                }
-              ],
-              "minis": 1,
-              "points": 59,
-              "equip": [],
-              "name": "ANACONDA",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "TACTICAL",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 157,
-                  "order": 1
-                },
-                {
-                  "extra": [
-                    8
-                  ],
-                  "id": 57,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    249
-                  ],
-                  "id": 207,
-                  "order": 3
-                },
-                {
-                  "extra": [
-                    311
-                  ],
-                  "id": 11,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "1.5",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [
-                {
-                  "q": 1,
-                  "group": 2,
-                  "option": 1
-                }
-              ],
-              "minis": 1,
-              "points": 59,
-              "equip": [],
-              "name": "ANACONDA",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "TACTICAL",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "id": 2,
-                  "order": 1
-                },
-                {
-                  "extra": [
-                    256
-                  ],
-                  "id": 28,
-                  "order": 2
-                },
-                {
-                  "id": 68,
-                  "order": 3
-                },
-                {
-                  "extra": [
-                    311
-                  ],
-                  "id": 11,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "1.5",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 11
-        },
-        {
-          "notes": null,
-          "isc": null,
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 13,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 1,
-              "ava": -1,
-              "str": false,
-              "bs": 12,
-              "s": 2,
-              "equip": [],
-              "w": 3,
-              "ph": 10,
-              "name": "ANACONDA OPERATOR",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/anaconda-merc-tag-squad-2-1.svg",
-              "id": 1,
-              "arm": 1,
-              "weapons": [],
-              "chars": [
-                1,
-                3,
-                5
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "id": 84,
-                  "order": 1
-                },
-                {
-                  "id": 189,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "id": 213,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "id": 267,
-                  "order": 4
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    6
-                  ],
-                  "id": 28,
-                  "order": 5
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 59,
-              "equip": [],
-              "name": "OPERATOR",
-              "disabled": true,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "TACTICAL",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 74,
-                  "order": 1
-                },
-                {
-                  "id": 195,
-                  "order": 2
-                },
-                {
-                  "id": 212,
-                  "order": 3
-                },
-                {
-                  "id": 5,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "-",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 2,
-          "category": 11
-        }
-      ],
-      "options": [],
-      "slug": "merc-anaconda-merc-tag-squad",
-      "filters": {
-        "categories": [
-          11
-        ],
-        "skills": [
-          28,
-          40,
-          84,
-          162,
-          189,
-          201,
-          213,
-          246,
-          254,
-          267
-        ],
-        "equip": [
-          239
-        ],
-        "chars": [
-          1,
-          3,
-          5,
-          21
-        ],
-        "types": [
-          1,
-          4
-        ],
-        "weapons": [
-          2,
-          5,
-          11,
-          28,
-          57,
-          68,
-          74,
-          157,
-          195,
-          207,
-          212
-        ],
-        "ammunition": [
-          2,
-          3,
-          9,
-          13,
-          21
         ]
       },
       "factions": []
@@ -12991,7 +13020,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 9
+                  "id": 6
                 }
               ]
             },
@@ -13043,7 +13072,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 9
+                  "id": 6
                 }
               ]
             },
@@ -13099,7 +13128,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 9
+                  "id": 6
                 }
               ]
             }
@@ -13879,6 +13908,168 @@
       "factions": []
     },
     {
+      "id": 10491,
+      "idArmy": 10027,
+      "canonical": 1,
+      "isc": "Avicenna, Mercenary Doctor",
+      "iscAbbr": null,
+      "notes": null,
+      "name": "AVICENNA, Mercenary Doctor",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Avicenna, Mercenary Doctor",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 16,
+              "move": [
+                15,
+                5
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 1,
+              "ava": 1,
+              "str": false,
+              "bs": 11,
+              "s": 2,
+              "equip": [
+                {
+                  "id": 106,
+                  "order": 1
+                }
+              ],
+              "w": 1,
+              "ph": 11,
+              "name": "AVICENNA, Mercenary Doctor",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/avicenna-mercenary-doctor-1-1.svg",
+              "id": 1,
+              "arm": 2,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                5
+              ],
+              "wip": 15,
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 84,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    319
+                  ],
+                  "id": 162,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    1
+                  ],
+                  "id": 53,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "id": 86,
+                  "order": 4
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 28,
+              "equip": [],
+              "name": "AVICENNA",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 33,
+                  "order": 1
+                },
+                {
+                  "id": 72,
+                  "order": 2
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                },
+                {
+                  "id": 65,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 10
+        }
+      ],
+      "options": [],
+      "slug": "merc-avicenna-mercenary-doctor",
+      "filters": {
+        "categories": [
+          10
+        ],
+        "skills": [
+          53,
+          84,
+          86,
+          162
+        ],
+        "equip": [
+          106
+        ],
+        "chars": [
+          1,
+          3,
+          5
+        ],
+        "types": [
+          1
+        ],
+        "weapons": [
+          5,
+          33,
+          65,
+          69,
+          72
+        ],
+        "ammunition": [
+          2,
+          29
+        ]
+      },
+      "factions": []
+    },
+    {
       "id": 10122,
       "idArmy": 10022,
       "canonical": 1,
@@ -14207,168 +14398,6 @@
           8,
           9,
           37
-        ]
-      },
-      "factions": []
-    },
-    {
-      "id": 10491,
-      "idArmy": 10027,
-      "canonical": 1,
-      "isc": "Avicenna, Mercenary Doctor",
-      "iscAbbr": null,
-      "notes": null,
-      "name": "AVICENNA, Mercenary Doctor",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Avicenna, Mercenary Doctor",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 16,
-              "move": [
-                15,
-                5
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 1,
-              "ava": 1,
-              "str": false,
-              "bs": 11,
-              "s": 2,
-              "equip": [
-                {
-                  "id": 106,
-                  "order": 1
-                }
-              ],
-              "w": 1,
-              "ph": 11,
-              "name": "AVICENNA, Mercenary Doctor",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/avicenna-mercenary-doctor-1-1.svg",
-              "id": 1,
-              "arm": 2,
-              "weapons": [],
-              "chars": [
-                1,
-                3,
-                5
-              ],
-              "wip": 15,
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 84,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    319
-                  ],
-                  "id": 162,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    1
-                  ],
-                  "id": 53,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "id": 86,
-                  "order": 4
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 28,
-              "equip": [],
-              "name": "AVICENNA",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 33,
-                  "order": 1
-                },
-                {
-                  "id": 72,
-                  "order": 2
-                },
-                {
-                  "id": 69,
-                  "order": 3
-                },
-                {
-                  "id": 5,
-                  "order": 4
-                },
-                {
-                  "id": 65,
-                  "order": 5
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 10
-        }
-      ],
-      "options": [],
-      "slug": "merc-avicenna-mercenary-doctor",
-      "filters": {
-        "categories": [
-          10
-        ],
-        "skills": [
-          53,
-          84,
-          86,
-          162
-        ],
-        "equip": [
-          106
-        ],
-        "chars": [
-          1,
-          3,
-          5
-        ],
-        "types": [
-          1
-        ],
-        "weapons": [
-          5,
-          33,
-          65,
-          69,
-          72
-        ],
-        "ammunition": [
-          2,
-          29
         ]
       },
       "factions": []
@@ -19519,16 +19548,16 @@
   "filters": {
     "peripheral": [
       {
-        "id": 7,
+        "id": 4,
         "name": "BÂTARD"
       },
       {
-        "id": 8,
+        "id": 5,
         "name": "JACKBOT",
         "mercs": true
       },
       {
-        "id": 9,
+        "id": 6,
         "name": "TURTLEMEK",
         "mercs": true
       }
@@ -20302,8 +20331,7 @@
       {
         "id": 131,
         "name": "Discover",
-        "wiki": "https://infinitythewiki.com/Discover?version=n4",
-        "mercs": true
+        "wiki": "https://infinitythewiki.com/Discover?version=n4"
       },
       {
         "id": 156,
@@ -21110,6 +21138,11 @@
         "type": "DISTANCE"
       },
       {
+        "id": 2,
+        "name": "+6",
+        "type": "TEXT"
+      },
+      {
         "id": 44,
         "name": "1",
         "type": "TEXT"
@@ -21151,6 +21184,11 @@
       {
         "id": 319,
         "name": "ARM",
+        "type": "TEXT"
+      },
+      {
+        "id": 292,
+        "name": "Continous Damage",
         "type": "TEXT"
       },
       {
@@ -21379,6 +21417,16 @@
       "category": 10
     },
     {
+      "id": 300,
+      "isc": "Anaconda, Merc. TAG Squad",
+      "idArmy": 15,
+      "name": "ANACONDA, Mercenary TAG Squad",
+      "slug": "anaconda-merc-tag-squad",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/anaconda-merc-tag-squad-1-1.svg",
+      "type": 4,
+      "category": 11
+    },
+    {
       "id": 265,
       "isc": "Wardrivers, Merc. Hackers",
       "idArmy": 39,
@@ -21396,16 +21444,6 @@
       "slug": "sacha-xenotech-hunters",
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/sacha-xenotech-hunters-1-1.svg",
       "type": 1,
-      "category": 11
-    },
-    {
-      "id": 300,
-      "isc": "Anaconda, Merc. TAG Squad",
-      "idArmy": 15,
-      "name": "ANACONDA, Mercenary TAG Squad",
-      "slug": "anaconda-merc-tag-squad",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/anaconda-merc-tag-squad-1-1.svg",
-      "type": 4,
       "category": 11
     },
     {
@@ -21439,16 +21477,6 @@
       "category": 8
     },
     {
-      "id": 233,
-      "isc": "Moblots",
-      "idArmy": 7,
-      "name": "13éme MOBLOTS",
-      "slug": "moblots",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/moblots-1-1.svg",
-      "type": 3,
-      "category": 4
-    },
-    {
       "id": 228,
       "isc": "Para-Commandos",
       "idArmy": 2,
@@ -21477,6 +21505,16 @@
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/vystrel-mobile-artillery-regiment-1-1.svg",
       "type": 5,
       "category": 8
+    },
+    {
+      "id": 233,
+      "isc": "Moblots",
+      "idArmy": 7,
+      "name": "13éme MOBLOTS",
+      "slug": "moblots",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/moblots-1-1.svg",
+      "type": 3,
+      "category": 4
     },
     {
       "id": 256,
@@ -21509,16 +21547,6 @@
       "category": 11
     },
     {
-      "id": 1555,
-      "isc": "Wolfgang Amadeus Wolff",
-      "idArmy": 1555,
-      "name": "WOLFGANG AMADEUS WOLFF, Wulver Bounty Hunter",
-      "slug": "wolfgang-amadeus-wolff",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/wolfgang-amadeus-wolff-1-1.svg",
-      "type": 7,
-      "category": 10
-    },
-    {
       "id": 257,
       "isc": "Traktor Mul",
       "idArmy": 31,
@@ -21546,6 +21574,16 @@
       "slug": "brigadier-jacques-bruant",
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/brigadier-jacques-bruant-1-1.svg",
       "type": 1,
+      "category": 10
+    },
+    {
+      "id": 1555,
+      "isc": "Wolfgang Amadeus Wolff",
+      "idArmy": 1555,
+      "name": "WOLFGANG AMADEUS WOLFF, Wulver Bounty Hunter",
+      "slug": "wolfgang-amadeus-wolff",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/wolfgang-amadeus-wolff-1-1.svg",
+      "type": 7,
       "category": 10
     },
     {
@@ -21709,6 +21747,16 @@
       "category": 11
     },
     {
+      "id": 10300,
+      "isc": "Anaconda, Merc. TAG Squad",
+      "idArmy": 10015,
+      "name": "ANACONDA, Mercenary TAG Squad",
+      "slug": "merc-anaconda-merc-tag-squad",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/anaconda-merc-tag-squad-1-1.svg",
+      "type": 4,
+      "category": 11
+    },
+    {
       "id": 10265,
       "isc": "Wardrivers, Merc. Hackers",
       "idArmy": 10039,
@@ -21725,16 +21773,6 @@
       "name": "TRIPHAMMER, Repurposed Industrial TAG",
       "slug": "merc-triphammers-repurposed-industrial-tags",
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/triphammers-repurposed-industrial-tags-1-1.svg",
-      "type": 4,
-      "category": 11
-    },
-    {
-      "id": 10300,
-      "isc": "Anaconda, Merc. TAG Squad",
-      "idArmy": 10015,
-      "name": "ANACONDA, Mercenary TAG Squad",
-      "slug": "merc-anaconda-merc-tag-squad",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/anaconda-merc-tag-squad-1-1.svg",
       "type": 4,
       "category": 11
     },
@@ -21779,16 +21817,6 @@
       "category": 10
     },
     {
-      "id": 10122,
-      "isc": "CSU, Corporate Security Unit",
-      "idArmy": 10022,
-      "name": "CSU, Corporate Security Unit",
-      "slug": "merc-csu-corporate-security-unit",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/csu-corporate-security-unit-1-1.svg",
-      "type": 1,
-      "category": 11
-    },
-    {
       "id": 10491,
       "isc": "Avicenna, Mercenary Doctor",
       "idArmy": 10027,
@@ -21797,6 +21825,16 @@
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/avicenna-mercenary-doctor-1-1.svg",
       "type": 1,
       "category": 10
+    },
+    {
+      "id": 10122,
+      "isc": "CSU, Corporate Security Unit",
+      "idArmy": 10022,
+      "name": "CSU, Corporate Security Unit",
+      "slug": "merc-csu-corporate-security-unit",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/csu-corporate-security-unit-1-1.svg",
+      "type": 1,
+      "category": 11
     },
     {
       "id": 11501,

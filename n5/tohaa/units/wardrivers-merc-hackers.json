@@ -51,6 +51,63 @@
       ],
       "options": [
         {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "extra": [
+                287
+              ],
+              "id": 100,
+              "order": 2,
+              "q": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 14,
+          "swc": "1",
+          "weapons": [
+            {
+              "id": 26,
+              "order": 1
+            },
+            {
+              "id": 72,
+              "order": 2
+            },
+            {
+              "id": 174,
+              "order": 3
+            },
+            {
+              "id": 69,
+              "order": 4
+            },
+            {
+              "id": 5,
+              "order": 5
+            }
+          ],
+          "name": "WARDRIVER ",
+          "skills": [
+            {
+              "id": 1000,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
           "id": 2,
           "chars": [],
           "disabled": false,
@@ -73,7 +130,7 @@
             }
           ],
           "includes": [],
-          "points": 14,
+          "points": 16,
           "swc": "1",
           "weapons": [
             {
@@ -81,20 +138,24 @@
               "order": 1
             },
             {
-              "id": 69,
+              "id": 72,
               "order": 2
             },
             {
-              "id": 5,
+              "id": 174,
               "order": 3
             },
             {
-              "id": 72,
+              "id": 208,
               "order": 4
             },
             {
-              "id": 174,
+              "id": 69,
               "order": 5
+            },
+            {
+              "id": 5,
+              "order": 6
             }
           ],
           "name": "WARDRIVER ",
@@ -102,62 +163,6 @@
             {
               "id": 1000,
               "order": 1
-            }
-          ],
-          "peripheral": []
-        },
-        {
-          "id": 4,
-          "chars": [],
-          "disabled": false,
-          "equip": [],
-          "minis": 1,
-          "orders": [
-            {
-              "type": "REGULAR",
-              "list": 1,
-              "total": 1
-            }
-          ],
-          "includes": [],
-          "points": 14,
-          "swc": "0",
-          "weapons": [
-            {
-              "id": 26,
-              "order": 1
-            },
-            {
-              "id": 72,
-              "order": 2
-            },
-            {
-              "id": 69,
-              "order": 3
-            },
-            {
-              "id": 5,
-              "order": 4
-            },
-            {
-              "id": 174,
-              "order": 5
-            }
-          ],
-          "name": "WARDRIVER ",
-          "skills": [
-            {
-              "extra": [
-                265
-              ],
-              "id": 1000,
-              "order": 1,
-              "q": 1
-            },
-            {
-              "id": 260,
-              "order": 2,
-              "q": 1
             }
           ],
           "peripheral": []
@@ -173,7 +178,6 @@
     ],
     "skills": [
       67,
-      260,
       1000
     ],
     "equip": [
@@ -192,7 +196,8 @@
       26,
       69,
       72,
-      174
+      174,
+      208
     ],
     "ammunition": [
       2,

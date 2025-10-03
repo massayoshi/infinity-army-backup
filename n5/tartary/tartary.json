@@ -1,5 +1,5 @@
 {
-  "version": "7.25275.376",
+  "version": "7.25275.401",
   "units": [
     {
       "id": 768,
@@ -3566,7 +3566,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 26
+                  "id": 100
                 }
               ]
             },
@@ -4694,7 +4694,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 27
+                  "id": 101
                 }
               ]
             }
@@ -6451,7 +6451,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 28,
+                  "id": 102,
                   "q": 3
                 }
               ]
@@ -8768,7 +8768,10 @@
       },
       "factions": [
         101,
+        102,
         103,
+        104,
+        105,
         106,
         107,
         201,
@@ -8776,6 +8779,8 @@
         204,
         205,
         301,
+        302,
+        303,
         304,
         305,
         306,
@@ -8797,6 +8802,7 @@
         801,
         902,
         904,
+        905,
         908,
         909,
         1001,
@@ -11213,7 +11219,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 29
+                  "id": 103
                 }
               ]
             },
@@ -11277,7 +11283,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 29,
+                  "id": 103,
                   "q": 2
                 }
               ]
@@ -13176,262 +13182,6 @@
       "factions": []
     },
     {
-      "id": 10265,
-      "idArmy": 10039,
-      "canonical": 1,
-      "isc": "Wardrivers, Mercenary Hackers",
-      "iscAbbr": "Wardrivers, Merc. Hackers",
-      "notes": null,
-      "name": "WARDRIVERS, Mercenary Hackers",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Wardrivers, Mercenary Hackers",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 13,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 1,
-              "ava": 1,
-              "str": false,
-              "bs": 11,
-              "s": 2,
-              "equip": [],
-              "w": 1,
-              "ph": 10,
-              "name": "WARDRIVERS, Mercenary Hackers",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/wardrivers-merc-hackers-1-1.svg",
-              "id": 1,
-              "arm": 0,
-              "weapons": [],
-              "chars": [
-                1,
-                3,
-                5
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "id": 67,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 14,
-              "equip": [
-                {
-                  "q": 1,
-                  "extra": [
-                    287
-                  ],
-                  "id": 100,
-                  "order": 2
-                }
-              ],
-              "name": "WARDRIVER ",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 26,
-                  "order": 1
-                },
-                {
-                  "id": 72,
-                  "order": 2
-                },
-                {
-                  "id": 174,
-                  "order": 3
-                },
-                {
-                  "id": 69,
-                  "order": 4
-                },
-                {
-                  "id": 5,
-                  "order": 5
-                }
-              ],
-              "chars": [],
-              "swc": "1",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 1000,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 16,
-              "equip": [
-                {
-                  "q": 1,
-                  "extra": [
-                    287
-                  ],
-                  "id": 100,
-                  "order": 1
-                }
-              ],
-              "name": "WARDRIVER ",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "id": 26,
-                  "order": 1
-                },
-                {
-                  "id": 72,
-                  "order": 2
-                },
-                {
-                  "id": 174,
-                  "order": 3
-                },
-                {
-                  "id": 208,
-                  "order": 4
-                },
-                {
-                  "id": 69,
-                  "order": 5
-                },
-                {
-                  "id": 5,
-                  "order": 6
-                }
-              ],
-              "chars": [],
-              "swc": "1",
-              "skills": [
-                {
-                  "id": 1000,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 16,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 100,
-                  "order": 1
-                }
-              ],
-              "name": "WARDRIVER ",
-              "disabled": false,
-              "orders": [],
-              "id": 5,
-              "weapons": [
-                {
-                  "id": 33,
-                  "order": 1
-                },
-                {
-                  "id": 154,
-                  "order": 2
-                },
-                {
-                  "id": 69,
-                  "order": 3
-                },
-                {
-                  "id": 5,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "0.5",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 1000,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 11
-        }
-      ],
-      "options": [],
-      "slug": "merc-wardrivers-merc-hackers",
-      "filters": {
-        "categories": [
-          11
-        ],
-        "skills": [
-          67,
-          1000
-        ],
-        "equip": [
-          100
-        ],
-        "chars": [
-          1,
-          3,
-          5
-        ],
-        "types": [
-          1
-        ],
-        "weapons": [
-          5,
-          26,
-          33,
-          69,
-          72,
-          154,
-          174,
-          208
-        ],
-        "ammunition": [
-          2,
-          3,
-          29
-        ]
-      },
-      "factions": []
-    },
-    {
       "id": 10300,
       "idArmy": 10015,
       "canonical": 1,
@@ -13826,6 +13576,262 @@
       "factions": []
     },
     {
+      "id": 10265,
+      "idArmy": 10039,
+      "canonical": 1,
+      "isc": "Wardrivers, Mercenary Hackers",
+      "iscAbbr": "Wardrivers, Merc. Hackers",
+      "notes": null,
+      "name": "WARDRIVERS, Mercenary Hackers",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Wardrivers, Mercenary Hackers",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 13,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 1,
+              "ava": 1,
+              "str": false,
+              "bs": 11,
+              "s": 2,
+              "equip": [],
+              "w": 1,
+              "ph": 10,
+              "name": "WARDRIVERS, Mercenary Hackers",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/wardrivers-merc-hackers-1-1.svg",
+              "id": 1,
+              "arm": 0,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                5
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "id": 67,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 14,
+              "equip": [
+                {
+                  "q": 1,
+                  "extra": [
+                    287
+                  ],
+                  "id": 100,
+                  "order": 2
+                }
+              ],
+              "name": "WARDRIVER ",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 26,
+                  "order": 1
+                },
+                {
+                  "id": 72,
+                  "order": 2
+                },
+                {
+                  "id": 174,
+                  "order": 3
+                },
+                {
+                  "id": 69,
+                  "order": 4
+                },
+                {
+                  "id": 5,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "1",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 1000,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 16,
+              "equip": [
+                {
+                  "q": 1,
+                  "extra": [
+                    287
+                  ],
+                  "id": 100,
+                  "order": 1
+                }
+              ],
+              "name": "WARDRIVER ",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "id": 26,
+                  "order": 1
+                },
+                {
+                  "id": 72,
+                  "order": 2
+                },
+                {
+                  "id": 174,
+                  "order": 3
+                },
+                {
+                  "id": 208,
+                  "order": 4
+                },
+                {
+                  "id": 69,
+                  "order": 5
+                },
+                {
+                  "id": 5,
+                  "order": 6
+                }
+              ],
+              "chars": [],
+              "swc": "1",
+              "skills": [
+                {
+                  "id": 1000,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 16,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 100,
+                  "order": 1
+                }
+              ],
+              "name": "WARDRIVER ",
+              "disabled": false,
+              "orders": [],
+              "id": 5,
+              "weapons": [
+                {
+                  "id": 33,
+                  "order": 1
+                },
+                {
+                  "id": 154,
+                  "order": 2
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0.5",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 1000,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 11
+        }
+      ],
+      "options": [],
+      "slug": "merc-wardrivers-merc-hackers",
+      "filters": {
+        "categories": [
+          11
+        ],
+        "skills": [
+          67,
+          1000
+        ],
+        "equip": [
+          100
+        ],
+        "chars": [
+          1,
+          3,
+          5
+        ],
+        "types": [
+          1
+        ],
+        "weapons": [
+          5,
+          26,
+          33,
+          69,
+          72,
+          154,
+          174,
+          208
+        ],
+        "ammunition": [
+          2,
+          3,
+          29
+        ]
+      },
+      "factions": []
+    },
+    {
       "id": 11569,
       "idArmy": 21569,
       "canonical": 1,
@@ -14046,7 +14052,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 30
+                  "id": 104
                 }
               ]
             },
@@ -14101,7 +14107,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 30
+                  "id": 104
                 }
               ]
             },
@@ -14156,7 +14162,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 30
+                  "id": 104
                 }
               ]
             },
@@ -14215,7 +14221,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 30
+                  "id": 104
                 }
               ]
             }
@@ -14843,7 +14849,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 30
+                  "id": 104
                 }
               ]
             },
@@ -14895,7 +14901,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 30
+                  "id": 104
                 }
               ]
             },
@@ -14951,7 +14957,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 30
+                  "id": 104
                 }
               ]
             }
@@ -15731,6 +15737,168 @@
       "factions": []
     },
     {
+      "id": 10491,
+      "idArmy": 10027,
+      "canonical": 1,
+      "isc": "Avicenna, Mercenary Doctor",
+      "iscAbbr": null,
+      "notes": null,
+      "name": "AVICENNA, Mercenary Doctor",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Avicenna, Mercenary Doctor",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 16,
+              "move": [
+                15,
+                5
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 1,
+              "ava": 1,
+              "str": false,
+              "bs": 11,
+              "s": 2,
+              "equip": [
+                {
+                  "id": 106,
+                  "order": 1
+                }
+              ],
+              "w": 1,
+              "ph": 11,
+              "name": "AVICENNA, Mercenary Doctor",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/avicenna-mercenary-doctor-1-1.svg",
+              "id": 1,
+              "arm": 2,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                5
+              ],
+              "wip": 15,
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 84,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    319
+                  ],
+                  "id": 162,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    1
+                  ],
+                  "id": 53,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "id": 86,
+                  "order": 4
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 28,
+              "equip": [],
+              "name": "AVICENNA",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 33,
+                  "order": 1
+                },
+                {
+                  "id": 72,
+                  "order": 2
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                },
+                {
+                  "id": 65,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 10
+        }
+      ],
+      "options": [],
+      "slug": "merc-avicenna-mercenary-doctor",
+      "filters": {
+        "categories": [
+          10
+        ],
+        "skills": [
+          53,
+          84,
+          86,
+          162
+        ],
+        "equip": [
+          106
+        ],
+        "chars": [
+          1,
+          3,
+          5
+        ],
+        "types": [
+          1
+        ],
+        "weapons": [
+          5,
+          33,
+          65,
+          69,
+          72
+        ],
+        "ammunition": [
+          2,
+          29
+        ]
+      },
+      "factions": []
+    },
+    {
       "id": 10122,
       "idArmy": 10022,
       "canonical": 1,
@@ -16059,168 +16227,6 @@
           8,
           9,
           37
-        ]
-      },
-      "factions": []
-    },
-    {
-      "id": 10491,
-      "idArmy": 10027,
-      "canonical": 1,
-      "isc": "Avicenna, Mercenary Doctor",
-      "iscAbbr": null,
-      "notes": null,
-      "name": "AVICENNA, Mercenary Doctor",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Avicenna, Mercenary Doctor",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 16,
-              "move": [
-                15,
-                5
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 1,
-              "ava": 1,
-              "str": false,
-              "bs": 11,
-              "s": 2,
-              "equip": [
-                {
-                  "id": 106,
-                  "order": 1
-                }
-              ],
-              "w": 1,
-              "ph": 11,
-              "name": "AVICENNA, Mercenary Doctor",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/avicenna-mercenary-doctor-1-1.svg",
-              "id": 1,
-              "arm": 2,
-              "weapons": [],
-              "chars": [
-                1,
-                3,
-                5
-              ],
-              "wip": 15,
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 84,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    319
-                  ],
-                  "id": 162,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    1
-                  ],
-                  "id": 53,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "id": 86,
-                  "order": 4
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 28,
-              "equip": [],
-              "name": "AVICENNA",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 33,
-                  "order": 1
-                },
-                {
-                  "id": 72,
-                  "order": 2
-                },
-                {
-                  "id": 69,
-                  "order": 3
-                },
-                {
-                  "id": 5,
-                  "order": 4
-                },
-                {
-                  "id": 65,
-                  "order": 5
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 10
-        }
-      ],
-      "options": [],
-      "slug": "merc-avicenna-mercenary-doctor",
-      "filters": {
-        "categories": [
-          10
-        ],
-        "skills": [
-          53,
-          84,
-          86,
-          162
-        ],
-        "equip": [
-          106
-        ],
-        "chars": [
-          1,
-          3,
-          5
-        ],
-        "types": [
-          1
-        ],
-        "weapons": [
-          5,
-          33,
-          65,
-          69,
-          72
-        ],
-        "ammunition": [
-          2,
-          29
         ]
       },
       "factions": []
@@ -21559,24 +21565,24 @@
   "filters": {
     "peripheral": [
       {
-        "id": 28,
+        "id": 102,
         "name": "ANTIPODE"
       },
       {
-        "id": 27,
+        "id": 101,
         "name": "BÂTARD"
       },
       {
-        "id": 29,
+        "id": 103,
         "name": "JACKBOT",
         "mercs": true
       },
       {
-        "id": 26,
+        "id": 100,
         "name": "K-9 ANTIPODE"
       },
       {
-        "id": 30,
+        "id": 104,
         "name": "TURTLEMEK",
         "mercs": true
       }
@@ -23876,16 +23882,6 @@
       "category": 11
     },
     {
-      "id": 10265,
-      "isc": "Wardrivers, Merc. Hackers",
-      "idArmy": 10039,
-      "name": "WARDRIVERS, Mercenary Hackers",
-      "slug": "merc-wardrivers-merc-hackers",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/wardrivers-merc-hackers-1-1.svg",
-      "type": 1,
-      "category": 11
-    },
-    {
       "id": 10300,
       "isc": "Anaconda, Merc. TAG Squad",
       "idArmy": 10015,
@@ -23893,6 +23889,16 @@
       "slug": "merc-anaconda-merc-tag-squad",
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/anaconda-merc-tag-squad-1-1.svg",
       "type": 4,
+      "category": 11
+    },
+    {
+      "id": 10265,
+      "isc": "Wardrivers, Merc. Hackers",
+      "idArmy": 10039,
+      "name": "WARDRIVERS, Mercenary Hackers",
+      "slug": "merc-wardrivers-merc-hackers",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/wardrivers-merc-hackers-1-1.svg",
+      "type": 1,
       "category": 11
     },
     {
@@ -23946,16 +23952,6 @@
       "category": 10
     },
     {
-      "id": 10122,
-      "isc": "CSU, Corporate Security Unit",
-      "idArmy": 10022,
-      "name": "CSU, Corporate Security Unit",
-      "slug": "merc-csu-corporate-security-unit",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/csu-corporate-security-unit-1-1.svg",
-      "type": 1,
-      "category": 11
-    },
-    {
       "id": 10491,
       "isc": "Avicenna, Mercenary Doctor",
       "idArmy": 10027,
@@ -23964,6 +23960,16 @@
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/avicenna-mercenary-doctor-1-1.svg",
       "type": 1,
       "category": 10
+    },
+    {
+      "id": 10122,
+      "isc": "CSU, Corporate Security Unit",
+      "idArmy": 10022,
+      "name": "CSU, Corporate Security Unit",
+      "slug": "merc-csu-corporate-security-unit",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/csu-corporate-security-unit-1-1.svg",
+      "type": 1,
+      "category": 11
     },
     {
       "id": 11501,

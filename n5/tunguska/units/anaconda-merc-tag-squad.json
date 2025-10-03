@@ -18,7 +18,7 @@
           "ava": 1,
           "bs": 13,
           "bts": 6,
-          "cc": 18,
+          "cc": 21,
           "chars": [
             1,
             3,
@@ -91,6 +91,19 @@
                 321
               ],
               "q": 1
+            },
+            {
+              "id": 267,
+              "order": 7,
+              "q": 1
+            },
+            {
+              "id": 162,
+              "order": 8,
+              "extra": [
+                249
+              ],
+              "q": 1
             }
           ],
           "peripheral": []
@@ -122,7 +135,7 @@
               "q": 1
             }
           ],
-          "points": 57,
+          "points": 59,
           "swc": "1.5",
           "weapons": [
             {
@@ -130,7 +143,7 @@
               "order": 1
             },
             {
-              "id": 89,
+              "id": 57,
               "order": 2
             },
             {
@@ -138,7 +151,7 @@
               "order": 3
             },
             {
-              "id": 6,
+              "id": 11,
               "order": 4
             }
           ],
@@ -167,11 +180,11 @@
           "includes": [
             {
               "group": 2,
-              "option": 2,
+              "option": 1,
               "q": 1
             }
           ],
-          "points": 56,
+          "points": 59,
           "swc": "1.5",
           "weapons": [
             {
@@ -187,7 +200,7 @@
               "order": 3
             },
             {
-              "id": 6,
+              "id": 11,
               "order": 4
             }
           ],
@@ -244,6 +257,19 @@
               "id": 213,
               "order": 3,
               "q": 1
+            },
+            {
+              "id": 267,
+              "order": 4,
+              "q": 1
+            },
+            {
+              "id": 28,
+              "order": 5,
+              "extra": [
+                6
+              ],
+              "q": 1
             }
           ],
           "peripheral": []
@@ -269,7 +295,7 @@
             }
           ],
           "includes": [],
-          "points": 57,
+          "points": 59,
           "swc": "-",
           "weapons": [
             {
@@ -277,51 +303,16 @@
               "order": 1
             },
             {
-              "id": 212,
+              "id": 195,
               "order": 2
             },
             {
-              "id": 5,
-              "order": 3
-            }
-          ],
-          "name": "OPERATOR",
-          "skills": [],
-          "peripheral": []
-        },
-        {
-          "id": 2,
-          "chars": [],
-          "disabled": true,
-          "equip": [],
-          "minis": 1,
-          "orders": [
-            {
-              "type": "REGULAR",
-              "list": 1,
-              "total": 1
-            },
-            {
-              "type": "TACTICAL",
-              "list": 1,
-              "total": 1
-            }
-          ],
-          "includes": [],
-          "points": 56,
-          "swc": "-",
-          "weapons": [
-            {
-              "id": 74,
-              "order": 1
-            },
-            {
               "id": 212,
-              "order": 2
+              "order": 3
             },
             {
               "id": 5,
-              "order": 3
+              "order": 4
             }
           ],
           "name": "OPERATOR",
@@ -338,13 +329,16 @@
       11
     ],
     "skills": [
+      28,
       40,
       84,
+      162,
       189,
       201,
       213,
       246,
-      254
+      254,
+      267
     ],
     "equip": [
       239
@@ -362,19 +356,22 @@
     "weapons": [
       2,
       5,
-      6,
+      11,
       28,
+      57,
       68,
       74,
-      89,
       157,
+      195,
       207,
       212
     ],
     "ammunition": [
       2,
       3,
-      13
+      9,
+      13,
+      21
     ]
   },
   "factions": [

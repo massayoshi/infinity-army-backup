@@ -1,5 +1,5 @@
 {
-  "version": "7.25275.396",
+  "version": "7.25275.473",
   "units": [
     {
       "id": 400,
@@ -1138,6 +1138,250 @@
       ]
     },
     {
+      "id": 248,
+      "idArmy": 22,
+      "canonical": 1,
+      "isc": "Highlander Caterans",
+      "iscAbbr": null,
+      "name": "HIGHLANDER CATERANS",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Highlander Caterans",
+          "profiles": [
+            {
+              "bts": 0,
+              "cc": 22,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 1,
+              "ava": 1,
+              "str": false,
+              "bs": 12,
+              "s": 2,
+              "equip": [],
+              "w": 1,
+              "ph": 13,
+              "name": "HIGHLANDER CATERANS",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/highlander-caterans-1-1.svg",
+              "id": 1,
+              "arm": 0,
+              "weapons": [],
+              "chars": [
+                2,
+                4,
+                5
+              ],
+              "wip": 12,
+              "skills": [
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 191,
+                  "order": 1
+                },
+                {
+                  "extra": [
+                    43
+                  ],
+                  "id": 29,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 28,
+                  "order": 3
+                },
+                {
+                  "extra": [],
+                  "id": 164,
+                  "order": 4
+                },
+                {
+                  "id": 82,
+                  "order": 5
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 21,
+              "equip": [],
+              "name": "CATERAN",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "IRREGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 38,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    309
+                  ],
+                  "id": 6,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "1",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 21,
+              "equip": [],
+              "name": "CATERAN",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "IRREGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "id": 35,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    309
+                  ],
+                  "id": 6,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0.5",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 23,
+              "equip": [],
+              "name": "CATERAN",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "IRREGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 3,
+              "weapons": [
+                {
+                  "id": 38,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    309
+                  ],
+                  "id": 6,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "1",
+              "skills": [
+                {
+                  "q": 1,
+                  "extra": [
+                    26
+                  ],
+                  "id": 161,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 3
+        }
+      ],
+      "options": [],
+      "slug": "highlander-caterans",
+      "filters": {
+        "categories": [
+          3
+        ],
+        "skills": [
+          28,
+          29,
+          82,
+          161,
+          164,
+          191
+        ],
+        "equip": [],
+        "chars": [
+          2,
+          4,
+          5
+        ],
+        "types": [
+          1
+        ],
+        "weapons": [
+          6,
+          35,
+          38,
+          69
+        ],
+        "ammunition": [
+          2,
+          3,
+          18
+        ]
+      },
+      "factions": [
+        301,
+        302,
+        306,
+        905,
+        908
+      ]
+    },
+    {
       "id": 122,
       "idArmy": 22,
       "canonical": 1,
@@ -1477,250 +1721,6 @@
       ]
     },
     {
-      "id": 248,
-      "idArmy": 22,
-      "canonical": 1,
-      "isc": "Highlander Caterans",
-      "iscAbbr": null,
-      "name": "HIGHLANDER CATERANS",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Highlander Caterans",
-          "profiles": [
-            {
-              "bts": 0,
-              "cc": 22,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 1,
-              "ava": 1,
-              "str": false,
-              "bs": 12,
-              "s": 2,
-              "equip": [],
-              "w": 1,
-              "ph": 13,
-              "name": "HIGHLANDER CATERANS",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/highlander-caterans-1-1.svg",
-              "id": 1,
-              "arm": 0,
-              "weapons": [],
-              "chars": [
-                2,
-                4,
-                5
-              ],
-              "wip": 12,
-              "skills": [
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 191,
-                  "order": 1
-                },
-                {
-                  "extra": [
-                    43
-                  ],
-                  "id": 29,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 28,
-                  "order": 3
-                },
-                {
-                  "extra": [],
-                  "id": 164,
-                  "order": 4
-                },
-                {
-                  "id": 82,
-                  "order": 5
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 21,
-              "equip": [],
-              "name": "CATERAN",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "IRREGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 38,
-                  "order": 1
-                },
-                {
-                  "id": 69,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    309
-                  ],
-                  "id": 6,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "1",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 21,
-              "equip": [],
-              "name": "CATERAN",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "IRREGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "id": 35,
-                  "order": 1
-                },
-                {
-                  "id": 69,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    309
-                  ],
-                  "id": 6,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "0.5",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 23,
-              "equip": [],
-              "name": "CATERAN",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "IRREGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 3,
-              "weapons": [
-                {
-                  "id": 38,
-                  "order": 1
-                },
-                {
-                  "id": 69,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    309
-                  ],
-                  "id": 6,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "1",
-              "skills": [
-                {
-                  "q": 1,
-                  "extra": [
-                    26
-                  ],
-                  "id": 161,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 3
-        }
-      ],
-      "options": [],
-      "slug": "highlander-caterans",
-      "filters": {
-        "categories": [
-          3
-        ],
-        "skills": [
-          28,
-          29,
-          82,
-          161,
-          164,
-          191
-        ],
-        "equip": [],
-        "chars": [
-          2,
-          4,
-          5
-        ],
-        "types": [
-          1
-        ],
-        "weapons": [
-          6,
-          35,
-          38,
-          69
-        ],
-        "ammunition": [
-          2,
-          3,
-          18
-        ]
-      },
-      "factions": [
-        301,
-        302,
-        306,
-        905,
-        908
-      ]
-    },
-    {
       "id": 491,
       "idArmy": 27,
       "canonical": 1,
@@ -1884,233 +1884,6 @@
         503,
         905,
         907
-      ]
-    },
-    {
-      "id": 424,
-      "idArmy": 33,
-      "canonical": 501,
-      "isc": "Lunokhod Sputniks",
-      "iscAbbr": null,
-      "name": "LUNOKHOD Sputnik",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Lunokhod Sputniks",
-          "profiles": [
-            {
-              "bts": 6,
-              "cc": 14,
-              "move": [
-                20,
-                5
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 5,
-              "ava": 1,
-              "str": true,
-              "bs": 12,
-              "s": 4,
-              "equip": [
-                {
-                  "id": 63,
-                  "order": 2
-                }
-              ],
-              "w": 1,
-              "ph": 10,
-              "name": "LUNOKHOD Sputnik",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/lunokhod-sputniks-1-1.svg",
-              "id": 1,
-              "arm": 3,
-              "weapons": [],
-              "chars": [
-                3,
-                5,
-                21
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "id": 235,
-                  "order": 1
-                },
-                {
-                  "id": 84,
-                  "order": 2
-                },
-                {
-                  "extra": [],
-                  "id": 56,
-                  "order": 4
-                },
-                {
-                  "id": 82,
-                  "order": 5
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    26
-                  ],
-                  "id": 161,
-                  "order": 6
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 25,
-              "equip": [],
-              "name": "LUNOKHOD",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "extra": null,
-                  "id": 29,
-                  "order": 1
-                },
-                {
-                  "extra": null,
-                  "id": 57,
-                  "order": 2
-                },
-                {
-                  "extra": null,
-                  "id": 25,
-                  "order": 3
-                },
-                {
-                  "extra": null,
-                  "id": 20,
-                  "order": 4
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 5
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 26,
-              "equip": [],
-              "name": "LUNOKHOD",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "extra": null,
-                  "id": 29,
-                  "order": 1
-                },
-                {
-                  "extra": null,
-                  "id": 207,
-                  "order": 2
-                },
-                {
-                  "extra": null,
-                  "id": 25,
-                  "order": 3
-                },
-                {
-                  "extra": null,
-                  "id": 20,
-                  "order": 4
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 5
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 8
-        }
-      ],
-      "options": [],
-      "slug": "lunokhod-sputniks",
-      "filters": {
-        "categories": [
-          8
-        ],
-        "skills": [
-          56,
-          82,
-          84,
-          161,
-          235
-        ],
-        "equip": [
-          63
-        ],
-        "chars": [
-          3,
-          5,
-          21
-        ],
-        "types": [
-          5
-        ],
-        "weapons": [
-          20,
-          25,
-          29,
-          57,
-          71,
-          207
-        ],
-        "ammunition": [
-          2,
-          3,
-          8,
-          14,
-          37
-        ]
-      },
-      "factions": [
-        501,
-        502,
-        503,
-        504,
-        905
       ]
     },
     {
@@ -2511,6 +2284,233 @@
         905,
         906,
         909
+      ]
+    },
+    {
+      "id": 424,
+      "idArmy": 33,
+      "canonical": 501,
+      "isc": "Lunokhod Sputniks",
+      "iscAbbr": null,
+      "name": "LUNOKHOD Sputnik",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Lunokhod Sputniks",
+          "profiles": [
+            {
+              "bts": 6,
+              "cc": 14,
+              "move": [
+                20,
+                5
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 5,
+              "ava": 1,
+              "str": true,
+              "bs": 12,
+              "s": 4,
+              "equip": [
+                {
+                  "id": 63,
+                  "order": 2
+                }
+              ],
+              "w": 1,
+              "ph": 10,
+              "name": "LUNOKHOD Sputnik",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/lunokhod-sputniks-1-1.svg",
+              "id": 1,
+              "arm": 3,
+              "weapons": [],
+              "chars": [
+                3,
+                5,
+                21
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "id": 235,
+                  "order": 1
+                },
+                {
+                  "id": 84,
+                  "order": 2
+                },
+                {
+                  "extra": [],
+                  "id": 56,
+                  "order": 4
+                },
+                {
+                  "id": 82,
+                  "order": 5
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    26
+                  ],
+                  "id": 161,
+                  "order": 6
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 25,
+              "equip": [],
+              "name": "LUNOKHOD",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "extra": null,
+                  "id": 29,
+                  "order": 1
+                },
+                {
+                  "extra": null,
+                  "id": 57,
+                  "order": 2
+                },
+                {
+                  "extra": null,
+                  "id": 25,
+                  "order": 3
+                },
+                {
+                  "extra": null,
+                  "id": 20,
+                  "order": 4
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 26,
+              "equip": [],
+              "name": "LUNOKHOD",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "extra": null,
+                  "id": 29,
+                  "order": 1
+                },
+                {
+                  "extra": null,
+                  "id": 207,
+                  "order": 2
+                },
+                {
+                  "extra": null,
+                  "id": 25,
+                  "order": 3
+                },
+                {
+                  "extra": null,
+                  "id": 20,
+                  "order": 4
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 8
+        }
+      ],
+      "options": [],
+      "slug": "lunokhod-sputniks",
+      "filters": {
+        "categories": [
+          8
+        ],
+        "skills": [
+          56,
+          82,
+          84,
+          161,
+          235
+        ],
+        "equip": [
+          63
+        ],
+        "chars": [
+          3,
+          5,
+          21
+        ],
+        "types": [
+          5
+        ],
+        "weapons": [
+          20,
+          25,
+          29,
+          57,
+          71,
+          207
+        ],
+        "ammunition": [
+          2,
+          3,
+          8,
+          14,
+          37
+        ]
+      },
+      "factions": [
+        501,
+        502,
+        503,
+        504,
+        905
       ]
     },
     {
@@ -4634,7 +4634,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 7
+                  "id": 4
                 }
               ]
             },
@@ -4689,7 +4689,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 7
+                  "id": 4
                 }
               ]
             },
@@ -4744,7 +4744,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 7
+                  "id": 4
                 }
               ]
             },
@@ -4803,7 +4803,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 7
+                  "id": 4
                 }
               ]
             }
@@ -6596,7 +6596,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 8
+                  "id": 5
                 }
               ]
             },
@@ -6660,7 +6660,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 8,
+                  "id": 5,
                   "q": 2
                 }
               ]
@@ -12977,6 +12977,400 @@
       "factions": []
     },
     {
+      "id": 10300,
+      "idArmy": 10015,
+      "canonical": 1,
+      "isc": "Anaconda, Mercenary TAG Squad",
+      "iscAbbr": "Anaconda, Merc. TAG Squad",
+      "notes": null,
+      "name": "ANACONDA, Mercenary TAG Squad",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Anaconda, Mercenary TAG Squad",
+          "profiles": [
+            {
+              "bts": 6,
+              "cc": 21,
+              "move": [
+                15,
+                5
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 4,
+              "ava": 1,
+              "str": true,
+              "bs": 13,
+              "s": 7,
+              "equip": [
+                {
+                  "extra": [
+                    7
+                  ],
+                  "id": 239,
+                  "order": 1
+                }
+              ],
+              "w": 3,
+              "ph": 16,
+              "name": "ANACONDA, Mercenary TAG Squad",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/anaconda-merc-tag-squad-1-1.svg",
+              "id": 1,
+              "arm": 7,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                5,
+                21
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "q": 1,
+                  "extra": [
+                    305
+                  ],
+                  "id": 201,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 84,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    27
+                  ],
+                  "id": 40,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    27
+                  ],
+                  "id": 254,
+                  "order": 4
+                },
+                {
+                  "q": 1,
+                  "id": 213,
+                  "order": 5
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    321
+                  ],
+                  "id": 246,
+                  "order": 6
+                },
+                {
+                  "q": 1,
+                  "id": 267,
+                  "order": 7
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    249
+                  ],
+                  "id": 162,
+                  "order": 8
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [
+                {
+                  "q": 1,
+                  "group": 2,
+                  "option": 1
+                }
+              ],
+              "minis": 1,
+              "points": 59,
+              "equip": [],
+              "name": "ANACONDA",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "TACTICAL",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 157,
+                  "order": 1
+                },
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 57,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    249
+                  ],
+                  "id": 207,
+                  "order": 3
+                },
+                {
+                  "extra": [
+                    311
+                  ],
+                  "id": 11,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "1.5",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [
+                {
+                  "q": 1,
+                  "group": 2,
+                  "option": 1
+                }
+              ],
+              "minis": 1,
+              "points": 59,
+              "equip": [],
+              "name": "ANACONDA",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "TACTICAL",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "id": 2,
+                  "order": 1
+                },
+                {
+                  "extra": [
+                    256
+                  ],
+                  "id": 28,
+                  "order": 2
+                },
+                {
+                  "id": 68,
+                  "order": 3
+                },
+                {
+                  "extra": [
+                    311
+                  ],
+                  "id": 11,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "1.5",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 11
+        },
+        {
+          "notes": null,
+          "isc": null,
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 13,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 1,
+              "ava": -1,
+              "str": false,
+              "bs": 12,
+              "s": 2,
+              "equip": [],
+              "w": 3,
+              "ph": 10,
+              "name": "ANACONDA OPERATOR",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/anaconda-merc-tag-squad-2-1.svg",
+              "id": 1,
+              "arm": 1,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                5
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "id": 84,
+                  "order": 1
+                },
+                {
+                  "id": 189,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "id": 213,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "id": 267,
+                  "order": 4
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    6
+                  ],
+                  "id": 28,
+                  "order": 5
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 59,
+              "equip": [],
+              "name": "OPERATOR",
+              "disabled": true,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "TACTICAL",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 74,
+                  "order": 1
+                },
+                {
+                  "id": 195,
+                  "order": 2
+                },
+                {
+                  "id": 212,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "-",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 2,
+          "category": 11
+        }
+      ],
+      "options": [],
+      "slug": "merc-anaconda-merc-tag-squad",
+      "filters": {
+        "categories": [
+          11
+        ],
+        "skills": [
+          28,
+          40,
+          84,
+          162,
+          189,
+          201,
+          213,
+          246,
+          254,
+          267
+        ],
+        "equip": [
+          239
+        ],
+        "chars": [
+          1,
+          3,
+          5,
+          21
+        ],
+        "types": [
+          1,
+          4
+        ],
+        "weapons": [
+          2,
+          5,
+          11,
+          28,
+          57,
+          68,
+          74,
+          157,
+          195,
+          207,
+          212
+        ],
+        "ammunition": [
+          2,
+          3,
+          9,
+          13,
+          21
+        ]
+      },
+      "factions": []
+    },
+    {
       "id": 10265,
       "idArmy": 10039,
       "canonical": 1,
@@ -13453,7 +13847,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 7
+                  "id": 4
                 }
               ]
             },
@@ -13508,7 +13902,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 7
+                  "id": 4
                 }
               ]
             },
@@ -13563,7 +13957,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 7
+                  "id": 4
                 }
               ]
             },
@@ -13622,7 +14016,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 7
+                  "id": 4
                 }
               ]
             }
@@ -13766,400 +14160,6 @@
           2,
           3,
           13
-        ]
-      },
-      "factions": []
-    },
-    {
-      "id": 10300,
-      "idArmy": 10015,
-      "canonical": 1,
-      "isc": "Anaconda, Mercenary TAG Squad",
-      "iscAbbr": "Anaconda, Merc. TAG Squad",
-      "notes": null,
-      "name": "ANACONDA, Mercenary TAG Squad",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Anaconda, Mercenary TAG Squad",
-          "profiles": [
-            {
-              "bts": 6,
-              "cc": 21,
-              "move": [
-                15,
-                5
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 4,
-              "ava": 1,
-              "str": true,
-              "bs": 13,
-              "s": 7,
-              "equip": [
-                {
-                  "extra": [
-                    7
-                  ],
-                  "id": 239,
-                  "order": 1
-                }
-              ],
-              "w": 3,
-              "ph": 16,
-              "name": "ANACONDA, Mercenary TAG Squad",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/anaconda-merc-tag-squad-1-1.svg",
-              "id": 1,
-              "arm": 7,
-              "weapons": [],
-              "chars": [
-                1,
-                3,
-                5,
-                21
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "q": 1,
-                  "extra": [
-                    305
-                  ],
-                  "id": 201,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "id": 84,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    27
-                  ],
-                  "id": 40,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    27
-                  ],
-                  "id": 254,
-                  "order": 4
-                },
-                {
-                  "q": 1,
-                  "id": 213,
-                  "order": 5
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    321
-                  ],
-                  "id": 246,
-                  "order": 6
-                },
-                {
-                  "q": 1,
-                  "id": 267,
-                  "order": 7
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    249
-                  ],
-                  "id": 162,
-                  "order": 8
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [
-                {
-                  "q": 1,
-                  "group": 2,
-                  "option": 1
-                }
-              ],
-              "minis": 1,
-              "points": 59,
-              "equip": [],
-              "name": "ANACONDA",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "TACTICAL",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 157,
-                  "order": 1
-                },
-                {
-                  "extra": [
-                    8
-                  ],
-                  "id": 57,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    249
-                  ],
-                  "id": 207,
-                  "order": 3
-                },
-                {
-                  "extra": [
-                    311
-                  ],
-                  "id": 11,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "1.5",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [
-                {
-                  "q": 1,
-                  "group": 2,
-                  "option": 1
-                }
-              ],
-              "minis": 1,
-              "points": 59,
-              "equip": [],
-              "name": "ANACONDA",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "TACTICAL",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "id": 2,
-                  "order": 1
-                },
-                {
-                  "extra": [
-                    256
-                  ],
-                  "id": 28,
-                  "order": 2
-                },
-                {
-                  "id": 68,
-                  "order": 3
-                },
-                {
-                  "extra": [
-                    311
-                  ],
-                  "id": 11,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "1.5",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 11
-        },
-        {
-          "notes": null,
-          "isc": null,
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 13,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 1,
-              "ava": -1,
-              "str": false,
-              "bs": 12,
-              "s": 2,
-              "equip": [],
-              "w": 3,
-              "ph": 10,
-              "name": "ANACONDA OPERATOR",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/anaconda-merc-tag-squad-2-1.svg",
-              "id": 1,
-              "arm": 1,
-              "weapons": [],
-              "chars": [
-                1,
-                3,
-                5
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "id": 84,
-                  "order": 1
-                },
-                {
-                  "id": 189,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "id": 213,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "id": 267,
-                  "order": 4
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    6
-                  ],
-                  "id": 28,
-                  "order": 5
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 59,
-              "equip": [],
-              "name": "OPERATOR",
-              "disabled": true,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "TACTICAL",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 74,
-                  "order": 1
-                },
-                {
-                  "id": 195,
-                  "order": 2
-                },
-                {
-                  "id": 212,
-                  "order": 3
-                },
-                {
-                  "id": 5,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "-",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 2,
-          "category": 11
-        }
-      ],
-      "options": [],
-      "slug": "merc-anaconda-merc-tag-squad",
-      "filters": {
-        "categories": [
-          11
-        ],
-        "skills": [
-          28,
-          40,
-          84,
-          162,
-          189,
-          201,
-          213,
-          246,
-          254,
-          267
-        ],
-        "equip": [
-          239
-        ],
-        "chars": [
-          1,
-          3,
-          5,
-          21
-        ],
-        "types": [
-          1,
-          4
-        ],
-        "weapons": [
-          2,
-          5,
-          11,
-          28,
-          57,
-          68,
-          74,
-          157,
-          195,
-          207,
-          212
-        ],
-        "ammunition": [
-          2,
-          3,
-          9,
-          13,
-          21
         ]
       },
       "factions": []
@@ -14644,7 +14644,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 7
+                  "id": 4
                 }
               ]
             },
@@ -14696,7 +14696,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 7
+                  "id": 4
                 }
               ]
             },
@@ -14752,7 +14752,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 7
+                  "id": 4
                 }
               ]
             }
@@ -20734,7 +20734,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 9
+                  "id": 6
                 }
               ]
             }
@@ -20917,16 +20917,16 @@
   "filters": {
     "peripheral": [
       {
-        "id": 9,
+        "id": 6,
         "name": "BÂTARD",
         "mercs": true
       },
       {
-        "id": 8,
+        "id": 5,
         "name": "JACKBOT"
       },
       {
-        "id": 7,
+        "id": 4,
         "name": "TURTLEMEK"
       }
     ],
@@ -22644,16 +22644,6 @@
       "category": 11
     },
     {
-      "id": 122,
-      "isc": "CSU, Corporate Security Unit",
-      "idArmy": 22,
-      "name": "CSU, Corporate Security Unit",
-      "slug": "csu-corporate-security-unit",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/csu-corporate-security-unit-1-1.svg",
-      "type": 1,
-      "category": 11
-    },
-    {
       "id": 248,
       "isc": "Highlander Caterans",
       "idArmy": 22,
@@ -22662,6 +22652,16 @@
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/highlander-caterans-1-1.svg",
       "type": 1,
       "category": 3
+    },
+    {
+      "id": 122,
+      "isc": "CSU, Corporate Security Unit",
+      "idArmy": 22,
+      "name": "CSU, Corporate Security Unit",
+      "slug": "csu-corporate-security-unit",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/csu-corporate-security-unit-1-1.svg",
+      "type": 1,
+      "category": 11
     },
     {
       "id": 491,
@@ -22674,16 +22674,6 @@
       "category": 10
     },
     {
-      "id": 424,
-      "isc": "Lunokhod Sputniks",
-      "idArmy": 33,
-      "name": "LUNOKHOD Sputnik",
-      "slug": "lunokhod-sputniks",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/lunokhod-sputniks-1-1.svg",
-      "type": 5,
-      "category": 8
-    },
-    {
       "id": 300,
       "isc": "Anaconda, Merc. TAG Squad",
       "idArmy": 15,
@@ -22692,6 +22682,16 @@
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/anaconda-merc-tag-squad-1-1.svg",
       "type": 4,
       "category": 11
+    },
+    {
+      "id": 424,
+      "isc": "Lunokhod Sputniks",
+      "idArmy": 33,
+      "name": "LUNOKHOD Sputnik",
+      "slug": "lunokhod-sputniks",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/lunokhod-sputniks-1-1.svg",
+      "type": 5,
+      "category": 8
     },
     {
       "id": 405,
@@ -23104,6 +23104,16 @@
       "category": 11
     },
     {
+      "id": 10300,
+      "isc": "Anaconda, Merc. TAG Squad",
+      "idArmy": 10015,
+      "name": "ANACONDA, Mercenary TAG Squad",
+      "slug": "merc-anaconda-merc-tag-squad",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/anaconda-merc-tag-squad-1-1.svg",
+      "type": 4,
+      "category": 11
+    },
+    {
       "id": 10265,
       "isc": "Wardrivers, Merc. Hackers",
       "idArmy": 10039,
@@ -23120,16 +23130,6 @@
       "name": "TRIPHAMMER, Repurposed Industrial TAG",
       "slug": "merc-triphammers-repurposed-industrial-tags",
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/triphammers-repurposed-industrial-tags-1-1.svg",
-      "type": 4,
-      "category": 11
-    },
-    {
-      "id": 10300,
-      "isc": "Anaconda, Merc. TAG Squad",
-      "idArmy": 10015,
-      "name": "ANACONDA, Mercenary TAG Squad",
-      "slug": "merc-anaconda-merc-tag-squad",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/anaconda-merc-tag-squad-1-1.svg",
       "type": 4,
       "category": 11
     },
@@ -23854,7 +23854,7 @@
           },
           {
             "min": 0,
-            "max": 2,
+            "max": 1,
             "name": "TRIPHAMMER",
             "comment": "",
             "required": true,
