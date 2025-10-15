@@ -17,7 +17,7 @@
           "arm": 4,
           "ava": 3,
           "bs": 12,
-          "bts": 3,
+          "bts": 6,
           "cc": 22,
           "chars": [
             2,
@@ -30,8 +30,8 @@
           "weapons": [],
           "includes": [],
           "move": [
-            10,
-            10
+            15,
+            5
           ],
           "ph": 14,
           "s": 2,
@@ -45,13 +45,6 @@
             {
               "id": 84,
               "order": 1
-            },
-            {
-              "id": 40,
-              "order": 2,
-              "extra": [
-                11
-              ]
             },
             {
               "id": 39,
@@ -72,6 +65,38 @@
             {
               "id": 74,
               "order": 6
+            },
+            {
+              "id": 240,
+              "order": 7,
+              "extra": [
+                8
+              ],
+              "q": 1
+            },
+            {
+              "id": 40,
+              "order": 8,
+              "extra": [
+                6
+              ],
+              "q": 1
+            },
+            {
+              "id": 40,
+              "order": 9,
+              "extra": [
+                23
+              ],
+              "q": 1
+            },
+            {
+              "id": 162,
+              "order": 10,
+              "extra": [
+                327
+              ],
+              "q": 1
             }
           ],
           "peripheral": []
@@ -93,7 +118,7 @@
           ],
           "includes": [],
           "points": 38,
-          "swc": "1.5",
+          "swc": "1",
           "weapons": [
             {
               "id": 2,
@@ -104,11 +129,15 @@
               "order": 2
             },
             {
+              "id": 96,
+              "order": 3
+            },
+            {
               "id": 107,
               "order": 4
             },
             {
-              "id": 6,
+              "id": 78,
               "order": 5
             }
           ],
@@ -118,44 +147,6 @@
         },
         {
           "id": 2,
-          "chars": [],
-          "disabled": false,
-          "equip": [],
-          "minis": 1,
-          "orders": [
-            {
-              "type": "REGULAR",
-              "list": 1,
-              "total": 1
-            }
-          ],
-          "includes": [],
-          "points": 31,
-          "swc": "0",
-          "weapons": [
-            {
-              "id": 107,
-              "order": 3
-            },
-            {
-              "id": 6,
-              "order": 4
-            },
-            {
-              "id": 42,
-              "order": 1
-            },
-            {
-              "id": 80,
-              "order": 5
-            }
-          ],
-          "name": "VOLKOLAK",
-          "skills": [],
-          "peripheral": []
-        },
-        {
-          "id": 4,
           "chars": [],
           "disabled": false,
           "equip": [],
@@ -180,16 +171,133 @@
               "order": 2
             },
             {
+              "id": 96,
+              "order": 3
+            },
+            {
               "id": 107,
               "order": 4
             },
             {
-              "id": 6,
+              "id": 78,
               "order": 5
             }
           ],
           "name": "VOLKOLAK",
           "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 3,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 31,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 42,
+              "order": 1
+            },
+            {
+              "id": 80,
+              "order": 2
+            },
+            {
+              "id": 96,
+              "order": 3
+            },
+            {
+              "id": 107,
+              "order": 4
+            },
+            {
+              "id": 78,
+              "order": 5
+            }
+          ],
+          "name": "VOLKOLAK",
+          "skills": [
+            {
+              "extra": [
+                249
+              ],
+              "id": 201,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 4,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 106,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 33,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 42,
+              "order": 1
+            },
+            {
+              "id": 80,
+              "order": 2
+            },
+            {
+              "id": 96,
+              "order": 3
+            },
+            {
+              "id": 107,
+              "order": 4
+            },
+            {
+              "id": 78,
+              "order": 5
+            }
+          ],
+          "name": "VOLKOLAK",
+          "skills": [
+            {
+              "extra": [
+                249
+              ],
+              "id": 201,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 64,
+              "order": 2,
+              "q": 1
+            }
+          ],
           "peripheral": []
         }
       ]
@@ -204,12 +312,17 @@
     "skills": [
       39,
       40,
+      64,
       74,
       84,
       86,
-      162
+      162,
+      201,
+      240
     ],
-    "equip": [],
+    "equip": [
+      106
+    ],
     "chars": [
       2,
       3,
@@ -221,17 +334,18 @@
     ],
     "weapons": [
       2,
-      6,
       42,
       58,
+      78,
       80,
+      96,
       107
     ],
     "ammunition": [
       2,
-      3,
       6,
       8,
+      10,
       13,
       18
     ]

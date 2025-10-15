@@ -1,5 +1,5 @@
 {
-  "version": "7.25125.370",
+  "version": "7.25288.295",
   "units": [
     {
       "id": 1724,
@@ -961,603 +961,6 @@
       ]
     },
     {
-      "id": 1727,
-      "idArmy": 1727,
-      "canonical": 799,
-      "isc": "Reinf. Dasyus",
-      "iscAbbr": null,
-      "name": "REINF: DASYUS",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Reinf. Dasyus",
-          "profiles": [
-            {
-              "bts": 0,
-              "cc": 14,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 6,
-              "ava": 2,
-              "str": false,
-              "bs": 12,
-              "s": 2,
-              "equip": [],
-              "w": 1,
-              "ph": 13,
-              "name": "REINF: DASYUS",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-dasyus-1-1.svg",
-              "id": 1,
-              "arm": 1,
-              "weapons": [],
-              "chars": [
-                3,
-                5,
-                20
-              ],
-              "wip": 14,
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 84,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "id": 164,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "id": 86,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "id": 211,
-                  "order": 4
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    33
-                  ],
-                  "id": 58,
-                  "order": 5
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    7
-                  ],
-                  "id": 28,
-                  "order": 6
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 25,
-              "equip": [],
-              "name": "DASYU REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 26,
-                  "order": 1
-                },
-                {
-                  "id": 196,
-                  "order": 2
-                },
-                {
-                  "id": 5,
-                  "order": 4
-                },
-                {
-                  "extra": null,
-                  "id": 211,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 27,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 145,
-                  "order": 1
-                }
-              ],
-              "name": "DASYU REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 3,
-              "weapons": [
-                {
-                  "id": 26,
-                  "order": 1
-                },
-                {
-                  "id": 5,
-                  "order": 3
-                },
-                {
-                  "extra": null,
-                  "id": 17,
-                  "order": 2
-                },
-                {
-                  "extra": null,
-                  "id": 211,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 1000,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 28,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 100,
-                  "order": 1
-                }
-              ],
-              "name": "DASYU REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 4,
-              "weapons": [
-                {
-                  "id": 77,
-                  "order": 1
-                },
-                {
-                  "id": 65,
-                  "order": 2
-                },
-                {
-                  "id": 5,
-                  "order": 4
-                },
-                {
-                  "extra": null,
-                  "id": 17,
-                  "order": 3
-                },
-                {
-                  "extra": null,
-                  "id": 211,
-                  "order": 5
-                }
-              ],
-              "chars": [],
-              "swc": "0.5",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 1000,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 25,
-              "equip": [],
-              "name": "DASYU REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 5,
-              "weapons": [
-                {
-                  "id": 77,
-                  "order": 1
-                },
-                {
-                  "id": 72,
-                  "order": 2
-                },
-                {
-                  "id": 196,
-                  "order": 3
-                },
-                {
-                  "id": 5,
-                  "order": 5
-                },
-                {
-                  "extra": null,
-                  "id": 17,
-                  "order": 4
-                },
-                {
-                  "extra": null,
-                  "id": 211,
-                  "order": 6
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 59,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 5
-        }
-      ],
-      "options": [],
-      "slug": "reinf-dasyus",
-      "filters": {
-        "categories": [
-          5
-        ],
-        "skills": [
-          28,
-          58,
-          59,
-          84,
-          86,
-          164,
-          211,
-          1000
-        ],
-        "equip": [
-          100,
-          145
-        ],
-        "chars": [
-          3,
-          5,
-          20
-        ],
-        "types": [
-          6
-        ],
-        "weapons": [
-          5,
-          17,
-          26,
-          65,
-          72,
-          77,
-          196,
-          211
-        ],
-        "ammunition": [
-          2,
-          3,
-          8,
-          13,
-          29,
-          30
-        ]
-      },
-      "factions": [
-        799
-      ]
-    },
-    {
-      "id": 1729,
-      "idArmy": 1729,
-      "canonical": 799,
-      "isc": "Reinf. Sophotects",
-      "iscAbbr": null,
-      "name": "REINF: SOPHOTECTS",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Reinf. Sophotects",
-          "profiles": [
-            {
-              "bts": 0,
-              "cc": 13,
-              "move": [
-                15,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 1,
-              "ava": 1,
-              "str": false,
-              "bs": 11,
-              "s": 2,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 237,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "id": 245,
-                  "order": 2
-                }
-              ],
-              "w": 1,
-              "ph": 11,
-              "name": "REINF: SOPHOTECTS",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-sophotects-1-1.svg",
-              "id": 1,
-              "arm": 2,
-              "weapons": [],
-              "chars": [
-                3,
-                5,
-                20
-              ],
-              "wip": 15,
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 84,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    11
-                  ],
-                  "id": 40,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    366
-                  ],
-                  "id": 49,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    30
-                  ],
-                  "id": 162,
-                  "order": 4
-                },
-                {
-                  "q": 1,
-                  "id": 86,
-                  "order": 6
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    372
-                  ],
-                  "id": 263,
-                  "order": 7
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 29,
-              "equip": [
-                {
-                  "q": 1,
-                  "extra": [
-                    8
-                  ],
-                  "id": 106,
-                  "order": 1
-                }
-              ],
-              "name": "SOPHOTECT REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 33,
-                  "order": 1
-                },
-                {
-                  "id": 17,
-                  "order": 2
-                },
-                {
-                  "id": 5,
-                  "order": 4
-                },
-                {
-                  "id": 145,
-                  "order": 5
-                },
-                {
-                  "id": 69,
-                  "order": 6
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 53,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 23,
-              "equip": [],
-              "name": "SOPHOTECT REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "id": 26,
-                  "order": 1
-                },
-                {
-                  "id": 17,
-                  "order": 3
-                },
-                {
-                  "id": 5,
-                  "order": 5
-                },
-                {
-                  "id": 145,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    8
-                  ],
-                  "id": 72,
-                  "order": 6
-                },
-                {
-                  "id": 69,
-                  "order": 7
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 8
-        }
-      ],
-      "options": [],
-      "slug": "reinf-sophotects",
-      "filters": {
-        "categories": [
-          8
-        ],
-        "skills": [
-          40,
-          49,
-          53,
-          84,
-          86,
-          162,
-          263
-        ],
-        "equip": [
-          106,
-          237,
-          245
-        ],
-        "chars": [
-          3,
-          5,
-          20
-        ],
-        "types": [
-          1
-        ],
-        "weapons": [
-          5,
-          17,
-          26,
-          33,
-          69,
-          72,
-          145
-        ],
-        "ammunition": [
-          2,
-          3,
-          13,
-          29
-        ]
-      },
-      "factions": [
-        799
-      ]
-    },
-    {
       "id": 1726,
       "idArmy": 1726,
       "canonical": 799,
@@ -2209,6 +1612,603 @@
       ]
     },
     {
+      "id": 1727,
+      "idArmy": 1727,
+      "canonical": 799,
+      "isc": "Reinf. Dasyus",
+      "iscAbbr": null,
+      "name": "REINF: DASYUS",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Reinf. Dasyus",
+          "profiles": [
+            {
+              "bts": 0,
+              "cc": 14,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 6,
+              "ava": 2,
+              "str": false,
+              "bs": 12,
+              "s": 2,
+              "equip": [],
+              "w": 1,
+              "ph": 13,
+              "name": "REINF: DASYUS",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-dasyus-1-1.svg",
+              "id": 1,
+              "arm": 1,
+              "weapons": [],
+              "chars": [
+                3,
+                5,
+                20
+              ],
+              "wip": 14,
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 84,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 164,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "id": 86,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "id": 211,
+                  "order": 4
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    33
+                  ],
+                  "id": 58,
+                  "order": 5
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    7
+                  ],
+                  "id": 28,
+                  "order": 6
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 25,
+              "equip": [],
+              "name": "DASYU REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 26,
+                  "order": 1
+                },
+                {
+                  "id": 196,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                },
+                {
+                  "extra": null,
+                  "id": 211,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 27,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 145,
+                  "order": 1
+                }
+              ],
+              "name": "DASYU REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 3,
+              "weapons": [
+                {
+                  "id": 26,
+                  "order": 1
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                },
+                {
+                  "extra": null,
+                  "id": 17,
+                  "order": 2
+                },
+                {
+                  "extra": null,
+                  "id": 211,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 1000,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 28,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 100,
+                  "order": 1
+                }
+              ],
+              "name": "DASYU REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 4,
+              "weapons": [
+                {
+                  "id": 77,
+                  "order": 1
+                },
+                {
+                  "id": 65,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                },
+                {
+                  "extra": null,
+                  "id": 17,
+                  "order": 3
+                },
+                {
+                  "extra": null,
+                  "id": 211,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0.5",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 1000,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 25,
+              "equip": [],
+              "name": "DASYU REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 5,
+              "weapons": [
+                {
+                  "id": 77,
+                  "order": 1
+                },
+                {
+                  "id": 72,
+                  "order": 2
+                },
+                {
+                  "id": 196,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 5
+                },
+                {
+                  "extra": null,
+                  "id": 17,
+                  "order": 4
+                },
+                {
+                  "extra": null,
+                  "id": 211,
+                  "order": 6
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 59,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 5
+        }
+      ],
+      "options": [],
+      "slug": "reinf-dasyus",
+      "filters": {
+        "categories": [
+          5
+        ],
+        "skills": [
+          28,
+          58,
+          59,
+          84,
+          86,
+          164,
+          211,
+          1000
+        ],
+        "equip": [
+          100,
+          145
+        ],
+        "chars": [
+          3,
+          5,
+          20
+        ],
+        "types": [
+          6
+        ],
+        "weapons": [
+          5,
+          17,
+          26,
+          65,
+          72,
+          77,
+          196,
+          211
+        ],
+        "ammunition": [
+          2,
+          3,
+          8,
+          13,
+          29,
+          30
+        ]
+      },
+      "factions": [
+        799
+      ]
+    },
+    {
+      "id": 1729,
+      "idArmy": 1729,
+      "canonical": 799,
+      "isc": "Reinf. Sophotects",
+      "iscAbbr": null,
+      "name": "REINF: SOPHOTECTS",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Reinf. Sophotects",
+          "profiles": [
+            {
+              "bts": 0,
+              "cc": 13,
+              "move": [
+                15,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 1,
+              "ava": 1,
+              "str": false,
+              "bs": 11,
+              "s": 2,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 237,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 245,
+                  "order": 2
+                }
+              ],
+              "w": 1,
+              "ph": 11,
+              "name": "REINF: SOPHOTECTS",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-sophotects-1-1.svg",
+              "id": 1,
+              "arm": 2,
+              "weapons": [],
+              "chars": [
+                3,
+                5,
+                20
+              ],
+              "wip": 15,
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 84,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    11
+                  ],
+                  "id": 40,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    366
+                  ],
+                  "id": 49,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    30
+                  ],
+                  "id": 162,
+                  "order": 4
+                },
+                {
+                  "q": 1,
+                  "id": 86,
+                  "order": 6
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    372
+                  ],
+                  "id": 263,
+                  "order": 7
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 29,
+              "equip": [
+                {
+                  "q": 1,
+                  "extra": [
+                    8
+                  ],
+                  "id": 106,
+                  "order": 1
+                }
+              ],
+              "name": "SOPHOTECT REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 33,
+                  "order": 1
+                },
+                {
+                  "id": 17,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                },
+                {
+                  "id": 145,
+                  "order": 5
+                },
+                {
+                  "id": 69,
+                  "order": 6
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 53,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 23,
+              "equip": [],
+              "name": "SOPHOTECT REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "id": 26,
+                  "order": 1
+                },
+                {
+                  "id": 17,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 5
+                },
+                {
+                  "id": 145,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 72,
+                  "order": 6
+                },
+                {
+                  "id": 69,
+                  "order": 7
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 8
+        }
+      ],
+      "options": [],
+      "slug": "reinf-sophotects",
+      "filters": {
+        "categories": [
+          8
+        ],
+        "skills": [
+          40,
+          49,
+          53,
+          84,
+          86,
+          162,
+          263
+        ],
+        "equip": [
+          106,
+          237,
+          245
+        ],
+        "chars": [
+          3,
+          5,
+          20
+        ],
+        "types": [
+          1
+        ],
+        "weapons": [
+          5,
+          17,
+          26,
+          33,
+          69,
+          72,
+          145
+        ],
+        "ammunition": [
+          2,
+          3,
+          13,
+          29
+        ]
+      },
+      "factions": [
+        799
+      ]
+    },
+    {
       "id": 1722,
       "idArmy": 64,
       "canonical": 799,
@@ -2386,7 +2386,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 25
+                  "id": 29
                 }
               ]
             },
@@ -2482,7 +2482,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 25
+                  "id": 29
                 }
               ]
             },
@@ -2578,7 +2578,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 25
+                  "id": 29
                 }
               ]
             }
@@ -2741,353 +2741,6 @@
           13,
           14,
           37
-        ]
-      },
-      "factions": [
-        799
-      ]
-    },
-    {
-      "id": 1725,
-      "idArmy": 1725,
-      "canonical": 799,
-      "isc": "Reinf. Artalis Unit",
-      "iscAbbr": null,
-      "name": "REINF: ARTALIS Unit",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Reinf. Artalis Unit",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 17,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 1,
-              "ava": 2,
-              "str": false,
-              "bs": 12,
-              "s": 2,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 238,
-                  "order": 1
-                }
-              ],
-              "w": 1,
-              "ph": 10,
-              "name": "REINF: ARTALIS Unit",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-artalis-unit-1-1.svg",
-              "id": 1,
-              "arm": 1,
-              "weapons": [],
-              "chars": [
-                3,
-                5,
-                20
-              ],
-              "wip": 14,
-              "skills": [
-                {
-                  "q": 1,
-                  "extra": [
-                    11
-                  ],
-                  "id": 40,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    30
-                  ],
-                  "id": 162,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "id": 211,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "id": 84,
-                  "order": 4
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 27,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 237,
-                  "order": 2
-                }
-              ],
-              "name": "ARTALIS REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 33,
-                  "order": 1
-                },
-                {
-                  "id": 88,
-                  "order": 2
-                },
-                {
-                  "id": 17,
-                  "order": 3
-                },
-                {
-                  "id": 5,
-                  "order": 5
-                },
-                {
-                  "extra": null,
-                  "id": 100,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 49,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 25,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 237,
-                  "order": 1
-                }
-              ],
-              "name": "ARTALIS REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "extra": null,
-                  "id": 95,
-                  "order": 1
-                },
-                {
-                  "extra": null,
-                  "id": 17,
-                  "order": 2
-                },
-                {
-                  "extra": null,
-                  "id": 100,
-                  "order": 3
-                },
-                {
-                  "extra": null,
-                  "id": 5,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 49,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 23,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 237,
-                  "order": 2
-                }
-              ],
-              "name": "ARTALIS REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 3,
-              "weapons": [
-                {
-                  "id": 41,
-                  "order": 1
-                },
-                {
-                  "id": 17,
-                  "order": 2
-                },
-                {
-                  "id": 5,
-                  "order": 4
-                },
-                {
-                  "extra": null,
-                  "id": 100,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 49,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 25,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 106,
-                  "order": 1
-                }
-              ],
-              "name": "ARTALIS REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 4,
-              "weapons": [
-                {
-                  "id": 17,
-                  "order": 2
-                },
-                {
-                  "id": 5,
-                  "order": 4
-                },
-                {
-                  "id": 95,
-                  "order": 1
-                },
-                {
-                  "extra": null,
-                  "id": 95,
-                  "order": 1
-                },
-                {
-                  "extra": null,
-                  "id": 100,
-                  "order": 5
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 53,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 4
-        }
-      ],
-      "options": [],
-      "slug": "reinf-artalis-unit",
-      "filters": {
-        "categories": [
-          4
-        ],
-        "skills": [
-          40,
-          49,
-          53,
-          84,
-          162,
-          211
-        ],
-        "equip": [
-          106,
-          237,
-          238
-        ],
-        "chars": [
-          3,
-          5,
-          20
-        ],
-        "types": [
-          1
-        ],
-        "weapons": [
-          5,
-          17,
-          33,
-          41,
-          88,
-          95,
-          100
-        ],
-        "ammunition": [
-          2,
-          3,
-          8,
-          9,
-          13
         ]
       },
       "factions": [
@@ -3389,267 +3042,6 @@
       ]
     },
     {
-      "id": 1733,
-      "idArmy": 1733,
-      "canonical": 799,
-      "isc": "Reinf. Rudras GunBots",
-      "iscAbbr": null,
-      "name": "REINF: RUDRAS GunBots",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Reinf. Rudras GunBots",
-          "profiles": [
-            {
-              "bts": 6,
-              "cc": 13,
-              "move": [
-                15,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 5,
-              "ava": 1,
-              "str": true,
-              "bs": 12,
-              "s": 4,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 63,
-                  "order": 1
-                }
-              ],
-              "w": 2,
-              "ph": 10,
-              "name": "REINF: RUDRAS GunBots",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-rudras-gunbots-1-1.svg",
-              "id": 1,
-              "arm": 4,
-              "weapons": [],
-              "chars": [
-                3,
-                5,
-                21
-              ],
-              "wip": 12,
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 235,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "id": 84,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    11
-                  ],
-                  "id": 40,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "id": 82,
-                  "order": 5
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 34,
-              "equip": [],
-              "name": "RUDRA REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 107,
-                  "order": 3
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 4
-                },
-                {
-                  "extra": [
-                    303
-                  ],
-                  "id": 41,
-                  "order": 1
-                },
-                {
-                  "extra": [
-                    30
-                  ],
-                  "id": 176,
-                  "order": 5
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 35,
-              "equip": [],
-              "name": "RUDRA REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "id": 181,
-                  "order": 1
-                },
-                {
-                  "id": 107,
-                  "order": 3
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 4
-                },
-                {
-                  "extra": [
-                    30
-                  ],
-                  "id": 176,
-                  "order": 2
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 38,
-              "equip": [],
-              "name": "RUDRA REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 3,
-              "weapons": [
-                {
-                  "id": 107,
-                  "order": 3
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 4
-                },
-                {
-                  "extra": [
-                    303
-                  ],
-                  "id": 152,
-                  "order": 1
-                },
-                {
-                  "extra": [
-                    30
-                  ],
-                  "id": 176,
-                  "order": 5
-                }
-              ],
-              "chars": [],
-              "swc": "1",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 8
-        }
-      ],
-      "options": [],
-      "slug": "reinf-rudras-gunbots",
-      "filters": {
-        "categories": [
-          8
-        ],
-        "skills": [
-          40,
-          82,
-          84,
-          235
-        ],
-        "equip": [
-          63
-        ],
-        "chars": [
-          3,
-          5,
-          21
-        ],
-        "types": [
-          5
-        ],
-        "weapons": [
-          41,
-          71,
-          107,
-          152,
-          176,
-          181
-        ],
-        "ammunition": [
-          2,
-          3,
-          8,
-          9,
-          37
-        ]
-      },
-      "factions": [
-        799
-      ]
-    },
-    {
       "id": 1730,
       "idArmy": 1730,
       "canonical": 799,
@@ -3866,12 +3258,612 @@
       "factions": [
         799
       ]
+    },
+    {
+      "id": 1725,
+      "idArmy": 1725,
+      "canonical": 799,
+      "isc": "Reinf. Artalis Unit",
+      "iscAbbr": null,
+      "name": "REINF: ARTALIS Unit",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Reinf. Artalis Unit",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 17,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 1,
+              "ava": 2,
+              "str": false,
+              "bs": 12,
+              "s": 2,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 238,
+                  "order": 1
+                }
+              ],
+              "w": 1,
+              "ph": 10,
+              "name": "REINF: ARTALIS Unit",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-artalis-unit-1-1.svg",
+              "id": 1,
+              "arm": 1,
+              "weapons": [],
+              "chars": [
+                3,
+                5,
+                20
+              ],
+              "wip": 14,
+              "skills": [
+                {
+                  "q": 1,
+                  "extra": [
+                    11
+                  ],
+                  "id": 40,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    30
+                  ],
+                  "id": 162,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "id": 211,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "id": 84,
+                  "order": 4
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 27,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 237,
+                  "order": 2
+                }
+              ],
+              "name": "ARTALIS REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 33,
+                  "order": 1
+                },
+                {
+                  "id": 88,
+                  "order": 2
+                },
+                {
+                  "id": 17,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 5
+                },
+                {
+                  "id": 100,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 49,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 23,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 237,
+                  "order": 1
+                }
+              ],
+              "name": "ARTALIS REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "id": 95,
+                  "order": 1
+                },
+                {
+                  "id": 17,
+                  "order": 2
+                },
+                {
+                  "id": 100,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 49,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 23,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 237,
+                  "order": 2
+                }
+              ],
+              "name": "ARTALIS REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 3,
+              "weapons": [
+                {
+                  "id": 41,
+                  "order": 1
+                },
+                {
+                  "id": 17,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                },
+                {
+                  "id": 100,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 49,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 23,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 106,
+                  "order": 1
+                }
+              ],
+              "name": "ARTALIS REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 4,
+              "weapons": [
+                {
+                  "id": 17,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                },
+                {
+                  "id": 95,
+                  "order": 1
+                },
+                {
+                  "id": 95,
+                  "order": 1
+                },
+                {
+                  "id": 100,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 53,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 4
+        }
+      ],
+      "options": [],
+      "slug": "reinf-artalis-unit",
+      "filters": {
+        "categories": [
+          4
+        ],
+        "skills": [
+          40,
+          49,
+          53,
+          84,
+          162,
+          211
+        ],
+        "equip": [
+          106,
+          237,
+          238
+        ],
+        "chars": [
+          3,
+          5,
+          20
+        ],
+        "types": [
+          1
+        ],
+        "weapons": [
+          5,
+          17,
+          33,
+          41,
+          88,
+          95,
+          100
+        ],
+        "ammunition": [
+          2,
+          3,
+          8,
+          9,
+          13
+        ]
+      },
+      "factions": [
+        799
+      ]
+    },
+    {
+      "id": 1733,
+      "idArmy": 1733,
+      "canonical": 799,
+      "isc": "Reinf. Rudras GunBots",
+      "iscAbbr": null,
+      "name": "REINF: RUDRAS GunBots",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Reinf. Rudras GunBots",
+          "profiles": [
+            {
+              "bts": 6,
+              "cc": 13,
+              "move": [
+                15,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 5,
+              "ava": 1,
+              "str": true,
+              "bs": 12,
+              "s": 4,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 63,
+                  "order": 1
+                }
+              ],
+              "w": 2,
+              "ph": 10,
+              "name": "REINF: RUDRAS GunBots",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-rudras-gunbots-1-1.svg",
+              "id": 1,
+              "arm": 4,
+              "weapons": [],
+              "chars": [
+                3,
+                5,
+                21
+              ],
+              "wip": 12,
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 235,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 84,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    11
+                  ],
+                  "id": 40,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "id": 82,
+                  "order": 5
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 34,
+              "equip": [],
+              "name": "RUDRA REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 107,
+                  "order": 3
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 4
+                },
+                {
+                  "extra": [
+                    303
+                  ],
+                  "id": 41,
+                  "order": 1
+                },
+                {
+                  "extra": [
+                    30
+                  ],
+                  "id": 176,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 34,
+              "equip": [],
+              "name": "RUDRA REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "id": 181,
+                  "order": 1
+                },
+                {
+                  "id": 107,
+                  "order": 3
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 4
+                },
+                {
+                  "extra": [
+                    30
+                  ],
+                  "id": 176,
+                  "order": 2
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 38,
+              "equip": [],
+              "name": "RUDRA REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 3,
+              "weapons": [
+                {
+                  "id": 107,
+                  "order": 3
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 4
+                },
+                {
+                  "extra": [
+                    303
+                  ],
+                  "id": 152,
+                  "order": 1
+                },
+                {
+                  "extra": [
+                    30
+                  ],
+                  "id": 176,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "1",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 8
+        }
+      ],
+      "options": [],
+      "slug": "reinf-rudras-gunbots",
+      "filters": {
+        "categories": [
+          8
+        ],
+        "skills": [
+          40,
+          82,
+          84,
+          235
+        ],
+        "equip": [
+          63
+        ],
+        "chars": [
+          3,
+          5,
+          21
+        ],
+        "types": [
+          5
+        ],
+        "weapons": [
+          41,
+          71,
+          107,
+          152,
+          176,
+          181
+        ],
+        "ammunition": [
+          2,
+          3,
+          8,
+          9,
+          37
+        ]
+      },
+      "factions": [
+        799
+      ]
     }
   ],
   "filters": {
     "peripheral": [
       {
-        "id": 25,
+        "id": 29,
         "name": "KIRANBOT"
       }
     ],
@@ -4788,26 +4780,6 @@
       "category": 10
     },
     {
-      "id": 1727,
-      "isc": "Reinf. Dasyus",
-      "idArmy": 1727,
-      "name": "REINF: DASYUS",
-      "slug": "reinf-dasyus",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-dasyus-1-1.svg",
-      "type": 6,
-      "category": 5
-    },
-    {
-      "id": 1729,
-      "isc": "Reinf. Sophotects",
-      "idArmy": 1729,
-      "name": "REINF: SOPHOTECTS",
-      "slug": "reinf-sophotects",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-sophotects-1-1.svg",
-      "type": 1,
-      "category": 8
-    },
-    {
       "id": 1726,
       "isc": "Reinf. Satrah Unit",
       "idArmy": 1726,
@@ -4838,6 +4810,26 @@
       "category": 8
     },
     {
+      "id": 1727,
+      "isc": "Reinf. Dasyus",
+      "idArmy": 1727,
+      "name": "REINF: DASYUS",
+      "slug": "reinf-dasyus",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-dasyus-1-1.svg",
+      "type": 6,
+      "category": 5
+    },
+    {
+      "id": 1729,
+      "isc": "Reinf. Sophotects",
+      "idArmy": 1729,
+      "name": "REINF: SOPHOTECTS",
+      "slug": "reinf-sophotects",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-sophotects-1-1.svg",
+      "type": 1,
+      "category": 8
+    },
+    {
       "id": 1722,
       "isc": "Reinf: Arjuna Unit",
       "idArmy": 64,
@@ -4846,16 +4838,6 @@
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/arjuna-unit-1-1.svg",
       "type": 2,
       "category": 3
-    },
-    {
-      "id": 1725,
-      "isc": "Reinf. Artalis Unit",
-      "idArmy": 1725,
-      "name": "REINF: ARTALIS Unit",
-      "slug": "reinf-artalis-unit",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-artalis-unit-1-1.svg",
-      "type": 1,
-      "category": 4
     },
     {
       "id": 1723,
@@ -4868,22 +4850,32 @@
       "category": 3
     },
     {
-      "id": 1733,
-      "isc": "Reinf. Rudras GunBots",
-      "idArmy": 1733,
-      "name": "REINF: RUDRAS GunBots",
-      "slug": "reinf-rudras-gunbots",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-rudras-gunbots-1-1.svg",
-      "type": 5,
-      "category": 8
-    },
-    {
       "id": 1730,
       "isc": "Reinf. Daleth Rebots",
       "idArmy": 1730,
       "name": "REINF: DALETH Rebots",
       "slug": "reinf-daleth-rebots",
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-daleth-rebots-1-1.svg",
+      "type": 5,
+      "category": 8
+    },
+    {
+      "id": 1725,
+      "isc": "Reinf. Artalis Unit",
+      "idArmy": 1725,
+      "name": "REINF: ARTALIS Unit",
+      "slug": "reinf-artalis-unit",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-artalis-unit-1-1.svg",
+      "type": 1,
+      "category": 4
+    },
+    {
+      "id": 1733,
+      "isc": "Reinf. Rudras GunBots",
+      "idArmy": 1733,
+      "name": "REINF: RUDRAS GunBots",
+      "slug": "reinf-rudras-gunbots",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-rudras-gunbots-1-1.svg",
       "type": 5,
       "category": 8
     }

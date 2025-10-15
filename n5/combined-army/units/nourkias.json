@@ -115,7 +115,7 @@
       ],
       "options": [
         {
-          "id": 2,
+          "id": 3,
           "chars": [],
           "disabled": false,
           "equip": [],
@@ -128,9 +128,17 @@
             }
           ],
           "includes": [],
-          "points": 50,
-          "swc": "0.5",
+          "points": 48,
+          "swc": "1",
           "weapons": [
+            {
+              "id": 95,
+              "order": 1
+            },
+            {
+              "id": 72,
+              "order": 2
+            },
             {
               "id": 69,
               "order": 3
@@ -140,29 +148,22 @@
               "order": 4
             },
             {
-              "id": 95,
-              "order": 1
-            },
-            {
-              "id": 72,
-              "order": 6
-            },
-            {
               "id": 7,
-              "order": 7
+              "order": 5
             }
           ],
           "name": "NOURKIAS",
           "skills": [
             {
               "id": 1000,
-              "order": 1
+              "order": 1,
+              "q": 1
             }
           ],
           "peripheral": []
         },
         {
-          "id": 4,
+          "id": 6,
           "chars": [],
           "disabled": false,
           "equip": [],
@@ -180,9 +181,17 @@
             }
           ],
           "includes": [],
-          "points": 48,
-          "swc": "0",
+          "points": 46,
+          "swc": "1",
           "weapons": [
+            {
+              "id": 95,
+              "order": 1
+            },
+            {
+              "id": 72,
+              "order": 2
+            },
             {
               "id": 69,
               "order": 3
@@ -192,27 +201,21 @@
               "order": 4
             },
             {
-              "id": 95,
-              "order": 1
-            },
-            {
-              "id": 72,
-              "order": 6
-            },
-            {
               "id": 7,
-              "order": 7
+              "order": 5
             }
           ],
           "name": "NOURKIAS",
           "skills": [
             {
               "id": 119,
-              "order": 1
+              "order": 1,
+              "q": 1
             },
             {
               "id": 1000,
-              "order": 2
+              "order": 2,
+              "q": 1
             }
           ],
           "peripheral": []

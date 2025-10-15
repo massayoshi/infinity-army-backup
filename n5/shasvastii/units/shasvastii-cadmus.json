@@ -27,7 +27,22 @@
           ],
           "equip": [],
           "logo": "https://assets.corvusbelli.net/army/img/logo/units/shasvastii-cadmus-1-1.svg",
-          "weapons": [],
+          "weapons": [
+            {
+              "extra": [
+                7
+              ],
+              "id": 71,
+              "order": 1
+            },
+            {
+              "extra": [
+                292
+              ],
+              "id": 147,
+              "order": 2
+            }
+          ],
           "includes": [],
           "move": [
             -1,
@@ -160,7 +175,7 @@
               "order": 1
             },
             {
-              "id": 147,
+              "id": 145,
               "order": 2
             },
             {
@@ -168,12 +183,8 @@
               "order": 3
             },
             {
-              "id": 10,
+              "id": 11,
               "order": 4
-            },
-            {
-              "id": 71,
-              "order": 5
             }
           ],
           "name": "CADMUS-SOLDIER",
@@ -202,24 +213,16 @@
               "order": 1
             },
             {
-              "id": 65,
+              "id": 145,
               "order": 2
             },
             {
-              "id": 147,
+              "id": 69,
               "order": 3
             },
             {
-              "id": 69,
+              "id": 11,
               "order": 4
-            },
-            {
-              "id": 10,
-              "order": 5
-            },
-            {
-              "id": 71,
-              "order": 6
             }
           ],
           "name": "CADMUS-SOLDIER",
@@ -253,24 +256,16 @@
               "order": 1
             },
             {
-              "id": 65,
+              "id": 145,
               "order": 2
             },
             {
-              "id": 147,
+              "id": 69,
               "order": 3
             },
             {
-              "id": 69,
+              "id": 11,
               "order": 4
-            },
-            {
-              "id": 10,
-              "order": 5
-            },
-            {
-              "id": 71,
-              "order": 6
             }
           ],
           "name": "CADMUS-SOLDIER",
@@ -316,18 +311,19 @@
       1
     ],
     "weapons": [
-      10,
+      11,
       26,
       33,
-      65,
       69,
       71,
+      145,
       147
     ],
     "ammunition": [
       2,
       3,
       8,
+      9,
       37
     ]
   },

@@ -102,16 +102,12 @@
             }
           ],
           "includes": [],
-          "points": 22,
+          "points": 24,
           "swc": "0",
           "weapons": [
             {
               "id": 180,
               "order": 1
-            },
-            {
-              "id": 196,
-              "order": 2
             },
             {
               "id": 69,
@@ -120,10 +116,20 @@
             {
               "id": 5,
               "order": 4
+            },
+            {
+              "id": 199,
+              "order": 2
             }
           ],
           "name": "STRELOK",
-          "skills": [],
+          "skills": [
+            {
+              "id": 278,
+              "order": 1,
+              "q": 1
+            }
+          ],
           "peripheral": []
         },
         {
@@ -152,16 +158,16 @@
               "order": 2
             },
             {
-              "id": 196,
-              "order": 3
-            },
-            {
               "id": 69,
               "order": 4
             },
             {
               "id": 5,
               "order": 5
+            },
+            {
+              "id": 199,
+              "order": 3
             }
           ],
           "name": "STRELOK",
@@ -189,7 +195,7 @@
             }
           ],
           "points": 25,
-          "swc": "0.5",
+          "swc": "0",
           "weapons": [
             {
               "id": 77,
@@ -200,23 +206,23 @@
               "order": 2
             },
             {
-              "id": 196,
-              "order": 3
-            },
-            {
               "id": 69,
               "order": 4
             },
             {
               "id": 5,
               "order": 5
+            },
+            {
+              "id": 199,
+              "order": 3
             }
           ],
           "name": "STRELOK K-9",
           "skills": [],
           "peripheral": [
             {
-              "id": 27
+              "id": 85
             }
           ]
         },
@@ -242,10 +248,6 @@
               "order": 1
             },
             {
-              "id": 196,
-              "order": 2
-            },
-            {
               "id": 72,
               "order": 3
             },
@@ -256,6 +258,10 @@
             {
               "id": 5,
               "order": 5
+            },
+            {
+              "id": 199,
+              "order": 2
             }
           ],
           "name": "STRELOK",
@@ -409,7 +415,8 @@
       164,
       191,
       215,
-      243
+      243,
+      278
     ],
     "equip": [],
     "chars": [
@@ -433,12 +440,11 @@
       177,
       180,
       193,
-      196
+      199
     ],
     "ammunition": [
       2,
       3,
-      8,
       9,
       18,
       29

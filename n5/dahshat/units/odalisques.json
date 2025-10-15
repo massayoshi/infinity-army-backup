@@ -18,7 +18,7 @@
           "ava": 4,
           "bs": 12,
           "bts": 3,
-          "cc": 18,
+          "cc": 19,
           "chars": [
             1,
             3,
@@ -29,8 +29,8 @@
           "weapons": [],
           "includes": [],
           "move": [
-            10,
-            10
+            15,
+            5
           ],
           "ph": 10,
           "s": 2,
@@ -65,6 +65,32 @@
               "id": 262,
               "order": 6,
               "q": 1
+            },
+            {
+              "id": 131,
+              "order": 7,
+              "extra": [
+                2
+              ],
+              "q": 1
+            },
+            {
+              "id": 39,
+              "order": 8,
+              "q": 1
+            },
+            {
+              "id": 273,
+              "order": 9,
+              "extra": [
+                353
+              ],
+              "q": 1
+            },
+            {
+              "id": 164,
+              "order": 10,
+              "q": 1
             }
           ],
           "peripheral": []
@@ -72,7 +98,95 @@
       ],
       "options": [
         {
-          "id": 1,
+          "id": 4,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 19,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 77,
+              "order": 1
+            },
+            {
+              "id": 19,
+              "order": 2
+            },
+            {
+              "id": 145,
+              "order": 3
+            },
+            {
+              "id": 69,
+              "order": 4
+            },
+            {
+              "id": 71,
+              "order": 5
+            }
+          ],
+          "name": "ODALISQUE",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 12,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 21,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 77,
+              "order": 1
+            },
+            {
+              "id": 19,
+              "order": 2
+            },
+            {
+              "id": 145,
+              "order": 3
+            },
+            {
+              "id": 208,
+              "order": 4
+            },
+            {
+              "id": 69,
+              "order": 5
+            },
+            {
+              "id": 71,
+              "order": 6
+            }
+          ],
+          "name": "ODALISQUE",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 13,
           "chars": [],
           "disabled": false,
           "equip": [],
@@ -97,24 +211,33 @@
               "order": 2
             },
             {
-              "id": 189,
+              "id": 145,
               "order": 3
             },
             {
-              "id": 71,
+              "id": 69,
               "order": 4
             },
             {
-              "id": 145,
+              "id": 71,
               "order": 5
             }
           ],
           "name": "ODALISQUE",
-          "skills": [],
+          "skills": [
+            {
+              "extra": [
+                8
+              ],
+              "id": 201,
+              "order": 1,
+              "q": 1
+            }
+          ],
           "peripheral": []
         },
         {
-          "id": 2,
+          "id": 14,
           "chars": [],
           "disabled": false,
           "equip": [],
@@ -135,24 +258,33 @@
               "order": 1
             },
             {
-              "id": 189,
+              "id": 145,
               "order": 2
             },
             {
-              "id": 71,
+              "id": 69,
               "order": 3
             },
             {
-              "id": 145,
+              "id": 71,
               "order": 4
             }
           ],
           "name": "ODALISQUE",
-          "skills": [],
+          "skills": [
+            {
+              "extra": [
+                8
+              ],
+              "id": 201,
+              "order": 1,
+              "q": 1
+            }
+          ],
           "peripheral": []
         },
         {
-          "id": 3,
+          "id": 15,
           "chars": [],
           "disabled": false,
           "equip": [],
@@ -165,35 +297,47 @@
             }
           ],
           "includes": [],
-          "points": 31,
-          "swc": "1",
+          "points": 28,
+          "swc": "0",
           "weapons": [
             {
-              "id": 74,
+              "id": 189,
+              "order": 3
+            },
+            {
+              "id": 71,
+              "order": 4
+            },
+            {
+              "id": 206,
               "order": 1
             },
             {
-              "id": 189,
-              "order": 3
-            },
-            {
-              "id": 71,
-              "order": 4
-            },
-            {
               "id": 145,
-              "order": 2
+              "order": 5
             }
           ],
           "name": "ODALISQUE",
-          "skills": [],
+          "skills": [
+            {
+              "id": 156,
+              "order": 1,
+              "q": 1
+            }
+          ],
           "peripheral": []
         },
         {
-          "id": 4,
+          "id": 16,
           "chars": [],
           "disabled": false,
-          "equip": [],
+          "equip": [
+            {
+              "id": 106,
+              "order": 1,
+              "q": 1
+            }
+          ],
           "minis": 1,
           "orders": [
             {
@@ -203,62 +347,12 @@
             }
           ],
           "includes": [],
-          "points": 24,
+          "points": 21,
           "swc": "0",
           "weapons": [
             {
               "id": 77,
               "order": 1
-            },
-            {
-              "id": 19,
-              "order": 2
-            },
-            {
-              "id": 189,
-              "order": 4
-            },
-            {
-              "id": 71,
-              "order": 5
-            },
-            {
-              "id": 145,
-              "order": 3
-            }
-          ],
-          "name": "ODALISQUE",
-          "skills": [],
-          "peripheral": []
-        },
-        {
-          "id": 5,
-          "chars": [],
-          "disabled": false,
-          "equip": [],
-          "minis": 1,
-          "orders": [
-            {
-              "type": "REGULAR",
-              "list": 1,
-              "total": 1
-            }
-          ],
-          "includes": [],
-          "points": 22,
-          "swc": "0",
-          "weapons": [
-            {
-              "id": 77,
-              "order": 1
-            },
-            {
-              "id": 189,
-              "order": 4
-            },
-            {
-              "id": 71,
-              "order": 5
             },
             {
               "id": 145,
@@ -266,11 +360,25 @@
             },
             {
               "id": 72,
-              "order": 6
+              "order": 3
+            },
+            {
+              "id": 69,
+              "order": 4
+            },
+            {
+              "id": 71,
+              "order": 5
             }
           ],
           "name": "ODALISQUE",
-          "skills": [],
+          "skills": [
+            {
+              "id": 64,
+              "order": 1,
+              "q": 1
+            }
+          ],
           "peripheral": []
         }
       ]
@@ -283,13 +391,22 @@
       3
     ],
     "skills": [
+      39,
+      64,
       67,
       84,
       86,
+      131,
+      156,
       162,
-      262
+      164,
+      201,
+      262,
+      273
     ],
-    "equip": [],
+    "equip": [
+      106
+    ],
     "chars": [
       1,
       3,
@@ -303,12 +420,14 @@
       26,
       28,
       31,
+      69,
       71,
       72,
-      74,
       77,
       145,
-      189
+      189,
+      206,
+      208
     ],
     "ammunition": [
       2,

@@ -16,7 +16,7 @@
           "id": 1,
           "arm": 3,
           "ava": 4,
-          "bs": 12,
+          "bs": 13,
           "bts": 0,
           "cc": 14,
           "chars": [
@@ -37,7 +37,7 @@
           "str": false,
           "type": 2,
           "w": 1,
-          "wip": 14,
+          "wip": 13,
           "name": "TANKHUNTERS Regiment",
           "notes": null,
           "skills": [
@@ -86,32 +86,28 @@
             }
           ],
           "includes": [],
-          "points": 25,
-          "swc": "0",
+          "points": 33,
+          "swc": "1.5",
           "weapons": [
             {
-              "id": 69,
-              "order": 5
-            },
-            {
-              "id": 5,
-              "order": 6
-            },
-            {
-              "id": 32,
+              "id": 3,
               "order": 1
             },
             {
-              "id": 216,
-              "order": 7
-            },
-            {
               "id": 17,
-              "order": 8
+              "order": 2
             },
             {
               "id": 199,
-              "order": 9
+              "order": 3
+            },
+            {
+              "id": 69,
+              "order": 4
+            },
+            {
+              "id": 5,
+              "order": 5
             }
           ],
           "name": "TANKHUNTER",
@@ -132,19 +128,19 @@
             }
           ],
           "includes": [],
-          "points": 34,
+          "points": 36,
           "swc": "1.5",
           "weapons": [
             {
-              "id": 3,
+              "id": 16,
               "order": 1
             },
             {
-              "id": 199,
+              "id": 17,
               "order": 2
             },
             {
-              "id": 17,
+              "id": 199,
               "order": 3
             },
             {
@@ -174,19 +170,19 @@
             }
           ],
           "includes": [],
-          "points": 34,
+          "points": 28,
           "swc": "1.5",
           "weapons": [
             {
-              "id": 16,
+              "id": 58,
               "order": 1
             },
             {
-              "id": 199,
+              "id": 17,
               "order": 2
             },
             {
-              "id": 17,
+              "id": 199,
               "order": 3
             },
             {
@@ -204,151 +200,6 @@
         },
         {
           "id": 4,
-          "chars": [],
-          "disabled": false,
-          "equip": [],
-          "minis": 1,
-          "orders": [
-            {
-              "type": "REGULAR",
-              "list": 1,
-              "total": 1
-            }
-          ],
-          "includes": [],
-          "points": 29,
-          "swc": "1.5",
-          "weapons": [
-            {
-              "id": 58,
-              "order": 1
-            },
-            {
-              "id": 199,
-              "order": 2
-            },
-            {
-              "id": 17,
-              "order": 3
-            },
-            {
-              "id": 69,
-              "order": 4
-            },
-            {
-              "id": 5,
-              "order": 5
-            }
-          ],
-          "name": "TANKHUNTER",
-          "skills": [],
-          "peripheral": []
-        },
-        {
-          "id": 5,
-          "chars": [],
-          "disabled": false,
-          "equip": [],
-          "minis": 1,
-          "orders": [
-            {
-              "type": "REGULAR",
-              "list": 1,
-              "total": 1
-            },
-            {
-              "type": "LIEUTENANT",
-              "list": 0,
-              "total": 1
-            }
-          ],
-          "includes": [],
-          "points": 25,
-          "swc": "0",
-          "weapons": [
-            {
-              "id": 69,
-              "order": 5
-            },
-            {
-              "id": 5,
-              "order": 6
-            },
-            {
-              "id": 32,
-              "order": 1
-            },
-            {
-              "id": 216,
-              "order": 7
-            },
-            {
-              "id": 17,
-              "order": 8
-            },
-            {
-              "id": 199,
-              "order": 9
-            }
-          ],
-          "name": "TANKHUNTER",
-          "skills": [
-            {
-              "id": 119,
-              "order": 1
-            }
-          ],
-          "peripheral": []
-        },
-        {
-          "id": 6,
-          "chars": [],
-          "disabled": false,
-          "equip": [],
-          "minis": 1,
-          "orders": [
-            {
-              "type": "REGULAR",
-              "list": 1,
-              "total": 1
-            }
-          ],
-          "includes": [],
-          "points": 26,
-          "swc": "0",
-          "weapons": [
-            {
-              "id": 32,
-              "order": 1
-            },
-            {
-              "id": 199,
-              "order": 3
-            },
-            {
-              "id": 17,
-              "order": 4
-            },
-            {
-              "id": 69,
-              "order": 5
-            },
-            {
-              "id": 5,
-              "order": 6
-            }
-          ],
-          "name": "TANKHUNTER",
-          "skills": [
-            {
-              "id": 26,
-              "order": 1
-            }
-          ],
-          "peripheral": []
-        },
-        {
-          "id": 7,
           "chars": [],
           "disabled": false,
           "equip": [],
@@ -381,16 +232,69 @@
               "order": 4
             },
             {
-              "id": 220,
+              "id": 69,
               "order": 5
             },
             {
-              "id": 69,
+              "id": 5,
               "order": 6
+            }
+          ],
+          "name": "TANKHUNTER",
+          "skills": [
+            {
+              "id": 26,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 56,
+              "order": 2,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 5,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 24,
+          "swc": "0.5",
+          "weapons": [
+            {
+              "id": 214,
+              "order": 1
+            },
+            {
+              "id": 68,
+              "order": 2
+            },
+            {
+              "id": 17,
+              "order": 3
+            },
+            {
+              "id": 199,
+              "order": 4
+            },
+            {
+              "id": 69,
+              "order": 5
             },
             {
               "id": 5,
-              "order": 7
+              "order": 6
             }
           ],
           "name": "TANKHUNTER",
@@ -401,6 +305,125 @@
               ],
               "id": 161,
               "order": 1,
+              "q": 1
+            },
+            {
+              "id": 56,
+              "order": 2,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 6,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 25,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 32,
+              "order": 1
+            },
+            {
+              "id": 216,
+              "order": 2
+            },
+            {
+              "id": 17,
+              "order": 3
+            },
+            {
+              "id": 199,
+              "order": 4
+            },
+            {
+              "id": 69,
+              "order": 5
+            },
+            {
+              "id": 5,
+              "order": 6
+            }
+          ],
+          "name": "TANKHUNTER",
+          "skills": [
+            {
+              "id": 56,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 7,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "LIEUTENANT",
+              "list": 0,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 25,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 32,
+              "order": 1
+            },
+            {
+              "id": 216,
+              "order": 2
+            },
+            {
+              "id": 17,
+              "order": 3
+            },
+            {
+              "id": 199,
+              "order": 4
+            },
+            {
+              "id": 69,
+              "order": 5
+            },
+            {
+              "id": 5,
+              "order": 6
+            }
+          ],
+          "name": "TANKHUNTER",
+          "skills": [
+            {
+              "id": 119,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 56,
+              "order": 2,
               "q": 1
             }
           ],
@@ -419,6 +442,7 @@
       26,
       28,
       29,
+      56,
       84,
       119,
       161,
@@ -445,8 +469,7 @@
       69,
       199,
       214,
-      216,
-      220
+      216
     ],
     "ammunition": [
       2,

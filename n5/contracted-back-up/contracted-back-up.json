@@ -1,5 +1,5 @@
 {
-  "version": "7.25125.370",
+  "version": "7.25288.295",
   "units": [
     {
       "id": 1686,
@@ -414,353 +414,6 @@
           2,
           3,
           29
-        ]
-      },
-      "factions": [
-        998,
-        999
-      ]
-    },
-    {
-      "id": 1690,
-      "idArmy": 1690,
-      "canonical": 998,
-      "isc": "Reinf. Anaconda, Mercenary TAG Squad",
-      "iscAbbr": "Reinf. Anaconda",
-      "name": "REINF: ANACONDA, Mercenary TAG Squad",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Reinf. Anaconda, Mercenary TAG Squad",
-          "profiles": [
-            {
-              "bts": 6,
-              "cc": 18,
-              "move": [
-                15,
-                5
-              ],
-              "notes": null,
-              "includes": [
-                {
-                  "q": 1,
-                  "group": 2,
-                  "option": 1
-                }
-              ],
-              "type": 4,
-              "ava": 1,
-              "str": true,
-              "bs": 13,
-              "s": 7,
-              "equip": [
-                {
-                  "q": 1,
-                  "extra": [
-                    7
-                  ],
-                  "id": 239,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "id": 137,
-                  "order": 2
-                }
-              ],
-              "w": 3,
-              "ph": 16,
-              "name": "REINF: ANACONDA, Mercenary TAG Squad",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-anaconda-mercenary-tag-squad-1-1.svg",
-              "id": 1,
-              "arm": 7,
-              "weapons": [],
-              "chars": [
-                1,
-                3,
-                5,
-                21
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "q": 1,
-                  "extra": [
-                    305
-                  ],
-                  "id": 201,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "id": 84,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    27
-                  ],
-                  "id": 40,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    27
-                  ],
-                  "id": 254,
-                  "order": 4
-                },
-                {
-                  "q": 1,
-                  "id": 213,
-                  "order": 5
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    321
-                  ],
-                  "id": 246,
-                  "order": 6
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 57,
-              "equip": [],
-              "name": "ANACONDA REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "TACTICAL",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 157,
-                  "order": 1
-                },
-                {
-                  "id": 56,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    249
-                  ],
-                  "id": 207,
-                  "order": 3
-                },
-                {
-                  "extra": [
-                    311
-                  ],
-                  "id": 6,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "1.5",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 56,
-              "equip": [],
-              "name": "ANACONDA REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "TACTICAL",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "id": 2,
-                  "order": 1
-                },
-                {
-                  "extra": [
-                    8
-                  ],
-                  "id": 28,
-                  "order": 2
-                },
-                {
-                  "extra": null,
-                  "id": 68,
-                  "order": 3
-                },
-                {
-                  "extra": [
-                    311
-                  ],
-                  "id": 6,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "1.5",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 11
-        },
-        {
-          "notes": null,
-          "isc": "Anaconda TAG Operator",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 13,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 1,
-              "ava": -1,
-              "str": false,
-              "bs": 12,
-              "s": 2,
-              "equip": [],
-              "w": 3,
-              "ph": 10,
-              "name": "ANACONDA OPERATOR",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-anaconda-mercenary-tag-squad-2-1.svg",
-              "id": 1,
-              "arm": 1,
-              "weapons": [],
-              "chars": [
-                1,
-                3,
-                5
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 84,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "id": 189,
-                  "order": 2
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 0,
-              "equip": [],
-              "name": "OPERATOR",
-              "disabled": true,
-              "orders": [],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 74,
-                  "order": 1
-                },
-                {
-                  "extra": null,
-                  "id": 212,
-                  "order": 2
-                },
-                {
-                  "extra": null,
-                  "id": 5,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 2,
-          "category": 11
-        }
-      ],
-      "options": [],
-      "slug": "reinf-anaconda",
-      "filters": {
-        "categories": [
-          11
-        ],
-        "skills": [
-          40,
-          84,
-          189,
-          201,
-          213,
-          246,
-          254
-        ],
-        "equip": [
-          137,
-          239
-        ],
-        "chars": [
-          1,
-          3,
-          5,
-          21
-        ],
-        "types": [
-          1,
-          4
-        ],
-        "weapons": [
-          2,
-          5,
-          6,
-          28,
-          56,
-          68,
-          74,
-          157,
-          207,
-          212
-        ],
-        "ammunition": [
-          2,
-          3,
-          13
         ]
       },
       "factions": [
@@ -1285,14 +938,6 @@
                 {
                   "q": 1,
                   "extra": [
-                    30
-                  ],
-                  "id": 162,
-                  "order": 7
-                },
-                {
-                  "q": 1,
-                  "extra": [
                     44
                   ],
                   "id": 246,
@@ -1358,14 +1003,6 @@
                   "q": 1,
                   "id": 256,
                   "order": 5
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    30
-                  ],
-                  "id": 162,
-                  "order": 6
                 }
               ],
               "peripheral": []
@@ -1484,7 +1121,6 @@
           39,
           40,
           84,
-          162,
           240,
           246,
           256
@@ -1510,6 +1146,407 @@
         "ammunition": [
           2,
           3
+        ]
+      },
+      "factions": [
+        998,
+        999
+      ]
+    },
+    {
+      "id": 1690,
+      "idArmy": 1690,
+      "canonical": 998,
+      "isc": "Reinf. Anaconda, Mercenary TAG Squad",
+      "iscAbbr": "Reinf. Anaconda",
+      "name": "REINF: ANACONDA, Mercenary TAG Squad",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Reinf. Anaconda, Mercenary TAG Squad",
+          "profiles": [
+            {
+              "bts": 6,
+              "cc": 21,
+              "move": [
+                15,
+                5
+              ],
+              "notes": null,
+              "includes": [
+                {
+                  "q": 1,
+                  "group": 2,
+                  "option": 1
+                }
+              ],
+              "type": 4,
+              "ava": 1,
+              "str": true,
+              "bs": 13,
+              "s": 7,
+              "equip": [
+                {
+                  "q": 1,
+                  "extra": [
+                    7
+                  ],
+                  "id": 239,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 137,
+                  "order": 2
+                }
+              ],
+              "w": 3,
+              "ph": 16,
+              "name": "REINF: ANACONDA, Mercenary TAG Squad",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-anaconda-mercenary-tag-squad-1-1.svg",
+              "id": 1,
+              "arm": 7,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                5,
+                21
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "q": 1,
+                  "extra": [
+                    305
+                  ],
+                  "id": 201,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 84,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    27
+                  ],
+                  "id": 40,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    27
+                  ],
+                  "id": 254,
+                  "order": 4
+                },
+                {
+                  "q": 1,
+                  "id": 213,
+                  "order": 5
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    321
+                  ],
+                  "id": 246,
+                  "order": 6
+                },
+                {
+                  "q": 1,
+                  "id": 267,
+                  "order": 7
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    249
+                  ],
+                  "id": 162,
+                  "order": 8
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 59,
+              "equip": [],
+              "name": "ANACONDA REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "TACTICAL",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 157,
+                  "order": 1
+                },
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 57,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    249
+                  ],
+                  "id": 207,
+                  "order": 3
+                },
+                {
+                  "extra": [
+                    311
+                  ],
+                  "id": 11,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "1.5",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 59,
+              "equip": [],
+              "name": "ANACONDA REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "TACTICAL",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "id": 2,
+                  "order": 1
+                },
+                {
+                  "id": 68,
+                  "order": 3
+                },
+                {
+                  "extra": [
+                    311
+                  ],
+                  "id": 6,
+                  "order": 4
+                },
+                {
+                  "extra": [
+                    256
+                  ],
+                  "id": 28,
+                  "order": 2
+                }
+              ],
+              "chars": [],
+              "swc": "1.5",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 11
+        },
+        {
+          "notes": null,
+          "isc": "Anaconda TAG Operator",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 13,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 1,
+              "ava": -1,
+              "str": false,
+              "bs": 12,
+              "s": 2,
+              "equip": [],
+              "w": 3,
+              "ph": 10,
+              "name": "ANACONDA OPERATOR",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-anaconda-mercenary-tag-squad-2-1.svg",
+              "id": 1,
+              "arm": 1,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                5
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 84,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 189,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "id": 267,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    6
+                  ],
+                  "id": 28,
+                  "order": 4
+                },
+                {
+                  "q": 1,
+                  "id": 213,
+                  "order": 5
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 59,
+              "equip": [],
+              "name": "OPERATOR",
+              "disabled": true,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "TACTICAL",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 74,
+                  "order": 1
+                },
+                {
+                  "id": 212,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                },
+                {
+                  "extra": null,
+                  "id": 195,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 2,
+          "category": 11
+        }
+      ],
+      "options": [],
+      "slug": "reinf-anaconda",
+      "filters": {
+        "categories": [
+          11
+        ],
+        "skills": [
+          28,
+          40,
+          84,
+          162,
+          189,
+          201,
+          213,
+          246,
+          254,
+          267
+        ],
+        "equip": [
+          137,
+          239
+        ],
+        "chars": [
+          1,
+          3,
+          5,
+          21
+        ],
+        "types": [
+          1,
+          4
+        ],
+        "weapons": [
+          2,
+          5,
+          6,
+          11,
+          28,
+          57,
+          68,
+          74,
+          157,
+          195,
+          207,
+          212
+        ],
+        "ammunition": [
+          2,
+          3,
+          9,
+          13,
+          21
         ]
       },
       "factions": [
@@ -2822,12 +2859,8 @@
         "name": "31"
       },
       {
-        "id": 56,
-        "name": "56"
-      },
-      {
-        "id": 57,
-        "name": "57"
+        "id": 59,
+        "name": "59"
       }
     ],
     "swc": [
@@ -2893,6 +2926,11 @@
         "id": 8,
         "name": "Shock",
         "wiki": "https://infinitythewiki.com/Shock_Ammunition?version=n4"
+      },
+      {
+        "id": 21,
+        "name": "Smoke",
+        "wiki": "https://infinitythewiki.com/Smoke_Ammunition?version=n4"
       },
       {
         "id": 29,
@@ -3132,6 +3170,11 @@
         "wiki": "https://infinitythewiki.com/Combat_Instinct?version=n4"
       },
       {
+        "id": 267,
+        "name": "Warhorse",
+        "wiki": "https://infinitythewiki.com/Warhorse?version=n4"
+      },
+      {
         "id": 1000,
         "name": "Hacker",
         "wiki": "https://infinitythewiki.com/Hacker?version=n4"
@@ -3216,6 +3259,11 @@
         "wiki": "https://infinitythewiki.com/D-Charges?version=n4"
       },
       {
+        "id": 11,
+        "name": "DA CC Weapon",
+        "type": "CC"
+      },
+      {
         "id": 96,
         "name": "Drop Bears",
         "type": "BS",
@@ -3242,6 +3290,11 @@
         "type": "BS"
       },
       {
+        "id": 57,
+        "name": "Heavy Flamethrower",
+        "type": "BS"
+      },
+      {
         "id": 2,
         "name": "Heavy Machine Gun",
         "type": "BS"
@@ -3259,11 +3312,6 @@
       {
         "id": 89,
         "name": "Heavy Rocket Launcher",
-        "type": "BS"
-      },
-      {
-        "id": 56,
-        "name": "Light Flamethrower",
         "type": "BS"
       },
       {
@@ -3327,6 +3375,11 @@
         "type": "BS"
       },
       {
+        "id": 195,
+        "name": "Smoke Grenade Launcher",
+        "type": "BS"
+      },
+      {
         "id": 34,
         "name": "Sniper Rifle",
         "type": "BS"
@@ -3354,6 +3407,11 @@
     ],
     "extras": [
       {
+        "id": 6,
+        "name": "-3",
+        "type": "TEXT"
+      },
+      {
         "id": 7,
         "name": "-6",
         "type": "TEXT"
@@ -3372,6 +3430,11 @@
         "id": 11,
         "name": "+2.5",
         "type": "DISTANCE"
+      },
+      {
+        "id": 256,
+        "name": "+2B",
+        "type": "TEXT"
       },
       {
         "id": 44,
@@ -3414,11 +3477,6 @@
         "type": "TEXT"
       },
       {
-        "id": 30,
-        "name": "Shock",
-        "type": "TEXT"
-      },
-      {
         "id": 305,
         "name": "SR-1",
         "type": "TEXT"
@@ -3452,16 +3510,6 @@
       "category": 11
     },
     {
-      "id": 1690,
-      "isc": "Reinf. Anaconda",
-      "idArmy": 1690,
-      "name": "REINF: ANACONDA, Mercenary TAG Squad",
-      "slug": "reinf-anaconda",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-anaconda-mercenary-tag-squad-1-1.svg",
-      "type": 4,
-      "category": 11
-    },
-    {
       "id": 1684,
       "isc": "Reinf. Brawlers, Mercenary Enforcers",
       "idArmy": 1684,
@@ -3479,6 +3527,16 @@
       "slug": "reinf-diggers-armed-prospectors",
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-diggers-armed-prospectors-1-1.svg",
       "type": 3,
+      "category": 11
+    },
+    {
+      "id": 1690,
+      "isc": "Reinf. Anaconda",
+      "idArmy": 1690,
+      "name": "REINF: ANACONDA, Mercenary TAG Squad",
+      "slug": "reinf-anaconda",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-anaconda-mercenary-tag-squad-1-1.svg",
+      "type": 4,
       "category": 11
     },
     {

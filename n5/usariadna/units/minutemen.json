@@ -43,37 +43,64 @@
           "notes": null,
           "skills": [
             {
-              "id": 40,
+              "id": 240,
               "order": 1,
               "extra": [
-                11
-              ]
+                7
+              ],
+              "q": 1
+            },
+            {
+              "id": 201,
+              "order": 2,
+              "extra": [
+                308
+              ],
+              "q": 1
+            },
+            {
+              "id": 40,
+              "order": 3,
+              "extra": [
+                23
+              ],
+              "q": 1
             },
             {
               "id": 162,
-              "order": 2,
-              "extra": [
-                30
-              ]
-            },
-            {
-              "id": 58,
-              "order": 3,
-              "extra": [
-                33
-              ]
-            },
-            {
-              "id": 240,
               "order": 4,
               "extra": [
-                6
+                327
+              ],
+              "q": 1
+            },
+            {
+              "id": 162,
+              "order": 5,
+              "extra": [
+                30
               ],
               "q": 1
             },
             {
               "id": 262,
-              "order": 5,
+              "order": 6,
+              "q": 1
+            },
+            {
+              "id": 273,
+              "order": 7,
+              "extra": [
+                353
+              ],
+              "q": 1
+            },
+            {
+              "id": 58,
+              "order": 8,
+              "extra": [
+                33
+              ],
               "q": 1
             }
           ],
@@ -107,50 +134,7 @@
               "order": 2
             },
             {
-              "id": 107,
-              "order": 3
-            },
-            {
-              "id": 6,
-              "order": 4
-            }
-          ],
-          "name": "MINUTEMAN",
-          "skills": [],
-          "peripheral": []
-        },
-        {
-          "id": 5,
-          "chars": [],
-          "disabled": false,
-          "equip": [
-            {
-              "id": 117,
-              "order": 1
-            }
-          ],
-          "minis": 1,
-          "orders": [
-            {
-              "type": "REGULAR",
-              "list": 1,
-              "total": 1
-            }
-          ],
-          "includes": [],
-          "points": 24,
-          "swc": "0",
-          "weapons": [
-            {
-              "id": 42,
-              "order": 1
-            },
-            {
-              "id": 56,
-              "order": 2
-            },
-            {
-              "id": 107,
+              "id": 100,
               "order": 3
             },
             {
@@ -176,7 +160,7 @@
             }
           ],
           "includes": [],
-          "points": 23,
+          "points": 25,
           "swc": "0",
           "weapons": [
             {
@@ -192,12 +176,16 @@
               "order": 3
             },
             {
-              "id": 107,
+              "id": 17,
               "order": 4
             },
             {
-              "id": 6,
+              "id": 100,
               "order": 5
+            },
+            {
+              "id": 6,
+              "order": 6
             }
           ],
           "name": "MINUTEMAN",
@@ -205,6 +193,11 @@
             {
               "id": 59,
               "order": 1
+            },
+            {
+              "id": 211,
+              "order": 2,
+              "q": 1
             }
           ],
           "peripheral": []
@@ -223,7 +216,7 @@
             }
           ],
           "includes": [],
-          "points": 33,
+          "points": 34,
           "swc": "1.5",
           "weapons": [
             {
@@ -231,7 +224,7 @@
               "order": 1
             },
             {
-              "id": 107,
+              "id": 100,
               "order": 2
             },
             {
@@ -267,28 +260,20 @@
             }
           ],
           "includes": [],
-          "points": 27,
-          "swc": "0",
+          "points": 36,
+          "swc": "1.5",
           "weapons": [
             {
-              "id": 42,
+              "id": 3,
               "order": 1
             },
             {
-              "id": 56,
+              "id": 100,
               "order": 2
             },
             {
-              "id": 72,
-              "order": 3
-            },
-            {
-              "id": 107,
-              "order": 4
-            },
-            {
               "id": 6,
-              "order": 5
+              "order": 3
             }
           ],
           "name": "MINUTEMAN",
@@ -299,11 +284,6 @@
               ],
               "id": 119,
               "order": 1,
-              "q": 1
-            },
-            {
-              "id": 59,
-              "order": 2,
               "q": 1
             }
           ],
@@ -328,20 +308,32 @@
             }
           ],
           "includes": [],
-          "points": 35,
-          "swc": "1.5",
+          "points": 27,
+          "swc": "0",
           "weapons": [
             {
-              "id": 3,
+              "id": 42,
               "order": 1
             },
             {
-              "id": 107,
+              "id": 56,
               "order": 2
             },
             {
-              "id": 6,
+              "id": 72,
               "order": 3
+            },
+            {
+              "id": 17,
+              "order": 4
+            },
+            {
+              "id": 100,
+              "order": 5
+            },
+            {
+              "id": 6,
+              "order": 6
             }
           ],
           "name": "MINUTEMAN",
@@ -352,6 +344,11 @@
               ],
               "id": 119,
               "order": 1,
+              "q": 1
+            },
+            {
+              "id": 59,
+              "order": 2,
               "q": 1
             }
           ],
@@ -372,13 +369,13 @@
       59,
       119,
       162,
+      201,
       211,
       240,
-      262
+      262,
+      273
     ],
-    "equip": [
-      117
-    ],
+    "equip": [],
     "chars": [
       2,
       3,
@@ -391,17 +388,17 @@
     "weapons": [
       3,
       6,
+      17,
       42,
       56,
       58,
       72,
-      107
+      100
     ],
     "ammunition": [
       2,
       3,
       6,
-      8,
       13,
       18,
       29

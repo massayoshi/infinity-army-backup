@@ -88,6 +88,11 @@
               "id": 164,
               "order": 10,
               "q": 1
+            },
+            {
+              "id": 211,
+              "order": 11,
+              "q": 1
             }
           ],
           "peripheral": []
@@ -95,7 +100,7 @@
       ],
       "options": [
         {
-          "id": 2,
+          "id": 6,
           "chars": [],
           "disabled": false,
           "equip": [],
@@ -108,28 +113,32 @@
             }
           ],
           "includes": [],
-          "points": 41,
-          "swc": "1",
+          "points": 37,
+          "swc": "0",
           "weapons": [
             {
-              "id": 74,
+              "id": 40,
               "order": 1
             },
             {
-              "id": 72,
+              "id": 145,
               "order": 2
             },
             {
-              "id": 69,
+              "id": 72,
               "order": 3
             },
             {
-              "id": 149,
+              "id": 69,
               "order": 4
             },
             {
-              "id": 11,
+              "id": 149,
               "order": 5
+            },
+            {
+              "id": 11,
+              "order": 6
             }
           ],
           "name": "UMBRA SAMARITAN",
@@ -137,16 +146,18 @@
           "peripheral": []
         },
         {
-          "id": 3,
+          "id": 7,
           "chars": [],
           "disabled": false,
           "equip": [
             {
-              "extra": [
-                343
-              ],
               "id": 100,
               "order": 1,
+              "q": 1
+            },
+            {
+              "id": 145,
+              "order": 2,
               "q": 1
             }
           ],
@@ -159,32 +170,32 @@
             }
           ],
           "includes": [],
-          "points": 42,
+          "points": 43,
           "swc": "0.5",
           "weapons": [
             {
-              "id": 111,
+              "id": 40,
               "order": 1
             },
             {
-              "id": 72,
+              "id": 145,
               "order": 2
             },
             {
-              "id": 69,
+              "id": 72,
               "order": 3
             },
             {
-              "id": 149,
+              "id": 69,
               "order": 4
             },
             {
-              "id": 25,
-              "order": 6
+              "id": 149,
+              "order": 5
             },
             {
               "id": 11,
-              "order": 7
+              "order": 6
             }
           ],
           "name": "UMBRA SAMARITAN",
@@ -197,7 +208,7 @@
           "peripheral": []
         },
         {
-          "id": 5,
+          "id": 8,
           "chars": [],
           "disabled": false,
           "equip": [],
@@ -215,35 +226,40 @@
             }
           ],
           "includes": [],
-          "points": 41,
-          "swc": "1",
+          "points": 35,
+          "swc": "0",
           "weapons": [
             {
-              "id": 74,
+              "id": 40,
               "order": 1
             },
             {
-              "id": 72,
+              "id": 145,
               "order": 2
             },
             {
-              "id": 69,
+              "id": 72,
               "order": 3
             },
             {
-              "id": 149,
+              "id": 69,
               "order": 4
             },
             {
-              "id": 11,
+              "id": 149,
               "order": 5
+            },
+            {
+              "id": 11,
+              "order": 6
             }
           ],
           "name": "UMBRA SAMARITAN",
           "skills": [
             {
               "id": 119,
-              "order": 1
+              "order": 1,
+              "q": 1
             }
           ],
           "peripheral": []
@@ -267,10 +283,12 @@
       119,
       162,
       164,
+      211,
       1000
     ],
     "equip": [
-      100
+      100,
+      145
     ],
     "chars": [
       1,
@@ -282,22 +300,19 @@
     ],
     "weapons": [
       11,
-      25,
+      40,
       69,
       72,
-      74,
-      111,
+      145,
       149
     ],
     "ammunition": [
       2,
       9,
-      14,
       29
     ]
   },
   "factions": [
-    601,
     604
   ]
 }

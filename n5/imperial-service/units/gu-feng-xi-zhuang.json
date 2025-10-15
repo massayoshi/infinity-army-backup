@@ -56,16 +56,20 @@
               ]
             },
             {
-              "id": 56,
-              "order": 3
-            },
-            {
               "id": 122,
               "order": 4
             },
             {
               "id": 59,
               "order": 5
+            },
+            {
+              "id": 131,
+              "order": 6,
+              "extra": [
+                277
+              ],
+              "q": 1
             }
           ],
           "peripheral": []
@@ -74,6 +78,61 @@
       "options": [
         {
           "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 21,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 77,
+              "order": 1
+            },
+            {
+              "id": 72,
+              "order": 2
+            },
+            {
+              "id": 150,
+              "order": 3
+            },
+            {
+              "id": 208,
+              "order": 4
+            },
+            {
+              "id": 107,
+              "order": 5
+            },
+            {
+              "id": 71,
+              "order": 6
+            }
+          ],
+          "name": "XI ZHUANG",
+          "skills": [
+            {
+              "extra": [
+                8
+              ],
+              "id": 201,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 2,
           "chars": [],
           "disabled": false,
           "equip": [],
@@ -106,16 +165,22 @@
               "order": 4
             },
             {
-              "id": 69,
+              "id": 107,
               "order": 5
             },
             {
               "id": 71,
-              "order": 7
+              "order": 6
             }
           ],
           "name": "XI ZHUANG",
-          "skills": [],
+          "skills": [
+            {
+              "id": 56,
+              "order": 1,
+              "q": 1
+            }
+          ],
           "peripheral": []
         }
       ]
@@ -132,7 +197,9 @@
       56,
       59,
       122,
-      162
+      131,
+      162,
+      201
     ],
     "equip": [],
     "chars": [
@@ -146,13 +213,16 @@
     "weapons": [
       33,
       56,
-      69,
       71,
       72,
-      150
+      77,
+      107,
+      150,
+      208
     ],
     "ammunition": [
       2,
+      8,
       29,
       37
     ]

@@ -14,7 +14,7 @@
       "profiles": [
         {
           "id": 1,
-          "arm": 4,
+          "arm": 3,
           "ava": 1,
           "bs": 14,
           "bts": 6,
@@ -29,10 +29,10 @@
           "weapons": [],
           "includes": [],
           "move": [
-            10,
-            10
+            15,
+            5
           ],
-          "ph": 14,
+          "ph": 13,
           "s": 2,
           "str": false,
           "type": 3,
@@ -47,11 +47,6 @@
               "q": 1
             },
             {
-              "id": 24,
-              "order": 2,
-              "q": 1
-            },
-            {
               "id": 40,
               "order": 3,
               "extra": [
@@ -62,14 +57,6 @@
             {
               "id": 250,
               "order": 4,
-              "q": 1
-            },
-            {
-              "id": 162,
-              "order": 5,
-              "extra": [
-                30
-              ],
               "q": 1
             },
             {
@@ -91,6 +78,14 @@
               "id": 83,
               "order": 9,
               "q": 1
+            },
+            {
+              "id": 201,
+              "order": 10,
+              "extra": [
+                6
+              ],
+              "q": 1
             }
           ],
           "peripheral": []
@@ -111,7 +106,7 @@
             }
           ],
           "includes": [],
-          "points": 34,
+          "points": 32,
           "swc": "0",
           "weapons": [
             {
@@ -119,16 +114,71 @@
               "order": 1
             },
             {
-              "id": 189,
+              "id": 145,
               "order": 2
             },
             {
-              "id": 11,
+              "id": 72,
               "order": 3
+            },
+            {
+              "id": 189,
+              "order": 4
+            },
+            {
+              "id": 11,
+              "order": 5
             }
           ],
           "name": "HAWKINS",
           "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 26,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 26,
+              "order": 1
+            },
+            {
+              "id": 72,
+              "order": 2
+            },
+            {
+              "id": 212,
+              "order": 3
+            },
+            {
+              "id": 11,
+              "order": 4
+            }
+          ],
+          "name": "HAWKINS",
+          "skills": [
+            {
+              "extra": [
+                8
+              ],
+              "id": 201,
+              "order": 1,
+              "q": 1
+            }
+          ],
           "peripheral": []
         }
       ]
@@ -142,12 +192,11 @@
     ],
     "skills": [
       21,
-      24,
       40,
       83,
-      162,
       164,
       189,
+      201,
       250,
       262
     ],
@@ -162,13 +211,19 @@
     ],
     "weapons": [
       11,
+      26,
+      72,
+      145,
       169,
-      189
+      189,
+      212
     ],
     "ammunition": [
+      2,
       3,
       8,
-      9
+      9,
+      29
     ]
   },
   "factions": [

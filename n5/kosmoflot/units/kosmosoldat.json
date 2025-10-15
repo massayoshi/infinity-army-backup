@@ -25,7 +25,13 @@
             5,
             21
           ],
-          "equip": [],
+          "equip": [
+            {
+              "id": 114,
+              "order": 1,
+              "q": 1
+            }
+          ],
           "logo": "https://assets.corvusbelli.net/army/img/logo/units/kosmosoldat.svg",
           "weapons": [],
           "includes": [],
@@ -68,6 +74,14 @@
               "id": 267,
               "order": 7,
               "q": 1
+            },
+            {
+              "id": 201,
+              "order": 8,
+              "extra": [
+                6
+              ],
+              "q": 1
             }
           ],
           "peripheral": []
@@ -88,7 +102,7 @@
             }
           ],
           "includes": [],
-          "points": 40,
+          "points": 44,
           "swc": "1.5",
           "weapons": [
             {
@@ -118,8 +132,9 @@
           "disabled": false,
           "equip": [
             {
-              "id": 114,
-              "order": 1
+              "id": 106,
+              "order": 1,
+              "q": 1
             }
           ],
           "minis": 1,
@@ -131,45 +146,7 @@
             }
           ],
           "includes": [],
-          "points": 42,
-          "swc": "1.5",
-          "weapons": [
-            {
-              "id": 16,
-              "order": 1
-            },
-            {
-              "id": 100,
-              "order": 2
-            },
-            {
-              "id": 5,
-              "order": 3
-            },
-            {
-              "id": 18,
-              "order": 4
-            }
-          ],
-          "name": "KOSMOSOLDAT",
-          "skills": [],
-          "peripheral": []
-        },
-        {
-          "id": 3,
-          "chars": [],
-          "disabled": false,
-          "equip": [],
-          "minis": 1,
-          "orders": [
-            {
-              "type": "REGULAR",
-              "list": 1,
-              "total": 1
-            }
-          ],
-          "includes": [],
-          "points": 33,
+          "points": 36,
           "swc": "0",
           "weapons": [
             {
@@ -196,23 +173,56 @@
           "name": "KOSMOSOLDAT",
           "skills": [
             {
-              "id": 189,
-              "order": 1
+              "id": 64,
+              "order": 1,
+              "q": 1
             }
           ],
           "peripheral": []
         },
         {
-          "id": 5,
+          "id": 3,
           "chars": [],
           "disabled": false,
-          "equip": [
+          "equip": [],
+          "minis": 1,
+          "orders": [
             {
-              "id": 114,
-              "order": 1,
-              "q": 1
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
             }
           ],
+          "includes": [],
+          "points": 44,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 16,
+              "order": 1
+            },
+            {
+              "id": 18,
+              "order": 2
+            },
+            {
+              "id": 100,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            }
+          ],
+          "name": "KOSMOSOLDAT",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 4,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
           "minis": 1,
           "orders": [
             {
@@ -227,7 +237,7 @@
             }
           ],
           "includes": [],
-          "points": 42,
+          "points": 44,
           "swc": "1.5",
           "weapons": [
             {
@@ -235,21 +245,73 @@
               "order": 1
             },
             {
-              "id": 100,
+              "id": 18,
               "order": 2
             },
             {
-              "id": 5,
+              "id": 100,
               "order": 3
             },
             {
-              "id": 18,
+              "id": 5,
               "order": 4
             }
           ],
           "name": "KOSMOSOLDAT",
           "skills": [
             {
+              "id": 119,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 5,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "LIEUTENANT",
+              "list": 0,
+              "total": 2
+            }
+          ],
+          "includes": [],
+          "points": 48,
+          "swc": "1",
+          "weapons": [
+            {
+              "id": 16,
+              "order": 1
+            },
+            {
+              "id": 18,
+              "order": 2
+            },
+            {
+              "id": 100,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            }
+          ],
+          "name": "KOSMOSOLDAT",
+          "skills": [
+            {
+              "extra": [
+                246
+              ],
               "id": 119,
               "order": 1,
               "q": 1
@@ -268,14 +330,16 @@
     ],
     "skills": [
       58,
+      64,
       84,
       86,
       119,
       162,
-      189,
+      201,
       267
     ],
     "equip": [
+      106,
       114
     ],
     "chars": [

@@ -35,7 +35,7 @@
           "ph": 12,
           "s": 2,
           "str": false,
-          "type": 1,
+          "type": 2,
           "w": 1,
           "wip": 13,
           "name": "KAZAK SPETSNAZS",
@@ -91,7 +91,7 @@
             }
           ],
           "includes": [],
-          "points": 39,
+          "points": 36,
           "swc": "1.5",
           "weapons": [
             {
@@ -99,7 +99,7 @@
               "order": 1
             },
             {
-              "id": 69,
+              "id": 211,
               "order": 2
             },
             {
@@ -145,16 +145,16 @@
             }
           ],
           "includes": [],
-          "points": 35,
-          "swc": "1",
+          "points": 32,
+          "swc": "0.5",
           "weapons": [
-            {
-              "id": 69,
-              "order": 2
-            },
             {
               "id": 35,
               "order": 1
+            },
+            {
+              "id": 211,
+              "order": 2
             },
             {
               "id": 6,
@@ -200,7 +200,7 @@
             }
           ],
           "includes": [],
-          "points": 32,
+          "points": 27,
           "swc": "0",
           "weapons": [
             {
@@ -216,7 +216,7 @@
               "order": 3
             },
             {
-              "id": 69,
+              "id": 211,
               "order": 4
             },
             {
@@ -230,6 +230,14 @@
               "extra": [],
               "id": 33,
               "order": 2
+            },
+            {
+              "extra": [
+                44
+              ],
+              "id": 215,
+              "order": 3,
+              "q": 1
             }
           ],
           "peripheral": []
@@ -248,11 +256,11 @@
             }
           ],
           "includes": [],
-          "points": 31,
+          "points": 27,
           "swc": "0",
           "weapons": [
             {
-              "id": 32,
+              "id": 214,
               "order": 1
             },
             {
@@ -264,7 +272,7 @@
               "order": 3
             },
             {
-              "id": 69,
+              "id": 211,
               "order": 4
             },
             {
@@ -278,6 +286,14 @@
               "extra": [],
               "id": 33,
               "order": 2
+            },
+            {
+              "extra": [
+                44
+              ],
+              "id": 215,
+              "order": 3,
+              "q": 1
             }
           ],
           "peripheral": []
@@ -310,22 +326,23 @@
       5
     ],
     "types": [
-      1
+      2
     ],
     "weapons": [
       2,
       6,
       17,
       26,
-      32,
       35,
       44,
-      69
+      211,
+      214
     ],
     "ammunition": [
       2,
       3,
-      13
+      13,
+      30
     ]
   },
   "factions": [

@@ -1,5 +1,5 @@
 {
-  "version": "7.25125.370",
+  "version": "7.25288.295",
   "units": [
     {
       "id": 1676,
@@ -120,427 +120,6 @@
         ],
         "ammunition": [
           37
-        ]
-      },
-      "factions": [
-        899
-      ]
-    },
-    {
-      "id": 1667,
-      "idArmy": 1667,
-      "canonical": 899,
-      "isc": "Reinf. Sakiel Regiment",
-      "iscAbbr": null,
-      "name": "REINF: SAKIEL Regiment",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Reinf. Sakiel Regiment",
-          "profiles": [
-            {
-              "bts": 0,
-              "cc": 18,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 1,
-              "ava": 3,
-              "str": false,
-              "bs": 12,
-              "s": 2,
-              "equip": [],
-              "w": 2,
-              "ph": 11,
-              "name": "REINF: SAKIEL Regiment",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-sakiel-regiment-1-1.svg",
-              "id": 1,
-              "arm": 2,
-              "weapons": [],
-              "chars": [
-                1,
-                3
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 250,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "id": 84,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    30
-                  ],
-                  "id": 162,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    44
-                  ],
-                  "id": 246,
-                  "order": 4
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "bts": 0,
-              "cc": 18,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 1,
-              "ava": -1,
-              "str": false,
-              "bs": 12,
-              "s": 2,
-              "equip": [],
-              "w": 2,
-              "ph": 11,
-              "name": "Inactive Symbiont Armor",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-sakiel-regiment-1-2.svg",
-              "id": 2,
-              "arm": 0,
-              "weapons": [],
-              "chars": [
-                1,
-                3
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 250,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "id": 84,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    30
-                  ],
-                  "id": 162,
-                  "order": 3
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 17,
-              "equip": [],
-              "name": "SAKIEL REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 33,
-                  "order": 1
-                },
-                {
-                  "id": 47,
-                  "order": 2
-                },
-                {
-                  "id": 69,
-                  "order": 3
-                },
-                {
-                  "id": 5,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 22,
-              "equip": [],
-              "name": "SAKIEL REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "id": 33,
-                  "order": 1
-                },
-                {
-                  "id": 88,
-                  "order": 2
-                },
-                {
-                  "id": 69,
-                  "order": 3
-                },
-                {
-                  "id": 5,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "1",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 23,
-              "equip": [],
-              "name": "SAKIEL REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 3,
-              "weapons": [
-                {
-                  "id": 83,
-                  "order": 1
-                },
-                {
-                  "id": 47,
-                  "order": 2
-                },
-                {
-                  "id": 69,
-                  "order": 3
-                },
-                {
-                  "id": 5,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 22,
-              "equip": [],
-              "name": "SAKIEL REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 4,
-              "weapons": [
-                {
-                  "id": 74,
-                  "order": 1
-                },
-                {
-                  "id": 69,
-                  "order": 2
-                },
-                {
-                  "id": 5,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "1",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 18,
-              "equip": [],
-              "name": "SAKIEL REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 5,
-              "weapons": [
-                {
-                  "id": 33,
-                  "order": 1
-                },
-                {
-                  "id": 47,
-                  "order": 2
-                },
-                {
-                  "id": 72,
-                  "order": 3
-                },
-                {
-                  "id": 17,
-                  "order": 4
-                },
-                {
-                  "id": 69,
-                  "order": 5
-                },
-                {
-                  "id": 5,
-                  "order": 6
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 59,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 19,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 106,
-                  "order": 1
-                }
-              ],
-              "name": "SAKIEL REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 6,
-              "weapons": [
-                {
-                  "id": 33,
-                  "order": 1
-                },
-                {
-                  "id": 47,
-                  "order": 2
-                },
-                {
-                  "id": 69,
-                  "order": 3
-                },
-                {
-                  "id": 5,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 64,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 4
-        }
-      ],
-      "options": [],
-      "slug": "reinf-sakiel-regiment",
-      "filters": {
-        "categories": [
-          4
-        ],
-        "skills": [
-          59,
-          64,
-          84,
-          162,
-          246,
-          250
-        ],
-        "equip": [
-          106
-        ],
-        "chars": [
-          1,
-          3
-        ],
-        "types": [
-          1
-        ],
-        "weapons": [
-          5,
-          17,
-          33,
-          47,
-          69,
-          72,
-          74,
-          83,
-          88
-        ],
-        "ammunition": [
-          2,
-          13,
-          14,
-          29
         ]
       },
       "factions": [
@@ -850,361 +429,6 @@
       ]
     },
     {
-      "id": 1669,
-      "idArmy": 1669,
-      "canonical": 899,
-      "isc": "Reinf. Ectros Regiment",
-      "iscAbbr": null,
-      "name": "REINF: ECTROS Regiment",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Reinf. Ectros Regiment",
-          "profiles": [
-            {
-              "bts": 6,
-              "cc": 19,
-              "move": [
-                15,
-                5
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 3,
-              "ava": 2,
-              "str": false,
-              "bs": 13,
-              "s": 2,
-              "equip": [],
-              "w": 3,
-              "ph": 14,
-              "name": "REINF: ECTROS Regiment",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-ectros-regiment-1-1.svg",
-              "id": 1,
-              "arm": 3,
-              "weapons": [],
-              "chars": [
-                1,
-                3,
-                5,
-                21
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 84,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    11
-                  ],
-                  "id": 40,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    30
-                  ],
-                  "id": 162,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    267
-                  ],
-                  "id": 246,
-                  "order": 4
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "bts": 0,
-              "cc": 19,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 1,
-              "ava": -1,
-              "str": false,
-              "bs": 12,
-              "s": 2,
-              "equip": [],
-              "w": 3,
-              "ph": 11,
-              "name": "Inactive Symbiont Armor",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-ectros-regiment-1-2.svg",
-              "id": 2,
-              "arm": 0,
-              "weapons": [],
-              "chars": [
-                1,
-                3,
-                5
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 84,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    30
-                  ],
-                  "id": 162,
-                  "order": 2
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 37,
-              "equip": [],
-              "name": "ECTROS REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 83,
-                  "order": 1
-                },
-                {
-                  "id": 145,
-                  "order": 2
-                },
-                {
-                  "id": 69,
-                  "order": 3
-                },
-                {
-                  "extra": [
-                    303
-                  ],
-                  "id": 10,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 32,
-              "equip": [],
-              "name": "ECTROS REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "extra": [
-                    303
-                  ],
-                  "id": 10,
-                  "order": 4
-                },
-                {
-                  "extra": [
-                    8
-                  ],
-                  "id": 81,
-                  "order": 1
-                },
-                {
-                  "extra": null,
-                  "id": 145,
-                  "order": 5
-                },
-                {
-                  "extra": null,
-                  "id": 69,
-                  "order": 6
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 41,
-              "equip": [],
-              "name": "ECTROS REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 3,
-              "weapons": [
-                {
-                  "id": 2,
-                  "order": 1
-                },
-                {
-                  "id": 145,
-                  "order": 2
-                },
-                {
-                  "id": 69,
-                  "order": 3
-                },
-                {
-                  "extra": [
-                    303
-                  ],
-                  "id": 10,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "1.5",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 211,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 40,
-              "equip": [],
-              "name": "ECTROS REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 4,
-              "weapons": [
-                {
-                  "extra": [
-                    303
-                  ],
-                  "id": 10,
-                  "order": 4
-                },
-                {
-                  "extra": [
-                    302
-                  ],
-                  "id": 152,
-                  "order": 1
-                },
-                {
-                  "extra": null,
-                  "id": 145,
-                  "order": 5
-                },
-                {
-                  "extra": null,
-                  "id": 69,
-                  "order": 6
-                }
-              ],
-              "chars": [],
-              "swc": "1.5",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 211,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 4
-        }
-      ],
-      "options": [],
-      "slug": "reinf-ectros-regiment",
-      "filters": {
-        "categories": [
-          4
-        ],
-        "skills": [
-          40,
-          84,
-          162,
-          211,
-          246
-        ],
-        "equip": [],
-        "chars": [
-          1,
-          3,
-          5,
-          21
-        ],
-        "types": [
-          1,
-          3
-        ],
-        "weapons": [
-          2,
-          10,
-          69,
-          81,
-          83,
-          145,
-          152
-        ],
-        "ammunition": [
-          2,
-          3,
-          8
-        ]
-      },
-      "factions": [
-        899
-      ]
-    },
-    {
       "id": 1670,
       "idArmy": 1670,
       "canonical": 899,
@@ -1413,21 +637,20 @@
       ]
     },
     {
-      "id": 1678,
-      "idArmy": 1678,
+      "id": 1667,
+      "idArmy": 1667,
       "canonical": 899,
-      "isc": "Reinf. Hatail Aelis Keesan",
+      "isc": "Reinf. Sakiel Regiment",
       "iscAbbr": null,
-      "notes": "The player cannot have more than one Aelis Keesan.",
-      "name": "REINF: HATAIL AELIS KEESAN",
+      "name": "REINF: SAKIEL Regiment",
       "profileGroups": [
         {
           "notes": null,
-          "isc": "Reinf. Hatail Aelis Keesan",
+          "isc": "Reinf. Sakiel Regiment",
           "profiles": [
             {
-              "bts": 3,
-              "cc": 15,
+              "bts": 0,
+              "cc": 18,
               "move": [
                 10,
                 10
@@ -1435,53 +658,82 @@
               "notes": null,
               "includes": [],
               "type": 1,
-              "ava": 1,
+              "ava": 3,
               "str": false,
               "bs": 12,
               "s": 2,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 145,
-                  "order": 1
-                }
-              ],
-              "w": 1,
-              "ph": 12,
-              "name": "REINF: HATAIL AELIS KEESAN",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-hatail-aelis-keesan-null-1.svg",
+              "equip": [],
+              "w": 2,
+              "ph": 11,
+              "name": "REINF: SAKIEL Regiment",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-sakiel-regiment-1-1.svg",
               "id": 1,
               "arm": 2,
               "weapons": [],
               "chars": [
                 1,
-                3,
-                5
+                3
               ],
-              "wip": 14,
+              "wip": 13,
               "skills": [
                 {
                   "q": 1,
-                  "id": 242,
+                  "id": 250,
                   "order": 1
                 },
                 {
                   "q": 1,
-                  "id": 62,
+                  "id": 84,
                   "order": 2
                 },
                 {
                   "q": 1,
-                  "id": 65,
-                  "order": 3
+                  "extra": [
+                    44
+                  ],
+                  "id": 246,
+                  "order": 4
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "bts": 0,
+              "cc": 18,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 1,
+              "ava": -1,
+              "str": false,
+              "bs": 12,
+              "s": 2,
+              "equip": [],
+              "w": 2,
+              "ph": 11,
+              "name": "Inactive Symbiont Armor",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-sakiel-regiment-1-2.svg",
+              "id": 2,
+              "arm": 0,
+              "weapons": [],
+              "chars": [
+                1,
+                3
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 250,
+                  "order": 1
                 },
                 {
                   "q": 1,
-                  "extra": [
-                    30
-                  ],
-                  "id": 162,
-                  "order": 4
+                  "id": 84,
+                  "order": 2
                 }
               ],
               "peripheral": []
@@ -1491,9 +743,9 @@
             {
               "includes": [],
               "minis": 1,
-              "points": 25,
+              "points": 17,
               "equip": [],
-              "name": "HATAIL AELIS KEESAN REINF.",
+              "name": "SAKIEL REINF.",
               "disabled": false,
               "orders": [
                 {
@@ -1505,58 +757,33 @@
               "id": 1,
               "weapons": [
                 {
-                  "extra": null,
-                  "id": 32,
+                  "id": 33,
                   "order": 1
                 },
                 {
-                  "extra": null,
-                  "id": 213,
+                  "id": 47,
                   "order": 2
                 },
                 {
-                  "extra": null,
-                  "id": 65,
+                  "id": 69,
                   "order": 3
                 },
                 {
-                  "extra": null,
-                  "id": 72,
-                  "order": 4
-                },
-                {
-                  "extra": null,
-                  "id": 17,
-                  "order": 5
-                },
-                {
-                  "extra": null,
-                  "id": 69,
-                  "order": 6
-                },
-                {
-                  "extra": null,
                   "id": 5,
-                  "order": 7
+                  "order": 4
                 }
               ],
               "chars": [],
               "swc": "0",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 1000,
-                  "order": 1
-                }
-              ],
+              "skills": [],
               "peripheral": []
             },
             {
               "includes": [],
               "minis": 1,
-              "points": 27,
+              "points": 22,
               "equip": [],
-              "name": "HATAIL AELIS KEESAN REINF.",
+              "name": "SAKIEL REINF.",
               "disabled": false,
               "orders": [
                 {
@@ -1568,29 +795,137 @@
               "id": 2,
               "weapons": [
                 {
-                  "id": 95,
+                  "id": 33,
                   "order": 1
                 },
                 {
-                  "id": 17,
-                  "order": 3
-                },
-                {
-                  "id": 69,
-                  "order": 4
-                },
-                {
-                  "id": 5,
-                  "order": 5
-                },
-                {
-                  "extra": null,
-                  "id": 65,
+                  "id": 88,
                   "order": 2
                 },
                 {
-                  "extra": null,
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "1",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 23,
+              "equip": [],
+              "name": "SAKIEL REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 3,
+              "weapons": [
+                {
+                  "id": 83,
+                  "order": 1
+                },
+                {
+                  "id": 47,
+                  "order": 2
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 22,
+              "equip": [],
+              "name": "SAKIEL REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 4,
+              "weapons": [
+                {
+                  "id": 74,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "1",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 18,
+              "equip": [],
+              "name": "SAKIEL REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 5,
+              "weapons": [
+                {
+                  "id": 33,
+                  "order": 1
+                },
+                {
+                  "id": 47,
+                  "order": 2
+                },
+                {
                   "id": 72,
+                  "order": 3
+                },
+                {
+                  "id": 17,
+                  "order": 4
+                },
+                {
+                  "id": 69,
+                  "order": 5
+                },
+                {
+                  "id": 5,
                   "order": 6
                 }
               ],
@@ -1599,7 +934,57 @@
               "skills": [
                 {
                   "q": 1,
-                  "id": 1000,
+                  "id": 59,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 19,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 106,
+                  "order": 1
+                }
+              ],
+              "name": "SAKIEL REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 6,
+              "weapons": [
+                {
+                  "id": 33,
+                  "order": 1
+                },
+                {
+                  "id": 47,
+                  "order": 2
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 64,
                   "order": 1
                 }
               ],
@@ -1607,29 +992,28 @@
             }
           ],
           "id": 1,
-          "category": 10
+          "category": 4
         }
       ],
       "options": [],
-      "slug": "reinf-hatail-aelis-keesan",
+      "slug": "reinf-sakiel-regiment",
       "filters": {
         "categories": [
-          10
+          4
         ],
         "skills": [
-          62,
-          65,
-          162,
-          242,
-          1000
+          59,
+          64,
+          84,
+          246,
+          250
         ],
         "equip": [
-          145
+          106
         ],
         "chars": [
           1,
-          3,
-          5
+          3
         ],
         "types": [
           1
@@ -1637,19 +1021,678 @@
         "weapons": [
           5,
           17,
-          32,
-          65,
+          33,
+          47,
           69,
           72,
-          95,
-          213
+          74,
+          83,
+          88
+        ],
+        "ammunition": [
+          2,
+          13,
+          14,
+          29
+        ]
+      },
+      "factions": [
+        899
+      ]
+    },
+    {
+      "id": 1669,
+      "idArmy": 1669,
+      "canonical": 899,
+      "isc": "Reinf. Ectros Regiment",
+      "iscAbbr": null,
+      "name": "REINF: ECTROS Regiment",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Reinf. Ectros Regiment",
+          "profiles": [
+            {
+              "bts": 6,
+              "cc": 19,
+              "move": [
+                15,
+                5
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 3,
+              "ava": 2,
+              "str": false,
+              "bs": 13,
+              "s": 2,
+              "equip": [],
+              "w": 3,
+              "ph": 14,
+              "name": "REINF: ECTROS Regiment",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-ectros-regiment-1-1.svg",
+              "id": 1,
+              "arm": 3,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                5,
+                21
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 84,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    11
+                  ],
+                  "id": 40,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    267
+                  ],
+                  "id": 246,
+                  "order": 4
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "bts": 0,
+              "cc": 19,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 1,
+              "ava": -1,
+              "str": false,
+              "bs": 12,
+              "s": 2,
+              "equip": [],
+              "w": 3,
+              "ph": 11,
+              "name": "Inactive Symbiont Armor",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-ectros-regiment-1-2.svg",
+              "id": 2,
+              "arm": 0,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                5
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 84,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 37,
+              "equip": [],
+              "name": "ECTROS REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 83,
+                  "order": 1
+                },
+                {
+                  "id": 145,
+                  "order": 2
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "extra": [
+                    303
+                  ],
+                  "id": 10,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 32,
+              "equip": [],
+              "name": "ECTROS REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "extra": [
+                    303
+                  ],
+                  "id": 10,
+                  "order": 4
+                },
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 81,
+                  "order": 1
+                },
+                {
+                  "id": 145,
+                  "order": 5
+                },
+                {
+                  "id": 69,
+                  "order": 6
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 41,
+              "equip": [],
+              "name": "ECTROS REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 3,
+              "weapons": [
+                {
+                  "id": 2,
+                  "order": 1
+                },
+                {
+                  "id": 145,
+                  "order": 2
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "extra": [
+                    303
+                  ],
+                  "id": 10,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "1.5",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 211,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 40,
+              "equip": [],
+              "name": "ECTROS REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 4,
+              "weapons": [
+                {
+                  "extra": [
+                    303
+                  ],
+                  "id": 10,
+                  "order": 4
+                },
+                {
+                  "extra": [
+                    302
+                  ],
+                  "id": 152,
+                  "order": 1
+                },
+                {
+                  "id": 145,
+                  "order": 5
+                },
+                {
+                  "id": 69,
+                  "order": 6
+                }
+              ],
+              "chars": [],
+              "swc": "1.5",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 211,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 4
+        }
+      ],
+      "options": [],
+      "slug": "reinf-ectros-regiment",
+      "filters": {
+        "categories": [
+          4
+        ],
+        "skills": [
+          40,
+          84,
+          211,
+          246
+        ],
+        "equip": [],
+        "chars": [
+          1,
+          3,
+          5,
+          21
+        ],
+        "types": [
+          1,
+          3
+        ],
+        "weapons": [
+          2,
+          10,
+          69,
+          81,
+          83,
+          145,
+          152
         ],
         "ammunition": [
           2,
           3,
-          13,
-          14,
-          29
+          8
+        ]
+      },
+      "factions": [
+        899
+      ]
+    },
+    {
+      "id": 1672,
+      "idArmy": 1672,
+      "canonical": 899,
+      "isc": "Reinf. Draal Saboteurs",
+      "iscAbbr": null,
+      "name": "REINF: DRAAL Saboteurs",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Reinf. Draal Saboteurs",
+          "profiles": [
+            {
+              "bts": 6,
+              "cc": 16,
+              "move": [
+                15,
+                5
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 6,
+              "ava": 1,
+              "str": false,
+              "bs": 13,
+              "s": 2,
+              "equip": [],
+              "w": 2,
+              "ph": 12,
+              "name": "REINF: DRAAL Saboteurs",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-draal-saboteurs-1-1.svg",
+              "id": 1,
+              "arm": 2,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                5
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "q": 1,
+                  "extra": [
+                    44
+                  ],
+                  "id": 246,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    1
+                  ],
+                  "id": 40,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    7
+                  ],
+                  "id": 28,
+                  "order": 4
+                },
+                {
+                  "q": 1,
+                  "id": 189,
+                  "order": 5
+                },
+                {
+                  "q": 1,
+                  "id": 164,
+                  "order": 6
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    33
+                  ],
+                  "id": 58,
+                  "order": 7
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "bts": 0,
+              "cc": 16,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 6,
+              "ava": -1,
+              "str": false,
+              "bs": 12,
+              "s": 2,
+              "equip": [],
+              "w": 2,
+              "ph": 10,
+              "name": "Inactive Symbiont Armor",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-draal-saboteurs-1-2.svg",
+              "id": 2,
+              "arm": 1,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                5
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 189,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "id": 164,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    33
+                  ],
+                  "id": 58,
+                  "order": 4
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 29,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 243,
+                  "order": 1
+                }
+              ],
+              "name": "DRAAL REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 77,
+                  "order": 1
+                },
+                {
+                  "id": 145,
+                  "order": 2
+                },
+                {
+                  "id": 17,
+                  "order": 3
+                },
+                {
+                  "id": 156,
+                  "order": 4
+                },
+                {
+                  "id": 5,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0.5",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 30,
+              "equip": [],
+              "name": "DRAAL REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "id": 77,
+                  "order": 1
+                },
+                {
+                  "id": 145,
+                  "order": 2
+                },
+                {
+                  "id": 17,
+                  "order": 3
+                },
+                {
+                  "id": 156,
+                  "order": 5
+                },
+                {
+                  "id": 5,
+                  "order": 6
+                },
+                {
+                  "id": 63,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 35,
+              "equip": [],
+              "name": "DRAAL REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 3,
+              "weapons": [
+                {
+                  "id": 85,
+                  "order": 1
+                },
+                {
+                  "id": 17,
+                  "order": 2
+                },
+                {
+                  "id": 196,
+                  "order": 3
+                },
+                {
+                  "id": 156,
+                  "order": 4
+                },
+                {
+                  "id": 5,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0.5",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 3
+        }
+      ],
+      "options": [],
+      "slug": "reinf-draal-saboteurs",
+      "filters": {
+        "categories": [
+          3
+        ],
+        "skills": [
+          28,
+          40,
+          58,
+          164,
+          189,
+          246
+        ],
+        "equip": [
+          243
+        ],
+        "chars": [
+          1,
+          3,
+          5
+        ],
+        "types": [
+          6
+        ],
+        "weapons": [
+          5,
+          17,
+          63,
+          77,
+          85,
+          145,
+          156,
+          196
+        ],
+        "ammunition": [
+          2,
+          3,
+          8,
+          13
         ]
       },
       "factions": [
@@ -1861,36 +1904,43 @@
       ]
     },
     {
-      "id": 1672,
-      "idArmy": 1672,
+      "id": 1678,
+      "idArmy": 1678,
       "canonical": 899,
-      "isc": "Reinf. Draal Saboteurs",
+      "isc": "Reinf. Hatail Aelis Keesan",
       "iscAbbr": null,
-      "name": "REINF: DRAAL Saboteurs",
+      "notes": "The player cannot have more than one Aelis Keesan.",
+      "name": "REINF: HATAIL AELIS KEESAN",
       "profileGroups": [
         {
           "notes": null,
-          "isc": "Reinf. Draal Saboteurs",
+          "isc": "Reinf. Hatail Aelis Keesan",
           "profiles": [
             {
-              "bts": 6,
-              "cc": 16,
+              "bts": 3,
+              "cc": 15,
               "move": [
-                15,
-                5
+                10,
+                10
               ],
               "notes": null,
               "includes": [],
-              "type": 6,
+              "type": 1,
               "ava": 1,
               "str": false,
-              "bs": 13,
+              "bs": 12,
               "s": 2,
-              "equip": [],
-              "w": 2,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 145,
+                  "order": 1
+                }
+              ],
+              "w": 1,
               "ph": 12,
-              "name": "REINF: DRAAL Saboteurs",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-draal-saboteurs-1-1.svg",
+              "name": "REINF: HATAIL AELIS KEESAN",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-hatail-aelis-keesan-null-1.svg",
               "id": 1,
               "arm": 2,
               "weapons": [],
@@ -1899,23 +1949,22 @@
                 3,
                 5
               ],
-              "wip": 13,
+              "wip": 14,
               "skills": [
                 {
                   "q": 1,
-                  "extra": [
-                    44
-                  ],
-                  "id": 246,
+                  "id": 242,
                   "order": 1
                 },
                 {
                   "q": 1,
-                  "extra": [
-                    1
-                  ],
-                  "id": 40,
+                  "id": 62,
                   "order": 2
+                },
+                {
+                  "q": 1,
+                  "id": 65,
+                  "order": 3
                 },
                 {
                   "q": 1,
@@ -1923,90 +1972,6 @@
                     30
                   ],
                   "id": 162,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    7
-                  ],
-                  "id": 28,
-                  "order": 4
-                },
-                {
-                  "q": 1,
-                  "id": 189,
-                  "order": 5
-                },
-                {
-                  "q": 1,
-                  "id": 164,
-                  "order": 6
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    33
-                  ],
-                  "id": 58,
-                  "order": 7
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "bts": 0,
-              "cc": 16,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 6,
-              "ava": -1,
-              "str": false,
-              "bs": 12,
-              "s": 2,
-              "equip": [],
-              "w": 2,
-              "ph": 10,
-              "name": "Inactive Symbiont Armor",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-draal-saboteurs-1-2.svg",
-              "id": 2,
-              "arm": 1,
-              "weapons": [],
-              "chars": [
-                1,
-                3,
-                5
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "q": 1,
-                  "extra": [
-                    30
-                  ],
-                  "id": 162,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "id": 189,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "id": 164,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    33
-                  ],
-                  "id": 58,
                   "order": 4
                 }
               ],
@@ -2017,15 +1982,9 @@
             {
               "includes": [],
               "minis": 1,
-              "points": 29,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 243,
-                  "order": 1
-                }
-              ],
-              "name": "DRAAL REINF.",
+              "points": 25,
+              "equip": [],
+              "name": "HATAIL AELIS KEESAN REINF.",
               "disabled": false,
               "orders": [
                 {
@@ -2037,37 +1996,51 @@
               "id": 1,
               "weapons": [
                 {
-                  "id": 77,
+                  "id": 32,
                   "order": 1
                 },
                 {
-                  "id": 145,
+                  "id": 213,
                   "order": 2
                 },
                 {
-                  "id": 17,
+                  "id": 65,
                   "order": 3
                 },
                 {
-                  "id": 156,
+                  "id": 72,
                   "order": 4
                 },
                 {
-                  "id": 5,
+                  "id": 17,
                   "order": 5
+                },
+                {
+                  "id": 69,
+                  "order": 6
+                },
+                {
+                  "id": 5,
+                  "order": 7
                 }
               ],
               "chars": [],
-              "swc": "0.5",
-              "skills": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 1000,
+                  "order": 1
+                }
+              ],
               "peripheral": []
             },
             {
               "includes": [],
               "minis": 1,
-              "points": 30,
+              "points": 25,
               "equip": [],
-              "name": "DRAAL REINF.",
+              "name": "HATAIL AELIS KEESAN REINF.",
               "disabled": false,
               "orders": [
                 {
@@ -2079,100 +2052,61 @@
               "id": 2,
               "weapons": [
                 {
-                  "id": 77,
+                  "id": 95,
                   "order": 1
-                },
-                {
-                  "id": 145,
-                  "order": 2
                 },
                 {
                   "id": 17,
                   "order": 3
                 },
                 {
-                  "id": 156,
-                  "order": 5
+                  "id": 69,
+                  "order": 4
                 },
                 {
                   "id": 5,
-                  "order": 6
+                  "order": 5
                 },
                 {
-                  "extra": null,
-                  "id": 63,
-                  "order": 4
+                  "id": 65,
+                  "order": 2
+                },
+                {
+                  "id": 72,
+                  "order": 6
                 }
               ],
               "chars": [],
               "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 35,
-              "equip": [],
-              "name": "DRAAL REINF.",
-              "disabled": false,
-              "orders": [
+              "skills": [
                 {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 3,
-              "weapons": [
-                {
-                  "id": 85,
+                  "q": 1,
+                  "id": 1000,
                   "order": 1
-                },
-                {
-                  "id": 17,
-                  "order": 2
-                },
-                {
-                  "id": 196,
-                  "order": 3
-                },
-                {
-                  "id": 156,
-                  "order": 4
-                },
-                {
-                  "id": 5,
-                  "order": 5
                 }
               ],
-              "chars": [],
-              "swc": "0.5",
-              "skills": [],
               "peripheral": []
             }
           ],
           "id": 1,
-          "category": 3
+          "category": 10
         }
       ],
       "options": [],
-      "slug": "reinf-draal-saboteurs",
+      "slug": "reinf-hatail-aelis-keesan",
       "filters": {
         "categories": [
-          3
+          10
         ],
         "skills": [
-          28,
-          40,
-          58,
+          62,
+          65,
           162,
-          164,
-          189,
-          246
+          242,
+          1000
         ],
         "equip": [
-          243
+          145
         ],
         "chars": [
           1,
@@ -2180,23 +2114,24 @@
           5
         ],
         "types": [
-          6
+          1
         ],
         "weapons": [
           5,
           17,
-          63,
-          77,
-          85,
-          145,
-          156,
-          196
+          32,
+          65,
+          69,
+          72,
+          95,
+          213
         ],
         "ammunition": [
           2,
           3,
-          8,
-          13
+          13,
+          14,
+          29
         ]
       },
       "factions": [
@@ -2258,14 +2193,6 @@
                 {
                   "q": 1,
                   "extra": [
-                    30
-                  ],
-                  "id": 162,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "extra": [
                     267
                   ],
                   "id": 246,
@@ -2312,14 +2239,6 @@
                   "q": 1,
                   "id": 84,
                   "order": 1
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    30
-                  ],
-                  "id": 162,
-                  "order": 2
                 }
               ],
               "peripheral": []
@@ -2370,7 +2289,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 6
+                  "id": 23
                 }
               ]
             },
@@ -2414,7 +2333,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 6
+                  "id": 23
                 }
               ]
             },
@@ -2462,7 +2381,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 6
+                  "id": 23
                 }
               ]
             },
@@ -2501,7 +2420,6 @@
                   "order": 2
                 },
                 {
-                  "extra": null,
                   "id": 69,
                   "order": 5
                 }
@@ -2511,7 +2429,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 6
+                  "id": 23
                 }
               ]
             },
@@ -2555,7 +2473,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 6
+                  "id": 23
                 }
               ]
             }
@@ -2662,7 +2580,6 @@
         "skills": [
           28,
           84,
-          162,
           243,
           246,
           264
@@ -2696,636 +2613,6 @@
           3,
           8,
           18
-        ]
-      },
-      "factions": [
-        899
-      ]
-    },
-    {
-      "id": 1677,
-      "idArmy": 1677,
-      "canonical": 899,
-      "isc": "Reinf. Neema Saatar, Ectros Regiment Officer",
-      "iscAbbr": null,
-      "notes": "The player cannot have more than one Neema Saatar.",
-      "name": "REINF: NEEMA SAATAR, Ectros Regiment Officer",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Reinf. Neema Saatar, Ectros Regiment Officer",
-          "profiles": [
-            {
-              "bts": 9,
-              "cc": 22,
-              "move": [
-                15,
-                5
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 3,
-              "ava": 1,
-              "str": false,
-              "bs": 13,
-              "s": 2,
-              "equip": [],
-              "w": 3,
-              "ph": 14,
-              "name": "REINF: NEEMA SAATAR, Ectros Regiment Officer",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/neema-saatar-ectros-regiment-officer-1-1.svg",
-              "id": 1,
-              "arm": 3,
-              "weapons": [],
-              "chars": [
-                1,
-                3
-              ],
-              "wip": 15,
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 250,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "id": 20,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "id": 84,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    11
-                  ],
-                  "id": 40,
-                  "order": 4
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    30
-                  ],
-                  "id": 162,
-                  "order": 5
-                },
-                {
-                  "q": 1,
-                  "id": 164,
-                  "order": 6
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    267
-                  ],
-                  "id": 246,
-                  "order": 7
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "bts": 0,
-              "cc": 22,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 1,
-              "ava": -1,
-              "str": false,
-              "bs": 12,
-              "s": 2,
-              "equip": [],
-              "w": 3,
-              "ph": 12,
-              "name": "Inactive Symbiont Armor",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/neema-saatar-ectros-regiment-officer-1-2.svg",
-              "id": 2,
-              "arm": 0,
-              "weapons": [],
-              "chars": [
-                1,
-                3
-              ],
-              "wip": 15,
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 250,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "id": 20,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "id": 84,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    30
-                  ],
-                  "id": 162,
-                  "order": 4
-                },
-                {
-                  "q": 1,
-                  "id": 164,
-                  "order": 5
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 32,
-              "equip": [],
-              "name": "NEEMA REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 103,
-                  "order": 1
-                },
-                {
-                  "id": 68,
-                  "order": 2
-                },
-                {
-                  "id": 65,
-                  "order": 3
-                },
-                {
-                  "id": 156,
-                  "order": 4
-                },
-                {
-                  "extra": [
-                    302
-                  ],
-                  "id": 10,
-                  "order": 5
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 37,
-              "equip": [],
-              "name": "NEEMA REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "id": 65,
-                  "order": 2
-                },
-                {
-                  "id": 156,
-                  "order": 3
-                },
-                {
-                  "id": 157,
-                  "order": 1
-                },
-                {
-                  "extra": null,
-                  "id": 157,
-                  "order": 1
-                },
-                {
-                  "extra": [
-                    302
-                  ],
-                  "id": 10,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "1.5",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 10
-        }
-      ],
-      "options": [],
-      "slug": "reinf-neema-saatar-ectros-regiment-officer",
-      "filters": {
-        "categories": [
-          10
-        ],
-        "skills": [
-          20,
-          40,
-          84,
-          162,
-          164,
-          246,
-          250
-        ],
-        "equip": [],
-        "chars": [
-          1,
-          3
-        ],
-        "types": [
-          1,
-          3
-        ],
-        "weapons": [
-          10,
-          65,
-          68,
-          103,
-          156,
-          157
-        ],
-        "ammunition": [
-          2,
-          3,
-          8,
-          13
-        ]
-      },
-      "factions": [
-        899
-      ]
-    },
-    {
-      "id": 1671,
-      "idArmy": 1671,
-      "canonical": 899,
-      "isc": "Reinf. Kosuil Assault Pioneers",
-      "iscAbbr": null,
-      "name": "REINF: KOSUIL Assault Pioneers",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Reinf. Kosuil Assault Pioneers",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 14,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 2,
-              "ava": 2,
-              "str": false,
-              "bs": 12,
-              "s": 2,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 238,
-                  "order": 1
-                }
-              ],
-              "w": 2,
-              "ph": 11,
-              "name": "REINF: KOSUIL Assault Pioneers",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-kosuil-assault-pioneers-1-1.svg",
-              "id": 1,
-              "arm": 2,
-              "weapons": [],
-              "chars": [
-                1,
-                3,
-                5
-              ],
-              "wip": 14,
-              "skills": [
-                {
-                  "q": 1,
-                  "extra": [
-                    30
-                  ],
-                  "id": 162,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    33
-                  ],
-                  "id": 58,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    44
-                  ],
-                  "id": 246,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "id": 262,
-                  "order": 4
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "bts": 0,
-              "cc": 14,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 1,
-              "ava": -1,
-              "str": false,
-              "bs": 12,
-              "s": 2,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 238,
-                  "order": 1
-                }
-              ],
-              "w": 2,
-              "ph": 10,
-              "name": "Inactive Symbiont Armor",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-kosuil-assault-pioneers-1-2.svg",
-              "id": 2,
-              "arm": 0,
-              "weapons": [],
-              "chars": [
-                1,
-                3,
-                5
-              ],
-              "wip": 14,
-              "skills": [
-                {
-                  "q": 1,
-                  "extra": [
-                    30
-                  ],
-                  "id": 162,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "id": 262,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    33
-                  ],
-                  "id": 58,
-                  "order": 3
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 27,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 237,
-                  "order": 1
-                }
-              ],
-              "name": "KOSUIL REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 95,
-                  "order": 1
-                },
-                {
-                  "id": 17,
-                  "order": 2
-                },
-                {
-                  "id": 199,
-                  "order": 3
-                },
-                {
-                  "id": 69,
-                  "order": 4
-                },
-                {
-                  "id": 5,
-                  "order": 5
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 49,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 20,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 237,
-                  "order": 1
-                }
-              ],
-              "name": "KOSUIL REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "id": 26,
-                  "order": 1
-                },
-                {
-                  "id": 17,
-                  "order": 2
-                },
-                {
-                  "id": 68,
-                  "order": 3
-                },
-                {
-                  "id": 69,
-                  "order": 4
-                },
-                {
-                  "id": 5,
-                  "order": 5
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 49,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 24,
-              "equip": [],
-              "name": "KOSUIL REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 3,
-              "weapons": [
-                {
-                  "id": 95,
-                  "order": 1
-                },
-                {
-                  "id": 17,
-                  "order": 2
-                },
-                {
-                  "id": 196,
-                  "order": 3
-                },
-                {
-                  "id": 69,
-                  "order": 4
-                },
-                {
-                  "id": 5,
-                  "order": 5
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 3
-        }
-      ],
-      "options": [],
-      "slug": "reinf-kosuil-assault-pioneers",
-      "filters": {
-        "categories": [
-          3
-        ],
-        "skills": [
-          49,
-          58,
-          162,
-          246,
-          262
-        ],
-        "equip": [
-          237,
-          238
-        ],
-        "chars": [
-          1,
-          3,
-          5
-        ],
-        "types": [
-          1,
-          2
-        ],
-        "weapons": [
-          5,
-          17,
-          26,
-          68,
-          69,
-          95,
-          196,
-          199
-        ],
-        "ammunition": [
-          2,
-          3,
-          8,
-          13
         ]
       },
       "factions": [
@@ -3621,12 +2908,610 @@
       "factions": [
         899
       ]
+    },
+    {
+      "id": 1671,
+      "idArmy": 1671,
+      "canonical": 899,
+      "isc": "Reinf. Kosuil Assault Pioneers",
+      "iscAbbr": null,
+      "name": "REINF: KOSUIL Assault Pioneers",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Reinf. Kosuil Assault Pioneers",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 14,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 2,
+              "ava": 2,
+              "str": false,
+              "bs": 12,
+              "s": 2,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 238,
+                  "order": 1
+                }
+              ],
+              "w": 2,
+              "ph": 11,
+              "name": "REINF: KOSUIL Assault Pioneers",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-kosuil-assault-pioneers-1-1.svg",
+              "id": 1,
+              "arm": 2,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                5
+              ],
+              "wip": 14,
+              "skills": [
+                {
+                  "q": 1,
+                  "extra": [
+                    33
+                  ],
+                  "id": 58,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    44
+                  ],
+                  "id": 246,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "id": 262,
+                  "order": 4
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "bts": 0,
+              "cc": 14,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 1,
+              "ava": -1,
+              "str": false,
+              "bs": 12,
+              "s": 2,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 238,
+                  "order": 1
+                }
+              ],
+              "w": 2,
+              "ph": 10,
+              "name": "Inactive Symbiont Armor",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-kosuil-assault-pioneers-1-2.svg",
+              "id": 2,
+              "arm": 0,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                5
+              ],
+              "wip": 14,
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 262,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    33
+                  ],
+                  "id": 58,
+                  "order": 3
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 25,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 237,
+                  "order": 1
+                }
+              ],
+              "name": "KOSUIL REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 95,
+                  "order": 1
+                },
+                {
+                  "id": 17,
+                  "order": 2
+                },
+                {
+                  "id": 199,
+                  "order": 3
+                },
+                {
+                  "id": 69,
+                  "order": 4
+                },
+                {
+                  "id": 5,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 49,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 20,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 237,
+                  "order": 1
+                }
+              ],
+              "name": "KOSUIL REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "id": 26,
+                  "order": 1
+                },
+                {
+                  "id": 17,
+                  "order": 2
+                },
+                {
+                  "id": 68,
+                  "order": 3
+                },
+                {
+                  "id": 69,
+                  "order": 4
+                },
+                {
+                  "id": 5,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 49,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 22,
+              "equip": [],
+              "name": "KOSUIL REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 3,
+              "weapons": [
+                {
+                  "id": 95,
+                  "order": 1
+                },
+                {
+                  "id": 17,
+                  "order": 2
+                },
+                {
+                  "id": 196,
+                  "order": 3
+                },
+                {
+                  "id": 69,
+                  "order": 4
+                },
+                {
+                  "id": 5,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 3
+        }
+      ],
+      "options": [],
+      "slug": "reinf-kosuil-assault-pioneers",
+      "filters": {
+        "categories": [
+          3
+        ],
+        "skills": [
+          49,
+          58,
+          246,
+          262
+        ],
+        "equip": [
+          237,
+          238
+        ],
+        "chars": [
+          1,
+          3,
+          5
+        ],
+        "types": [
+          1,
+          2
+        ],
+        "weapons": [
+          5,
+          17,
+          26,
+          68,
+          69,
+          95,
+          196,
+          199
+        ],
+        "ammunition": [
+          2,
+          3,
+          8,
+          13
+        ]
+      },
+      "factions": [
+        899
+      ]
+    },
+    {
+      "id": 1677,
+      "idArmy": 1677,
+      "canonical": 899,
+      "isc": "Reinf. Neema Saatar, Ectros Regiment Officer",
+      "iscAbbr": null,
+      "notes": "The player cannot have more than one Neema Saatar.",
+      "name": "REINF: NEEMA SAATAR, Ectros Regiment Officer",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Reinf. Neema Saatar, Ectros Regiment Officer",
+          "profiles": [
+            {
+              "bts": 9,
+              "cc": 22,
+              "move": [
+                15,
+                5
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 3,
+              "ava": 1,
+              "str": false,
+              "bs": 13,
+              "s": 2,
+              "equip": [],
+              "w": 3,
+              "ph": 14,
+              "name": "REINF: NEEMA SAATAR, Ectros Regiment Officer",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/neema-saatar-ectros-regiment-officer-1-1.svg",
+              "id": 1,
+              "arm": 3,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                21
+              ],
+              "wip": 15,
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 250,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 20,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "id": 84,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    11
+                  ],
+                  "id": 40,
+                  "order": 4
+                },
+                {
+                  "q": 1,
+                  "id": 164,
+                  "order": 6
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    267
+                  ],
+                  "id": 246,
+                  "order": 7
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "bts": 0,
+              "cc": 22,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 1,
+              "ava": -1,
+              "str": false,
+              "bs": 12,
+              "s": 2,
+              "equip": [],
+              "w": 3,
+              "ph": 12,
+              "name": "Inactive Symbiont Armor",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/neema-saatar-ectros-regiment-officer-1-2.svg",
+              "id": 2,
+              "arm": 0,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                21
+              ],
+              "wip": 15,
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 250,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 20,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "id": 84,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "id": 164,
+                  "order": 5
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 32,
+              "equip": [],
+              "name": "NEEMA REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 103,
+                  "order": 1
+                },
+                {
+                  "id": 68,
+                  "order": 2
+                },
+                {
+                  "id": 65,
+                  "order": 3
+                },
+                {
+                  "id": 156,
+                  "order": 4
+                },
+                {
+                  "extra": [
+                    302
+                  ],
+                  "id": 10,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 37,
+              "equip": [],
+              "name": "NEEMA REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "id": 65,
+                  "order": 2
+                },
+                {
+                  "id": 156,
+                  "order": 3
+                },
+                {
+                  "id": 157,
+                  "order": 1
+                },
+                {
+                  "id": 157,
+                  "order": 1
+                },
+                {
+                  "extra": [
+                    302
+                  ],
+                  "id": 10,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "1.5",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 10
+        }
+      ],
+      "options": [],
+      "slug": "reinf-neema-saatar-ectros-regiment-officer",
+      "filters": {
+        "categories": [
+          10
+        ],
+        "skills": [
+          20,
+          40,
+          84,
+          164,
+          246,
+          250
+        ],
+        "equip": [],
+        "chars": [
+          1,
+          3,
+          21
+        ],
+        "types": [
+          1,
+          3
+        ],
+        "weapons": [
+          10,
+          65,
+          68,
+          103,
+          156,
+          157
+        ],
+        "ammunition": [
+          2,
+          3,
+          8,
+          13
+        ]
+      },
+      "factions": [
+        899
+      ]
     }
   ],
   "filters": {
     "peripheral": [
       {
-        "id": 6,
+        "id": 23,
         "name": "CHAKSA PERIPHERAL"
       }
     ],
@@ -4451,16 +4336,6 @@
       "category": 8
     },
     {
-      "id": 1667,
-      "isc": "Reinf. Sakiel Regiment",
-      "idArmy": 1667,
-      "name": "REINF: SAKIEL Regiment",
-      "slug": "reinf-sakiel-regiment",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-sakiel-regiment-1-1.svg",
-      "type": 1,
-      "category": 4
-    },
-    {
       "id": 1674,
       "isc": "Reinf. Chaksa Longarms",
       "idArmy": 1674,
@@ -4469,16 +4344,6 @@
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-chaksa-longarms-1-1.svg",
       "type": 2,
       "category": 3
-    },
-    {
-      "id": 1669,
-      "isc": "Reinf. Ectros Regiment",
-      "idArmy": 1669,
-      "name": "REINF: ECTROS Regiment",
-      "slug": "reinf-ectros-regiment",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-ectros-regiment-1-1.svg",
-      "type": 3,
-      "category": 4
     },
     {
       "id": 1670,
@@ -4491,24 +4356,24 @@
       "category": 1
     },
     {
-      "id": 1678,
-      "isc": "Reinf. Hatail Aelis Keesan",
-      "idArmy": 1678,
-      "name": "REINF: HATAIL AELIS KEESAN",
-      "slug": "reinf-hatail-aelis-keesan",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-hatail-aelis-keesan-null-1.svg",
+      "id": 1667,
+      "isc": "Reinf. Sakiel Regiment",
+      "idArmy": 1667,
+      "name": "REINF: SAKIEL Regiment",
+      "slug": "reinf-sakiel-regiment",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-sakiel-regiment-1-1.svg",
       "type": 1,
-      "category": 10
+      "category": 4
     },
     {
-      "id": 1675,
-      "isc": "Reinf. Chaksa Auxiliars",
-      "idArmy": 1675,
-      "name": "REINF: CHAKSA AUXILIARS",
-      "slug": "reinf-chaksa-auxiliars",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-chaksa-auxiliars-1-1.svg",
-      "type": 1,
-      "category": 8
+      "id": 1669,
+      "isc": "Reinf. Ectros Regiment",
+      "idArmy": 1669,
+      "name": "REINF: ECTROS Regiment",
+      "slug": "reinf-ectros-regiment",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-ectros-regiment-1-1.svg",
+      "type": 3,
+      "category": 4
     },
     {
       "id": 1672,
@@ -4521,6 +4386,26 @@
       "category": 3
     },
     {
+      "id": 1675,
+      "isc": "Reinf. Chaksa Auxiliars",
+      "idArmy": 1675,
+      "name": "REINF: CHAKSA AUXILIARS",
+      "slug": "reinf-chaksa-auxiliars",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-chaksa-auxiliars-1-1.svg",
+      "type": 1,
+      "category": 8
+    },
+    {
+      "id": 1678,
+      "isc": "Reinf. Hatail Aelis Keesan",
+      "idArmy": 1678,
+      "name": "REINF: HATAIL AELIS KEESAN",
+      "slug": "reinf-hatail-aelis-keesan",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-hatail-aelis-keesan-null-1.svg",
+      "type": 1,
+      "category": 10
+    },
+    {
       "id": 1668,
       "isc": "Reinf. Rasail Boarding Team",
       "idArmy": 1668,
@@ -4531,14 +4416,14 @@
       "category": 3
     },
     {
-      "id": 1677,
-      "isc": "Reinf. Neema Saatar, Ectros Regiment Officer",
-      "idArmy": 1677,
-      "name": "REINF: NEEMA SAATAR, Ectros Regiment Officer",
-      "slug": "reinf-neema-saatar-ectros-regiment-officer",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/neema-saatar-ectros-regiment-officer-1-1.svg",
-      "type": 3,
-      "category": 10
+      "id": 1673,
+      "isc": "Reinf. Igao Unit",
+      "idArmy": 1673,
+      "name": "REINF: IGAO UNIT",
+      "slug": "reinf-igao-unit",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/igao-unit-1-1.svg",
+      "type": 6,
+      "category": 3
     },
     {
       "id": 1671,
@@ -4551,14 +4436,14 @@
       "category": 3
     },
     {
-      "id": 1673,
-      "isc": "Reinf. Igao Unit",
-      "idArmy": 1673,
-      "name": "REINF: IGAO UNIT",
-      "slug": "reinf-igao-unit",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/igao-unit-1-1.svg",
-      "type": 6,
-      "category": 3
+      "id": 1677,
+      "isc": "Reinf. Neema Saatar, Ectros Regiment Officer",
+      "idArmy": 1677,
+      "name": "REINF: NEEMA SAATAR, Ectros Regiment Officer",
+      "slug": "reinf-neema-saatar-ectros-regiment-officer",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/neema-saatar-ectros-regiment-officer-1-1.svg",
+      "type": 3,
+      "category": 10
     }
   ],
   "fireteams": [],

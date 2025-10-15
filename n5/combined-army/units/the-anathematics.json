@@ -29,8 +29,8 @@
           "weapons": [],
           "includes": [],
           "move": [
-            10,
-            10
+            15,
+            5
           ],
           "ph": 13,
           "s": 6,
@@ -51,17 +51,6 @@
             {
               "id": 29,
               "order": 3
-            },
-            {
-              "id": 238,
-              "order": 4
-            },
-            {
-              "id": 162,
-              "order": 5,
-              "extra": [
-                30
-              ]
             },
             {
               "id": 248,
@@ -86,6 +75,14 @@
               "id": 84,
               "order": 10,
               "q": 1
+            },
+            {
+              "id": 40,
+              "order": 11,
+              "extra": [
+                23
+              ],
+              "q": 1
             }
           ],
           "peripheral": []
@@ -106,7 +103,7 @@
             }
           ],
           "includes": [],
-          "points": 74,
+          "points": 73,
           "swc": "0.5",
           "weapons": [
             {
@@ -118,20 +115,26 @@
               "order": 2
             },
             {
-              "id": 69,
+              "id": 145,
+              "order": 3
+            },
+            {
+              "id": 100,
               "order": 4
             },
             {
               "id": 9,
               "order": 5
-            },
-            {
-              "id": 145,
-              "order": 6
             }
           ],
           "name": "ANATHEMATIC",
-          "skills": [],
+          "skills": [
+            {
+              "id": 238,
+              "order": 1,
+              "q": 1
+            }
+          ],
           "peripheral": []
         },
         {
@@ -157,7 +160,7 @@
             }
           ],
           "includes": [],
-          "points": 73,
+          "points": 72,
           "swc": "0.5",
           "weapons": [
             {
@@ -165,12 +168,12 @@
               "order": 1
             },
             {
-              "id": 69,
-              "order": 3
-            },
-            {
               "id": 145,
               "order": 2
+            },
+            {
+              "id": 100,
+              "order": 3
             },
             {
               "id": 9,
@@ -182,6 +185,11 @@
             {
               "id": 1000,
               "order": 1
+            },
+            {
+              "id": 238,
+              "order": 2,
+              "q": 1
             }
           ],
           "peripheral": []
@@ -205,7 +213,7 @@
             }
           ],
           "includes": [],
-          "points": 74,
+          "points": 75,
           "swc": "0",
           "weapons": [
             {
@@ -213,27 +221,31 @@
               "order": 1
             },
             {
-              "id": 69,
-              "order": 3
-            },
-            {
-              "id": 9,
-              "order": 4
-            },
-            {
               "id": 73,
-              "order": 5
+              "order": 2
             },
             {
               "id": 145,
-              "order": 6
+              "order": 3
+            },
+            {
+              "id": 100,
+              "order": 4
+            },
+            {
+              "id": 9,
+              "order": 5
             }
           ],
           "name": "ANATHEMATIC",
           "skills": [
             {
+              "extra": [
+                245
+              ],
               "id": 119,
-              "order": 1
+              "order": 1,
+              "q": 1
             }
           ],
           "peripheral": []
@@ -266,7 +278,7 @@
             }
           ],
           "includes": [],
-          "points": 73,
+          "points": 70,
           "swc": "0.5",
           "weapons": [
             {
@@ -274,12 +286,12 @@
               "order": 1
             },
             {
-              "id": 69,
-              "order": 3
-            },
-            {
               "id": 145,
               "order": 2
+            },
+            {
+              "id": 100,
+              "order": 3
             },
             {
               "id": 9,
@@ -290,11 +302,79 @@
           "skills": [
             {
               "id": 119,
-              "order": 1
+              "order": 1,
+              "q": 1
             },
             {
               "id": 1000,
+              "order": 2,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 7,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "extra": [
+                290
+              ],
+              "id": 100,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "LIEUTENANT",
+              "list": 0,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 74,
+          "swc": "0.5",
+          "weapons": [
+            {
+              "id": 40,
+              "order": 1
+            },
+            {
+              "id": 145,
               "order": 2
+            },
+            {
+              "id": 100,
+              "order": 3
+            },
+            {
+              "id": 9,
+              "order": 4
+            }
+          ],
+          "name": "ANATHEMATIC",
+          "skills": [
+            {
+              "extra": [
+                245
+              ],
+              "id": 119,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 1000,
+              "order": 2,
+              "q": 1
             }
           ],
           "peripheral": []
@@ -311,10 +391,10 @@
     "skills": [
       28,
       29,
+      40,
       84,
       86,
       119,
-      162,
       164,
       191,
       238,
@@ -335,12 +415,13 @@
     "weapons": [
       9,
       40,
-      69,
       73,
+      100,
       145
     ],
     "ammunition": [
-      2
+      2,
+      3
     ]
   },
   "factions": [

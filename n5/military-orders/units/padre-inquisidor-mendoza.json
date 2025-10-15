@@ -72,14 +72,6 @@
               "q": 1
             },
             {
-              "id": 161,
-              "order": 5,
-              "extra": [
-                22
-              ],
-              "q": 1
-            },
-            {
               "id": 40,
               "order": 6,
               "extra": [
@@ -98,14 +90,6 @@
             {
               "id": 250,
               "order": 8,
-              "q": 1
-            },
-            {
-              "id": 162,
-              "order": 9,
-              "extra": [
-                30
-              ],
               "q": 1
             },
             {
@@ -161,7 +145,24 @@
             }
           ],
           "name": "MENDOZA",
-          "skills": [],
+          "skills": [
+            {
+              "extra": [
+                22
+              ],
+              "id": 161,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "extra": [
+                44
+              ],
+              "id": 215,
+              "order": 2,
+              "q": 1
+            }
+          ],
           "peripheral": []
         },
         {
@@ -199,7 +200,77 @@
             }
           ],
           "name": "MENDOZA",
-          "skills": [],
+          "skills": [
+            {
+              "extra": [
+                22
+              ],
+              "id": 161,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "extra": [
+                44
+              ],
+              "id": 215,
+              "order": 2,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 4,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "extra": [
+                6
+              ],
+              "id": 169,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 40,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 41,
+              "order": 1
+            },
+            {
+              "id": 44,
+              "order": 2
+            },
+            {
+              "id": 212,
+              "order": 3
+            },
+            {
+              "id": 11,
+              "order": 4
+            }
+          ],
+          "name": "MENDOZA FTO",
+          "skills": [
+            {
+              "id": 122,
+              "order": 1,
+              "q": 1
+            }
+          ],
           "peripheral": []
         }
       ]
@@ -217,13 +288,16 @@
       28,
       40,
       83,
+      122,
       161,
-      162,
       201,
+      215,
       240,
       250
     ],
-    "equip": [],
+    "equip": [
+      169
+    ],
     "chars": [
       1,
       3,

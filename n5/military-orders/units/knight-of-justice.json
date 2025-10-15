@@ -48,14 +48,6 @@
               "q": 1
             },
             {
-              "id": 162,
-              "order": 10,
-              "extra": [
-                30
-              ],
-              "q": 1
-            },
-            {
               "id": 164,
               "order": 11,
               "q": 1
@@ -71,6 +63,11 @@
             {
               "id": 83,
               "order": 13,
+              "q": 1
+            },
+            {
+              "id": 122,
+              "order": 14,
               "q": 1
             }
           ],
@@ -92,7 +89,7 @@
             }
           ],
           "includes": [],
-          "points": 41,
+          "points": 46,
           "swc": "1.5",
           "weapons": [
             {
@@ -100,12 +97,12 @@
               "order": 2
             },
             {
-              "id": 58,
-              "order": 1
-            },
-            {
               "id": 11,
               "order": 3
+            },
+            {
+              "id": 58,
+              "order": 1
             }
           ],
           "name": "KNIGHT OF JUSTICE",
@@ -165,17 +162,9 @@
             }
           ],
           "includes": [],
-          "points": 43,
+          "points": 45,
           "swc": "0.5",
           "weapons": [
-            {
-              "id": 41,
-              "order": 1
-            },
-            {
-              "id": 17,
-              "order": 2
-            },
             {
               "id": 107,
               "order": 3
@@ -183,6 +172,18 @@
             {
               "id": 11,
               "order": 4
+            },
+            {
+              "id": 169,
+              "order": 1
+            },
+            {
+              "id": 154,
+              "order": 5
+            },
+            {
+              "id": 17,
+              "order": 6
             }
           ],
           "name": "KNIGHT OF JUSTICE",
@@ -208,13 +209,9 @@
             }
           ],
           "includes": [],
-          "points": 39,
+          "points": 41,
           "swc": "0",
           "weapons": [
-            {
-              "id": 41,
-              "order": 1
-            },
             {
               "id": 107,
               "order": 4
@@ -222,6 +219,10 @@
             {
               "id": 11,
               "order": 5
+            },
+            {
+              "id": 169,
+              "order": 1
             },
             {
               "id": 72,
@@ -331,6 +332,64 @@
             }
           ],
           "peripheral": []
+        },
+        {
+          "id": 9,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "LIEUTENANT",
+              "list": 0,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 41,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 169,
+              "order": 1
+            },
+            {
+              "id": 72,
+              "order": 2
+            },
+            {
+              "id": 17,
+              "order": 3
+            },
+            {
+              "id": 107,
+              "order": 4
+            },
+            {
+              "id": 11,
+              "order": 5
+            }
+          ],
+          "name": "KNIGHT OF JUSTICE",
+          "skills": [
+            {
+              "id": 119,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 59,
+              "order": 2,
+              "q": 1
+            }
+          ],
+          "peripheral": []
         }
       ]
     }
@@ -347,8 +406,8 @@
       59,
       83,
       119,
+      122,
       161,
-      162,
       164,
       1000
     ],
@@ -367,11 +426,12 @@
     "weapons": [
       11,
       17,
-      41,
       58,
       72,
       74,
-      107
+      107,
+      154,
+      169
     ],
     "ammunition": [
       2,

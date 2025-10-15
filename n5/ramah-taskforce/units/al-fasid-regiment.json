@@ -25,7 +25,16 @@
             5,
             21
           ],
-          "equip": [],
+          "equip": [
+            {
+              "extra": [
+                6
+              ],
+              "id": 183,
+              "order": 1,
+              "q": 1
+            }
+          ],
           "logo": "https://assets.corvusbelli.net/army/img/logo/units/al-fasid-regiment-1-1.svg",
           "weapons": [],
           "includes": [],
@@ -56,14 +65,6 @@
               "order": 3
             },
             {
-              "id": 162,
-              "order": 5,
-              "extra": [
-                30
-              ],
-              "q": 1
-            },
-            {
               "id": 262,
               "order": 6,
               "q": 1
@@ -87,7 +88,7 @@
             }
           ],
           "includes": [],
-          "points": 49,
+          "points": 50,
           "swc": "1.5",
           "weapons": [
             {
@@ -116,7 +117,16 @@
             }
           ],
           "name": "FASID",
-          "skills": [],
+          "skills": [
+            {
+              "extra": [
+                305
+              ],
+              "id": 201,
+              "order": 1,
+              "q": 1
+            }
+          ],
           "peripheral": []
         },
         {
@@ -133,7 +143,7 @@
             }
           ],
           "includes": [],
-          "points": 43,
+          "points": 44,
           "swc": "1.5",
           "weapons": [
             {
@@ -158,7 +168,16 @@
             }
           ],
           "name": "FASID",
-          "skills": [],
+          "skills": [
+            {
+              "extra": [
+                308
+              ],
+              "id": 201,
+              "order": 1,
+              "q": 1
+            }
+          ],
           "peripheral": []
         }
       ]
@@ -173,11 +192,13 @@
     "skills": [
       56,
       67,
-      162,
+      201,
       262,
       267
     ],
-    "equip": [],
+    "equip": [
+      183
+    ],
     "chars": [
       1,
       3,

@@ -49,22 +49,6 @@
           "notes": null,
           "skills": [
             {
-              "id": 240,
-              "order": 1,
-              "extra": [
-                6
-              ],
-              "q": 1
-            },
-            {
-              "id": 162,
-              "order": 2,
-              "extra": [
-                30
-              ],
-              "q": 1
-            },
-            {
               "id": 28,
               "order": 3,
               "extra": [
@@ -73,16 +57,32 @@
               "q": 1
             },
             {
-              "id": 62,
-              "order": 4,
+              "id": 164,
+              "order": 5,
+              "q": 1
+            },
+            {
+              "id": 240,
+              "order": 6,
               "extra": [
-                52
+                8
               ],
               "q": 1
             },
             {
-              "id": 164,
-              "order": 5,
+              "id": 201,
+              "order": 7,
+              "extra": [
+                308
+              ],
+              "q": 1
+            },
+            {
+              "id": 62,
+              "order": 8,
+              "extra": [
+                244
+              ],
               "q": 1
             }
           ],
@@ -90,53 +90,6 @@
         }
       ],
       "options": [
-        {
-          "id": 1,
-          "chars": [],
-          "disabled": false,
-          "equip": [],
-          "minis": 1,
-          "orders": [
-            {
-              "type": "REGULAR",
-              "list": 1,
-              "total": 1
-            }
-          ],
-          "includes": [],
-          "points": 40,
-          "swc": "0",
-          "weapons": [
-            {
-              "id": 41,
-              "order": 1
-            },
-            {
-              "id": 23,
-              "order": 2
-            },
-            {
-              "id": 189,
-              "order": 3
-            },
-            {
-              "id": 5,
-              "order": 4
-            }
-          ],
-          "name": "TRIGGERMEN",
-          "skills": [
-            {
-              "extra": [
-                8
-              ],
-              "id": 201,
-              "order": 1,
-              "q": 1
-            }
-          ],
-          "peripheral": []
-        },
         {
           "id": 2,
           "chars": [],
@@ -163,25 +116,20 @@
               "order": 2
             },
             {
-              "id": 189,
+              "id": 145,
               "order": 3
             },
             {
-              "id": 5,
+              "id": 189,
               "order": 4
+            },
+            {
+              "id": 5,
+              "order": 5
             }
           ],
           "name": "TRIGGERMEN",
-          "skills": [
-            {
-              "extra": [
-                8
-              ],
-              "id": 201,
-              "order": 1,
-              "q": 1
-            }
-          ],
+          "skills": [],
           "peripheral": []
         },
         {
@@ -210,25 +158,33 @@
               "order": 2
             },
             {
-              "id": 189,
+              "id": 145,
               "order": 3
             },
             {
-              "id": 211,
+              "id": 96,
               "order": 4
             },
             {
-              "id": 5,
+              "id": 189,
               "order": 5
+            },
+            {
+              "id": 211,
+              "order": 6
+            },
+            {
+              "id": 5,
+              "order": 7
             }
           ],
           "name": "TRIGGERMEN",
           "skills": [
             {
               "extra": [
-                8
+                6
               ],
-              "id": 201,
+              "id": 191,
               "order": 1,
               "q": 1
             },
@@ -238,6 +194,14 @@
               ],
               "id": 161,
               "order": 2,
+              "q": 1
+            },
+            {
+              "extra": [
+                44
+              ],
+              "id": 215,
+              "order": 3,
               "q": 1
             }
           ],
@@ -257,7 +221,7 @@
             }
           ],
           "includes": [],
-          "points": 43,
+          "points": 47,
           "swc": "1.5",
           "weapons": [
             {
@@ -269,12 +233,16 @@
               "order": 2
             },
             {
-              "id": 189,
+              "id": 145,
               "order": 3
             },
             {
-              "id": 5,
+              "id": 189,
               "order": 4
+            },
+            {
+              "id": 5,
+              "order": 5
             }
           ],
           "name": "TRIGGERMEN",
@@ -301,9 +269,10 @@
       62,
       109,
       161,
-      162,
       164,
+      191,
       201,
+      215,
       240
     ],
     "equip": [
@@ -322,8 +291,9 @@
       5,
       23,
       36,
-      41,
       95,
+      96,
+      145,
       189,
       211
     ],

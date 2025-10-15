@@ -1,0 +1,338 @@
+{
+  "id": 1852,
+  "idArmy": 1852,
+  "canonical": 401,
+  "isc": "Zeybek Aero-unit",
+  "iscAbbr": null,
+  "name": "ZEYBEK Aero-unit",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 5,
+      "isc": "Zeybek Aero-unit",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 5,
+          "ava": 1,
+          "bs": 13,
+          "bts": 6,
+          "cc": -1,
+          "chars": [
+            1,
+            3,
+            5,
+            21
+          ],
+          "equip": [
+            {
+              "extra": [
+                7
+              ],
+              "id": 183,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/zaybak-aero-unit-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            20,
+            5
+          ],
+          "ph": 12,
+          "s": 7,
+          "str": true,
+          "type": 8,
+          "w": 3,
+          "wip": 14,
+          "name": "ZEYBEK Aero-unit",
+          "notes": null,
+          "skills": [
+            {
+              "id": 265,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 84,
+              "order": 2,
+              "q": 1
+            },
+            {
+              "id": 40,
+              "order": 3,
+              "extra": [
+                6
+              ],
+              "q": 1
+            },
+            {
+              "id": 264,
+              "order": 5,
+              "q": 1
+            },
+            {
+              "id": 74,
+              "order": 6,
+              "extra": [
+                304
+              ],
+              "q": 1
+            },
+            {
+              "id": 246,
+              "order": 7,
+              "extra": [
+                321
+              ],
+              "q": 1
+            },
+            {
+              "id": 58,
+              "order": 8,
+              "extra": [
+                33
+              ],
+              "q": 1
+            },
+            {
+              "id": 74,
+              "order": 9,
+              "extra": [
+                372
+              ],
+              "q": 1
+            },
+            {
+              "id": 201,
+              "order": 10,
+              "extra": [
+                6
+              ],
+              "q": 1
+            },
+            {
+              "id": 275,
+              "order": 11,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [
+            {
+              "group": 2,
+              "option": 1,
+              "q": 1
+            }
+          ],
+          "points": 33,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 157,
+              "order": 1
+            },
+            {
+              "id": 195,
+              "order": 2
+            }
+          ],
+          "name": "ZEYBEK",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": 3,
+      "isc": "Zeybek Operator",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 3,
+          "ava": -1,
+          "bs": 13,
+          "bts": 3,
+          "cc": 14,
+          "chars": [
+            1,
+            3,
+            5
+          ],
+          "equip": [
+            {
+              "extra": [
+                7
+              ],
+              "id": 183,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/zaybak-aero-unit-2-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 10,
+          "s": 2,
+          "str": false,
+          "type": 2,
+          "w": 3,
+          "wip": 14,
+          "name": "ZEYBEK OPERATOR",
+          "notes": null,
+          "skills": [
+            {
+              "id": 84,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 201,
+              "order": 2,
+              "extra": [
+                6
+              ],
+              "q": 1
+            },
+            {
+              "id": 189,
+              "order": 3,
+              "q": 1
+            },
+            {
+              "id": 164,
+              "order": 4,
+              "q": 1
+            },
+            {
+              "id": 58,
+              "order": 5,
+              "extra": [
+                33
+              ],
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": true,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 33,
+          "swc": "-",
+          "weapons": [
+            {
+              "id": 74,
+              "order": 1
+            },
+            {
+              "id": 17,
+              "order": 2
+            },
+            {
+              "id": 212,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            }
+          ],
+          "name": "ZEYBEK OPERATOR",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "zeybek-aero-unit",
+  "filters": {
+    "categories": [
+      3,
+      5
+    ],
+    "skills": [
+      40,
+      58,
+      74,
+      84,
+      164,
+      189,
+      201,
+      246,
+      264,
+      265,
+      275
+    ],
+    "equip": [
+      183
+    ],
+    "chars": [
+      1,
+      3,
+      5,
+      21
+    ],
+    "types": [
+      2,
+      8
+    ],
+    "weapons": [
+      5,
+      17,
+      74,
+      157,
+      195,
+      212
+    ],
+    "ammunition": [
+      2,
+      3,
+      13,
+      21
+    ]
+  },
+  "factions": [
+    401,
+    403
+  ]
+}

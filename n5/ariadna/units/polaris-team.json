@@ -89,7 +89,7 @@
           "id": 1,
           "arm": 4,
           "ava": 1,
-          "bs": 7,
+          "bs": 5,
           "bts": 3,
           "cc": 24,
           "chars": [
@@ -117,10 +117,6 @@
               "order": 2
             },
             {
-              "id": 24,
-              "order": 3
-            },
-            {
               "id": 85,
               "order": 5
             },
@@ -137,8 +133,37 @@
               "q": 1
             },
             {
+              "id": 162,
+              "order": 7,
+              "extra": [
+                319
+              ],
+              "q": 1
+            },
+            {
               "id": 264,
               "order": 8,
+              "q": 1
+            },
+            {
+              "id": 250,
+              "order": 9,
+              "q": 1
+            },
+            {
+              "id": 24,
+              "order": 10,
+              "extra": [
+                1
+              ],
+              "q": 1
+            },
+            {
+              "id": 40,
+              "order": 11,
+              "extra": [
+                23
+              ],
               "q": 1
             }
           ],
@@ -160,20 +185,12 @@
             }
           ],
           "includes": [],
-          "points": 26,
+          "points": 23,
           "swc": "0",
           "weapons": [
             {
               "id": 18,
               "order": 1
-            },
-            {
-              "id": 44,
-              "order": 2
-            },
-            {
-              "id": 45,
-              "order": 3
             },
             {
               "id": 177,
@@ -182,6 +199,14 @@
             {
               "id": 6,
               "order": 5
+            },
+            {
+              "id": 44,
+              "order": 6
+            },
+            {
+              "id": 45,
+              "order": 7
             }
           ],
           "name": "POLARIS BEARPODE ALPHA",
@@ -210,25 +235,26 @@
               "order": 1
             },
             {
-              "id": 45,
+              "id": 80,
               "order": 2
             },
             {
-              "id": 177,
+              "id": 45,
               "order": 3
             },
             {
-              "id": 6,
+              "id": 177,
               "order": 4
+            },
+            {
+              "id": 6,
+              "order": 5
             }
           ],
           "name": "POLARIS BEARPODE BETA",
           "skills": [
             {
-              "extra": [
-                310
-              ],
-              "id": 201,
+              "id": 279,
               "order": 1,
               "q": 1
             }
@@ -268,7 +294,7 @@
         }
       ],
       "peripheral": [],
-      "points": 35,
+      "points": 32,
       "skills": [],
       "swc": "0",
       "weapons": []
@@ -315,12 +341,14 @@
     ],
     "skills": [
       24,
+      40,
       82,
       84,
       85,
       162,
-      201,
-      264
+      250,
+      264,
+      279
     ],
     "equip": [],
     "chars": [
@@ -339,6 +367,7 @@
       44,
       45,
       69,
+      80,
       177
     ],
     "ammunition": [

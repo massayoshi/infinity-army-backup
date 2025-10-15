@@ -28,10 +28,11 @@
           "equip": [
             {
               "extra": [
-                12
+                378
               ],
               "id": 100,
-              "order": 1
+              "order": 1,
+              "q": 1
             }
           ],
           "logo": "https://assets.corvusbelli.net/army/img/logo/units/gabriele-de-fersen-1-1.svg",
@@ -67,13 +68,6 @@
               "order": 5
             },
             {
-              "id": 162,
-              "order": 6,
-              "extra": [
-                30
-              ]
-            },
-            {
               "id": 40,
               "order": 7,
               "extra": [
@@ -100,6 +94,48 @@
             }
           ],
           "includes": [],
+          "points": 42,
+          "swc": "0.5",
+          "weapons": [
+            {
+              "id": 41,
+              "order": 1
+            },
+            {
+              "id": 56,
+              "order": 2
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 172,
+              "order": 4
+            },
+            {
+              "id": 72,
+              "order": 5
+            }
+          ],
+          "name": "DE FERSEN",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
           "points": 46,
           "swc": "1.5",
           "weapons": [
@@ -114,6 +150,10 @@
             {
               "id": 172,
               "order": 3
+            },
+            {
+              "id": 72,
+              "order": 4
             }
           ],
           "name": "DE FERSEN",
@@ -121,7 +161,60 @@
           "peripheral": []
         },
         {
-          "id": 2,
+          "id": 3,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "LIEUTENANT",
+              "list": 0,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 42,
+          "swc": "0.5",
+          "weapons": [
+            {
+              "id": 41,
+              "order": 1
+            },
+            {
+              "id": 56,
+              "order": 2
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 172,
+              "order": 4
+            },
+            {
+              "id": 72,
+              "order": 5
+            }
+          ],
+          "name": "DE FERSEN",
+          "skills": [
+            {
+              "id": 119,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 4,
           "chars": [],
           "disabled": false,
           "equip": [],
@@ -153,6 +246,10 @@
             {
               "id": 172,
               "order": 3
+            },
+            {
+              "id": 72,
+              "order": 4
             }
           ],
           "name": "DE FERSEN",
@@ -178,7 +275,6 @@
       40,
       83,
       119,
-      162,
       164,
       1000
     ],
@@ -195,12 +291,19 @@
       3
     ],
     "weapons": [
+      41,
+      56,
       69,
+      72,
       74,
       172
     ],
     "ammunition": [
       2,
+      3,
+      8,
+      9,
+      29,
       30
     ]
   },

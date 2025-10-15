@@ -47,11 +47,12 @@
               "order": 1
             },
             {
-              "id": 162,
-              "order": 3,
+              "id": 201,
+              "order": 2,
               "extra": [
-                30
-              ]
+                6
+              ],
+              "q": 1
             },
             {
               "id": 246,
@@ -68,7 +69,7 @@
           "id": 2,
           "arm": 4,
           "ava": -1,
-          "bs": 12,
+          "bs": 13,
           "bts": 0,
           "cc": 14,
           "chars": [
@@ -99,11 +100,12 @@
               "order": 1
             },
             {
-              "id": 162,
-              "order": 3,
+              "id": 201,
+              "order": 2,
               "extra": [
-                30
-              ]
+                6
+              ],
+              "q": 1
             }
           ],
           "peripheral": []
@@ -124,7 +126,7 @@
             }
           ],
           "includes": [],
-          "points": 34,
+          "points": 35,
           "swc": "1.5",
           "weapons": [
             {
@@ -166,7 +168,7 @@
             }
           ],
           "includes": [],
-          "points": 32,
+          "points": 35,
           "swc": "1",
           "weapons": [
             {
@@ -191,7 +193,16 @@
             }
           ],
           "name": "BLACKJACK",
-          "skills": [],
+          "skills": [
+            {
+              "extra": [
+                249
+              ],
+              "id": 201,
+              "order": 1,
+              "q": 1
+            }
+          ],
           "peripheral": []
         }
       ]
@@ -205,7 +216,7 @@
     ],
     "skills": [
       84,
-      162,
+      201,
       246
     ],
     "equip": [],

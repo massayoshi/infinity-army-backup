@@ -16,7 +16,7 @@
           "id": 1,
           "arm": 1,
           "ava": 3,
-          "bs": 12,
+          "bs": 13,
           "bts": 3,
           "cc": 22,
           "chars": [
@@ -32,29 +32,18 @@
             15,
             5
           ],
-          "ph": 13,
+          "ph": 12,
           "s": 2,
           "str": false,
-          "type": 1,
+          "type": 2,
           "w": 1,
           "wip": 14,
           "name": "UMBRA LEGATES",
           "notes": null,
           "skills": [
             {
-              "id": 22,
-              "order": 1
-            },
-            {
               "id": 84,
               "order": 2
-            },
-            {
-              "id": 161,
-              "order": 3,
-              "extra": [
-                22
-              ]
             },
             {
               "id": 40,
@@ -80,15 +69,21 @@
               "order": 7
             },
             {
-              "id": 211,
-              "order": 8
-            },
-            {
               "id": 162,
               "order": 9,
               "extra": [
                 30
               ],
+              "q": 1
+            },
+            {
+              "id": 21,
+              "order": 10,
+              "q": 1
+            },
+            {
+              "id": 213,
+              "order": 11,
               "q": 1
             }
           ],
@@ -107,31 +102,49 @@
               "type": "REGULAR",
               "list": 1,
               "total": 1
+            },
+            {
+              "type": "TACTICAL",
+              "list": 1,
+              "total": 1
             }
           ],
           "includes": [],
-          "points": 35,
+          "points": 36,
           "swc": "0",
           "weapons": [
             {
-              "id": 95,
+              "id": 81,
               "order": 1
             },
             {
-              "id": 72,
+              "id": 175,
               "order": 2
             },
             {
-              "id": 69,
+              "id": 72,
               "order": 3
             },
             {
-              "id": 11,
+              "id": 69,
               "order": 4
+            },
+            {
+              "id": 11,
+              "order": 5
             }
           ],
           "name": "UMBRA LEGATE",
-          "skills": [],
+          "skills": [
+            {
+              "extra": [
+                22
+              ],
+              "id": 161,
+              "order": 1,
+              "q": 1
+            }
+          ],
           "peripheral": []
         },
         {
@@ -145,10 +158,15 @@
               "type": "REGULAR",
               "list": 1,
               "total": 1
+            },
+            {
+              "type": "TACTICAL",
+              "list": 1,
+              "total": 1
             }
           ],
           "includes": [],
-          "points": 37,
+          "points": 41,
           "swc": "1.5",
           "weapons": [
             {
@@ -156,20 +174,33 @@
               "order": 1
             },
             {
-              "id": 72,
+              "id": 175,
               "order": 2
             },
             {
-              "id": 69,
+              "id": 72,
               "order": 3
             },
             {
-              "id": 11,
+              "id": 69,
               "order": 4
+            },
+            {
+              "id": 11,
+              "order": 5
             }
           ],
           "name": "UMBRA LEGATE",
-          "skills": [],
+          "skills": [
+            {
+              "extra": [
+                22
+              ],
+              "id": 161,
+              "order": 1,
+              "q": 1
+            }
+          ],
           "peripheral": []
         },
         {
@@ -183,10 +214,15 @@
               "type": "REGULAR",
               "list": 1,
               "total": 1
+            },
+            {
+              "type": "TACTICAL",
+              "list": 1,
+              "total": 1
             }
           ],
           "includes": [],
-          "points": 40,
+          "points": 33,
           "swc": "0",
           "weapons": [
             {
@@ -194,78 +230,71 @@
               "order": 1
             },
             {
-              "id": 72,
+              "id": 175,
               "order": 2
             },
             {
-              "id": 69,
+              "id": 72,
               "order": 3
             },
             {
-              "id": 11,
+              "id": 69,
               "order": 4
-            }
-          ],
-          "name": "UMBRA LEGATE",
-          "skills": [
+            },
             {
-              "id": 26,
-              "order": 1,
-              "q": 1
+              "id": 11,
+              "order": 5
             }
           ],
+          "name": "UMBRA LEGATE FTO",
+          "skills": [],
           "peripheral": []
         },
         {
           "id": 4,
           "chars": [],
           "disabled": false,
-          "equip": [
-            {
-              "id": 101,
-              "order": 1
-            }
-          ],
+          "equip": [],
           "minis": 1,
           "orders": [
             {
               "type": "REGULAR",
               "list": 1,
               "total": 1
+            },
+            {
+              "type": "TACTICAL",
+              "list": 1,
+              "total": 1
             }
           ],
           "includes": [],
-          "points": 38,
-          "swc": "0.5",
+          "points": 37,
+          "swc": "1.5",
           "weapons": [
             {
-              "id": 26,
+              "id": 74,
               "order": 1
             },
             {
-              "id": 72,
+              "id": 175,
               "order": 2
             },
             {
-              "id": 69,
+              "id": 72,
               "order": 3
             },
             {
-              "id": 19,
-              "order": 5
+              "id": 69,
+              "order": 4
             },
             {
               "id": 11,
-              "order": 6
+              "order": 5
             }
           ],
-          "name": "UMBRA LEGATE",
-          "skills": [
-            {
-              "id": 1000,
-              "order": 1
-            }
-          ],
+          "name": "UMBRA LEGATE FTO",
+          "skills": [],
           "peripheral": []
         },
         {
@@ -277,6 +306,207 @@
           "orders": [
             {
               "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "TACTICAL",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 38,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 95,
+              "order": 1
+            },
+            {
+              "id": 175,
+              "order": 2
+            },
+            {
+              "id": 17,
+              "order": 3
+            },
+            {
+              "id": 72,
+              "order": 4
+            },
+            {
+              "id": 69,
+              "order": 5
+            },
+            {
+              "id": 11,
+              "order": 6
+            }
+          ],
+          "name": "UMBRA LEGATE FTO",
+          "skills": [
+            {
+              "id": 26,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 6,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 101,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "TACTICAL",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 38,
+          "swc": "0.5",
+          "weapons": [
+            {
+              "id": 95,
+              "order": 1
+            },
+            {
+              "id": 175,
+              "order": 2
+            },
+            {
+              "id": 17,
+              "order": 3
+            },
+            {
+              "id": 72,
+              "order": 4
+            },
+            {
+              "id": 154,
+              "order": 5
+            },
+            {
+              "id": 69,
+              "order": 6
+            },
+            {
+              "id": 11,
+              "order": 7
+            }
+          ],
+          "name": "UMBRA LEGATE FTO",
+          "skills": [
+            {
+              "id": 1000,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 7,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 101,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 111,
+              "order": 2,
+              "q": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "TACTICAL",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 42,
+          "swc": "0.5",
+          "weapons": [
+            {
+              "id": 81,
+              "order": 1
+            },
+            {
+              "id": 175,
+              "order": 2
+            },
+            {
+              "id": 72,
+              "order": 3
+            },
+            {
+              "id": 69,
+              "order": 4
+            },
+            {
+              "id": 11,
+              "order": 5
+            }
+          ],
+          "name": "UMBRA LEGATE",
+          "skills": [
+            {
+              "id": 1000,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "extra": [
+                22
+              ],
+              "id": 161,
+              "order": 2,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 8,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "TACTICAL",
               "list": 1,
               "total": 1
             },
@@ -295,29 +525,34 @@
               "order": 1
             },
             {
-              "id": 72,
+              "id": 175,
               "order": 2
             },
             {
-              "id": 69,
+              "id": 72,
               "order": 3
             },
             {
-              "id": 11,
+              "id": 69,
               "order": 4
+            },
+            {
+              "id": 11,
+              "order": 5
             }
           ],
-          "name": "UMBRA LEGATE",
+          "name": "UMBRA LEGATE FTO",
           "skills": [
             {
               "id": 119,
-              "order": 1
+              "order": 1,
+              "q": 1
             }
           ],
           "peripheral": []
         },
         {
-          "id": 6,
+          "id": 9,
           "chars": [],
           "disabled": false,
           "equip": [],
@@ -329,13 +564,18 @@
               "total": 1
             },
             {
+              "type": "TACTICAL",
+              "list": 1,
+              "total": 1
+            },
+            {
               "type": "LIEUTENANT",
               "list": 0,
               "total": 1
             }
           ],
           "includes": [],
-          "points": 35,
+          "points": 37,
           "swc": "1.5",
           "weapons": [
             {
@@ -343,23 +583,94 @@
               "order": 1
             },
             {
-              "id": 72,
+              "id": 175,
               "order": 2
             },
             {
-              "id": 69,
+              "id": 72,
               "order": 3
             },
             {
-              "id": 11,
+              "id": 69,
               "order": 4
+            },
+            {
+              "id": 11,
+              "order": 5
+            }
+          ],
+          "name": "UMBRA LEGATE FTO",
+          "skills": [
+            {
+              "id": 119,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 10,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "TACTICAL",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "LIEUTENANT",
+              "list": 0,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 36,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 81,
+              "order": 1
+            },
+            {
+              "id": 175,
+              "order": 2
+            },
+            {
+              "id": 72,
+              "order": 3
+            },
+            {
+              "id": 69,
+              "order": 4
+            },
+            {
+              "id": 11,
+              "order": 5
             }
           ],
           "name": "UMBRA LEGATE",
           "skills": [
             {
               "id": 119,
-              "order": 1
+              "order": 1,
+              "q": 1
+            },
+            {
+              "extra": [
+                22
+              ],
+              "id": 161,
+              "order": 2,
+              "q": 1
             }
           ],
           "peripheral": []
@@ -374,7 +685,7 @@
       5
     ],
     "skills": [
-      22,
+      21,
       26,
       28,
       40,
@@ -384,11 +695,12 @@
       161,
       162,
       164,
-      211,
+      213,
       1000
     ],
     "equip": [
-      101
+      101,
+      111
     ],
     "chars": [
       1,
@@ -396,22 +708,25 @@
       5
     ],
     "types": [
-      1
+      2
     ],
     "weapons": [
       11,
-      19,
-      26,
+      17,
       69,
       72,
       74,
-      95
+      81,
+      95,
+      154,
+      175
     ],
     "ammunition": [
       2,
       3,
       9,
-      18,
+      13,
+      14,
       29
     ]
   },

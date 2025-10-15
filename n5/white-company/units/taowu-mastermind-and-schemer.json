@@ -89,11 +89,6 @@
               "id": 164,
               "order": 7,
               "q": 1
-            },
-            {
-              "id": 85,
-              "order": 8,
-              "q": 1
             }
           ],
           "peripheral": []
@@ -114,7 +109,7 @@
             }
           ],
           "includes": [],
-          "points": 21,
+          "points": 19,
           "swc": "0",
           "weapons": [
             {
@@ -156,7 +151,7 @@
             }
           ],
           "includes": [],
-          "points": 18,
+          "points": 16,
           "swc": "0",
           "weapons": [
             {
@@ -183,6 +178,54 @@
           "name": "TÁOWÙ",
           "skills": [],
           "peripheral": []
+        },
+        {
+          "id": 3,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 21,
+          "swc": "0.5",
+          "weapons": [
+            {
+              "id": 19,
+              "order": 1
+            },
+            {
+              "id": 145,
+              "order": 2
+            },
+            {
+              "id": 72,
+              "order": 3
+            },
+            {
+              "id": 156,
+              "order": 4
+            },
+            {
+              "id": 71,
+              "order": 5
+            }
+          ],
+          "name": "TÁOWÙ",
+          "skills": [
+            {
+              "id": 26,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
         }
       ]
     }
@@ -194,9 +237,9 @@
       10
     ],
     "skills": [
+      26,
       39,
       40,
-      85,
       162,
       164,
       189,

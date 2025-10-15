@@ -16,7 +16,7 @@
           "id": 1,
           "arm": 3,
           "ava": 1,
-          "bs": 12,
+          "bs": 13,
           "bts": 6,
           "cc": -1,
           "chars": [
@@ -25,7 +25,13 @@
             5,
             21
           ],
-          "equip": [],
+          "equip": [
+            {
+              "id": 114,
+              "order": 1,
+              "q": 1
+            }
+          ],
           "logo": "https://assets.corvusbelli.net/army/img/logo/units/haytham-aero-unit-1-1.svg",
           "weapons": [],
           "includes": [],
@@ -37,7 +43,7 @@
           "s": 7,
           "str": true,
           "type": 8,
-          "w": 1,
+          "w": 2,
           "wip": 14,
           "name": "HAYTHAM Aero-unit",
           "notes": null,
@@ -50,14 +56,6 @@
             {
               "id": 84,
               "order": 2,
-              "q": 1
-            },
-            {
-              "id": 161,
-              "order": 3,
-              "extra": [
-                26
-              ],
               "q": 1
             },
             {
@@ -98,16 +96,24 @@
               "q": 1
             },
             {
-              "id": 86,
-              "order": 10,
-              "q": 1
-            },
-            {
               "id": 74,
               "order": 11,
               "extra": [
                 372
               ],
+              "q": 1
+            },
+            {
+              "id": 201,
+              "order": 12,
+              "extra": [
+                292
+              ],
+              "q": 1
+            },
+            {
+              "id": 275,
+              "order": 13,
               "q": 1
             }
           ],
@@ -129,16 +135,20 @@
             }
           ],
           "includes": [],
-          "points": 36,
-          "swc": "0",
+          "points": 33,
+          "swc": "1.5",
           "weapons": [
             {
-              "id": 29,
+              "id": 152,
               "order": 1
             },
             {
-              "id": 207,
+              "id": 68,
               "order": 2
+            },
+            {
+              "id": 100,
+              "order": 3
             }
           ],
           "name": "HAYTHAM",
@@ -159,7 +169,7 @@
             }
           ],
           "includes": [],
-          "points": 31,
+          "points": 29,
           "swc": "0",
           "weapons": [
             {
@@ -167,11 +177,11 @@
               "order": 1
             },
             {
-              "id": 57,
+              "id": 18,
               "order": 2
             },
             {
-              "id": 82,
+              "id": 68,
               "order": 3
             }
           ],
@@ -194,12 +204,14 @@
       58,
       74,
       84,
-      86,
-      161,
+      201,
       264,
-      265
+      265,
+      275
     ],
-    "equip": [],
+    "equip": [
+      114
+    ],
     "chars": [
       1,
       3,
@@ -210,14 +222,17 @@
       8
     ],
     "weapons": [
+      18,
       29,
-      57,
-      82,
-      207
+      68,
+      100,
+      152
     ],
     "ammunition": [
       2,
-      3
+      3,
+      8,
+      13
     ]
   },
   "factions": [

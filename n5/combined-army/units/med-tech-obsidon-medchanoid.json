@@ -250,6 +250,54 @@
           "name": "MED-TECH OBSIDON",
           "skills": [],
           "peripheral": []
+        },
+        {
+          "id": 6,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 24,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 33,
+              "order": 1
+            },
+            {
+              "id": 175,
+              "order": 2
+            },
+            {
+              "id": 17,
+              "order": 3
+            },
+            {
+              "id": 69,
+              "order": 4
+            },
+            {
+              "id": 5,
+              "order": 5
+            }
+          ],
+          "name": "MED-TECH OBSIDON",
+          "skills": [
+            {
+              "id": 277,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
         }
       ]
     }
@@ -262,7 +310,8 @@
     ],
     "skills": [
       49,
-      53
+      53,
+      277
     ],
     "equip": [
       106,
@@ -297,6 +346,7 @@
     601,
     602,
     603,
-    604
+    604,
+    605
   ]
 }

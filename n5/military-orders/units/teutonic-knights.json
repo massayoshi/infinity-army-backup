@@ -69,14 +69,6 @@
               "q": 1
             },
             {
-              "id": 162,
-              "order": 5,
-              "extra": [
-                30
-              ],
-              "q": 1
-            },
-            {
               "id": 58,
               "order": 6,
               "extra": [
@@ -213,13 +205,9 @@
             }
           ],
           "includes": [],
-          "points": 25,
+          "points": 28,
           "swc": "1.5",
           "weapons": [
-            {
-              "id": 58,
-              "order": 1
-            },
             {
               "id": 69,
               "order": 2
@@ -227,10 +215,27 @@
             {
               "id": 11,
               "order": 3
+            },
+            {
+              "id": 58,
+              "order": 1
+            },
+            {
+              "id": 175,
+              "order": 4
             }
           ],
           "name": "TEUTONIC KNIGHT",
-          "skills": [],
+          "skills": [
+            {
+              "extra": [
+                6
+              ],
+              "id": 201,
+              "order": 1,
+              "q": 1
+            }
+          ],
           "peripheral": []
         },
         {
@@ -286,7 +291,13 @@
           "id": 6,
           "chars": [],
           "disabled": false,
-          "equip": [],
+          "equip": [
+            {
+              "id": 117,
+              "order": 1,
+              "q": 1
+            }
+          ],
           "minis": 1,
           "orders": [
             {
@@ -301,7 +312,7 @@
             }
           ],
           "includes": [],
-          "points": 28,
+          "points": 29,
           "swc": "1.5",
           "weapons": [
             {
@@ -396,13 +407,14 @@
       58,
       83,
       119,
-      162,
       189,
+      201,
       211,
       256,
       268
     ],
     "equip": [
+      117,
       169
     ],
     "chars": [
@@ -421,13 +433,15 @@
       68,
       69,
       74,
-      77
+      77,
+      175
     ],
     "ammunition": [
       2,
       6,
       9,
-      13
+      13,
+      14
     ]
   },
   "factions": [

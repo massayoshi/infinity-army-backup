@@ -17,7 +17,7 @@
           "arm": 4,
           "ava": 2,
           "bs": 13,
-          "bts": 0,
+          "bts": 3,
           "cc": 17,
           "chars": [
             2,
@@ -77,6 +77,38 @@
               "id": 262,
               "order": 9,
               "q": 1
+            },
+            {
+              "id": 40,
+              "order": 10,
+              "extra": [
+                308
+              ],
+              "q": 1
+            },
+            {
+              "id": 162,
+              "order": 11,
+              "extra": [
+                327
+              ],
+              "q": 1
+            },
+            {
+              "id": 273,
+              "order": 12,
+              "extra": [
+                353
+              ],
+              "q": 1
+            },
+            {
+              "id": 58,
+              "order": 13,
+              "extra": [
+                33
+              ],
+              "q": 1
             }
           ],
           "peripheral": []
@@ -97,7 +129,7 @@
             }
           ],
           "includes": [],
-          "points": 44,
+          "points": 45,
           "swc": "1.5",
           "weapons": [
             {
@@ -125,6 +157,11 @@
             {
               "id": 106,
               "order": 1
+            },
+            {
+              "id": 117,
+              "order": 2,
+              "q": 1
             }
           ],
           "minis": 1,
@@ -136,7 +173,7 @@
             }
           ],
           "includes": [],
-          "points": 36,
+          "points": 38,
           "swc": "0",
           "weapons": [
             {
@@ -169,7 +206,13 @@
           "id": 5,
           "chars": [],
           "disabled": false,
-          "equip": [],
+          "equip": [
+            {
+              "id": 117,
+              "order": 1,
+              "q": 1
+            }
+          ],
           "minis": 1,
           "orders": [
             {
@@ -179,7 +222,7 @@
             }
           ],
           "includes": [],
-          "points": 34,
+          "points": 36,
           "swc": "0",
           "weapons": [
             {
@@ -216,7 +259,13 @@
           "id": 6,
           "chars": [],
           "disabled": false,
-          "equip": [],
+          "equip": [
+            {
+              "id": 117,
+              "order": 1,
+              "q": 1
+            }
+          ],
           "minis": 1,
           "orders": [
             {
@@ -231,7 +280,7 @@
             }
           ],
           "includes": [],
-          "points": 34,
+          "points": 36,
           "swc": "0",
           "weapons": [
             {
@@ -288,7 +337,7 @@
             }
           ],
           "includes": [],
-          "points": 44,
+          "points": 45,
           "swc": "1",
           "weapons": [
             {
@@ -324,6 +373,8 @@
     ],
     "skills": [
       28,
+      40,
+      58,
       59,
       64,
       67,
@@ -332,10 +383,12 @@
       119,
       162,
       262,
-      267
+      267,
+      273
     ],
     "equip": [
-      106
+      106,
+      117
     ],
     "chars": [
       2,

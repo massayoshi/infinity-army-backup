@@ -1,6 +1,1098 @@
 {
-  "version": "7.25275.376",
+  "version": "7.25288.294",
   "units": [
+    {
+      "id": 1635,
+      "idArmy": 1635,
+      "canonical": 399,
+      "isc": "Reinf. Wardrivers, Mercenary Hackers",
+      "iscAbbr": null,
+      "name": "REINF: WARDRIVERS, Mercenary Hackers",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Reinf. Wardrivers, Mercenary Hackers",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 13,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 1,
+              "ava": 1,
+              "str": false,
+              "bs": 11,
+              "s": 2,
+              "equip": [],
+              "w": 1,
+              "ph": 10,
+              "name": "REINF: WARDRIVERS, Mercenary Hackers",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-wardrivers-mercenary-hackers-1-1.svg",
+              "id": 1,
+              "arm": 0,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                5
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 67,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 11,
+              "equip": [],
+              "name": "WARDRIVER REINF",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 26,
+                  "order": 1
+                },
+                {
+                  "id": 72,
+                  "order": 2
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "extra": [
+                    265
+                  ],
+                  "id": 1000,
+                  "order": 2
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 13,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 100,
+                  "order": 1
+                }
+              ],
+              "name": "WARDRIVER REINF",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "id": 26,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "1",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 1000,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 11
+        }
+      ],
+      "options": [],
+      "slug": "reinf-wardrivers-mercenary-hackers",
+      "filters": {
+        "categories": [
+          11
+        ],
+        "skills": [
+          67,
+          1000
+        ],
+        "equip": [
+          100
+        ],
+        "chars": [
+          1,
+          3,
+          5
+        ],
+        "types": [
+          1
+        ],
+        "weapons": [
+          5,
+          26,
+          69,
+          72
+        ],
+        "ammunition": [
+          2,
+          3,
+          29
+        ]
+      },
+      "factions": [
+        399
+      ]
+    },
+    {
+      "id": 1636,
+      "idArmy": 1636,
+      "canonical": 399,
+      "isc": "Reinf. Beasthunters Free Guild",
+      "iscAbbr": null,
+      "name": "REINF: BEASTHUNTERS Free Guild",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Reinf. Beasthunters Free Guild",
+          "profiles": [
+            {
+              "bts": 0,
+              "cc": 21,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 1,
+              "ava": 1,
+              "str": false,
+              "bs": 11,
+              "s": 2,
+              "equip": [],
+              "w": 1,
+              "ph": 13,
+              "name": "REINF: BEASTHUNTERS Free Guild",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-beasthunters-free-guild-1-1.svg",
+              "id": 1,
+              "arm": 0,
+              "weapons": [],
+              "chars": [
+                1,
+                4,
+                5
+              ],
+              "wip": 12,
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 268,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    6
+                  ],
+                  "id": 28,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "id": 164,
+                  "order": 4
+                },
+                {
+                  "q": 1,
+                  "id": 74,
+                  "order": 5
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    33
+                  ],
+                  "id": 58,
+                  "order": 6
+                },
+                {
+                  "q": 1,
+                  "id": 83,
+                  "order": 7
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 9,
+              "equip": [],
+              "name": "BEASTHUNTER REINF",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "IRREGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 57,
+                  "order": 1
+                },
+                {
+                  "id": 193,
+                  "order": 2
+                },
+                {
+                  "id": 199,
+                  "order": 3
+                },
+                {
+                  "id": 69,
+                  "order": 4
+                },
+                {
+                  "extra": [
+                    302
+                  ],
+                  "id": 11,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 11,
+              "equip": [],
+              "name": "BEASTHUNTER REINF",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "IRREGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "id": 57,
+                  "order": 1
+                },
+                {
+                  "id": 68,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 107,
+                  "order": 4
+                },
+                {
+                  "extra": [
+                    302
+                  ],
+                  "id": 11,
+                  "order": 5
+                },
+                {
+                  "extra": [
+                    303
+                  ],
+                  "id": 199,
+                  "order": 6
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 11
+        }
+      ],
+      "options": [],
+      "slug": "reinf-beasthunters-free-guild",
+      "filters": {
+        "categories": [
+          11
+        ],
+        "skills": [
+          28,
+          58,
+          74,
+          83,
+          164,
+          268
+        ],
+        "equip": [],
+        "chars": [
+          1,
+          4,
+          5
+        ],
+        "types": [
+          1
+        ],
+        "weapons": [
+          11,
+          57,
+          68,
+          69,
+          107,
+          193,
+          199
+        ],
+        "ammunition": [
+          2,
+          3,
+          8,
+          9,
+          13
+        ]
+      },
+      "factions": [
+        399
+      ]
+    },
+    {
+      "id": 1627,
+      "idArmy": 1627,
+      "canonical": 399,
+      "isc": "Reinf. Briscards",
+      "iscAbbr": null,
+      "name": "REINF: BRISCARDS, 8éme Régiment d'Infanterie de Montagne",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Reinf. Briscards",
+          "profiles": [
+            {
+              "bts": 0,
+              "cc": 16,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 2,
+              "ava": 4,
+              "str": false,
+              "bs": 12,
+              "s": 2,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 114,
+                  "order": 1
+                }
+              ],
+              "w": 1,
+              "ph": 12,
+              "name": "REINF: BRISCARDS, 8éme Régiment d'Infanterie de Montagne",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-briscards-1-1.svg",
+              "id": 1,
+              "arm": 2,
+              "weapons": [],
+              "chars": [
+                2,
+                3,
+                5
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 84,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    38
+                  ],
+                  "id": 58,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "id": 267,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    244
+                  ],
+                  "id": 273,
+                  "order": 4
+                },
+                {
+                  "q": 1,
+                  "id": 82,
+                  "order": 5
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 20,
+              "equip": [],
+              "name": "BRISCARD REINF",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 89,
+                  "order": 1
+                },
+                {
+                  "id": 70,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "1.5",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 24,
+              "equip": [],
+              "name": "BRISCARD REINF",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 3,
+              "weapons": [
+                {
+                  "id": 5,
+                  "order": 3
+                },
+                {
+                  "id": 35,
+                  "order": 1
+                },
+                {
+                  "id": 70,
+                  "order": 2
+                }
+              ],
+              "chars": [],
+              "swc": "0.5",
+              "skills": [
+                {
+                  "q": 1,
+                  "extra": [
+                    30
+                  ],
+                  "id": 201,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 22,
+              "equip": [],
+              "name": "BRISCARD REINF",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 4,
+              "weapons": [
+                {
+                  "id": 85,
+                  "order": 1
+                },
+                {
+                  "id": 72,
+                  "order": 2
+                },
+                {
+                  "id": 70,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 59,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 23,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 106,
+                  "order": 1
+                }
+              ],
+              "name": "BRISCARD REINF",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 5,
+              "weapons": [
+                {
+                  "id": 85,
+                  "order": 1
+                },
+                {
+                  "id": 70,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 64,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 4
+        }
+      ],
+      "options": [],
+      "slug": "reinf-briscards",
+      "filters": {
+        "categories": [
+          4
+        ],
+        "skills": [
+          58,
+          59,
+          64,
+          82,
+          84,
+          201,
+          267,
+          273
+        ],
+        "equip": [
+          106,
+          114
+        ],
+        "chars": [
+          2,
+          3,
+          5
+        ],
+        "types": [
+          2
+        ],
+        "weapons": [
+          5,
+          35,
+          70,
+          72,
+          85,
+          89
+        ],
+        "ammunition": [
+          2,
+          3,
+          29
+        ]
+      },
+      "factions": [
+        399
+      ]
+    },
+    {
+      "id": 1630,
+      "idArmy": 1630,
+      "canonical": 399,
+      "isc": "Reinf. Moblots",
+      "iscAbbr": null,
+      "name": "REINF: 13éme MOBLOTS",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Reinf. Moblots",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 16,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 3,
+              "ava": 2,
+              "str": false,
+              "bs": 13,
+              "s": 2,
+              "equip": [],
+              "w": 1,
+              "ph": 12,
+              "name": "REINF: 13éme MOBLOTS",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-moblots-1-1.svg",
+              "id": 1,
+              "arm": 3,
+              "weapons": [],
+              "chars": [
+                2,
+                3,
+                5,
+                24
+              ],
+              "wip": 14,
+              "skills": [
+                {
+                  "q": 1,
+                  "extra": [
+                    30
+                  ],
+                  "id": 201,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    6
+                  ],
+                  "id": 28,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    30
+                  ],
+                  "id": 162,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "id": 213,
+                  "order": 4
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    37
+                  ],
+                  "id": 58,
+                  "order": 5
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    327
+                  ],
+                  "id": 162,
+                  "order": 6
+                },
+                {
+                  "q": 1,
+                  "id": 262,
+                  "order": 7
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    244
+                  ],
+                  "id": 273,
+                  "order": 8
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    308
+                  ],
+                  "id": 40,
+                  "order": 9
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 32,
+              "equip": [],
+              "name": "MOBLOT REINF",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "TACTICAL",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 2,
+                  "order": 1
+                },
+                {
+                  "id": 212,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "1.5",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 32,
+              "equip": [],
+              "name": "MOBLOT REINF",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "TACTICAL",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "extra": [
+                    302
+                  ],
+                  "id": 157,
+                  "order": 1
+                },
+                {
+                  "id": 212,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "1.5",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 30,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 238,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 237,
+                  "order": 1
+                }
+              ],
+              "name": "MOBLOT REINF",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "TACTICAL",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 3,
+              "weapons": [
+                {
+                  "id": 32,
+                  "order": 1
+                },
+                {
+                  "id": 28,
+                  "order": 2
+                },
+                {
+                  "id": 197,
+                  "order": 3
+                },
+                {
+                  "id": 17,
+                  "order": 4
+                },
+                {
+                  "id": 212,
+                  "order": 5
+                },
+                {
+                  "id": 5,
+                  "order": 6
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 49,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 27,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 106,
+                  "order": 1
+                }
+              ],
+              "name": "MOBLOT REINF",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "TACTICAL",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 4,
+              "weapons": [
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 26,
+                  "order": 1
+                },
+                {
+                  "id": 212,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 64,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 4
+        }
+      ],
+      "options": [],
+      "slug": "reinf-moblots",
+      "filters": {
+        "categories": [
+          4
+        ],
+        "skills": [
+          28,
+          40,
+          49,
+          58,
+          64,
+          162,
+          201,
+          213,
+          262,
+          273
+        ],
+        "equip": [
+          106,
+          237,
+          238
+        ],
+        "chars": [
+          2,
+          3,
+          5,
+          24
+        ],
+        "types": [
+          3
+        ],
+        "weapons": [
+          2,
+          5,
+          17,
+          26,
+          28,
+          32,
+          157,
+          197,
+          212
+        ],
+        "ammunition": [
+          2,
+          3,
+          13,
+          14
+        ]
+      },
+      "factions": [
+        399
+      ]
+    },
     {
       "id": 1632,
       "idArmy": 1632,
@@ -648,395 +1740,6 @@
       ]
     },
     {
-      "id": 1631,
-      "idArmy": 1631,
-      "canonical": 399,
-      "isc": "Reinf. Equipe Mirage-5",
-      "iscAbbr": null,
-      "name": "REINF: EQUIPE MIRAGE-5",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Reinf. Lieutenant Margot Berthier",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 16,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 3,
-              "ava": 1,
-              "str": false,
-              "bs": 14,
-              "s": 2,
-              "equip": [],
-              "w": 1,
-              "ph": 12,
-              "name": "REINF: Lieutenant MARGOT BERTHIER, Mirage-5",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-equipe-mirage-5-1-1.svg",
-              "id": 1,
-              "arm": 3,
-              "weapons": [],
-              "chars": [
-                2,
-                3,
-                5,
-                24
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "q": 1,
-                  "extra": [
-                    30
-                  ],
-                  "id": 201,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    30
-                  ],
-                  "id": 162,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    33
-                  ],
-                  "id": 58,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    6
-                  ],
-                  "id": 28,
-                  "order": 4
-                },
-                {
-                  "q": 1,
-                  "id": 213,
-                  "order": 5
-                },
-                {
-                  "q": 1,
-                  "id": 189,
-                  "order": 6
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    327
-                  ],
-                  "id": 162,
-                  "order": 7
-                },
-                {
-                  "q": 1,
-                  "id": 262,
-                  "order": 8
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 30,
-              "equip": [],
-              "name": "MARGOT REINF",
-              "disabled": true,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "TACTICAL",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 32,
-                  "order": 1
-                },
-                {
-                  "id": 194,
-                  "order": 2
-                },
-                {
-                  "id": 28,
-                  "order": 3
-                },
-                {
-                  "id": 69,
-                  "order": 4
-                },
-                {
-                  "id": 5,
-                  "order": 5
-                }
-              ],
-              "chars": [],
-              "swc": "-",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 10
-        },
-        {
-          "notes": null,
-          "isc": "Reinf. Sergent Duroc",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 23,
-              "move": [
-                15,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 7,
-              "ava": 1,
-              "str": false,
-              "bs": 10,
-              "s": 6,
-              "equip": [],
-              "w": 2,
-              "ph": 16,
-              "name": "REINF: Sergent DUROC, Mirage-5",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-equipe-mirage-5-2-1.svg",
-              "id": 1,
-              "arm": 3,
-              "weapons": [],
-              "chars": [
-                2,
-                4,
-                6
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 20,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "id": 84,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    11
-                  ],
-                  "id": 40,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "id": 74,
-                  "order": 5
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    319
-                  ],
-                  "id": 162,
-                  "order": 6
-                },
-                {
-                  "q": 1,
-                  "id": 264,
-                  "order": 7
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 20,
-              "equip": [],
-              "name": "DUROC REINF",
-              "disabled": true,
-              "orders": [
-                {
-                  "type": "IRREGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "IMPETUOUS",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "extra": [
-                    8
-                  ],
-                  "id": 18,
-                  "order": 1
-                },
-                {
-                  "extra": [
-                    303
-                  ],
-                  "id": 44,
-                  "order": 1
-                },
-                {
-                  "extra": null,
-                  "id": 45,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    311
-                  ],
-                  "id": 6,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "-",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 2,
-          "category": 10
-        }
-      ],
-      "options": [
-        {
-          "includes": [
-            {
-              "q": 1,
-              "group": 1,
-              "option": 1
-            },
-            {
-              "q": 1,
-              "group": 2,
-              "option": 1
-            }
-          ],
-          "minis": 2,
-          "habilities": [],
-          "points": 50,
-          "compatible": null,
-          "equip": [],
-          "name": "EQUIPE MIRAGE-5 (MARGOT & DUROC)",
-          "disabled": false,
-          "orders": [
-            {
-              "type": "REGULAR",
-              "list": 1,
-              "total": 1
-            },
-            {
-              "type": "IRREGULAR",
-              "list": 1,
-              "total": 1
-            },
-            {
-              "type": "TACTICAL",
-              "list": 1,
-              "total": 1
-            },
-            {
-              "type": "IMPETUOUS",
-              "list": 1,
-              "total": 1
-            }
-          ],
-          "id": 1,
-          "weapons": [],
-          "chars": [],
-          "swc": "2",
-          "skills": [],
-          "peripheral": []
-        }
-      ],
-      "slug": "reinf-equipe-mirage-5",
-      "filters": {
-        "categories": [
-          10
-        ],
-        "skills": [
-          20,
-          28,
-          40,
-          58,
-          74,
-          84,
-          162,
-          189,
-          201,
-          213,
-          262,
-          264
-        ],
-        "equip": [],
-        "chars": [
-          2,
-          3,
-          4,
-          5,
-          6,
-          24
-        ],
-        "types": [
-          3,
-          7
-        ],
-        "weapons": [
-          5,
-          6,
-          18,
-          28,
-          32,
-          44,
-          45,
-          69,
-          194
-        ],
-        "ammunition": [
-          2,
-          3,
-          21
-        ]
-      },
-      "factions": [
-        399
-      ]
-    },
-    {
       "id": 1637,
       "idArmy": 1637,
       "canonical": 399,
@@ -1258,742 +1961,16 @@
       ]
     },
     {
-      "id": 1635,
-      "idArmy": 1635,
+      "id": 1631,
+      "idArmy": 1631,
       "canonical": 399,
-      "isc": "Reinf. Wardrivers, Mercenary Hackers",
+      "isc": "Reinf. Equipe Mirage-5",
       "iscAbbr": null,
-      "name": "REINF: WARDRIVERS, Mercenary Hackers",
+      "name": "REINF: EQUIPE MIRAGE-5",
       "profileGroups": [
         {
           "notes": null,
-          "isc": "Reinf. Wardrivers, Mercenary Hackers",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 13,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 1,
-              "ava": 1,
-              "str": false,
-              "bs": 11,
-              "s": 2,
-              "equip": [],
-              "w": 1,
-              "ph": 10,
-              "name": "REINF: WARDRIVERS, Mercenary Hackers",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-wardrivers-mercenary-hackers-1-1.svg",
-              "id": 1,
-              "arm": 0,
-              "weapons": [],
-              "chars": [
-                1,
-                3,
-                5
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 67,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 11,
-              "equip": [],
-              "name": "WARDRIVER REINF",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 26,
-                  "order": 1
-                },
-                {
-                  "id": 72,
-                  "order": 2
-                },
-                {
-                  "id": 69,
-                  "order": 3
-                },
-                {
-                  "id": 5,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "q": 1,
-                  "extra": [
-                    265
-                  ],
-                  "id": 1000,
-                  "order": 2
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 13,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 100,
-                  "order": 1
-                }
-              ],
-              "name": "WARDRIVER REINF",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "id": 26,
-                  "order": 1
-                },
-                {
-                  "id": 69,
-                  "order": 2
-                },
-                {
-                  "id": 5,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "1",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 1000,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 11
-        }
-      ],
-      "options": [],
-      "slug": "reinf-wardrivers-mercenary-hackers",
-      "filters": {
-        "categories": [
-          11
-        ],
-        "skills": [
-          67,
-          1000
-        ],
-        "equip": [
-          100
-        ],
-        "chars": [
-          1,
-          3,
-          5
-        ],
-        "types": [
-          1
-        ],
-        "weapons": [
-          5,
-          26,
-          69,
-          72
-        ],
-        "ammunition": [
-          2,
-          3,
-          29
-        ]
-      },
-      "factions": [
-        399
-      ]
-    },
-    {
-      "id": 1636,
-      "idArmy": 1636,
-      "canonical": 399,
-      "isc": "Reinf. Beasthunters Free Guild",
-      "iscAbbr": null,
-      "name": "REINF: BEASTHUNTERS Free Guild",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Reinf. Beasthunters Free Guild",
-          "profiles": [
-            {
-              "bts": 0,
-              "cc": 21,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 1,
-              "ava": 1,
-              "str": false,
-              "bs": 11,
-              "s": 2,
-              "equip": [],
-              "w": 1,
-              "ph": 13,
-              "name": "REINF: BEASTHUNTERS Free Guild",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-beasthunters-free-guild-1-1.svg",
-              "id": 1,
-              "arm": 0,
-              "weapons": [],
-              "chars": [
-                1,
-                4,
-                5
-              ],
-              "wip": 12,
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 268,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    6
-                  ],
-                  "id": 28,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "id": 164,
-                  "order": 4
-                },
-                {
-                  "q": 1,
-                  "id": 74,
-                  "order": 5
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    33
-                  ],
-                  "id": 58,
-                  "order": 6
-                },
-                {
-                  "q": 1,
-                  "id": 83,
-                  "order": 7
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 9,
-              "equip": [],
-              "name": "BEASTHUNTER REINF",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "IRREGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 57,
-                  "order": 1
-                },
-                {
-                  "id": 193,
-                  "order": 2
-                },
-                {
-                  "id": 199,
-                  "order": 3
-                },
-                {
-                  "id": 69,
-                  "order": 4
-                },
-                {
-                  "extra": [
-                    302
-                  ],
-                  "id": 11,
-                  "order": 5
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 11,
-              "equip": [],
-              "name": "BEASTHUNTER REINF",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "IRREGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "id": 57,
-                  "order": 1
-                },
-                {
-                  "id": 68,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    8
-                  ],
-                  "id": 107,
-                  "order": 4
-                },
-                {
-                  "extra": [
-                    302
-                  ],
-                  "id": 11,
-                  "order": 5
-                },
-                {
-                  "extra": [
-                    303
-                  ],
-                  "id": 199,
-                  "order": 6
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 11
-        }
-      ],
-      "options": [],
-      "slug": "reinf-beasthunters-free-guild",
-      "filters": {
-        "categories": [
-          11
-        ],
-        "skills": [
-          28,
-          58,
-          74,
-          83,
-          164,
-          268
-        ],
-        "equip": [],
-        "chars": [
-          1,
-          4,
-          5
-        ],
-        "types": [
-          1
-        ],
-        "weapons": [
-          11,
-          57,
-          68,
-          69,
-          107,
-          193,
-          199
-        ],
-        "ammunition": [
-          2,
-          3,
-          8,
-          9,
-          13
-        ]
-      },
-      "factions": [
-        399
-      ]
-    },
-    {
-      "id": 1627,
-      "idArmy": 1627,
-      "canonical": 399,
-      "isc": "Reinf. Briscards",
-      "iscAbbr": null,
-      "name": "REINF: BRISCARDS, 8éme Régiment d'Infanterie de Montagne",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Reinf. Briscards",
-          "profiles": [
-            {
-              "bts": 0,
-              "cc": 16,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 2,
-              "ava": 4,
-              "str": false,
-              "bs": 12,
-              "s": 2,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 114,
-                  "order": 1
-                }
-              ],
-              "w": 1,
-              "ph": 12,
-              "name": "REINF: BRISCARDS, 8éme Régiment d'Infanterie de Montagne",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-briscards-1-1.svg",
-              "id": 1,
-              "arm": 2,
-              "weapons": [],
-              "chars": [
-                2,
-                3,
-                5
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 84,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    38
-                  ],
-                  "id": 58,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "id": 267,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    244
-                  ],
-                  "id": 273,
-                  "order": 4
-                },
-                {
-                  "q": 1,
-                  "id": 82,
-                  "order": 5
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 20,
-              "equip": [],
-              "name": "BRISCARD REINF",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "extra": [
-                    8
-                  ],
-                  "id": 89,
-                  "order": 1
-                },
-                {
-                  "extra": null,
-                  "id": 70,
-                  "order": 2
-                },
-                {
-                  "extra": null,
-                  "id": 5,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "1.5",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 26,
-              "equip": [],
-              "name": "BRISCARD REINF",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 3,
-              "weapons": [
-                {
-                  "id": 5,
-                  "order": 3
-                },
-                {
-                  "id": 35,
-                  "order": 1
-                },
-                {
-                  "id": 70,
-                  "order": 2
-                }
-              ],
-              "chars": [],
-              "swc": "0.5",
-              "skills": [
-                {
-                  "q": 1,
-                  "extra": [
-                    30
-                  ],
-                  "id": 201,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 22,
-              "equip": [],
-              "name": "BRISCARD REINF",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 4,
-              "weapons": [
-                {
-                  "extra": null,
-                  "id": 85,
-                  "order": 1
-                },
-                {
-                  "extra": null,
-                  "id": 72,
-                  "order": 2
-                },
-                {
-                  "extra": null,
-                  "id": 70,
-                  "order": 3
-                },
-                {
-                  "extra": null,
-                  "id": 5,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 59,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 23,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 106,
-                  "order": 1
-                }
-              ],
-              "name": "BRISCARD REINF",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 5,
-              "weapons": [
-                {
-                  "extra": null,
-                  "id": 85,
-                  "order": 1
-                },
-                {
-                  "extra": null,
-                  "id": 70,
-                  "order": 2
-                },
-                {
-                  "extra": null,
-                  "id": 5,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 64,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 4
-        }
-      ],
-      "options": [],
-      "slug": "reinf-briscards",
-      "filters": {
-        "categories": [
-          4
-        ],
-        "skills": [
-          58,
-          59,
-          64,
-          82,
-          84,
-          201,
-          267,
-          273
-        ],
-        "equip": [
-          106,
-          114
-        ],
-        "chars": [
-          2,
-          3,
-          5
-        ],
-        "types": [
-          2
-        ],
-        "weapons": [
-          5,
-          35,
-          70,
-          72,
-          85,
-          89
-        ],
-        "ammunition": [
-          2,
-          3,
-          29
-        ]
-      },
-      "factions": [
-        399
-      ]
-    },
-    {
-      "id": 1630,
-      "idArmy": 1630,
-      "canonical": 399,
-      "isc": "Reinf. Moblots",
-      "iscAbbr": null,
-      "name": "REINF: 13éme MOBLOTS",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Reinf. Moblots",
+          "isc": "Reinf. Lieutenant Margot Berthier",
           "profiles": [
             {
               "bts": 3,
@@ -2005,15 +1982,15 @@
               "notes": null,
               "includes": [],
               "type": 3,
-              "ava": 2,
+              "ava": 1,
               "str": false,
-              "bs": 13,
+              "bs": 14,
               "s": 2,
               "equip": [],
               "w": 1,
               "ph": 12,
-              "name": "REINF: 13éme MOBLOTS",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-moblots-1-1.svg",
+              "name": "REINF: Lieutenant MARGOT BERTHIER, Mirage-5",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-equipe-mirage-5-1-1.svg",
               "id": 1,
               "arm": 3,
               "weapons": [],
@@ -2023,7 +2000,7 @@
                 5,
                 24
               ],
-              "wip": 14,
+              "wip": 13,
               "skills": [
                 {
                   "q": 1,
@@ -2036,31 +2013,36 @@
                 {
                   "q": 1,
                   "extra": [
-                    6
+                    30
                   ],
-                  "id": 28,
+                  "id": 162,
                   "order": 2
                 },
                 {
                   "q": 1,
                   "extra": [
-                    30
+                    33
                   ],
-                  "id": 162,
+                  "id": 58,
                   "order": 3
                 },
                 {
                   "q": 1,
-                  "id": 213,
+                  "extra": [
+                    6
+                  ],
+                  "id": 28,
                   "order": 4
                 },
                 {
                   "q": 1,
-                  "extra": [
-                    37
-                  ],
-                  "id": 58,
+                  "id": 213,
                   "order": 5
+                },
+                {
+                  "q": 1,
+                  "id": 189,
+                  "order": 6
                 },
                 {
                   "q": 1,
@@ -2068,19 +2050,11 @@
                     327
                   ],
                   "id": 162,
-                  "order": 6
-                },
-                {
-                  "q": 1,
-                  "id": 262,
                   "order": 7
                 },
                 {
                   "q": 1,
-                  "extra": [
-                    244
-                  ],
-                  "id": 273,
+                  "id": 262,
                   "order": 8
                 },
                 {
@@ -2090,6 +2064,14 @@
                   ],
                   "id": 40,
                   "order": 9
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    244
+                  ],
+                  "id": 273,
+                  "order": 10
                 }
               ],
               "peripheral": []
@@ -2099,10 +2081,10 @@
             {
               "includes": [],
               "minis": 1,
-              "points": 32,
+              "points": 31,
               "equip": [],
-              "name": "MOBLOT REINF",
-              "disabled": false,
+              "name": "MARGOT REINF",
+              "disabled": true,
               "orders": [
                 {
                   "type": "REGULAR",
@@ -2118,240 +2100,265 @@
               "id": 1,
               "weapons": [
                 {
-                  "id": 2,
-                  "order": 1
-                },
-                {
-                  "id": 212,
-                  "order": 2
-                },
-                {
-                  "id": 5,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "1.5",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 32,
-              "equip": [],
-              "name": "MOBLOT REINF",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "TACTICAL",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "extra": [
-                    302
-                  ],
-                  "id": 157,
-                  "order": 1
-                },
-                {
-                  "id": 212,
-                  "order": 2
-                },
-                {
-                  "id": 5,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "1.5",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 30,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 238,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "id": 237,
-                  "order": 1
-                }
-              ],
-              "name": "MOBLOT REINF",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "TACTICAL",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 3,
-              "weapons": [
-                {
                   "id": 32,
                   "order": 1
                 },
                 {
-                  "id": 28,
+                  "id": 194,
                   "order": 2
                 },
                 {
-                  "id": 197,
+                  "id": 28,
                   "order": 3
                 },
                 {
-                  "id": 17,
+                  "id": 69,
                   "order": 4
                 },
                 {
-                  "id": 212,
-                  "order": 5
-                },
-                {
                   "id": 5,
-                  "order": 6
+                  "order": 5
                 }
               ],
               "chars": [],
-              "swc": "0",
+              "swc": "-",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 10
+        },
+        {
+          "notes": null,
+          "isc": "Reinf. Sergent Duroc",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 23,
+              "move": [
+                15,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 7,
+              "ava": 1,
+              "str": false,
+              "bs": 10,
+              "s": 6,
+              "equip": [],
+              "w": 2,
+              "ph": 16,
+              "name": "REINF: Sergent DUROC, Mirage-5",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-equipe-mirage-5-2-1.svg",
+              "id": 1,
+              "arm": 3,
+              "weapons": [],
+              "chars": [
+                2,
+                4,
+                6
+              ],
+              "wip": 13,
               "skills": [
                 {
                   "q": 1,
-                  "id": 49,
+                  "id": 20,
                   "order": 1
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 27,
-              "equip": [
+                },
                 {
                   "q": 1,
-                  "id": 106,
-                  "order": 1
-                }
-              ],
-              "name": "MOBLOT REINF",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "TACTICAL",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 4,
-              "weapons": [
-                {
-                  "extra": [
-                    8
-                  ],
-                  "id": 26,
-                  "order": 1
-                },
-                {
-                  "id": 212,
+                  "id": 84,
                   "order": 2
                 },
                 {
-                  "id": 5,
+                  "q": 1,
+                  "extra": [
+                    11
+                  ],
+                  "id": 40,
                   "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
+                },
                 {
                   "q": 1,
-                  "id": 64,
-                  "order": 1
+                  "id": 74,
+                  "order": 5
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    319
+                  ],
+                  "id": 162,
+                  "order": 6
+                },
+                {
+                  "q": 1,
+                  "id": 264,
+                  "order": 7
                 }
               ],
               "peripheral": []
             }
           ],
-          "id": 1,
-          "category": 4
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 20,
+              "equip": [],
+              "name": "DUROC REINF",
+              "disabled": true,
+              "orders": [
+                {
+                  "type": "IRREGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "IMPETUOUS",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 18,
+                  "order": 1
+                },
+                {
+                  "extra": [
+                    303
+                  ],
+                  "id": 44,
+                  "order": 1
+                },
+                {
+                  "id": 45,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    311
+                  ],
+                  "id": 6,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "-",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 2,
+          "category": 10
         }
       ],
-      "options": [],
-      "slug": "reinf-moblots",
+      "options": [
+        {
+          "includes": [
+            {
+              "q": 1,
+              "group": 1,
+              "option": 1
+            },
+            {
+              "q": 1,
+              "group": 2,
+              "option": 1
+            }
+          ],
+          "minis": 2,
+          "habilities": [],
+          "points": 51,
+          "compatible": null,
+          "equip": [],
+          "name": "EQUIPE MIRAGE-5 (MARGOT & DUROC)",
+          "disabled": false,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "IRREGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "TACTICAL",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "IMPETUOUS",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "id": 1,
+          "weapons": [],
+          "chars": [],
+          "swc": "2",
+          "skills": [],
+          "peripheral": []
+        }
+      ],
+      "slug": "reinf-equipe-mirage-5",
       "filters": {
         "categories": [
-          4
+          10
         ],
         "skills": [
+          20,
           28,
           40,
-          49,
           58,
-          64,
+          74,
+          84,
           162,
+          189,
           201,
           213,
           262,
+          264,
           273
         ],
-        "equip": [
-          106,
-          237,
-          238
-        ],
+        "equip": [],
         "chars": [
           2,
           3,
+          4,
           5,
+          6,
           24
         ],
         "types": [
-          3
+          3,
+          7
         ],
         "weapons": [
-          2,
           5,
-          17,
-          26,
+          6,
+          18,
           28,
           32,
-          157,
-          197,
-          212
+          44,
+          45,
+          69,
+          194
         ],
         "ammunition": [
           2,
           3,
-          13,
-          14
+          21
         ]
       },
       "factions": [
@@ -3206,6 +3213,10 @@
         "name": "23"
       },
       {
+        "id": 24,
+        "name": "24"
+      },
+      {
         "id": 26,
         "name": "26"
       },
@@ -3220,6 +3231,10 @@
       {
         "id": 30,
         "name": "30"
+      },
+      {
+        "id": 31,
+        "name": "31"
       },
       {
         "id": 32,
@@ -3890,56 +3905,6 @@
   },
   "resume": [
     {
-      "id": 1632,
-      "isc": "Reinf. Chasseurs",
-      "idArmy": 1632,
-      "name": "REINF: 4éme DE CHASSEURS",
-      "slug": "reinf-chasseurs",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-chasseurs-1-1.svg",
-      "type": 6,
-      "category": 3
-    },
-    {
-      "id": 1633,
-      "isc": "Reinf. 112, Emergency Service",
-      "idArmy": 1633,
-      "name": "REINF: 112, Emergency Service",
-      "slug": "reinf-112-emergency-service",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-112-emergency-service-1-1.svg",
-      "type": 1,
-      "category": 8
-    },
-    {
-      "id": 1625,
-      "isc": "Reinf. Para-Commandos",
-      "idArmy": 1625,
-      "name": "REINF: 1er Régiment de PARA-COMMANDOS",
-      "slug": "reinf-para-commandos",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-para-commandos-1-1.svg",
-      "type": 1,
-      "category": 3
-    },
-    {
-      "id": 1631,
-      "isc": "Reinf. Equipe Mirage-5",
-      "idArmy": 1631,
-      "name": "REINF: EQUIPE MIRAGE-5",
-      "slug": "reinf-equipe-mirage-5",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-equipe-mirage-5-1-1.svg",
-      "type": 3,
-      "category": 10
-    },
-    {
-      "id": 1637,
-      "isc": "Reinf. Brigadier Jacques Bruant",
-      "idArmy": 1637,
-      "name": "REINF: BRIGADIER JACQUES BRUANT, Sous-officier des Métros",
-      "slug": "reinf-brigadier-jacques-bruant",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/brigadier-jacques-bruant-1-1.svg",
-      "type": 1,
-      "category": 10
-    },
-    {
       "id": 1635,
       "isc": "Reinf. Wardrivers, Mercenary Hackers",
       "idArmy": 1635,
@@ -3978,6 +3943,56 @@
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-moblots-1-1.svg",
       "type": 3,
       "category": 4
+    },
+    {
+      "id": 1632,
+      "isc": "Reinf. Chasseurs",
+      "idArmy": 1632,
+      "name": "REINF: 4éme DE CHASSEURS",
+      "slug": "reinf-chasseurs",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-chasseurs-1-1.svg",
+      "type": 6,
+      "category": 3
+    },
+    {
+      "id": 1633,
+      "isc": "Reinf. 112, Emergency Service",
+      "idArmy": 1633,
+      "name": "REINF: 112, Emergency Service",
+      "slug": "reinf-112-emergency-service",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-112-emergency-service-1-1.svg",
+      "type": 1,
+      "category": 8
+    },
+    {
+      "id": 1625,
+      "isc": "Reinf. Para-Commandos",
+      "idArmy": 1625,
+      "name": "REINF: 1er Régiment de PARA-COMMANDOS",
+      "slug": "reinf-para-commandos",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-para-commandos-1-1.svg",
+      "type": 1,
+      "category": 3
+    },
+    {
+      "id": 1637,
+      "isc": "Reinf. Brigadier Jacques Bruant",
+      "idArmy": 1637,
+      "name": "REINF: BRIGADIER JACQUES BRUANT, Sous-officier des Métros",
+      "slug": "reinf-brigadier-jacques-bruant",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/brigadier-jacques-bruant-1-1.svg",
+      "type": 1,
+      "category": 10
+    },
+    {
+      "id": 1631,
+      "isc": "Reinf. Equipe Mirage-5",
+      "idArmy": 1631,
+      "name": "REINF: EQUIPE MIRAGE-5",
+      "slug": "reinf-equipe-mirage-5",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-equipe-mirage-5-1-1.svg",
+      "type": 3,
+      "category": 10
     },
     {
       "id": 1634,

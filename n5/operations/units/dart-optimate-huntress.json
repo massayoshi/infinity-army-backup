@@ -115,6 +115,14 @@
               "id": 189,
               "order": 11,
               "q": 1
+            },
+            {
+              "id": 215,
+              "order": 12,
+              "extra": [
+                44
+              ],
+              "q": 1
             }
           ],
           "peripheral": []
@@ -139,24 +147,24 @@
           "swc": "0",
           "weapons": [
             {
-              "id": 77,
+              "id": 214,
               "order": 1
-            },
-            {
-              "id": 47,
-              "order": 3
             },
             {
               "id": 69,
               "order": 4
             },
             {
+              "id": 5,
+              "order": 5
+            },
+            {
               "id": 179,
               "order": 2
             },
             {
-              "id": 5,
-              "order": 5
+              "id": 47,
+              "order": 6
             }
           ],
           "name": "DART",
@@ -181,28 +189,76 @@
           "swc": "0",
           "weapons": [
             {
-              "id": 77,
+              "id": 214,
               "order": 1
-            },
-            {
-              "id": 196,
-              "order": 3
             },
             {
               "id": 69,
               "order": 4
             },
             {
+              "id": 5,
+              "order": 5
+            },
+            {
               "id": 179,
               "order": 2
             },
             {
-              "id": 5,
-              "order": 5
+              "id": 196,
+              "order": 6
             }
           ],
           "name": "DART",
           "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 3,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 36,
+          "swc": "0.5",
+          "weapons": [
+            {
+              "id": 214,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 4
+            },
+            {
+              "id": 5,
+              "order": 5
+            },
+            {
+              "id": 179,
+              "order": 2
+            },
+            {
+              "id": 196,
+              "order": 6
+            }
+          ],
+          "name": "DART",
+          "skills": [
+            {
+              "id": 56,
+              "order": 1,
+              "q": 1
+            }
+          ],
           "peripheral": []
         }
       ]
@@ -217,6 +273,7 @@
     "skills": [
       28,
       29,
+      56,
       58,
       82,
       84,
@@ -225,7 +282,8 @@
       162,
       164,
       189,
-      191
+      191,
+      215
     ],
     "equip": [
       114
@@ -242,12 +300,13 @@
       5,
       47,
       69,
-      77,
       179,
-      196
+      196,
+      214
     ],
     "ammunition": [
       2,
+      3,
       8,
       14
     ]

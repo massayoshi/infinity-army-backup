@@ -46,15 +46,26 @@
             10,
             10
           ],
-          "ph": 10,
+          "ph": 11,
           "s": 2,
           "str": false,
-          "type": 1,
+          "type": 2,
           "w": 1,
           "wip": 14,
           "name": "SATRAH",
           "notes": null,
-          "skills": [],
+          "skills": [
+            {
+              "id": 164,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 82,
+              "order": 2,
+              "q": 1
+            }
+          ],
           "peripheral": []
         }
       ],
@@ -73,17 +84,9 @@
             }
           ],
           "includes": [],
-          "points": 27,
+          "points": 24,
           "swc": "0",
           "weapons": [
-            {
-              "id": 69,
-              "order": 3
-            },
-            {
-              "id": 5,
-              "order": 4
-            },
             {
               "id": 207,
               "order": 1
@@ -91,6 +94,14 @@
             {
               "id": 145,
               "order": 5
+            },
+            {
+              "id": 107,
+              "order": 6
+            },
+            {
+              "id": 5,
+              "order": 7
             }
           ],
           "name": "SATRAH",
@@ -98,7 +109,7 @@
           "peripheral": []
         },
         {
-          "id": 2,
+          "id": 4,
           "chars": [],
           "disabled": false,
           "equip": [],
@@ -111,11 +122,11 @@
             }
           ],
           "includes": [],
-          "points": 25,
+          "points": 24,
           "swc": "0",
           "weapons": [
             {
-              "id": 41,
+              "id": 169,
               "order": 1
             },
             {
@@ -123,7 +134,7 @@
               "order": 2
             },
             {
-              "id": 69,
+              "id": 107,
               "order": 3
             },
             {
@@ -136,11 +147,14 @@
           "peripheral": []
         },
         {
-          "id": 4,
+          "id": 5,
           "chars": [],
           "disabled": false,
           "equip": [
             {
+              "extra": [
+                334
+              ],
               "id": 145,
               "order": 1,
               "q": 1
@@ -155,17 +169,9 @@
             }
           ],
           "includes": [],
-          "points": 23,
+          "points": 20,
           "swc": "0",
           "weapons": [
-            {
-              "id": 69,
-              "order": 4
-            },
-            {
-              "id": 5,
-              "order": 5
-            },
             {
               "id": 77,
               "order": 1
@@ -177,6 +183,14 @@
             {
               "id": 174,
               "order": 7
+            },
+            {
+              "id": 107,
+              "order": 8
+            },
+            {
+              "id": 5,
+              "order": 9
             }
           ],
           "name": "SATRAH",
@@ -199,6 +213,8 @@
       5
     ],
     "skills": [
+      82,
+      164,
       1000
     ],
     "equip": [
@@ -212,14 +228,14 @@
       20
     ],
     "types": [
-      1
+      2
     ],
     "weapons": [
       5,
-      41,
-      69,
       77,
+      107,
       145,
+      169,
       174,
       207
     ],

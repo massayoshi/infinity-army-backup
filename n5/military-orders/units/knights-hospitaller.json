@@ -47,14 +47,6 @@
               "q": 1
             },
             {
-              "id": 162,
-              "order": 4,
-              "extra": [
-                30
-              ],
-              "q": 1
-            },
-            {
               "id": 164,
               "order": 5,
               "q": 1
@@ -78,7 +70,16 @@
           "id": 2,
           "chars": [],
           "disabled": false,
-          "equip": [],
+          "equip": [
+            {
+              "extra": [
+                6
+              ],
+              "id": 169,
+              "order": 1,
+              "q": 1
+            }
+          ],
           "minis": 1,
           "orders": [
             {
@@ -88,13 +89,9 @@
             }
           ],
           "includes": [],
-          "points": 26,
+          "points": 27,
           "swc": "0",
           "weapons": [
-            {
-              "id": 41,
-              "order": 1
-            },
             {
               "id": 69,
               "order": 2
@@ -102,9 +99,13 @@
             {
               "id": 11,
               "order": 3
+            },
+            {
+              "id": 41,
+              "order": 1
             }
           ],
-          "name": "KNIGHT HOSPITALLER",
+          "name": "KNIGHT HOSPITALLER FTO",
           "skills": [],
           "peripheral": []
         },
@@ -138,7 +139,7 @@
               "order": 3
             }
           ],
-          "name": "KNIGHT HOSPITALLER",
+          "name": "KNIGHT HOSPITALLER FTO",
           "skills": [],
           "peripheral": []
         },
@@ -164,19 +165,19 @@
               "order": 1
             },
             {
-              "id": 19,
-              "order": 2
-            },
-            {
               "id": 69,
               "order": 3
             },
             {
               "id": 11,
               "order": 4
+            },
+            {
+              "id": 25,
+              "order": 5
             }
           ],
-          "name": "KNIGHT HOSPITALLER",
+          "name": "KNIGHT HOSPITALLER FTO",
           "skills": [],
           "peripheral": []
         },
@@ -203,19 +204,19 @@
           "swc": "0",
           "weapons": [
             {
-              "id": 41,
-              "order": 1
-            },
-            {
               "id": 69,
               "order": 2
             },
             {
               "id": 11,
               "order": 3
+            },
+            {
+              "id": 41,
+              "order": 1
             }
           ],
-          "name": "KNIGHT HOSPITALLER",
+          "name": "KNIGHT HOSPITALLER FTO",
           "skills": [
             {
               "id": 53,
@@ -228,7 +229,16 @@
           "id": 8,
           "chars": [],
           "disabled": false,
-          "equip": [],
+          "equip": [
+            {
+              "extra": [
+                6
+              ],
+              "id": 169,
+              "order": 1,
+              "q": 1
+            }
+          ],
           "minis": 1,
           "orders": [
             {
@@ -243,13 +253,9 @@
             }
           ],
           "includes": [],
-          "points": 26,
+          "points": 27,
           "swc": "0",
           "weapons": [
-            {
-              "id": 41,
-              "order": 1
-            },
             {
               "id": 69,
               "order": 2
@@ -257,9 +263,13 @@
             {
               "id": 11,
               "order": 3
+            },
+            {
+              "id": 41,
+              "order": 1
             }
           ],
-          "name": "KNIGHT HOSPITALLER",
+          "name": "KNIGHT HOSPITALLER FTO",
           "skills": [
             {
               "id": 119,
@@ -317,6 +327,51 @@
             }
           ],
           "peripheral": []
+        },
+        {
+          "id": 10,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "LIEUTENANT",
+              "list": 0,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 32,
+          "swc": "1",
+          "weapons": [
+            {
+              "id": 2,
+              "order": 1
+            },
+            {
+              "id": 69,
+              "order": 2
+            },
+            {
+              "id": 11,
+              "order": 3
+            }
+          ],
+          "name": "KNIGHT HOSPITALLER FTO",
+          "skills": [
+            {
+              "id": 119,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
         }
       ]
     }
@@ -333,12 +388,12 @@
       83,
       119,
       161,
-      162,
       164,
       250
     ],
     "equip": [
-      106
+      106,
+      169
     ],
     "chars": [
       1,
@@ -353,6 +408,7 @@
       11,
       17,
       19,
+      25,
       26,
       41,
       69
@@ -363,6 +419,7 @@
       8,
       9,
       13,
+      14,
       18
     ]
   },

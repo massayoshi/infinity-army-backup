@@ -106,7 +106,7 @@
       ],
       "options": [
         {
-          "id": 2,
+          "id": 1,
           "chars": [],
           "disabled": false,
           "equip": [],
@@ -124,7 +124,7 @@
             }
           ],
           "includes": [],
-          "points": 40,
+          "points": 39,
           "swc": "0",
           "weapons": [
             {
@@ -149,7 +149,7 @@
           "peripheral": []
         },
         {
-          "id": 3,
+          "id": 2,
           "chars": [],
           "disabled": false,
           "equip": [],
@@ -167,13 +167,9 @@
             }
           ],
           "includes": [],
-          "points": 43,
+          "points": 42,
           "swc": "1",
           "weapons": [
-            {
-              "id": 107,
-              "order": 3
-            },
             {
               "id": 157,
               "order": 1
@@ -181,6 +177,59 @@
             {
               "id": 80,
               "order": 2
+            },
+            {
+              "id": 107,
+              "order": 3
+            },
+            {
+              "id": 153,
+              "order": 4
+            }
+          ],
+          "name": "UNKNOWN RANGER",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 3,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 114,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "TACTICAL",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 42,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 64,
+              "order": 1
+            },
+            {
+              "id": 80,
+              "order": 2
+            },
+            {
+              "id": 107,
+              "order": 3
             },
             {
               "id": 153,
@@ -216,7 +265,7 @@
             }
           ],
           "includes": [],
-          "points": 46,
+          "points": 45,
           "swc": "1",
           "weapons": [
             {

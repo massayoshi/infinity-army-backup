@@ -122,7 +122,7 @@
             }
           ],
           "includes": [],
-          "points": 25,
+          "points": 24,
           "swc": "0",
           "weapons": [
             {
@@ -267,24 +267,24 @@
           "swc": "0",
           "weapons": [
             {
-              "id": 26,
+              "id": 81,
               "order": 1
             },
             {
-              "id": 69,
-              "order": 3
-            },
-            {
               "id": 72,
-              "order": 5
-            },
-            {
-              "id": 5,
-              "order": 6
+              "order": 2
             },
             {
               "id": 17,
-              "order": 7
+              "order": 3
+            },
+            {
+              "id": 69,
+              "order": 4
+            },
+            {
+              "id": 5,
+              "order": 5
             }
           ],
           "name": "CALIBAN",
@@ -298,6 +298,58 @@
         },
         {
           "id": 7,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 26,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 77,
+              "order": 1
+            },
+            {
+              "id": 145,
+              "order": 2
+            },
+            {
+              "id": 44,
+              "order": 3
+            },
+            {
+              "id": 17,
+              "order": 4
+            },
+            {
+              "id": 69,
+              "order": 5
+            },
+            {
+              "id": 5,
+              "order": 6
+            }
+          ],
+          "name": "CALIBAN",
+          "skills": [
+            {
+              "id": 189,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 8,
           "chars": [],
           "disabled": false,
           "equip": [
@@ -361,6 +413,7 @@
       161,
       162,
       164,
+      189,
       191,
       237
     ],
@@ -381,10 +434,12 @@
       5,
       17,
       26,
+      44,
       69,
       72,
       74,
       77,
+      81,
       145
     ],
     "ammunition": [

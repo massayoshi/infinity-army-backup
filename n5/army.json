@@ -273,6 +273,14 @@
       "logo": "https://assets.corvusbelli.net/army/img/logo/factions/onyx.svg"
     },
     {
+      "id": 605,
+      "parent": 601,
+      "name": "Next Wave",
+      "slug": "next-wave",
+      "discontinued": false,
+      "logo": "https://assets.corvusbelli.net/army/img/logo/factions/next-wave.svg"
+    },
+    {
       "id": 699,
       "parent": 691,
       "name": "The Exrah Comissariat",
@@ -753,6 +761,7 @@
       "saving": "ARM/2",
       "savingNum": "1",
       "properties": [
+        "Anti-materiel",
         "CC"
       ],
       "distance": null
@@ -1010,7 +1019,12 @@
       "damage": "-",
       "saving": "-",
       "savingNum": "1",
-      "properties": [],
+      "properties": [
+        "Disposable (1)",
+        "Perimeter",
+        "Deployable",
+        "Non-Reloadable"
+      ],
       "distance": null
     },
     {
@@ -1025,7 +1039,10 @@
       "saving": "PH-6",
       "savingNum": "1",
       "properties": [
-        "Non-lethal"
+        "Disposable (1)",
+        "Perimeter",
+        "Deployable",
+        "Non-Reloadable"
       ],
       "distance": {
         "short": {
@@ -1057,7 +1074,12 @@
       "damage": "7",
       "saving": "ARM/2",
       "savingNum": "1",
-      "properties": [],
+      "properties": [
+        "Disposable (1)",
+        "Perimeter",
+        "Deployable",
+        "Non-Reloadable"
+      ],
       "distance": {
         "short": {
           "max": 20,
@@ -1088,7 +1110,12 @@
       "damage": "7",
       "saving": "ARM",
       "savingNum": "1",
-      "properties": [],
+      "properties": [
+        "Disposable (1)",
+        "Perimeter",
+        "Deployable",
+        "Non-Reloadable"
+      ],
       "distance": {
         "short": {
           "max": 40,
@@ -1117,8 +1144,10 @@
       "saving": "BTS/2",
       "savingNum": "1",
       "properties": [
-        "Non-lethal",
-        "[**]"
+        "Disposable (1)",
+        "Perimeter",
+        "Deployable",
+        "Non-Reloadable"
       ],
       "distance": {
         "short": {
@@ -1150,7 +1179,12 @@
       "damage": "7",
       "saving": "ARM",
       "savingNum": "1",
-      "properties": [],
+      "properties": [
+        "Disposable (1)",
+        "Perimeter",
+        "Deployable",
+        "Non-Reloadable"
+      ],
       "distance": {
         "short": {
           "max": 20,
@@ -1181,7 +1215,12 @@
       "damage": "5",
       "saving": "ARM",
       "savingNum": "1",
-      "properties": [],
+      "properties": [
+        "Disposable (1)",
+        "Perimeter",
+        "Deployable",
+        "Non-Reloadable"
+      ],
       "distance": {
         "short": {
           "max": 20,
@@ -1213,8 +1252,10 @@
       "saving": "PH-6",
       "savingNum": "1",
       "properties": [
-        "Non-lethal",
-        "State: IMM-A"
+        "Disposable (1)",
+        "Perimeter",
+        "Deployable",
+        "Non-Reloadable"
       ],
       "distance": null
     },
@@ -1229,7 +1270,12 @@
       "damage": "7",
       "saving": "ARM",
       "savingNum": "1",
-      "properties": [],
+      "properties": [
+        "Disposable (1)",
+        "Perimeter",
+        "Deployable",
+        "Non-Reloadable"
+      ],
       "distance": {
         "short": {
           "max": 20,
@@ -1260,7 +1306,12 @@
       "damage": "6",
       "saving": "ARM",
       "savingNum": "1",
-      "properties": [],
+      "properties": [
+        "Disposable (1)",
+        "Perimeter",
+        "Deployable",
+        "Non-Reloadable"
+      ],
       "distance": {
         "short": {
           "max": 20,
@@ -1828,8 +1879,8 @@
       "burst": "-",
       "damage": "-",
       "profile": "ARM=0, BTS=0, STR=1, S=1",
-      "saving": "BTS",
-      "savingNum": "1",
+      "saving": "-",
+      "savingNum": "-",
       "properties": [],
       "distance": null
     },
@@ -4008,11 +4059,11 @@
           "mod": "-6"
         },
         "short": {
-          "max": 60,
+          "max": 40,
           "mod": "0"
         },
         "long": {
-          "max": 80,
+          "max": 60,
           "mod": "-3"
         }
       }
@@ -4226,7 +4277,7 @@
       "type": "WEAPON",
       "name": "PT: Endgame",
       "ammunition": 3,
-      "burst": "2",
+      "burst": "1",
       "damage": "7",
       "saving": "BTS/2",
       "savingNum": "1",
@@ -4820,6 +4871,7 @@
       "saving": "ARM",
       "savingNum": "1",
       "properties": [
+        "Anti-materiel",
         "CC"
       ],
       "distance": null
@@ -5940,6 +5992,14 @@
       "name": "Cyberplug"
     },
     {
+      "id": 278,
+      "name": "BS=12"
+    },
+    {
+      "id": 279,
+      "name": "BS=11"
+    },
+    {
       "id": 1000,
       "name": "Hacker",
       "wiki": "https://infinitythewiki.com/Hacker?version=n4"
@@ -6334,7 +6394,7 @@
     },
     {
       "opponent": "-",
-      "special": "NFB, Reflective: Circular Template without LoF for Multispectral Visors.",
+      "special": "NFB, Reflective: Circular Template",
       "skillType": [
         "short"
       ],

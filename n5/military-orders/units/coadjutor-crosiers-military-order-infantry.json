@@ -99,7 +99,7 @@
             }
           ],
           "includes": [],
-          "points": 13,
+          "points": 12,
           "swc": "0",
           "weapons": [
             {
@@ -109,10 +109,6 @@
             {
               "id": 14,
               "order": 2
-            },
-            {
-              "id": 197,
-              "order": 3
             },
             {
               "id": 69,
@@ -141,8 +137,8 @@
             }
           ],
           "includes": [],
-          "points": 17,
-          "swc": "1.5",
+          "points": 19,
+          "swc": "1",
           "weapons": [
             {
               "id": 36,
@@ -155,17 +151,33 @@
             {
               "id": 5,
               "order": 3
+            },
+            {
+              "id": 197,
+              "order": 4
             }
           ],
           "name": "CROSIER",
-          "skills": [],
+          "skills": [
+            {
+              "id": 56,
+              "order": 1,
+              "q": 1
+            }
+          ],
           "peripheral": []
         },
         {
           "id": 4,
           "chars": [],
           "disabled": false,
-          "equip": [],
+          "equip": [
+            {
+              "id": 117,
+              "order": 1,
+              "q": 1
+            }
+          ],
           "minis": 1,
           "orders": [
             {
@@ -175,7 +187,7 @@
             }
           ],
           "includes": [],
-          "points": 17,
+          "points": 18,
           "swc": "1",
           "weapons": [
             {
@@ -261,13 +273,9 @@
             }
           ],
           "includes": [],
-          "points": 22,
+          "points": 24,
           "swc": "1",
           "weapons": [
-            {
-              "id": 74,
-              "order": 1
-            },
             {
               "id": 69,
               "order": 2
@@ -275,6 +283,10 @@
             {
               "id": 5,
               "order": 3
+            },
+            {
+              "id": 2,
+              "order": 1
             }
           ],
           "name": "CROSIER",
@@ -339,6 +351,7 @@
       2
     ],
     "skills": [
+      56,
       64,
       83,
       189,
@@ -346,7 +359,8 @@
     ],
     "equip": [
       106,
-      115
+      115,
+      117
     ],
     "chars": [
       1,
@@ -357,6 +371,7 @@
       1
     ],
     "weapons": [
+      2,
       5,
       14,
       33,

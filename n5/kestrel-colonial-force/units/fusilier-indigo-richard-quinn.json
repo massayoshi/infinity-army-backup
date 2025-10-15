@@ -52,11 +52,6 @@
               "q": 1
             },
             {
-              "id": 59,
-              "order": 2,
-              "q": 1
-            },
-            {
               "id": 162,
               "order": 3,
               "extra": [
@@ -108,7 +103,65 @@
             }
           ],
           "name": "QUINN",
-          "skills": [],
+          "skills": [
+            {
+              "id": 59,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 3,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 26,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 41,
+              "order": 1
+            },
+            {
+              "id": 72,
+              "order": 2
+            },
+            {
+              "id": 17,
+              "order": 3
+            },
+            {
+              "id": 208,
+              "order": 4
+            },
+            {
+              "id": 212,
+              "order": 5
+            },
+            {
+              "id": 5,
+              "order": 6
+            }
+          ],
+          "name": "QUINN",
+          "skills": [
+            {
+              "id": 59,
+              "order": 1,
+              "q": 1
+            }
+          ],
           "peripheral": []
         }
       ]
@@ -139,8 +192,10 @@
     "weapons": [
       5,
       17,
+      41,
       72,
       169,
+      208,
       212
     ],
     "ammunition": [

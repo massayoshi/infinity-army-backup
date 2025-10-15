@@ -179,7 +179,13 @@
           "id": 4,
           "chars": [],
           "disabled": false,
-          "equip": [],
+          "equip": [
+            {
+              "id": 237,
+              "order": 1,
+              "q": 1
+            }
+          ],
           "minis": 1,
           "orders": [
             {
@@ -189,7 +195,7 @@
             }
           ],
           "includes": [],
-          "points": 16,
+          "points": 18,
           "swc": "0",
           "weapons": [
             {
@@ -223,6 +229,11 @@
               "id": 74,
               "order": 2,
               "q": 1
+            },
+            {
+              "id": 189,
+              "order": 3,
+              "q": 1
             }
           ],
           "peripheral": []
@@ -241,9 +252,12 @@
       74,
       84,
       86,
+      189,
       235
     ],
-    "equip": [],
+    "equip": [
+      237
+    ],
     "chars": [
       3,
       5,

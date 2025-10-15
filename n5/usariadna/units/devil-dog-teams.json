@@ -46,6 +46,14 @@
               "order": 1
             },
             {
+              "id": 40,
+              "order": 2,
+              "extra": [
+                23
+              ],
+              "q": 1
+            },
+            {
               "id": 74,
               "order": 3
             },
@@ -104,7 +112,7 @@
               "q": 1
             }
           ],
-          "points": 22,
+          "points": 23,
           "swc": "0",
           "weapons": [
             {
@@ -128,7 +136,7 @@
           "skills": [],
           "peripheral": [
             {
-              "id": 63
+              "id": 143
             }
           ]
         },
@@ -157,7 +165,7 @@
               "q": 1
             }
           ],
-          "points": 27,
+          "points": 28,
           "swc": "0",
           "weapons": [
             {
@@ -181,7 +189,7 @@
           "skills": [],
           "peripheral": [
             {
-              "id": 63
+              "id": 143
             }
           ]
         },
@@ -204,7 +212,7 @@
             }
           ],
           "includes": [],
-          "points": 21,
+          "points": 22,
           "swc": "0",
           "weapons": [
             {
@@ -212,19 +220,23 @@
               "order": 1
             },
             {
-              "id": 45,
+              "id": 44,
               "order": 2
             },
             {
-              "id": 212,
+              "id": 45,
               "order": 3
             },
             {
-              "id": 6,
+              "id": 212,
               "order": 4
+            },
+            {
+              "id": 6,
+              "order": 5
             }
           ],
-          "name": "DEVIL DOG",
+          "name": "DEVIL DOG FTO",
           "skills": [],
           "peripheral": []
         }
@@ -327,12 +339,16 @@
           "minis": 1,
           "orders": [],
           "includes": [],
-          "points": 6,
+          "points": 7,
           "swc": "0",
           "weapons": [
             {
               "id": 6,
               "order": 1
+            },
+            {
+              "id": 44,
+              "order": 2
             }
           ],
           "name": "K-9 ANTIPODE",
@@ -374,6 +390,7 @@
       6,
       18,
       29,
+      44,
       45,
       100,
       212

@@ -34,8 +34,8 @@
           "weapons": [],
           "includes": [],
           "move": [
-            10,
-            10
+            15,
+            5
           ],
           "ph": 13,
           "s": 2,
@@ -61,14 +61,6 @@
               "order": 3,
               "extra": [
                 11
-              ],
-              "q": 1
-            },
-            {
-              "id": 162,
-              "order": 5,
-              "extra": [
-                30
               ],
               "q": 1
             },
@@ -122,10 +114,6 @@
               "order": 1
             },
             {
-              "id": 65,
-              "order": 1
-            },
-            {
               "id": 47,
               "order": 2
             },
@@ -134,15 +122,15 @@
               "order": 3
             },
             {
-              "id": 69,
+              "id": 212,
               "order": 4
             },
             {
               "id": 11,
-              "order": 6
+              "order": 5
             }
           ],
-          "name": "KNIGHT OF SANTIAGO",
+          "name": "KNIGHT OF SANTIAGO FTO",
           "skills": [],
           "peripheral": []
         },
@@ -181,15 +169,11 @@
               "order": 1
             },
             {
-              "id": 65,
-              "order": 2
-            },
-            {
               "id": 17,
               "order": 3
             },
             {
-              "id": 69,
+              "id": 212,
               "order": 4
             },
             {
@@ -197,7 +181,7 @@
               "order": 5
             }
           ],
-          "name": "KNIGHT OF SANTIAGO",
+          "name": "KNIGHT OF SANTIAGO FTO",
           "skills": [
             {
               "id": 1000,
@@ -246,7 +230,7 @@
               "order": 4
             },
             {
-              "id": 69,
+              "id": 212,
               "order": 5
             },
             {
@@ -311,7 +295,7 @@
               "order": 4
             },
             {
-              "id": 69,
+              "id": 212,
               "order": 5
             },
             {
@@ -364,10 +348,6 @@
               "order": 1
             },
             {
-              "id": 65,
-              "order": 2
-            },
-            {
               "id": 47,
               "order": 3
             },
@@ -376,7 +356,7 @@
               "order": 4
             },
             {
-              "id": 69,
+              "id": 212,
               "order": 5
             },
             {
@@ -384,11 +364,79 @@
               "order": 6
             }
           ],
-          "name": "KNIGHT OF SANTIAGO",
+          "name": "KNIGHT OF SANTIAGO FTO",
           "skills": [
             {
               "id": 119,
               "order": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 6,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 145,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "extra": [
+                6
+              ],
+              "id": 169,
+              "order": 2,
+              "q": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "LIEUTENANT",
+              "list": 0,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 31,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 41,
+              "order": 1
+            },
+            {
+              "id": 17,
+              "order": 3
+            },
+            {
+              "id": 212,
+              "order": 4
+            },
+            {
+              "id": 11,
+              "order": 5
+            }
+          ],
+          "name": "KNIGHT OF SANTIAGO FTO",
+          "skills": [
+            {
+              "id": 119,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 1000,
+              "order": 2,
+              "q": 1
             }
           ],
           "peripheral": []
@@ -410,7 +458,6 @@
       74,
       83,
       119,
-      162,
       164,
       189,
       250,
@@ -435,11 +482,10 @@
       26,
       41,
       47,
-      65,
-      69,
       72,
       74,
-      196
+      196,
+      212
     ],
     "ammunition": [
       2,

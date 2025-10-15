@@ -51,19 +51,20 @@
               "order": 2
             },
             {
-              "id": 131,
-              "order": 3,
-              "extra": [
-                1
-              ]
-            },
-            {
               "id": 39,
               "order": 4
             },
             {
               "id": 67,
               "order": 5
+            },
+            {
+              "id": 131,
+              "order": 6,
+              "extra": [
+                2
+              ],
+              "q": 1
             }
           ],
           "peripheral": []
@@ -96,12 +97,16 @@
               "order": 2
             },
             {
-              "id": 221,
+              "id": 72,
               "order": 3
             },
             {
-              "id": 71,
+              "id": 221,
               "order": 4
+            },
+            {
+              "id": 71,
+              "order": 5
             }
           ],
           "name": "BLUECOAT",
@@ -134,12 +139,16 @@
               "order": 2
             },
             {
-              "id": 221,
+              "id": 72,
               "order": 3
             },
             {
-              "id": 71,
+              "id": 221,
               "order": 4
+            },
+            {
+              "id": 71,
+              "order": 5
             }
           ],
           "name": "BLUECOAT",
@@ -160,7 +169,7 @@
             }
           ],
           "includes": [],
-          "points": 14,
+          "points": 13,
           "swc": "0",
           "weapons": [
             {
@@ -198,6 +207,48 @@
             }
           ],
           "includes": [],
+          "points": 16,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 216,
+              "order": 1
+            },
+            {
+              "id": 188,
+              "order": 2
+            },
+            {
+              "id": 208,
+              "order": 3
+            },
+            {
+              "id": 221,
+              "order": 4
+            },
+            {
+              "id": 71,
+              "order": 5
+            }
+          ],
+          "name": "BLUECOAT",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 5,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
           "points": 25,
           "swc": "1",
           "weapons": [
@@ -206,7 +257,7 @@
               "order": 1
             },
             {
-              "id": 187,
+              "id": 188,
               "order": 2
             },
             {
@@ -223,7 +274,7 @@
           "peripheral": []
         },
         {
-          "id": 6,
+          "id": 7,
           "chars": [],
           "disabled": false,
           "equip": [],
@@ -253,12 +304,16 @@
               "order": 2
             },
             {
-              "id": 221,
+              "id": 72,
               "order": 3
             },
             {
-              "id": 71,
+              "id": 221,
               "order": 4
+            },
+            {
+              "id": 71,
+              "order": 5
             }
           ],
           "name": "BLUECOAT",
@@ -300,10 +355,11 @@
     "weapons": [
       26,
       71,
+      72,
       77,
       152,
-      187,
       188,
+      208,
       216,
       221
     ],
@@ -311,6 +367,7 @@
       2,
       3,
       8,
+      29,
       37
     ]
   },

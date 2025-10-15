@@ -42,10 +42,6 @@
           "notes": null,
           "skills": [
             {
-              "id": 20,
-              "order": 1
-            },
-            {
               "id": 84,
               "order": 2
             },
@@ -64,16 +60,38 @@
               ]
             },
             {
-              "id": 211,
-              "order": 5
-            },
-            {
               "id": 85,
               "order": 6
             },
             {
               "id": 164,
               "order": 7,
+              "q": 1
+            },
+            {
+              "id": 21,
+              "order": 8,
+              "q": 1
+            },
+            {
+              "id": 24,
+              "order": 9,
+              "extra": [
+                1
+              ],
+              "q": 1
+            },
+            {
+              "id": 213,
+              "order": 10,
+              "q": 1
+            },
+            {
+              "id": 162,
+              "order": 11,
+              "extra": [
+                30
+              ],
               "q": 1
             }
           ],
@@ -92,10 +110,15 @@
               "type": "REGULAR",
               "list": 1,
               "total": 1
+            },
+            {
+              "type": "TACTICAL",
+              "list": 1,
+              "total": 1
             }
           ],
           "includes": [],
-          "points": 35,
+          "points": 33,
           "swc": "0",
           "weapons": [
             {
@@ -111,12 +134,64 @@
               "order": 3
             },
             {
-              "id": 6,
+              "id": 224,
               "order": 4
             }
           ],
           "name": "VAN ZANT",
           "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "TACTICAL",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 35,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 27,
+              "order": 1
+            },
+            {
+              "id": 80,
+              "order": 2
+            },
+            {
+              "id": 100,
+              "order": 3
+            },
+            {
+              "id": 224,
+              "order": 4
+            }
+          ],
+          "name": "VAN ZANT",
+          "skills": [
+            {
+              "extra": [
+                8
+              ],
+              "id": 201,
+              "order": 1,
+              "q": 1
+            }
+          ],
           "peripheral": []
         }
       ]
@@ -129,13 +204,16 @@
       10
     ],
     "skills": [
-      20,
+      21,
+      24,
       33,
       40,
       84,
       85,
+      162,
       164,
-      211
+      201,
+      213
     ],
     "equip": [],
     "chars": [
@@ -147,14 +225,17 @@
       1
     ],
     "weapons": [
-      6,
+      27,
       32,
       80,
-      100
+      100,
+      224
     ],
     "ammunition": [
       2,
-      3
+      3,
+      18,
+      40
     ]
   },
   "factions": [

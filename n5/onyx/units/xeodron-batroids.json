@@ -89,59 +89,6 @@
       ],
       "options": [
         {
-          "id": 3,
-          "chars": [],
-          "disabled": false,
-          "equip": [],
-          "minis": 1,
-          "orders": [
-            {
-              "type": "REGULAR",
-              "list": 1,
-              "total": 1
-            },
-            {
-              "type": "TACTICAL",
-              "list": 1,
-              "total": 1
-            }
-          ],
-          "includes": [
-            {
-              "group": 2,
-              "option": 1,
-              "q": 1
-            }
-          ],
-          "points": 50,
-          "swc": "1",
-          "weapons": [
-            {
-              "id": 152,
-              "order": 1
-            },
-            {
-              "id": 14,
-              "order": 2
-            },
-            {
-              "id": 107,
-              "order": 3
-            },
-            {
-              "id": 10,
-              "order": 4
-            }
-          ],
-          "name": "XEODRON",
-          "skills": [],
-          "peripheral": [
-            {
-              "id": 66
-            }
-          ]
-        },
-        {
           "id": 1,
           "chars": [],
           "disabled": false,
@@ -166,7 +113,7 @@
               "q": 1
             }
           ],
-          "points": 50,
+          "points": 49,
           "swc": "0.5",
           "weapons": [
             {
@@ -190,7 +137,7 @@
           "skills": [],
           "peripheral": [
             {
-              "id": 66
+              "id": 137
             }
           ]
         },
@@ -243,7 +190,60 @@
           "skills": [],
           "peripheral": [
             {
-              "id": 66
+              "id": 137
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "TACTICAL",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [
+            {
+              "group": 2,
+              "option": 1,
+              "q": 1
+            }
+          ],
+          "points": 50,
+          "swc": "1",
+          "weapons": [
+            {
+              "id": 152,
+              "order": 1
+            },
+            {
+              "id": 14,
+              "order": 2
+            },
+            {
+              "id": 107,
+              "order": 3
+            },
+            {
+              "id": 10,
+              "order": 4
+            }
+          ],
+          "name": "XEODRON",
+          "skills": [],
+          "peripheral": [
+            {
+              "id": 137
             }
           ]
         }

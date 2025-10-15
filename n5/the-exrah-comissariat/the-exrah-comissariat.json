@@ -1,5 +1,5 @@
 {
-  "version": "7.25125.370",
+  "version": "7.25288.295",
   "units": [
     {
       "id": 1623,
@@ -1311,6 +1311,304 @@
       ]
     },
     {
+      "id": 1618,
+      "idArmy": 1618,
+      "canonical": 699,
+      "isc": "Reinf. Caskuda WCD Armoured Jump Operator",
+      "iscAbbr": "Reinf. Caskuda",
+      "name": "REINF. CASKUDA WCD Armoured Jump Operator",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Reinf. Caskuda WCD Armoured Jump Operator",
+          "profiles": [
+            {
+              "bts": 6,
+              "cc": 18,
+              "move": [
+                15,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 4,
+              "ava": 1,
+              "str": true,
+              "bs": 14,
+              "s": 7,
+              "equip": [
+                {
+                  "q": 1,
+                  "extra": [
+                    7
+                  ],
+                  "id": 239,
+                  "order": 1
+                }
+              ],
+              "w": 3,
+              "ph": 16,
+              "name": "REINF. CASKUDA WCD Armoured Jump Operator",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-caskuda-wcd-armoured-jump-operator-1-1.svg",
+              "id": 1,
+              "arm": 7,
+              "weapons": [],
+              "chars": [
+                3,
+                5,
+                21
+              ],
+              "wip": 12,
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 235,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 84,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "id": 213,
+                  "order": 7
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    337
+                  ],
+                  "id": 201,
+                  "order": 8
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    8
+                  ],
+                  "id": 201,
+                  "order": 9
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    250
+                  ],
+                  "id": 40,
+                  "order": 10
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    250
+                  ],
+                  "id": 254,
+                  "order": 11
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [
+                {
+                  "q": 1,
+                  "group": 2,
+                  "option": 1
+                }
+              ],
+              "minis": 1,
+              "points": 58,
+              "equip": [],
+              "name": "CASKUDA REINF",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "TACTICAL",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "extra": null,
+                  "id": 41,
+                  "order": 1
+                },
+                {
+                  "extra": null,
+                  "id": 18,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    311
+                  ],
+                  "id": 7,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "1",
+              "skills": [],
+              "peripheral": [
+                {
+                  "id": 19
+                }
+              ]
+            }
+          ],
+          "id": 1,
+          "category": 3
+        },
+        {
+          "notes": null,
+          "isc": "Staldron Remote Ancillary Unit",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": -1,
+              "move": [
+                15,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 5,
+              "ava": -1,
+              "str": true,
+              "bs": -1,
+              "s": 1,
+              "equip": [],
+              "w": 1,
+              "ph": 11,
+              "name": "STALDRON Remote Ancillary Unit",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-caskuda-wcd-armoured-jump-operator-2-1.svg",
+              "id": 1,
+              "arm": 0,
+              "weapons": [],
+              "chars": [
+                21,
+                27
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 84,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    1
+                  ],
+                  "id": 40,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    6
+                  ],
+                  "id": 28,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "id": 189,
+                  "order": 4
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    322
+                  ],
+                  "id": 243,
+                  "order": 5
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 3,
+              "equip": [],
+              "name": "STALDRON",
+              "disabled": true,
+              "orders": [],
+              "id": 1,
+              "weapons": [],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 2,
+          "category": null
+        }
+      ],
+      "options": [],
+      "slug": "reinf-caskuda",
+      "filters": {
+        "categories": [
+          3
+        ],
+        "skills": [
+          28,
+          40,
+          84,
+          189,
+          201,
+          213,
+          235,
+          243,
+          254
+        ],
+        "equip": [
+          239
+        ],
+        "chars": [
+          3,
+          5,
+          21,
+          27
+        ],
+        "types": [
+          4,
+          5
+        ],
+        "weapons": [
+          7,
+          18,
+          41
+        ],
+        "ammunition": [
+          2,
+          3,
+          5,
+          8,
+          9
+        ]
+      },
+      "factions": [
+        699
+      ]
+    },
+    {
       "id": 1619,
       "idArmy": 1619,
       "canonical": 699,
@@ -1887,304 +2185,6 @@
           8,
           9,
           13
-        ]
-      },
-      "factions": [
-        699
-      ]
-    },
-    {
-      "id": 1618,
-      "idArmy": 1618,
-      "canonical": 699,
-      "isc": "Reinf. Caskuda WCD Armoured Jump Operator",
-      "iscAbbr": "Reinf. Caskuda",
-      "name": "REINF. CASKUDA WCD Armoured Jump Operator",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Reinf. Caskuda WCD Armoured Jump Operator",
-          "profiles": [
-            {
-              "bts": 6,
-              "cc": 18,
-              "move": [
-                15,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 4,
-              "ava": 1,
-              "str": true,
-              "bs": 14,
-              "s": 7,
-              "equip": [
-                {
-                  "q": 1,
-                  "extra": [
-                    7
-                  ],
-                  "id": 239,
-                  "order": 1
-                }
-              ],
-              "w": 3,
-              "ph": 16,
-              "name": "REINF. CASKUDA WCD Armoured Jump Operator",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-caskuda-wcd-armoured-jump-operator-1-1.svg",
-              "id": 1,
-              "arm": 7,
-              "weapons": [],
-              "chars": [
-                3,
-                5,
-                21
-              ],
-              "wip": 12,
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 235,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "id": 84,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "id": 213,
-                  "order": 7
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    337
-                  ],
-                  "id": 201,
-                  "order": 8
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    8
-                  ],
-                  "id": 201,
-                  "order": 9
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    250
-                  ],
-                  "id": 40,
-                  "order": 10
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    250
-                  ],
-                  "id": 254,
-                  "order": 11
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [
-                {
-                  "q": 1,
-                  "group": 2,
-                  "option": 1
-                }
-              ],
-              "minis": 1,
-              "points": 58,
-              "equip": [],
-              "name": "CASKUDA REINF",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "TACTICAL",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "extra": null,
-                  "id": 41,
-                  "order": 1
-                },
-                {
-                  "extra": null,
-                  "id": 18,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    311
-                  ],
-                  "id": 7,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "1",
-              "skills": [],
-              "peripheral": [
-                {
-                  "id": 90
-                }
-              ]
-            }
-          ],
-          "id": 1,
-          "category": 3
-        },
-        {
-          "notes": null,
-          "isc": "Staldron Remote Ancillary Unit",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": -1,
-              "move": [
-                15,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 5,
-              "ava": -1,
-              "str": true,
-              "bs": -1,
-              "s": 1,
-              "equip": [],
-              "w": 1,
-              "ph": 11,
-              "name": "STALDRON Remote Ancillary Unit",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-caskuda-wcd-armoured-jump-operator-2-1.svg",
-              "id": 1,
-              "arm": 0,
-              "weapons": [],
-              "chars": [
-                21,
-                27
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 84,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    1
-                  ],
-                  "id": 40,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    6
-                  ],
-                  "id": 28,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "id": 189,
-                  "order": 4
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    322
-                  ],
-                  "id": 243,
-                  "order": 5
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 3,
-              "equip": [],
-              "name": "STALDRON",
-              "disabled": true,
-              "orders": [],
-              "id": 1,
-              "weapons": [],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 2,
-          "category": null
-        }
-      ],
-      "options": [],
-      "slug": "reinf-caskuda",
-      "filters": {
-        "categories": [
-          3
-        ],
-        "skills": [
-          28,
-          40,
-          84,
-          189,
-          201,
-          213,
-          235,
-          243,
-          254
-        ],
-        "equip": [
-          239
-        ],
-        "chars": [
-          3,
-          5,
-          21,
-          27
-        ],
-        "types": [
-          4,
-          5
-        ],
-        "weapons": [
-          7,
-          18,
-          41
-        ],
-        "ammunition": [
-          2,
-          3,
-          5,
-          8,
-          9
         ]
       },
       "factions": [
@@ -3142,7 +3142,7 @@
   "filters": {
     "peripheral": [
       {
-        "id": 90,
+        "id": 19,
         "name": "STALDRON"
       }
     ],
@@ -3957,6 +3957,16 @@
       "category": 3
     },
     {
+      "id": 1618,
+      "isc": "Reinf. Caskuda",
+      "idArmy": 1618,
+      "name": "REINF. CASKUDA WCD Armoured Jump Operator",
+      "slug": "reinf-caskuda",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-caskuda-wcd-armoured-jump-operator-1-1.svg",
+      "type": 4,
+      "category": 3
+    },
+    {
       "id": 1619,
       "isc": "Reinf. Nexus Operatives",
       "idArmy": 1619,
@@ -3974,16 +3984,6 @@
       "slug": "reinf-wcd-base-operators",
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-wcd-base-operators-1-1.svg",
       "type": 2,
-      "category": 3
-    },
-    {
-      "id": 1618,
-      "isc": "Reinf. Caskuda",
-      "idArmy": 1618,
-      "name": "REINF. CASKUDA WCD Armoured Jump Operator",
-      "slug": "reinf-caskuda",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-caskuda-wcd-armoured-jump-operator-1-1.svg",
-      "type": 4,
       "category": 3
     },
     {
