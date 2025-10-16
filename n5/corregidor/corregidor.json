@@ -1,1738 +1,6 @@
 {
-  "version": "7.25288.295",
+  "version": "7.25289.466",
   "units": [
-    {
-      "id": 395,
-      "idArmy": 4,
-      "canonical": 501,
-      "isc": "Intruders",
-      "iscAbbr": null,
-      "name": "INTRUDERS, Corregidor Assault Commandos",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Intruders",
-          "profiles": [
-            {
-              "bts": 0,
-              "cc": 14,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 2,
-              "ava": 5,
-              "str": false,
-              "bs": 13,
-              "s": 2,
-              "equip": [
-                {
-                  "id": 115,
-                  "order": 1
-                }
-              ],
-              "w": 1,
-              "ph": 12,
-              "name": "INTRUDERS, Corregidor Assault Commandos",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/intruders-1-1.svg",
-              "id": 1,
-              "arm": 3,
-              "weapons": [],
-              "chars": [
-                1,
-                3,
-                5
-              ],
-              "wip": 14,
-              "skills": [
-                {
-                  "q": 1,
-                  "extra": [
-                    6
-                  ],
-                  "id": 191,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "extra": [],
-                  "id": 29,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    6
-                  ],
-                  "id": 28,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "extra": [],
-                  "id": 164,
-                  "order": 4
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    33
-                  ],
-                  "id": 58,
-                  "order": 5
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 38,
-              "equip": [],
-              "name": "INTRUDER",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "id": 2,
-                  "order": 1
-                },
-                {
-                  "id": 44,
-                  "order": 2
-                },
-                {
-                  "id": 69,
-                  "order": 3
-                },
-                {
-                  "id": 5,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "1.5",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 32,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 145,
-                  "order": 1
-                }
-              ],
-              "name": "INTRUDER",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 4,
-              "weapons": [
-                {
-                  "extra": [
-                    8
-                  ],
-                  "id": 214,
-                  "order": 1
-                },
-                {
-                  "extra": [
-                    8
-                  ],
-                  "id": 145,
-                  "order": 2
-                },
-                {
-                  "extra": null,
-                  "id": 44,
-                  "order": 3
-                },
-                {
-                  "extra": null,
-                  "id": 69,
-                  "order": 4
-                },
-                {
-                  "extra": null,
-                  "id": 5,
-                  "order": 5
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 1000,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "id": 47,
-                  "order": 2
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 36,
-              "equip": [
-                {
-                  "id": 117,
-                  "order": 1
-                }
-              ],
-              "name": "INTRUDER",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 6,
-              "weapons": [
-                {
-                  "id": 36,
-                  "order": 1
-                },
-                {
-                  "id": 69,
-                  "order": 2
-                },
-                {
-                  "id": 5,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "1.5",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 5
-        }
-      ],
-      "options": [],
-      "slug": "intruders",
-      "filters": {
-        "categories": [
-          5
-        ],
-        "skills": [
-          28,
-          29,
-          47,
-          58,
-          164,
-          191,
-          1000
-        ],
-        "equip": [
-          115,
-          117,
-          145
-        ],
-        "chars": [
-          1,
-          3,
-          5
-        ],
-        "types": [
-          2
-        ],
-        "weapons": [
-          2,
-          5,
-          36,
-          44,
-          69,
-          145,
-          214
-        ],
-        "ammunition": [
-          2,
-          3,
-          8,
-          9
-        ]
-      },
-      "factions": [
-        501,
-        502
-      ]
-    },
-    {
-      "id": 1551,
-      "idArmy": 1551,
-      "canonical": 501,
-      "isc": "Jazz&Billie, Tactical Hacking Team",
-      "iscAbbr": null,
-      "name": "JAZZ & BILLIE, Tactical Hacking Team",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Jazz&Billie, Tactical Hacking Team",
-          "profiles": [
-            {
-              "bts": 6,
-              "cc": 16,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 1,
-              "ava": 1,
-              "str": false,
-              "bs": 11,
-              "s": 2,
-              "equip": [
-                {
-                  "q": 1,
-                  "extra": [
-                    339
-                  ],
-                  "id": 101,
-                  "order": 1
-                }
-              ],
-              "w": 1,
-              "ph": 10,
-              "name": "JAZZ & BILLIE, Tactical Hacking Team",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/jazz-billie-1.svg",
-              "id": 1,
-              "arm": 0,
-              "weapons": [],
-              "chars": [
-                1,
-                3,
-                5
-              ],
-              "wip": 14,
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 18,
-              "equip": [],
-              "name": "JAZZ",
-              "disabled": true,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 77,
-                  "order": 1
-                },
-                {
-                  "id": 154,
-                  "order": 2
-                },
-                {
-                  "id": 174,
-                  "order": 3
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 5
-                },
-                {
-                  "extra": null,
-                  "id": 212,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "0.5",
-              "skills": [
-                {
-                  "id": 1000,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 22,
-              "equip": [],
-              "name": "JAZZ FTO",
-              "disabled": true,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 5
-                },
-                {
-                  "id": 33,
-                  "order": 1
-                },
-                {
-                  "id": 154,
-                  "order": 2
-                },
-                {
-                  "id": 174,
-                  "order": 3
-                },
-                {
-                  "extra": null,
-                  "id": 212,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "0.5",
-              "skills": [
-                {
-                  "id": 1000,
-                  "order": 1
-                },
-                {
-                  "id": 122,
-                  "order": 2
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 10
-        },
-        {
-          "notes": null,
-          "isc": "Billie, Customized Support Remote",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 13,
-              "move": [
-                15,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 5,
-              "ava": 1,
-              "str": true,
-              "bs": 10,
-              "s": 1,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 63,
-                  "order": 1
-                }
-              ],
-              "w": 1,
-              "ph": 10,
-              "name": "Billie, Customized Support Remote",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/jazz-billie-2.svg",
-              "id": 1,
-              "arm": 0,
-              "weapons": [],
-              "chars": [
-                3,
-                5,
-                21
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "id": 235,
-                  "order": 1
-                },
-                {
-                  "id": 84,
-                  "order": 2
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 7,
-              "equip": [],
-              "name": "BILLIE",
-              "disabled": true,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 72,
-                  "order": 1
-                },
-                {
-                  "id": 197,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 4
-                },
-                {
-                  "extra": null,
-                  "id": 107,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 2,
-          "category": 3
-        }
-      ],
-      "options": [
-        {
-          "includes": [
-            {
-              "q": 1,
-              "group": 1,
-              "option": 1
-            },
-            {
-              "q": 1,
-              "group": 2,
-              "option": 1
-            }
-          ],
-          "minis": 2,
-          "habilities": [],
-          "points": 25,
-          "compatible": null,
-          "equip": [],
-          "name": "JAZZ Hacker & BILLIE",
-          "disabled": false,
-          "orders": [
-            {
-              "type": "REGULAR",
-              "list": 2,
-              "total": 2
-            }
-          ],
-          "id": 1,
-          "weapons": [],
-          "chars": [],
-          "swc": "0.5",
-          "skills": [],
-          "peripheral": []
-        },
-        {
-          "includes": [
-            {
-              "q": 1,
-              "group": 1,
-              "option": 2
-            }
-          ],
-          "minis": 1,
-          "habilities": [],
-          "points": 22,
-          "compatible": null,
-          "equip": [],
-          "name": "JAZZ FTO",
-          "disabled": false,
-          "orders": [
-            {
-              "type": "REGULAR",
-              "list": 1,
-              "total": 1
-            }
-          ],
-          "id": 2,
-          "weapons": [],
-          "chars": [],
-          "swc": "0.5",
-          "skills": [],
-          "peripheral": []
-        }
-      ],
-      "slug": "jazz-and-billie-tactical-hacking-team",
-      "filters": {
-        "categories": [
-          3,
-          10
-        ],
-        "skills": [
-          84,
-          122,
-          235,
-          1000
-        ],
-        "equip": [
-          63,
-          101
-        ],
-        "chars": [
-          1,
-          3,
-          5,
-          21
-        ],
-        "types": [
-          1,
-          5
-        ],
-        "weapons": [
-          33,
-          71,
-          72,
-          77,
-          107,
-          154,
-          174,
-          197,
-          212
-        ],
-        "ammunition": [
-          2,
-          8,
-          14,
-          29,
-          37
-        ]
-      },
-      "factions": [
-        501,
-        502
-      ]
-    },
-    {
-      "id": 409,
-      "idArmy": 18,
-      "canonical": 501,
-      "isc": "Reaktion Zonds",
-      "iscAbbr": null,
-      "name": "REAKTION ZONDS",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Reaktion Zonds",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 13,
-              "move": [
-                15,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 5,
-              "ava": 1,
-              "str": true,
-              "bs": 11,
-              "s": 3,
-              "equip": [
-                {
-                  "id": 113,
-                  "order": 1
-                }
-              ],
-              "w": 1,
-              "ph": 10,
-              "name": "REAKTION ZONDS",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reaktion-zonds-1-1.svg",
-              "id": 1,
-              "arm": 0,
-              "weapons": [],
-              "chars": [
-                3,
-                5,
-                21
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "id": 235,
-                  "order": 1
-                },
-                {
-                  "id": 84,
-                  "order": 2
-                },
-                {
-                  "id": 61,
-                  "order": 3
-                },
-                {
-                  "extra": [],
-                  "id": 82,
-                  "order": 5
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 24,
-              "equip": [],
-              "name": "REAKTION ZOND",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 2,
-                  "order": 1
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 2
-                }
-              ],
-              "chars": [],
-              "swc": "1",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 19,
-              "equip": [],
-              "name": "REAKTION ZOND",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "extra": [
-                    8
-                  ],
-                  "id": 207,
-                  "order": 1
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 2
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 8
-        }
-      ],
-      "options": [],
-      "slug": "reaktion-zonds",
-      "filters": {
-        "categories": [
-          8
-        ],
-        "skills": [
-          61,
-          82,
-          84,
-          235
-        ],
-        "equip": [
-          113
-        ],
-        "chars": [
-          3,
-          5,
-          21
-        ],
-        "types": [
-          5
-        ],
-        "weapons": [
-          2,
-          71,
-          207
-        ],
-        "ammunition": [
-          2,
-          37
-        ]
-      },
-      "factions": [
-        501,
-        502,
-        503,
-        504,
-        905
-      ]
-    },
-    {
-      "id": 426,
-      "idArmy": 35,
-      "canonical": 501,
-      "isc": "Salyut Zonds",
-      "iscAbbr": null,
-      "name": "SALYUT Zonds",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Salyut Zonds",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 13,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 5,
-              "ava": 2,
-              "str": true,
-              "bs": 11,
-              "s": 4,
-              "equip": [
-                {
-                  "id": 91,
-                  "order": 1
-                }
-              ],
-              "w": 1,
-              "ph": 10,
-              "name": "SALYUT Zonds",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/salyut-zonds-1-1.svg",
-              "id": 1,
-              "arm": 2,
-              "weapons": [],
-              "chars": [
-                3,
-                5,
-                21
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "id": 235,
-                  "order": 1
-                },
-                {
-                  "id": 84,
-                  "order": 2
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 8,
-              "equip": [
-                {
-                  "id": 238,
-                  "order": 1
-                },
-                {
-                  "id": 63,
-                  "order": 2
-                }
-              ],
-              "name": "SALYUT",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 1
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 14,
-              "equip": [
-                {
-                  "id": 182,
-                  "order": 1
-                }
-              ],
-              "name": "SALYUT",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 1
-                }
-              ],
-              "chars": [],
-              "swc": "0.5",
-              "skills": [
-                {
-                  "id": 1000,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 17,
-              "equip": [
-                {
-                  "id": 63,
-                  "order": 1
-                }
-              ],
-              "name": "SALYUT",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 3,
-              "weapons": [
-                {
-                  "id": 33,
-                  "order": 1
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 2
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "id": 61,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 8
-        }
-      ],
-      "options": [],
-      "slug": "salyut-zonds",
-      "filters": {
-        "categories": [
-          8
-        ],
-        "skills": [
-          61,
-          84,
-          235,
-          1000
-        ],
-        "equip": [
-          63,
-          91,
-          182,
-          238
-        ],
-        "chars": [
-          3,
-          5,
-          21
-        ],
-        "types": [
-          5
-        ],
-        "weapons": [
-          33,
-          71
-        ],
-        "ammunition": [
-          2,
-          37
-        ]
-      },
-      "factions": [
-        501,
-        502,
-        503,
-        504,
-        905
-      ]
-    },
-    {
-      "id": 462,
-      "idArmy": 25,
-      "canonical": 1,
-      "isc": "Señor Massacre",
-      "iscAbbr": null,
-      "name": "SEÑOR MASSACRE",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Señor Massacre",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 24,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 2,
-              "ava": 1,
-              "str": false,
-              "bs": 12,
-              "s": 2,
-              "equip": [],
-              "w": 1,
-              "ph": 13,
-              "name": "SEÑOR MASSACRE",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/senor-massacre-1-1.svg",
-              "id": 1,
-              "arm": 2,
-              "weapons": [],
-              "chars": [
-                1,
-                3,
-                5
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "id": 21,
-                  "order": 1
-                },
-                {
-                  "id": 84,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    23
-                  ],
-                  "id": 40,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "id": 39,
-                  "order": 4
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    30
-                  ],
-                  "id": 162,
-                  "order": 5
-                },
-                {
-                  "q": 1,
-                  "id": 62,
-                  "order": 6
-                },
-                {
-                  "q": 1,
-                  "id": 164,
-                  "order": 7
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 27,
-              "equip": [],
-              "name": "SEÑOR MASSACRE",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 103,
-                  "order": 1
-                },
-                {
-                  "id": 46,
-                  "order": 2
-                },
-                {
-                  "id": 47,
-                  "order": 3
-                },
-                {
-                  "id": 212,
-                  "order": 4
-                },
-                {
-                  "extra": [
-                    302
-                  ],
-                  "id": 10,
-                  "order": 5
-                },
-                {
-                  "extra": [
-                    302
-                  ],
-                  "id": 7,
-                  "order": 6
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 25,
-              "equip": [],
-              "name": "SEÑOR MASSACRE",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "extra": [
-                    8
-                  ],
-                  "id": 26,
-                  "order": 1
-                },
-                {
-                  "id": 47,
-                  "order": 2
-                },
-                {
-                  "id": 46,
-                  "order": 3
-                },
-                {
-                  "id": 212,
-                  "order": 4
-                },
-                {
-                  "extra": [
-                    302
-                  ],
-                  "id": 10,
-                  "order": 5
-                },
-                {
-                  "extra": [
-                    302
-                  ],
-                  "id": 7,
-                  "order": 6
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 10
-        }
-      ],
-      "options": [],
-      "slug": "senor-massacre",
-      "filters": {
-        "categories": [
-          10
-        ],
-        "skills": [
-          21,
-          39,
-          40,
-          62,
-          84,
-          162,
-          164
-        ],
-        "equip": [],
-        "chars": [
-          1,
-          3,
-          5
-        ],
-        "types": [
-          2
-        ],
-        "weapons": [
-          7,
-          10,
-          26,
-          46,
-          47,
-          103,
-          212
-        ],
-        "ammunition": [
-          2,
-          3,
-          5,
-          8,
-          14,
-          22
-        ]
-      },
-      "factions": [
-        502,
-        905,
-        907,
-        909
-      ]
-    },
-    {
-      "id": 424,
-      "idArmy": 33,
-      "canonical": 501,
-      "isc": "Lunokhod Sputniks",
-      "iscAbbr": null,
-      "name": "LUNOKHOD Sputnik",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Lunokhod Sputniks",
-          "profiles": [
-            {
-              "bts": 6,
-              "cc": 14,
-              "move": [
-                20,
-                5
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 5,
-              "ava": 2,
-              "str": true,
-              "bs": 12,
-              "s": 4,
-              "equip": [
-                {
-                  "id": 63,
-                  "order": 2
-                }
-              ],
-              "w": 1,
-              "ph": 10,
-              "name": "LUNOKHOD Sputnik",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/lunokhod-sputniks-1-1.svg",
-              "id": 1,
-              "arm": 3,
-              "weapons": [],
-              "chars": [
-                3,
-                5,
-                21
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "id": 235,
-                  "order": 1
-                },
-                {
-                  "id": 84,
-                  "order": 2
-                },
-                {
-                  "extra": [],
-                  "id": 56,
-                  "order": 4
-                },
-                {
-                  "id": 82,
-                  "order": 5
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    26
-                  ],
-                  "id": 161,
-                  "order": 6
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 25,
-              "equip": [],
-              "name": "LUNOKHOD",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 29,
-                  "order": 1
-                },
-                {
-                  "id": 57,
-                  "order": 2
-                },
-                {
-                  "id": 25,
-                  "order": 3
-                },
-                {
-                  "id": 20,
-                  "order": 4
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 5
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 26,
-              "equip": [],
-              "name": "LUNOKHOD",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "id": 29,
-                  "order": 1
-                },
-                {
-                  "id": 207,
-                  "order": 2
-                },
-                {
-                  "id": 25,
-                  "order": 3
-                },
-                {
-                  "id": 20,
-                  "order": 4
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 5
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 8
-        }
-      ],
-      "options": [],
-      "slug": "lunokhod-sputniks",
-      "filters": {
-        "categories": [
-          8
-        ],
-        "skills": [
-          56,
-          82,
-          84,
-          161,
-          235
-        ],
-        "equip": [
-          63
-        ],
-        "chars": [
-          3,
-          5,
-          21
-        ],
-        "types": [
-          5
-        ],
-        "weapons": [
-          20,
-          25,
-          29,
-          57,
-          71,
-          207
-        ],
-        "ammunition": [
-          2,
-          3,
-          8,
-          14,
-          37
-        ]
-      },
-      "factions": [
-        501,
-        502,
-        503,
-        504,
-        905
-      ]
-    },
-    {
-      "id": 1890,
-      "idArmy": 1890,
-      "canonical": 107,
-      "isc": "Kazurabā Ruby Monday",
-      "iscAbbr": null,
-      "name": "Kazurabā RUBY MONDAY",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Kazurabā Ruby Monday",
-          "profiles": [
-            {
-              "bts": 6,
-              "cc": 18,
-              "move": [
-                15,
-                5
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 3,
-              "ava": 1,
-              "str": true,
-              "bs": 12,
-              "s": 2,
-              "equip": [],
-              "w": 2,
-              "ph": 12,
-              "name": "Kazurabā RUBY MONDAY",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/kazuraba-ruby-monday-1-1.svg",
-              "id": 1,
-              "arm": 3,
-              "weapons": [],
-              "chars": [
-                1,
-                4,
-                5,
-                21
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "q": 1,
-                  "extra": [
-                    8
-                  ],
-                  "id": 201,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "id": 25,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    1
-                  ],
-                  "id": 40,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    327
-                  ],
-                  "id": 162,
-                  "order": 4
-                },
-                {
-                  "q": 1,
-                  "id": 276,
-                  "order": 5
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    33
-                  ],
-                  "id": 58,
-                  "order": 6
-                },
-                {
-                  "q": 1,
-                  "id": 82,
-                  "order": 7
-                },
-                {
-                  "q": 1,
-                  "id": 189,
-                  "order": 8
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 19,
-              "equip": [],
-              "name": "RUBY MONDAY",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "IRREGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 216,
-                  "order": 1
-                },
-                {
-                  "id": 72,
-                  "order": 2
-                },
-                {
-                  "id": 47,
-                  "order": 3
-                },
-                {
-                  "id": 92,
-                  "order": 4
-                },
-                {
-                  "id": 5,
-                  "order": 5
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 11
-        }
-      ],
-      "options": [],
-      "slug": "kazuraba-ruby-monday",
-      "filters": {
-        "categories": [
-          11
-        ],
-        "skills": [
-          25,
-          40,
-          58,
-          82,
-          162,
-          189,
-          201,
-          276
-        ],
-        "equip": [],
-        "chars": [
-          1,
-          4,
-          5,
-          21
-        ],
-        "types": [
-          3
-        ],
-        "weapons": [
-          5,
-          47,
-          72,
-          92,
-          216
-        ],
-        "ammunition": [
-          2,
-          14,
-          29,
-          37
-        ]
-      },
-      "factions": [
-        107,
-        502,
-        605,
-        703,
-        1102
-      ]
-    },
     {
       "id": 421,
       "idArmy": 30,
@@ -3534,6 +1802,1738 @@
       ]
     },
     {
+      "id": 395,
+      "idArmy": 4,
+      "canonical": 501,
+      "isc": "Intruders",
+      "iscAbbr": null,
+      "name": "INTRUDERS, Corregidor Assault Commandos",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Intruders",
+          "profiles": [
+            {
+              "bts": 0,
+              "cc": 14,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 2,
+              "ava": 5,
+              "str": false,
+              "bs": 13,
+              "s": 2,
+              "equip": [
+                {
+                  "id": 115,
+                  "order": 1
+                }
+              ],
+              "w": 1,
+              "ph": 12,
+              "name": "INTRUDERS, Corregidor Assault Commandos",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/intruders-1-1.svg",
+              "id": 1,
+              "arm": 3,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                5
+              ],
+              "wip": 14,
+              "skills": [
+                {
+                  "q": 1,
+                  "extra": [
+                    6
+                  ],
+                  "id": 191,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "extra": [],
+                  "id": 29,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    6
+                  ],
+                  "id": 28,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "extra": [],
+                  "id": 164,
+                  "order": 4
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    33
+                  ],
+                  "id": 58,
+                  "order": 5
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 38,
+              "equip": [],
+              "name": "INTRUDER",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "id": 2,
+                  "order": 1
+                },
+                {
+                  "id": 44,
+                  "order": 2
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "1.5",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 32,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 145,
+                  "order": 1
+                }
+              ],
+              "name": "INTRUDER",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 4,
+              "weapons": [
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 214,
+                  "order": 1
+                },
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 145,
+                  "order": 2
+                },
+                {
+                  "extra": null,
+                  "id": 44,
+                  "order": 3
+                },
+                {
+                  "extra": null,
+                  "id": 69,
+                  "order": 4
+                },
+                {
+                  "extra": null,
+                  "id": 5,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 1000,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 47,
+                  "order": 2
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 36,
+              "equip": [
+                {
+                  "id": 117,
+                  "order": 1
+                }
+              ],
+              "name": "INTRUDER",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 6,
+              "weapons": [
+                {
+                  "id": 36,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "1.5",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 5
+        }
+      ],
+      "options": [],
+      "slug": "intruders",
+      "filters": {
+        "categories": [
+          5
+        ],
+        "skills": [
+          28,
+          29,
+          47,
+          58,
+          164,
+          191,
+          1000
+        ],
+        "equip": [
+          115,
+          117,
+          145
+        ],
+        "chars": [
+          1,
+          3,
+          5
+        ],
+        "types": [
+          2
+        ],
+        "weapons": [
+          2,
+          5,
+          36,
+          44,
+          69,
+          145,
+          214
+        ],
+        "ammunition": [
+          2,
+          3,
+          8,
+          9
+        ]
+      },
+      "factions": [
+        501,
+        502
+      ]
+    },
+    {
+      "id": 1551,
+      "idArmy": 1551,
+      "canonical": 501,
+      "isc": "Jazz&Billie, Tactical Hacking Team",
+      "iscAbbr": null,
+      "name": "JAZZ & BILLIE, Tactical Hacking Team",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Jazz&Billie, Tactical Hacking Team",
+          "profiles": [
+            {
+              "bts": 6,
+              "cc": 16,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 1,
+              "ava": 1,
+              "str": false,
+              "bs": 11,
+              "s": 2,
+              "equip": [
+                {
+                  "q": 1,
+                  "extra": [
+                    339
+                  ],
+                  "id": 101,
+                  "order": 1
+                }
+              ],
+              "w": 1,
+              "ph": 10,
+              "name": "JAZZ & BILLIE, Tactical Hacking Team",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/jazz-billie-1.svg",
+              "id": 1,
+              "arm": 0,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                5
+              ],
+              "wip": 14,
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 18,
+              "equip": [],
+              "name": "JAZZ",
+              "disabled": true,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 77,
+                  "order": 1
+                },
+                {
+                  "id": 154,
+                  "order": 2
+                },
+                {
+                  "id": 174,
+                  "order": 3
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 5
+                },
+                {
+                  "extra": null,
+                  "id": 212,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0.5",
+              "skills": [
+                {
+                  "id": 1000,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 22,
+              "equip": [],
+              "name": "JAZZ FTO",
+              "disabled": true,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 5
+                },
+                {
+                  "id": 33,
+                  "order": 1
+                },
+                {
+                  "id": 154,
+                  "order": 2
+                },
+                {
+                  "id": 174,
+                  "order": 3
+                },
+                {
+                  "extra": null,
+                  "id": 212,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0.5",
+              "skills": [
+                {
+                  "id": 1000,
+                  "order": 1
+                },
+                {
+                  "id": 122,
+                  "order": 2
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 10
+        },
+        {
+          "notes": null,
+          "isc": "Billie, Customized Support Remote",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 13,
+              "move": [
+                15,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 5,
+              "ava": 1,
+              "str": true,
+              "bs": 10,
+              "s": 1,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 63,
+                  "order": 1
+                }
+              ],
+              "w": 1,
+              "ph": 10,
+              "name": "Billie, Customized Support Remote",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/jazz-billie-2.svg",
+              "id": 1,
+              "arm": 0,
+              "weapons": [],
+              "chars": [
+                3,
+                5,
+                21
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "id": 235,
+                  "order": 1
+                },
+                {
+                  "id": 84,
+                  "order": 2
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 7,
+              "equip": [],
+              "name": "BILLIE",
+              "disabled": true,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 72,
+                  "order": 1
+                },
+                {
+                  "id": 197,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 4
+                },
+                {
+                  "extra": null,
+                  "id": 107,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 2,
+          "category": 3
+        }
+      ],
+      "options": [
+        {
+          "includes": [
+            {
+              "q": 1,
+              "group": 1,
+              "option": 1
+            },
+            {
+              "q": 1,
+              "group": 2,
+              "option": 1
+            }
+          ],
+          "minis": 2,
+          "habilities": [],
+          "points": 25,
+          "compatible": null,
+          "equip": [],
+          "name": "JAZZ Hacker & BILLIE",
+          "disabled": false,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 2,
+              "total": 2
+            }
+          ],
+          "id": 1,
+          "weapons": [],
+          "chars": [],
+          "swc": "0.5",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "includes": [
+            {
+              "q": 1,
+              "group": 1,
+              "option": 2
+            }
+          ],
+          "minis": 1,
+          "habilities": [],
+          "points": 22,
+          "compatible": null,
+          "equip": [],
+          "name": "JAZZ FTO",
+          "disabled": false,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "id": 2,
+          "weapons": [],
+          "chars": [],
+          "swc": "0.5",
+          "skills": [],
+          "peripheral": []
+        }
+      ],
+      "slug": "jazz-and-billie-tactical-hacking-team",
+      "filters": {
+        "categories": [
+          3,
+          10
+        ],
+        "skills": [
+          84,
+          122,
+          235,
+          1000
+        ],
+        "equip": [
+          63,
+          101
+        ],
+        "chars": [
+          1,
+          3,
+          5,
+          21
+        ],
+        "types": [
+          1,
+          5
+        ],
+        "weapons": [
+          33,
+          71,
+          72,
+          77,
+          107,
+          154,
+          174,
+          197,
+          212
+        ],
+        "ammunition": [
+          2,
+          8,
+          14,
+          29,
+          37
+        ]
+      },
+      "factions": [
+        501,
+        502
+      ]
+    },
+    {
+      "id": 409,
+      "idArmy": 18,
+      "canonical": 501,
+      "isc": "Reaktion Zonds",
+      "iscAbbr": null,
+      "name": "REAKTION ZONDS",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Reaktion Zonds",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 13,
+              "move": [
+                15,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 5,
+              "ava": 1,
+              "str": true,
+              "bs": 11,
+              "s": 3,
+              "equip": [
+                {
+                  "id": 113,
+                  "order": 1
+                }
+              ],
+              "w": 1,
+              "ph": 10,
+              "name": "REAKTION ZONDS",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reaktion-zonds-1-1.svg",
+              "id": 1,
+              "arm": 0,
+              "weapons": [],
+              "chars": [
+                3,
+                5,
+                21
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "id": 235,
+                  "order": 1
+                },
+                {
+                  "id": 84,
+                  "order": 2
+                },
+                {
+                  "id": 61,
+                  "order": 3
+                },
+                {
+                  "extra": [],
+                  "id": 82,
+                  "order": 5
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 24,
+              "equip": [],
+              "name": "REAKTION ZOND",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 2,
+                  "order": 1
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 2
+                }
+              ],
+              "chars": [],
+              "swc": "1",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 19,
+              "equip": [],
+              "name": "REAKTION ZOND",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 207,
+                  "order": 1
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 2
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 8
+        }
+      ],
+      "options": [],
+      "slug": "reaktion-zonds",
+      "filters": {
+        "categories": [
+          8
+        ],
+        "skills": [
+          61,
+          82,
+          84,
+          235
+        ],
+        "equip": [
+          113
+        ],
+        "chars": [
+          3,
+          5,
+          21
+        ],
+        "types": [
+          5
+        ],
+        "weapons": [
+          2,
+          71,
+          207
+        ],
+        "ammunition": [
+          2,
+          37
+        ]
+      },
+      "factions": [
+        501,
+        502,
+        503,
+        504,
+        905
+      ]
+    },
+    {
+      "id": 426,
+      "idArmy": 35,
+      "canonical": 501,
+      "isc": "Salyut Zonds",
+      "iscAbbr": null,
+      "name": "SALYUT Zonds",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Salyut Zonds",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 13,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 5,
+              "ava": 2,
+              "str": true,
+              "bs": 11,
+              "s": 4,
+              "equip": [
+                {
+                  "id": 91,
+                  "order": 1
+                }
+              ],
+              "w": 1,
+              "ph": 10,
+              "name": "SALYUT Zonds",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/salyut-zonds-1-1.svg",
+              "id": 1,
+              "arm": 2,
+              "weapons": [],
+              "chars": [
+                3,
+                5,
+                21
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "id": 235,
+                  "order": 1
+                },
+                {
+                  "id": 84,
+                  "order": 2
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 8,
+              "equip": [
+                {
+                  "id": 238,
+                  "order": 1
+                },
+                {
+                  "id": 63,
+                  "order": 2
+                }
+              ],
+              "name": "SALYUT",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 1
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 14,
+              "equip": [
+                {
+                  "id": 182,
+                  "order": 1
+                }
+              ],
+              "name": "SALYUT",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 1
+                }
+              ],
+              "chars": [],
+              "swc": "0.5",
+              "skills": [
+                {
+                  "id": 1000,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 17,
+              "equip": [
+                {
+                  "id": 63,
+                  "order": 1
+                }
+              ],
+              "name": "SALYUT",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 3,
+              "weapons": [
+                {
+                  "id": 33,
+                  "order": 1
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 2
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "id": 61,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 8
+        }
+      ],
+      "options": [],
+      "slug": "salyut-zonds",
+      "filters": {
+        "categories": [
+          8
+        ],
+        "skills": [
+          61,
+          84,
+          235,
+          1000
+        ],
+        "equip": [
+          63,
+          91,
+          182,
+          238
+        ],
+        "chars": [
+          3,
+          5,
+          21
+        ],
+        "types": [
+          5
+        ],
+        "weapons": [
+          33,
+          71
+        ],
+        "ammunition": [
+          2,
+          37
+        ]
+      },
+      "factions": [
+        501,
+        502,
+        503,
+        504,
+        905
+      ]
+    },
+    {
+      "id": 462,
+      "idArmy": 25,
+      "canonical": 1,
+      "isc": "Señor Massacre",
+      "iscAbbr": null,
+      "name": "SEÑOR MASSACRE",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Señor Massacre",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 24,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 2,
+              "ava": 1,
+              "str": false,
+              "bs": 12,
+              "s": 2,
+              "equip": [],
+              "w": 1,
+              "ph": 13,
+              "name": "SEÑOR MASSACRE",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/senor-massacre-1-1.svg",
+              "id": 1,
+              "arm": 2,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                5
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "id": 21,
+                  "order": 1
+                },
+                {
+                  "id": 84,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    23
+                  ],
+                  "id": 40,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "id": 39,
+                  "order": 4
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    30
+                  ],
+                  "id": 162,
+                  "order": 5
+                },
+                {
+                  "q": 1,
+                  "id": 62,
+                  "order": 6
+                },
+                {
+                  "q": 1,
+                  "id": 164,
+                  "order": 7
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 27,
+              "equip": [],
+              "name": "SEÑOR MASSACRE",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 103,
+                  "order": 1
+                },
+                {
+                  "id": 46,
+                  "order": 2
+                },
+                {
+                  "id": 47,
+                  "order": 3
+                },
+                {
+                  "id": 212,
+                  "order": 4
+                },
+                {
+                  "extra": [
+                    302
+                  ],
+                  "id": 10,
+                  "order": 5
+                },
+                {
+                  "extra": [
+                    302
+                  ],
+                  "id": 7,
+                  "order": 6
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 25,
+              "equip": [],
+              "name": "SEÑOR MASSACRE",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 26,
+                  "order": 1
+                },
+                {
+                  "id": 47,
+                  "order": 2
+                },
+                {
+                  "id": 46,
+                  "order": 3
+                },
+                {
+                  "id": 212,
+                  "order": 4
+                },
+                {
+                  "extra": [
+                    302
+                  ],
+                  "id": 10,
+                  "order": 5
+                },
+                {
+                  "extra": [
+                    302
+                  ],
+                  "id": 7,
+                  "order": 6
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 10
+        }
+      ],
+      "options": [],
+      "slug": "senor-massacre",
+      "filters": {
+        "categories": [
+          10
+        ],
+        "skills": [
+          21,
+          39,
+          40,
+          62,
+          84,
+          162,
+          164
+        ],
+        "equip": [],
+        "chars": [
+          1,
+          3,
+          5
+        ],
+        "types": [
+          2
+        ],
+        "weapons": [
+          7,
+          10,
+          26,
+          46,
+          47,
+          103,
+          212
+        ],
+        "ammunition": [
+          2,
+          3,
+          5,
+          8,
+          14,
+          22
+        ]
+      },
+      "factions": [
+        502,
+        905,
+        907,
+        909
+      ]
+    },
+    {
+      "id": 424,
+      "idArmy": 33,
+      "canonical": 501,
+      "isc": "Lunokhod Sputniks",
+      "iscAbbr": null,
+      "name": "LUNOKHOD Sputnik",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Lunokhod Sputniks",
+          "profiles": [
+            {
+              "bts": 6,
+              "cc": 14,
+              "move": [
+                20,
+                5
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 5,
+              "ava": 2,
+              "str": true,
+              "bs": 12,
+              "s": 4,
+              "equip": [
+                {
+                  "id": 63,
+                  "order": 2
+                }
+              ],
+              "w": 1,
+              "ph": 10,
+              "name": "LUNOKHOD Sputnik",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/lunokhod-sputniks-1-1.svg",
+              "id": 1,
+              "arm": 3,
+              "weapons": [],
+              "chars": [
+                3,
+                5,
+                21
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "id": 235,
+                  "order": 1
+                },
+                {
+                  "id": 84,
+                  "order": 2
+                },
+                {
+                  "extra": [],
+                  "id": 56,
+                  "order": 4
+                },
+                {
+                  "id": 82,
+                  "order": 5
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    26
+                  ],
+                  "id": 161,
+                  "order": 6
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 25,
+              "equip": [],
+              "name": "LUNOKHOD",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 29,
+                  "order": 1
+                },
+                {
+                  "id": 57,
+                  "order": 2
+                },
+                {
+                  "id": 25,
+                  "order": 3
+                },
+                {
+                  "id": 20,
+                  "order": 4
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 26,
+              "equip": [],
+              "name": "LUNOKHOD",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "id": 29,
+                  "order": 1
+                },
+                {
+                  "id": 207,
+                  "order": 2
+                },
+                {
+                  "id": 25,
+                  "order": 3
+                },
+                {
+                  "id": 20,
+                  "order": 4
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 8
+        }
+      ],
+      "options": [],
+      "slug": "lunokhod-sputniks",
+      "filters": {
+        "categories": [
+          8
+        ],
+        "skills": [
+          56,
+          82,
+          84,
+          161,
+          235
+        ],
+        "equip": [
+          63
+        ],
+        "chars": [
+          3,
+          5,
+          21
+        ],
+        "types": [
+          5
+        ],
+        "weapons": [
+          20,
+          25,
+          29,
+          57,
+          71,
+          207
+        ],
+        "ammunition": [
+          2,
+          3,
+          8,
+          14,
+          37
+        ]
+      },
+      "factions": [
+        501,
+        502,
+        503,
+        504,
+        905
+      ]
+    },
+    {
+      "id": 1890,
+      "idArmy": 1890,
+      "canonical": 107,
+      "isc": "Kazurabā Ruby Monday",
+      "iscAbbr": null,
+      "name": "Kazurabā RUBY MONDAY",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Kazurabā Ruby Monday",
+          "profiles": [
+            {
+              "bts": 6,
+              "cc": 18,
+              "move": [
+                15,
+                5
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 3,
+              "ava": 1,
+              "str": true,
+              "bs": 12,
+              "s": 2,
+              "equip": [],
+              "w": 2,
+              "ph": 12,
+              "name": "Kazurabā RUBY MONDAY",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/kazuraba-ruby-monday-1-1.svg",
+              "id": 1,
+              "arm": 3,
+              "weapons": [],
+              "chars": [
+                1,
+                4,
+                5,
+                21
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "q": 1,
+                  "extra": [
+                    8
+                  ],
+                  "id": 201,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 25,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    1
+                  ],
+                  "id": 40,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    327
+                  ],
+                  "id": 162,
+                  "order": 4
+                },
+                {
+                  "q": 1,
+                  "id": 276,
+                  "order": 5
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    33
+                  ],
+                  "id": 58,
+                  "order": 6
+                },
+                {
+                  "q": 1,
+                  "id": 82,
+                  "order": 7
+                },
+                {
+                  "q": 1,
+                  "id": 189,
+                  "order": 8
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 19,
+              "equip": [],
+              "name": "RUBY MONDAY",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "IRREGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 216,
+                  "order": 1
+                },
+                {
+                  "id": 72,
+                  "order": 2
+                },
+                {
+                  "id": 47,
+                  "order": 3
+                },
+                {
+                  "id": 92,
+                  "order": 4
+                },
+                {
+                  "id": 5,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 11
+        }
+      ],
+      "options": [],
+      "slug": "kazuraba-ruby-monday",
+      "filters": {
+        "categories": [
+          11
+        ],
+        "skills": [
+          25,
+          40,
+          58,
+          82,
+          162,
+          189,
+          201,
+          276
+        ],
+        "equip": [],
+        "chars": [
+          1,
+          4,
+          5,
+          21
+        ],
+        "types": [
+          3
+        ],
+        "weapons": [
+          5,
+          47,
+          72,
+          92,
+          216
+        ],
+        "ammunition": [
+          2,
+          14,
+          29,
+          37
+        ]
+      },
+      "factions": [
+        107,
+        502,
+        605,
+        703,
+        1102
+      ]
+    },
+    {
       "id": 1543,
       "idArmy": 1543,
       "canonical": 501,
@@ -4384,7 +4384,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 204
+                  "id": 80
                 }
               ]
             },
@@ -4490,7 +4490,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 204
+                  "id": 80
                 }
               ]
             }
@@ -5109,7 +5109,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 205
+                  "id": 81
                 }
               ]
             },
@@ -5165,7 +5165,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 205
+                  "id": 81
                 }
               ]
             }
@@ -9457,7 +9457,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 206
+                  "id": 82
                 }
               ]
             }
@@ -9953,7 +9953,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 205
+                  "id": 81
                 }
               ]
             }
@@ -10878,6 +10878,1672 @@
         1102,
         1103
       ]
+    },
+    {
+      "id": 10378,
+      "idArmy": 10011,
+      "canonical": 1,
+      "isc": "Yuan Yuan",
+      "iscAbbr": null,
+      "notes": null,
+      "name": "YUAN YUAN",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Yuan Yuan",
+          "profiles": [
+            {
+              "bts": 0,
+              "cc": 22,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 7,
+              "ava": 4,
+              "str": false,
+              "bs": 10,
+              "s": 2,
+              "equip": [],
+              "w": 1,
+              "ph": 14,
+              "name": "YUAN YUAN",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/yuan-yuan-1-1.svg",
+              "id": 1,
+              "arm": 0,
+              "weapons": [],
+              "chars": [
+                2,
+                4,
+                6
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "id": 25,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 33,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    27
+                  ],
+                  "id": 35,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "id": 264,
+                  "order": 4
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    304
+                  ],
+                  "id": 74,
+                  "order": 5
+                },
+                {
+                  "q": 1,
+                  "id": 256,
+                  "order": 6
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 6,
+              "equip": [],
+              "name": "YUAN YUAN",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "IRREGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "IMPETUOUS",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "id": 18,
+                  "order": 1
+                },
+                {
+                  "id": 45,
+                  "order": 2
+                },
+                {
+                  "id": 107,
+                  "order": 3
+                },
+                {
+                  "extra": [
+                    303
+                  ],
+                  "id": 6,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 7,
+              "equip": [],
+              "name": "YUAN YUAN",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "IRREGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "IMPETUOUS",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 3,
+              "weapons": [
+                {
+                  "id": 18,
+                  "order": 1
+                },
+                {
+                  "id": 45,
+                  "order": 2
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "extra": [
+                    303
+                  ],
+                  "id": 11,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 11,
+              "equip": [],
+              "name": "YUAN YUAN",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "IRREGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "IMPETUOUS",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 4,
+              "weapons": [
+                {
+                  "id": 26,
+                  "order": 1
+                },
+                {
+                  "id": 45,
+                  "order": 2
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "extra": [
+                    303
+                  ],
+                  "id": 6,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 11,
+              "equip": [],
+              "name": "YUAN YUAN",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "IRREGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "IMPETUOUS",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 5,
+              "weapons": [
+                {
+                  "id": 31,
+                  "order": 1
+                },
+                {
+                  "id": 45,
+                  "order": 2
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "extra": [
+                    303
+                  ],
+                  "id": 6,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 11
+        }
+      ],
+      "options": [],
+      "slug": "merc-yuan-yuan",
+      "filters": {
+        "categories": [
+          11
+        ],
+        "skills": [
+          25,
+          33,
+          35,
+          74,
+          256,
+          264
+        ],
+        "equip": [],
+        "chars": [
+          2,
+          4,
+          6
+        ],
+        "types": [
+          7
+        ],
+        "weapons": [
+          6,
+          11,
+          18,
+          26,
+          31,
+          45,
+          69,
+          107
+        ],
+        "ammunition": [
+          2,
+          3,
+          8,
+          9,
+          21
+        ]
+      },
+      "factions": []
+    },
+    {
+      "id": 10380,
+      "idArmy": 10013,
+      "canonical": 1,
+      "isc": "Scarface & Cordelia, Mercenary Armored Team",
+      "iscAbbr": "Scarface & Cordelia",
+      "notes": null,
+      "name": "SCARFACE & CORDELIA, MERCENARY ARMORED TEAM",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Scarface Turner. Mercenary T.A.G.",
+          "profiles": [
+            {
+              "bts": 6,
+              "cc": 22,
+              "move": [
+                15,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 4,
+              "ava": 1,
+              "str": true,
+              "bs": 13,
+              "s": 7,
+              "equip": [
+                {
+                  "extra": [
+                    7
+                  ],
+                  "id": 239,
+                  "order": 1
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 241,
+                  "order": 2
+                }
+              ],
+              "w": 3,
+              "ph": 16,
+              "name": "SCARFACE TURNER, T.A.G. MERCENARIO",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/scarface-and-cordelia-1-1.svg",
+              "id": 1,
+              "arm": 7,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                5,
+                21
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 240,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    305
+                  ],
+                  "id": 201,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    1
+                  ],
+                  "id": 24,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "id": 84,
+                  "order": 4
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    27
+                  ],
+                  "id": 40,
+                  "order": 5
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    27
+                  ],
+                  "id": 254,
+                  "order": 6
+                },
+                {
+                  "q": 1,
+                  "id": 213,
+                  "order": 7
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [
+                {
+                  "q": 1,
+                  "group": 2,
+                  "option": 1
+                }
+              ],
+              "minis": 1,
+              "points": 62,
+              "equip": [],
+              "name": "SCARFACE Loadout Alpha",
+              "disabled": true,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "TACTICAL",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 64,
+                  "order": 1
+                },
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 89,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    311
+                  ],
+                  "id": 11,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "1.5",
+              "skills": [],
+              "peripheral": [
+                {
+                  "id": 83
+                }
+              ]
+            },
+            {
+              "includes": [
+                {
+                  "q": 1,
+                  "group": 2,
+                  "option": 1
+                }
+              ],
+              "minis": 1,
+              "points": 58,
+              "equip": [],
+              "name": "SCARFACE Loadout Beta",
+              "disabled": true,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "TACTICAL",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "id": 3,
+                  "order": 1
+                },
+                {
+                  "id": 68,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    311
+                  ],
+                  "id": 11,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "1.5",
+              "skills": [],
+              "peripheral": [
+                {
+                  "id": 83
+                }
+              ]
+            },
+            {
+              "includes": [
+                {
+                  "q": 1,
+                  "group": 2,
+                  "option": 1
+                }
+              ],
+              "minis": 1,
+              "points": 58,
+              "equip": [],
+              "name": "SCARFACE Loadout Gamma",
+              "disabled": true,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "TACTICAL",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 3,
+              "weapons": [
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 157,
+                  "order": 1
+                },
+                {
+                  "extra": [],
+                  "id": 68,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    311
+                  ],
+                  "id": 11,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "1.5",
+              "skills": [],
+              "peripheral": [
+                {
+                  "id": 83
+                }
+              ]
+            }
+          ],
+          "id": 1,
+          "category": 10
+        },
+        {
+          "notes": null,
+          "isc": "Turtlemek Ancillary Remote Unit",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": -1,
+              "move": [
+                15,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 5,
+              "ava": -1,
+              "str": true,
+              "bs": -1,
+              "s": 1,
+              "equip": [],
+              "w": 1,
+              "ph": 10,
+              "name": "TURTLEMEK Ancillary Remote Unit",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/scarface-and-cordelia-2-1.svg",
+              "id": 1,
+              "arm": 0,
+              "weapons": [],
+              "chars": [
+                21,
+                27
+              ],
+              "wip": 12,
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 84,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    1
+                  ],
+                  "id": 40,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    6
+                  ],
+                  "id": 28,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "id": 189,
+                  "order": 4
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    322
+                  ],
+                  "id": 243,
+                  "order": 5
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 4,
+              "equip": [],
+              "name": "TURTLEMEK",
+              "disabled": true,
+              "orders": [],
+              "id": 1,
+              "weapons": [],
+              "chars": [],
+              "swc": "-",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 2,
+          "category": null
+        },
+        {
+          "notes": null,
+          "isc": "Cordelia Turner. Mercenary Engineer",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 13,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 1,
+              "ava": 1,
+              "str": false,
+              "bs": 11,
+              "s": 2,
+              "equip": [
+                {
+                  "id": 238,
+                  "order": 1
+                },
+                {
+                  "id": 237,
+                  "order": 2
+                }
+              ],
+              "w": 1,
+              "ph": 10,
+              "name": "CORDELIA TURNER, MERCENARY ENGINEER",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/scarface-and-cordelia-3-1.svg",
+              "id": 1,
+              "arm": 1,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                5
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "id": 84,
+                  "order": 1
+                },
+                {
+                  "id": 49,
+                  "order": 3
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 28,
+                  "order": 4
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 18,
+              "equip": [],
+              "name": "CORDELIA TURNER",
+              "disabled": true,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 33,
+                  "order": 1
+                },
+                {
+                  "id": 17,
+                  "order": 2
+                },
+                {
+                  "id": 220,
+                  "order": 3
+                },
+                {
+                  "id": 212,
+                  "order": 4
+                },
+                {
+                  "id": 5,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 3,
+          "category": 10
+        }
+      ],
+      "options": [
+        {
+          "includes": [
+            {
+              "q": 1,
+              "group": 1,
+              "option": 1
+            },
+            {
+              "q": 1,
+              "group": 3,
+              "option": 1
+            }
+          ],
+          "minis": 2,
+          "habilities": [],
+          "points": 80,
+          "compatible": null,
+          "equip": [],
+          "name": "SCARFACE Loadout Alpha & CORDELIA TURNER",
+          "disabled": false,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 2,
+              "total": 2
+            },
+            {
+              "type": "TACTICAL",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "id": 1,
+          "weapons": [],
+          "chars": [],
+          "swc": "1.5",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "includes": [
+            {
+              "q": 1,
+              "group": 1,
+              "option": 2
+            },
+            {
+              "q": 1,
+              "group": 3,
+              "option": 1
+            }
+          ],
+          "minis": 2,
+          "habilities": [],
+          "points": 76,
+          "compatible": null,
+          "equip": [],
+          "name": "SCARFACE Loadout Beta & CORDELIA TURNER",
+          "disabled": false,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 2,
+              "total": 2
+            },
+            {
+              "type": "TACTICAL",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "id": 2,
+          "weapons": [],
+          "chars": [],
+          "swc": "1.5",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "includes": [
+            {
+              "q": 1,
+              "group": 1,
+              "option": 3
+            },
+            {
+              "q": 1,
+              "group": 3,
+              "option": 1
+            }
+          ],
+          "minis": 2,
+          "habilities": [],
+          "points": 76,
+          "compatible": null,
+          "equip": [],
+          "name": "SCARFACE Loadout Gamma & CORDELIA TURNER",
+          "disabled": false,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 2,
+              "total": 2
+            },
+            {
+              "type": "TACTICAL",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "id": 3,
+          "weapons": [],
+          "chars": [],
+          "swc": "1.5",
+          "skills": [],
+          "peripheral": []
+        }
+      ],
+      "slug": "merc-scarface-and-cordelia",
+      "filters": {
+        "categories": [
+          10
+        ],
+        "skills": [
+          24,
+          28,
+          40,
+          49,
+          84,
+          189,
+          201,
+          213,
+          240,
+          243,
+          254
+        ],
+        "equip": [
+          237,
+          238,
+          239,
+          241
+        ],
+        "chars": [
+          1,
+          3,
+          5,
+          21,
+          27
+        ],
+        "types": [
+          1,
+          4,
+          5
+        ],
+        "weapons": [
+          3,
+          5,
+          11,
+          17,
+          33,
+          64,
+          68,
+          89,
+          157,
+          212,
+          220
+        ],
+        "ammunition": [
+          2,
+          3,
+          9,
+          13,
+          37
+        ]
+      },
+      "factions": []
+    },
+    {
+      "id": 11834,
+      "idArmy": 21834,
+      "canonical": 1,
+      "isc": "Yojimbo, Sword for Hire",
+      "iscAbbr": null,
+      "notes": "NOTE: There can only be 1 Yojimbo in each Army List. ",
+      "name": "YOJIMBO, Sword for Hire",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Yojimbo, Sword for Hire",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 24,
+              "move": [
+                15,
+                5
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 7,
+              "ava": 1,
+              "str": false,
+              "bs": 12,
+              "s": 2,
+              "equip": [],
+              "w": 1,
+              "ph": 14,
+              "name": "YOJIMBO, Sword for Hire",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/yojimbo-sword-for-hire-1-1.svg",
+              "id": 1,
+              "arm": 1,
+              "weapons": [],
+              "chars": [
+                1,
+                4,
+                6
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 22,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 84,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    11
+                  ],
+                  "id": 40,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    49
+                  ],
+                  "id": 162,
+                  "order": 4
+                },
+                {
+                  "q": 1,
+                  "id": 56,
+                  "order": 5
+                },
+                {
+                  "q": 1,
+                  "id": 164,
+                  "order": 6
+                },
+                {
+                  "q": 1,
+                  "id": 264,
+                  "order": 7
+                },
+                {
+                  "q": 1,
+                  "id": 86,
+                  "order": 8
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 19,
+              "equip": [],
+              "name": "YOJIMBO",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "IRREGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "IMPETUOUS",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 19,
+                  "order": 1
+                },
+                {
+                  "id": 65,
+                  "order": 2
+                },
+                {
+                  "id": 45,
+                  "order": 3
+                },
+                {
+                  "id": 20,
+                  "order": 4
+                },
+                {
+                  "id": 69,
+                  "order": 5
+                },
+                {
+                  "extra": [
+                    316
+                  ],
+                  "id": 11,
+                  "order": 6
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 10
+        }
+      ],
+      "options": [],
+      "slug": "merc-yojimbo-sword-for-hire",
+      "filters": {
+        "categories": [
+          10
+        ],
+        "skills": [
+          22,
+          40,
+          56,
+          84,
+          86,
+          162,
+          164,
+          264
+        ],
+        "equip": [],
+        "chars": [
+          1,
+          4,
+          6
+        ],
+        "types": [
+          7
+        ],
+        "weapons": [
+          11,
+          19,
+          20,
+          45,
+          65,
+          69
+        ],
+        "ammunition": [
+          2,
+          8,
+          9,
+          18,
+          21
+        ]
+      },
+      "factions": []
+    },
+    {
+      "id": 10122,
+      "idArmy": 10022,
+      "canonical": 1,
+      "isc": "CSU, Corporate Security Unit",
+      "iscAbbr": null,
+      "notes": null,
+      "name": "CSU, Corporate Security Unit",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "CSU, Corporate Security Unit",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 16,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 1,
+              "ava": 1,
+              "str": false,
+              "bs": 12,
+              "s": 2,
+              "equip": [],
+              "w": 1,
+              "ph": 10,
+              "name": "CSU, Corporate Security Unit",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/csu-corporate-security-unit-1-1.svg",
+              "id": 1,
+              "arm": 0,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                5
+              ],
+              "wip": 12,
+              "skills": [
+                {
+                  "id": 55,
+                  "order": 2
+                },
+                {
+                  "id": 67,
+                  "order": 3
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 12,
+              "equip": [],
+              "name": "CSU",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 109,
+                  "order": 1
+                },
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 65,
+                  "order": 1
+                },
+                {
+                  "id": 189,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    7
+                  ],
+                  "id": 71,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 11,
+              "equip": [],
+              "name": "CSU",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "id": 33,
+                  "order": 1
+                },
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 65,
+                  "order": 2
+                },
+                {
+                  "id": 189,
+                  "order": 3
+                },
+                {
+                  "extra": [
+                    7
+                  ],
+                  "id": 71,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 11,
+              "equip": [],
+              "name": "CSU",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 3,
+              "weapons": [
+                {
+                  "id": 26,
+                  "order": 1
+                },
+                {
+                  "id": 189,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 216,
+                  "order": 4
+                },
+                {
+                  "extra": [
+                    7
+                  ],
+                  "id": 71,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 11,
+              "equip": [],
+              "name": "CSU",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 4,
+              "weapons": [
+                {
+                  "id": 31,
+                  "order": 1
+                },
+                {
+                  "id": 28,
+                  "order": 2
+                },
+                {
+                  "id": 189,
+                  "order": 3
+                },
+                {
+                  "id": 65,
+                  "order": 5
+                },
+                {
+                  "extra": [
+                    7
+                  ],
+                  "id": 71,
+                  "order": 6
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "id": 189,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 14,
+              "equip": [],
+              "name": "CSU",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 5,
+              "weapons": [
+                {
+                  "id": 103,
+                  "order": 4
+                },
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 65,
+                  "order": 1
+                },
+                {
+                  "id": 189,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    7
+                  ],
+                  "id": 71,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "id": 189,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 11
+        }
+      ],
+      "options": [],
+      "slug": "merc-csu-corporate-security-unit",
+      "filters": {
+        "categories": [
+          11
+        ],
+        "skills": [
+          55,
+          67,
+          189
+        ],
+        "equip": [],
+        "chars": [
+          1,
+          3,
+          5
+        ],
+        "types": [
+          1
+        ],
+        "weapons": [
+          26,
+          28,
+          31,
+          33,
+          65,
+          71,
+          103,
+          109,
+          189,
+          216
+        ],
+        "ammunition": [
+          2,
+          3,
+          8,
+          9,
+          37
+        ]
+      },
+      "factions": []
+    },
+    {
+      "id": 10491,
+      "idArmy": 10027,
+      "canonical": 1,
+      "isc": "Avicenna, Mercenary Doctor",
+      "iscAbbr": null,
+      "notes": null,
+      "name": "AVICENNA, Mercenary Doctor",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Avicenna, Mercenary Doctor",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 16,
+              "move": [
+                15,
+                5
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 1,
+              "ava": 1,
+              "str": false,
+              "bs": 11,
+              "s": 2,
+              "equip": [
+                {
+                  "id": 106,
+                  "order": 1
+                }
+              ],
+              "w": 1,
+              "ph": 11,
+              "name": "AVICENNA, Mercenary Doctor",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/avicenna-mercenary-doctor-1-1.svg",
+              "id": 1,
+              "arm": 2,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                5
+              ],
+              "wip": 15,
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 84,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    319
+                  ],
+                  "id": 162,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    1
+                  ],
+                  "id": 53,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "id": 86,
+                  "order": 4
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 28,
+              "equip": [],
+              "name": "AVICENNA",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 33,
+                  "order": 1
+                },
+                {
+                  "id": 72,
+                  "order": 2
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                },
+                {
+                  "id": 65,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 10
+        }
+      ],
+      "options": [],
+      "slug": "merc-avicenna-mercenary-doctor",
+      "filters": {
+        "categories": [
+          10
+        ],
+        "skills": [
+          53,
+          84,
+          86,
+          162
+        ],
+        "equip": [
+          106
+        ],
+        "chars": [
+          1,
+          3,
+          5
+        ],
+        "types": [
+          1
+        ],
+        "weapons": [
+          5,
+          33,
+          65,
+          69,
+          72
+        ],
+        "ammunition": [
+          2,
+          29
+        ]
+      },
+      "factions": []
     },
     {
       "id": 11344,
@@ -12564,7 +14230,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 207
+                  "id": 83
                 }
               ]
             },
@@ -12619,7 +14285,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 207
+                  "id": 83
                 }
               ]
             },
@@ -12674,7 +14340,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 207
+                  "id": 83
                 }
               ]
             },
@@ -12733,7 +14399,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 207
+                  "id": 83
                 }
               ]
             }
@@ -13575,1672 +15241,6 @@
           3,
           9,
           13
-        ]
-      },
-      "factions": []
-    },
-    {
-      "id": 10378,
-      "idArmy": 10011,
-      "canonical": 1,
-      "isc": "Yuan Yuan",
-      "iscAbbr": null,
-      "notes": null,
-      "name": "YUAN YUAN",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Yuan Yuan",
-          "profiles": [
-            {
-              "bts": 0,
-              "cc": 22,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 7,
-              "ava": 4,
-              "str": false,
-              "bs": 10,
-              "s": 2,
-              "equip": [],
-              "w": 1,
-              "ph": 14,
-              "name": "YUAN YUAN",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/yuan-yuan-1-1.svg",
-              "id": 1,
-              "arm": 0,
-              "weapons": [],
-              "chars": [
-                2,
-                4,
-                6
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "id": 25,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "id": 33,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    27
-                  ],
-                  "id": 35,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "id": 264,
-                  "order": 4
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    304
-                  ],
-                  "id": 74,
-                  "order": 5
-                },
-                {
-                  "q": 1,
-                  "id": 256,
-                  "order": 6
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 6,
-              "equip": [],
-              "name": "YUAN YUAN",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "IRREGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "IMPETUOUS",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "id": 18,
-                  "order": 1
-                },
-                {
-                  "id": 45,
-                  "order": 2
-                },
-                {
-                  "id": 107,
-                  "order": 3
-                },
-                {
-                  "extra": [
-                    303
-                  ],
-                  "id": 6,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 7,
-              "equip": [],
-              "name": "YUAN YUAN",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "IRREGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "IMPETUOUS",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 3,
-              "weapons": [
-                {
-                  "id": 18,
-                  "order": 1
-                },
-                {
-                  "id": 45,
-                  "order": 2
-                },
-                {
-                  "id": 69,
-                  "order": 3
-                },
-                {
-                  "extra": [
-                    303
-                  ],
-                  "id": 11,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 11,
-              "equip": [],
-              "name": "YUAN YUAN",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "IRREGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "IMPETUOUS",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 4,
-              "weapons": [
-                {
-                  "id": 26,
-                  "order": 1
-                },
-                {
-                  "id": 45,
-                  "order": 2
-                },
-                {
-                  "id": 69,
-                  "order": 3
-                },
-                {
-                  "extra": [
-                    303
-                  ],
-                  "id": 6,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 11,
-              "equip": [],
-              "name": "YUAN YUAN",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "IRREGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "IMPETUOUS",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 5,
-              "weapons": [
-                {
-                  "id": 31,
-                  "order": 1
-                },
-                {
-                  "id": 45,
-                  "order": 2
-                },
-                {
-                  "id": 69,
-                  "order": 3
-                },
-                {
-                  "extra": [
-                    303
-                  ],
-                  "id": 6,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 11
-        }
-      ],
-      "options": [],
-      "slug": "merc-yuan-yuan",
-      "filters": {
-        "categories": [
-          11
-        ],
-        "skills": [
-          25,
-          33,
-          35,
-          74,
-          256,
-          264
-        ],
-        "equip": [],
-        "chars": [
-          2,
-          4,
-          6
-        ],
-        "types": [
-          7
-        ],
-        "weapons": [
-          6,
-          11,
-          18,
-          26,
-          31,
-          45,
-          69,
-          107
-        ],
-        "ammunition": [
-          2,
-          3,
-          8,
-          9,
-          21
-        ]
-      },
-      "factions": []
-    },
-    {
-      "id": 10380,
-      "idArmy": 10013,
-      "canonical": 1,
-      "isc": "Scarface & Cordelia, Mercenary Armored Team",
-      "iscAbbr": "Scarface & Cordelia",
-      "notes": null,
-      "name": "SCARFACE & CORDELIA, MERCENARY ARMORED TEAM",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Scarface Turner. Mercenary T.A.G.",
-          "profiles": [
-            {
-              "bts": 6,
-              "cc": 22,
-              "move": [
-                15,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 4,
-              "ava": 1,
-              "str": true,
-              "bs": 13,
-              "s": 7,
-              "equip": [
-                {
-                  "extra": [
-                    7
-                  ],
-                  "id": 239,
-                  "order": 1
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 241,
-                  "order": 2
-                }
-              ],
-              "w": 3,
-              "ph": 16,
-              "name": "SCARFACE TURNER, T.A.G. MERCENARIO",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/scarface-and-cordelia-1-1.svg",
-              "id": 1,
-              "arm": 7,
-              "weapons": [],
-              "chars": [
-                1,
-                3,
-                5,
-                21
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 240,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    305
-                  ],
-                  "id": 201,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    1
-                  ],
-                  "id": 24,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "id": 84,
-                  "order": 4
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    27
-                  ],
-                  "id": 40,
-                  "order": 5
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    27
-                  ],
-                  "id": 254,
-                  "order": 6
-                },
-                {
-                  "q": 1,
-                  "id": 213,
-                  "order": 7
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [
-                {
-                  "q": 1,
-                  "group": 2,
-                  "option": 1
-                }
-              ],
-              "minis": 1,
-              "points": 62,
-              "equip": [],
-              "name": "SCARFACE Loadout Alpha",
-              "disabled": true,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "TACTICAL",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "extra": [
-                    8
-                  ],
-                  "id": 64,
-                  "order": 1
-                },
-                {
-                  "extra": [
-                    8
-                  ],
-                  "id": 89,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    311
-                  ],
-                  "id": 11,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "1.5",
-              "skills": [],
-              "peripheral": [
-                {
-                  "id": 207
-                }
-              ]
-            },
-            {
-              "includes": [
-                {
-                  "q": 1,
-                  "group": 2,
-                  "option": 1
-                }
-              ],
-              "minis": 1,
-              "points": 58,
-              "equip": [],
-              "name": "SCARFACE Loadout Beta",
-              "disabled": true,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "TACTICAL",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "id": 3,
-                  "order": 1
-                },
-                {
-                  "id": 68,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    311
-                  ],
-                  "id": 11,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "1.5",
-              "skills": [],
-              "peripheral": [
-                {
-                  "id": 207
-                }
-              ]
-            },
-            {
-              "includes": [
-                {
-                  "q": 1,
-                  "group": 2,
-                  "option": 1
-                }
-              ],
-              "minis": 1,
-              "points": 58,
-              "equip": [],
-              "name": "SCARFACE Loadout Gamma",
-              "disabled": true,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "TACTICAL",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 3,
-              "weapons": [
-                {
-                  "extra": [
-                    8
-                  ],
-                  "id": 157,
-                  "order": 1
-                },
-                {
-                  "extra": [],
-                  "id": 68,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    311
-                  ],
-                  "id": 11,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "1.5",
-              "skills": [],
-              "peripheral": [
-                {
-                  "id": 207
-                }
-              ]
-            }
-          ],
-          "id": 1,
-          "category": 10
-        },
-        {
-          "notes": null,
-          "isc": "Turtlemek Ancillary Remote Unit",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": -1,
-              "move": [
-                15,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 5,
-              "ava": -1,
-              "str": true,
-              "bs": -1,
-              "s": 1,
-              "equip": [],
-              "w": 1,
-              "ph": 10,
-              "name": "TURTLEMEK Ancillary Remote Unit",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/scarface-and-cordelia-2-1.svg",
-              "id": 1,
-              "arm": 0,
-              "weapons": [],
-              "chars": [
-                21,
-                27
-              ],
-              "wip": 12,
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 84,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    1
-                  ],
-                  "id": 40,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    6
-                  ],
-                  "id": 28,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "id": 189,
-                  "order": 4
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    322
-                  ],
-                  "id": 243,
-                  "order": 5
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 4,
-              "equip": [],
-              "name": "TURTLEMEK",
-              "disabled": true,
-              "orders": [],
-              "id": 1,
-              "weapons": [],
-              "chars": [],
-              "swc": "-",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 2,
-          "category": null
-        },
-        {
-          "notes": null,
-          "isc": "Cordelia Turner. Mercenary Engineer",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 13,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 1,
-              "ava": 1,
-              "str": false,
-              "bs": 11,
-              "s": 2,
-              "equip": [
-                {
-                  "id": 238,
-                  "order": 1
-                },
-                {
-                  "id": 237,
-                  "order": 2
-                }
-              ],
-              "w": 1,
-              "ph": 10,
-              "name": "CORDELIA TURNER, MERCENARY ENGINEER",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/scarface-and-cordelia-3-1.svg",
-              "id": 1,
-              "arm": 1,
-              "weapons": [],
-              "chars": [
-                1,
-                3,
-                5
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "id": 84,
-                  "order": 1
-                },
-                {
-                  "id": 49,
-                  "order": 3
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 28,
-                  "order": 4
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 18,
-              "equip": [],
-              "name": "CORDELIA TURNER",
-              "disabled": true,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 33,
-                  "order": 1
-                },
-                {
-                  "id": 17,
-                  "order": 2
-                },
-                {
-                  "id": 220,
-                  "order": 3
-                },
-                {
-                  "id": 212,
-                  "order": 4
-                },
-                {
-                  "id": 5,
-                  "order": 5
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 3,
-          "category": 10
-        }
-      ],
-      "options": [
-        {
-          "includes": [
-            {
-              "q": 1,
-              "group": 1,
-              "option": 1
-            },
-            {
-              "q": 1,
-              "group": 3,
-              "option": 1
-            }
-          ],
-          "minis": 2,
-          "habilities": [],
-          "points": 80,
-          "compatible": null,
-          "equip": [],
-          "name": "SCARFACE Loadout Alpha & CORDELIA TURNER",
-          "disabled": false,
-          "orders": [
-            {
-              "type": "REGULAR",
-              "list": 2,
-              "total": 2
-            },
-            {
-              "type": "TACTICAL",
-              "list": 1,
-              "total": 1
-            }
-          ],
-          "id": 1,
-          "weapons": [],
-          "chars": [],
-          "swc": "1.5",
-          "skills": [],
-          "peripheral": []
-        },
-        {
-          "includes": [
-            {
-              "q": 1,
-              "group": 1,
-              "option": 2
-            },
-            {
-              "q": 1,
-              "group": 3,
-              "option": 1
-            }
-          ],
-          "minis": 2,
-          "habilities": [],
-          "points": 76,
-          "compatible": null,
-          "equip": [],
-          "name": "SCARFACE Loadout Beta & CORDELIA TURNER",
-          "disabled": false,
-          "orders": [
-            {
-              "type": "REGULAR",
-              "list": 2,
-              "total": 2
-            },
-            {
-              "type": "TACTICAL",
-              "list": 1,
-              "total": 1
-            }
-          ],
-          "id": 2,
-          "weapons": [],
-          "chars": [],
-          "swc": "1.5",
-          "skills": [],
-          "peripheral": []
-        },
-        {
-          "includes": [
-            {
-              "q": 1,
-              "group": 1,
-              "option": 3
-            },
-            {
-              "q": 1,
-              "group": 3,
-              "option": 1
-            }
-          ],
-          "minis": 2,
-          "habilities": [],
-          "points": 76,
-          "compatible": null,
-          "equip": [],
-          "name": "SCARFACE Loadout Gamma & CORDELIA TURNER",
-          "disabled": false,
-          "orders": [
-            {
-              "type": "REGULAR",
-              "list": 2,
-              "total": 2
-            },
-            {
-              "type": "TACTICAL",
-              "list": 1,
-              "total": 1
-            }
-          ],
-          "id": 3,
-          "weapons": [],
-          "chars": [],
-          "swc": "1.5",
-          "skills": [],
-          "peripheral": []
-        }
-      ],
-      "slug": "merc-scarface-and-cordelia",
-      "filters": {
-        "categories": [
-          10
-        ],
-        "skills": [
-          24,
-          28,
-          40,
-          49,
-          84,
-          189,
-          201,
-          213,
-          240,
-          243,
-          254
-        ],
-        "equip": [
-          237,
-          238,
-          239,
-          241
-        ],
-        "chars": [
-          1,
-          3,
-          5,
-          21,
-          27
-        ],
-        "types": [
-          1,
-          4,
-          5
-        ],
-        "weapons": [
-          3,
-          5,
-          11,
-          17,
-          33,
-          64,
-          68,
-          89,
-          157,
-          212,
-          220
-        ],
-        "ammunition": [
-          2,
-          3,
-          9,
-          13,
-          37
-        ]
-      },
-      "factions": []
-    },
-    {
-      "id": 11834,
-      "idArmy": 21834,
-      "canonical": 1,
-      "isc": "Yojimbo, Sword for Hire",
-      "iscAbbr": null,
-      "notes": "NOTE: There can only be 1 Yojimbo in each Army List. ",
-      "name": "YOJIMBO, Sword for Hire",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Yojimbo, Sword for Hire",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 24,
-              "move": [
-                15,
-                5
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 7,
-              "ava": 1,
-              "str": false,
-              "bs": 12,
-              "s": 2,
-              "equip": [],
-              "w": 1,
-              "ph": 14,
-              "name": "YOJIMBO, Sword for Hire",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/yojimbo-sword-for-hire-1-1.svg",
-              "id": 1,
-              "arm": 1,
-              "weapons": [],
-              "chars": [
-                1,
-                4,
-                6
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 22,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "id": 84,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    11
-                  ],
-                  "id": 40,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    49
-                  ],
-                  "id": 162,
-                  "order": 4
-                },
-                {
-                  "q": 1,
-                  "id": 56,
-                  "order": 5
-                },
-                {
-                  "q": 1,
-                  "id": 164,
-                  "order": 6
-                },
-                {
-                  "q": 1,
-                  "id": 264,
-                  "order": 7
-                },
-                {
-                  "q": 1,
-                  "id": 86,
-                  "order": 8
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 19,
-              "equip": [],
-              "name": "YOJIMBO",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "IRREGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "IMPETUOUS",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "extra": [
-                    8
-                  ],
-                  "id": 19,
-                  "order": 1
-                },
-                {
-                  "id": 65,
-                  "order": 2
-                },
-                {
-                  "id": 45,
-                  "order": 3
-                },
-                {
-                  "id": 20,
-                  "order": 4
-                },
-                {
-                  "id": 69,
-                  "order": 5
-                },
-                {
-                  "extra": [
-                    316
-                  ],
-                  "id": 11,
-                  "order": 6
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 10
-        }
-      ],
-      "options": [],
-      "slug": "merc-yojimbo-sword-for-hire",
-      "filters": {
-        "categories": [
-          10
-        ],
-        "skills": [
-          22,
-          40,
-          56,
-          84,
-          86,
-          162,
-          164,
-          264
-        ],
-        "equip": [],
-        "chars": [
-          1,
-          4,
-          6
-        ],
-        "types": [
-          7
-        ],
-        "weapons": [
-          11,
-          19,
-          20,
-          45,
-          65,
-          69
-        ],
-        "ammunition": [
-          2,
-          8,
-          9,
-          18,
-          21
-        ]
-      },
-      "factions": []
-    },
-    {
-      "id": 10122,
-      "idArmy": 10022,
-      "canonical": 1,
-      "isc": "CSU, Corporate Security Unit",
-      "iscAbbr": null,
-      "notes": null,
-      "name": "CSU, Corporate Security Unit",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "CSU, Corporate Security Unit",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 16,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 1,
-              "ava": 1,
-              "str": false,
-              "bs": 12,
-              "s": 2,
-              "equip": [],
-              "w": 1,
-              "ph": 10,
-              "name": "CSU, Corporate Security Unit",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/csu-corporate-security-unit-1-1.svg",
-              "id": 1,
-              "arm": 0,
-              "weapons": [],
-              "chars": [
-                1,
-                3,
-                5
-              ],
-              "wip": 12,
-              "skills": [
-                {
-                  "id": 55,
-                  "order": 2
-                },
-                {
-                  "id": 67,
-                  "order": 3
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 12,
-              "equip": [],
-              "name": "CSU",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 109,
-                  "order": 1
-                },
-                {
-                  "extra": [
-                    8
-                  ],
-                  "id": 65,
-                  "order": 1
-                },
-                {
-                  "id": 189,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    7
-                  ],
-                  "id": 71,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 11,
-              "equip": [],
-              "name": "CSU",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "id": 33,
-                  "order": 1
-                },
-                {
-                  "extra": [
-                    8
-                  ],
-                  "id": 65,
-                  "order": 2
-                },
-                {
-                  "id": 189,
-                  "order": 3
-                },
-                {
-                  "extra": [
-                    7
-                  ],
-                  "id": 71,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 11,
-              "equip": [],
-              "name": "CSU",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 3,
-              "weapons": [
-                {
-                  "id": 26,
-                  "order": 1
-                },
-                {
-                  "id": 189,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    8
-                  ],
-                  "id": 216,
-                  "order": 4
-                },
-                {
-                  "extra": [
-                    7
-                  ],
-                  "id": 71,
-                  "order": 5
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 11,
-              "equip": [],
-              "name": "CSU",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 4,
-              "weapons": [
-                {
-                  "id": 31,
-                  "order": 1
-                },
-                {
-                  "id": 28,
-                  "order": 2
-                },
-                {
-                  "id": 189,
-                  "order": 3
-                },
-                {
-                  "id": 65,
-                  "order": 5
-                },
-                {
-                  "extra": [
-                    7
-                  ],
-                  "id": 71,
-                  "order": 6
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "id": 189,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 14,
-              "equip": [],
-              "name": "CSU",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 5,
-              "weapons": [
-                {
-                  "id": 103,
-                  "order": 4
-                },
-                {
-                  "extra": [
-                    8
-                  ],
-                  "id": 65,
-                  "order": 1
-                },
-                {
-                  "id": 189,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    7
-                  ],
-                  "id": 71,
-                  "order": 5
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "id": 189,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 11
-        }
-      ],
-      "options": [],
-      "slug": "merc-csu-corporate-security-unit",
-      "filters": {
-        "categories": [
-          11
-        ],
-        "skills": [
-          55,
-          67,
-          189
-        ],
-        "equip": [],
-        "chars": [
-          1,
-          3,
-          5
-        ],
-        "types": [
-          1
-        ],
-        "weapons": [
-          26,
-          28,
-          31,
-          33,
-          65,
-          71,
-          103,
-          109,
-          189,
-          216
-        ],
-        "ammunition": [
-          2,
-          3,
-          8,
-          9,
-          37
-        ]
-      },
-      "factions": []
-    },
-    {
-      "id": 10491,
-      "idArmy": 10027,
-      "canonical": 1,
-      "isc": "Avicenna, Mercenary Doctor",
-      "iscAbbr": null,
-      "notes": null,
-      "name": "AVICENNA, Mercenary Doctor",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Avicenna, Mercenary Doctor",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 16,
-              "move": [
-                15,
-                5
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 1,
-              "ava": 1,
-              "str": false,
-              "bs": 11,
-              "s": 2,
-              "equip": [
-                {
-                  "id": 106,
-                  "order": 1
-                }
-              ],
-              "w": 1,
-              "ph": 11,
-              "name": "AVICENNA, Mercenary Doctor",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/avicenna-mercenary-doctor-1-1.svg",
-              "id": 1,
-              "arm": 2,
-              "weapons": [],
-              "chars": [
-                1,
-                3,
-                5
-              ],
-              "wip": 15,
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 84,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    319
-                  ],
-                  "id": 162,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    1
-                  ],
-                  "id": 53,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "id": 86,
-                  "order": 4
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 28,
-              "equip": [],
-              "name": "AVICENNA",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 33,
-                  "order": 1
-                },
-                {
-                  "id": 72,
-                  "order": 2
-                },
-                {
-                  "id": 69,
-                  "order": 3
-                },
-                {
-                  "id": 5,
-                  "order": 4
-                },
-                {
-                  "id": 65,
-                  "order": 5
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 10
-        }
-      ],
-      "options": [],
-      "slug": "merc-avicenna-mercenary-doctor",
-      "filters": {
-        "categories": [
-          10
-        ],
-        "skills": [
-          53,
-          84,
-          86,
-          162
-        ],
-        "equip": [
-          106
-        ],
-        "chars": [
-          1,
-          3,
-          5
-        ],
-        "types": [
-          1
-        ],
-        "weapons": [
-          5,
-          33,
-          65,
-          69,
-          72
-        ],
-        "ammunition": [
-          2,
-          29
         ]
       },
       "factions": []
@@ -16655,7 +16655,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 208
+                  "id": 84
                 }
               ]
             },
@@ -16719,7 +16719,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 208,
+                  "id": 84,
                   "q": 2
                 }
               ]
@@ -22875,7 +22875,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 209
+                  "id": 85
                 }
               ]
             }
@@ -23437,30 +23437,30 @@
   "filters": {
     "peripheral": [
       {
-        "id": 209,
+        "id": 85,
         "name": "BÂTARD",
         "mercs": true
       },
       {
-        "id": 208,
+        "id": 84,
         "name": "JACKBOT",
         "mercs": true
       },
       {
-        "id": 206,
+        "id": 82,
         "name": "MORIARTY"
       },
       {
-        "id": 205,
+        "id": 81,
         "name": "ROBBYBOT"
       },
       {
-        "id": 207,
+        "id": 83,
         "name": "TURTLEMEK",
         "mercs": true
       },
       {
-        "id": 204,
+        "id": 80,
         "name": "ZONDCAT"
       }
     ],
@@ -25264,6 +25264,66 @@
   },
   "resume": [
     {
+      "id": 421,
+      "isc": "Moran, Maasai Hunter",
+      "idArmy": 30,
+      "name": "MORAN, Maasai Hunter",
+      "slug": "moran-maasai-hunter",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/moran-maasai-hunter-1-1.svg",
+      "type": 6,
+      "category": 3
+    },
+    {
+      "id": 406,
+      "isc": "Clockmakers",
+      "idArmy": 15,
+      "name": "Bakunin CLOCKMAKERS",
+      "slug": "clockmakers",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/clockmakers-1-1.svg",
+      "type": 1,
+      "category": 8
+    },
+    {
+      "id": 1579,
+      "isc": "Lobos,  Correctional Response Group",
+      "idArmy": 1579,
+      "name": "LOBOS, Correctional Response Group",
+      "slug": "lobos-correctional-response-group",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/lobos-correctional-response-group-1-1.svg",
+      "type": 2,
+      "category": 3
+    },
+    {
+      "id": 425,
+      "isc": "Zondbots",
+      "idArmy": 34,
+      "name": "ZONDBOTS",
+      "slug": "zondbots",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/zondbots-1-1.svg",
+      "type": 5,
+      "category": 8
+    },
+    {
+      "id": 404,
+      "isc": "Corregidor Jaguars",
+      "idArmy": 13,
+      "name": "CORREGIDOR JAGUARS",
+      "slug": "corregidor-jaguars",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/corregidor-jaguars-1-1.svg",
+      "type": 7,
+      "category": 2
+    },
+    {
+      "id": 400,
+      "isc": "Corregidor Bandits",
+      "idArmy": 9,
+      "name": "CORREGIDOR BANDITS",
+      "slug": "corregidor-bandits",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/corregidor-bandits-1-1.svg",
+      "type": 6,
+      "category": 3
+    },
+    {
       "id": 395,
       "isc": "Intruders",
       "idArmy": 4,
@@ -25332,66 +25392,6 @@
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/kazuraba-ruby-monday-1-1.svg",
       "type": 3,
       "category": 11
-    },
-    {
-      "id": 421,
-      "isc": "Moran, Maasai Hunter",
-      "idArmy": 30,
-      "name": "MORAN, Maasai Hunter",
-      "slug": "moran-maasai-hunter",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/moran-maasai-hunter-1-1.svg",
-      "type": 6,
-      "category": 3
-    },
-    {
-      "id": 406,
-      "isc": "Clockmakers",
-      "idArmy": 15,
-      "name": "Bakunin CLOCKMAKERS",
-      "slug": "clockmakers",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/clockmakers-1-1.svg",
-      "type": 1,
-      "category": 8
-    },
-    {
-      "id": 1579,
-      "isc": "Lobos,  Correctional Response Group",
-      "idArmy": 1579,
-      "name": "LOBOS, Correctional Response Group",
-      "slug": "lobos-correctional-response-group",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/lobos-correctional-response-group-1-1.svg",
-      "type": 2,
-      "category": 3
-    },
-    {
-      "id": 425,
-      "isc": "Zondbots",
-      "idArmy": 34,
-      "name": "ZONDBOTS",
-      "slug": "zondbots",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/zondbots-1-1.svg",
-      "type": 5,
-      "category": 8
-    },
-    {
-      "id": 404,
-      "isc": "Corregidor Jaguars",
-      "idArmy": 13,
-      "name": "CORREGIDOR JAGUARS",
-      "slug": "corregidor-jaguars",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/corregidor-jaguars-1-1.svg",
-      "type": 7,
-      "category": 2
-    },
-    {
-      "id": 400,
-      "isc": "Corregidor Bandits",
-      "idArmy": 9,
-      "name": "CORREGIDOR BANDITS",
-      "slug": "corregidor-bandits",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/corregidor-bandits-1-1.svg",
-      "type": 6,
-      "category": 3
     },
     {
       "id": 1543,
@@ -25644,6 +25644,56 @@
       "category": 11
     },
     {
+      "id": 10378,
+      "isc": "Yuan Yuan",
+      "idArmy": 10011,
+      "name": "YUAN YUAN",
+      "slug": "merc-yuan-yuan",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/yuan-yuan-1-1.svg",
+      "type": 7,
+      "category": 11
+    },
+    {
+      "id": 10380,
+      "isc": "Scarface & Cordelia",
+      "idArmy": 10013,
+      "name": "SCARFACE & CORDELIA, MERCENARY ARMORED TEAM",
+      "slug": "merc-scarface-and-cordelia",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/scarface-and-cordelia-1-1.svg",
+      "type": 4,
+      "category": 10
+    },
+    {
+      "id": 11834,
+      "isc": "Yojimbo, Sword for Hire",
+      "idArmy": 21834,
+      "name": "YOJIMBO, Sword for Hire",
+      "slug": "merc-yojimbo-sword-for-hire",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/yojimbo-sword-for-hire-1-1.svg",
+      "type": 7,
+      "category": 10
+    },
+    {
+      "id": 10122,
+      "isc": "CSU, Corporate Security Unit",
+      "idArmy": 10022,
+      "name": "CSU, Corporate Security Unit",
+      "slug": "merc-csu-corporate-security-unit",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/csu-corporate-security-unit-1-1.svg",
+      "type": 1,
+      "category": 11
+    },
+    {
+      "id": 10491,
+      "isc": "Avicenna, Mercenary Doctor",
+      "idArmy": 10027,
+      "name": "AVICENNA, Mercenary Doctor",
+      "slug": "merc-avicenna-mercenary-doctor",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/avicenna-mercenary-doctor-1-1.svg",
+      "type": 1,
+      "category": 10
+    },
+    {
       "id": 11344,
       "isc": "Laxmee, Hacker of Fortune",
       "idArmy": 10039,
@@ -25732,56 +25782,6 @@
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/beasthunters-free-guild-null-1.svg",
       "type": 6,
       "category": 11
-    },
-    {
-      "id": 10378,
-      "isc": "Yuan Yuan",
-      "idArmy": 10011,
-      "name": "YUAN YUAN",
-      "slug": "merc-yuan-yuan",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/yuan-yuan-1-1.svg",
-      "type": 7,
-      "category": 11
-    },
-    {
-      "id": 10380,
-      "isc": "Scarface & Cordelia",
-      "idArmy": 10013,
-      "name": "SCARFACE & CORDELIA, MERCENARY ARMORED TEAM",
-      "slug": "merc-scarface-and-cordelia",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/scarface-and-cordelia-1-1.svg",
-      "type": 4,
-      "category": 10
-    },
-    {
-      "id": 11834,
-      "isc": "Yojimbo, Sword for Hire",
-      "idArmy": 21834,
-      "name": "YOJIMBO, Sword for Hire",
-      "slug": "merc-yojimbo-sword-for-hire",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/yojimbo-sword-for-hire-1-1.svg",
-      "type": 7,
-      "category": 10
-    },
-    {
-      "id": 10122,
-      "isc": "CSU, Corporate Security Unit",
-      "idArmy": 10022,
-      "name": "CSU, Corporate Security Unit",
-      "slug": "merc-csu-corporate-security-unit",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/csu-corporate-security-unit-1-1.svg",
-      "type": 1,
-      "category": 11
-    },
-    {
-      "id": 10491,
-      "isc": "Avicenna, Mercenary Doctor",
-      "idArmy": 10027,
-      "name": "AVICENNA, Mercenary Doctor",
-      "slug": "merc-avicenna-mercenary-doctor",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/avicenna-mercenary-doctor-1-1.svg",
-      "type": 1,
-      "category": 10
     },
     {
       "id": 11555,

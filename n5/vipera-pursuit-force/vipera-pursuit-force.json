@@ -1,5 +1,5 @@
 {
-  "version": "7.25288.295",
+  "version": "7.25289.466",
   "units": [
     {
       "id": 1741,
@@ -2274,390 +2274,6 @@
       ]
     },
     {
-      "id": 1744,
-      "idArmy": 1744,
-      "canonical": 599,
-      "isc": "Reinf. Kulak Payback Unit",
-      "iscAbbr": null,
-      "name": "REINF: KULAK Payback Unit",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Reinf. Kulak Payback Unit",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 18,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 2,
-              "ava": 4,
-              "str": false,
-              "bs": 13,
-              "s": 2,
-              "equip": [],
-              "w": 1,
-              "ph": 11,
-              "name": "REINF: KULAK Payback Unit",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-kulak-payback-unit-1-1.svg",
-              "id": 1,
-              "arm": 2,
-              "weapons": [],
-              "chars": [
-                1,
-                3,
-                5
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "q": 1,
-                  "extra": [
-                    30
-                  ],
-                  "id": 201,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    30
-                  ],
-                  "id": 162,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    6
-                  ],
-                  "id": 28,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    33
-                  ],
-                  "id": 58,
-                  "order": 4
-                },
-                {
-                  "q": 1,
-                  "id": 83,
-                  "order": 5
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 20,
-              "equip": [],
-              "name": "KULAK REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 89,
-                  "order": 1
-                },
-                {
-                  "extra": [
-                    8
-                  ],
-                  "id": 145,
-                  "order": 2
-                },
-                {
-                  "id": 189,
-                  "order": 3
-                },
-                {
-                  "id": 5,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "1",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 24,
-              "equip": [],
-              "name": "KULAK REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "extra": [
-                    8
-                  ],
-                  "id": 33,
-                  "order": 1
-                },
-                {
-                  "id": 145,
-                  "order": 2
-                },
-                {
-                  "id": 69,
-                  "order": 3
-                },
-                {
-                  "id": 5,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "0.5",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 23,
-              "equip": [],
-              "name": "KULAK REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 3,
-              "weapons": [
-                {
-                  "id": 17,
-                  "order": 2
-                },
-                {
-                  "id": 5,
-                  "order": 4
-                },
-                {
-                  "extra": [
-                    8
-                  ],
-                  "id": 26,
-                  "order": 1
-                },
-                {
-                  "extra": null,
-                  "id": 69,
-                  "order": 5
-                }
-              ],
-              "chars": [],
-              "swc": "0.5",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 26,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 20,
-              "equip": [
-                {
-                  "q": 1,
-                  "extra": [
-                    13
-                  ],
-                  "id": 145,
-                  "order": 1
-                }
-              ],
-              "name": "KULAK REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 5,
-              "weapons": [
-                {
-                  "id": 214,
-                  "order": 1
-                },
-                {
-                  "id": 17,
-                  "order": 2
-                },
-                {
-                  "id": 174,
-                  "order": 3
-                },
-                {
-                  "id": 208,
-                  "order": 4
-                },
-                {
-                  "id": 69,
-                  "order": 5
-                },
-                {
-                  "id": 5,
-                  "order": 6
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 1000,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 19,
-              "equip": [],
-              "name": "KULAK REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 6,
-              "weapons": [
-                {
-                  "extra": [
-                    8
-                  ],
-                  "id": 26,
-                  "order": 1
-                },
-                {
-                  "id": 72,
-                  "order": 2
-                },
-                {
-                  "id": 17,
-                  "order": 3
-                },
-                {
-                  "id": 69,
-                  "order": 4
-                },
-                {
-                  "id": 5,
-                  "order": 5
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 59,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 4
-        }
-      ],
-      "options": [],
-      "slug": "reinf-kulak-payback-unit",
-      "filters": {
-        "categories": [
-          4
-        ],
-        "skills": [
-          26,
-          28,
-          58,
-          59,
-          83,
-          162,
-          201,
-          1000
-        ],
-        "equip": [
-          145
-        ],
-        "chars": [
-          1,
-          3,
-          5
-        ],
-        "types": [
-          2
-        ],
-        "weapons": [
-          5,
-          17,
-          26,
-          33,
-          69,
-          72,
-          89,
-          145,
-          174,
-          189,
-          208,
-          214
-        ],
-        "ammunition": [
-          2,
-          3,
-          8,
-          9,
-          13,
-          29
-        ]
-      },
-      "factions": [
-        599
-      ]
-    },
-    {
       "id": 1737,
       "idArmy": 1737,
       "canonical": 599,
@@ -3023,7 +2639,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 196
+                  "id": 63
                 }
               ]
             },
@@ -3079,7 +2695,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 196
+                  "id": 63
                 }
               ]
             }
@@ -3502,12 +3118,395 @@
       "factions": [
         599
       ]
+    },
+    {
+      "id": 1744,
+      "idArmy": 1744,
+      "canonical": 599,
+      "isc": "Reinf. Kulak Payback Unit",
+      "iscAbbr": null,
+      "name": "REINF: KULAK Payback Unit",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Reinf. Kulak Payback Unit",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 18,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 2,
+              "ava": 4,
+              "str": false,
+              "bs": 13,
+              "s": 2,
+              "equip": [],
+              "w": 1,
+              "ph": 11,
+              "name": "REINF: KULAK Payback Unit",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-kulak-payback-unit-1-1.svg",
+              "id": 1,
+              "arm": 2,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                5
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "q": 1,
+                  "extra": [
+                    30
+                  ],
+                  "id": 201,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    30
+                  ],
+                  "id": 162,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    6
+                  ],
+                  "id": 28,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    33
+                  ],
+                  "id": 58,
+                  "order": 4
+                },
+                {
+                  "q": 1,
+                  "id": 83,
+                  "order": 5
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 20,
+              "equip": [],
+              "name": "KULAK REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 89,
+                  "order": 1
+                },
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 145,
+                  "order": 2
+                },
+                {
+                  "id": 189,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "1",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 21,
+              "equip": [],
+              "name": "KULAK REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 33,
+                  "order": 1
+                },
+                {
+                  "id": 145,
+                  "order": 2
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0.5",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 23,
+              "equip": [],
+              "name": "KULAK REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 3,
+              "weapons": [
+                {
+                  "id": 17,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                },
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 26,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0.5",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 26,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 20,
+              "equip": [
+                {
+                  "q": 1,
+                  "extra": [
+                    13
+                  ],
+                  "id": 145,
+                  "order": 1
+                }
+              ],
+              "name": "KULAK REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 5,
+              "weapons": [
+                {
+                  "id": 214,
+                  "order": 1
+                },
+                {
+                  "id": 17,
+                  "order": 2
+                },
+                {
+                  "id": 174,
+                  "order": 3
+                },
+                {
+                  "id": 208,
+                  "order": 4
+                },
+                {
+                  "id": 69,
+                  "order": 5
+                },
+                {
+                  "id": 5,
+                  "order": 6
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 1000,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 19,
+              "equip": [],
+              "name": "KULAK REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 6,
+              "weapons": [
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 26,
+                  "order": 1
+                },
+                {
+                  "id": 72,
+                  "order": 2
+                },
+                {
+                  "id": 17,
+                  "order": 3
+                },
+                {
+                  "id": 69,
+                  "order": 4
+                },
+                {
+                  "id": 5,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 59,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 4
+        }
+      ],
+      "options": [],
+      "slug": "reinf-kulak-payback-unit",
+      "filters": {
+        "categories": [
+          4
+        ],
+        "skills": [
+          26,
+          28,
+          58,
+          59,
+          83,
+          162,
+          201,
+          1000
+        ],
+        "equip": [
+          145
+        ],
+        "chars": [
+          1,
+          3,
+          5
+        ],
+        "types": [
+          2
+        ],
+        "weapons": [
+          5,
+          17,
+          26,
+          33,
+          69,
+          72,
+          89,
+          145,
+          174,
+          189,
+          208,
+          214
+        ],
+        "ammunition": [
+          2,
+          3,
+          8,
+          9,
+          13,
+          29
+        ]
+      },
+      "factions": [
+        599
+      ]
     }
   ],
   "filters": {
     "peripheral": [
       {
-        "id": 196,
+        "id": 63,
         "name": "ROBBYBOT"
       }
     ],
@@ -4476,16 +4475,6 @@
       "category": 8
     },
     {
-      "id": 1744,
-      "isc": "Reinf. Kulak Payback Unit",
-      "idArmy": 1744,
-      "name": "REINF: KULAK Payback Unit",
-      "slug": "reinf-kulak-payback-unit",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-kulak-payback-unit-1-1.svg",
-      "type": 2,
-      "category": 4
-    },
-    {
       "id": 1737,
       "isc": "Reinf. Lunokhod Sputniks ",
       "idArmy": 1737,
@@ -4513,6 +4502,16 @@
       "slug": "reinf-casino-security-rounders",
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-casino-security-rounders-1-1.svg",
       "type": 1,
+      "category": 4
+    },
+    {
+      "id": 1744,
+      "isc": "Reinf. Kulak Payback Unit",
+      "idArmy": 1744,
+      "name": "REINF: KULAK Payback Unit",
+      "slug": "reinf-kulak-payback-unit",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-kulak-payback-unit-1-1.svg",
+      "type": 2,
       "category": 4
     }
   ],
