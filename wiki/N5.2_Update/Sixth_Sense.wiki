@@ -1,0 +1,64 @@
+{{n5-section-special-skills}}
+
+
+Troopers with this Special Skill have an uncanny ability to sense imminent threats. This Sixth Sense is either an instinctive skill, or the result of a pseudo-AI designed for threat detection and appraisal that senses immediate dangers. Troopers with Sixth Sense are able to perceive the aggression level and hostile intent of their enemies without needing to see them, allowing them to respond swiftly to any attack.
+
+{{css_skillbox |black| SIXTH SENSE | AUTOMATIC SKILL }}
+{{skill-label | Optional }}
+{{effects}}
+* Allows the user to respond to [[Attack]]s (and only Attacks) directed at them by enemies outside their [[LoF]]. For the purposes of drawing Line of Fire to the attackers, the user has a 360&deg; LoF arc, and if they are in [[Engaged State]], they can draw LoF to attackers outside their Close Combat.
+* If the user is the target of a [[BS Attack]] through a [[Zero Visibility Zone]], they ignore the -6 MOD from the resulting [[Poor Visibility Zone]].
+* If the user declares [[Dodge]] or [[Reset]], no negative MODs are applied, with the exception of the -6 PH MOD for [[Immobilized-A State]], the -3 WIP MOD for [[Immobilized-B State]], and the -9 WIP MOD for [[Isolated State]].
+{{css_skillbox-end}}
+
+
+{{important-start}}
+The [[Stealth]] Special Skill is not effective against Troopers with Sixth Sense.
+{{important-end}}
+
+
+{{remember-start}}
+A successful [[Dodge]] can cancel [[Engaged State]] if the Trooper can reach a valid position that is outside [[Silhouette contact]].{{remember-end}}
+
+
+{{see-also-start}}
+'''[[Combat Instinct]]''' allows the user ignores Surprise Attack MODs from attackers. In N4 this was part of the Sixth Sense Special Skill.
+{{see-also-end}}
+
+
+{{greybox-start | Sixth Sense Example }}
+
+{{image | name=n5/eng-sixth-sense-example-1.jpg | style=fullborder }}
+
+During his Active Turn, a Trooper advances in cover behind a [[Smoke]] Template. There are no [[ARO]]s to his advance because the first enemy does not have [[LoF]] due to the Smoke and the second enemy is [[Engaged]] in Close Combat with another Trooper.
+
+With the second Skill of their Order, the {{erratahighlight}}Active{{erratahighlight-end}} Trooper decides to declare [[BS Attack]] against the second enemy, so he must apply the MOD for a BS Attack into a Close Combat.
+
+As the second enemy has Sixth Sense and is the target of an Attack, he can declare [[Dodge]] as his ARO if he wants to avoid the {{erratahighlight}}Active{{erratahighlight-end}} Trooper’s shots.
+
+{{minorchange|October 2025|N5.2}}
+{{greybox-end}}
+
+
+== FAQs ==
+
+{{faqbox |
+type = faq |
+title = N5 FAQ |
+version = 0.0.0, Oct 2025 |
+q = Q: How do Sixth Sense, Zero Visibility Zones and Multipectral Visor Level 1 interact? |
+a = A: If the Trooper with Multispectral Visor Level 1 and Sixth Sense is the target of a BS Attack through a Zero Visibility Zone, they ignore the -6 MOD for drawing LoF through the Zero Visibility Zone. |
+related = [[Multispectral Visor]], [[Sixth Sense]], [[Visibility Conditions]] }}
+
+
+
+{{n5-section-special-skills}}
+
+
+
+[[Category:Special Skills]]
+
+<!-- Label and Trait categories. -->
+[[Category: Optional ]]
+
+[[Category: N5.2 Update]]

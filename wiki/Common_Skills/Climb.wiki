@@ -27,7 +27,12 @@ Players must check the Requirements of this Skill when declaring it.
 * Troopers cannot be deployed on a vertical surface, neither during the [[Deployment Phase]] nor during the game.
 * As long as a Trooper is holding on to a vertical surface, they cannot declare any Skills other than Climb.
 * A Trooper who is Climbing or holding onto a vertical surface and becomes [[Unconscious]] will place the corresponding State Token beside them as usual. Even while climbing, Unconscious Troopers are still in [[Prone State]], except for those Unit Types that cannot enter Prone State.
-* A Trooper who is Climbing or holding onto a vertical surface cannot benefit from [[Partial Cover]] MODs.
+{{update | PDF 5.2, October 2025}}
+* A Trooper who is {{erratahighlight}}on{{erratahighlight-end}} a vertical surface cannot benefit from [[Partial Cover]] MODs.
+{{update-end}}
+{{original}}
+* A Trooper who is {{originalhighlight}}Climbing or holding onto{{originalhighlight-end}} a vertical surface cannot benefit from [[Partial Cover]] MODs.
+{{original-end}}
 {{important-end}}
 
 
@@ -67,7 +72,12 @@ Before the game begins, it is a good idea for both players to agree on which sur
 
 == Examples ==
 {{greybox-start | Climb Example 1}}
+{{update | PDF 5.2, October 2025}}
+{{image | name=n5/eng-climb-example-1v52.jpg | style=fullborder }}
+{{update-end}}
+{{original}}
 {{image | name=n5/eng-climb-example-1v2.jpg | style=fullborder }}
+{{original-end}}
 
 A Trooper that is in [[Silhouette contact]] with an obstacle declares the Climb Skill. When measuring, the player finds that the distance the Trooper needs to Climb is shorter than the maximum distance for this Skill (6 inches= their first [[MOV]] value of 4, + 2 inches = 6 inches). Hence, it is enough to Climb the obstacle and move onto its upper surface. Even though the 6 inches granted by the Climb Skill exceeds the distance that needs to be Climbed, the Trooper must finish their movement as soon as the whole of their base is in contact with the upper surface of the obstacle. 
 {{greybox-end}}
@@ -84,6 +94,28 @@ Remember that a Trooper '''will end their Climb movement''' the moment the whole
 {{greybox-end}}
 
 
+{{update | PDF 5.2, October 2025}}
+{{greybox-start | Climb Example 3}}
+{{image | name=n5/eng-climb-example-3.jpg | style= fullborder }}
+
+{{erratahighblock}}
+A Trooper declares the Climb Skill and moves until they are on the horizontal surface. At that moment, an enemy Trooper gains [[LoF]] to the Active Trooper and declares a [[BS Attack]] [[ARO]]. Although the enemy cannot fully see the Active Trooper, they do not apply MODs for [[Partial Cover]] since their target is performing the Climb Skill so cannot benefit from Partial Cover MODs.
+{{erratahighblock-end}}
+{{greybox-end}}
+{{update-end}}
+
+
+== FAQs ==
+
+{{faqbox |
+type = faq |
+title = N5 FAQ |
+version = 0.0.0, Oct 2025 |
+q = Q: Can you vault while Climbing or Jumping? |
+a = A: Yes. Climb and Jump follow the General Movement Rules, including vaulting. |
+related = [[Climb]], [[Climbing Plus]], [[General Movement Rules]], [[Jump]], [[Super-Jump]] }}
+
+
 
 {{n5-section-movement-module}}
 {{n5-section-common-skills}}
@@ -97,3 +129,5 @@ Remember that a Trooper '''will end their Climb movement''' the moment the whole
 [[Category: Movement]]
 [[Category: No LoF]]
 [[Category: No Roll]]
+
+[[Category: N5.2 Update]]

@@ -1,0 +1,88 @@
+{{n5-section-special-skills}}
+
+
+Troopers with this Special Skill have the medical know-how to stabilize their unconscious comrades while in the field, saving their lives and returning them to active duty.
+
+{{css_skillbox |green| DOCTOR | SHORT SKILL }}
+{{skill-label | Optional }}
+{{requirements}}
+* Troopers using this Special Skill must be in [[Silhouette contact]] with their target.
+* The target must have the [[Vitality]] Attribute and be in [[Unconscious State]].
+{{effects}}
+* By passing a [[Normal]] [[WIP]] Roll, the target's Unconscious State is cancelled, by removing 1 single [[Wound]] from those it has received, unless a rule or Skill specified otherwise. If the WIP Roll fails, the target automatically enters the [[Dead State]] and is removed from the game table.
+* Troopers may be recovered from the Unconscious State as many times as necessary, as long as the Doctor passes the '''WIP''' Roll.
+{{update | PDF 5.2, October 2025}}
+* {{erratahighlight}}A Trooper with the Doctor Special Skill can use it on themselves, to cancel any states that can be canceled by Doctor. However, this cannot be done if the Trooper is in a [[Null]] State.{{erratahighlight-end}} 
+* This Skill may present the following variations in the Unit Profile:
+** '''Doctor (2W):''' Allows the target to remove 2 Wounds when their Unconscious State is cancelled. 
+** '''Doctor (ReRoll {{erratahighlight}}WIP=X{{erratahighlight-end}}):''' Once per Order, any failed Roll with this Skill may be rerolled, but {{erratahighlight}}applying the WIP Attribute indicated between brackets{{erratahighlight-end}}. The player must accept the result of this last Roll. This reroll does not provide a new ARO to the enemy.
+{{update-end}}
+{{original}}
+* This Skill may present the following variations in the Unit Profile:
+** '''Doctor (2W):''' Allows the target to remove 2 Wounds when their Unconscious State is cancelled. 
+** '''Doctor (ReRoll {{originalhighlight}}-X{{originalhighlight-end}}):''' Once per Order, any failed Roll with this Skill may be rerolled, but {{originalhighlight}}with a negative MOD (-X) to the WIP Attribute{{originalhighlight-end}}. The player must accept the result of this last Roll. This reroll does not provide a new [[ARO]] to the enemy.
+{{original-end}}
+{{css_skillbox-end}}
+
+
+{{important-start}}
+{{update | PDF 5.2, October 2025}}
+Even if the player failed the roll granted by {{erratahighlight}}Doctor (ReRoll WIP=X){{erratahighlight-end}}, they could still apply the Operational Use of the [[Command Tokens]] to repeat a Doctor’s WIP Roll. 
+
+However, the {{erratahighlight}}WIP Attribute value provided by{{erratahighlight-end}} the Doctor (ReRoll {{erratahighlight}}WIP=X{{erratahighlight-end}}) Skill does not apply when repeating this Roll.
+{{update-end}}
+{{original}}
+Even if the player failed the roll granted by {{originalhighlight}}(ReRoll -X){{originalhighlight-end}}, they could still apply the Operational Use of the [[Command Tokens]] to repeat a Doctor’s WIP Roll. 
+
+However, the {{originalhighlight}}negative MOD of{{originalhighlight-end}} the Doctor (ReRoll {{originalhighlight}}-X{{originalhighlight-end}}) Skill does not apply when repeating this Roll.
+{{original-end}} 
+{{important-end}}
+
+
+{{see-also-start}}
+Doctor can be used to cancel these States:
+
+'''[[Unconscious]] State'''
+* A [[Wound]] is removed from the Trooper, leaving them with less Wounds than their [[VITA]]/[[STR]] Attribute value.
+* [[Doctors]] can remove Wounds from Troopers with the VITA Attribute, while [[Engineers]] can remove Wounds from Troopers with the STR Attribute. In both cases, the Wound is removed by performing the Doctor/Engineer Special Skill while in [[Silhouette contact]] with the affected Trooper, and passing a [[Normal]] [[WIP]] Roll (or the Roll specified by the Special Skill or Scenario).
+
+
+'''[[Stunned]] State''' (target does not need to be Unconscious)
+* To cancel this state, Troopers with the '''[[Vitality]] (VITA)''' Attribute require a [[Doctor]] while Troopers with the '''[[Structure]] (STR)''' Attribute require an [[Engineer]].
+* A Trooper with the '''Doctor/Engineer''' Special Skill (or an equivalent Skill) may cancel this state by spending one [[Short Skill]] of an [[Trooper Activation | Order]] while in [[Silhouette contact]] with the affected Trooper and passing a [[Normal]] [[WIP]] Roll (or the Roll specified by the Special Skill or Scenario). 
+{{see-also-end}}
+
+
+{{see-also-start}}
+'''[[Command Tokens#Command Tokens: Operational Use | Command Tokens: Operational Use]]''' and '''[[Cube]]s'''
+
+If the target has a Cube, Command Tokens can be expended to reroll failed Doctor Rolls.
+
+
+'''[[Technorganic]]'''
+* The Unconscious State of the Trooper can be cancelled by using either the [[Doctor]] or [[Engineer]] Skill, or the [[MediKit]] or [[GizmoKit]] pieces of Equipment, regardless of whether they have the [[VITA]] or [[STR]] Attribute. 
+
+
+'''[[Order Expenditure Sequence]]'''
+{{update | PDF 5.2, October 2025}}
+{{Important-start}}
+{{erratahighblock}}
+If a Trooper receives and removes [[Wound]]s or [[States]] in the same Order, the positive effect is always applied first, followed by the negative effect. 
+
+For example, if an [[Engineer]] cancels a Trooper’s [[IMM-A]] State at the same time that the same Trooper is hit by a Riotstopper, the Engineer’s WIP Roll to cancel the Trooper’s IMM-A State is made first, then the Trooper makes their PH-6 [[Saving Roll]] against the Riotstopper’s [[PARA]] Special Ammunition. In this way, the original IMM-A Status could be canceled and a new one inflicted in the same Order.{{erratahighblock-end}}
+{{Important-end}}
+{{update-end}}
+{{see-also-end}}
+
+
+
+{{n5-section-special-skills}}
+
+
+
+[[Category:Special Skills]]
+
+<!-- Label and Trait categories. -->
+[[Category: Optional ]]
+
+[[Category: N5.2 Update]]

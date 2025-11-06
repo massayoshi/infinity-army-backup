@@ -4,13 +4,14 @@
 A two-use Disposable BS support weapon that allows Speculative Attacks, uses the BS Attribute, and fires Disco Balls, light-emitting jamming devices.
 
 {{css_skillbox |black| DISCO BALL }}
-{{skill-label | BS Attack, Disposable (2), Targetless. }}
+{{weapon-label | BS Attack, Disposable (2), Targetless. }}
 {{effects}}
-* You do not need a target for the Disco Baller, simply choose the desired location and make the corresponding Roll. If you pass the Roll, a Disco Ball is successfully deployed in the location, placing a Disco Ball Miniature or Token in the [[Conclusion]] step of the Order.
+* You do not need a target for the Disco Baller, simply choose the desired location and make the corresponding {{erratahighlight}}non Face to Face Normal BS{{erratahighlight-end}} Roll. If you pass the Roll, a Disco Ball is successfully deployed in the location, placing a Disco Ball Miniature or Token in the [[Conclusion]] step of the Order.
 * After placing the Disco Ball, place an '''[[Eclipse]]''' Special Ammo Circular Template, centered on the Disco Ball. 
 * At the start of the [[States Phase]], the Disco Ball deactivates. Remove the Circular Template.
 * Deactivated Disco Balls can be reactivated using the Activate Disco Ball Skill. 
 * A deployed Disco Ball remains on the table until the end of the game, or until it is destroyed.
+{{minorchange|October 2025|N5.2}}
 {{css_skillbox-end}}
 
 
@@ -39,7 +40,23 @@ A two-use Disposable BS support weapon that allows Speculative Attacks, uses the
 * The [[Range]] MODs of the Deactivator are applied to the Roll.
 * If the Roll is successful, in the [[Conclusion]] Step of the Order place the [[Eclipse]] Special Ammo Circular Template, centered on the Disco Ball Model or Token. 
 * At the start of the [[States Phase]], the Disco Ball deactivates. Remove the Circular Template. 
+{{update | PDF 5.2, October 2025}}
+* {{erratahighlight}}If the DiscoBall is destroyed remove the Circular Template from the game table.{{erratahighlight-end}}
+{{update-end}}
 {{css_skillbox-end}}
+
+
+==FAQs==
+
+{{faqbox |
+type = faq |
+title = N5 FAQ |
+version = 0.0.0, Oct 2025 |
+q = Q: When using Place Deployable and declaring where the Deployable will be placed, what happens if a Trooper moves into that space before the Conclusion of the Order? |
+a = A: The Trooper that declared Place Deployable may place the Deployable in a different position (still following the Place Deployable rule), and if this is not possible, the Deployable will be lost.
+
+This also applies to weapons that place a Deployable Weapon or Equipment on a successful Roll, such as Disco Ballers, Pitchers, and Drop Bears (BS Mode). |
+related = [[Disco Baller]], [[Drop Bears]], [[Mine Dispenser]], [[Pitcher]], [[Place Deployable]] }}
 
 
 
@@ -54,3 +71,5 @@ A two-use Disposable BS support weapon that allows Speculative Attacks, uses the
 [[Category: Disposable ]]
 [[Category: Targetless ]]
 [[Category: Double Shot ]]
+
+[[Category: N5.2 Update]]

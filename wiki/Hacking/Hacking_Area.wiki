@@ -12,12 +12,26 @@ Enemies entering or acting inside the Hacking Area of a [[Hacker]] while remaini
 In the ARO Check steps of the [[Order Expenditure Sequence]], players can check if the Active Trooper is inside any Reactive Troopers’ Hacking Areas. Measurements must always be made from the Active Trooper, checking a maximum of 8 inches from any point along their path, and from the Active Trooper’s [[Repeater]]s. If the measurements show that the Active Trooper is within the Hacking Area of the Reactive Trooper, they can declare an ARO.
 
 
-==[[HoloMask]] and Hacking Area==
+==[[HoloMask State | HoloMask]] and Hacking Area==
 When using an [[Enemy]] [[Repeater]] to include an Enemy Trooper in the Hacking Area, any [[ARO]] or [[Hacking Program]] against a Trooper who does not have the [[Hacker]] Special Skill on their real [[Unit Profile]] will fail its Requirements in the [[Resolution]] step of the Order, and instead an [[Idle]] will be performed. This will reveal that the Enemy Trooper is not a Hacker.
 
 
-==[[HoloMask]] and Repeater==
+==[[HoloMask State | HoloMask]] and Repeater==
 Similarly, when using an [[Enemy]] Trooper’s [[Repeater]], if that Trooper is in [[HoloMask State]] and does not have a Repeater on their real [[Unit Profile]] then any [[ARO]] or [[Hacking Program]] using their fake Repeater will fail its Requirements in the [[Resolution]] step of the Order, and instead an [[Idle]] will be performed. This will reveal that the Enemy Trooper does not have a Repeater.
+
+
+{{see-also-start}}
+{{update | PDF 5.2, October 2025}}
+'''[[HoloMask State]]'''
+* {{erratahighlight}}'''Restriction''': Troopers in HoloMask State cannot replicate the [[Hacker]]/[[Hackable]] status of the imitated Trooper. For example, even if they are imitating a Hacker or a Hackable Trooper, if they enter or are in the enemy's [[Hacking Area]], the player must declare their lack of Hacker/Hackable status.
+{{erratahighlight-end}}
+{{update-end}}
+
+
+'''[[Cautious Movement]]'''
+* '''Restriction. '''For the Cautious Movement of a '''[[Hackable]] Trooper in [[Model]] form''' to generate no AROs, it must also begin and end at two points on the game table that lie outside the [[Hacking Area]] of any [[enemy]] [[Hacker]]s.
+* If a '''Hackable Trooper is in Model form''' and its Cautious Movement begins or ends inside the Hacking Area of any enemy Hackers, the Trooper generates AROs as usual. <br>If a '''non'''-Hackable Trooper is in Model form and its Cautious Movement begins or ends inside the Hacking Area of any enemy Hackers, this does '''not''' cause the Trooper to generate AROs.
+{{see-also-end}}
 
 
 == Examples ==
@@ -29,21 +43,28 @@ The [[Hacker]] may use their [[Hacking Program]]s in the area that includes the 
 
 
 {{greybox-start | Example of Hacking Area and AROs Through Repeaters }}
-{{important-start}}
-This example is currently '''out of date'''.
-{{important-end}}
-
 {{image | name=n5/eng-hacking-area-example-aros.jpg | style=fullborder }}
 
 For the sake of simplicity, in this example, the Stealth Special Skill is not being used.
 
 During his Active Turn, a Hacker decides to declare Idle as the first Basic Short Skill of the Order. As shown in the picture, he is outside his enemies' LoF and ZoC, but since he is a Hacker, he can use the Deployable Repeater and a Trooper with the Repeater piece of Equipment to increase his Hacking Area, allowing him to act from his current position.
 
-Therefore, since the Hacker is within the Hacking Area of the Enemy Hacker, the enemy declares his ARO: Oblivion.
+{{update | PDF 5.2, October 2025}}
+Therefore, since the {{erratahighlight}}Active{{erratahighlight-end}} Hacker is within the Hacking Area of the Enemy Hacker, {{erratahighlight}}this one{{erratahighlight-end}} declares his ARO: Oblivion. 
 
-As the Enemy Heavy Infantry is in the Active Trooper's Hacking Area, they can declare an ARO, choosing to declare a Reset.
+{{erratahighlight}}The Enemy Heavy Infantry (HI) cannot declare an ARO as the Active Hacker is outside their LoF and ZoC.{{erratahighlight-end}} 
+
+The second Skill of the {{erratahighlight}}Active{{erratahighlight-end}} Hacker is Carbonite, dividing his B2 between the Enemy Heavy Infantry and the enemy Hacker.
+
+{{erratahighlight}}As the Enemy Heavy Infantry has been targeted by a Hacking Program (a Comms Attack), they can declare an ARO, choosing to declare a Reset.{{erratahighlight-end}}
+{{update-end}}
+{{original}}
+Therefore, since the Hacker is within the Hacking Area of the Enemy Hacker, {{originalhighlight}}the enemy{{originalhighlight-end}} declares his ARO: Oblivion.
+
+{{originalhighlight}}As the Enemy Heavy Infantry is in the Active Trooper's Hacking Area, they can declare an ARO, choosing to declare a Reset.{{originalhighlight-end}}
 
 The second Skill of the Hacker is Carbonite, dividing his B2 between the Enemy Heavy Infantry and the enemy Hacker.
+{{original-end}}
 
 The following Face to Face Rolls occur:
 
@@ -78,3 +99,5 @@ The Enemy Hacker may declare an ARO only if the Camouflaged Marker reveals thems
 
 
 [[Category: Hacking]]
+
+[[Category: N5.2 Update]]

@@ -1,10 +1,15 @@
 {{n5-section-equipment}}
 
 
-Special piece of Equipment that allows other Models to regain consciousness.
+{{update | PDF 5.2, October 2025}}
+{{erratahighlight}}Special Equipment that allows recovery of Models with the [[VITA]] Attribute from the [[Unconscious]] state.{{erratahighlight-end}}
+{{update-end}}
+{{original}}
+{{originalhighlight}}Special piece of Equipment that allows other Models to regain consciousness.{{originalhighlight-end}}
+{{original-end}}
 
 {{css_skillbox |green| MEDIKIT | SHORT SKILL }}
-{{skill-label | Non-Lethal }}
+{{weapon-label | Non-Lethal }}
 {{requirements}}
 * A MediKit's target must be an [[Allied]] Model with the [[VITA]] Attribute and in [[Unconscious State]], unless certain scenario rules say otherwise.
 * A MediKit can be used in one of two ways, each one with their own Requirements:
@@ -18,6 +23,12 @@ Special piece of Equipment that allows other Models to regain consciousness.
 * The target of a MediKit does not perform a [[Saving Roll]].
 * A MediKit can be used as many times as necessary to cancel a Trooper's Unconscious State, as long as they pass the corresponding PH Roll.
 * If, due to a Special Skill or rule, a Trooper receives more than one successful hit or use of MediKit during the same Order, if any of the corresponding PH Rolls is successful, the Trooper removes a Wound and cancels their Unconscious State. In this case, even if the Trooper passes every PH Roll, they only remove one single Wound.
+{{update | PDF 5.2, October 2025}}
+* {{erratahighlight}}The user can apply the MediKit on themselves, to cancel any states that can be canceled by this piece of Equipment. However, this '''cannot''' be done if the user is in a '''[[Null]]''' State.{{erratahighlight-end}}
+* {{erratahighlight}}If a Trooper lists MediKit in their [[Unit Profile]] with a [[PH]] value between brackets, the Trooper will use this PH value when a MediKit is used on them.{{erratahighlight-end}}
+{{update-end}}
+
+
 {{css_skillbox-end}}
 
 
@@ -27,7 +38,13 @@ Special piece of Equipment that allows other Models to regain consciousness.
 
 
 {{see-also-start}}
-'''[[GizmoKit]]s''' work on Models with the [[STR]] Attribrute.
+'''[[GizmoKit]]s''' work on Models with the [[STR]] Attribute.
+
+
+{{update | PDF 5.2, October 2025}}
+'''[[Technorganic]]'''
+* The Unconscious State of the Trooper can be cancelled by using either the [[Doctor]] or [[Engineer]] Skill, or the [[MediKit]] or [[GizmoKit]] pieces of Equipment, regardless of whether they have the [[VITA]] or [[STR]] Attribute. 
+{{update-end}}
 {{see-also-end}}
 
 
@@ -40,3 +57,5 @@ Special piece of Equipment that allows other Models to regain consciousness.
 
 <!-- Label and Trait categories. -->
 [[Category: Non-Lethal ]]
+
+[[Category: N5.2 Update]]

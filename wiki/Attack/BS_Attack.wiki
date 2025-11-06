@@ -20,10 +20,21 @@ Common Skill employed to attack in ranged combat using a BS Weapon or another su
 === BS Attack (Guided) ===
 * Troopers with the '''BS Attack (Guided)''' Skill listed on their [[Unit Profile]]:
 ** During the Active Turn, they may perform a BS Attack against a target in [[Targeted State]], without requiring [[LoF]].
+
+{{update | PDF 5.2, October 2025}}
+** BS Attacks (Guided) must be carried out with the weapon's Blast Mode if it has one, or a Mode with the [[Traits#Impact_Template | Impact Template (Circular) Trait]]. If the weapon does not have a Mode with the Impact Template (Circular) Trait, the player may choose any of the weapon's Modes {{erratahighlight}}but they will always apply the Circular Template Trait, placing a Circular Template centered on the target{{erratahighlight-end}}.
+** BS Attacks (Guided) must be carried out with the weapon's Blast Mode if it has one, or a Mode with the [[Traits#Impact_Template | Impact Template (Circular) Trait]]. If the weapon does not have a Mode with the Impact Template (Circular) Trait, the player may choose any of the weapon's Modes and apply the Trait to that Mode.
+** A Trooper can avoid a BS Attack (Guided) with a successful [[Dodge]] or [[Reset]] [[Face to Face Roll]]. If a Reset Roll is successful, in addition to avoiding the Attack, the Trooper's Targeted State is cancelled.  
+** '''Restriction:''' Unless the Skill itself indicates otherwise, the B will always be 1 regardless of the actual B value of the Weapon or any MODs applied to the B.
+** '''Restriction:''' The distance to the target cannot exceed the weapon's maximum [[Range]]{{erratahighlight}}, applying MODs as usual{{erratahighlight-end}}.
+{{update-end}}
+{{original}}
+** BS Attacks (Guided) must be carried out with the weapon's Blast Mode if it has one, or a Mode with the [[Traits#Impact_Template | Impact Template (Circular) Trait]]. If the weapon does not have a Mode with the Impact Template (Circular) Trait, the player may choose any of the weapon's Modes {{originalhighlight}}and apply the Trait to that Mode{{originalhighlight-end}}.
 ** BS Attacks (Guided) must be carried out with the weapon's Blast Mode if it has one, or a Mode with the [[Traits#Impact_Template | Impact Template (Circular) Trait]]. If the weapon does not have a Mode with the Impact Template (Circular) Trait, the player may choose any of the weapon's Modes and apply the Trait to that Mode.
 ** A Trooper can avoid a BS Attack (Guided) with a successful [[Dodge]] or [[Reset]] [[Face to Face Roll]]. If a Reset Roll is successful, in addition to avoiding the Attack, the Trooper's Targeted State is cancelled.  
 ** '''Restriction:''' Unless the Skill itself indicates otherwise, the B will always be 1 regardless of the actual B value of the Weapon or any MODs applied to the B.
 ** '''Restriction:''' The distance to the target cannot exceed the weapon's maximum [[Range]].
+{{original-end}}
 ** '''Restriction:''' The target cannot be in an enclosed room; a possible trajectory for the Attack must always exist.
 ** '''Restriction:''' BS Attack (Guided) has a limit of 5 Attacks per Turn for the Active Player.
 ** '''Restriction:''' Weapons with the [[BS Weapon (PH)]] or [[BS Weapon (WIP)]] Traits cannot be used with the BS Attack (Guided) Skill.
@@ -34,11 +45,22 @@ Common Skill employed to attack in ranged combat using a BS Weapon or another su
 {{see-also-start}}
 '''[[Modifiers Explained]] Examples'''
 
-* '''BS Attack (-3)''' means that, when the user declares BS Attack, their targets apply a -3 MOD to any [[Face to Face Rolls]]. BS Attack (-X) has no effect against Troopers with the [[Warhorse]] Special Skill. 
+* '''BS Attack (-3)''' means that, when the user declares BS Attack, {{erratahighlight}}a -3 MOD applies to the opponent in any [[Face to Face Rolls]]{{erratahighlight-end}}. BS Attack (-X) has no effect against Troopers with the [[Warhorse]] Special Skill. 
 * '''BS Attack (SR-1)''' means that, when the user declares BS Attack, their targets apply a -1 MOD to their [[Saving Rolls]] against the user's hits.
 * '''BS Attack (Shock)''' means that the user adds [[Shock Ammunition]] to all their BS Attacks.
 * '''BS Attack (Continuous Damage)''' means that the user applies the [[Continuous Damage]] Trait to all their BS Attacks.
 {{see-also-end}}
+
+
+{{see-also-start}}
+'''[[Guts Roll]]'''<br>
+When Troopers survive a successful Attack, it means their body armor took the brunt of the impact, keeping them from serious injury. This triggers a primal fear of death, and survival instincts kick in. The Troopers' survival instincts can force them to recoil from danger and dive for cover.
+
+
+'''[[Alert]]'''<br>
+Troopers are aware of what is happening around them and are also connected to their comrades, so attacks do not go unnoticed.
+{{see-also-end}}
+
 
 
 {{remember-start}}
@@ -88,6 +110,17 @@ If a [[BS Attack]] is declared against an enemy Trooper that is engaged in CC Co
 Every failed BS Attack Roll will hit the Allied Trooper, forcing them to perform a [[Saving Roll]]. If there are several Allied Troopers locked in that Close Combat, then the Trooper’s player chooses which one of them receives each hit.
 
 
+== FAQs ==
+
+{{faqbox |
+type = faq |
+title = N5 FAQ |
+version = 0.0.0, Oct 2025 |
+q = Q: Do Skills that let you perform a 'BS Attack Roll' (for example Intuitive Attack and Speculative Attack), or have the BS Attack Label, count as a BS Attack for MODs? For example, if the Trooper has 'BS Attack (SR-1)', 'BS Attack (+1 SD), or 'BS Attack (AP)'. |
+a = A: Yes. Note that +1 SD MODs don't apply to Long Skills. |
+related = [[BS Attack]], [[Forward Observer]], [[Intuitive Attack]], [[Labels]], [[Triangulated Fire]] }}
+
+
 
 {{n5-section-combat-module}}
 {{n5-section-common-skills}}
@@ -99,3 +132,5 @@ Every failed BS Attack Roll will hit the Allied Trooper, forcing them to perform
 
 <!-- Label and Trait categories. -->
 [[Category: Attack ]]
+
+[[Category: N5.2 Update]]

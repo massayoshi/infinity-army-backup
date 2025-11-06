@@ -12,19 +12,37 @@ Due to thick vegetation, jagged rocks, snow, sandstorms and any number of other 
 * Any Skill, Special Skill or piece of Equipment that requires [[LoF]], except [[Dodge]], and is performed from, into, or through a Visibility Zone suffers a MOD to the relevant Attribute in the required Roll.
 * This MOD for Visibility stacks with other MODs for Special Skills, Equipment, [[Partial Cover]], [[Range]]... but never with other Zone of Visibility MODs.
 
+
 === Low Visibility Zone ===
 * Low Visibility Zones apply a MOD of -3.
+
 
 === Poor Visibility Zone ===
 * Poor Visibility Zones apply a MOD of -6.
 
+
 === Zero Visibility Zone ===
 * [[LoF]] cannot be drawn into, through, or out of a Zero Visibility Zone.
-* Any Trooper who is the target of a [[BS Attack]] into, through, or out of a Zero Visibility Zone treats the Zero Visibility Zone as a Poor Visibility Zone when drawing LoF to the attacker.
+* Any Trooper who is the target of a [[BS Attack]] into, through, or out of a Zero Visibility Zone treats the Zero Visibility Zone as a Poor Visibility Zone when drawing LoF to the attacker. {{seefaq}}
+
+{{see-also-start}}
+'''[[Smoke Ammunition]]'''
+* Smoke Ammunition generates a [[Zero Visibility Zone]] (see: Special Terrain, [[Visibility Conditions]]) the size of a Circular Template and with infinite height.
+
+
+'''[[Eclipse Ammunition]]'''
+* Eclipse Ammunition works in exactly the same way as [[Smoke Ammunition]], but the [[Zero Visibility Zone]] it generates also affects [[Multispectral Visor]]s, preventing them from drawing [[LoF]] {{erratahighlight}}through the Zone{{erratahighlight-end}}, regardless of their Level.
+{{see-also-end}}
+
 
 === White Noise Zone ===
 * A White Noise Zone acts as a Zero Visibility Zone, but only for Troopers with the [[Marksmanship]] Special Skill or equipped with a [[Multispectral Visor]] of any Level, or any other piece of Equipment that specifies the same.
 * If a Trooper with a Multispectral Visor is the target of a [[BS Attack]] into, through, or out of a White Noise Zone, their Multispectral Visor cannot reduce the MODs of the resulting Poor Visibility Zone.
+
+{{see-also-start}}
+'''[[White Noise]] Hacking Program'''
+* The White Noise Hacking Program generates a [[White Noise Zone]] the size of a Circular Template and with infinite height.
+{{see-also-end}}
 {{css_skillbox-end}}
 
 
@@ -40,6 +58,18 @@ For example, if a [[BS Attack]]’s [[LoF]] passes through a Low Visibility Zone
 
 == Visibility Conditions and Combat Jump ==
 You cannot use [[Combat Jump]] inside of, or in contact with, an area with Low, Poor, or Zero Visibility Conditions.
+
+
+== FAQs ==
+
+{{faqbox |
+type = faq |
+title = N5 FAQ |
+version = 0.0.0, Oct 2025 |
+q = Q: How do Sixth Sense, Zero Visibility Zones and Multipectral Visor Level 1 interact? |
+a = A: If the Trooper with Multispectral Visor Level 1 and Sixth Sense is the target of a BS Attack through a Zero Visibility Zone, they ignore the -6 MOD for drawing LoF through the Zero Visibility Zone. |
+related = [[Multispectral Visor]], [[Sixth Sense]], [[Visibility Conditions]] }}
+
 
 
 {{n5-section-terrain-and-scenery-section}}

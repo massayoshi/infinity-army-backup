@@ -11,9 +11,10 @@
 * After Moving one of your models, you can leave it facing any direction.
 * A Trooper's Movement ends automatically whenever he enters [[Silhouette contact]] with an enemy, even if the specified movement route is cut short as a result.
 * In order to pass between an Enemy Trooper and an obstacle without entering Silhouette contact, the space in between must be wider than your Trooper's base.
-* When performing a Short Skill or ARO '''with the [[Movement Label]]''' (except for [[Jump]]), or when moving after failing a [[Guts Roll]], a Trooper may enter or leave [[Prone State]] at '''either''' the start of their Movement '''or''' the end of their Movement, at no cost.<br>However, if they move in Prone State, this will reduce the distance they can move.
+* When performing a Short Skill or ARO '''with the [[Movement Label]]''' (except for [[Jump]]) {{seefaq}}, or when moving after failing a [[Guts Roll]], a Trooper may enter or leave [[Prone State]] at '''either''' the start of their Movement '''or''' the end of their Movement, at no cost.<br>However, if they move in Prone State, this will reduce the distance they can move.
 * Independently of the type of movement performed (Move, Jump, Climb, etc.), the movement cannot, in any way, cause the Trooper to fall. If the Trooper cannot reach a new location with their Move, Jump, Climb... they do not perform the movement and they perform an [[Idle]] instead.
 * Once declared, Troopers always reach the end of their Movement, even if they enter a [[Null]] or [[Immobilized]] State due to successful enemy Attacks along the way.
+
 
 {{see-also-start}}
 '''[[Prone State]]'''
@@ -25,7 +26,7 @@
 Example of vaulting over obstacles lower than [[Silhouette]] height.
 
 {{image | name=n5/eng-vault-1.jpg | style=fullborder }}
-The Trooper may move over the obstacle without declaring [[Jump]] or [[Climb]], since the obstacle’s height is equal to or lower than the height of the Trooper’s [[Silhouette Template]], on both sides.
+The Trooper may move over the obstacle without declaring [[Jump]] or [[Climb]], since the obstacle’s height is equal to or lower than the height of the Trooper’s [[Silhouette Template]], on both sides. {{seefaq|Vaulting also applies while Jumping or Climbing.}}
 
 {{image | name=n5/eng-vault-2.jpg | style=fullborder }}
 Conversely, in the second picture, the Trooper may not pass over the obstacle without declaring [[Jump]] or [[Climb]], since the obstacle is higher than the height of the Trooper’s [[Silhouette Template]] on one side.
@@ -33,6 +34,19 @@ Conversely, in the second picture, the Trooper may not pass over the obstacle wi
 {{image | name=n5/eng-vault-3.jpg | style=fullborder }}
 Distance is measured on the surface the Trooper is moving along. The player must keep in mind the Trooper's position all along the Trooper's route, as shown in the diagram.
 {{greybox-end}}
+
+
+{{update | PDF 5.2, October 2025}}
+{{greybox-start | Vaulting On or Off Surfaces}}
+{{erratahighblock}}
+During a single movement, a Trooper can vault up or down multiple levels that are each equal to or lower than the height of its [[Silhouette Template]], even if their combined height is higher than its Silhouette Template. However, there must be a surface at least half the size of its base between each of those levels.
+
+{{image | name=n5/eng-vault-4a.jpg | style=fullborder }}
+
+{{image | name=n5/eng-vault-5a.jpg | style=fullborder }}
+{{erratahighblock-end}}
+{{greybox-end}}
+{{update-end}}
 
 
 {{greybox-start | Movement Sequence and Final Facing}}
@@ -77,8 +91,52 @@ However, he wins the Face to Face Roll, while the Fennec fails his [[Saving Roll
 
 {{see-also-start}}
 * '''[[Move]]'''
-* '''[[Ladders | Ladders and ramps]]'''.
+* '''[[Ladders | Ladders and ramps]]'''
+
+
+'''[[Climb]]''', restrictions for Troopers and vertical surfaces:
+{{important-start}}
+* As long as a Trooper is holding on to a vertical surface, they cannot declare any Skills other than Climb.
+{{important-end}}
 {{see-also-end}}
+
+
+== FAQs ==
+
+{{faqbox |
+type = faq |
+title = N5 FAQ |
+version = 0.0.0, Oct 2025 |
+q = Q: Which Skills and AROs allow a Trooper to enter or cancel Prone State? |
+a = A: A Trooper can enter or cancel Prone State when performing any Skill or ARO with the Movement Label (except Jump and Berserk). |
+related = [[General Movement Rules]], [[Labels]], [[Prone State]] }}
+
+
+{{faqbox |
+type = faq |
+title = N5 FAQ |
+version = 0.0.0, Oct 2025 |
+q = Q: If a Trooper enters Prone State at the end of their move, how does this affect the distance they can move? |
+a = A: It doesn’t. They move normally and then finish the end of the move prone. |
+related = [[General Movement Rules]], [[Moving and Measuring]], [[Prone State]] }}
+
+
+{{faqbox |
+type = faq |
+title = N5 FAQ |
+version = 0.0.0, Oct 2025 |
+q = Q: Can you vault while Climbing or Jumping? |
+a = A: Yes. Climb and Jump follow the General Movement Rules, including vaulting. |
+related = [[Climb]], [[Climbing Plus]], [[General Movement Rules]], [[Jump]], [[Super-Jump]] }}
+
+
+{{faqbox |
+type = faq |
+title = N5 FAQ |
+version = 0.0.0, Oct 2025 |
+q = Q: Can anything be placed on or end a move on Deployable Cover? |
+a = A: No. |
+related = [[Deployable Cover]], [[General Movement Rules]] }}
 
 
 

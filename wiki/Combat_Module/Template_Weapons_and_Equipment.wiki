@@ -3,7 +3,10 @@
 
 [[BS Weapon]]s and [[Equipment]] that use a Template have an Area of Effect that affects not only the main target, but also an area of the game table determined '''by the size of the Template'''.
 
-The '''Main Target''' of a Template Weapon or Equipment is a Game Element that must be able designated as a valid target for the [[BS Attack]], from which the MODs applied to the Roll are determined, if a Roll is required. This Roll will be opposed separately, one by one, by the rest of the Enemies affected by the template.
+The '''Main Target''' of a Template Weapon or Equipment is a Game Element that must be able {{erratahighlight}}to be{{erratahighlight-end}} designated as a valid target for the [[BS Attack]], from which the MODs applied to the Roll are determined, if a Roll is required. This Roll will be opposed separately, one by one, by the rest of the Enemies affected by the template.
+
+{{minorchange|October 2025|N5.2}}
+
 
 There are two types of Weapons and Equipment Templates:
 * [[Direct Template Weapons | Direct Template]].
@@ -95,13 +98,13 @@ In Infinity, different Templates have a Blast Focus, which is used to determine 
 
 The Blast Focus is the center of the Circular Template and the narrow end of the Teardrop Templates.
 
-LoF from the Blast Focus to a Trooper may only be drawn within the Area of Effect of the Template itself.
+LoF from the Blast Focus to a Trooper may only be drawn within the Area of Effect of the Template itself. {{seefaq}}
 
 
 {{greybox-start | Direct Template: Area of Effect, Blast Focus, and Scenery}}
 {{image | name=n5/dual-templates-direct-scenery.jpg | style=fullborder }}
 
-The Scenery element completely covers the enemy Trooper. Therefore, [[LoF]] cannot be traced from the Blast Focus so the Trooper is not affected by the Area of Effect.
+The Scenery element completely covers the enemy Trooper. Therefore, [[LoF]] cannot be traced from the Blast Focus so the Trooper is not affected by the Area of Effect. {{seefaq}}
 {{greybox-end}}
 
 {{greybox-start | Impact Template: Area of Effect, Blast Focus, and Scenery}}
@@ -110,8 +113,21 @@ The Scenery element completely covers the enemy Trooper. Therefore, [[LoF]] cann
 {{n5_weaponrow|Grenades|+3|-3|--|--|--|--|--|7|1|N|ARM|1|[[Speculative Attack]], [[BS Weapon (PH)]], [[Impact Template (Circular)]]}}
 |}
 
-By performing an Attack with an Impact Template, the Circular Template is centered on the underside of the Main Target’s Base, regardless of the impact point on the target. Any Game Element in contact or within the Area of Effect of the Circular Template will also be affected by the Attack. As we see in the picture, thanks to the scenery element, it is not possible to draw a LoF from the Blast Focus to Trooper 3, who is therefore unaffected.
+By performing an Attack with an Impact Template, the Circular Template is centered on the underside of the Main Target’s Base, regardless of the impact point on the target. Any Game Element in contact or within the Area of Effect of the Circular Template will also be affected by the Attack. As we see in the picture, thanks to the scenery element, it is not possible to draw a LoF from the Blast Focus to Trooper 3 {{erratahighlight}}as he is [[Prone]] and in [[Total Cover]], and{{erratahighlight-end}} therefore unaffected.
+
+{{minorchange|October 2025|N5.2}}
 {{greybox-end}}
+
+
+== FAQs ==
+
+{{faqbox |
+type = faq |
+title = N5 FAQ |
+version = 0.0.0, Oct 2025 |
+q = Q: When firing a Direct Template Weapon, can you fire 'round' corners to hit secondary targets that are not in LoF from the firing Trooper? |
+a = A: No. |
+related = [[Direct Template Weapons]], [[Template Weapons and Equipment]] }}
 
 
 
@@ -120,3 +136,5 @@ By performing an Attack with an Impact Template, the Circular Template is center
 
 
 [[Category: Combat Module]]
+
+[[Category: N5.2 Update]]

@@ -1,0 +1,88 @@
+{{n5-section-special-skills}}
+
+
+This Special Skill represents the user's ability to transform into a different type of Trooper with its own Attributes and Skills.
+
+{{image | name=transmuted0.jpg | style= 128 }}
+
+{{css_skillbox |black| TRANSMUTATION  | AUTOMATIC SKILL }}
+{{requirements}}
+* The user must meet the condition indicated between brackets next to the Skill.
+{{effects}}
+* Different types of Transmutation are characterized by the cause that triggers the Trooper's transformation, which forces or allows them to use their second [[Unit Profile]].
+* When the Trooper transforms, the Model corresponding to the first Unit Profile is replaced with the Model corresponding to the second Unit Profile. If there is no alternative Model, place a Transmuted (TRANSMUTED) Token (or the corresponding Token if there is a specific one) beside the user, indicating their new profile.
+* The [[VITA]]/[[STR]] Attribute points of a Trooper possessing this Special Skill are shared among all of their Unit Profiles. So, any [[Wounds]] received by one of the Unit Profiles also apply to the other Unit Profiles.
+* Similarly, [[States]] are also shared by the different Unit Profiles, if applicable.
+
+=== Transmutation (X) ===
+* A Trooper with this Skill is deployed with their first Unit Profile.
+* The value listed between brackets in the Unit Profile after the name of this Skill specifies how many Wounds the Trooper must receive before changing to their second Unit Profile.
+* The Trooper and their initial Unit Profile '''must''' be replaced by the second Unit Profile—and the Model representing it—at the end of the Order in which the initial Unit Profile has received at least as many Wounds as the value between brackets after the name of this Skill.
+
+=== Transmutation (Escape System-X) ===
+* This works the same way as Transmutation (X), but when the Unit Profile and Model are replaced, an [[Eclipse]] Special Ammo Circular Template must be placed, centered on the Model.
+* The number of Wounds required to change Unit Profiles is listed in the name of the Skill in brackets after "Escape System".
+{{update | PDF 5.2, October 2025}}
+* {{erratahighlight}}If the Trooper is in [[Possessed]] State when they change to their second Unit Profile, their Possessed State is canceled.{{erratahighlight-end}}
+
+{{update-end}}
+
+=== Transmutation (Hatching) ===
+{{update | PDF 5.2, October 2025}}
+* The Trooper with this Skill is deployed with its first Unit Profile, but using a Seed-Embryo {{erratahighlight}}Marker{{erratahighlight-end}} instead of a Model.
+{{update-end}}
+{{original}}
+* The Trooper with this Skill is deployed with its first Unit Profile, but using a Seed-Embryo {{originalhighlight}}Token{{originalhighlight-end}} instead of a Model.
+{{original-end}}
+* If the Trooper has any Skill that allows it to deploy in Marker form, it uses that Marker instead of the Seed-Embryo Token. The [[Camouflaged | Camouflage Marker]] of a Troop with Transmutation (Hatching) has a [[Silhouette]] (S) value of 2. If the Trooper is [[Discover]]ed or it reveals itself, the Marker is replaced with the Seed-Embryo Token.
+* Similarly, if the Trooper has any Deployment Skill with the [[Airborne Deployment]] Label, then it will deploy as a Seed-Embryo Token, and it will apply the rules of its Airborne Deployment Skill as usual.
+* The Trooper will change to its second Unit Profile and replace the Marker or the Seed-Embryo Token with the Model that corresponds to its Developed Form whenever:
+** It declares a Skill with the [[Movement Label]] as the first Short Skill of its Order. When this happens, its second "Developed Form" Unit Profile is used for the entire [[Order Expenditure Sequence | Order Sequence]].
+** It performs a successful [[Dodge]] [[ARO]]. The Developed Form profile is applied before the Dodge move is performed.
+
+=== Transmutation (Auto) ===
+* The Trooper may deploy using any of their Unit Profiles.
+* '''By performing any Skill with the [[Movement Label]]''', a Trooper with Transmutation (Auto) may switch between the different Unit Profiles listed in their Unit Profile. This change always happens at the beginning of their Movement, applying the new Unit Profile for the entire sequence of that Movement.
+* This will affect the distance the Trooper can move across the game table, depending on the [[MOV]] Attribute of the chosen Unit Profile.
+
+=== Transmutation (WIP) ===
+* The Trooper with this Skill is deployed with its first Unit Profile.
+* When a Trooper activates, before declaring its [[Trooper Activation | Order]] or [[ARO]] the Trooper may immediately change to its second Unit Profile by passing a [[Normal]] [[WIP]] Roll. When this happens, its second Unit Profile is applied for the rest of the current [[Player Turn]]. At the start of the [[States Phase]] the Trooper changes back to their first Unit Profile.
+* If the WIP Roll is failed, the Trooper continues to use its first Unit Profile, but may try again before each of their Orders or AROs.
+* If a MOD is listed after the Skill in the [[Unit Profile]], that MOD applies to these WIP Rolls.
+{{css_skillbox-end}}
+
+
+{{remember-start}}
+'''Game Sequence and Transmutation (X)/(Escape System-X):'''
+
+If the number of [[Wounds]] received is equal to or higher than the value between brackets after the name of this Skill, the Unit Profiles must be changed after making the [[Guts Roll]].
+{{remember-end}}
+
+
+== Examples ==
+
+{{greybox-start | Transmutation (X) }}
+A Trooper with Transmutation (2) receives three simultaneous hits. He makes his three [[Saving Roll]]s and fails two of them, so he receives 2 [[Wounds]]. The Trooper changes to his second [[Unit Profile]] and replaces his current Model with the alternative one, placing his Wounds next to it. Thus, the Trooper will remain active on the table, but he still has 2 Wounds. If there is no alternative Model, the Transmuted Token is used to indicate the change of Unit Profile.
+{{greybox-end}}
+
+
+{{greybox-start | Transmutation (Escape System-X) }}
+A Trooper takes multiple hits and receives 2 [[Wounds]]. Since this is the number indicated in his Transmutation (Escape System-2) Skill, the player replaces the Model of the TAG with that of its Operator and places the [[Eclipse]] Special Ammo Circular Template centered on the Operator.
+
+If the Trooper is in [[Stunned]] and [[Immobilized-B]] States when the Unit Profile and the Model are changed, the Trooper retains both State Tokens.
+{{greybox-end}}
+
+
+{{greybox-start | Transmutation (WIP) }}
+A Trooper with Transmutation (WIP-3) is activated in an [[ARO]]. Before declaring the Skill it will perform, its player makes a [[WIP]]-3 Roll, and it is successful. Having passed the Roll, he may use the Trooper’s second [[Unit Profile]] for this ARO and for the rest of the [[Player Turn]]. 
+{{greybox-end}}
+
+
+
+{{n5-section-special-skills}}
+
+
+[[Category:Special Skills]]
+
+[[Category: N5.2 Update]]

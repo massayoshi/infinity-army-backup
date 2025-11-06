@@ -6,9 +6,11 @@
 {{css_skillbox |black| IMPERSONATION  }}
 {{skill-label | Marker }}
 {{activation}}
-* Automatic during the [[Deployment Phase]], provided the user passes any [[WIP]] Roll that is necessary.
-* During the [[Active Turn]], Troopers may only return to this state by spending a [[Long Skill]], while outside the [[LoF]] of [[enemy]] Markers or Troopers.
+{{update | PDF 5.2, October 2025}}
+* Automatic during the [[Deployment Phase]] {{erratahighlight}}for Troopers with the [[Impersonation]] Skill{{erratahighlight-end}}, provided the user passes any [[WIP]] Roll that is necessary. 
+* During the [[Active Turn]], Troopers {{erratahighlight}}with the Impersonation Skill{{erratahighlight-end}} may only return to this state by spending a [[Long Skill]], while outside the [[LoF]] of [[enemy]] Markers or Troopers.
 * This state may also be activated as indicated by Special Skills, [[Hacking Programs]], etc.
+{{update-end}}
 
 {{effects}}
 * '''Restriction:''' Troopers cannot enter [[Silhouette contact]] with an [[enemy]] Impersonation Marker.
@@ -95,6 +97,14 @@ The only exception is declaring [[Discover]] + [[BS Attack]] against a Marker (I
 
 
 {{see-also}}
+'''[[ARO | ARO > All At Once]]'''
+{{Important-start}}
+All AROs are also simultaneous. This means that, if a [[Camouflaged State | Camouflage Marker]] declares a [[Move]], the opponent can declare [[Discover]] with Troopers that have [[LoF]] to it, but they cannot declare Discover with one of the Troopers and [[BS Attack]] with the rest, waiting for the Discover Roll to be successful (see: [[Camouflaged State]]).
+{{Important-end}}
+{{see-also-end}}
+
+
+{{see-also}}
 '''[[Biometric Visor]]'''
 * The user ignores the [[WIP]]-3 MOD imposed by the [[Impersonation State|Impersonation-1 State]].
 * If the user passes a [[Discover]] Roll against a Trooper in Impersonation-1 State, that Trooper's Impersonation State is canceled and their IMP-1 Marker is replaced with the corresponding Model.
@@ -127,6 +137,26 @@ Despite both Troopers getting successes, the Active Player only replaces the IMP
 {{greybox-end}}
 
 
+== FAQs ==
+
+{{faqbox |
+type = faq |
+title = N5 FAQ |
+version = 0.0.0, Oct 2025 |
+q = Q: Which Automatic Skills or Equipment have to be declared when in a Marker State? |
+a = A: Automatic Skills and Equipment that alter how an Order activates a Trooper, or restrict AROs, must be declared when used in Marker State. For example using Stealth. |
+related = [[Camouflaged State]], [[Impersonation State]], [[Open and Private Information]], [[Stealth]] }}
+
+
+{{faqbox |
+type = faq |
+title = N5 FAQ |
+version = 0.0.0, Oct 2025 |
+q = Q: Does a Trooper in Disconnected State or Unconscious State prevent an enemy from re-entering Marker State, or cancel their Cautious Movement? |
+a = A: No. |
+related = [[Camouflaged State]], [[Cautious Movement]], [[Disconnected State]], [[Impersonation State]], [[Labels]], [[Unconscious State]] }}
+
+
 
 {{n5-section-game-states}}
 
@@ -135,3 +165,5 @@ Despite both Troopers getting successes, the Active Player only replaces the IMP
 
 <!-- Label and Trait categories. -->
 [[Category: Marker ]]
+
+[[Category: N5.2 Update]]

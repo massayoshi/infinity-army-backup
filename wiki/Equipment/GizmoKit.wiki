@@ -4,7 +4,7 @@
 Special piece of Equipment that allows other Models with the Structure Attribute to remove Wounds.
 
 {{css_skillbox |green| GIZMOKIT | SHORT SKILL }}
-{{skill-label | Non-Lethal }}
+{{weapon-label | Non-Lethal }}
 {{requirements}}
 * The target of a GizmoKit must be an [[Allied]] Model with the [[STR]] Attribute. 
 * A GizmoKit can be used in one of two ways, each one with their own Requirements:
@@ -17,6 +17,9 @@ Special piece of Equipment that allows other Models with the Structure Attribute
 * The target of a GizmoKit does not perform a [[Saving Roll]].
 * A GizmoKit can be used as many times as necessary to remove all the Wounds that the target has.
 * If, due to a Special Skill or rule, a Trooper receives more than one successful hit or use of GizmoKit during the same Order, if any of the corresponding PH Rolls is successful, the Trooper removes a Wound. Even if the Trooper passes every PH Roll, they only remove one single Wound.
+{{update | PDF 5.2, October 2025}}
+* {{erratahighlight}}The user can apply this piece of Equipment on themselves, to remove any Wounds they have received, or cancel any states that can be canceled by a GizmoKit. However, this '''cannot''' be done if the user is in a '''Null''' State.{{erratahighlight-end}}
+{{update-end}}
 * If a Trooper lists GizmoKit in their [[Unit Profile]] with a PH value between brackets, the Trooper will use this PH value when a GizmoKit is used on them.
 
 === GizmoKit and Remote Presence ===
@@ -31,7 +34,18 @@ Special piece of Equipment that allows other Models with the Structure Attribute
 
 
 {{see-also-start}}
-'''[[MediKit]]s''' work on Models with the [[VITA]] Attribrute.
+'''[[MediKit]]s''' work on Models with the [[VITA]] Attribute.
+
+
+{{update | PDF 5.2, October 2025}}
+'''[[Tech-Recovery]]'''
+* The user must be in a State that can be canceled by the [[Engineer]] Special Skill. 
+* The user has received a successful hit from an allied [[GizmoKit]], or it has been applied to them through [[Silhouette contact]]. 
+
+
+'''[[Technorganic]]'''
+* The Unconscious State of the Trooper can be cancelled by using either the [[Doctor]] or [[Engineer]] Skill, or the [[MediKit]] or [[GizmoKit]] pieces of Equipment, regardless of whether they have the [[VITA]] or [[STR]] Attribute. 
+{{update-end}}
 {{see-also-end}}
 
 
@@ -43,3 +57,5 @@ Special piece of Equipment that allows other Models with the Structure Attribute
 
 <!-- Label and Trait categories. -->
 [[Category: Non-Lethal ]]
+
+[[Category: N5.2 Update]]

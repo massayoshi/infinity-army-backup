@@ -8,8 +8,10 @@
 {{css_skillbox |black| CAMOUFLAGED }}
 {{skill-label | Marker }}
 {{activation}}
-* Automatic during the [[Deployment Phase]].
-* During the Active Turn, Troopers may only return to this state by spending a [[Long Skill]], while outside the [[LoF]] of [[enemy]] Markers or Troopers.
+{{update | PDF 5.2, October 2025}}
+* Automatic during the [[Deployment Phase]] {{erratahighlight}}for Troopers with the [[Camouflage]] Skill{{erratahighlight-end}}. 
+* During the Active Turn, Troopers {{erratahighlight}}with the Camouflage Skill{{erratahighlight-end}} may only return to this state by spending a [[Long Skill]], while outside the [[LoF]] of [[enemy]] Markers or Troopers. 
+{{update-end}}
 
 {{effects}}
 * In Camouflaged State, the Player does not place the Model on the table, but instead places a Camouflaged Marker.
@@ -52,14 +54,23 @@ Camouflaged State is canceled whenever:
 '''[[Concealed]] Trait'''<br>
 Camouflage Markers concealing a weapon, or a piece of Equipment have a [[Silhouette]] (S) value of 2
 
+
 '''[[Transmutation#Transmutation_.28Hatching.29 | Transmutation (Hatching)]]'''<br>
 The Camouflage Marker of a Troop with Transmutation (Hatching) has a Silhouette (S) value of 2.
+
 
 '''[[Multispectral Visor | Multispectral Visor Level 3]]'''<br> 
 In the [[Active Turn]] the user may perform a [[BS Attack]] on a Camouflage Marker (CAMO) in [[LoF]] without making a previous [[Discover]] Roll, but they must apply the [[Mimetism]] MOD indicated on the Marker.
 
+
 '''[[Sensor]]'''<br>
 By declaring Sensor, the user may make a [[Normal]] [[WIP]]+6 Roll (without applying [[Range]] or [[Mimetism]] MODs) to simultaneously [[Discover]] all enemy Troopers, Weapons or pieces of Equipment in the [[Hidden Deployment State | Hidden Deployment]] or [[Camouflaged]] States, who are inside the user's Zone of Control.
+
+
+'''[[ARO | ARO > All At Once]]'''
+{{Important-start}}
+All AROs are also simultaneous. This means that, if a [[Camouflaged State | Camouflage Marker]] declares a [[Move]], the opponent can declare [[Discover]] with Troopers that have [[LoF]] to it, but they cannot declare Discover with one of the Troopers and [[BS Attack]] with the rest, waiting for the Discover Roll to be successful (see: [[Camouflaged State]]).
+{{Important-end}}
 {{see-also-end}}
 
 
@@ -87,15 +98,15 @@ Camouflaged Markers (CAMO) may be indirectly affected by [[Template Weapon]]s if
 A Camouflaged Caliban declares [[Move]] as their first Skill, moving until they reach [[Cover]].
 
 '''Step 2:'''<br>
-The Fusilier decides to delay declaring his [[ARO]] against the Marker.
+The {{erratahighlight}}Fennec{{erratahighlight-end}} decides to delay declaring his [[ARO]] against the Marker.
 
 {{image | name=n5/eng-camouflaged-state-examples-1-2.jpg | style=fullborder }}
 
 '''Step 3:'''<br>
-The Caliban declares [[BS Attack]] as the second Skill of their Order: He indicates that he will use his Boarding Shotgun in Burst Mode to shoot at the Fusilier from Cover, which is the closest point.
+The Caliban declares [[BS Attack]] as the second Skill of their Order: He indicates that he will use his Boarding Shotgun in Burst Mode to shoot at the {{erratahighlight}}Fennec{{erratahighlight-end}} from Cover, which is the closest point.
 
 '''Step 4:'''<br>
-The Fusilier declares BS Attack with his Combi Rifle, before the Caliban reaches the Cover.
+The {{erratahighlight}}Fennec{{erratahighlight-end}} declares BS Attack with his Combi Rifle, before the Caliban reaches the Cover.
 Remember that the cancellation of the Camouflaged State applies to the entirety of the Order.
 
 {{image | name=n5/eng-camouflaged-state-examples-2-2.jpg | style=fullborder }}
@@ -104,7 +115,38 @@ Remember that the cancellation of the Camouflaged State applies to the entirety 
 By declaring BS Attack as the second Skill of their Order, the Caliban has revealed himself for the entire Order, which includes his movement towards the point in Cover.
 
 The distance between the points where the Skills were declared is measured, and the Face to Face MODs are calculated.
+
+{{minorchange|October 2025|N5.2}}
 {{greybox-end}}
+
+
+== FAQs ==
+
+{{faqbox |
+type = faq |
+title = N5 FAQ |
+version = 0.0.0, Oct 2025 |
+q = Q: Which Automatic Skills or Equipment have to be declared when in a Marker State? |
+a = A: Automatic Skills and Equipment that alter how an Order activates a Trooper, or restrict AROs, must be declared when used in Marker State. For example using Stealth. |
+related = [[Camouflaged State]], [[Impersonation State]], [[Open and Private Information]], [[Stealth]] }}
+
+
+{{faqbox |
+type = faq |
+title = N5 FAQ |
+version = 0.0.0, Oct 2025 |
+q = Q: If a Trooper with Camouflage (1 Use) deploys as a Model, can the Trooper enter Camouflaged State during the game? Does this change if the Trooper fails an Infiltration Roll? |
+a = A: Yes, the Trooper can enter Camouflaged State later in the game. If the Trooper attempted to deploy as a Marker and failed the Infiltration Roll, they have used the Camouflaged State and cannot enter it later in the game. |
+related = [[Camouflaged State]], [[Infiltration]] }}
+
+
+{{faqbox |
+type = faq |
+title = N5 FAQ |
+version = 0.0.0, Oct 2025 |
+q = Q: Does a Trooper in Disconnected State or Unconscious State prevent an enemy from re-entering Marker State, or cancel their Cautious Movement? |
+a = A: No. |
+related = [[Camouflaged State]], [[Cautious Movement]], [[Disconnected State]], [[Impersonation State]], [[Labels]], [[Unconscious State]] }}
 
 
 
@@ -116,3 +158,5 @@ The distance between the points where the Skills were declared is measured, and 
 
 <!-- Label and Trait categories. -->
 [[Category: Marker ]]
+
+[[Category: N5.2 Update]]
