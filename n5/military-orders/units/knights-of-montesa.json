@@ -252,6 +252,53 @@
             }
           ],
           "peripheral": []
+        },
+        {
+          "id": 6,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 35,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 74,
+              "order": 1
+            },
+            {
+              "id": 96,
+              "order": 2
+            },
+            {
+              "id": 212,
+              "order": 3
+            },
+            {
+              "id": 11,
+              "order": 4
+            }
+          ],
+          "name": "KNIGHT OF MONTESA",
+          "skills": [
+            {
+              "extra": [
+                22
+              ],
+              "id": 161,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
         }
       ]
     }
@@ -289,6 +336,8 @@
       11,
       14,
       26,
+      74,
+      96,
       152,
       212
     ],

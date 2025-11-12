@@ -1,5 +1,5 @@
 {
-  "version": "7.25289.466",
+  "version": "7.25316.267",
   "units": [
     {
       "id": 17,
@@ -395,323 +395,6 @@
         1001,
         1002,
         1003
-      ]
-    },
-    {
-      "id": 28,
-      "idArmy": 28,
-      "canonical": 101,
-      "isc": "Knights of Montesa",
-      "iscAbbr": null,
-      "name": "KNIGHTS OF MONTESA",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Knights of Montesa",
-          "profiles": [
-            {
-              "bts": 6,
-              "cc": 23,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 3,
-              "ava": 1,
-              "str": false,
-              "bs": 13,
-              "s": 2,
-              "equip": [],
-              "w": 2,
-              "ph": 13,
-              "name": "KNIGHTS OF MONTESA",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/knights-of-montesa-1-1.svg",
-              "id": 1,
-              "arm": 4,
-              "weapons": [],
-              "chars": [
-                1,
-                3,
-                6,
-                21
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 20,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "id": 268,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    50
-                  ],
-                  "id": 58,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    308
-                  ],
-                  "id": 201,
-                  "order": 4
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    6
-                  ],
-                  "id": 28,
-                  "order": 5
-                },
-                {
-                  "q": 1,
-                  "id": 83,
-                  "order": 6
-                },
-                {
-                  "q": 1,
-                  "id": 256,
-                  "order": 7
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 32,
-              "equip": [],
-              "name": "KNIGHT OF MONTESA",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "IMPETUOUS",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "id": 152,
-                  "order": 1
-                },
-                {
-                  "id": 212,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    303
-                  ],
-                  "id": 11,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "1.5",
-              "skills": [
-                {
-                  "q": 1,
-                  "extra": [
-                    22
-                  ],
-                  "id": 161,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 26,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 106,
-                  "order": 1
-                }
-              ],
-              "name": "KNIGHT OF MONTESA",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "IMPETUOUS",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 3,
-              "weapons": [
-                {
-                  "id": 26,
-                  "order": 1
-                },
-                {
-                  "id": 212,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    303
-                  ],
-                  "id": 11,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 64,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    22
-                  ],
-                  "id": 161,
-                  "order": 2
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 20,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 106,
-                  "order": 1
-                }
-              ],
-              "name": "KNIGHTS OF MONTESA FTO",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "IMPETUOUS",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 5,
-              "weapons": [
-                {
-                  "id": 212,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    303
-                  ],
-                  "id": 11,
-                  "order": 3
-                },
-                {
-                  "id": 26,
-                  "order": 1
-                },
-                {
-                  "id": 14,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 64,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 5
-        }
-      ],
-      "options": [],
-      "slug": "knights-of-montesa",
-      "filters": {
-        "categories": [
-          5
-        ],
-        "skills": [
-          20,
-          28,
-          58,
-          64,
-          83,
-          161,
-          201,
-          256,
-          268
-        ],
-        "equip": [
-          106
-        ],
-        "chars": [
-          1,
-          3,
-          6,
-          21
-        ],
-        "types": [
-          3
-        ],
-        "weapons": [
-          11,
-          14,
-          26,
-          152,
-          212
-        ],
-        "ammunition": [
-          2,
-          3,
-          8,
-          9,
-          14
-        ]
-      },
-      "factions": [
-        102,
-        103,
-        105
       ]
     },
     {
@@ -1705,6 +1388,375 @@
       "factions": [
         103,
         1002
+      ]
+    },
+    {
+      "id": 28,
+      "idArmy": 28,
+      "canonical": 101,
+      "isc": "Knights of Montesa",
+      "iscAbbr": null,
+      "name": "KNIGHTS OF MONTESA",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Knights of Montesa",
+          "profiles": [
+            {
+              "bts": 6,
+              "cc": 23,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 3,
+              "ava": 1,
+              "str": false,
+              "bs": 13,
+              "s": 2,
+              "equip": [],
+              "w": 2,
+              "ph": 13,
+              "name": "KNIGHTS OF MONTESA",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/knights-of-montesa-1-1.svg",
+              "id": 1,
+              "arm": 4,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                6,
+                21
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 20,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 268,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    50
+                  ],
+                  "id": 58,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    308
+                  ],
+                  "id": 201,
+                  "order": 4
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    6
+                  ],
+                  "id": 28,
+                  "order": 5
+                },
+                {
+                  "q": 1,
+                  "id": 83,
+                  "order": 6
+                },
+                {
+                  "q": 1,
+                  "id": 256,
+                  "order": 7
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 32,
+              "equip": [],
+              "name": "KNIGHT OF MONTESA",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "IMPETUOUS",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "id": 152,
+                  "order": 1
+                },
+                {
+                  "id": 212,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    303
+                  ],
+                  "id": 11,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "1.5",
+              "skills": [
+                {
+                  "q": 1,
+                  "extra": [
+                    22
+                  ],
+                  "id": 161,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 26,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 106,
+                  "order": 1
+                }
+              ],
+              "name": "KNIGHT OF MONTESA",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "IMPETUOUS",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 3,
+              "weapons": [
+                {
+                  "id": 26,
+                  "order": 1
+                },
+                {
+                  "id": 212,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    303
+                  ],
+                  "id": 11,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 64,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    22
+                  ],
+                  "id": 161,
+                  "order": 2
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 20,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 106,
+                  "order": 1
+                }
+              ],
+              "name": "KNIGHTS OF MONTESA FTO",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "IMPETUOUS",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 5,
+              "weapons": [
+                {
+                  "id": 212,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    303
+                  ],
+                  "id": 11,
+                  "order": 3
+                },
+                {
+                  "id": 26,
+                  "order": 1
+                },
+                {
+                  "id": 14,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 64,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 35,
+              "equip": [],
+              "name": "KNIGHT OF MONTESA",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 6,
+              "weapons": [
+                {
+                  "id": 74,
+                  "order": 1
+                },
+                {
+                  "id": 96,
+                  "order": 2
+                },
+                {
+                  "id": 212,
+                  "order": 3
+                },
+                {
+                  "extra": [
+                    303
+                  ],
+                  "id": 11,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "1.5",
+              "skills": [
+                {
+                  "q": 1,
+                  "extra": [
+                    22
+                  ],
+                  "id": 161,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 5
+        }
+      ],
+      "options": [],
+      "slug": "knights-of-montesa",
+      "filters": {
+        "categories": [
+          5
+        ],
+        "skills": [
+          20,
+          28,
+          58,
+          64,
+          83,
+          161,
+          201,
+          256,
+          268
+        ],
+        "equip": [
+          106
+        ],
+        "chars": [
+          1,
+          3,
+          6,
+          21
+        ],
+        "types": [
+          3
+        ],
+        "weapons": [
+          11,
+          14,
+          26,
+          74,
+          96,
+          152,
+          212
+        ],
+        "ammunition": [
+          2,
+          3,
+          8,
+          9,
+          14
+        ]
+      },
+      "factions": [
+        102,
+        103,
+        105
       ]
     },
     {
@@ -4526,7 +4578,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 72
+                  "id": 33
                 }
               ]
             }
@@ -5117,7 +5169,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 73
+                  "id": 34
                 }
               ]
             },
@@ -5167,7 +5219,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 73
+                  "id": 34
                 }
               ]
             },
@@ -5227,7 +5279,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 73
+                  "id": 34
                 }
               ]
             }
@@ -7184,7 +7236,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 74
+                  "id": 35
                 }
               ]
             },
@@ -7231,7 +7283,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 75
+                  "id": 36
                 }
               ]
             },
@@ -7333,7 +7385,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 74
+                  "id": 35
                 }
               ]
             }
@@ -8040,10 +8092,10 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 76
+                  "id": 37
                 },
                 {
-                  "id": 72
+                  "id": 33
                 }
               ]
             },
@@ -8098,7 +8150,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 72
+                  "id": 33
                 }
               ]
             }
@@ -14139,7 +14191,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 77
+                  "id": 38
                 }
               ]
             },
@@ -14194,7 +14246,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 77
+                  "id": 38
                 }
               ]
             },
@@ -14249,7 +14301,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 77
+                  "id": 38
                 }
               ]
             },
@@ -14308,7 +14360,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 77
+                  "id": 38
                 }
               ]
             }
@@ -15240,7 +15292,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 77
+                  "id": 38
                 }
               ]
             },
@@ -15292,7 +15344,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 77
+                  "id": 38
                 }
               ]
             },
@@ -15348,7 +15400,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 77
+                  "id": 38
                 }
               ]
             }
@@ -18032,7 +18084,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 78
+                  "id": 39
                 }
               ]
             },
@@ -18096,7 +18148,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 78,
+                  "id": 39,
                   "q": 2
                 }
               ]
@@ -24392,7 +24444,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 79
+                  "id": 40
                 }
               ]
             }
@@ -24954,37 +25006,37 @@
   "filters": {
     "peripheral": [
       {
-        "id": 73,
+        "id": 34,
         "name": "AUXBOT"
       },
       {
-        "id": 76,
+        "id": 37,
         "name": "AUXBOT_2"
       },
       {
-        "id": 74,
+        "id": 35,
         "name": "AUXBOT_3"
       },
       {
-        "id": 75,
+        "id": 36,
         "name": "AUXBOT_3B"
       },
       {
-        "id": 79,
+        "id": 40,
         "name": "BÂTARD",
         "mercs": true
       },
       {
-        "id": 72,
+        "id": 33,
         "name": "CRABBOT"
       },
       {
-        "id": 78,
+        "id": 39,
         "name": "JACKBOT",
         "mercs": true
       },
       {
-        "id": 77,
+        "id": 38,
         "name": "TURTLEMEK",
         "mercs": true
       }
@@ -26917,16 +26969,6 @@
       "category": 8
     },
     {
-      "id": 28,
-      "isc": "Knights of Montesa",
-      "idArmy": 28,
-      "name": "KNIGHTS OF MONTESA",
-      "slug": "knights-of-montesa",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/knights-of-montesa-1-1.svg",
-      "type": 3,
-      "category": 5
-    },
-    {
       "id": 20,
       "isc": "Jeanne d'Arc",
       "idArmy": 20,
@@ -26943,6 +26985,16 @@
       "name": "Sacred Military Order of KNIGHTS OF SANTIAGO",
       "slug": "knights-of-santiago",
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/knights-of-santiago-1-1.svg",
+      "type": 3,
+      "category": 5
+    },
+    {
+      "id": 28,
+      "isc": "Knights of Montesa",
+      "idArmy": 28,
+      "name": "KNIGHTS OF MONTESA",
+      "slug": "knights-of-montesa",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/knights-of-montesa-1-1.svg",
       "type": 3,
       "category": 5
     },

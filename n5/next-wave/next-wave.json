@@ -1,5 +1,5 @@
 {
-  "version": "7.25288.297",
+  "version": "7.25316.267",
   "units": [
     {
       "id": 1884,
@@ -2816,7 +2816,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 1
+                  "id": 2
                 }
               ]
             }
@@ -4379,7 +4379,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 2
+                  "id": 3
                 }
               ]
             },
@@ -4437,7 +4437,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 2
+                  "id": 3
                 }
               ]
             },
@@ -4500,7 +4500,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 2
+                  "id": 3
                 }
               ]
             }
@@ -7174,635 +7174,6 @@
       ]
     },
     {
-      "id": 1861,
-      "idArmy": 1861,
-      "canonical": 601,
-      "isc": "Drakios, Team Achilles' dragon",
-      "iscAbbr": null,
-      "name": "DRAKIOS, Team Achilles' dragon",
-      "profileGroups": [
-        {
-          "id": 1,
-          "category": 10,
-          "isc": "Drakios, Team Achilles' dragon",
-          "notes": null,
-          "profiles": [
-            {
-              "id": 1,
-              "arm": 2,
-              "ava": 1,
-              "bs": 13,
-              "bts": 3,
-              "cc": 21,
-              "chars": [
-                3,
-                5,
-                20
-              ],
-              "equip": [
-                {
-                  "q": 1,
-                  "extra": [
-                    7
-                  ],
-                  "id": 183,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    310
-                  ],
-                  "id": 246,
-                  "order": 2
-                }
-              ],
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/drakios-team-achilles-dragon-1-1.svg",
-              "weapons": [],
-              "includes": [],
-              "move": [
-                15,
-                5
-              ],
-              "ph": 13,
-              "s": 5,
-              "str": false,
-              "type": 2,
-              "w": 2,
-              "wip": 13,
-              "name": "DRAKIOS, Team Achilles' dragon",
-              "notes": null,
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 19,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    292
-                  ],
-                  "id": 201,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "id": 189,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "id": 262,
-                  "order": 5
-                },
-                {
-                  "q": 1,
-                  "id": 164,
-                  "order": 6
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    37
-                  ],
-                  "id": 58,
-                  "order": 7
-                },
-                {
-                  "q": 1,
-                  "id": 83,
-                  "order": 8
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    372
-                  ],
-                  "id": 263,
-                  "order": 9
-                },
-                {
-                  "q": 1,
-                  "id": 261,
-                  "order": 10
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    30
-                  ],
-                  "id": 162,
-                  "order": 11
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "id": 1,
-              "chars": [],
-              "disabled": false,
-              "equip": [],
-              "minis": 1,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "includes": [
-                {
-                  "q": 1,
-                  "group": 2,
-                  "option": 1
-                }
-              ],
-              "points": 37,
-              "swc": "0",
-              "weapons": [
-                {
-                  "id": 41,
-                  "order": 1
-                },
-                {
-                  "extra": [
-                    8
-                  ],
-                  "id": 57,
-                  "order": 2
-                },
-                {
-                  "id": 68,
-                  "order": 3
-                },
-                {
-                  "id": 107,
-                  "order": 4
-                },
-                {
-                  "extra": [
-                    302
-                  ],
-                  "id": 7,
-                  "order": 5
-                }
-              ],
-              "name": "DRAKIOS",
-              "skills": [],
-              "peripheral": [
-                {
-                  "id": 3
-                }
-              ]
-            },
-            {
-              "id": 2,
-              "chars": [],
-              "disabled": false,
-              "equip": [],
-              "minis": 1,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "includes": [
-                {
-                  "q": 1,
-                  "group": 2,
-                  "option": 1
-                }
-              ],
-              "points": 39,
-              "swc": "0",
-              "weapons": [
-                {
-                  "id": 64,
-                  "order": 1
-                },
-                {
-                  "extra": [
-                    8
-                  ],
-                  "id": 57,
-                  "order": 2
-                },
-                {
-                  "id": 107,
-                  "order": 3
-                },
-                {
-                  "extra": [
-                    302
-                  ],
-                  "id": 7,
-                  "order": 4
-                }
-              ],
-              "name": "DRAKIOS",
-              "skills": [],
-              "peripheral": [
-                {
-                  "id": 3
-                }
-              ]
-            },
-            {
-              "id": 3,
-              "chars": [],
-              "disabled": false,
-              "equip": [],
-              "minis": 1,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "includes": [
-                {
-                  "q": 1,
-                  "group": 2,
-                  "option": 1
-                }
-              ],
-              "points": 39,
-              "swc": "1",
-              "weapons": [
-                {
-                  "id": 152,
-                  "order": 1
-                },
-                {
-                  "extra": [
-                    8
-                  ],
-                  "id": 57,
-                  "order": 2
-                },
-                {
-                  "id": 107,
-                  "order": 3
-                },
-                {
-                  "extra": [
-                    302
-                  ],
-                  "id": 7,
-                  "order": 4
-                }
-              ],
-              "name": "DRAKIOS",
-              "skills": [],
-              "peripheral": [
-                {
-                  "id": 3
-                }
-              ]
-            },
-            {
-              "id": 4,
-              "chars": [],
-              "disabled": false,
-              "equip": [],
-              "minis": 1,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "includes": [],
-              "points": 31,
-              "swc": "0",
-              "weapons": [
-                {
-                  "id": 41,
-                  "order": 1
-                },
-                {
-                  "extra": [
-                    8
-                  ],
-                  "id": 57,
-                  "order": 2
-                },
-                {
-                  "id": 68,
-                  "order": 3
-                },
-                {
-                  "id": 107,
-                  "order": 4
-                },
-                {
-                  "extra": [
-                    302
-                  ],
-                  "id": 7,
-                  "order": 5
-                }
-              ],
-              "name": "DRAKIOS FTO",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "id": 5,
-              "chars": [],
-              "disabled": false,
-              "equip": [],
-              "minis": 1,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "includes": [],
-              "points": 33,
-              "swc": "0",
-              "weapons": [
-                {
-                  "id": 64,
-                  "order": 1
-                },
-                {
-                  "extra": [
-                    8
-                  ],
-                  "id": 57,
-                  "order": 2
-                },
-                {
-                  "id": 107,
-                  "order": 3
-                },
-                {
-                  "extra": [
-                    302
-                  ],
-                  "id": 7,
-                  "order": 4
-                }
-              ],
-              "name": "DRAKIOS FTO",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "id": 6,
-              "chars": [],
-              "disabled": false,
-              "equip": [],
-              "minis": 1,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "includes": [],
-              "points": 33,
-              "swc": "1",
-              "weapons": [
-                {
-                  "id": 152,
-                  "order": 1
-                },
-                {
-                  "extra": [
-                    8
-                  ],
-                  "id": 57,
-                  "order": 2
-                },
-                {
-                  "id": 107,
-                  "order": 3
-                },
-                {
-                  "extra": [
-                    302
-                  ],
-                  "id": 7,
-                  "order": 4
-                }
-              ],
-              "name": "DRAKIOS FTO",
-              "skills": [],
-              "peripheral": []
-            }
-          ]
-        },
-        {
-          "id": 2,
-          "category": null,
-          "isc": "Kydoimos",
-          "notes": null,
-          "profiles": [
-            {
-              "id": 1,
-              "arm": 0,
-              "ava": -1,
-              "bs": 10,
-              "bts": 3,
-              "cc": 13,
-              "chars": [
-                21,
-                27
-              ],
-              "equip": [
-                {
-                  "q": 1,
-                  "extra": [
-                    7
-                  ],
-                  "id": 183,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    310
-                  ],
-                  "id": 246,
-                  "order": 2
-                }
-              ],
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/drakios-team-achilles-dragon-2-1.svg",
-              "weapons": [],
-              "includes": [],
-              "move": [
-                15,
-                10
-              ],
-              "ph": 10,
-              "s": 2,
-              "str": true,
-              "type": 5,
-              "w": 1,
-              "wip": 11,
-              "name": "KYDOIMOS",
-              "notes": null,
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 84,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "id": 38,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "id": 164,
-                  "order": 4
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    37
-                  ],
-                  "id": 58,
-                  "order": 5
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    40
-                  ],
-                  "id": 243,
-                  "order": 6
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    372
-                  ],
-                  "id": 263,
-                  "order": 7
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "id": 1,
-              "chars": [],
-              "disabled": true,
-              "equip": [],
-              "minis": 1,
-              "orders": [],
-              "includes": [],
-              "points": 6,
-              "swc": "0",
-              "weapons": [
-                {
-                  "id": 57,
-                  "order": 1
-                },
-                {
-                  "extra": [
-                    30
-                  ],
-                  "id": 176,
-                  "order": 2
-                },
-                {
-                  "extra": null,
-                  "id": 107,
-                  "order": 3
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 4
-                }
-              ],
-              "name": "KYDOIMOS",
-              "skills": [],
-              "peripheral": []
-            }
-          ]
-        }
-      ],
-      "options": [],
-      "slug": "drakios-team-achilles-dragon",
-      "filters": {
-        "categories": [
-          10
-        ],
-        "skills": [
-          19,
-          38,
-          58,
-          83,
-          84,
-          162,
-          164,
-          189,
-          201,
-          243,
-          261,
-          262,
-          263
-        ],
-        "equip": [
-          183,
-          246
-        ],
-        "chars": [
-          3,
-          5,
-          20,
-          21,
-          27
-        ],
-        "types": [
-          2,
-          5
-        ],
-        "weapons": [
-          7,
-          41,
-          57,
-          64,
-          68,
-          71,
-          107,
-          152,
-          176
-        ],
-        "ammunition": [
-          2,
-          3,
-          5,
-          8,
-          9,
-          13,
-          37
-        ]
-      },
-      "factions": [
-        605
-      ]
-    },
-    {
       "id": 509,
       "idArmy": 18,
       "canonical": 601,
@@ -9173,6 +8544,625 @@
         605,
         703,
         1102
+      ]
+    },
+    {
+      "id": 1861,
+      "idArmy": 1861,
+      "canonical": 601,
+      "isc": "Drakios, Team Achilles' dragon",
+      "iscAbbr": null,
+      "name": "DRAKIOS, Team Achilles' dragon",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Drakios, Team Achilles' dragon",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 21,
+              "move": [
+                15,
+                5
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 2,
+              "ava": 1,
+              "str": false,
+              "bs": 13,
+              "s": 5,
+              "equip": [
+                {
+                  "q": 1,
+                  "extra": [
+                    7
+                  ],
+                  "id": 183,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    310
+                  ],
+                  "id": 246,
+                  "order": 2
+                }
+              ],
+              "w": 2,
+              "ph": 13,
+              "name": "DRAKIOS, Team Achilles' dragon",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/drakios-team-achilles-dragon-1-1.svg",
+              "id": 1,
+              "arm": 2,
+              "weapons": [],
+              "chars": [
+                3,
+                5,
+                20
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 19,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    292
+                  ],
+                  "id": 201,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "id": 189,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "id": 262,
+                  "order": 5
+                },
+                {
+                  "q": 1,
+                  "id": 164,
+                  "order": 6
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    37
+                  ],
+                  "id": 58,
+                  "order": 7
+                },
+                {
+                  "q": 1,
+                  "id": 83,
+                  "order": 8
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    372
+                  ],
+                  "id": 263,
+                  "order": 9
+                },
+                {
+                  "q": 1,
+                  "id": 261,
+                  "order": 10
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [
+                {
+                  "q": 1,
+                  "group": 2,
+                  "option": 1
+                }
+              ],
+              "minis": 1,
+              "points": 37,
+              "equip": [],
+              "name": "DRAKIOS",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 41,
+                  "order": 1
+                },
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 57,
+                  "order": 2
+                },
+                {
+                  "id": 68,
+                  "order": 3
+                },
+                {
+                  "id": 107,
+                  "order": 4
+                },
+                {
+                  "extra": [
+                    302
+                  ],
+                  "id": 7,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": [
+                {
+                  "id": 4
+                }
+              ]
+            },
+            {
+              "includes": [
+                {
+                  "q": 1,
+                  "group": 2,
+                  "option": 1
+                }
+              ],
+              "minis": 1,
+              "points": 39,
+              "equip": [],
+              "name": "DRAKIOS",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "id": 64,
+                  "order": 1
+                },
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 57,
+                  "order": 2
+                },
+                {
+                  "id": 107,
+                  "order": 3
+                },
+                {
+                  "extra": [
+                    302
+                  ],
+                  "id": 7,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": [
+                {
+                  "id": 4
+                }
+              ]
+            },
+            {
+              "includes": [
+                {
+                  "q": 1,
+                  "group": 2,
+                  "option": 1
+                }
+              ],
+              "minis": 1,
+              "points": 39,
+              "equip": [],
+              "name": "DRAKIOS",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 3,
+              "weapons": [
+                {
+                  "id": 152,
+                  "order": 1
+                },
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 57,
+                  "order": 2
+                },
+                {
+                  "id": 107,
+                  "order": 3
+                },
+                {
+                  "extra": [
+                    302
+                  ],
+                  "id": 7,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "1",
+              "skills": [],
+              "peripheral": [
+                {
+                  "id": 4
+                }
+              ]
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 31,
+              "equip": [],
+              "name": "DRAKIOS FTO",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 4,
+              "weapons": [
+                {
+                  "id": 41,
+                  "order": 1
+                },
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 57,
+                  "order": 2
+                },
+                {
+                  "id": 68,
+                  "order": 3
+                },
+                {
+                  "id": 107,
+                  "order": 4
+                },
+                {
+                  "extra": [
+                    302
+                  ],
+                  "id": 7,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 33,
+              "equip": [],
+              "name": "DRAKIOS FTO",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 5,
+              "weapons": [
+                {
+                  "id": 64,
+                  "order": 1
+                },
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 57,
+                  "order": 2
+                },
+                {
+                  "id": 107,
+                  "order": 3
+                },
+                {
+                  "extra": [
+                    302
+                  ],
+                  "id": 7,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 33,
+              "equip": [],
+              "name": "DRAKIOS FTO",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 6,
+              "weapons": [
+                {
+                  "id": 152,
+                  "order": 1
+                },
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 57,
+                  "order": 2
+                },
+                {
+                  "id": 107,
+                  "order": 3
+                },
+                {
+                  "extra": [
+                    302
+                  ],
+                  "id": 7,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "1",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 10
+        },
+        {
+          "notes": null,
+          "isc": "Kydoimos",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 13,
+              "move": [
+                15,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 5,
+              "ava": -1,
+              "str": true,
+              "bs": 10,
+              "s": 2,
+              "equip": [
+                {
+                  "q": 1,
+                  "extra": [
+                    7
+                  ],
+                  "id": 183,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    310
+                  ],
+                  "id": 246,
+                  "order": 2
+                }
+              ],
+              "w": 1,
+              "ph": 10,
+              "name": "KYDOIMOS",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/drakios-team-achilles-dragon-2-1.svg",
+              "id": 1,
+              "arm": 0,
+              "weapons": [],
+              "chars": [
+                21,
+                27
+              ],
+              "wip": 11,
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 84,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 38,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "id": 164,
+                  "order": 4
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    37
+                  ],
+                  "id": 58,
+                  "order": 5
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    40
+                  ],
+                  "id": 243,
+                  "order": 6
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    372
+                  ],
+                  "id": 263,
+                  "order": 7
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 6,
+              "equip": [],
+              "name": "KYDOIMOS",
+              "disabled": true,
+              "orders": [],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 57,
+                  "order": 1
+                },
+                {
+                  "extra": [
+                    30
+                  ],
+                  "id": 176,
+                  "order": 2
+                },
+                {
+                  "id": 107,
+                  "order": 3
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 2,
+          "category": null
+        }
+      ],
+      "options": [],
+      "slug": "drakios-team-achilles-dragon",
+      "filters": {
+        "categories": [
+          10
+        ],
+        "skills": [
+          19,
+          38,
+          58,
+          83,
+          84,
+          164,
+          189,
+          201,
+          243,
+          261,
+          262,
+          263
+        ],
+        "equip": [
+          183,
+          246
+        ],
+        "chars": [
+          3,
+          5,
+          20,
+          21,
+          27
+        ],
+        "types": [
+          2,
+          5
+        ],
+        "weapons": [
+          7,
+          41,
+          57,
+          64,
+          68,
+          71,
+          107,
+          152,
+          176
+        ],
+        "ammunition": [
+          2,
+          3,
+          5,
+          8,
+          9,
+          13,
+          37
+        ]
+      },
+      "factions": [
+        605
       ]
     },
     {
@@ -13558,7 +13548,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 4
+                  "id": 5
                 }
               ]
             },
@@ -13613,7 +13603,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 4
+                  "id": 5
                 }
               ]
             },
@@ -13668,7 +13658,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 4
+                  "id": 5
                 }
               ]
             },
@@ -13727,7 +13717,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 4
+                  "id": 5
                 }
               ]
             }
@@ -14659,7 +14649,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 4
+                  "id": 5
                 }
               ]
             },
@@ -14711,7 +14701,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 4
+                  "id": 5
                 }
               ]
             },
@@ -14767,7 +14757,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 4
+                  "id": 5
                 }
               ]
             }
@@ -17451,7 +17441,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 5
+                  "id": 6
                 }
               ]
             },
@@ -17515,7 +17505,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 5,
+                  "id": 6,
                   "q": 2
                 }
               ]
@@ -23811,7 +23801,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 6
+                  "id": 7
                 }
               ]
             }
@@ -24373,29 +24363,29 @@
   "filters": {
     "peripheral": [
       {
-        "id": 6,
+        "id": 7,
         "name": "BÂTARD",
         "mercs": true
       },
       {
-        "id": 5,
+        "id": 6,
         "name": "JACKBOT",
         "mercs": true
       },
       {
-        "id": 1,
+        "id": 2,
         "name": "KISS! (Repeater)"
       },
       {
-        "id": 3,
+        "id": 4,
         "name": "KYDOIMOS"
       },
       {
-        "id": 2,
+        "id": 3,
         "name": "STALDRON"
       },
       {
-        "id": 4,
+        "id": 5,
         "name": "TURTLEMEK",
         "mercs": true
       }
@@ -26565,16 +26555,6 @@
       "category": 5
     },
     {
-      "id": 1861,
-      "isc": "Drakios, Team Achilles' dragon",
-      "idArmy": 1861,
-      "name": "DRAKIOS, Team Achilles' dragon",
-      "slug": "drakios-team-achilles-dragon",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/drakios-team-achilles-dragon-1-1.svg",
-      "type": 2,
-      "category": 10
-    },
-    {
       "id": 509,
       "isc": "Q-Drones",
       "idArmy": 18,
@@ -26613,6 +26593,16 @@
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/kazuraba-ruby-monday-1-1.svg",
       "type": 3,
       "category": 11
+    },
+    {
+      "id": 1861,
+      "isc": "Drakios, Team Achilles' dragon",
+      "idArmy": 1861,
+      "name": "DRAKIOS, Team Achilles' dragon",
+      "slug": "drakios-team-achilles-dragon",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/drakios-team-achilles-dragon-1-1.svg",
+      "type": 2,
+      "category": 10
     },
     {
       "id": 1878,
