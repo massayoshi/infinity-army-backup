@@ -1,5 +1,5 @@
 {
-  "version": "7.25288.295",
+  "version": "7.25316.330",
   "units": [
     {
       "id": 785,
@@ -154,7 +154,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 137
+                  "id": 70
                 }
               ]
             },
@@ -210,7 +210,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 137
+                  "id": 70
                 }
               ]
             },
@@ -271,7 +271,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 137
+                  "id": 70
                 }
               ]
             }
@@ -3653,310 +3653,6 @@
       ]
     },
     {
-      "id": 494,
-      "idArmy": 3,
-      "canonical": 601,
-      "isc": "Fraacta Drop Unit",
-      "iscAbbr": null,
-      "name": "FRAACTA Drop Unit",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Fraacta Drop Unit",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 15,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 2,
-              "ava": 3,
-              "str": false,
-              "bs": 12,
-              "s": 2,
-              "equip": [],
-              "w": 2,
-              "ph": 12,
-              "name": "Jump Form",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/fraacta-drop-unit-1-1.svg",
-              "id": 1,
-              "arm": 1,
-              "weapons": [],
-              "chars": [
-                1,
-                3,
-                5
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "id": 84,
-                  "order": 2
-                },
-                {
-                  "extra": [],
-                  "id": 33,
-                  "order": 4
-                },
-                {
-                  "id": 35,
-                  "order": 5
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    304
-                  ],
-                  "id": 74,
-                  "order": 6
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    44
-                  ],
-                  "id": 246,
-                  "order": 7
-                }
-              ],
-              "peripheral": []
-            },
-            {
-              "bts": 6,
-              "cc": 15,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 2,
-              "ava": -1,
-              "str": false,
-              "bs": 12,
-              "s": 2,
-              "equip": [],
-              "w": 2,
-              "ph": 10,
-              "name": "Survival Form",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/fraacta-drop-unit-1-1.svg",
-              "id": 2,
-              "arm": 2,
-              "weapons": [],
-              "chars": [
-                1,
-                3,
-                5
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "id": 84,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    304
-                  ],
-                  "id": 74,
-                  "order": 3
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 19,
-              "equip": [],
-              "name": "FRAACTA",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1759,
-              "weapons": [
-                {
-                  "id": 26,
-                  "order": 1
-                },
-                {
-                  "id": 216,
-                  "order": 2
-                },
-                {
-                  "id": 17,
-                  "order": 3
-                },
-                {
-                  "id": 69,
-                  "order": 4
-                },
-                {
-                  "id": 5,
-                  "order": 5
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 27,
-              "equip": [],
-              "name": "FRAACTA",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1760,
-              "weapons": [
-                {
-                  "id": 74,
-                  "order": 1
-                },
-                {
-                  "id": 65,
-                  "order": 2
-                },
-                {
-                  "id": 69,
-                  "order": 3
-                },
-                {
-                  "id": 5,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "1.5",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 25,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 100,
-                  "order": 1
-                }
-              ],
-              "name": "FRAACTA",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1761,
-              "weapons": [
-                {
-                  "id": 33,
-                  "order": 1
-                },
-                {
-                  "id": 65,
-                  "order": 2
-                },
-                {
-                  "id": 17,
-                  "order": 3
-                },
-                {
-                  "id": 69,
-                  "order": 4
-                },
-                {
-                  "id": 5,
-                  "order": 5
-                }
-              ],
-              "chars": [],
-              "swc": "0.5",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 1000,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 3
-        }
-      ],
-      "options": [],
-      "slug": "fraacta-drop-unit",
-      "filters": {
-        "categories": [
-          3
-        ],
-        "skills": [
-          33,
-          35,
-          74,
-          84,
-          246,
-          1000
-        ],
-        "equip": [
-          100
-        ],
-        "chars": [
-          1,
-          3,
-          5
-        ],
-        "types": [
-          2
-        ],
-        "weapons": [
-          5,
-          17,
-          26,
-          33,
-          65,
-          69,
-          74,
-          216
-        ],
-        "ammunition": [
-          2,
-          3,
-          13,
-          37
-        ]
-      },
-      "factions": [
-        604
-      ]
-    },
-    {
       "id": 530,
       "idArmy": 39,
       "canonical": 601,
@@ -4373,6 +4069,310 @@
       ]
     },
     {
+      "id": 494,
+      "idArmy": 3,
+      "canonical": 601,
+      "isc": "Fraacta Drop Unit",
+      "iscAbbr": null,
+      "name": "FRAACTA Drop Unit",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Fraacta Drop Unit",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 15,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 2,
+              "ava": 3,
+              "str": false,
+              "bs": 12,
+              "s": 2,
+              "equip": [],
+              "w": 2,
+              "ph": 12,
+              "name": "Jump Form",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/fraacta-drop-unit-1-1.svg",
+              "id": 1,
+              "arm": 1,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                5
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "id": 84,
+                  "order": 2
+                },
+                {
+                  "extra": [],
+                  "id": 33,
+                  "order": 4
+                },
+                {
+                  "id": 35,
+                  "order": 5
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    304
+                  ],
+                  "id": 74,
+                  "order": 6
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    44
+                  ],
+                  "id": 246,
+                  "order": 7
+                }
+              ],
+              "peripheral": []
+            },
+            {
+              "bts": 6,
+              "cc": 15,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 2,
+              "ava": -1,
+              "str": false,
+              "bs": 12,
+              "s": 2,
+              "equip": [],
+              "w": 2,
+              "ph": 10,
+              "name": "Survival Form",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/fraacta-drop-unit-1-1.svg",
+              "id": 2,
+              "arm": 2,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                5
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "id": 84,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    304
+                  ],
+                  "id": 74,
+                  "order": 3
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 19,
+              "equip": [],
+              "name": "FRAACTA",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1759,
+              "weapons": [
+                {
+                  "id": 26,
+                  "order": 1
+                },
+                {
+                  "id": 216,
+                  "order": 2
+                },
+                {
+                  "id": 17,
+                  "order": 3
+                },
+                {
+                  "id": 69,
+                  "order": 4
+                },
+                {
+                  "id": 5,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 27,
+              "equip": [],
+              "name": "FRAACTA",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1760,
+              "weapons": [
+                {
+                  "id": 74,
+                  "order": 1
+                },
+                {
+                  "id": 65,
+                  "order": 2
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "1.5",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 25,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 100,
+                  "order": 1
+                }
+              ],
+              "name": "FRAACTA",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1761,
+              "weapons": [
+                {
+                  "id": 33,
+                  "order": 1
+                },
+                {
+                  "id": 65,
+                  "order": 2
+                },
+                {
+                  "id": 17,
+                  "order": 3
+                },
+                {
+                  "id": 69,
+                  "order": 4
+                },
+                {
+                  "id": 5,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0.5",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 1000,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 3
+        }
+      ],
+      "options": [],
+      "slug": "fraacta-drop-unit",
+      "filters": {
+        "categories": [
+          3
+        ],
+        "skills": [
+          33,
+          35,
+          74,
+          84,
+          246,
+          1000
+        ],
+        "equip": [
+          100
+        ],
+        "chars": [
+          1,
+          3,
+          5
+        ],
+        "types": [
+          2
+        ],
+        "weapons": [
+          5,
+          17,
+          26,
+          33,
+          65,
+          69,
+          74,
+          216
+        ],
+        "ammunition": [
+          2,
+          3,
+          13,
+          37
+        ]
+      },
+      "factions": [
+        604
+      ]
+    },
+    {
       "id": 524,
       "idArmy": 33,
       "canonical": 601,
@@ -4560,7 +4560,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 138
+                  "id": 71
                 }
               ]
             }
@@ -6713,7 +6713,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 137
+                  "id": 70
                 }
               ]
             }
@@ -10189,7 +10189,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 137
+                  "id": 70
                 }
               ]
             },
@@ -10245,7 +10245,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 137
+                  "id": 70
                 }
               ]
             },
@@ -10301,7 +10301,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 137
+                  "id": 70
                 }
               ]
             }
@@ -10568,7 +10568,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 139
+                  "id": 72
                 }
               ]
             },
@@ -10636,7 +10636,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 140
+                  "id": 73
                 }
               ]
             }
@@ -12405,6 +12405,400 @@
       "factions": []
     },
     {
+      "id": 10300,
+      "idArmy": 10015,
+      "canonical": 1,
+      "isc": "Anaconda, Mercenary TAG Squad",
+      "iscAbbr": "Anaconda, Merc. TAG Squad",
+      "notes": null,
+      "name": "ANACONDA, Mercenary TAG Squad",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Anaconda, Mercenary TAG Squad",
+          "profiles": [
+            {
+              "bts": 6,
+              "cc": 21,
+              "move": [
+                15,
+                5
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 4,
+              "ava": 1,
+              "str": true,
+              "bs": 13,
+              "s": 7,
+              "equip": [
+                {
+                  "extra": [
+                    7
+                  ],
+                  "id": 239,
+                  "order": 1
+                }
+              ],
+              "w": 3,
+              "ph": 16,
+              "name": "ANACONDA, Mercenary TAG Squad",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/anaconda-merc-tag-squad-1-1.svg",
+              "id": 1,
+              "arm": 7,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                5,
+                21
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "q": 1,
+                  "extra": [
+                    305
+                  ],
+                  "id": 201,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 84,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    27
+                  ],
+                  "id": 40,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    27
+                  ],
+                  "id": 254,
+                  "order": 4
+                },
+                {
+                  "q": 1,
+                  "id": 213,
+                  "order": 5
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    321
+                  ],
+                  "id": 246,
+                  "order": 6
+                },
+                {
+                  "q": 1,
+                  "id": 267,
+                  "order": 7
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    249
+                  ],
+                  "id": 162,
+                  "order": 8
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [
+                {
+                  "q": 1,
+                  "group": 2,
+                  "option": 1
+                }
+              ],
+              "minis": 1,
+              "points": 59,
+              "equip": [],
+              "name": "ANACONDA",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "TACTICAL",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 157,
+                  "order": 1
+                },
+                {
+                  "extra": [
+                    8
+                  ],
+                  "id": 57,
+                  "order": 2
+                },
+                {
+                  "extra": [
+                    249
+                  ],
+                  "id": 207,
+                  "order": 3
+                },
+                {
+                  "extra": [
+                    311
+                  ],
+                  "id": 11,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "1.5",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [
+                {
+                  "q": 1,
+                  "group": 2,
+                  "option": 1
+                }
+              ],
+              "minis": 1,
+              "points": 59,
+              "equip": [],
+              "name": "ANACONDA",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "TACTICAL",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "id": 2,
+                  "order": 1
+                },
+                {
+                  "extra": [
+                    256
+                  ],
+                  "id": 28,
+                  "order": 2
+                },
+                {
+                  "id": 68,
+                  "order": 3
+                },
+                {
+                  "extra": [
+                    311
+                  ],
+                  "id": 11,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "1.5",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 11
+        },
+        {
+          "notes": null,
+          "isc": null,
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 13,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 1,
+              "ava": -1,
+              "str": false,
+              "bs": 12,
+              "s": 2,
+              "equip": [],
+              "w": 3,
+              "ph": 10,
+              "name": "ANACONDA OPERATOR",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/anaconda-merc-tag-squad-2-1.svg",
+              "id": 1,
+              "arm": 1,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                5
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "id": 84,
+                  "order": 1
+                },
+                {
+                  "id": 189,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "id": 213,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "id": 267,
+                  "order": 4
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    6
+                  ],
+                  "id": 28,
+                  "order": 5
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 59,
+              "equip": [],
+              "name": "OPERATOR",
+              "disabled": true,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                },
+                {
+                  "type": "TACTICAL",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 74,
+                  "order": 1
+                },
+                {
+                  "id": 195,
+                  "order": 2
+                },
+                {
+                  "id": 212,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "-",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 2,
+          "category": 11
+        }
+      ],
+      "options": [],
+      "slug": "merc-anaconda-merc-tag-squad",
+      "filters": {
+        "categories": [
+          11
+        ],
+        "skills": [
+          28,
+          40,
+          84,
+          162,
+          189,
+          201,
+          213,
+          246,
+          254,
+          267
+        ],
+        "equip": [
+          239
+        ],
+        "chars": [
+          1,
+          3,
+          5,
+          21
+        ],
+        "types": [
+          1,
+          4
+        ],
+        "weapons": [
+          2,
+          5,
+          11,
+          28,
+          57,
+          68,
+          74,
+          157,
+          195,
+          207,
+          212
+        ],
+        "ammunition": [
+          2,
+          3,
+          9,
+          13,
+          21
+        ]
+      },
+      "factions": []
+    },
+    {
       "id": 10265,
       "idArmy": 10039,
       "canonical": 1,
@@ -12881,7 +13275,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 141
+                  "id": 74
                 }
               ]
             },
@@ -12936,7 +13330,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 141
+                  "id": 74
                 }
               ]
             },
@@ -12991,7 +13385,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 141
+                  "id": 74
                 }
               ]
             },
@@ -13050,7 +13444,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 141
+                  "id": 74
                 }
               ]
             }
@@ -13194,400 +13588,6 @@
           2,
           3,
           13
-        ]
-      },
-      "factions": []
-    },
-    {
-      "id": 10300,
-      "idArmy": 10015,
-      "canonical": 1,
-      "isc": "Anaconda, Mercenary TAG Squad",
-      "iscAbbr": "Anaconda, Merc. TAG Squad",
-      "notes": null,
-      "name": "ANACONDA, Mercenary TAG Squad",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Anaconda, Mercenary TAG Squad",
-          "profiles": [
-            {
-              "bts": 6,
-              "cc": 21,
-              "move": [
-                15,
-                5
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 4,
-              "ava": 1,
-              "str": true,
-              "bs": 13,
-              "s": 7,
-              "equip": [
-                {
-                  "extra": [
-                    7
-                  ],
-                  "id": 239,
-                  "order": 1
-                }
-              ],
-              "w": 3,
-              "ph": 16,
-              "name": "ANACONDA, Mercenary TAG Squad",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/anaconda-merc-tag-squad-1-1.svg",
-              "id": 1,
-              "arm": 7,
-              "weapons": [],
-              "chars": [
-                1,
-                3,
-                5,
-                21
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "q": 1,
-                  "extra": [
-                    305
-                  ],
-                  "id": 201,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "id": 84,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    27
-                  ],
-                  "id": 40,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    27
-                  ],
-                  "id": 254,
-                  "order": 4
-                },
-                {
-                  "q": 1,
-                  "id": 213,
-                  "order": 5
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    321
-                  ],
-                  "id": 246,
-                  "order": 6
-                },
-                {
-                  "q": 1,
-                  "id": 267,
-                  "order": 7
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    249
-                  ],
-                  "id": 162,
-                  "order": 8
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [
-                {
-                  "q": 1,
-                  "group": 2,
-                  "option": 1
-                }
-              ],
-              "minis": 1,
-              "points": 59,
-              "equip": [],
-              "name": "ANACONDA",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "TACTICAL",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 157,
-                  "order": 1
-                },
-                {
-                  "extra": [
-                    8
-                  ],
-                  "id": 57,
-                  "order": 2
-                },
-                {
-                  "extra": [
-                    249
-                  ],
-                  "id": 207,
-                  "order": 3
-                },
-                {
-                  "extra": [
-                    311
-                  ],
-                  "id": 11,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "1.5",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [
-                {
-                  "q": 1,
-                  "group": 2,
-                  "option": 1
-                }
-              ],
-              "minis": 1,
-              "points": 59,
-              "equip": [],
-              "name": "ANACONDA",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "TACTICAL",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "id": 2,
-                  "order": 1
-                },
-                {
-                  "extra": [
-                    256
-                  ],
-                  "id": 28,
-                  "order": 2
-                },
-                {
-                  "id": 68,
-                  "order": 3
-                },
-                {
-                  "extra": [
-                    311
-                  ],
-                  "id": 11,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "1.5",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 11
-        },
-        {
-          "notes": null,
-          "isc": null,
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 13,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 1,
-              "ava": -1,
-              "str": false,
-              "bs": 12,
-              "s": 2,
-              "equip": [],
-              "w": 3,
-              "ph": 10,
-              "name": "ANACONDA OPERATOR",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/anaconda-merc-tag-squad-2-1.svg",
-              "id": 1,
-              "arm": 1,
-              "weapons": [],
-              "chars": [
-                1,
-                3,
-                5
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "id": 84,
-                  "order": 1
-                },
-                {
-                  "id": 189,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "id": 213,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "id": 267,
-                  "order": 4
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    6
-                  ],
-                  "id": 28,
-                  "order": 5
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 59,
-              "equip": [],
-              "name": "OPERATOR",
-              "disabled": true,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                },
-                {
-                  "type": "TACTICAL",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 74,
-                  "order": 1
-                },
-                {
-                  "id": 195,
-                  "order": 2
-                },
-                {
-                  "id": 212,
-                  "order": 3
-                },
-                {
-                  "id": 5,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "-",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 2,
-          "category": 11
-        }
-      ],
-      "options": [],
-      "slug": "merc-anaconda-merc-tag-squad",
-      "filters": {
-        "categories": [
-          11
-        ],
-        "skills": [
-          28,
-          40,
-          84,
-          162,
-          189,
-          201,
-          213,
-          246,
-          254,
-          267
-        ],
-        "equip": [
-          239
-        ],
-        "chars": [
-          1,
-          3,
-          5,
-          21
-        ],
-        "types": [
-          1,
-          4
-        ],
-        "weapons": [
-          2,
-          5,
-          11,
-          28,
-          57,
-          68,
-          74,
-          157,
-          195,
-          207,
-          212
-        ],
-        "ammunition": [
-          2,
-          3,
-          9,
-          13,
-          21
         ]
       },
       "factions": []
@@ -14376,7 +14376,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 141
+                  "id": 74
                 }
               ]
             },
@@ -14428,7 +14428,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 141
+                  "id": 74
                 }
               ]
             },
@@ -14484,7 +14484,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 141
+                  "id": 74
                 }
               ]
             }
@@ -15264,6 +15264,168 @@
       "factions": []
     },
     {
+      "id": 10491,
+      "idArmy": 10027,
+      "canonical": 1,
+      "isc": "Avicenna, Mercenary Doctor",
+      "iscAbbr": null,
+      "notes": null,
+      "name": "AVICENNA, Mercenary Doctor",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Avicenna, Mercenary Doctor",
+          "profiles": [
+            {
+              "bts": 3,
+              "cc": 16,
+              "move": [
+                15,
+                5
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 1,
+              "ava": 1,
+              "str": false,
+              "bs": 11,
+              "s": 2,
+              "equip": [
+                {
+                  "id": 106,
+                  "order": 1
+                }
+              ],
+              "w": 1,
+              "ph": 11,
+              "name": "AVICENNA, Mercenary Doctor",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/avicenna-mercenary-doctor-1-1.svg",
+              "id": 1,
+              "arm": 2,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                5
+              ],
+              "wip": 15,
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 84,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    319
+                  ],
+                  "id": 162,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    1
+                  ],
+                  "id": 53,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "id": 86,
+                  "order": 4
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 28,
+              "equip": [],
+              "name": "AVICENNA",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 33,
+                  "order": 1
+                },
+                {
+                  "id": 72,
+                  "order": 2
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                },
+                {
+                  "id": 65,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 10
+        }
+      ],
+      "options": [],
+      "slug": "merc-avicenna-mercenary-doctor",
+      "filters": {
+        "categories": [
+          10
+        ],
+        "skills": [
+          53,
+          84,
+          86,
+          162
+        ],
+        "equip": [
+          106
+        ],
+        "chars": [
+          1,
+          3,
+          5
+        ],
+        "types": [
+          1
+        ],
+        "weapons": [
+          5,
+          33,
+          65,
+          69,
+          72
+        ],
+        "ammunition": [
+          2,
+          29
+        ]
+      },
+      "factions": []
+    },
+    {
       "id": 10122,
       "idArmy": 10022,
       "canonical": 1,
@@ -15592,168 +15754,6 @@
           8,
           9,
           37
-        ]
-      },
-      "factions": []
-    },
-    {
-      "id": 10491,
-      "idArmy": 10027,
-      "canonical": 1,
-      "isc": "Avicenna, Mercenary Doctor",
-      "iscAbbr": null,
-      "notes": null,
-      "name": "AVICENNA, Mercenary Doctor",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Avicenna, Mercenary Doctor",
-          "profiles": [
-            {
-              "bts": 3,
-              "cc": 16,
-              "move": [
-                15,
-                5
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 1,
-              "ava": 1,
-              "str": false,
-              "bs": 11,
-              "s": 2,
-              "equip": [
-                {
-                  "id": 106,
-                  "order": 1
-                }
-              ],
-              "w": 1,
-              "ph": 11,
-              "name": "AVICENNA, Mercenary Doctor",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/avicenna-mercenary-doctor-1-1.svg",
-              "id": 1,
-              "arm": 2,
-              "weapons": [],
-              "chars": [
-                1,
-                3,
-                5
-              ],
-              "wip": 15,
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 84,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    319
-                  ],
-                  "id": 162,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    1
-                  ],
-                  "id": 53,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "id": 86,
-                  "order": 4
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 28,
-              "equip": [],
-              "name": "AVICENNA",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 33,
-                  "order": 1
-                },
-                {
-                  "id": 72,
-                  "order": 2
-                },
-                {
-                  "id": 69,
-                  "order": 3
-                },
-                {
-                  "id": 5,
-                  "order": 4
-                },
-                {
-                  "id": 65,
-                  "order": 5
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 10
-        }
-      ],
-      "options": [],
-      "slug": "merc-avicenna-mercenary-doctor",
-      "filters": {
-        "categories": [
-          10
-        ],
-        "skills": [
-          53,
-          84,
-          86,
-          162
-        ],
-        "equip": [
-          106
-        ],
-        "chars": [
-          1,
-          3,
-          5
-        ],
-        "types": [
-          1
-        ],
-        "weapons": [
-          5,
-          33,
-          65,
-          69,
-          72
-        ],
-        "ammunition": [
-          2,
-          29
         ]
       },
       "factions": []
@@ -17168,7 +17168,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 142
+                  "id": 75
                 }
               ]
             },
@@ -17232,7 +17232,7 @@
               ],
               "peripheral": [
                 {
-                  "id": 142,
+                  "id": 75,
                   "q": 2
                 }
               ]
@@ -23528,7 +23528,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 143
+                  "id": 76
                 }
               ]
             }
@@ -24090,33 +24090,33 @@
   "filters": {
     "peripheral": [
       {
-        "id": 143,
+        "id": 76,
         "name": "BÂTARD",
         "mercs": true
       },
       {
-        "id": 142,
+        "id": 75,
         "name": "JACKBOT",
         "mercs": true
       },
       {
-        "id": 140,
+        "id": 73,
         "name": "KISS!"
       },
       {
-        "id": 139,
+        "id": 72,
         "name": "KISS! (Repeater)"
       },
       {
-        "id": 138,
+        "id": 71,
         "name": "SCINDRON"
       },
       {
-        "id": 137,
+        "id": 70,
         "name": "STALDRON"
       },
       {
-        "id": 141,
+        "id": 74,
         "name": "TURTLEMEK",
         "mercs": true
       }
@@ -26200,16 +26200,6 @@
       "category": 8
     },
     {
-      "id": 494,
-      "isc": "Fraacta Drop Unit",
-      "idArmy": 3,
-      "name": "FRAACTA Drop Unit",
-      "slug": "fraacta-drop-unit",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/fraacta-drop-unit-1-1.svg",
-      "type": 2,
-      "category": 3
-    },
-    {
       "id": 530,
       "isc": "Suryats",
       "idArmy": 39,
@@ -26218,6 +26208,16 @@
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/suryats-1-1.svg",
       "type": 3,
       "category": 4
+    },
+    {
+      "id": 494,
+      "isc": "Fraacta Drop Unit",
+      "idArmy": 3,
+      "name": "FRAACTA Drop Unit",
+      "slug": "fraacta-drop-unit",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/fraacta-drop-unit-1-1.svg",
+      "type": 2,
+      "category": 3
     },
     {
       "id": 524,
@@ -26480,6 +26480,16 @@
       "category": 10
     },
     {
+      "id": 10300,
+      "isc": "Anaconda, Merc. TAG Squad",
+      "idArmy": 10015,
+      "name": "ANACONDA, Mercenary TAG Squad",
+      "slug": "merc-anaconda-merc-tag-squad",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/anaconda-merc-tag-squad-1-1.svg",
+      "type": 4,
+      "category": 11
+    },
+    {
       "id": 10265,
       "isc": "Wardrivers, Merc. Hackers",
       "idArmy": 10039,
@@ -26496,16 +26506,6 @@
       "name": "TRIPHAMMER, Repurposed Industrial TAG",
       "slug": "merc-triphammers-repurposed-industrial-tags",
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/triphammers-repurposed-industrial-tags-1-1.svg",
-      "type": 4,
-      "category": 11
-    },
-    {
-      "id": 10300,
-      "isc": "Anaconda, Merc. TAG Squad",
-      "idArmy": 10015,
-      "name": "ANACONDA, Mercenary TAG Squad",
-      "slug": "merc-anaconda-merc-tag-squad",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/anaconda-merc-tag-squad-1-1.svg",
       "type": 4,
       "category": 11
     },
@@ -26560,16 +26560,6 @@
       "category": 10
     },
     {
-      "id": 10122,
-      "isc": "CSU, Corporate Security Unit",
-      "idArmy": 10022,
-      "name": "CSU, Corporate Security Unit",
-      "slug": "merc-csu-corporate-security-unit",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/csu-corporate-security-unit-1-1.svg",
-      "type": 1,
-      "category": 11
-    },
-    {
       "id": 10491,
       "isc": "Avicenna, Mercenary Doctor",
       "idArmy": 10027,
@@ -26578,6 +26568,16 @@
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/avicenna-mercenary-doctor-1-1.svg",
       "type": 1,
       "category": 10
+    },
+    {
+      "id": 10122,
+      "isc": "CSU, Corporate Security Unit",
+      "idArmy": 10022,
+      "name": "CSU, Corporate Security Unit",
+      "slug": "merc-csu-corporate-security-unit",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/csu-corporate-security-unit-1-1.svg",
+      "type": 1,
+      "category": 11
     },
     {
       "id": 11555,
@@ -27514,14 +27514,6 @@
             "comment": "(Unidron)",
             "required": false,
             "slug": "nexus-7-operative-kerr-nau"
-          },
-          {
-            "min": 0,
-            "max": 1,
-            "name": "KO DALI",
-            "comment": "FTO",
-            "required": false,
-            "slug": "special-operative-ko-dali"
           },
           {
             "min": 0,
