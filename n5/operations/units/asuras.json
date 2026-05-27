@@ -27,8 +27,17 @@
           ],
           "equip": [
             {
+              "extra": [
+                6
+              ],
+              "id": 241,
+              "order": 1,
+              "q": 1
+            },
+            {
               "id": 116,
-              "order": 1
+              "order": 2,
+              "q": 1
             }
           ],
           "logo": "https://assets.corvusbelli.net/army/img/logo/units/asuras-1-1.svg",
@@ -74,19 +83,19 @@
             }
           ],
           "includes": [],
-          "points": 58,
+          "points": 61,
           "swc": "1.5",
           "weapons": [
             {
-              "id": 74,
+              "id": 157,
               "order": 1
             },
             {
-              "id": 65,
+              "id": 145,
               "order": 2
             },
             {
-              "id": 69,
+              "id": 189,
               "order": 3
             },
             {
@@ -105,7 +114,7 @@
           "equip": [
             {
               "extra": [
-                350
+                378
               ],
               "id": 101,
               "order": 1,
@@ -121,19 +130,19 @@
             }
           ],
           "includes": [],
-          "points": 60,
+          "points": 63,
           "swc": "0.5",
           "weapons": [
             {
-              "id": 41,
+              "id": 169,
               "order": 1
             },
             {
-              "id": 65,
+              "id": 145,
               "order": 2
             },
             {
-              "id": 69,
+              "id": 189,
               "order": 3
             },
             {
@@ -169,19 +178,19 @@
             }
           ],
           "includes": [],
-          "points": 62,
+          "points": 65,
           "swc": "1",
           "weapons": [
             {
-              "id": 74,
+              "id": 157,
               "order": 1
             },
             {
-              "id": 65,
+              "id": 145,
               "order": 2
             },
             {
-              "id": 69,
+              "id": 189,
               "order": 3
             },
             {
@@ -208,10 +217,10 @@
           "equip": [
             {
               "extra": [
-                350
+                378
               ],
               "id": 101,
-              "order": 1,
+              "order": 2,
               "q": 1
             }
           ],
@@ -229,19 +238,19 @@
             }
           ],
           "includes": [],
-          "points": 64,
+          "points": 67,
           "swc": "0",
           "weapons": [
             {
-              "id": 41,
+              "id": 169,
               "order": 1
             },
             {
-              "id": 65,
+              "id": 145,
               "order": 2
             },
             {
-              "id": 69,
+              "id": 189,
               "order": 3
             },
             {
@@ -283,7 +292,8 @@
     ],
     "equip": [
       101,
-      116
+      116,
+      241
     ],
     "chars": [
       3,
@@ -296,10 +306,10 @@
     ],
     "weapons": [
       6,
-      41,
-      65,
-      69,
-      74
+      145,
+      157,
+      169,
+      189
     ],
     "ammunition": [
       2,

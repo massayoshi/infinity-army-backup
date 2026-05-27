@@ -24,7 +24,16 @@
             5,
             20
           ],
-          "equip": [],
+          "equip": [
+            {
+              "extra": [
+                334
+              ],
+              "id": 145,
+              "order": 1,
+              "q": 1
+            }
+          ],
           "logo": "https://assets.corvusbelli.net/army/img/logo/units/apsaras-1-1.svg",
           "weapons": [],
           "includes": [],
@@ -51,9 +60,115 @@
           "disabled": false,
           "equip": [
             {
-              "id": 145,
+              "id": 111,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 17,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 77,
               "order": 1
             },
+            {
+              "id": 175,
+              "order": 2
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            }
+          ],
+          "name": "APSARA",
+          "skills": [
+            {
+              "id": 1000,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 111,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 20,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 77,
+              "order": 1
+            },
+            {
+              "id": 175,
+              "order": 2
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            }
+          ],
+          "name": "APSARA",
+          "skills": [
+            {
+              "id": 1000,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "extra": [
+                280,
+                281,
+                282
+              ],
+              "id": 255,
+              "order": 2,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 3,
+          "chars": [],
+          "disabled": false,
+          "equip": [
             {
               "id": 111,
               "order": 1,
@@ -73,16 +188,20 @@
           "swc": "0",
           "weapons": [
             {
-              "id": 26,
+              "id": 77,
               "order": 1
             },
             {
-              "id": 69,
+              "id": 175,
               "order": 2
             },
             {
-              "id": 5,
+              "id": 69,
               "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
             }
           ],
           "name": "APSARA",
@@ -91,25 +210,45 @@
               "id": 1000,
               "order": 1,
               "q": 1
+            },
+            {
+              "extra": [
+                312,
+                313
+              ],
+              "id": 270,
+              "order": 2,
+              "q": 1
             }
           ],
           "peripheral": []
         },
         {
-          "id": 2,
+          "id": 4,
           "chars": [],
           "disabled": false,
-          "equip": [],
+          "equip": [
+            {
+              "id": 111,
+              "order": 1,
+              "q": 1
+            }
+          ],
           "minis": 1,
           "orders": [
             {
               "type": "REGULAR",
               "list": 1,
               "total": 1
+            },
+            {
+              "type": "LIEUTENANT",
+              "list": 0,
+              "total": 1
             }
           ],
           "includes": [],
-          "points": 21,
+          "points": 20,
           "swc": "0",
           "weapons": [
             {
@@ -117,16 +256,30 @@
               "order": 1
             },
             {
-              "id": 69,
+              "id": 175,
               "order": 2
             },
             {
-              "id": 5,
+              "id": 69,
               "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
             }
           ],
           "name": "APSARA",
           "skills": [
+            {
+              "id": 119,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 1000,
+              "order": 2,
+              "q": 1
+            },
             {
               "extra": [
                 280,
@@ -134,7 +287,7 @@
                 282
               ],
               "id": 255,
-              "order": 1,
+              "order": 3,
               "q": 1
             }
           ],
@@ -150,7 +303,9 @@
       3
     ],
     "skills": [
+      119,
       255,
+      270,
       1000
     ],
     "equip": [
@@ -167,13 +322,13 @@
     ],
     "weapons": [
       5,
-      26,
       69,
-      77
+      77,
+      175
     ],
     "ammunition": [
       2,
-      3
+      14
     ]
   },
   "factions": [

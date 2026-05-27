@@ -158,6 +158,54 @@
           "name": "IGUANA",
           "skills": [],
           "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "TACTICAL",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 68,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 3,
+              "order": 1
+            },
+            {
+              "id": 57,
+              "order": 2
+            },
+            {
+              "id": 5,
+              "order": 3
+            }
+          ],
+          "name": "IGUANA",
+          "skills": [
+            {
+              "extra": [
+                6
+              ],
+              "id": 201,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
         }
       ]
     },
@@ -290,6 +338,58 @@
           ],
           "name": "IGUANA OPERATOR",
           "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": true,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "TACTICAL",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 68,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 3,
+              "order": 1
+            },
+            {
+              "id": 56,
+              "order": 2
+            },
+            {
+              "id": 100,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            }
+          ],
+          "name": "IGUANA OPERATOR",
+          "skills": [
+            {
+              "extra": [
+                6
+              ],
+              "id": 201,
+              "order": 1,
+              "q": 1
+            }
+          ],
           "peripheral": []
         }
       ]

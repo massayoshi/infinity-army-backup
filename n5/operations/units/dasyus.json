@@ -16,9 +16,9 @@
           "id": 1,
           "arm": 1,
           "ava": 3,
-          "bs": 12,
-          "bts": 0,
-          "cc": 15,
+          "bs": 13,
+          "bts": 3,
+          "cc": 16,
           "chars": [
             3,
             5,
@@ -29,10 +29,10 @@
           "weapons": [],
           "includes": [],
           "move": [
-            10,
-            10
+            15,
+            5
           ],
-          "ph": 13,
+          "ph": 12,
           "s": 2,
           "str": false,
           "type": 6,
@@ -42,53 +42,71 @@
           "notes": null,
           "skills": [
             {
-              "id": 191,
+              "id": 201,
               "order": 1,
               "extra": [
+                308
+              ],
+              "q": 1
+            },
+            {
+              "id": 191,
+              "order": 2,
+              "extra": [
                 6
-              ]
+              ],
+              "q": 1
             },
             {
               "id": 84,
-              "order": 2
+              "order": 3,
+              "q": 1
             },
             {
               "id": 29,
-              "order": 3
+              "order": 4,
+              "q": 1
             },
             {
               "id": 238,
-              "order": 4
+              "order": 5,
+              "q": 1
             },
             {
               "id": 28,
-              "order": 5,
+              "order": 6,
               "extra": [
                 7
-              ]
+              ],
+              "q": 1
             },
             {
               "id": 47,
-              "order": 6
+              "order": 7,
+              "extra": [
+                277
+              ],
+              "q": 1
+            },
+            {
+              "id": 162,
+              "order": 8,
+              "extra": [
+                30
+              ],
+              "q": 1
             },
             {
               "id": 164,
-              "order": 7
-            },
-            {
-              "id": 86,
-              "order": 8
+              "order": 9,
+              "q": 1
             },
             {
               "id": 58,
-              "order": 9,
+              "order": 10,
               "extra": [
                 33
-              ]
-            },
-            {
-              "id": 211,
-              "order": 10,
+              ],
               "q": 1
             }
           ],
@@ -110,7 +128,7 @@
             }
           ],
           "includes": [],
-          "points": 34,
+          "points": 28,
           "swc": "0",
           "weapons": [
             {
@@ -118,16 +136,20 @@
               "order": 1
             },
             {
-              "id": 196,
+              "id": 145,
               "order": 2
             },
             {
-              "id": 211,
+              "id": 17,
               "order": 3
             },
             {
-              "id": 5,
+              "id": 211,
               "order": 4
+            },
+            {
+              "id": 5,
+              "order": 5
             }
           ],
           "name": "DASYU",
@@ -148,7 +170,7 @@
             }
           ],
           "includes": [],
-          "points": 37,
+          "points": 34,
           "swc": "1.5",
           "weapons": [
             {
@@ -156,7 +178,7 @@
               "order": 1
             },
             {
-              "id": 65,
+              "id": 145,
               "order": 2
             },
             {
@@ -191,24 +213,28 @@
             }
           ],
           "includes": [],
-          "points": 36,
+          "points": 31,
           "swc": "0",
           "weapons": [
             {
-              "id": 26,
+              "id": 214,
               "order": 1
             },
             {
-              "id": 17,
+              "id": 145,
               "order": 2
             },
             {
-              "id": 211,
+              "id": 17,
               "order": 3
             },
             {
-              "id": 5,
+              "id": 211,
               "order": 4
+            },
+            {
+              "id": 5,
+              "order": 5
             }
           ],
           "name": "DASYU",
@@ -239,15 +265,15 @@
             }
           ],
           "includes": [],
-          "points": 37,
+          "points": 33,
           "swc": "0.5",
           "weapons": [
             {
-              "id": 77,
+              "id": 214,
               "order": 1
             },
             {
-              "id": 65,
+              "id": 145,
               "order": 2
             },
             {
@@ -276,7 +302,13 @@
           "id": 6,
           "chars": [],
           "disabled": false,
-          "equip": [],
+          "equip": [
+            {
+              "id": 111,
+              "order": 1,
+              "q": 1
+            }
+          ],
           "minis": 1,
           "orders": [
             {
@@ -286,15 +318,15 @@
             }
           ],
           "includes": [],
-          "points": 34,
+          "points": 29,
           "swc": "0",
           "weapons": [
             {
-              "id": 77,
+              "id": 214,
               "order": 1
             },
             {
-              "id": 72,
+              "id": 145,
               "order": 2
             },
             {
@@ -302,7 +334,7 @@
               "order": 3
             },
             {
-              "id": 196,
+              "id": 72,
               "order": 4
             },
             {
@@ -322,6 +354,61 @@
             }
           ],
           "peripheral": []
+        },
+        {
+          "id": 8,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 30,
+          "swc": "0.5",
+          "weapons": [
+            {
+              "id": 214,
+              "order": 1
+            },
+            {
+              "id": 145,
+              "order": 2
+            },
+            {
+              "id": 63,
+              "order": 4
+            },
+            {
+              "id": 5,
+              "order": 6
+            },
+            {
+              "id": 211,
+              "order": 7
+            },
+            {
+              "id": 17,
+              "order": 8
+            }
+          ],
+          "name": "DASYU",
+          "skills": [
+            {
+              "extra": [
+                267
+              ],
+              "id": 56,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
         }
       ]
     }
@@ -336,18 +423,20 @@
       28,
       29,
       47,
+      56,
       58,
       59,
       84,
-      86,
+      162,
       164,
       191,
-      211,
+      201,
       238,
       1000
     ],
     "equip": [
       100,
+      111,
       145
     ],
     "chars": [
@@ -363,11 +452,11 @@
       17,
       26,
       36,
-      65,
+      63,
       72,
-      77,
-      196,
-      211
+      145,
+      211,
+      214
     ],
     "ammunition": [
       2,

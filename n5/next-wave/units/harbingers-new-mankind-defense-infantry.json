@@ -526,6 +526,61 @@
             }
           ],
           "peripheral": []
+        },
+        {
+          "id": 12,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 145,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 111,
+              "order": 2,
+              "q": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 17,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 33,
+              "order": 1
+            },
+            {
+              "id": 175,
+              "order": 2
+            },
+            {
+              "id": 98,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            }
+          ],
+          "name": "HARBINGER",
+          "skills": [
+            {
+              "id": 1000,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
         }
       ]
     }
@@ -551,7 +606,9 @@
     ],
     "equip": [
       100,
-      106
+      106,
+      111,
+      145
     ],
     "chars": [
       1,

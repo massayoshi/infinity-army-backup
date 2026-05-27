@@ -17,14 +17,23 @@
           "arm": 3,
           "ava": 2,
           "bs": 13,
-          "bts": 3,
+          "bts": 6,
           "cc": 15,
           "chars": [
             3,
             5,
             20
           ],
-          "equip": [],
+          "equip": [
+            {
+              "extra": [
+                7
+              ],
+              "id": 183,
+              "order": 1,
+              "q": 1
+            }
+          ],
           "logo": "https://assets.corvusbelli.net/army/img/logo/units/yadu-1-1.svg",
           "weapons": [],
           "includes": [],
@@ -32,7 +41,7 @@
             15,
             5
           ],
-          "ph": 12,
+          "ph": 11,
           "s": 2,
           "str": false,
           "type": 2,
@@ -178,7 +187,7 @@
             }
           ],
           "includes": [],
-          "points": 29,
+          "points": 28,
           "swc": "0",
           "weapons": [
             {
@@ -188,10 +197,6 @@
             {
               "id": 23,
               "order": 2
-            },
-            {
-              "id": 96,
-              "order": 3
             },
             {
               "id": 208,
@@ -276,7 +281,7 @@
             }
           ],
           "includes": [],
-          "points": 28,
+          "points": 27,
           "swc": "0",
           "weapons": [
             {
@@ -426,6 +431,7 @@
     ],
     "equip": [
       100,
+      183,
       238
     ],
     "chars": [

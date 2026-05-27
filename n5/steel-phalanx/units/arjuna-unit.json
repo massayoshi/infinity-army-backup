@@ -1,0 +1,1011 @@
+{
+  "id": 1178,
+  "idArmy": 64,
+  "canonical": 701,
+  "isc": "Arjuna Unit",
+  "iscAbbr": null,
+  "name": "ARJUNA Unit",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 3,
+      "isc": "Arjuna Troops",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 3,
+          "ava": 1,
+          "bs": 13,
+          "bts": 3,
+          "cc": 17,
+          "chars": [
+            3,
+            5,
+            20
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/arjuna-unit-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            5
+          ],
+          "ph": 11,
+          "s": 2,
+          "str": false,
+          "type": 2,
+          "w": 1,
+          "wip": 14,
+          "name": "ARJUNA Troops",
+          "notes": null,
+          "skills": [
+            {
+              "id": 162,
+              "order": 1,
+              "extra": [
+                30
+              ],
+              "q": 1
+            },
+            {
+              "id": 28,
+              "order": 2,
+              "extra": [
+                6
+              ],
+              "q": 1
+            },
+            {
+              "id": 189,
+              "order": 3,
+              "q": 1
+            },
+            {
+              "id": 40,
+              "order": 4,
+              "extra": [
+                23
+              ],
+              "q": 1
+            },
+            {
+              "id": 213,
+              "order": 5,
+              "q": 1
+            },
+            {
+              "id": 83,
+              "order": 6,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "TACTICAL",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 21,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 26,
+              "order": 1
+            },
+            {
+              "id": 72,
+              "order": 2
+            },
+            {
+              "id": 17,
+              "order": 3
+            },
+            {
+              "id": 98,
+              "order": 4
+            },
+            {
+              "id": 5,
+              "order": 5
+            }
+          ],
+          "name": "ARJUNA FTO",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "TACTICAL",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [
+            {
+              "group": 2,
+              "option": 1,
+              "q": 1
+            }
+          ],
+          "points": 32,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 26,
+              "order": 1
+            },
+            {
+              "id": 72,
+              "order": 2
+            },
+            {
+              "id": 17,
+              "order": 3
+            },
+            {
+              "id": 98,
+              "order": 4
+            },
+            {
+              "id": 5,
+              "order": 5
+            }
+          ],
+          "name": "ARJUNA",
+          "skills": [
+            {
+              "extra": [
+                22
+              ],
+              "id": 161,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": [
+            {
+              "id": 155
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "TACTICAL",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 25,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 26,
+              "order": 1
+            },
+            {
+              "id": 72,
+              "order": 2
+            },
+            {
+              "id": 17,
+              "order": 3
+            },
+            {
+              "id": 98,
+              "order": 4
+            },
+            {
+              "id": 5,
+              "order": 5
+            }
+          ],
+          "name": "ARJUNA",
+          "skills": [
+            {
+              "extra": [
+                22
+              ],
+              "id": 161,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 7,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "extra": [
+                6
+              ],
+              "id": 169,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "TACTICAL",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 30,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 74,
+              "order": 1
+            },
+            {
+              "id": 17,
+              "order": 2
+            },
+            {
+              "id": 98,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            }
+          ],
+          "name": "ARJUNA FTO",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 8,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "TACTICAL",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [
+            {
+              "group": 2,
+              "option": 1,
+              "q": 1
+            }
+          ],
+          "points": 42,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 74,
+              "order": 1
+            },
+            {
+              "id": 17,
+              "order": 2
+            },
+            {
+              "id": 98,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            }
+          ],
+          "name": "ARJUNA",
+          "skills": [
+            {
+              "extra": [
+                22
+              ],
+              "id": 161,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": [
+            {
+              "id": 155
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "TACTICAL",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 35,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 74,
+              "order": 1
+            },
+            {
+              "id": 17,
+              "order": 2
+            },
+            {
+              "id": 98,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            }
+          ],
+          "name": "ARJUNA",
+          "skills": [
+            {
+              "extra": [
+                22
+              ],
+              "id": 161,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 10,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "extra": [
+                6
+              ],
+              "id": 169,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "TACTICAL",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 23,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 214,
+              "order": 1
+            },
+            {
+              "id": 25,
+              "order": 2
+            },
+            {
+              "id": 17,
+              "order": 3
+            },
+            {
+              "id": 98,
+              "order": 4
+            },
+            {
+              "id": 5,
+              "order": 5
+            }
+          ],
+          "name": "ARJUNA FTO",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 11,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "TACTICAL",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [
+            {
+              "group": 2,
+              "option": 1,
+              "q": 1
+            }
+          ],
+          "points": 33,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 214,
+              "order": 1
+            },
+            {
+              "id": 25,
+              "order": 2
+            },
+            {
+              "id": 17,
+              "order": 3
+            },
+            {
+              "id": 98,
+              "order": 4
+            },
+            {
+              "id": 5,
+              "order": 5
+            }
+          ],
+          "name": "ARJUNA",
+          "skills": [
+            {
+              "extra": [
+                22
+              ],
+              "id": 161,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": [
+            {
+              "id": 155
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "TACTICAL",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 26,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 214,
+              "order": 1
+            },
+            {
+              "id": 25,
+              "order": 2
+            },
+            {
+              "id": 17,
+              "order": 3
+            },
+            {
+              "id": 98,
+              "order": 4
+            },
+            {
+              "id": 5,
+              "order": 5
+            }
+          ],
+          "name": "ARJUNA",
+          "skills": [
+            {
+              "extra": [
+                22
+              ],
+              "id": 161,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 13,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "TACTICAL",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [
+            {
+              "group": 2,
+              "option": 2,
+              "q": 1
+            }
+          ],
+          "points": 32,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 26,
+              "order": 1
+            },
+            {
+              "id": 72,
+              "order": 2
+            },
+            {
+              "id": 17,
+              "order": 3
+            },
+            {
+              "id": 98,
+              "order": 4
+            },
+            {
+              "id": 5,
+              "order": 5
+            }
+          ],
+          "name": "ARJUNA",
+          "skills": [
+            {
+              "extra": [
+                22
+              ],
+              "id": 161,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": [
+            {
+              "id": 156
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "TACTICAL",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [
+            {
+              "group": 2,
+              "option": 2,
+              "q": 1
+            }
+          ],
+          "points": 33,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 214,
+              "order": 1
+            },
+            {
+              "id": 25,
+              "order": 2
+            },
+            {
+              "id": 17,
+              "order": 3
+            },
+            {
+              "id": 98,
+              "order": 4
+            },
+            {
+              "id": 5,
+              "order": 5
+            }
+          ],
+          "name": "ARJUNA",
+          "skills": [
+            {
+              "extra": [
+                22
+              ],
+              "id": 161,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": [
+            {
+              "id": 156
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "TACTICAL",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [
+            {
+              "group": 2,
+              "option": 2,
+              "q": 1
+            }
+          ],
+          "points": 42,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 74,
+              "order": 1
+            },
+            {
+              "id": 17,
+              "order": 2
+            },
+            {
+              "id": 98,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            }
+          ],
+          "name": "ARJUNA",
+          "skills": [
+            {
+              "extra": [
+                22
+              ],
+              "id": 161,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": [
+            {
+              "id": 156
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": 0,
+      "isc": "KiranBots",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 1,
+          "ava": -1,
+          "bs": 11,
+          "bts": 3,
+          "cc": 13,
+          "chars": [
+            2,
+            5,
+            21,
+            27
+          ],
+          "equip": [
+            {
+              "extra": [
+                6
+              ],
+              "id": 241,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/arjuna-unit-2-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            5
+          ],
+          "ph": 11,
+          "s": 2,
+          "str": true,
+          "type": 5,
+          "w": 1,
+          "wip": 11,
+          "name": "KIRANBOTS",
+          "notes": null,
+          "skills": [
+            {
+              "id": 243,
+              "order": 1,
+              "extra": [
+                40
+              ],
+              "q": 1
+            },
+            {
+              "id": 84,
+              "order": 2,
+              "q": 1
+            },
+            {
+              "id": 161,
+              "order": 3,
+              "extra": [
+                22
+              ],
+              "q": 1
+            },
+            {
+              "id": 40,
+              "order": 4,
+              "extra": [
+                11
+              ],
+              "q": 1
+            },
+            {
+              "id": 28,
+              "order": 5,
+              "extra": [
+                7
+              ],
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": true,
+          "equip": [
+            {
+              "id": 111,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [],
+          "includes": [],
+          "points": 7,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 23,
+              "order": 1
+            },
+            {
+              "id": 100,
+              "order": 2
+            },
+            {
+              "id": 71,
+              "order": 3
+            }
+          ],
+          "name": "KIRANBOT 1",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": true,
+          "equip": [],
+          "minis": 1,
+          "orders": [],
+          "includes": [],
+          "points": 7,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 145,
+              "order": 1
+            },
+            {
+              "id": 63,
+              "order": 2
+            },
+            {
+              "id": 100,
+              "order": 3
+            },
+            {
+              "id": 71,
+              "order": 4
+            }
+          ],
+          "name": "KIRANBOT 2",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "arjuna-unit",
+  "filters": {
+    "categories": [
+      3
+    ],
+    "skills": [
+      28,
+      40,
+      83,
+      84,
+      161,
+      162,
+      189,
+      213,
+      243
+    ],
+    "equip": [
+      111,
+      169,
+      241
+    ],
+    "chars": [
+      2,
+      3,
+      5,
+      20,
+      21,
+      27
+    ],
+    "types": [
+      2,
+      5
+    ],
+    "weapons": [
+      5,
+      17,
+      23,
+      25,
+      26,
+      63,
+      71,
+      72,
+      74,
+      98,
+      100,
+      145,
+      214
+    ],
+    "ammunition": [
+      2,
+      3,
+      13,
+      14,
+      29,
+      37
+    ]
+  },
+  "factions": [
+    701,
+    702,
+    703
+  ]
+}

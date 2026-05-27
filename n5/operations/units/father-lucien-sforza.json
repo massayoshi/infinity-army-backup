@@ -26,10 +26,6 @@
           ],
           "equip": [
             {
-              "id": 24,
-              "order": 1
-            },
-            {
               "id": 117,
               "order": 2
             }
@@ -51,8 +47,16 @@
           "notes": null,
           "skills": [
             {
-              "id": 162,
+              "id": 201,
               "order": 1,
+              "extra": [
+                308
+              ],
+              "q": 1
+            },
+            {
+              "id": 162,
+              "order": 2,
               "extra": [
                 319
               ],
@@ -60,22 +64,27 @@
             },
             {
               "id": 262,
-              "order": 2,
-              "q": 1
-            },
-            {
-              "id": 164,
               "order": 3,
               "q": 1
             },
             {
-              "id": 85,
+              "id": 164,
               "order": 4,
               "q": 1
             },
             {
-              "id": 83,
+              "id": 211,
               "order": 5,
+              "q": 1
+            },
+            {
+              "id": 85,
+              "order": 6,
+              "q": 1
+            },
+            {
+              "id": 83,
+              "order": 7,
               "q": 1
             }
           ],
@@ -102,7 +111,7 @@
             }
           ],
           "includes": [],
-          "points": 28,
+          "points": 26,
           "swc": "0",
           "weapons": [
             {
@@ -160,7 +169,58 @@
             }
           ],
           "includes": [],
-          "points": 25,
+          "points": 23,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 43,
+              "order": 1
+            },
+            {
+              "id": 216,
+              "order": 2
+            },
+            {
+              "id": 65,
+              "order": 3
+            },
+            {
+              "id": 107,
+              "order": 4
+            },
+            {
+              "id": 71,
+              "order": 5
+            }
+          ],
+          "name": "SFORZA FTO",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 3,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "extra": [
+                7
+              ],
+              "id": 183,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 26,
           "swc": "0",
           "weapons": [
             {
@@ -204,12 +264,14 @@
       162,
       164,
       191,
+      201,
+      211,
       262
     ],
     "equip": [
-      24,
       104,
-      117
+      117,
+      183
     ],
     "chars": [
       1,

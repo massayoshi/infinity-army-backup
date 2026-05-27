@@ -1,0 +1,313 @@
+{
+  "id": 1903,
+  "idArmy": 1903,
+  "canonical": 101,
+  "isc": " Pilot-X Team",
+  "iscAbbr": " Pilot-X Team",
+  "name": " Pilot-X Team",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 10,
+      "isc": "Pilot-X, the Optimate Lightspeedster",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 1,
+          "ava": 1,
+          "bs": 12,
+          "bts": 6,
+          "cc": 17,
+          "chars": [
+            3,
+            5,
+            20
+          ],
+          "equip": [
+            {
+              "extra": [
+                287
+              ],
+              "id": 100,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/pilot-x-team-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 10,
+          "s": 2,
+          "str": false,
+          "type": 1,
+          "w": 1,
+          "wip": 13,
+          "name": "Pilot-X, the Optimate Lightspeedster",
+          "notes": null,
+          "skills": [
+            {
+              "id": 162,
+              "order": 1,
+              "extra": [
+                30
+              ],
+              "q": 1
+            },
+            {
+              "id": 255,
+              "order": 5,
+              "extra": [
+                281,
+                52,
+                384
+              ],
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 21,
+          "swc": "1",
+          "weapons": [
+            {
+              "id": 25,
+              "order": 1
+            },
+            {
+              "id": 72,
+              "order": 2
+            },
+            {
+              "id": 189,
+              "order": 3
+            },
+            {
+              "id": 71,
+              "order": 4
+            }
+          ],
+          "name": " Pilot-X Team",
+          "skills": [
+            {
+              "id": 1000,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": 0,
+      "isc": "RacerBots",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 0,
+          "ava": 2,
+          "bs": 11,
+          "bts": 3,
+          "cc": 13,
+          "chars": [
+            2,
+            3,
+            5,
+            21
+          ],
+          "equip": [
+            {
+              "extra": [
+                6
+              ],
+              "id": 241,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 113,
+              "order": 2,
+              "q": 1
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/pilot-x-team-2-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            20,
+            10
+          ],
+          "ph": 12,
+          "s": 2,
+          "str": true,
+          "type": 5,
+          "w": 1,
+          "wip": 11,
+          "name": "RACERBOTS",
+          "notes": null,
+          "skills": [
+            {
+              "id": 266,
+              "order": 1,
+              "extra": [
+                310
+              ],
+              "q": 1
+            },
+            {
+              "id": 84,
+              "order": 2,
+              "q": 1
+            },
+            {
+              "id": 40,
+              "order": 3,
+              "extra": [
+                23
+              ],
+              "q": 1
+            },
+            {
+              "id": 264,
+              "order": 4,
+              "q": 1
+            },
+            {
+              "id": 235,
+              "order": 5,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 111,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 8,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 187,
+              "order": 1
+            },
+            {
+              "id": 176,
+              "order": 2
+            },
+            {
+              "id": 92,
+              "order": 3
+            },
+            {
+              "id": 71,
+              "order": 4
+            }
+          ],
+          "name": "RACERBOT Mk-III",
+          "skills": [],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "pilot-x-team",
+  "filters": {
+    "categories": [
+      10
+    ],
+    "skills": [
+      40,
+      84,
+      162,
+      235,
+      255,
+      264,
+      266,
+      1000
+    ],
+    "equip": [
+      100,
+      111,
+      113,
+      241
+    ],
+    "chars": [
+      2,
+      3,
+      5,
+      20,
+      21
+    ],
+    "types": [
+      1,
+      5
+    ],
+    "weapons": [
+      25,
+      71,
+      72,
+      92,
+      176,
+      187,
+      189
+    ],
+    "ammunition": [
+      3,
+      8,
+      9,
+      14,
+      29,
+      37
+    ]
+  },
+  "factions": [
+    101,
+    106,
+    701,
+    703
+  ],
+  "notes": "A Pilot-X Team is composed of 1 Pilot-X and 0 to 2 RacerBots Mk-III. You cannot take a MK-III without Pilot-X. All of them must belong to the same Combat Group."
+}

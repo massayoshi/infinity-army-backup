@@ -260,6 +260,209 @@
             }
           ],
           "peripheral": []
+        },
+        {
+          "id": 4,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [
+            {
+              "group": 2,
+              "option": 1,
+              "q": 1
+            }
+          ],
+          "points": 42,
+          "swc": "0.5",
+          "weapons": [
+            {
+              "id": 214,
+              "order": 1
+            },
+            {
+              "id": 179,
+              "order": 2
+            },
+            {
+              "id": 196,
+              "order": 3
+            },
+            {
+              "id": 69,
+              "order": 4
+            },
+            {
+              "id": 5,
+              "order": 5
+            }
+          ],
+          "name": "DART",
+          "skills": [
+            {
+              "id": 56,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": [
+            {
+              "id": 195
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": 0,
+      "isc": "Sharvara_K-9 HoundBots",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 0,
+          "ava": -1,
+          "bs": 11,
+          "bts": 3,
+          "cc": 22,
+          "chars": [
+            21,
+            27
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/dart-optimate-huntress-2-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            10
+          ],
+          "ph": 12,
+          "s": 3,
+          "str": true,
+          "type": 5,
+          "w": 1,
+          "wip": 12,
+          "name": "Sharvara_K-9 HoundBots",
+          "notes": null,
+          "skills": [
+            {
+              "id": 243,
+              "order": 1,
+              "extra": [
+                40
+              ],
+              "q": 1
+            },
+            {
+              "id": 240,
+              "order": 2,
+              "extra": [
+                7
+              ],
+              "q": 1
+            },
+            {
+              "id": 29,
+              "order": 3,
+              "q": 1
+            },
+            {
+              "id": 84,
+              "order": 4,
+              "q": 1
+            },
+            {
+              "id": 161,
+              "order": 5,
+              "extra": [
+                22
+              ],
+              "q": 1
+            },
+            {
+              "id": 40,
+              "order": 6,
+              "extra": [
+                1
+              ],
+              "q": 1
+            },
+            {
+              "id": 40,
+              "order": 7,
+              "extra": [
+                23
+              ],
+              "q": 1
+            },
+            {
+              "id": 39,
+              "order": 8,
+              "q": 1
+            },
+            {
+              "id": 28,
+              "order": 9,
+              "extra": [
+                6
+              ],
+              "q": 1
+            },
+            {
+              "id": 164,
+              "order": 10,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": true,
+          "equip": [],
+          "minis": 1,
+          "orders": [],
+          "includes": [],
+          "points": 6,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 72,
+              "order": 1
+            },
+            {
+              "id": 188,
+              "order": 2
+            },
+            {
+              "id": 23,
+              "order": 3
+            },
+            {
+              "id": 11,
+              "order": 4
+            },
+            {
+              "id": 71,
+              "order": 5
+            }
+          ],
+          "name": "SHARVARA_K-9",
+          "skills": [],
+          "peripheral": []
         }
       ]
     }
@@ -273,6 +476,8 @@
     "skills": [
       28,
       29,
+      39,
+      40,
       56,
       58,
       82,
@@ -283,7 +488,9 @@
       164,
       189,
       191,
-      215
+      215,
+      240,
+      243
     ],
     "equip": [
       114
@@ -291,16 +498,24 @@
     "chars": [
       3,
       5,
-      20
+      20,
+      21,
+      27
     ],
     "types": [
+      5,
       6
     ],
     "weapons": [
       5,
+      11,
+      23,
       47,
       69,
+      71,
+      72,
       179,
+      188,
       196,
       214
     ],
@@ -308,7 +523,10 @@
       2,
       3,
       8,
-      14
+      9,
+      14,
+      29,
+      37
     ]
   },
   "factions": [

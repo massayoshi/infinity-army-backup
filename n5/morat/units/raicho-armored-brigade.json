@@ -31,7 +31,8 @@
                 7
               ],
               "id": 239,
-              "order": 1
+              "order": 1,
+              "q": 1
             },
             {
               "extra": [
@@ -49,7 +50,7 @@
             15,
             10
           ],
-          "ph": 17,
+          "ph": 16,
           "s": 7,
           "str": true,
           "type": 4,
@@ -62,20 +63,34 @@
               "id": 201,
               "order": 1,
               "extra": [
+                6
+              ],
+              "q": 1
+            },
+            {
+              "id": 201,
+              "order": 2,
+              "extra": [
                 305
               ],
               "q": 1
             },
             {
               "id": 40,
-              "order": 2,
+              "order": 3,
               "extra": [
                 27
-              ]
+              ],
+              "q": 1
+            },
+            {
+              "id": 267,
+              "order": 4,
+              "q": 1
             },
             {
               "id": 254,
-              "order": 4,
+              "order": 5,
               "extra": [
                 250
               ],
@@ -83,30 +98,25 @@
             },
             {
               "id": 162,
-              "order": 5,
+              "order": 6,
               "extra": [
                 49
               ],
               "q": 1
             },
             {
-              "id": 213,
+              "id": 262,
               "order": 7,
               "q": 1
             },
             {
-              "id": 83,
+              "id": 213,
               "order": 8,
               "q": 1
             },
             {
-              "id": 267,
+              "id": 83,
               "order": 9,
-              "q": 1
-            },
-            {
-              "id": 262,
-              "order": 10,
               "q": 1
             }
           ],
@@ -114,55 +124,6 @@
         }
       ],
       "options": [
-        {
-          "id": 1,
-          "chars": [],
-          "disabled": false,
-          "equip": [],
-          "minis": 1,
-          "orders": [
-            {
-              "type": "REGULAR",
-              "list": 1,
-              "total": 1
-            },
-            {
-              "type": "TACTICAL",
-              "list": 1,
-              "total": 1
-            }
-          ],
-          "includes": [
-            {
-              "group": 2,
-              "option": 1,
-              "q": 1
-            }
-          ],
-          "points": 78,
-          "swc": "1.5",
-          "weapons": [
-            {
-              "id": 4,
-              "order": 1
-            },
-            {
-              "id": 89,
-              "order": 2
-            },
-            {
-              "id": 6,
-              "order": 3
-            }
-          ],
-          "name": "RAICHO",
-          "skills": [],
-          "peripheral": [
-            {
-              "id": 190
-            }
-          ]
-        },
         {
           "id": 2,
           "chars": [],
@@ -188,7 +149,7 @@
               "q": 1
             }
           ],
-          "points": 81,
+          "points": 85,
           "swc": "1.5",
           "weapons": [
             {
@@ -212,7 +173,7 @@
           "skills": [],
           "peripheral": [
             {
-              "id": 190
+              "id": 18
             }
           ]
         },
@@ -241,7 +202,7 @@
               "q": 1
             }
           ],
-          "points": 74,
+          "points": 75,
           "swc": "2",
           "weapons": [
             {
@@ -266,7 +227,7 @@
           ],
           "peripheral": [
             {
-              "id": 190
+              "id": 18
             }
           ]
         }
@@ -405,7 +366,6 @@
       6,
       29,
       57,
-      89,
       176
     ],
     "ammunition": [

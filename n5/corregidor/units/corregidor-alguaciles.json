@@ -303,7 +303,7 @@
           ],
           "includes": [],
           "points": 10,
-          "swc": "0.5",
+          "swc": "0",
           "weapons": [
             {
               "id": 33,
@@ -374,6 +374,142 @@
             }
           ],
           "peripheral": []
+        },
+        {
+          "id": 12,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 10,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 77,
+              "order": 1
+            },
+            {
+              "id": 19,
+              "order": 2
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            }
+          ],
+          "name": "ALGUACIL GATTA",
+          "skills": [
+            {
+              "id": 280,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 13,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 10,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 77,
+              "order": 1
+            },
+            {
+              "id": 25,
+              "order": 2
+            },
+            {
+              "id": 69,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            }
+          ],
+          "name": "ALGUACIL GATTA",
+          "skills": [
+            {
+              "id": 280,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 14,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 10,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 77,
+              "order": 1
+            },
+            {
+              "id": 216,
+              "order": 2
+            },
+            {
+              "id": 220,
+              "order": 3
+            },
+            {
+              "id": 69,
+              "order": 4
+            },
+            {
+              "id": 5,
+              "order": 5
+            }
+          ],
+          "name": "ALGUACIL GATTA",
+          "skills": [
+            {
+              "id": 280,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
         }
       ]
     }
@@ -390,6 +526,7 @@
       119,
       189,
       260,
+      280,
       1000
     ],
     "equip": [
@@ -408,22 +545,32 @@
     "weapons": [
       2,
       5,
+      19,
+      25,
       33,
       58,
       69,
-      72
+      72,
+      77,
+      216,
+      220
     ],
     "ammunition": [
       2,
       6,
       13,
-      29
+      14,
+      18,
+      29,
+      37
     ]
   },
   "factions": [
     403,
     501,
     502,
+    503,
+    504,
     905
   ]
 }

@@ -32,6 +32,14 @@
               ],
               "id": 239,
               "order": 1
+            },
+            {
+              "extra": [
+                6
+              ],
+              "id": 241,
+              "order": 2,
+              "q": 1
             }
           ],
           "logo": "https://assets.corvusbelli.net/army/img/logo/units/gecko-squad-1-1.svg",
@@ -125,7 +133,7 @@
               "q": 1
             }
           ],
-          "points": 52,
+          "points": 54,
           "swc": "1",
           "weapons": [
             {
@@ -149,7 +157,7 @@
           "skills": [],
           "peripheral": [
             {
-              "id": 522
+              "id": 29
             }
           ]
         },
@@ -178,7 +186,7 @@
               "q": 1
             }
           ],
-          "points": 53,
+          "points": 55,
           "swc": "1",
           "weapons": [
             {
@@ -202,7 +210,60 @@
           "skills": [],
           "peripheral": [
             {
-              "id": 522
+              "id": 29
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "TACTICAL",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [
+            {
+              "group": 2,
+              "option": 1,
+              "q": 1
+            }
+          ],
+          "points": 49,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 81,
+              "order": 1
+            },
+            {
+              "id": 18,
+              "order": 2
+            },
+            {
+              "id": 68,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            }
+          ],
+          "name": "GECKO",
+          "skills": [],
+          "peripheral": [
+            {
+              "id": 29
             }
           ]
         }
@@ -325,7 +386,8 @@
       254
     ],
     "equip": [
-      239
+      239,
+      241
     ],
     "chars": [
       1,
@@ -344,6 +406,7 @@
       18,
       64,
       68,
+      81,
       169
     ],
     "ammunition": [

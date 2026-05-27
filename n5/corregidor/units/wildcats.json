@@ -122,51 +122,6 @@
           "peripheral": []
         },
         {
-          "id": 2,
-          "chars": [],
-          "disabled": false,
-          "equip": [
-            {
-              "id": 111,
-              "order": 1
-            }
-          ],
-          "minis": 1,
-          "orders": [
-            {
-              "type": "REGULAR",
-              "list": 1,
-              "total": 1
-            }
-          ],
-          "includes": [],
-          "points": 19,
-          "swc": "0",
-          "weapons": [
-            {
-              "id": 26,
-              "order": 1
-            },
-            {
-              "id": 69,
-              "order": 2
-            },
-            {
-              "id": 5,
-              "order": 3
-            }
-          ],
-          "name": "WILDCAT",
-          "skills": [
-            {
-              "id": 56,
-              "order": 1,
-              "q": 1
-            }
-          ],
-          "peripheral": []
-        },
-        {
           "id": 3,
           "chars": [],
           "disabled": false,
@@ -210,8 +165,17 @@
           "disabled": false,
           "equip": [
             {
+              "extra": [
+                287
+              ],
               "id": 100,
-              "order": 1
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 111,
+              "order": 2,
+              "q": 1
             }
           ],
           "minis": 1,
@@ -223,7 +187,7 @@
             }
           ],
           "includes": [],
-          "points": 26,
+          "points": 27,
           "swc": "0.5",
           "weapons": [
             {
@@ -275,7 +239,7 @@
             }
           ],
           "includes": [],
-          "points": 24,
+          "points": 26,
           "swc": "0",
           "weapons": [
             {
@@ -283,20 +247,24 @@
               "order": 1
             },
             {
-              "id": 69,
-              "order": 4
-            },
-            {
-              "id": 5,
-              "order": 5
-            },
-            {
               "id": 56,
-              "order": 6
+              "order": 2
+            },
+            {
+              "id": 87,
+              "order": 3
             },
             {
               "id": 17,
-              "order": 8
+              "order": 4
+            },
+            {
+              "id": 69,
+              "order": 5
+            },
+            {
+              "id": 5,
+              "order": 6
             }
           ],
           "name": "WILDCAT",
@@ -418,11 +386,11 @@
             {
               "type": "LIEUTENANT",
               "list": 0,
-              "total": 1
+              "total": 2
             }
           ],
           "includes": [],
-          "points": 21,
+          "points": 25,
           "swc": "0",
           "weapons": [
             {
@@ -449,8 +417,71 @@
           "name": "WILDCAT",
           "skills": [
             {
+              "extra": [
+                246
+              ],
               "id": 119,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 10,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 238,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 237,
+              "order": 2,
+              "q": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 22,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 26,
               "order": 1
+            },
+            {
+              "id": 82,
+              "order": 2
+            },
+            {
+              "id": 17,
+              "order": 3
+            },
+            {
+              "id": 69,
+              "order": 4
+            },
+            {
+              "id": 5,
+              "order": 5
+            }
+          ],
+          "name": "WILDCAT",
+          "skills": [
+            {
+              "id": 49,
+              "order": 1,
+              "q": 1
             }
           ],
           "peripheral": []
@@ -466,7 +497,6 @@
     ],
     "skills": [
       49,
-      56,
       58,
       84,
       119,
@@ -501,6 +531,8 @@
       56,
       69,
       74,
+      82,
+      87,
       89
     ],
     "ammunition": [

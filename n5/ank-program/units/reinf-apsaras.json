@@ -24,7 +24,16 @@
             5,
             20
           ],
-          "equip": [],
+          "equip": [
+            {
+              "extra": [
+                334
+              ],
+              "id": 100,
+              "order": 1,
+              "q": 1
+            }
+          ],
           "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-apsaras-1-1.svg",
           "weapons": [],
           "includes": [],
@@ -51,10 +60,7 @@
           "disabled": false,
           "equip": [
             {
-              "extra": [
-                339
-              ],
-              "id": 100,
+              "id": 111,
               "order": 1,
               "q": 1
             }
@@ -68,20 +74,24 @@
             }
           ],
           "includes": [],
-          "points": 19,
-          "swc": "0.5",
+          "points": 17,
+          "swc": "0",
           "weapons": [
             {
-              "id": 77,
+              "id": 214,
               "order": 1
             },
             {
-              "id": 69,
+              "id": 175,
               "order": 2
             },
             {
-              "id": 5,
+              "id": 69,
               "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
             }
           ],
           "name": "APSARA REINF.",
@@ -99,14 +109,6 @@
           "chars": [],
           "disabled": false,
           "equip": [
-            {
-              "extra": [
-                339
-              ],
-              "id": 145,
-              "order": 1,
-              "q": 1
-            },
             {
               "id": 111,
               "order": 2,
@@ -130,12 +132,16 @@
               "order": 1
             },
             {
-              "id": 69,
+              "id": 175,
               "order": 2
             },
             {
-              "id": 5,
+              "id": 69,
               "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
             }
           ],
           "name": "APSARA REINF.",
@@ -152,7 +158,13 @@
           "id": 3,
           "chars": [],
           "disabled": false,
-          "equip": [],
+          "equip": [
+            {
+              "id": 111,
+              "order": 1,
+              "q": 1
+            }
+          ],
           "minis": 1,
           "orders": [
             {
@@ -162,24 +174,33 @@
             }
           ],
           "includes": [],
-          "points": 22,
+          "points": 20,
           "swc": "0",
           "weapons": [
             {
-              "id": 77,
+              "id": 214,
               "order": 1
             },
             {
-              "id": 69,
+              "id": 175,
               "order": 2
             },
             {
-              "id": 5,
+              "id": 69,
               "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
             }
           ],
           "name": "APSARA REINF.",
           "skills": [
+            {
+              "id": 1000,
+              "order": 1,
+              "q": 1
+            },
             {
               "extra": [
                 280,
@@ -187,7 +208,7 @@
                 282
               ],
               "id": 255,
-              "order": 1,
+              "order": 2,
               "q": 1
             }
           ],
@@ -208,8 +229,7 @@
     ],
     "equip": [
       100,
-      111,
-      145
+      111
     ],
     "chars": [
       3,
@@ -223,11 +243,13 @@
       5,
       26,
       69,
-      77
+      175,
+      214
     ],
     "ammunition": [
       2,
-      3
+      3,
+      14
     ]
   },
   "factions": [

@@ -26,13 +26,16 @@
           ],
           "equip": [
             {
-              "id": 237,
-              "order": 1,
+              "id": 245,
+              "order": 2,
               "q": 1
             },
             {
-              "id": 245,
-              "order": 2,
+              "extra": [
+                8
+              ],
+              "id": 237,
+              "order": 3,
               "q": 1
             }
           ],
@@ -122,28 +125,20 @@
             }
           ],
           "includes": [],
-          "points": 29,
+          "points": 25,
           "swc": "0",
           "weapons": [
             {
-              "id": 33,
+              "id": 77,
               "order": 1
             },
             {
-              "id": 17,
+              "id": 145,
               "order": 2
             },
             {
-              "id": 5,
-              "order": 4
-            },
-            {
-              "id": 145,
-              "order": 5
-            },
-            {
-              "id": 69,
-              "order": 6
+              "id": 17,
+              "order": 3
             }
           ],
           "name": "SOPHOTECT REINF.",
@@ -237,9 +232,9 @@
       5,
       17,
       26,
-      33,
       69,
       72,
+      77,
       145
     ],
     "ammunition": [

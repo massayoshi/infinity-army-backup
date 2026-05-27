@@ -16,15 +16,24 @@
           "id": 1,
           "arm": 3,
           "ava": 1,
-          "bs": 12,
+          "bs": 13,
           "bts": 3,
-          "cc": 23,
+          "cc": 22,
           "chars": [
-            1,
             3,
-            5
+            5,
+            20
           ],
-          "equip": [],
+          "equip": [
+            {
+              "extra": [
+                6
+              ],
+              "id": 183,
+              "order": 1,
+              "q": 1
+            }
+          ],
           "logo": "https://assets.corvusbelli.net/army/img/logo/units/optimate-agent-maximus-1-1.svg",
           "weapons": [],
           "includes": [],
@@ -76,18 +85,23 @@
               "q": 1
             },
             {
-              "id": 189,
+              "id": 122,
               "order": 6,
               "q": 1
             },
             {
-              "id": 213,
+              "id": 189,
               "order": 7,
               "q": 1
             },
             {
-              "id": 86,
+              "id": 213,
               "order": 8,
+              "q": 1
+            },
+            {
+              "id": 86,
+              "order": 9,
               "q": 1
             }
           ],
@@ -113,12 +127,18 @@
               "total": 1
             }
           ],
-          "includes": [],
-          "points": 40,
+          "includes": [
+            {
+              "group": 2,
+              "option": 1,
+              "q": 1
+            }
+          ],
+          "points": 48,
           "swc": "1",
           "weapons": [
             {
-              "id": 207,
+              "id": 230,
               "order": 1
             },
             {
@@ -136,13 +156,72 @@
           ],
           "name": "MAXIMUS AGENT",
           "skills": [],
-          "peripheral": []
+          "peripheral": [
+            {
+              "id": 179
+            }
+          ]
         },
         {
           "id": 2,
           "chars": [],
           "disabled": false,
-          "equip": [],
+          "equip": [
+            {
+              "id": 248,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "TACTICAL",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 45,
+          "swc": "1",
+          "weapons": [
+            {
+              "id": 230,
+              "order": 1
+            },
+            {
+              "id": 213,
+              "order": 2
+            },
+            {
+              "id": 107,
+              "order": 3
+            },
+            {
+              "id": 78,
+              "order": 4
+            }
+          ],
+          "name": "MAXIMUS AGENT FTO",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 5,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 248,
+              "order": 1,
+              "q": 1
+            }
+          ],
           "minis": 1,
           "orders": [
             {
@@ -162,11 +241,11 @@
             }
           ],
           "includes": [],
-          "points": 40,
-          "swc": "0",
+          "points": 47,
+          "swc": "+1",
           "weapons": [
             {
-              "id": 207,
+              "id": 230,
               "order": 1
             },
             {
@@ -182,14 +261,149 @@
               "order": 4
             }
           ],
-          "name": "MAXIMUS AGENT",
+          "name": "MAXIMUS AGENT FTO",
           "skills": [
             {
               "id": 119,
               "order": 1,
               "q": 1
+            },
+            {
+              "id": 52,
+              "order": 2,
+              "q": 1
             }
           ],
+          "peripheral": []
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": 0,
+      "isc": "Minimus MateBot",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 0,
+          "ava": 1,
+          "bs": 9,
+          "bts": 3,
+          "cc": 21,
+          "chars": [
+            21,
+            27
+          ],
+          "equip": [
+            {
+              "id": 63,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/optimate-agent-maximus-2-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            10
+          ],
+          "ph": 11,
+          "s": 1,
+          "str": true,
+          "type": 5,
+          "w": 1,
+          "wip": 12,
+          "name": "Minimus MateBot",
+          "notes": null,
+          "skills": [
+            {
+              "id": 243,
+              "order": 1,
+              "extra": [
+                40
+              ],
+              "q": 1
+            },
+            {
+              "id": 240,
+              "order": 2,
+              "extra": [
+                7
+              ],
+              "q": 1
+            },
+            {
+              "id": 84,
+              "order": 3,
+              "q": 1
+            },
+            {
+              "id": 40,
+              "order": 4,
+              "extra": [
+                1
+              ],
+              "q": 1
+            },
+            {
+              "id": 40,
+              "order": 5,
+              "extra": [
+                23
+              ],
+              "q": 1
+            },
+            {
+              "id": 28,
+              "order": 6,
+              "extra": [
+                6
+              ],
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": true,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 6,
+          "swc": "-",
+          "weapons": [
+            {
+              "id": 72,
+              "order": 1
+            },
+            {
+              "id": 23,
+              "order": 2
+            },
+            {
+              "id": 11,
+              "order": 3
+            },
+            {
+              "id": 71,
+              "order": 4
+            }
+          ],
+          "name": "MINIMUS",
+          "skills": [],
           "peripheral": []
         }
       ]
@@ -202,36 +416,53 @@
       10
     ],
     "skills": [
+      28,
       39,
       40,
+      52,
       84,
       86,
       119,
+      122,
       162,
       189,
       213,
-      240
+      240,
+      243
     ],
-    "equip": [],
+    "equip": [
+      63,
+      183,
+      248
+    ],
     "chars": [
-      1,
       3,
-      5
+      5,
+      20,
+      21,
+      27
     ],
     "types": [
-      2
+      2,
+      5
     ],
     "weapons": [
+      11,
+      23,
+      71,
+      72,
       78,
       107,
-      207,
-      213
+      213,
+      230
     ],
     "ammunition": [
-      2,
       8,
+      9,
       10,
-      14
+      14,
+      29,
+      37
     ]
   },
   "factions": [

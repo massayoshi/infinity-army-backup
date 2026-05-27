@@ -93,16 +93,20 @@
             }
           ],
           "includes": [],
-          "points": 40,
+          "points": 38,
           "swc": "0",
           "weapons": [
             {
-              "id": 71,
+              "id": 64,
+              "order": 1
+            },
+            {
+              "id": 28,
               "order": 2
             },
             {
-              "id": 64,
-              "order": 1
+              "id": 71,
+              "order": 3
             }
           ],
           "name": "VOSTOK",
@@ -128,6 +132,76 @@
           "weapons": [
             {
               "id": 64,
+              "order": 1
+            },
+            {
+              "id": 28,
+              "order": 2
+            },
+            {
+              "id": 71,
+              "order": 3
+            }
+          ],
+          "name": "VOSTOK FTO",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 6,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 63,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 37,
+          "swc": "1",
+          "weapons": [
+            {
+              "id": 74,
+              "order": 1
+            },
+            {
+              "id": 71,
+              "order": 2
+            }
+          ],
+          "name": "VOSTOK",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 7,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 34,
+          "swc": "1",
+          "weapons": [
+            {
+              "id": 74,
               "order": 1
             },
             {
@@ -167,8 +241,10 @@
       5
     ],
     "weapons": [
+      28,
       64,
-      71
+      71,
+      74
     ],
     "ammunition": [
       2,

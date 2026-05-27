@@ -16,9 +16,9 @@
           "id": 1,
           "arm": 4,
           "ava": 2,
-          "bs": 12,
+          "bs": 13,
           "bts": 6,
-          "cc": 13,
+          "cc": 11,
           "chars": [
             3,
             5,
@@ -26,11 +26,15 @@
           ],
           "equip": [
             {
-              "id": 63,
-              "order": 1
+              "extra": [
+                6
+              ],
+              "id": 241,
+              "order": 1,
+              "q": 1
             },
             {
-              "id": 117,
+              "id": 63,
               "order": 2,
               "q": 1
             }
@@ -40,9 +44,9 @@
           "includes": [],
           "move": [
             15,
-            10
+            5
           ],
-          "ph": 10,
+          "ph": 11,
           "s": 4,
           "str": true,
           "type": 5,
@@ -57,21 +61,42 @@
               "q": 1
             },
             {
-              "id": 84,
+              "id": 201,
               "order": 2,
-              "q": 1
-            },
-            {
-              "id": 40,
-              "order": 3,
               "extra": [
-                11
+                6
               ],
               "q": 1
             },
             {
-              "id": 82,
+              "id": 201,
+              "order": 3,
+              "extra": [
+                305
+              ],
+              "q": 1
+            },
+            {
+              "id": 84,
+              "order": 4,
+              "q": 1
+            },
+            {
+              "id": 162,
               "order": 5,
+              "extra": [
+                249
+              ],
+              "q": 1
+            },
+            {
+              "id": 275,
+              "order": 6,
+              "q": 1
+            },
+            {
+              "id": 82,
+              "order": 7,
               "q": 1
             }
           ],
@@ -79,44 +104,6 @@
         }
       ],
       "options": [
-        {
-          "id": 1,
-          "chars": [],
-          "disabled": false,
-          "equip": [],
-          "minis": 1,
-          "orders": [
-            {
-              "type": "REGULAR",
-              "list": 1,
-              "total": 1
-            }
-          ],
-          "includes": [],
-          "points": 34,
-          "swc": "0",
-          "weapons": [
-            {
-              "id": 41,
-              "order": 1
-            },
-            {
-              "id": 176,
-              "order": 2
-            },
-            {
-              "id": 107,
-              "order": 3
-            },
-            {
-              "id": 71,
-              "order": 4
-            }
-          ],
-          "name": "RUDRA",
-          "skills": [],
-          "peripheral": []
-        },
         {
           "id": 2,
           "chars": [],
@@ -131,27 +118,31 @@
             }
           ],
           "includes": [],
-          "points": 34,
+          "points": 35,
           "swc": "0",
           "weapons": [
             {
-              "id": 107,
+              "id": 181,
+              "order": 1
+            },
+            {
+              "id": 145,
+              "order": 2
+            },
+            {
+              "id": 68,
               "order": 3
             },
             {
-              "id": 71,
+              "id": 107,
               "order": 4
             },
             {
-              "id": 181,
+              "id": 71,
               "order": 5
-            },
-            {
-              "id": 176,
-              "order": 6
             }
           ],
-          "name": "RUDRA",
+          "name": "RUDRA FTO",
           "skills": [],
           "peripheral": []
         },
@@ -169,27 +160,73 @@
             }
           ],
           "includes": [],
-          "points": 37,
+          "points": 38,
           "swc": "1",
           "weapons": [
-            {
-              "id": 107,
-              "order": 3
-            },
-            {
-              "id": 71,
-              "order": 4
-            },
             {
               "id": 152,
               "order": 1
             },
             {
-              "id": 176,
+              "id": 145,
+              "order": 2
+            },
+            {
+              "id": 68,
+              "order": 3
+            },
+            {
+              "id": 107,
+              "order": 4
+            },
+            {
+              "id": 71,
               "order": 5
             }
           ],
           "name": "RUDRA",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 4,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 37,
+          "swc": "1",
+          "weapons": [
+            {
+              "id": 152,
+              "order": 1
+            },
+            {
+              "id": 145,
+              "order": 2
+            },
+            {
+              "id": 68,
+              "order": 3
+            },
+            {
+              "id": 107,
+              "order": 4
+            },
+            {
+              "id": 71,
+              "order": 5
+            }
+          ],
+          "name": "RUDRA FTO",
           "skills": [],
           "peripheral": []
         }
@@ -203,14 +240,16 @@
       8
     ],
     "skills": [
-      40,
       82,
       84,
-      235
+      162,
+      201,
+      235,
+      275
     ],
     "equip": [
       63,
-      117
+      241
     ],
     "chars": [
       3,
@@ -221,18 +260,17 @@
       5
     ],
     "weapons": [
-      41,
+      68,
       71,
       107,
+      145,
       152,
-      176,
       181
     ],
     "ammunition": [
       2,
-      3,
       8,
-      9,
+      13,
       37
     ]
   },

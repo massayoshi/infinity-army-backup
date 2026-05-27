@@ -17,7 +17,7 @@
           "arm": 3,
           "ava": 5,
           "bs": 13,
-          "bts": 0,
+          "bts": 3,
           "cc": 14,
           "chars": [
             1,
@@ -107,16 +107,12 @@
               "order": 1
             },
             {
-              "id": 44,
+              "id": 107,
               "order": 2
             },
             {
-              "id": 69,
-              "order": 3
-            },
-            {
               "id": 5,
-              "order": 4
+              "order": 3
             }
           ],
           "name": "INTRUDER",
@@ -143,7 +139,7 @@
             }
           ],
           "includes": [],
-          "points": 32,
+          "points": 33,
           "swc": "0",
           "weapons": [
             {
@@ -159,12 +155,16 @@
               "order": 3
             },
             {
-              "id": 69,
+              "id": 17,
               "order": 4
             },
             {
-              "id": 5,
+              "id": 107,
               "order": 5
+            },
+            {
+              "id": 5,
+              "order": 6
             }
           ],
           "name": "INTRUDER",
@@ -186,12 +186,7 @@
           "id": 6,
           "chars": [],
           "disabled": false,
-          "equip": [
-            {
-              "id": 117,
-              "order": 1
-            }
-          ],
+          "equip": [],
           "minis": 1,
           "orders": [
             {
@@ -201,7 +196,7 @@
             }
           ],
           "includes": [],
-          "points": 36,
+          "points": 38,
           "swc": "1.5",
           "weapons": [
             {
@@ -209,7 +204,7 @@
               "order": 1
             },
             {
-              "id": 69,
+              "id": 107,
               "order": 2
             },
             {
@@ -241,7 +236,6 @@
     ],
     "equip": [
       115,
-      117,
       145
     ],
     "chars": [
@@ -255,9 +249,10 @@
     "weapons": [
       2,
       5,
+      17,
       36,
       44,
-      69,
+      107,
       145,
       214
     ],
@@ -265,7 +260,8 @@
       2,
       3,
       8,
-      9
+      9,
+      13
     ]
   },
   "factions": [

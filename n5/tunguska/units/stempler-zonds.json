@@ -197,6 +197,56 @@
             }
           ],
           "peripheral": []
+        },
+        {
+          "id": 4,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            },
+            {
+              "type": "TACTICAL",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 22,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 207,
+              "order": 1
+            },
+            {
+              "id": 72,
+              "order": 2
+            },
+            {
+              "id": 71,
+              "order": 3
+            }
+          ],
+          "name": "STEMPLER ZOND",
+          "skills": [
+            {
+              "id": 278,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 213,
+              "order": 2,
+              "q": 1
+            }
+          ],
+          "peripheral": []
         }
       ]
     }
@@ -215,7 +265,8 @@
       84,
       213,
       235,
-      242
+      242,
+      278
     ],
     "equip": [
       63,
@@ -232,7 +283,8 @@
     "weapons": [
       33,
       71,
-      72
+      72,
+      207
     ],
     "ammunition": [
       2,

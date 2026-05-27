@@ -29,8 +29,8 @@
           "weapons": [],
           "includes": [],
           "move": [
-            10,
-            10
+            15,
+            5
           ],
           "ph": 12,
           "s": 2,
@@ -93,44 +93,6 @@
       ],
       "options": [
         {
-          "id": 1,
-          "chars": [],
-          "disabled": false,
-          "equip": [],
-          "minis": 1,
-          "orders": [
-            {
-              "type": "REGULAR",
-              "list": 1,
-              "total": 1
-            }
-          ],
-          "includes": [],
-          "points": 34,
-          "swc": "0",
-          "weapons": [
-            {
-              "id": 33,
-              "order": 1
-            },
-            {
-              "id": 196,
-              "order": 2
-            },
-            {
-              "id": 211,
-              "order": 3
-            },
-            {
-              "id": 5,
-              "order": 4
-            }
-          ],
-          "name": "MALIGNOS ",
-          "skills": [],
-          "peripheral": []
-        },
-        {
           "id": 2,
           "chars": [],
           "disabled": false,
@@ -144,11 +106,11 @@
             }
           ],
           "includes": [],
-          "points": 35,
+          "points": 31,
           "swc": "0.5",
           "weapons": [
             {
-              "id": 33,
+              "id": 77,
               "order": 1
             },
             {
@@ -165,7 +127,13 @@
             }
           ],
           "name": "MALIGNOS ",
-          "skills": [],
+          "skills": [
+            {
+              "id": 56,
+              "order": 1,
+              "q": 1
+            }
+          ],
           "peripheral": []
         },
         {
@@ -182,7 +150,7 @@
             }
           ],
           "includes": [],
-          "points": 31,
+          "points": 30,
           "swc": "0",
           "weapons": [
             {
@@ -190,16 +158,20 @@
               "order": 1
             },
             {
-              "id": 196,
+              "id": 145,
               "order": 2
             },
             {
-              "id": 211,
+              "id": 63,
               "order": 3
             },
             {
-              "id": 5,
+              "id": 211,
               "order": 4
+            },
+            {
+              "id": 5,
+              "order": 5
             }
           ],
           "name": "MALIGNOS ",
@@ -220,7 +192,7 @@
             }
           ],
           "includes": [],
-          "points": 34,
+          "points": 33,
           "swc": "1.5",
           "weapons": [
             {
@@ -228,12 +200,16 @@
               "order": 1
             },
             {
-              "id": 211,
+              "id": 145,
               "order": 2
             },
             {
-              "id": 5,
+              "id": 211,
               "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
             }
           ],
           "name": "MALIGNOS ",
@@ -259,7 +235,7 @@
             }
           ],
           "includes": [],
-          "points": 35,
+          "points": 34,
           "swc": "0.5",
           "weapons": [
             {
@@ -267,16 +243,20 @@
               "order": 1
             },
             {
-              "id": 196,
+              "id": 17,
               "order": 2
             },
             {
-              "id": 211,
+              "id": 196,
               "order": 3
             },
             {
-              "id": 5,
+              "id": 211,
               "order": 4
+            },
+            {
+              "id": 5,
+              "order": 5
             }
           ],
           "name": "MALIGNOS ",
@@ -302,11 +282,11 @@
             }
           ],
           "includes": [],
-          "points": 35,
+          "points": 30,
           "swc": "0",
           "weapons": [
             {
-              "id": 33,
+              "id": 77,
               "order": 1
             },
             {
@@ -363,7 +343,7 @@
             }
           ],
           "includes": [],
-          "points": 33,
+          "points": 32,
           "swc": "0",
           "weapons": [
             {
@@ -371,16 +351,20 @@
               "order": 1
             },
             {
-              "id": 196,
+              "id": 17,
               "order": 2
             },
             {
-              "id": 211,
+              "id": 196,
               "order": 3
             },
             {
-              "id": 5,
+              "id": 211,
               "order": 4
+            },
+            {
+              "id": 5,
+              "order": 5
             }
           ],
           "name": "MALIGNOS ",
@@ -405,6 +389,7 @@
       28,
       29,
       47,
+      56,
       58,
       59,
       62,
@@ -431,11 +416,12 @@
       5,
       17,
       26,
-      33,
       36,
       62,
+      63,
       72,
       77,
+      145,
       196,
       211
     ],

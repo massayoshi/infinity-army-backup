@@ -88,82 +88,6 @@
       ],
       "options": [
         {
-          "id": 1,
-          "chars": [],
-          "disabled": false,
-          "equip": [],
-          "minis": 1,
-          "orders": [
-            {
-              "type": "REGULAR",
-              "list": 1,
-              "total": 1
-            }
-          ],
-          "includes": [],
-          "points": 24,
-          "swc": "0",
-          "weapons": [
-            {
-              "id": 26,
-              "order": 1
-            },
-            {
-              "id": 196,
-              "order": 2
-            },
-            {
-              "id": 69,
-              "order": 3
-            },
-            {
-              "id": 5,
-              "order": 4
-            }
-          ],
-          "name": "NAGA",
-          "skills": [],
-          "peripheral": []
-        },
-        {
-          "id": 2,
-          "chars": [],
-          "disabled": false,
-          "equip": [],
-          "minis": 1,
-          "orders": [
-            {
-              "type": "REGULAR",
-              "list": 1,
-              "total": 1
-            }
-          ],
-          "includes": [],
-          "points": 29,
-          "swc": "0",
-          "weapons": [
-            {
-              "id": 33,
-              "order": 1
-            },
-            {
-              "id": 62,
-              "order": 2
-            },
-            {
-              "id": 69,
-              "order": 3
-            },
-            {
-              "id": 5,
-              "order": 4
-            }
-          ],
-          "name": "NAGA",
-          "skills": [],
-          "peripheral": []
-        },
-        {
           "id": 3,
           "chars": [],
           "disabled": false,
@@ -177,7 +101,7 @@
             }
           ],
           "includes": [],
-          "points": 27,
+          "points": 29,
           "swc": "1.5",
           "weapons": [
             {
@@ -185,16 +109,29 @@
               "order": 1
             },
             {
-              "id": 69,
+              "id": 65,
               "order": 2
             },
             {
-              "id": 5,
+              "id": 69,
               "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
             }
           ],
           "name": "NAGA",
-          "skills": [],
+          "skills": [
+            {
+              "extra": [
+                308
+              ],
+              "id": 201,
+              "order": 1,
+              "q": 1
+            }
+          ],
           "peripheral": []
         },
         {
@@ -219,16 +156,20 @@
               "order": 1
             },
             {
-              "id": 196,
+              "id": 65,
               "order": 2
             },
             {
-              "id": 69,
+              "id": 196,
               "order": 3
             },
             {
-              "id": 5,
+              "id": 69,
               "order": 4
+            },
+            {
+              "id": 5,
+              "order": 5
             }
           ],
           "name": "NAGA",
@@ -259,24 +200,32 @@
             }
           ],
           "includes": [],
-          "points": 30,
+          "points": 27,
           "swc": "0",
           "weapons": [
             {
-              "id": 33,
+              "id": 214,
               "order": 1
             },
             {
-              "id": 196,
+              "id": 65,
               "order": 2
             },
             {
-              "id": 69,
+              "id": 17,
               "order": 3
             },
             {
-              "id": 5,
+              "id": 197,
               "order": 4
+            },
+            {
+              "id": 69,
+              "order": 5
+            },
+            {
+              "id": 5,
+              "order": 6
             }
           ],
           "name": "NAGA",
@@ -294,8 +243,17 @@
           "disabled": false,
           "equip": [
             {
+              "extra": [
+                383
+              ],
               "id": 100,
-              "order": 1
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 111,
+              "order": 2,
+              "q": 1
             }
           ],
           "minis": 1,
@@ -307,15 +265,15 @@
             }
           ],
           "includes": [],
-          "points": 28,
+          "points": 29,
           "swc": "0.5",
           "weapons": [
             {
-              "id": 77,
+              "id": 214,
               "order": 1
             },
             {
-              "id": 196,
+              "id": 65,
               "order": 2
             },
             {
@@ -344,6 +302,63 @@
           "id": 7,
           "chars": [],
           "disabled": false,
+          "equip": [
+            {
+              "id": 111,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 25,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 214,
+              "order": 1
+            },
+            {
+              "id": 65,
+              "order": 2
+            },
+            {
+              "id": 72,
+              "order": 3
+            },
+            {
+              "id": 17,
+              "order": 4
+            },
+            {
+              "id": 69,
+              "order": 5
+            },
+            {
+              "id": 5,
+              "order": 6
+            }
+          ],
+          "name": "NAGA",
+          "skills": [
+            {
+              "id": 59,
+              "order": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 8,
+          "chars": [],
+          "disabled": false,
           "equip": [],
           "minis": 1,
           "orders": [
@@ -354,39 +369,36 @@
             }
           ],
           "includes": [],
-          "points": 28,
-          "swc": "0",
+          "points": 26,
+          "swc": "0.5",
           "weapons": [
             {
-              "id": 33,
+              "id": 214,
               "order": 1
             },
             {
-              "id": 72,
+              "id": 65,
               "order": 2
             },
             {
-              "id": 196,
+              "id": 62,
               "order": 3
             },
             {
-              "id": 17,
-              "order": 6
-            },
-            {
               "id": 69,
-              "order": 7
+              "order": 4
             },
             {
               "id": 5,
-              "order": 8
+              "order": 5
             }
           ],
           "name": "NAGA",
           "skills": [
             {
-              "id": 59,
-              "order": 1
+              "id": 56,
+              "order": 1,
+              "q": 1
             }
           ],
           "peripheral": []
@@ -411,10 +423,12 @@
       85,
       164,
       191,
+      201,
       1000
     ],
     "equip": [
       100,
+      111,
       145
     ],
     "chars": [
@@ -429,13 +443,14 @@
       5,
       17,
       26,
-      33,
       36,
       62,
+      65,
       69,
       72,
-      77,
-      196
+      196,
+      197,
+      214
     ],
     "ammunition": [
       2,
@@ -443,6 +458,7 @@
       8,
       9,
       13,
+      14,
       29
     ]
   },

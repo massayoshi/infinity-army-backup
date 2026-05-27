@@ -20,9 +20,9 @@
           "bts": 6,
           "cc": 24,
           "chars": [
-            1,
             3,
             5,
+            20,
             21
           ],
           "equip": [
@@ -144,11 +144,11 @@
               "q": 1
             }
           ],
-          "points": 76,
-          "swc": "0.5",
+          "points": 78,
+          "swc": "0",
           "weapons": [
             {
-              "id": 207,
+              "id": 230,
               "order": 1
             },
             {
@@ -193,11 +193,11 @@
               "q": 1
             }
           ],
-          "points": 81,
-          "swc": "0.5",
+          "points": 83,
+          "swc": "+1",
           "weapons": [
             {
-              "id": 207,
+              "id": 230,
               "order": 1
             },
             {
@@ -235,19 +235,19 @@
           "id": 1,
           "arm": 3,
           "ava": -1,
-          "bs": 12,
+          "bs": 13,
           "bts": 3,
-          "cc": 23,
+          "cc": 22,
           "chars": [
-            1
+            20
           ],
           "equip": [],
           "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-maximus-optimate-and-hexadome-s-legend-2-1.svg",
           "weapons": [],
           "includes": [],
           "move": [
-            10,
-            10
+            15,
+            5
           ],
           "ph": 13,
           "s": 2,
@@ -321,11 +321,11 @@
             }
           ],
           "includes": [],
-          "points": 76,
+          "points": 78,
           "swc": "-",
           "weapons": [
             {
-              "id": 207,
+              "id": 230,
               "order": 1
             },
             {
@@ -359,11 +359,11 @@
             }
           ],
           "includes": [],
-          "points": 81,
+          "points": 83,
           "swc": "-",
           "weapons": [
             {
-              "id": 207,
+              "id": 230,
               "order": 1
             },
             {
@@ -380,7 +380,13 @@
             }
           ],
           "name": "REINF. OPERATOR MAXIMUS",
-          "skills": [],
+          "skills": [
+            {
+              "id": 26,
+              "order": 1,
+              "q": 1
+            }
+          ],
           "peripheral": []
         }
       ]
@@ -408,9 +414,9 @@
       239
     ],
     "chars": [
-      1,
       3,
       5,
+      20,
       21
     ],
     "types": [
@@ -420,11 +426,10 @@
     "weapons": [
       78,
       107,
-      207,
-      213
+      213,
+      230
     ],
     "ammunition": [
-      2,
       8,
       10,
       14
