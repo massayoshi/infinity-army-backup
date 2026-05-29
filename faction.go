@@ -1,9 +1,10 @@
 package main
 
 type Faction struct {
-	Version string   `json:"version"`
-	Units   []Unit   `json:"units"`
-	Filters []Filter `json:"filters"`
+	Version        string   `json:"version"`
+	Units          []Unit   `json:"units"`
+	Reinforcements int      `json:"reinforcements"`
+	Filters        []Filter `json:"filters"`
 	Resume  []struct {
 		ID       int    `json:"id"`
 		Isc      string `json:"isc"`
@@ -13,12 +14,17 @@ type Faction struct {
 		Logo     string `json:"logo"`
 		Type     int    `json:"type"`
 		Category int    `json:"category"`
+		Chars    []int  `json:"chars"`
 	} `json:"resume"`
 	Fireteams []interface{} `json:"fireteams"`
 	Relations []struct {
 		Units []struct {
 			Unit    int `json:"unit"`
 			Profile int `json:"profile"`
+			Depends []struct {
+				Unit    int `json:"unit"`
+				Profile int `json:"profile"`
+			} `json:"depends"`
 		} `json:"units"`
 		Min   int  `json:"min"`
 		Max   int  `json:"max"`

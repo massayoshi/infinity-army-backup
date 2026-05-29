@@ -2,6 +2,7 @@ package main
 
 import (
 	"encoding/json"
+	"flag"
 	"fmt"
 	"os"
 	"strings"
@@ -29,17 +30,20 @@ func init() {
 }
 
 func main() {
+	force := flag.Bool("force", false, "recreate all files regardless of whether they already exist")
+	flag.Parse()
+
 	var wg sync.WaitGroup
 	wg.Add(2)
 
-	fetchArmyData("n5", armyN4URL, &wg)
+	fetchArmyData("n5", armyN4URL, *force, &wg)
 	wiki(&wg)
 
 	wg.Wait()
 	showFinalMessage()
 }
 
-func fetchArmyData(version string, endpoint string, wg *sync.WaitGroup) {
+func fetchArmyData(version string, endpoint string, force bool, wg *sync.WaitGroup) {
 	defer wg.Done()
 
 	c := httpClient()
@@ -82,7 +86,7 @@ func fetchArmyData(version string, endpoint string, wg *sync.WaitGroup) {
 				createFolder(factionFolderPath)
 				createFolder(factionFolderPath + "/units")
 
-				if _, err := os.Stat(fileName); os.IsNotExist(err) {
+				if _, err := os.Stat(fileName); force || os.IsNotExist(err) {
 					createFile(fileName, factionData, false)
 					createFile(fileNamePretty, []byte(prettyPrint(factionData)), true)
 
@@ -119,11 +123,12 @@ func fetchArmyData(version string, endpoint string, wg *sync.WaitGroup) {
 
 type Army struct {
 	Factions []struct {
-		ID     int    `json:"id"`
-		Parent int    `json:"parent"`
-		Name   string `json:"name"`
-		Slug   string `json:"slug"`
-		Logo   string `json:"logo"`
+		ID           int    `json:"id"`
+		Parent       int    `json:"parent"`
+		Name         string `json:"name"`
+		Slug         string `json:"slug"`
+		Logo         string `json:"logo"`
+		Discontinued bool   `json:"discontinued"`
 	} `json:"factions"`
 	Ammunitions []struct {
 		ID   int    `json:"id"`
@@ -131,14 +136,15 @@ type Army struct {
 		Wiki string `json:"wiki,omitempty"`
 	} `json:"ammunitions"`
 	Weapons []struct {
-		ID         int      `json:"id"`
-		Type       string   `json:"type"`
-		Name       string   `json:"name"`
-		Ammunition int      `json:"ammunition"`
-		Burst      string   `json:"burst"`
-		Damage     string   `json:"damage"`
-		Saving     string   `json:"saving"`
-		Properties []string `json:"properties"`
+		ID         int         `json:"id"`
+		Type       string      `json:"type"`
+		Name       string      `json:"name"`
+		Ammunition interface{} `json:"ammunition"`
+		Burst      string      `json:"burst"`
+		Damage     string      `json:"damage"`
+		Saving     string      `json:"saving"`
+		SavingNum  string      `json:"savingNum"`
+		Properties []string    `json:"properties"`
 		Distance   struct {
 			Short struct {
 				Max int    `json:"max"`

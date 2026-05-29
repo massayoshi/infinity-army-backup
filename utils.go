@@ -61,6 +61,11 @@ func sendRequest(client *http.Client, endpoint string) []byte {
 	req.Header.Add("origin", getEnvVar("HTTP_REQUEST_HEADER_ORIGIN"))
 	req.Header.Add("referer", getEnvVar("HTTP_REQUEST_HEADER_REFERER"))
 	req.Header.Add("user-agent", getEnvVar("HTTP_REQUEST_HEADER_USER_AGENT"))
+	req.Header.Add("accept", "application/json, text/plain, */*")
+	req.Header.Add("accept-language", "en-US,en;q=0.9")
+	req.Header.Add("sec-fetch-dest", "empty")
+	req.Header.Add("sec-fetch-mode", "cors")
+	req.Header.Add("sec-fetch-site", "cross-site")
 
 	response, err := client.Do(req)
 	if err != nil {
