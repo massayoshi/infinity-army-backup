@@ -1,6 +1,262 @@
 {
-  "version": "7.26147.194",
+  "version": "7.26153.36",
   "units": [
+    {
+      "id": 1654,
+      "idArmy": 1654,
+      "canonical": 499,
+      "isc": "Reinf. Hafza Unit",
+      "iscAbbr": null,
+      "name": "REINF: HAFZA Unit",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Reinf. Hafza Unit",
+          "profiles": [
+            {
+              "bts": 0,
+              "cc": 14,
+              "move": [
+                10,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 1,
+              "ava": 2,
+              "str": false,
+              "bs": 12,
+              "s": 2,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 24,
+                  "order": 1
+                }
+              ],
+              "w": 1,
+              "ph": 10,
+              "name": "REINF: HAFZA Unit",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-hafza-unit-1-1.svg",
+              "id": 1,
+              "arm": 2,
+              "weapons": [],
+              "chars": [
+                1,
+                3,
+                5
+              ],
+              "wip": 14,
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 15,
+              "equip": [],
+              "name": "HAFZA REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "id": 31,
+                  "order": 1
+                },
+                {
+                  "id": 28,
+                  "order": 2
+                },
+                {
+                  "id": 69,
+                  "order": 3
+                },
+                {
+                  "id": 5,
+                  "order": 4
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 17,
+              "equip": [],
+              "name": "HAFZA REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "id": 89,
+                  "order": 1
+                },
+                {
+                  "id": 70,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "1.5",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 22,
+              "equip": [],
+              "name": "HAFZA REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 3,
+              "weapons": [
+                {
+                  "id": 74,
+                  "order": 1
+                },
+                {
+                  "id": 69,
+                  "order": 2
+                },
+                {
+                  "id": 5,
+                  "order": 3
+                }
+              ],
+              "chars": [],
+              "swc": "1",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 17,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 111,
+                  "order": 1
+                }
+              ],
+              "name": "HAFZA REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 4,
+              "weapons": [
+                {
+                  "id": 31,
+                  "order": 1
+                },
+                {
+                  "id": 28,
+                  "order": 2
+                },
+                {
+                  "id": 72,
+                  "order": 3
+                },
+                {
+                  "id": 69,
+                  "order": 4
+                },
+                {
+                  "id": 5,
+                  "order": 5
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 59,
+                  "order": 1
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 3
+        }
+      ],
+      "options": [],
+      "slug": "reinf-hafza-unit",
+      "filters": {
+        "categories": [
+          3
+        ],
+        "skills": [
+          59
+        ],
+        "equip": [
+          24,
+          111
+        ],
+        "chars": [
+          1,
+          3,
+          5
+        ],
+        "types": [
+          1
+        ],
+        "weapons": [
+          5,
+          28,
+          31,
+          69,
+          70,
+          72,
+          74,
+          89
+        ],
+        "ammunition": [
+          2,
+          29
+        ]
+      },
+      "factions": [
+        499
+      ]
+    },
     {
       "id": 1656,
       "idArmy": 1656,
@@ -1063,262 +1319,6 @@
           3,
           13,
           14
-        ]
-      },
-      "factions": [
-        499
-      ]
-    },
-    {
-      "id": 1654,
-      "idArmy": 1654,
-      "canonical": 499,
-      "isc": "Reinf. Hafza Unit",
-      "iscAbbr": null,
-      "name": "REINF: HAFZA Unit",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Reinf. Hafza Unit",
-          "profiles": [
-            {
-              "bts": 0,
-              "cc": 14,
-              "move": [
-                10,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 1,
-              "ava": 2,
-              "str": false,
-              "bs": 12,
-              "s": 2,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 24,
-                  "order": 1
-                }
-              ],
-              "w": 1,
-              "ph": 10,
-              "name": "REINF: HAFZA Unit",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-hafza-unit-1-1.svg",
-              "id": 1,
-              "arm": 2,
-              "weapons": [],
-              "chars": [
-                1,
-                3,
-                5
-              ],
-              "wip": 14,
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 15,
-              "equip": [],
-              "name": "HAFZA REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "id": 31,
-                  "order": 1
-                },
-                {
-                  "id": 28,
-                  "order": 2
-                },
-                {
-                  "id": 69,
-                  "order": 3
-                },
-                {
-                  "id": 5,
-                  "order": 4
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 17,
-              "equip": [],
-              "name": "HAFZA REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "id": 89,
-                  "order": 1
-                },
-                {
-                  "id": 70,
-                  "order": 2
-                },
-                {
-                  "id": 5,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "1.5",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 22,
-              "equip": [],
-              "name": "HAFZA REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 3,
-              "weapons": [
-                {
-                  "id": 74,
-                  "order": 1
-                },
-                {
-                  "id": 69,
-                  "order": 2
-                },
-                {
-                  "id": 5,
-                  "order": 3
-                }
-              ],
-              "chars": [],
-              "swc": "1",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 17,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 111,
-                  "order": 1
-                }
-              ],
-              "name": "HAFZA REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 4,
-              "weapons": [
-                {
-                  "id": 31,
-                  "order": 1
-                },
-                {
-                  "id": 28,
-                  "order": 2
-                },
-                {
-                  "id": 72,
-                  "order": 3
-                },
-                {
-                  "id": 69,
-                  "order": 4
-                },
-                {
-                  "id": 5,
-                  "order": 5
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 59,
-                  "order": 1
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 3
-        }
-      ],
-      "options": [],
-      "slug": "reinf-hafza-unit",
-      "filters": {
-        "categories": [
-          3
-        ],
-        "skills": [
-          59
-        ],
-        "equip": [
-          24,
-          111
-        ],
-        "chars": [
-          1,
-          3,
-          5
-        ],
-        "types": [
-          1
-        ],
-        "weapons": [
-          5,
-          28,
-          31,
-          69,
-          70,
-          72,
-          74,
-          89
-        ],
-        "ammunition": [
-          2,
-          29
         ]
       },
       "factions": [
@@ -3015,7 +3015,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 52
+                  "id": 12
                 }
               ]
             },
@@ -3059,7 +3059,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 52
+                  "id": 12
                 }
               ]
             }
@@ -3400,7 +3400,7 @@
   "filters": {
     "peripheral": [
       {
-        "id": 52,
+        "id": 12,
         "name": "NASMAT A2"
       }
     ],
@@ -4178,6 +4178,21 @@
   },
   "resume": [
     {
+      "id": 1654,
+      "isc": "Reinf. Hafza Unit",
+      "idArmy": 1654,
+      "name": "REINF: HAFZA Unit",
+      "slug": "reinf-hafza-unit",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-hafza-unit-1-1.svg",
+      "type": 1,
+      "chars": [
+        1,
+        3,
+        5
+      ],
+      "category": 3
+    },
+    {
       "id": 1656,
       "isc": "Reinf. Korsan, Corsairs of the Gate",
       "idArmy": 1656,
@@ -4236,21 +4251,6 @@
         21
       ],
       "category": 4
-    },
-    {
-      "id": 1654,
-      "isc": "Reinf. Hafza Unit",
-      "idArmy": 1654,
-      "name": "REINF: HAFZA Unit",
-      "slug": "reinf-hafza-unit",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-hafza-unit-1-1.svg",
-      "type": 1,
-      "chars": [
-        1,
-        3,
-        5
-      ],
-      "category": 3
     },
     {
       "id": 1666,

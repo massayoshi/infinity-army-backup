@@ -888,6 +888,37 @@
       "distance": null
     },
     {
+      "id": 229,
+      "type": "WEAPON",
+      "name": "AP Red Fury",
+      "ammunition": 3,
+      "burst": "4",
+      "damage": "7",
+      "saving": "ARM/2",
+      "savingNum": "1",
+      "properties": [
+        "Suppressive Fire"
+      ],
+      "distance": {
+        "short": {
+          "max": 20,
+          "mod": "0"
+        },
+        "max": {
+          "max": 120,
+          "mod": "-6"
+        },
+        "med": {
+          "max": 60,
+          "mod": "+3"
+        },
+        "long": {
+          "max": 100,
+          "mod": "-3"
+        }
+      }
+    },
+    {
       "id": 32,
       "type": "WEAPON",
       "name": "AP Rifle",
@@ -1006,6 +1037,35 @@
         "long": {
           "max": 60,
           "mod": "-3"
+        }
+      }
+    },
+    {
+      "id": 230,
+      "type": "WEAPON",
+      "name": "AP Thunderbolt",
+      "ammunition": 3,
+      "burst": "2",
+      "damage": "6",
+      "saving": "ARM/2",
+      "savingNum": "1",
+      "properties": [],
+      "distance": {
+        "short": {
+          "max": 20,
+          "mod": "-3"
+        },
+        "max": {
+          "max": 120,
+          "mod": "0"
+        },
+        "med": {
+          "max": 40,
+          "mod": "0"
+        },
+        "long": {
+          "max": 80,
+          "mod": "+3"
         }
       }
     },
@@ -5787,7 +5847,7 @@
     },
     {
       "id": 204,
-      "name": "Infinity Spec-Ops"
+      "name": "Old Spec-Ops"
     },
     {
       "id": 207,
@@ -5972,7 +6032,8 @@
     },
     {
       "id": 272,
-      "name": "Journalist"
+      "name": "Journalist",
+      "wiki": "https://infinitythewiki.com/Journalist?version=n4"
     },
     {
       "id": 273,
@@ -5984,15 +6045,18 @@
     },
     {
       "id": 275,
-      "name": "Tech-recovery"
+      "name": "Tech-recovery",
+      "wiki": "https://infinitythewiki.com/Tech-Recovery?version=n4"
     },
     {
       "id": 276,
-      "name": "Technorganic"
+      "name": "Technorganic",
+      "wiki": "https://infinitythewiki.com/Technorganic?version=n4"
     },
     {
       "id": 277,
-      "name": "Cyberplug"
+      "name": "Cyberplug",
+      "wiki": "https://infinitythewiki.com/Cyberplug?version=n4"
     },
     {
       "id": 278,
@@ -6005,6 +6069,14 @@
     {
       "id": 280,
       "name": "BTS=3"
+    },
+    {
+      "id": 281,
+      "name": "Infinity Spec-Ops"
+    },
+    {
+      "id": 282,
+      "name": "Infinity Team-Ops"
     },
     {
       "id": 1000,
