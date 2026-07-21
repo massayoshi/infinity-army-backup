@@ -20,38 +20,59 @@ func wiki(wg *sync.WaitGroup) {
 	c := httpClient()
 
 	getPageList(c, wikiPageListURL)
-	for _, url := range urlList {
-		var pageData = sendRequest(c, url)
-		var pageObject WikiPage
-		json.Unmarshal(pageData, &pageObject)
 
-		if pageObject.Query.Pages[0].Missing || len(pageObject.Query.Pages[0].Categories) == 0 {
-			continue
-		}
-
-		var pageName = pageObject.Query.Pages[0].Title
-		pageName = strings.ReplaceAll(pageName, "/", "")
-		pageName = strings.ReplaceAll(pageName, " ", "_")
-
-		var revisions = pageObject.Query.Pages[0].Revisions
-		if len(revisions) > 1 {
-			fmt.Println("More than one revision for " + pageName)
-		}
-		var pageContent = pageObject.Query.Pages[0].Revisions[0].Slots.Main.Content
-
-		if strings.Contains(pageContent, "#redirect") {
-			continue
-		}
-
-		var pageCategory = pageObject.Query.Pages[0].Categories[0].Title
-		pageCategory = strings.Replace(pageCategory, "Category:", "", -1)
-		pageCategory = strings.ReplaceAll(pageCategory, " ", "_")
-		pageCategory = strings.ReplaceAll(pageCategory, "/", "")
-		pageCategory = strings.ReplaceAll(pageCategory, "&", "and")
-		var folderPath = "wiki/" + pageCategory
-		createFolder(folderPath)
-		createFile(folderPath+"/"+pageName+".wiki", []byte(pageContent), true)
+	// Fetch and write each page concurrently. The global request semaphore in
+	// sendRequest caps how many of these are actually in flight at once.
+	var pageWg sync.WaitGroup
+	for _, u := range urlList {
+		pageWg.Add(1)
+		go func(pageURL string) {
+			defer pageWg.Done()
+			fetchWikiPage(c, pageURL)
+		}(u)
 	}
+	pageWg.Wait()
+}
+
+func fetchWikiPage(c *http.Client, pageURL string) {
+	var pageData = sendRequest(c, pageURL)
+	var pageObject WikiPage
+	json.Unmarshal(pageData, &pageObject)
+
+	// A 404 (nil body) or an otherwise empty/unexpected response leaves Pages
+	// empty; skip rather than panic on Pages[0].
+	if len(pageObject.Query.Pages) == 0 {
+		return
+	}
+
+	var page = pageObject.Query.Pages[0]
+
+	if page.Missing || len(page.Categories) == 0 || len(page.Revisions) == 0 {
+		return
+	}
+
+	var pageName = page.Title
+	pageName = strings.ReplaceAll(pageName, "/", "")
+	pageName = strings.ReplaceAll(pageName, " ", "_")
+
+	var revisions = page.Revisions
+	if len(revisions) > 1 {
+		fmt.Println("More than one revision for " + pageName)
+	}
+	var pageContent = page.Revisions[0].Slots.Main.Content
+
+	if strings.Contains(pageContent, "#redirect") {
+		return
+	}
+
+	var pageCategory = page.Categories[0].Title
+	pageCategory = strings.Replace(pageCategory, "Category:", "", -1)
+	pageCategory = strings.ReplaceAll(pageCategory, " ", "_")
+	pageCategory = strings.ReplaceAll(pageCategory, "/", "")
+	pageCategory = strings.ReplaceAll(pageCategory, "&", "and")
+	var folderPath = "wiki/" + pageCategory
+	createFolder(folderPath)
+	createFile(folderPath+"/"+pageName+".wiki", []byte(pageContent), true)
 }
 
 func getPageList(client *http.Client, url string) {

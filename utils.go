@@ -11,12 +11,28 @@ import (
 	"os"
 	"os/exec"
 	"strings"
+	"sync"
 	"time"
 
 	"github.com/joho/godotenv"
 )
 
+// maxConcurrentRequests bounds how many HTTP requests are in flight at once
+// across the whole program, keeping load on the upstream APIs polite.
+const maxConcurrentRequests = 8
+
+// reqSem is a global semaphore acquired for the duration of every outbound
+// request in sendRequest, so total concurrency is capped regardless of how
+// many goroutines the army/wiki/logo loops spawn.
+var reqSem = make(chan struct{}, maxConcurrentRequests)
+
+// folderMu guards createFolder so concurrent goroutines creating the same
+// folder (e.g. a shared wiki category) don't race on stat/mkdir.
+var folderMu sync.Mutex
+
 func createFolder(path string) {
+	folderMu.Lock()
+	defer folderMu.Unlock()
 	if _, err := os.Stat(path); errors.Is(err, os.ErrNotExist) {
 		err := os.Mkdir(path, os.ModePerm)
 		if err != nil {
@@ -44,15 +60,34 @@ func createFile(fileName string, data []byte, update bool) {
 	if err != nil {
 		log.Fatal("Cannot write to file", err)
 	}
-	file.Sync()
 }
 
+// sharedClient is created once and reused for every request so the connection
+// pool (keep-alives) is shared across all goroutines.
+var (
+	clientOnce   sync.Once
+	sharedClient *http.Client
+)
+
 func httpClient() *http.Client {
-	client := &http.Client{Timeout: 10 * time.Second}
-	return client
+	clientOnce.Do(func() {
+		transport := &http.Transport{
+			MaxIdleConns:        maxConcurrentRequests * 2,
+			MaxIdleConnsPerHost: maxConcurrentRequests,
+			IdleConnTimeout:     90 * time.Second,
+		}
+		sharedClient = &http.Client{
+			Timeout:   10 * time.Second,
+			Transport: transport,
+		}
+	})
+	return sharedClient
 }
 
 func sendRequest(client *http.Client, endpoint string) []byte {
+	reqSem <- struct{}{}
+	defer func() { <-reqSem }()
+
 	req, err := http.NewRequest("GET", endpoint, nil)
 	if err != nil {
 		log.Fatalf("Error Occurred. %+v", err)
@@ -86,11 +121,14 @@ func sendRequest(client *http.Client, endpoint string) []byte {
 	return body
 }
 
+var envOnce sync.Once
+
 func getEnvVar(value string) string {
-	err := godotenv.Load(".env")
-	if err != nil {
-		log.Fatalf("Some error occured. Err: %s", err)
-	}
+	envOnce.Do(func() {
+		if err := godotenv.Load(".env"); err != nil {
+			log.Fatalf("Some error occured. Err: %s", err)
+		}
+	})
 
 	return os.Getenv(value)
 }
