@@ -1,6 +1,203 @@
 {
-  "version": "7.26147.194",
+  "version": "7.26246.158",
   "units": [
+    {
+      "id": 1738,
+      "idArmy": 1738,
+      "canonical": 599,
+      "isc": "Reinf. Vostok Sputniks",
+      "iscAbbr": null,
+      "name": "REINF: VOSTOK Sputniks",
+      "profileGroups": [
+        {
+          "notes": null,
+          "isc": "Reinf. Vostok Sputniks",
+          "profiles": [
+            {
+              "bts": 6,
+              "cc": 14,
+              "move": [
+                15,
+                10
+              ],
+              "notes": null,
+              "includes": [],
+              "type": 5,
+              "ava": 2,
+              "str": true,
+              "bs": 12,
+              "s": 4,
+              "equip": [
+                {
+                  "q": 1,
+                  "id": 63,
+                  "order": 1
+                }
+              ],
+              "w": 2,
+              "ph": 10,
+              "name": "REINF: VOSTOK Sputniks",
+              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-vostok-sputniks-1-1.svg",
+              "id": 1,
+              "arm": 3,
+              "weapons": [],
+              "chars": [
+                3,
+                5,
+                21
+              ],
+              "wip": 13,
+              "skills": [
+                {
+                  "q": 1,
+                  "id": 235,
+                  "order": 1
+                },
+                {
+                  "q": 1,
+                  "id": 84,
+                  "order": 2
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    249
+                  ],
+                  "id": 162,
+                  "order": 3
+                },
+                {
+                  "q": 1,
+                  "extra": [
+                    7
+                  ],
+                  "id": 28,
+                  "order": 5
+                },
+                {
+                  "q": 1,
+                  "id": 82,
+                  "order": 6
+                }
+              ],
+              "peripheral": []
+            }
+          ],
+          "options": [
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 40,
+              "equip": [],
+              "name": "VOSTOK REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 1,
+              "weapons": [
+                {
+                  "extra": [
+                    311
+                  ],
+                  "id": 64,
+                  "order": 1
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 2
+                }
+              ],
+              "chars": [],
+              "swc": "0",
+              "skills": [],
+              "peripheral": []
+            },
+            {
+              "includes": [],
+              "minis": 1,
+              "points": 43,
+              "equip": [],
+              "name": "VOSTOK REINF.",
+              "disabled": false,
+              "orders": [
+                {
+                  "type": "REGULAR",
+                  "list": 1,
+                  "total": 1
+                }
+              ],
+              "id": 2,
+              "weapons": [
+                {
+                  "extra": null,
+                  "id": 157,
+                  "order": 1
+                },
+                {
+                  "extra": [
+                    6
+                  ],
+                  "id": 71,
+                  "order": 2
+                }
+              ],
+              "chars": [],
+              "swc": "1",
+              "skills": [],
+              "peripheral": []
+            }
+          ],
+          "id": 1,
+          "category": 8
+        }
+      ],
+      "options": [],
+      "slug": "reinf-vostok-sputniks",
+      "filters": {
+        "categories": [
+          8
+        ],
+        "skills": [
+          28,
+          82,
+          84,
+          162,
+          235
+        ],
+        "equip": [
+          63
+        ],
+        "chars": [
+          3,
+          5,
+          21
+        ],
+        "types": [
+          5
+        ],
+        "weapons": [
+          64,
+          71,
+          157
+        ],
+        "ammunition": [
+          2,
+          3,
+          37
+        ]
+      },
+      "factions": [
+        599
+      ]
+    },
     {
       "id": 1741,
       "idArmy": 1741,
@@ -573,203 +770,6 @@
           2,
           6,
           10,
-          37
-        ]
-      },
-      "factions": [
-        599
-      ]
-    },
-    {
-      "id": 1738,
-      "idArmy": 1738,
-      "canonical": 599,
-      "isc": "Reinf. Vostok Sputniks",
-      "iscAbbr": null,
-      "name": "REINF: VOSTOK Sputniks",
-      "profileGroups": [
-        {
-          "notes": null,
-          "isc": "Reinf. Vostok Sputniks",
-          "profiles": [
-            {
-              "bts": 6,
-              "cc": 14,
-              "move": [
-                15,
-                10
-              ],
-              "notes": null,
-              "includes": [],
-              "type": 5,
-              "ava": 2,
-              "str": true,
-              "bs": 12,
-              "s": 4,
-              "equip": [
-                {
-                  "q": 1,
-                  "id": 63,
-                  "order": 1
-                }
-              ],
-              "w": 2,
-              "ph": 10,
-              "name": "REINF: VOSTOK Sputniks",
-              "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-vostok-sputniks-1-1.svg",
-              "id": 1,
-              "arm": 3,
-              "weapons": [],
-              "chars": [
-                3,
-                5,
-                21
-              ],
-              "wip": 13,
-              "skills": [
-                {
-                  "q": 1,
-                  "id": 235,
-                  "order": 1
-                },
-                {
-                  "q": 1,
-                  "id": 84,
-                  "order": 2
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    249
-                  ],
-                  "id": 162,
-                  "order": 3
-                },
-                {
-                  "q": 1,
-                  "extra": [
-                    7
-                  ],
-                  "id": 28,
-                  "order": 5
-                },
-                {
-                  "q": 1,
-                  "id": 82,
-                  "order": 6
-                }
-              ],
-              "peripheral": []
-            }
-          ],
-          "options": [
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 40,
-              "equip": [],
-              "name": "VOSTOK REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 1,
-              "weapons": [
-                {
-                  "extra": [
-                    311
-                  ],
-                  "id": 64,
-                  "order": 1
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 2
-                }
-              ],
-              "chars": [],
-              "swc": "0",
-              "skills": [],
-              "peripheral": []
-            },
-            {
-              "includes": [],
-              "minis": 1,
-              "points": 43,
-              "equip": [],
-              "name": "VOSTOK REINF.",
-              "disabled": false,
-              "orders": [
-                {
-                  "type": "REGULAR",
-                  "list": 1,
-                  "total": 1
-                }
-              ],
-              "id": 2,
-              "weapons": [
-                {
-                  "extra": null,
-                  "id": 157,
-                  "order": 1
-                },
-                {
-                  "extra": [
-                    6
-                  ],
-                  "id": 71,
-                  "order": 2
-                }
-              ],
-              "chars": [],
-              "swc": "1",
-              "skills": [],
-              "peripheral": []
-            }
-          ],
-          "id": 1,
-          "category": 8
-        }
-      ],
-      "options": [],
-      "slug": "reinf-vostok-sputniks",
-      "filters": {
-        "categories": [
-          8
-        ],
-        "skills": [
-          28,
-          82,
-          84,
-          162,
-          235
-        ],
-        "equip": [
-          63
-        ],
-        "chars": [
-          3,
-          5,
-          21
-        ],
-        "types": [
-          5
-        ],
-        "weapons": [
-          64,
-          71,
-          157
-        ],
-        "ammunition": [
-          2,
-          3,
           37
         ]
       },
@@ -2471,7 +2471,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 68
+                  "id": 49
                 }
               ]
             },
@@ -2527,7 +2527,7 @@
               "skills": [],
               "peripheral": [
                 {
-                  "id": 68
+                  "id": 49
                 }
               ]
             }
@@ -3338,7 +3338,7 @@
   "filters": {
     "peripheral": [
       {
-        "id": 68,
+        "id": 49,
         "name": "ROBBYBOT"
       }
     ],
@@ -3846,11 +3846,6 @@
         "wiki": "https://infinitythewiki.com/BS_Attack?version=n4"
       },
       {
-        "id": 204,
-        "name": "Infinity Spec-Ops",
-        "specops": true
-      },
-      {
         "id": 211,
         "name": "NCO",
         "wiki": "https://infinitythewiki.com/NCO?version=n4"
@@ -4215,6 +4210,21 @@
   },
   "resume": [
     {
+      "id": 1738,
+      "isc": "Reinf. Vostok Sputniks",
+      "idArmy": 1738,
+      "name": "REINF: VOSTOK Sputniks",
+      "slug": "reinf-vostok-sputniks",
+      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-vostok-sputniks-1-1.svg",
+      "type": 5,
+      "chars": [
+        3,
+        5,
+        21
+      ],
+      "category": 8
+    },
+    {
       "id": 1741,
       "isc": "Reinf. Spektrs",
       "idArmy": 1741,
@@ -4236,21 +4246,6 @@
       "name": "REINF: TSYKLON Sputniks",
       "slug": "reinf-tsyklon-sputniks",
       "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-tsyklon-sputniks-1-1.svg",
-      "type": 5,
-      "chars": [
-        3,
-        5,
-        21
-      ],
-      "category": 8
-    },
-    {
-      "id": 1738,
-      "isc": "Reinf. Vostok Sputniks",
-      "idArmy": 1738,
-      "name": "REINF: VOSTOK Sputniks",
-      "slug": "reinf-vostok-sputniks",
-      "logo": "https://assets.corvusbelli.net/army/img/logo/units/reinf-vostok-sputniks-1-1.svg",
       "type": 5,
       "chars": [
         3,
@@ -4397,7 +4392,7 @@
   ],
   "fireteams": [],
   "relations": [],
-  "specops": {
+  "teamops": {
     "units": []
   },
   "fireteamChart": {

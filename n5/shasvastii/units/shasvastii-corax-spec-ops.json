@@ -1,0 +1,667 @@
+{
+  "id": 1920,
+  "idArmy": 1920,
+  "canonical": 603,
+  "isc": "Shasvastii Corax Spec-Ops",
+  "iscAbbr": null,
+  "name": "SHASVASTII CORAX SPEC-OPS",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 4,
+      "isc": "Shasvastii Corax Spec-Ops",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 2,
+          "ava": 1,
+          "bs": 12,
+          "bts": 3,
+          "cc": 14,
+          "chars": [
+            1,
+            3,
+            5
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/shasvastii-corax-spec-ops-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 11,
+          "s": 2,
+          "str": false,
+          "type": 2,
+          "w": 1,
+          "wip": 13,
+          "name": "INITIAL PROFILE",
+          "notes": null,
+          "skills": [
+            {
+              "id": 281,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 162,
+              "order": 2,
+              "extra": [
+                30
+              ],
+              "q": 1
+            },
+            {
+              "id": 237,
+              "order": 3,
+              "q": 1
+            },
+            {
+              "id": 164,
+              "order": 4,
+              "q": 1
+            },
+            {
+              "id": 58,
+              "order": 5,
+              "extra": [
+                33
+              ],
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "arm": 2,
+          "ava": -1,
+          "bs": 13,
+          "bts": 6,
+          "cc": 15,
+          "chars": [
+            1,
+            3,
+            5,
+            21
+          ],
+          "equip": [
+            {
+              "id": 108,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/shasvastii-corax-spec-ops-1-2.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 12,
+          "s": 2,
+          "str": false,
+          "type": 3,
+          "w": 2,
+          "wip": 13,
+          "name": "ENHANCED PROFILE",
+          "notes": null,
+          "skills": [
+            {
+              "id": 237,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 164,
+              "order": 2,
+              "q": 1
+            },
+            {
+              "id": 264,
+              "order": 3,
+              "q": 1
+            },
+            {
+              "id": 58,
+              "order": 4,
+              "extra": [
+                33
+              ],
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 27,
+          "swc": "1",
+          "weapons": [
+            {
+              "id": 2,
+              "order": 1
+            },
+            {
+              "id": 175,
+              "order": 2
+            },
+            {
+              "id": 17,
+              "order": 3
+            },
+            {
+              "id": 69,
+              "order": 4
+            },
+            {
+              "id": 5,
+              "order": 5
+            }
+          ],
+          "name": "CORAX",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 25,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 36,
+              "order": 1
+            },
+            {
+              "id": 175,
+              "order": 2
+            },
+            {
+              "id": 17,
+              "order": 3
+            },
+            {
+              "id": 69,
+              "order": 4
+            },
+            {
+              "id": 5,
+              "order": 5
+            }
+          ],
+          "name": "CORAX",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 3,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 237,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 22,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 41,
+              "order": 1
+            },
+            {
+              "id": 175,
+              "order": 2
+            },
+            {
+              "id": 17,
+              "order": 3
+            },
+            {
+              "id": 69,
+              "order": 4
+            },
+            {
+              "id": 5,
+              "order": 5
+            }
+          ],
+          "name": "CORAX",
+          "skills": [
+            {
+              "id": 189,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 4,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 100,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 27,
+          "swc": "0.5",
+          "weapons": [
+            {
+              "id": 83,
+              "order": 1
+            },
+            {
+              "id": 175,
+              "order": 2
+            },
+            {
+              "id": 72,
+              "order": 3
+            },
+            {
+              "id": 17,
+              "order": 4
+            },
+            {
+              "id": 69,
+              "order": 5
+            },
+            {
+              "id": 5,
+              "order": 6
+            }
+          ],
+          "name": "CORAX",
+          "skills": [
+            {
+              "id": 1000,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 5,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 22,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 41,
+              "order": 1
+            },
+            {
+              "id": 175,
+              "order": 2
+            },
+            {
+              "id": 72,
+              "order": 3
+            },
+            {
+              "id": 17,
+              "order": 4
+            },
+            {
+              "id": 69,
+              "order": 5
+            },
+            {
+              "id": 5,
+              "order": 6
+            }
+          ],
+          "name": "CORAX",
+          "skills": [
+            {
+              "id": 59,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 6,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 106,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 22,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 83,
+              "order": 1
+            },
+            {
+              "id": 175,
+              "order": 2
+            },
+            {
+              "id": 17,
+              "order": 3
+            },
+            {
+              "id": 69,
+              "order": 4
+            },
+            {
+              "id": 5,
+              "order": 5
+            }
+          ],
+          "name": "CORAX",
+          "skills": [
+            {
+              "id": 64,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": 0,
+      "isc": "Voldron 403 SpecBots",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 0,
+          "ava": -1,
+          "bs": 10,
+          "bts": 3,
+          "cc": 13,
+          "chars": [
+            21,
+            27
+          ],
+          "equip": [
+            {
+              "id": 113,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/shasvastii-corax-spec-ops-2-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            10
+          ],
+          "ph": 10,
+          "s": 1,
+          "str": true,
+          "type": 5,
+          "w": 1,
+          "wip": 11,
+          "name": "VOLDRON 403 SPECBOTS",
+          "notes": null,
+          "skills": [
+            {
+              "id": 243,
+              "order": 1,
+              "extra": [
+                40
+              ],
+              "q": 1
+            },
+            {
+              "id": 84,
+              "order": 2,
+              "q": 1
+            },
+            {
+              "id": 28,
+              "order": 3,
+              "extra": [
+                6
+              ],
+              "q": 1
+            },
+            {
+              "id": 164,
+              "order": 4,
+              "q": 1
+            },
+            {
+              "id": 58,
+              "order": 5,
+              "extra": [
+                33
+              ],
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": true,
+          "equip": [],
+          "minis": 1,
+          "orders": [],
+          "includes": [],
+          "points": 7,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 23,
+              "order": 1
+            },
+            {
+              "id": 65,
+              "order": 2
+            },
+            {
+              "id": 62,
+              "order": 3
+            },
+            {
+              "id": 71,
+              "order": 4
+            }
+          ],
+          "name": "VOLDRON 403 SPECBOT_1 ",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": true,
+          "equip": [],
+          "minis": 1,
+          "orders": [],
+          "includes": [],
+          "points": 6,
+          "swc": "-",
+          "weapons": [
+            {
+              "id": 23,
+              "order": 1
+            },
+            {
+              "id": 65,
+              "order": 2
+            },
+            {
+              "id": 72,
+              "order": 3
+            },
+            {
+              "id": 71,
+              "order": 4
+            }
+          ],
+          "name": "VOLDRON 403 SPECBOT_2",
+          "skills": [
+            {
+              "id": 59,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "shasvastii-corax-spec-ops",
+  "filters": {
+    "categories": [
+      4
+    ],
+    "skills": [
+      28,
+      58,
+      59,
+      64,
+      84,
+      162,
+      164,
+      189,
+      237,
+      243,
+      264,
+      281,
+      1000
+    ],
+    "equip": [
+      100,
+      106,
+      108,
+      113,
+      237
+    ],
+    "chars": [
+      1,
+      3,
+      5,
+      21,
+      27
+    ],
+    "types": [
+      2,
+      3,
+      5
+    ],
+    "weapons": [
+      2,
+      5,
+      17,
+      23,
+      36,
+      41,
+      62,
+      65,
+      69,
+      71,
+      72,
+      83,
+      175
+    ],
+    "ammunition": [
+      2,
+      3,
+      8,
+      9,
+      13,
+      14,
+      29,
+      37
+    ]
+  },
+  "factions": [
+    603
+  ]
+}

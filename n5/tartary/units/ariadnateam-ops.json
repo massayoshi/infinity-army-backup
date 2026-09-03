@@ -1,0 +1,901 @@
+{
+  "id": 1929,
+  "idArmy": 1929,
+  "canonical": 301,
+  "isc": "AriadnaTeam-Ops",
+  "iscAbbr": null,
+  "name": "ARIADNA TEAM-OPS",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 4,
+      "isc": "ARIADNA TEAM-OPS",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 3,
+          "ava": 1,
+          "bs": 12,
+          "bts": 0,
+          "cc": 18,
+          "chars": [
+            2,
+            3,
+            5
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/ariadnateam-ops-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 12,
+          "s": 2,
+          "str": false,
+          "type": 2,
+          "w": 1,
+          "wip": 13,
+          "name": "INTEL-1 SPEC-OPS",
+          "notes": null,
+          "skills": [
+            {
+              "id": 282,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 162,
+              "order": 2,
+              "extra": [
+                30
+              ],
+              "q": 1
+            },
+            {
+              "id": 28,
+              "order": 3,
+              "extra": [
+                6
+              ],
+              "q": 1
+            },
+            {
+              "id": 58,
+              "order": 4,
+              "extra": [
+                33
+              ],
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 28,
+          "swc": "1",
+          "weapons": [
+            {
+              "id": 3,
+              "order": 1
+            },
+            {
+              "id": 17,
+              "order": 2
+            },
+            {
+              "id": 107,
+              "order": 3
+            },
+            {
+              "id": 177,
+              "order": 4
+            }
+          ],
+          "name": "INTEL-1",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 24,
+          "swc": "1",
+          "weapons": [
+            {
+              "id": 38,
+              "order": 1
+            },
+            {
+              "id": 17,
+              "order": 2
+            },
+            {
+              "id": 107,
+              "order": 3
+            },
+            {
+              "id": 177,
+              "order": 4
+            }
+          ],
+          "name": "INTEL-1",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 3,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 237,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 18,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 42,
+              "order": 1
+            },
+            {
+              "id": 17,
+              "order": 2
+            },
+            {
+              "id": 107,
+              "order": 3
+            },
+            {
+              "id": 177,
+              "order": 4
+            }
+          ],
+          "name": "INTEL-1",
+          "skills": [
+            {
+              "id": 189,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 4,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 20,
+          "swc": "0.5",
+          "weapons": [
+            {
+              "id": 42,
+              "order": 1
+            },
+            {
+              "id": 17,
+              "order": 2
+            },
+            {
+              "id": 107,
+              "order": 3
+            },
+            {
+              "id": 177,
+              "order": 4
+            }
+          ],
+          "name": "INTEL-1",
+          "skills": [
+            {
+              "extra": [
+                386,
+                387
+              ],
+              "id": 1000,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 5,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 18,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 42,
+              "order": 1
+            },
+            {
+              "id": 72,
+              "order": 2
+            },
+            {
+              "id": 17,
+              "order": 3
+            },
+            {
+              "id": 107,
+              "order": 4
+            },
+            {
+              "id": 177,
+              "order": 5
+            }
+          ],
+          "name": "INTEL-1",
+          "skills": [
+            {
+              "id": 59,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 6,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 106,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 19,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 42,
+              "order": 1
+            },
+            {
+              "id": 17,
+              "order": 2
+            },
+            {
+              "id": 107,
+              "order": 3
+            },
+            {
+              "id": 177,
+              "order": 4
+            }
+          ],
+          "name": "INTEL-1",
+          "skills": [
+            {
+              "id": 64,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": 4,
+      "isc": "Intel Heavy Spec-Ops",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 5,
+          "ava": 1,
+          "bs": 13,
+          "bts": 0,
+          "cc": 20,
+          "chars": [
+            2,
+            3,
+            5,
+            21
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/ariadnateam-ops-2-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            5
+          ],
+          "ph": 11,
+          "s": 2,
+          "str": false,
+          "type": 3,
+          "w": 2,
+          "wip": 14,
+          "name": "FULL POWER",
+          "notes": null,
+          "skills": [
+            {
+              "id": 24,
+              "order": 1,
+              "extra": [
+                1
+              ],
+              "q": 1
+            },
+            {
+              "id": 282,
+              "order": 2,
+              "q": 1
+            },
+            {
+              "id": 28,
+              "order": 3,
+              "extra": [
+                6
+              ],
+              "q": 1
+            },
+            {
+              "id": 58,
+              "order": 4,
+              "extra": [
+                33
+              ],
+              "q": 1
+            },
+            {
+              "id": 246,
+              "order": 5,
+              "extra": [
+                44
+              ],
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "arm": 4,
+          "ava": -1,
+          "bs": 13,
+          "bts": 0,
+          "cc": 19,
+          "chars": [
+            2,
+            3,
+            5,
+            21
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/ariadnateam-ops-2-2.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 9,
+          "s": 2,
+          "str": false,
+          "type": 3,
+          "w": 2,
+          "wip": 14,
+          "name": "BATTLE RAVAGED",
+          "notes": null,
+          "skills": [
+            {
+              "id": 24,
+              "order": 1,
+              "extra": [
+                1
+              ],
+              "q": 1
+            },
+            {
+              "id": 282,
+              "order": 2,
+              "q": 1
+            },
+            {
+              "id": 28,
+              "order": 3,
+              "extra": [
+                6
+              ],
+              "q": 1
+            },
+            {
+              "id": 58,
+              "order": 4,
+              "extra": [
+                33
+              ],
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 44,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 3,
+              "order": 1
+            },
+            {
+              "id": 17,
+              "order": 2
+            },
+            {
+              "id": 107,
+              "order": 3
+            },
+            {
+              "id": 177,
+              "order": 4
+            }
+          ],
+          "name": "INTEL HEAVY",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 40,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 64,
+              "order": 1
+            },
+            {
+              "id": 80,
+              "order": 2
+            },
+            {
+              "id": 17,
+              "order": 3
+            },
+            {
+              "id": 107,
+              "order": 4
+            },
+            {
+              "id": 177,
+              "order": 5
+            }
+          ],
+          "name": "INTEL HEAVY",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 3,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 36,
+          "swc": "0.5",
+          "weapons": [
+            {
+              "id": 230,
+              "order": 1
+            },
+            {
+              "id": 17,
+              "order": 2
+            },
+            {
+              "id": 107,
+              "order": 3
+            },
+            {
+              "id": 177,
+              "order": 4
+            }
+          ],
+          "name": "INTEL HEAVY",
+          "skills": [
+            {
+              "extra": [
+                386,
+                387
+              ],
+              "id": 1000,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 4,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 34,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 230,
+              "order": 1
+            },
+            {
+              "id": 72,
+              "order": 2
+            },
+            {
+              "id": 17,
+              "order": 3
+            },
+            {
+              "id": 107,
+              "order": 4
+            },
+            {
+              "id": 177,
+              "order": 5
+            }
+          ],
+          "name": "INTEL HEAVY",
+          "skills": [
+            {
+              "id": 59,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "category": 8,
+      "isc": "B2M SpecBots",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 0,
+          "ava": 1,
+          "bs": 10,
+          "bts": 3,
+          "cc": 13,
+          "chars": [
+            3,
+            5,
+            21
+          ],
+          "equip": [
+            {
+              "id": 113,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/ariadnateam-ops-3-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            5
+          ],
+          "ph": 10,
+          "s": 1,
+          "str": true,
+          "type": 5,
+          "w": 1,
+          "wip": 12,
+          "name": "B2M SPECBOTS",
+          "notes": null,
+          "skills": [
+            {
+              "id": 235,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 84,
+              "order": 2,
+              "q": 1
+            },
+            {
+              "id": 282,
+              "order": 3,
+              "q": 1
+            },
+            {
+              "id": 28,
+              "order": 4,
+              "extra": [
+                6
+              ],
+              "q": 1
+            },
+            {
+              "id": 58,
+              "order": 5,
+              "extra": [
+                33
+              ],
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 6,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 57,
+              "order": 1
+            },
+            {
+              "id": 199,
+              "order": 2
+            },
+            {
+              "id": 71,
+              "order": 3
+            }
+          ],
+          "name": "B2M SPECBOT_1 ",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 10,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 26,
+              "order": 1
+            },
+            {
+              "id": 18,
+              "order": 2
+            },
+            {
+              "id": 72,
+              "order": 3
+            },
+            {
+              "id": 71,
+              "order": 4
+            }
+          ],
+          "name": "B2M SPECBOT_2",
+          "skills": [
+            {
+              "id": 59,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "ariadnateam-ops",
+  "filters": {
+    "categories": [
+      4,
+      8
+    ],
+    "skills": [
+      24,
+      28,
+      58,
+      59,
+      64,
+      84,
+      162,
+      189,
+      235,
+      246,
+      282,
+      1000
+    ],
+    "equip": [
+      106,
+      113,
+      237
+    ],
+    "chars": [
+      2,
+      3,
+      5,
+      21
+    ],
+    "types": [
+      2,
+      3,
+      5
+    ],
+    "weapons": [
+      3,
+      17,
+      18,
+      26,
+      38,
+      42,
+      57,
+      64,
+      71,
+      72,
+      80,
+      107,
+      177,
+      199,
+      230
+    ],
+    "ammunition": [
+      2,
+      3,
+      8,
+      9,
+      13,
+      18,
+      29,
+      37
+    ]
+  },
+  "factions": [
+    301,
+    302,
+    303,
+    304,
+    305,
+    306
+  ]
+}

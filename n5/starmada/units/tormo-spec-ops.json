@@ -1,0 +1,634 @@
+{
+  "id": 1923,
+  "idArmy": 1923,
+  "canonical": 1001,
+  "isc": "Ŝtormo Spec-Ops",
+  "iscAbbr": null,
+  "name": "ŜTORMO SPEC-OPS",
+  "profileGroups": [
+    {
+      "id": 1,
+      "category": 4,
+      "isc": "ŜTORMO SPEC-OPS",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 2,
+          "ava": 1,
+          "bs": 13,
+          "bts": 3,
+          "cc": 14,
+          "chars": [
+            1,
+            3,
+            5
+          ],
+          "equip": [],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/tormo-spec-ops-1-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            10,
+            10
+          ],
+          "ph": 11,
+          "s": 2,
+          "str": false,
+          "type": 2,
+          "w": 1,
+          "wip": 13,
+          "name": "INITIAL PROFILE",
+          "notes": null,
+          "skills": [
+            {
+              "id": 281,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 162,
+              "order": 2,
+              "extra": [
+                30
+              ],
+              "q": 1
+            },
+            {
+              "id": 58,
+              "order": 3,
+              "extra": [
+                33
+              ],
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "arm": 3,
+          "ava": -1,
+          "bs": 13,
+          "bts": 6,
+          "cc": 16,
+          "chars": [
+            1,
+            3,
+            5,
+            21
+          ],
+          "equip": [
+            {
+              "id": 113,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/tormo-spec-ops-1-2.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            5
+          ],
+          "ph": 12,
+          "s": 2,
+          "str": false,
+          "type": 3,
+          "w": 2,
+          "wip": 13,
+          "name": "ENHANCED PROFILE",
+          "notes": null,
+          "skills": [
+            {
+              "id": 84,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 58,
+              "order": 2,
+              "extra": [
+                33
+              ],
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 27,
+          "swc": "1",
+          "weapons": [
+            {
+              "id": 2,
+              "order": 1
+            },
+            {
+              "id": 187,
+              "order": 2
+            },
+            {
+              "id": 17,
+              "order": 3
+            },
+            {
+              "id": 69,
+              "order": 4
+            },
+            {
+              "id": 71,
+              "order": 5
+            }
+          ],
+          "name": "ŜTORMO",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 25,
+          "swc": "1.5",
+          "weapons": [
+            {
+              "id": 36,
+              "order": 1
+            },
+            {
+              "id": 187,
+              "order": 2
+            },
+            {
+              "id": 17,
+              "order": 3
+            },
+            {
+              "id": 69,
+              "order": 4
+            },
+            {
+              "id": 71,
+              "order": 5
+            }
+          ],
+          "name": "ŜTORMO",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 3,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 237,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 22,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 41,
+              "order": 1
+            },
+            {
+              "id": 187,
+              "order": 2
+            },
+            {
+              "id": 17,
+              "order": 3
+            },
+            {
+              "id": 69,
+              "order": 4
+            },
+            {
+              "id": 71,
+              "order": 5
+            }
+          ],
+          "name": "ŜTORMO",
+          "skills": [
+            {
+              "id": 189,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 4,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 100,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 21,
+          "swc": "0.5",
+          "weapons": [
+            {
+              "id": 214,
+              "order": 1
+            },
+            {
+              "id": 187,
+              "order": 2
+            },
+            {
+              "id": 1,
+              "order": 3
+            },
+            {
+              "id": 17,
+              "order": 4
+            },
+            {
+              "id": 69,
+              "order": 5
+            },
+            {
+              "id": 71,
+              "order": 6
+            }
+          ],
+          "name": "ŜTORMO",
+          "skills": [
+            {
+              "id": 1000,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 5,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 22,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 41,
+              "order": 1
+            },
+            {
+              "id": 187,
+              "order": 2
+            },
+            {
+              "id": 72,
+              "order": 3
+            },
+            {
+              "id": 17,
+              "order": 4
+            },
+            {
+              "id": 69,
+              "order": 5
+            },
+            {
+              "id": 71,
+              "order": 6
+            }
+          ],
+          "name": "ŜTORMO",
+          "skills": [
+            {
+              "id": 59,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 6,
+          "chars": [],
+          "disabled": false,
+          "equip": [
+            {
+              "id": 106,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 18,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 214,
+              "order": 1
+            },
+            {
+              "id": 187,
+              "order": 2
+            },
+            {
+              "id": 72,
+              "order": 3
+            },
+            {
+              "id": 17,
+              "order": 4
+            },
+            {
+              "id": 69,
+              "order": 5
+            },
+            {
+              "id": 71,
+              "order": 6
+            }
+          ],
+          "name": "ŜTORMO",
+          "skills": [
+            {
+              "id": 64,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": 0,
+      "isc": "Kolego Spec-Ops",
+      "notes": null,
+      "profiles": [
+        {
+          "id": 1,
+          "arm": 0,
+          "ava": -1,
+          "bs": 10,
+          "bts": 3,
+          "cc": 13,
+          "chars": [
+            21,
+            27
+          ],
+          "equip": [
+            {
+              "id": 113,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "logo": "https://assets.corvusbelli.net/army/img/logo/units/tormo-spec-ops-2-1.svg",
+          "weapons": [],
+          "includes": [],
+          "move": [
+            15,
+            10
+          ],
+          "ph": 11,
+          "s": 1,
+          "str": true,
+          "type": 5,
+          "w": 1,
+          "wip": 11,
+          "name": "KOLEGO SPECBOTS",
+          "notes": null,
+          "skills": [
+            {
+              "id": 243,
+              "order": 1,
+              "extra": [
+                40
+              ],
+              "q": 1
+            },
+            {
+              "id": 84,
+              "order": 2,
+              "q": 1
+            },
+            {
+              "id": 28,
+              "order": 3,
+              "extra": [
+                6
+              ],
+              "q": 1
+            },
+            {
+              "id": 58,
+              "order": 4,
+              "extra": [
+                33
+              ],
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "chars": [],
+          "disabled": true,
+          "equip": [],
+          "minis": 1,
+          "orders": [],
+          "includes": [],
+          "points": 7,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 188,
+              "order": 1
+            },
+            {
+              "id": 71,
+              "order": 2
+            }
+          ],
+          "name": "KOLEGO SPECBOT_1 ",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": true,
+          "equip": [],
+          "minis": 1,
+          "orders": [],
+          "includes": [],
+          "points": 7,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 188,
+              "order": 1
+            },
+            {
+              "id": 72,
+              "order": 2
+            },
+            {
+              "id": 220,
+              "order": 3
+            },
+            {
+              "id": 71,
+              "order": 4
+            }
+          ],
+          "name": "KOLEGO SPECBOT_2",
+          "skills": [
+            {
+              "id": 59,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        }
+      ]
+    }
+  ],
+  "options": [],
+  "slug": "tormo-spec-ops",
+  "filters": {
+    "categories": [
+      4
+    ],
+    "skills": [
+      28,
+      58,
+      59,
+      64,
+      84,
+      162,
+      189,
+      243,
+      281,
+      1000
+    ],
+    "equip": [
+      100,
+      106,
+      113,
+      237
+    ],
+    "chars": [
+      1,
+      3,
+      5,
+      21,
+      27
+    ],
+    "types": [
+      2,
+      3,
+      5
+    ],
+    "weapons": [
+      1,
+      2,
+      17,
+      36,
+      41,
+      69,
+      71,
+      72,
+      187,
+      188,
+      214,
+      220
+    ],
+    "ammunition": [
+      2,
+      3,
+      8,
+      9,
+      13,
+      29,
+      37
+    ]
+  },
+  "factions": [
+    1001,
+    1002,
+    1003
+  ]
+}

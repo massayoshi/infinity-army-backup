@@ -338,10 +338,10 @@
     },
     {
       "id": 901,
+      "parent": 900,
       "name": "Non-Aligned Armies",
       "slug": "non-aligned-armies",
       "discontinued": false,
-      "parent": 900,
       "logo": "https://assets.corvusbelli.net/army/img/logo/factions/non-aligned-armies.svg"
     },
     {
@@ -1540,6 +1540,37 @@
         "long": {
           "max": 120,
           "mod": "-6"
+        }
+      }
+    },
+    {
+      "id": 225,
+      "type": "WEAPON",
+      "name": "Breaker Marksman Rifle",
+      "ammunition": 3,
+      "burst": "3",
+      "damage": "7",
+      "saving": "BTS/2",
+      "savingNum": "1",
+      "properties": [
+        "Suppressive Fire"
+      ],
+      "distance": {
+        "short": {
+          "max": 20,
+          "mod": "-3"
+        },
+        "max": {
+          "max": 120,
+          "mod": "-6"
+        },
+        "med": {
+          "max": 60,
+          "mod": "+3"
+        },
+        "long": {
+          "max": 100,
+          "mod": "-3"
         }
       }
     },
@@ -3000,7 +3031,7 @@
       "type": "WEAPON",
       "name": "Kobra Pistol",
       "mode": "BS Mode",
-      "ammunition": 2,
+      "ammunition": 8,
       "burst": "2",
       "damage": "7",
       "saving": "ARM",
@@ -3028,12 +3059,13 @@
       "type": "WEAPON",
       "name": "Kobra Pistol",
       "mode": "CC Mode",
-      "ammunition": 8,
+      "ammunition": 9,
       "burst": "1",
       "damage": "7",
       "saving": "ARM",
-      "savingNum": "1",
+      "savingNum": "2",
       "properties": [
+        "Anti-materiel",
         "CC",
         "[*]"
       ],
@@ -5105,7 +5137,6 @@
       "properties": [
         "Anti-materiel",
         "BS Weapon (PH)",
-        "Disposable (3)",
         "[*]"
       ],
       "distance": {
@@ -5132,7 +5163,6 @@
       "properties": [
         "Anti-materiel",
         "CC",
-        "Disposable (3)",
         "[*]"
       ],
       "distance": null
