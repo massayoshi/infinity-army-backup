@@ -3,10 +3,11 @@
 
 A portable defense system designed to place a Scenery Element on the battlefield to provide cover.
 
+{{update | PDF 5.3, September 2026}}
 {{css_skillbox |black| DEPLOYABLE COVER | AUTOMATIC EQUIPMENT }}
-{{skill-label | Deployable, Disposable (1), Indiscriminate.  }}
+{{skill-label | Deployable, Disposable {{erratahighlight}}(2){{erratahighlight-end}}, Indiscriminate, {{erratahighlight}}Perimeter{{erratahighlight-end}}.  }}
 {{effects}}
-* When the player declares the [[Place Deployable]] Common Skill, the Trooper places the Deployable Cover Scenery Element on the game table.
+* When the player declares the [[Place Deployable]] Common Skill, the Trooper places the Deployable Cover Scenery Element on the game table{{erratahighlight}}, completely inside their ZoC{{erratahighlight-end}}.
 * The Deployable Cover Scenery Element has a [[Silhouette]] Attribute of 3.
 * Deployable Cover allows the '''[[Partial Cover]]''' rule to be applied, or variants as specified in this rule.
 * The Deployable Cover Scenery Element must be removed from the game table if it suffers a successful Attack from the [[Deactivator]] piece of Equipment.
@@ -19,6 +20,7 @@ A portable defense system designed to place a Scenery Element on the battlefield
 *** '''Restriction:''' If the total value of the Trooper's [[ARM]]/[[BTS]] Attribute plus MODs '''exceeds 12''', apply a total of 12 instead. Then add the Attack's PS value.
 * If the Unit Profile lists only one of these variants in brackets, the Trooper may only use that variant. 
 {{css_skillbox-end}}
+{{update-end}}
 
 
 {{update | PDF 5.2, October 2025}}
@@ -62,3 +64,4 @@ related = [[Deployable Cover]], [[General Movement Rules]] }}
 [[Category: Indiscriminate ]]
 
 [[Category: N5.2 Update]]
+[[Category: N5.3 Update]]

@@ -61,15 +61,21 @@ Game elements with this Special Skill are Models or Tokens representing pieces o
 * {{originalhighlight}}If a Peripheral (Ancillary) is on the game table and is not in [[Disconnected State]] or any [[Null]] State, their Controller '''cannot''' be part of [[Coordinated Order]]s or [[Fireteam]]s. If the Controller deploys their Peripheral (Ancillary), or its Disconnected or Null States are canceled, the Controller automatically stops being part of the Fireteam.{{originalhighlight-end}}
 {{original-end}}
 
-{{update | PDF 5.2, October 2025}}
 === Peripheral (Cyberplug) ===
-{{erratahighblock}}
 * Only Troopers with the [[Cyberplug]] Special Skill may have Peripherals (Cyberplug). 
 * There is no limit to the operating distance between the Trooper with Peripheral (Cyberplug) and their Controller. 
-* Peripherals (Cyberplug) have two Unit Profiles, '''a Connected Profile''' and an '''Autonomous Profile'''.
+{{update | PDF 5.3, September 2026}}
+* Peripherals (Cyberplug) have two Unit Profiles, a '''Connected Profile''' and an '''Autonomous Profile'''{{erratahighlight}}, determined by the player at the start of the Order/ARO{{erratahighlight-end}}.
+{{update-end}}
 * While using their '''Connected Profile''', a Peripheral (Cyberplug) is always activated with the '''same Order''' as its Controller, declaring the same Short Skills of the Order, or Long Skill. However, the Controller performs an '''[[Idle]]''' instead of the declared Skill.While using their '''Autonomous Profile''', a Peripheral (Cyberplug) can be activated with Orders from the Order Pool and can declare its own AROs, independently from the Controller. Place an Autonomous Token by the Peripheral. 
-* '''Restriction:''' The Controller may have a maximum of two Peripherals (Cyberplug) under their control. In this case, they may only activate them '''one at a time''' using the '''Connected Profile''', and applying the previous conditions. Meanwhile, the other Peripheral switches to its '''Autonomous Profile'''.
-* When deployed, '''one''' of the Controller's Peripherals (Cyberplug) uses their '''Connected Profile''', while the other uses their '''Autonomous Profile'''.
+{{update | PDF 5.3, September 2026}}
+* '''Restriction:''' The Controller may have a maximum of two Peripherals (Cyberplug) under their control. In this case, they may only activate {{erratahighlight}}a maximum of '''one of them''' using the '''Connected Profile''', and applying the previous conditions. Any Peripherals not using their Connected Profile switch to their Autonomous Profile.{{erratahighlight-end}}
+* When {{erratahighlight}}deploying{{erratahighlight-end}}, '''one''' of the Controller's Peripherals (Cyberplug) uses their '''Connected Profile''', while the other uses their '''Autonomous Profile'''.
+{{update-end}}
+{{original}}
+* '''Restriction:''' The Controller may have a maximum of two Peripherals (Cyberplug) under their control. In this case, they may only activate {{originalhighlight}}them '''one at a time''' using the '''Connected Profile''', and applying the previous conditions. Meanwhile, the other Peripheral switches to its '''Autonomous Profile'''{{originalhighlight-end}}.
+* When {{originalhighlight}}deployed{{originalhighlight-end}}, '''one''' of the Controller's Peripherals (Cyberplug) uses their '''Connected Profile''', while the other uses their '''Autonomous Profile'''.
+{{original-end}}
 * '''In the Reactive Turn''', both the Controller and the Peripherals gain their own separate AROs. The Controller must choose '''one''' of the Peripherals to use its '''Connected Profile'''. However, in this case the Controller performs an '''Idle''' instead of any ARO they declare. The other Peripheral uses its '''Autonomous Profile''' and can declare its own ARO. 
 * Alternatively, the Controller can declare and perform an ARO normally, while the Peripherals switch to their '''Autonomous Profiles''' and each declare their own AROs independently of the Controller. If the Controller enters [[Isolated]] State or any [[Null]] State, its Peripherals switch to their '''Autonomous Profiles''' at the end of that Order, instead of entering [[Disconnected]] State. 
 * If the Isolated or Null State of the Controller is cancelled, one of their Peripherals (Cyberplug) switches to its '''Connected Profile''' at the end of the Order in which that happened. 
@@ -79,8 +85,7 @@ Game elements with this Special Skill are Models or Tokens representing pieces o
 ** If a Peripheral is in Silhouette contact with an allied [[Model]], their Controller can perform the Doctor/Engineer Skill, targeting that Model. 
 ** In this case, by using the Doctor/Engineer Skill, the Doctor/Engineer will be the one performing the Roll, even if the Trooper in Silhouette contact with the target is the Peripheral (Cyberplug). 
 ** The Doctor/Engineer Skill can only be performed on one target per Order. 
-* '''Restriction:''' A Controller with any Peripherals (Cyberplug) cannot have any Peripherals (Servant).{{erratahighblock-end}}
-{{update-end}}
+* '''Restriction:''' A Controller with any Peripherals (Cyberplug) cannot have any Peripherals (Servant).
 {{css_skillbox-end}}
 
 
@@ -124,7 +129,6 @@ From this moment on, each time the Trooper activates, his Peripheral (Ancillary)
 
 {{update | PDF 5.2, October 2025}}
 {{greybox-start | Peripheral (Cyberplug) Examples }}
-{{erratahighblock}}
 '''EXAMPLE 1:'''<br>
 During the Active Turn, the player activates a Cyberplug Trooper that has two Peripherals (Cyberplug). They select one of the Peripherals as the active Peripheral (Cyberplug), placing an Autonomous Token next to the other. 
 
@@ -151,7 +155,6 @@ If the Controller enters [[Isolated]] State, their two Peripherals (Cyberplug) r
 The Controller of two Peripherals (Cyberplug) has the [[Doctor]] Special Skill. With the first Skill of an Order, they declare [[Move]], and their Peripheral (Cyberplug) reaches Silhouette contact with an allied Trooper in Unconscious State. The Controller does nothing, as they perform an Idle. 
 
 With the second Skill of the Order, the Controller declares and performs the Doctor Special Skill, using it on the Unconscious Trooper in Silhouette contact with the Peripheral (Cyberplug), as this Special Skill is not turned into an Idle.
-{{erratahighblock-end}}
 {{greybox-end}}
 {{update-end}}
 
@@ -199,3 +202,4 @@ related = [[Coordinated Orders]], [[Fireteams in the Active Turn]], [[Peripheral
 [[Category: Obligatory ]]
 
 [[Category: N5.2 Update]]
+[[Category: N5.3 Update]]

@@ -11,7 +11,12 @@
 * After Moving one of your models, you can leave it facing any direction.
 * A Trooper's Movement ends automatically whenever he enters [[Silhouette contact]] with an enemy, even if the specified movement route is cut short as a result.
 * In order to pass between an Enemy Trooper and an obstacle without entering Silhouette contact, the space in between must be wider than your Trooper's base.
-* When performing a Short Skill or ARO '''with the [[Movement Label]]''' (except for [[Jump]]) {{seefaq}}, or when moving after failing a [[Guts Roll]], a Trooper may enter or leave [[Prone State]] at '''either''' the start of their Movement '''or''' the end of their Movement, at no cost.<br>However, if they move in Prone State, this will reduce the distance they can move.
+{{update | PDF 5.3, September 2026}}
+* When performing a {{erratahighlight}}Skill{{erratahighlight-end}} or ARO '''with the Movement Label''' (except for [[Jump]] {{erratahighlight}}and [[Berserk]]{{erratahighlight-end}}), or when moving after failing a [[Guts Roll]], a Trooper may enter or leave [[Prone State]] at '''either''' the start of their Movement '''or''' the end of their Movement, at no cost. <br>However, if they move in Prone State, this will reduce the distance they can move.
+{{update-end}}
+{{original}}
+* When performing a {{originalhighlight}}Short Skill{{originalhighlight-end}} or ARO '''with the [[Movement Label]]''' (except for [[Jump]]) {{seefaq}}, or when moving after failing a [[Guts Roll]], a Trooper may enter or leave [[Prone State]] at '''either''' the start of their Movement '''or''' the end of their Movement, at no cost.<br>However, if they move in Prone State, this will reduce the distance they can move.
+{{original-end}}
 * Independently of the type of movement performed (Move, Jump, Climb, etc.), the movement cannot, in any way, cause the Trooper to fall. If the Trooper cannot reach a new location with their Move, Jump, Climb... they do not perform the movement and they perform an [[Idle]] instead.
 * Once declared, Troopers always reach the end of their Movement, even if they enter a [[Null]] or [[Immobilized]] State due to successful enemy Attacks along the way.
 
@@ -51,7 +56,9 @@ During a single movement, a Trooper can vault up or down multiple levels that ar
 
 {{greybox-start | Movement Sequence and Final Facing}}
 {{image | name=n5/eng-general-movement-facing-v2.jpg | style=fullborder }}
-After making their movement, the Trooper can face in any direct the player chooses.
+{{minorchange|September 2026|N5.3}}
+
+After making their movement, the Trooper can face in any {{erratahighlight}}direction{{erratahighlight-end}} the player chooses.
 
 Therefore, at the end of the movement in the first image, the player turns the Model to face in any direction, without moving it from its final position.
 {{greybox-end}}
@@ -145,3 +152,4 @@ related = [[Deployable Cover]], [[General Movement Rules]] }}
 
 
 [[Category: Movement Module]]
+[[Category: N5.3 Update]]
