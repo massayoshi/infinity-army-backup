@@ -22,7 +22,7 @@
 * If the Discover Roll is successful, the Camouflaged Marker is replaced with the corresponding Model, facing in any direction its player chooses.
 * A Trooper that fails a [[WIP]] Roll to Discover a Marker cannot attempt to Discover the same Marker until the next [[Player Turn]]. Note that a Trooper that has been revealed, and re-entered Camouflaged State again, does not count as the same Marker.
 * A Camouflaged Marker has a [[LoF]] of 360˚.
-* A Camouflaged Marker has the same [[Silhouette]] (S) value as the Trooper it represents. However, the Camouflaged Marker of a Weapon or piece of Equipment in Camouflaged State has a Silhouette (S) value of 2.
+* A Camouflaged Marker has the same [[Silhouette]] (S) value as the Trooper it represents. However, the Camouflaged Marker of a Weapon or piece of Equipment in Camouflaged State has a Silhouette (S) value of 2. {{seefaq}}
 * This state does not interfere with Automatic Special Skills or Automatic Equipment, which will remain functioning normally.
 * '''Restriction:''' A Trooper in Camouflaged State cannot be part of a [[Fireteam]]. If a member of a Fireteam enters Camouflaged State they automatically stop being part of the Fireteam.
 * '''Restriction:''' The only [[ARO]]s that can be declared against a Camouflaged Marker are: [[Discover]], [[Dodge]], [[Look Out]]! or [[Reset]].
@@ -152,6 +152,16 @@ version = 0.0.0, Oct 2025 |
 q = Q: Does a Trooper in Disconnected State or Unconscious State prevent an enemy from re-entering Marker State, or cancel their Cautious Movement? |
 a = A: No. |
 related = [[Camouflaged State]], [[Cautious Movement]], [[Disconnected State]], [[Impersonation State]], [[Labels]], [[Unconscious State]] }}
+
+
+{{faqbox |
+type = faq |
+title = N5 FAQ |
+version = 0.1, Sep 2026 |
+q = Q: What happens if a BS Attack hits a Camouflaged Marker, but the game element represented by the Marker is in Total Cover from the Attack? For example a Mine with the Concealed Trait or a Trooper with Transmutation (Hatching) is behind a low wall. |
+a = A: If the Attack forces a Saving Roll, the Camouflaged Marker is revealed. The game element is not hit because it is in Total Cover.  |
+related = [[Camouflaged State]], [[Mines]], [[Multispectral Visor]], [[Traits]], [[Transmutation]] }}
+[[Category: N5 FAQ 0.1 ]]
 
 
 

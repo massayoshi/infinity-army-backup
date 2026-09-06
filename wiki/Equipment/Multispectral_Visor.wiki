@@ -31,7 +31,7 @@ This piece of Equipment was designed to combat the effects of different military
 * Troopers equipped with this piece of Equipment do not make [[Face to Face Roll]]s against weapons that use [[Smoke Ammunition]].
 * When performing [[Discover]] against a target in [[Camouflaged State]], the user's [[WIP]] Roll is automatically a success.
 * Users of a Multispectral Visor L3 ignore [[Surprise Attack]] MODs if they have [[LoF]] to the attacker. In addition, they also ignore Surprise Attack MODs from [[CC Attack]]s even if they don't have LoF to the attacker.
-* Additionally, in the [[Active Turn]] the user may perform a [[BS Attack]] on a Camouflage Marker (CAMO) in LoF without making a previous Discover Roll, but they must apply the Mimetism MOD indicated on the Marker. However, the Cancellation clauses for Camouflaged State are applied as usual.
+* Additionally, in the [[Active Turn]] the user may perform a [[BS Attack]] on a Camouflage Marker (CAMO) in LoF without making a previous Discover Roll, but they must apply the Mimetism MOD indicated on the Marker. However, the Cancellation clauses for Camouflaged State are applied as usual. {{seefaq}}
 {{css_skillbox-end}}
 
 
@@ -62,6 +62,16 @@ version = 0.0.0, Oct 2025 |
 q = Q: How do Sixth Sense, Zero Visibility Zones and Multipectral Visor Level 1 interact? |
 a = A: If the Trooper with Multispectral Visor Level 1 and Sixth Sense is the target of a BS Attack through a Zero Visibility Zone, they ignore the -6 MOD for drawing LoF through the Zero Visibility Zone. |
 related = [[Multispectral Visor]], [[Sixth Sense]], [[Visibility Conditions]] }}
+
+
+{{faqbox |
+type = faq |
+title = N5 FAQ |
+version = 0.1, Sep 2026 |
+q = Q: What happens if a BS Attack hits a Camouflaged Marker, but the game element represented by the Marker is in Total Cover from the Attack? For example a Mine with the Concealed Trait or a Trooper with Transmutation (Hatching) is behind a low wall. |
+a = A: If the Attack forces a Saving Roll, the Camouflaged Marker is revealed. The game element is not hit because it is in Total Cover.  |
+related = [[Camouflaged State]], [[Mines]], [[Multispectral Visor]], [[Traits]], [[Transmutation]] }}
+[[Category: N5 FAQ 0.1 ]]
 
 
 
