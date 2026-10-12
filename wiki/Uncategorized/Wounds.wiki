@@ -1,0 +1,75 @@
+{{n5-section-combat-module}}
+
+
+{{image | name=eng-wound.jpg | style=128 }}
+
+As a rule, the target of an Attack receives one Wound for each successful hit. This is represented by a Wound Token (WOUND) next to the target, with a numerical value to indicate how many Wounds the Trooper has received. If the target has received as many Wounds as the value of its [[VITA]]/[[STR]] Attribute, place an [[Unconscious]] State Token (UNCONSCIOUS) as well.
+
+{{important}}
+Certain types of Ammunition, Attacks, Equipment, Hacking Programs, etc. force the target to make more than one [[Saving Roll]] for each success in the Attack Roll (For example, [[DA]] ammunition forces the target to perform 2 Saving Rolls for each successful Attack). Others inflict more than one Wound with each failed Saving Roll or cause a change in the state of the target.
+
+In these cases, the special effects are explained in the rule or the [[Weapon Chart]].
+{{boxend}}
+
+
+== Unconsciousness and Death ==
+If a target receives '''as many Wounds''' as the value of its [[VITA]]/[[STR]] Attribute, it enters [[Unconscious State]].
+
+On the other hand, if the target receives '''more Wounds''' than the value of its VITA/STR Attribute, it enters [[Dead State]].
+
+
+{{see-also}}
+'''[[Request Speedball]]'''
+* The Speedball items available are the following: 
+** '''VitaPack''': Allows cancellation of the [[Unconscious State]] of an [[Allied]] Trooper with the [[Vitality]] Attribute, by removing one single [[Wounds | Wound]] from those they have received.<br>VitaPack is applied by spending a Short Skill of an Order while in [[Silhouette contact]] with the Unconscious Allied Trooper.
+** '''AutoRepairS(uite)''': Allows cancellation of the Unconscious State of an Allied Trooper with the [[STR]] Attribute, by removing one or two (if applicable) Wounds from those they have received.<br>AutoRepairS(uite) is applied by spending a Short Skill of an Order while in Silhouette contact with the Unconscious Allied Trooper.
+
+
+'''[[Doctor]]'''
+* The target must have the [[Vitality]] Attribute and be in [[Unconscious State]].
+[...]
+* By passing a [[Normal]] [[WIP]] Roll, the target's Unconscious State is cancelled, by removing 1 single [[Wounds | Wound]] from those it has received, unless a rule or Skill specified otherwise. If the WIP Roll fails, the target automatically enters the [[Dead State]] and is removed from the game table.
+
+
+'''[[Engineer]]'''
+* Engineer allows, by passing a [[Normal]] [[WIP]] Roll, removing a [[Wounds | Wound]] from a target with the [[Structure]] Attribute (STR). This cancels [[Unconscious State]] if applicable.
+
+
+'''[[Regeneration]]'''
+* During the States Phase, the user makes a [[Normal]] [[PH]] Roll:
+** If the Roll is a success, the Trooper removes 1 [[Wounds | Wound]], cancelling the [[Unconscious State]] if applicable.
+** If the Roll fails, the Trooper receives 1 additional [[Wounds | Wound]].
+
+
+'''[[Protheion]]'''
+* The target must have the [[VITA]] Attribute.
+[...]
+* For each [[Wounds | Wound]] they inflict on the target of the [[CC Attack]], or [[CC Attack#Coup de Gr&acirc;ce | Coup de Gr&acirc;ce]] they perform, the user removes 1 Wound they have received. If the user hasn't received any Wounds, they increase their [[VITA]] Attribute value by 1.
+
+
+'''[[GizmoKit]]'''
+* The target of a GizmoKit must be an [[Allied]] Model with the [[STR]] Attribute. 
+[...]
+* In both cases, by passing the PH Roll, the target removes a [[Wounds | Wound]]. This cancels [[Unconscious State]] if applicable. If the PH Roll is failed, the target receives a Wound instead of removing it, entering Unconscious or [[Dead State]] if applicable.
+
+
+'''[[MediKit]]'''
+* A MediKit's target must be an [[Allied]] Model with the [[VITA]] Attribute and in [[Unconscious State]], unless certain scenario rules say otherwise.
+[...]
+* In both cases, by passing the PH Roll, the target may remove one [[Wounds | Wound]] and cancel their [[Unconscious State]]. If the PH Roll is failed, the target automatically enters [[Dead State]] and is removed from the game table.
+
+
+'''[[Order Expenditure Sequence]]'''
+{{update | PDF 5.2, October 2025}}
+{{Important-start}}
+{{erratahighblock}}
+If a Trooper receives and removes [[Wound]]s or [[States]] in the same Order, the positive effect is always applied first, followed by the negative effect. 
+
+For example, if an [[Engineer]] cancels a Trooper’s [[IMM-A]] State at the same time that the same Trooper is hit by a Riotstopper, the Engineer’s WIP Roll to cancel the Trooper’s IMM-A State is made first, then the Trooper makes their PH-6 [[Saving Roll]] against the Riotstopper’s [[PARA]] Special Ammunition. In this way, the original IMM-A Status could be canceled and a new one inflicted in the same Order.{{erratahighblock-end}}
+{{Important-end}}
+{{update-end}}
+{{see-also-end}}
+
+
+
+{{n5-section-combat-module}}

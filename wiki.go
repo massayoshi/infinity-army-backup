@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"net/http"
 	"net/url"
+	"regexp"
 	"strings"
 	"sync"
 )
@@ -13,6 +14,13 @@ var (
 	wikiPageURL     = getEnvVar("WIKI_PAGE_EN_URL")
 	wikiPageListURL = getEnvVar("WIKI_ALL_EN_URL")
 	urlList         []string
+
+	// redirects maps a redirect page title to its target ("Page#Section"),
+	// written to wiki/redirects.json so short names like "ARO" stay resolvable.
+	redirects   = make(map[string]string)
+	redirectsMu sync.Mutex
+
+	redirectTarget = regexp.MustCompile(`\[\[\s*([^\]|]+?)\s*(?:\|[^\]]*)?\]\]`)
 )
 
 func wiki(wg *sync.WaitGroup) {
@@ -32,6 +40,35 @@ func wiki(wg *sync.WaitGroup) {
 		}(u)
 	}
 	pageWg.Wait()
+
+	redirectsData, _ := json.Marshal(redirects)
+	createFile("wiki/redirects.json", prettyPrint(redirectsData), true)
+}
+
+// parseRedirect returns the target of a "#REDIRECT [[Target]]" page.
+func parseRedirect(content string) (string, bool) {
+	var trimmed = strings.TrimSpace(content)
+	if !strings.HasPrefix(strings.ToLower(trimmed), "#redirect") {
+		return "", false
+	}
+	var match = redirectTarget.FindStringSubmatch(trimmed)
+	if match == nil {
+		return "", false
+	}
+	return match[1], true
+}
+
+// pageFolder is the folder for a page's first category, or "Uncategorized".
+func pageFolder(categories []string) string {
+	if len(categories) == 0 {
+		return "Uncategorized"
+	}
+	var pageCategory = categories[0]
+	pageCategory = strings.Replace(pageCategory, "Category:", "", -1)
+	pageCategory = strings.ReplaceAll(pageCategory, " ", "_")
+	pageCategory = strings.ReplaceAll(pageCategory, "/", "")
+	pageCategory = strings.ReplaceAll(pageCategory, "&", "and")
+	return pageCategory
 }
 
 func fetchWikiPage(c *http.Client, pageURL string) {
@@ -47,7 +84,7 @@ func fetchWikiPage(c *http.Client, pageURL string) {
 
 	var page = pageObject.Query.Pages[0]
 
-	if page.Missing || len(page.Categories) == 0 || len(page.Revisions) == 0 {
+	if page.Missing || len(page.Revisions) == 0 {
 		return
 	}
 
@@ -61,16 +98,18 @@ func fetchWikiPage(c *http.Client, pageURL string) {
 	}
 	var pageContent = page.Revisions[0].Slots.Main.Content
 
-	if strings.Contains(pageContent, "#redirect") {
+	if target, ok := parseRedirect(pageContent); ok {
+		redirectsMu.Lock()
+		redirects[page.Title] = target
+		redirectsMu.Unlock()
 		return
 	}
 
-	var pageCategory = page.Categories[0].Title
-	pageCategory = strings.Replace(pageCategory, "Category:", "", -1)
-	pageCategory = strings.ReplaceAll(pageCategory, " ", "_")
-	pageCategory = strings.ReplaceAll(pageCategory, "/", "")
-	pageCategory = strings.ReplaceAll(pageCategory, "&", "and")
-	var folderPath = "wiki/" + pageCategory
+	var categories []string
+	for _, category := range page.Categories {
+		categories = append(categories, category.Title)
+	}
+	var folderPath = "wiki/" + pageFolder(categories)
 	createFolder(folderPath)
 	createFile(folderPath+"/"+pageName+".wiki", []byte(pageContent), true)
 }

@@ -55,6 +55,11 @@ func fetchArmyData(version string, endpoint string, force bool, wg *sync.WaitGro
 	createFolder(version)
 	createFile(version+"/army.json", []byte(prettyPrint(armyData)), true)
 
+	var slugCount = make(map[string]int)
+	for _, f := range armyObject.Factions {
+		slugCount[f.Slug]++
+	}
+
 	// Process each faction concurrently. The global request semaphore in
 	// sendRequest caps total in-flight requests, so spawning one goroutine per
 	// faction (and per unit logo below) never exceeds the concurrency budget.
@@ -67,15 +72,26 @@ func fetchArmyData(version string, endpoint string, force bool, wg *sync.WaitGro
 			continue
 		}
 		factionWg.Add(1)
-		go func(factionID int, factionSlug, factionLogo string) {
+		var folderName = factionFolderName(factionSlug, factionID, slugCount)
+		go func(factionID int, factionSlug, factionLogo, folderName string) {
 			defer factionWg.Done()
-			processFaction(c, version, force, factionID, factionSlug, factionLogo)
-		}(factionID, factionSlug, factionLogo)
+			processFaction(c, version, force, factionID, factionSlug, factionLogo, folderName)
+		}(factionID, factionSlug, factionLogo, folderName)
 	}
 	factionWg.Wait()
 }
 
-func processFaction(c *http.Client, version string, force bool, factionID int, factionSlug, factionLogo string) {
+// factionFolderName is the faction's slug, or slug-ID when several factions
+// share a slug (998 and 999 are both "contracted-back-up") so neither
+// overwrites the other.
+func factionFolderName(slug string, id int, slugCount map[string]int) string {
+	if slugCount[slug] > 1 {
+		return fmt.Sprintf("%s-%d", slug, id)
+	}
+	return slug
+}
+
+func processFaction(c *http.Client, version string, force bool, factionID int, factionSlug, factionLogo, folderName string) {
 	var factionLogoPath = "assets/factions/" + factionSlug + ".svg"
 
 	if _, err := os.Stat(factionLogoPath); os.IsNotExist(err) {
@@ -85,10 +101,6 @@ func processFaction(c *http.Client, version string, force bool, factionID int, f
 		}
 	}
 
-	if factionID == 901 { // skipping non-aligned armies
-		return
-	}
-
 	var factionData = sendRequest(c, factionBaseEnURL+fmt.Sprintf("%d", factionID))
 	if factionData == nil {
 		return
@@ -96,14 +108,14 @@ func processFaction(c *http.Client, version string, force bool, factionID int, f
 
 	var factionObject Faction
 	json.Unmarshal(factionData, &factionObject)
-	var factionFolderPath = version + "/" + factionSlug
+	var factionFolderPath = version + "/" + folderName
 
 	if factionObject.Version == "" || factionSlug == "" {
 		return
 	}
 
 	var fileName = factionFolderPath + "/" + factionObject.Version + ".json"
-	var fileNamePretty = factionFolderPath + "/" + factionSlug + ".json"
+	var fileNamePretty = factionFolderPath + "/" + folderName + ".json"
 
 	createFolder(factionFolderPath)
 	createFolder(factionFolderPath + "/units")
