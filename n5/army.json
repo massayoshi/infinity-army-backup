@@ -6317,29 +6317,31 @@
       ],
       "extra": 18,
       "damage": "-",
-      "devices": [
-        182
-      ],
       "target": [
         "REM"
       ],
       "attack": "-",
-      "name": "Assisted Fire",
-      "burst": "-"
+      "burst": "-",
+      "devices": [
+        182
+      ],
+      "name": "Assisted Fire"
     },
     {
+      "attack": "0",
+      "burst": "2",
+      "damage": "7",
+      "devices": [
+        100,
+        101
+      ],
+      "extra": 13,
       "opponent": "0",
       "skillType": [
         "short",
         "aro"
       ],
       "special": "DA Ammo.  State: IMM-B.  Non-Lethal.",
-      "extra": 13,
-      "damage": "7",
-      "devices": [
-        100,
-        101
-      ],
       "target": [
         "TAG",
         "HI",
@@ -6347,9 +6349,7 @@
         "Hacker",
         "VH"
       ],
-      "attack": "0",
-      "name": "Carbonite",
-      "burst": "2"
+      "name": "Carbonite"
     },
     {
       "opponent": "-",
@@ -6360,13 +6360,13 @@
       ],
       "extra": 16,
       "damage": "-",
+      "target": [],
+      "attack": "-",
+      "burst": "-",
       "devices": [
         182
       ],
-      "target": [],
-      "attack": "-",
-      "name": "Controlled Jump",
-      "burst": "-"
+      "name": "Controlled Jump"
     },
     {
       "opponent": "-",
@@ -6376,14 +6376,14 @@
       ],
       "extra": 289,
       "damage": "-",
+      "target": [],
+      "attack": "-",
+      "burst": "-",
       "devices": [
         145,
         101
       ],
-      "target": [],
-      "attack": "-",
-      "name": "Cybermask",
-      "burst": "-"
+      "name": "Cybermask"
     },
     {
       "opponent": "-",
@@ -6393,36 +6393,36 @@
       ],
       "extra": 19,
       "damage": "-",
-      "devices": [
-        182
-      ],
       "target": [
         "REM"
       ],
       "attack": "-",
-      "name": "Enhanced Reaction",
-      "burst": "-"
+      "burst": "-",
+      "devices": [
+        182
+      ],
+      "name": "Enhanced Reaction"
     },
     {
+      "attack": "-",
+      "burst": "-",
+      "damage": "-",
+      "devices": [
+        182
+      ],
+      "extra": 17,
       "opponent": "-",
       "skillType": [
         "entire order"
       ],
       "special": "Targets gain the Firewall MODs.",
-      "extra": 17,
-      "damage": "-",
-      "devices": [
-        182
-      ],
       "target": [
         "TAG",
         "HI",
         "REM",
         "VH"
       ],
-      "attack": "-",
-      "name": "Fairy Dust",
-      "burst": "-"
+      "name": "Fairy Dust"
     },
     {
       "opponent": "0",
@@ -6433,10 +6433,6 @@
       ],
       "extra": 21,
       "damage": "4",
-      "devices": [
-        100,
-        101
-      ],
       "target": [
         "TAG",
         "HI",
@@ -6445,25 +6441,29 @@
         "VH"
       ],
       "attack": "0",
-      "name": "Oblivion",
-      "burst": "2"
-    },
-    {
-      "opponent": "0",
-      "skillType": [
-        "short",
-        "aro"
-      ],
-      "special": "AP Ammo, State: TARGETED, Non-Lethal.",
-      "extra": 14,
-      "damage": "5",
+      "burst": "2",
       "devices": [
         100,
         101
       ],
+      "name": "Oblivion"
+    },
+    {
+      "opponent": "0",
       "attack": "0",
-      "name": "Spotlight",
+      "damage": "5",
       "burst": "2",
+      "skillType": [
+        "short",
+        "aro"
+      ],
+      "extra": 14,
+      "special": "AP Ammo, State: TARGETED, Non-Lethal.",
+      "devices": [
+        100,
+        101
+      ],
+      "name": "Spotlight",
       "target": []
     },
     {
@@ -6475,16 +6475,16 @@
       ],
       "extra": 15,
       "damage": "4",
-      "devices": [
-        100,
-        101
-      ],
       "target": [
         "TAG"
       ],
       "attack": "0",
-      "name": "Total Control",
-      "burst": "1"
+      "burst": "1",
+      "devices": [
+        100,
+        101
+      ],
+      "name": "Total Control"
     },
     {
       "opponent": "0",
@@ -6495,15 +6495,15 @@
       ],
       "extra": 12,
       "damage": "6",
-      "devices": [
-        145
-      ],
       "target": [
         "Hacker"
       ],
       "attack": "+3",
-      "name": "Trinity",
-      "burst": "3"
+      "burst": "3",
+      "devices": [
+        145
+      ],
+      "name": "Trinity"
     },
     {
       "opponent": "-",
@@ -6513,13 +6513,13 @@
       ],
       "extra": 20,
       "damage": "-",
+      "target": [],
+      "attack": "-",
+      "burst": "1",
       "devices": [
         101
       ],
-      "target": [],
-      "attack": "-",
-      "name": "White Noise",
-      "burst": "1"
+      "name": "White Noise"
     },
     {
       "opponent": "-3",
@@ -6532,45 +6532,45 @@
       "damage": "-",
       "target": [],
       "attack": "0",
-      "name": "Zero Pain",
-      "burst": "2"
+      "burst": "2",
+      "name": "Zero Pain"
     }
   ],
   "martialArts": [
     {
-      "opponent": "-3",
-      "damage": "-",
       "attack": "0",
-      "name": "1",
-      "burst": "0"
+      "opponent": "-3",
+      "damage": "-",
+      "burst": "0",
+      "name": "1"
     },
     {
       "opponent": "-3",
       "damage": "-",
       "attack": "+3",
-      "name": "2",
-      "burst": "0"
+      "burst": "0",
+      "name": "2"
     },
     {
       "opponent": "-3",
       "damage": "-",
       "attack": "+3",
-      "name": "3",
-      "burst": "+1SD"
+      "burst": "+1SD",
+      "name": "3"
     },
     {
       "opponent": "-3",
       "damage": "-",
       "attack": "+3",
-      "name": "4",
-      "burst": "+1B"
+      "burst": "+1B",
+      "name": "4"
     },
     {
       "opponent": "-3",
       "damage": "-",
       "attack": "+3",
-      "name": "5",
-      "burst": "+1B, +1SD"
+      "burst": "+1B, +1SD",
+      "name": "5"
     }
   ],
   "metachemistry": [
