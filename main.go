@@ -120,33 +120,16 @@ func processFaction(c *http.Client, version string, force bool, factionID int, f
 	createFolder(factionFolderPath)
 	createFolder(factionFolderPath + "/units")
 
+	// Download unit logos before the up-to-date check so missing logos are
+	// backfilled even when the faction version hasn't changed.
+	downloadUnitLogos(c, unitLogoURLs(factionObject))
+
 	if _, err := os.Stat(fileName); !force && !os.IsNotExist(err) {
 		return
 	}
 
 	createFile(fileName, factionData, false)
 	createFile(fileNamePretty, []byte(prettyPrint(factionData)), true)
-
-	// Unit logos are independent downloads — fetch them concurrently too.
-	var logoWg sync.WaitGroup
-	for j := 0; j < len(factionObject.Resume); j++ {
-		var unitLogoURL = factionObject.Resume[j].Logo
-		var unitLogoURLArray = strings.Split(unitLogoURL, "/")
-		var unitLogoFileName = unitLogoURLArray[len(unitLogoURLArray)-1]
-		var unitLogoPath = "assets/units/" + unitLogoFileName
-
-		if _, err := os.Stat(unitLogoPath); os.IsNotExist(err) {
-			logoWg.Add(1)
-			go func(unitLogoURL, unitLogoPath string) {
-				defer logoWg.Done()
-				var unitLogoData = sendRequest(c, unitLogoURL)
-				if unitLogoData != nil {
-					createFile(unitLogoPath, unitLogoData, false)
-				}
-			}(unitLogoURL, unitLogoPath)
-		}
-	}
-	logoWg.Wait()
 
 	for j := 0; j < len(factionObject.Units); j++ {
 		var unitData, _ = json.Marshal(factionObject.Units[j])
@@ -246,4 +229,58 @@ type Army struct {
 		ID    int    `json:"id"`
 		Value string `json:"value"`
 	} `json:"booty"`
+}
+
+// unitLogoURLs collects every unit logo a faction references: the resume
+// (one per unit) plus each profile in every profile group, including spec-ops
+// units. Profile logos cover variants such as team-ops HI (-2-1) and support
+// troops (-3-1).
+func unitLogoURLs(f Faction) []string {
+	var seen = make(map[string]bool)
+	var urls []string
+	var add = func(u string) {
+		if u != "" && !seen[u] {
+			seen[u] = true
+			urls = append(urls, u)
+		}
+	}
+	for _, r := range f.Resume {
+		add(r.Logo)
+	}
+	for _, u := range f.Units {
+		for _, g := range u.ProfileGroups {
+			for _, p := range g.Profiles {
+				add(p.Logo)
+			}
+		}
+	}
+	for _, u := range f.Specops.Units {
+		for _, g := range u.ProfileGroups {
+			for _, p := range g.Profiles {
+				add(p.Logo)
+			}
+		}
+	}
+	return urls
+}
+
+// downloadUnitLogos fetches each logo into assets/units/ if not already there.
+func downloadUnitLogos(c *http.Client, urls []string) {
+	var logoWg sync.WaitGroup
+	for _, unitLogoURL := range urls {
+		var unitLogoURLArray = strings.Split(unitLogoURL, "/")
+		var unitLogoPath = "assets/units/" + unitLogoURLArray[len(unitLogoURLArray)-1]
+
+		if _, err := os.Stat(unitLogoPath); os.IsNotExist(err) {
+			logoWg.Add(1)
+			go func(unitLogoURL, unitLogoPath string) {
+				defer logoWg.Done()
+				var unitLogoData = sendRequest(c, unitLogoURL)
+				if unitLogoData != nil {
+					createFile(unitLogoPath, unitLogoData, false)
+				}
+			}(unitLogoURL, unitLogoPath)
+		}
+	}
+	logoWg.Wait()
 }
