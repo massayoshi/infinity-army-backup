@@ -15,7 +15,7 @@
         {
           "id": 1,
           "arm": 1,
-          "ava": 5,
+          "ava": 2,
           "bs": 11,
           "bts": 0,
           "cc": 15,
@@ -298,6 +298,204 @@
             }
           ],
           "peripheral": []
+        },
+        {
+          "id": 7,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 11,
+          "swc": "0.5",
+          "weapons": [
+            {
+              "id": 31,
+              "order": 1
+            },
+            {
+              "id": 194,
+              "order": 2
+            },
+            {
+              "id": 212,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            }
+          ],
+          "name": "DAYLAMI",
+          "skills": [
+            {
+              "id": 258,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 8,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 12,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 84,
+              "order": 1
+            },
+            {
+              "id": 212,
+              "order": 2
+            },
+            {
+              "id": 5,
+              "order": 3
+            }
+          ],
+          "name": "DAYLAMI",
+          "skills": [
+            {
+              "id": 258,
+              "order": 1,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 9,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 13,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 31,
+              "order": 1
+            },
+            {
+              "id": 28,
+              "order": 2
+            },
+            {
+              "id": 212,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            }
+          ],
+          "name": "DAYLAMI",
+          "skills": [
+            {
+              "extra": [
+                43
+              ],
+              "id": 29,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 47,
+              "order": 2,
+              "q": 1
+            },
+            {
+              "id": 258,
+              "order": 3,
+              "q": 1
+            }
+          ],
+          "peripheral": []
+        },
+        {
+          "id": 10,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 11,
+          "swc": "0",
+          "weapons": [
+            {
+              "id": 28,
+              "order": 1
+            },
+            {
+              "id": 68,
+              "order": 2
+            },
+            {
+              "id": 212,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            }
+          ],
+          "name": "DAYLAMI",
+          "skills": [
+            {
+              "extra": [
+                43
+              ],
+              "id": 29,
+              "order": 1,
+              "q": 1
+            },
+            {
+              "id": 47,
+              "order": 2,
+              "q": 1
+            },
+            {
+              "id": 258,
+              "order": 3,
+              "q": 1
+            }
+          ],
+          "peripheral": []
         }
       ]
     }
@@ -311,7 +509,8 @@
     "skills": [
       29,
       47,
-      58
+      58,
+      258
     ],
     "equip": [],
     "chars": [

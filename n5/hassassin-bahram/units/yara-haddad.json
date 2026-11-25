@@ -47,8 +47,21 @@
           "notes": null,
           "skills": [
             {
-              "id": 162,
+              "id": 201,
               "order": 1,
+              "extra": [
+                292
+              ],
+              "q": 1
+            },
+            {
+              "id": 207,
+              "order": 2,
+              "q": 1
+            },
+            {
+              "id": 162,
+              "order": 3,
               "extra": [
                 319
               ],
@@ -56,7 +69,8 @@
             },
             {
               "id": 83,
-              "order": 3
+              "order": 4,
+              "q": 1
             }
           ],
           "peripheral": []
@@ -77,7 +91,7 @@
             }
           ],
           "includes": [],
-          "points": 24,
+          "points": 26,
           "swc": "0",
           "weapons": [
             {
@@ -85,12 +99,16 @@
               "order": 1
             },
             {
-              "id": 107,
+              "id": 65,
               "order": 2
             },
             {
-              "id": 5,
+              "id": 107,
               "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
             }
           ],
           "name": "YARA HADDAD",
@@ -111,7 +129,7 @@
             }
           ],
           "includes": [],
-          "points": 27,
+          "points": 29,
           "swc": "0",
           "weapons": [
             {
@@ -119,12 +137,16 @@
               "order": 1
             },
             {
-              "id": 107,
+              "id": 65,
               "order": 2
             },
             {
-              "id": 5,
+              "id": 107,
               "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
             }
           ],
           "name": "YARA HADDAD",
@@ -155,7 +177,7 @@
             }
           ],
           "includes": [],
-          "points": 24,
+          "points": 26,
           "swc": "0",
           "weapons": [
             {
@@ -163,12 +185,16 @@
               "order": 1
             },
             {
-              "id": 107,
+              "id": 65,
               "order": 2
             },
             {
-              "id": 5,
+              "id": 107,
               "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
             }
           ],
           "name": "YARA HADDAD",
@@ -207,12 +233,16 @@
               "order": 1
             },
             {
-              "id": 107,
+              "id": 65,
               "order": 2
             },
             {
-              "id": 5,
+              "id": 107,
               "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
             }
           ],
           "name": "YARA HADDAD",
@@ -242,6 +272,8 @@
       83,
       119,
       162,
+      201,
+      207,
       251
     ],
     "equip": [
@@ -257,6 +289,7 @@
     ],
     "weapons": [
       5,
+      65,
       85,
       107
     ],

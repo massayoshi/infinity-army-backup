@@ -99,14 +99,6 @@
               "q": 1
             },
             {
-              "id": 74,
-              "order": 9,
-              "extra": [
-                372
-              ],
-              "q": 1
-            },
-            {
               "id": 201,
               "order": 10,
               "extra": [
@@ -144,11 +136,37 @@
               "q": 1
             }
           ],
-          "points": 33,
+          "points": 34,
           "swc": "1.5",
           "weapons": [
             {
-              "id": 157,
+              "id": 74,
+              "order": 1
+            }
+          ],
+          "name": "ZEYBEK-1",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": false,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 35,
+          "swc": "2",
+          "weapons": [
+            {
+              "id": 74,
               "order": 1
             },
             {
@@ -156,7 +174,7 @@
               "order": 2
             }
           ],
-          "name": "ZEYBEK",
+          "name": "ZEYBEK-2",
           "skills": [],
           "peripheral": []
         }
@@ -183,7 +201,7 @@
           "equip": [
             {
               "extra": [
-                7
+                6
               ],
               "id": 183,
               "order": 1,
@@ -256,7 +274,7 @@
             }
           ],
           "includes": [],
-          "points": 33,
+          "points": 34,
           "swc": "-",
           "weapons": [
             {
@@ -276,7 +294,45 @@
               "order": 4
             }
           ],
-          "name": "ZEYBEK OPERATOR",
+          "name": "ZEYBEK-1 OPERATOR",
+          "skills": [],
+          "peripheral": []
+        },
+        {
+          "id": 2,
+          "chars": [],
+          "disabled": true,
+          "equip": [],
+          "minis": 1,
+          "orders": [
+            {
+              "type": "REGULAR",
+              "list": 1,
+              "total": 1
+            }
+          ],
+          "includes": [],
+          "points": 35,
+          "swc": "-",
+          "weapons": [
+            {
+              "id": 74,
+              "order": 1
+            },
+            {
+              "id": 17,
+              "order": 2
+            },
+            {
+              "id": 212,
+              "order": 3
+            },
+            {
+              "id": 5,
+              "order": 4
+            }
+          ],
+          "name": "ZEYBEK-2 OPERATOR",
           "skills": [],
           "peripheral": []
         }
@@ -320,13 +376,11 @@
       5,
       17,
       74,
-      157,
       195,
       212
     ],
     "ammunition": [
       2,
-      3,
       13,
       21
     ]
