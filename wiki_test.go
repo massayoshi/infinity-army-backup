@@ -29,6 +29,12 @@ func TestPageFolder(t *testing.T) {
 	if got := pageFolder([]string{"Category:Ammunition & Weaponry/N5"}); got != "Ammunition_and_WeaponryN5" {
 		t.Errorf("pageFolder = %q, want Ammunition_and_WeaponryN5", got)
 	}
+	if got := pageFolder([]string{"Category:N5.2 Update", "Category:Optional", "Category:Special Skills"}); got != "Optional" {
+		t.Errorf("pageFolder skips release tags: got %q, want Optional", got)
+	}
+	if got := pageFolder([]string{"Category:N5 FAQ 0.1", "Category:N5.3 Update"}); got != "N5_FAQ_0.1" {
+		t.Errorf("pageFolder only release tags: got %q, want N5_FAQ_0.1", got)
+	}
 }
 
 func TestFactionFolderName(t *testing.T) {
@@ -38,5 +44,22 @@ func TestFactionFolderName(t *testing.T) {
 	}
 	if got := factionFolderName("contracted-back-up", 999, slugCount); got != "contracted-back-up-999" {
 		t.Errorf("shared slug: got %q", got)
+	}
+}
+
+func TestNamespaceListURL(t *testing.T) {
+	got := namespaceListURL("https://example.com/api.php?action=query&list=allpages", namespaceTemplate)
+	want := "https://example.com/api.php?action=query&list=allpages&apnamespace=10"
+	if got != want {
+		t.Errorf("namespaceListURL = %q, want %q", got, want)
+	}
+}
+
+func TestStaleKey(t *testing.T) {
+	if staleKey("wiki/Optional/Doctor.wiki") != staleKey("wiki/N5.2_Update/Doctor.wiki") {
+		t.Error("same page in different folders should share a key")
+	}
+	if staleKey("wiki/Templates/Activation.wiki") == staleKey("wiki/Skills/Activation.wiki") {
+		t.Error("a template must not share a key with a regular page")
 	}
 }

@@ -22,10 +22,19 @@ This Special Skill represents the user's ability to transform into a different t
 === Transmutation (Escape System-X) ===
 * This works the same way as Transmutation (X), but when the Unit Profile and Model are replaced, an [[Eclipse]] Special Ammo Circular Template must be placed, centered on the Model.
 * The number of Wounds required to change Unit Profiles is listed in the name of the Skill in brackets after "Escape System".
+{{update | PDF 5.2, October 2025}}
+* {{erratahighlight}}If the Trooper is in [[Possessed]] State when they change to their second Unit Profile, their Possessed State is canceled.{{erratahighlight-end}}
+
+{{update-end}}
 
 === Transmutation (Hatching) ===
-* The Trooper with this Skill is deployed with its first Unit Profile, but using a Seed-Embryo Token instead of a Model.
-* If the Trooper has any Skill that allows it to deploy in Marker form, it uses that Marker instead of the Seed-Embryo Token. The [[Camouflaged | Camouflage Marker]] of a Troop with Transmutation (Hatching) has a [[Silhouette]] (S) value of 2. If the Trooper is [[Discover]]ed or it reveals itself, the Marker is replaced with the Seed-Embryo Token.
+{{update | PDF 5.2, October 2025}}
+* The Trooper with this Skill is deployed with its first Unit Profile, but using a Seed-Embryo {{erratahighlight}}Marker{{erratahighlight-end}} instead of a Model.
+{{update-end}}
+{{original}}
+* The Trooper with this Skill is deployed with its first Unit Profile, but using a Seed-Embryo {{originalhighlight}}Token{{originalhighlight-end}} instead of a Model.
+{{original-end}}
+* If the Trooper has any Skill that allows it to deploy in Marker form, it uses that Marker instead of the Seed-Embryo Token. The [[Camouflaged | Camouflage Marker]] of a Troop with Transmutation (Hatching) has a [[Silhouette]] (S) value of 2 {{seefaq}}. If the Trooper is [[Discover]]ed or it reveals itself, the Marker is replaced with the Seed-Embryo Token.
 * Similarly, if the Trooper has any Deployment Skill with the [[Airborne Deployment]] Label, then it will deploy as a Seed-Embryo Token, and it will apply the rules of its Airborne Deployment Skill as usual.
 * The Trooper will change to its second Unit Profile and replace the Marker or the Seed-Embryo Token with the Model that corresponds to its Developed Form whenever:
 ** It declares a Skill with the [[Movement Label]] as the first Short Skill of its Order. When this happens, its second "Developed Form" Unit Profile is used for the entire [[Order Expenditure Sequence | Order Sequence]].
@@ -51,6 +60,11 @@ If the number of [[Wounds]] received is equal to or higher than the value betwee
 {{remember-end}}
 
 
+{{see-also-start}}
+'''[[Replacing Game Elements]]'''
+{{see-also-end}}
+
+
 == Examples ==
 
 {{greybox-start | Transmutation (X) }}
@@ -71,7 +85,22 @@ A Trooper with Transmutation (WIP-3) is activated in an [[ARO]]. Before declarin
 
 
 
+== FAQs ==
+
+{{faqbox |
+type = faq |
+title = N5 FAQ |
+version = 0.1, Sep 2026 |
+q = Q: What happens if a BS Attack hits a Camouflaged Marker, but the game element represented by the Marker is in Total Cover from the Attack? For example a Mine with the Concealed Trait or a Trooper with Transmutation (Hatching) is behind a low wall. |
+a = A: If the Attack forces a Saving Roll, the Camouflaged Marker is revealed. The game element is not hit because it is in Total Cover.  |
+related = [[Camouflaged]], [[Mines]], [[Multispectral Visor]], [[Traits]], [[Transmutation]] }}
+[[Category: N5 FAQ 0.1 ]]
+
+
+
 {{n5-section-special-skills}}
 
 
 [[Category:Special Skills]]
+
+[[Category: N5.2 Update]]
